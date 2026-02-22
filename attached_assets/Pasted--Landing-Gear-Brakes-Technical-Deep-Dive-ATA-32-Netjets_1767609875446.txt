@@ -1,0 +1,139 @@
+⚙️ Landing Gear & Brakes: Technical Deep Dive
+ATA 32 | Netjets Phenom 300 | Detailed System Logic
+
+1. Nose Landing Gear (NLG) Mechanics
+The nose gear retracts forward and includes specific mechanisms for ground handling and stowage.
+
+Centering Unit: A cam-type centering unit inside the shock strut ensures the wheel is mechanically centered before entering the wheel well.
+
+Shimmy Damper: Located on the upper torque link, it prevents rapid oscillation of the nose wheel on the ground.
+
+Steering Limits (Mechanical):
+
+Rudder Pedals: ±20 
+∘
+  of steering authority.
+
+Differential Braking: Increases effective steering to ±43 
+∘
+ .
+
+Towing:
+
+The torque links can be disconnected to allow 360 
+∘
+  Free Castering.
+
+Warning: Do not tow with torque links connected beyond the limit marks, or damage to the steering mechanism will occur.
+
+Turning Radius (Wingtip Clearance):
+
+With Differential Braking (43 
+∘
+ ): 15.2 meters (49 ft 10 in).
+
+Wall-to-Wall (Pivot turn): 30.40 meters (99 ft 8 in).
+
+2. Main Landing Gear (MLG) Mechanics
+The MLG utilizes a Trailing Arm suspension system, providing optimized shock absorption and passenger comfort during touchdown.
+
+Tires & Heat Protection:
+
+Fusible Plugs: The main wheels feature thermal relief plugs. If brake heat is excessive (e.g., after a high-energy RTO), the core melts to release tire pressure safely, preventing a tire explosion in the wheel well.
+
+Wear Pins:
+
+Located on the brake assembly (Face A).
+
+Check: Brake wear pins must be checked with the Parking Brake SET. If the pin is flush with the housing, the brake unit must be replaced.
+
+Sensors:
+
+Each MLG strut has two Proximity Switches for "Weight-on-Wheels" (WOW) logic (Total 4 sensors for redundancy).
+
+3. Landing Gear Warning Logic (Aural)
+The Landing Gear Aural Warning ("Horn") logic is governed by Altitude, Airspeed, and Flap position.
+
+1. Cannot be Silenced:
+
+Flap Lever: Set to 3 or FULL.
+
+Condition: Gear is not Down & Locked.
+
+Result: The horn sounds and the "WRN INHIB" button is disabled.
+
+2. Can be Silenced:
+
+Flap Lever: Set to 0, 1, or 2.
+
+Condition:
+
+Radio Altitude is below 700 ft AGL.
+
+Airspeed is below 160 KIAS.
+
+Thrust Levers: One is below 40^\circ (One Engine Inop) OR both are below 26^\circ (Two Engines).
+
+4. Brake Control Unit (BCU) Protections
+The Brake-by-Wire system (powered by the Emergency Bus) includes four specific logic protections.
+
+A. Locked Wheel Protection
+Purpose: Prevents deep tire skidding/bursting.
+
+Logic: The BCU compares wheel speeds. If the slower wheel is ≤30% of the reference velocity (fastest wheel), a locked condition is detected.
+
+Action: Brake pressure is fully released on the locked wheel until speed recovers.
+
+Deactivation: This function is inhibited below 30 kts to allow for low-speed maneuvering and pivot turns.
+
+B. Antiskid Protection
+Purpose: Maintains optimal braking efficiency.
+
+Logic: If wheel deceleration is excessive (impending skid), pressure is modulated.
+
+Deactivation: Antiskid is inhibited below 10 kts. Below this speed, you have full manual braking power.
+
+C. Touchdown Protection
+Purpose: Prevents landing with brakes applied (blown tires).
+
+Logic: Braking is inhibited until:
+
+Wheel speed spins up to > 60 kts, OR
+
+3 seconds have elapsed since Weight-on-Wheels (WOW).
+
+Transition: After WOW, the spin-up threshold reduces linearly from 60 kts to 30 kts over the first 3 seconds.
+
+D. Gear Retract Braking
+Purpose: Stops gyroscopic forces of spinning wheels in the well.
+
+Logic: When the gear lever is moved to UP, the BCU applies brake pressure.
+
+Duration: Pressure is applied for a maximum of 3 seconds or until wheel speed is 0.
+
+5. Emergency Systems
+Emergency/Parking Brake
+
+Capacity: The accumulator (separate from the main system) provides 6 full brake applications.
+
+Pressure:
+
+Light ON: The "PARKING BRAKE" light illuminates when pressure in the line is sufficient to hold the aircraft.
+
+Caution: No Antiskid protection is available.
+
+Caution: If the "EMER BRK LO PRES" CAS message is on, accumulator pressure is too low for safe parking/braking.
+
+Emergency Extension (Free-Fall)
+
+Actuation Force: Maximum pull force required is 25 kgf (55 lbf).
+
+Mechanism:
+
+Bypasses the Ldg Selector Valve (dumps pressure to return).
+
+Mechanically releases the Uplock Boxes.
+
+Gear extends via gravity and aerodynamic loads.
+
+Nose gear locking is assisted by the "Downlock Springs".

@@ -1,0 +1,185 @@
+import streamlit as st
+import pandas as pd
+import os
+from PIL import Image
+
+# ------------------------------------------------------------------
+# CONFIGURATIE & SETUP
+# ------------------------------------------------------------------
+st.set_page_config(page_title="Netjets Phenom 300 Mate", page_icon="✈️", layout="wide")
+
+# --- BESTANDSNAAM INSTRUCTIES (Lees dit om je plaatjes te benoemen) ---
+# Zorg dat je screenshots in de map 'assets/hydraulics' deze namen bevatten:
+# 1. Introductie tekst   -> "hyd_intro.png"
+# 2. Schema/Architectuur -> "hyd_schematic.png"
+# 3. Cockpit Knoppen     -> "hyd_panel.png"
+# 4. MFD/Synoptic Page   -> "hyd_synoptic.png"
+# 5. CAS Tabel           -> "hyd_cas.png"
+# 6. Proc: Hi Temp       -> "hyd_hitemp.png"
+# 7. Proc: Lo Pres       -> "hyd_lopres.png"
+# 8. Proc: SOV Fail      -> "hyd_sov_fail.png"
+# ------------------------------------------------------------------
+
+# ------------------------------------------------------------------
+# SIDEBAR NAVIGATIE
+# ------------------------------------------------------------------
+st.sidebar.title("👨‍✈️ Phenom 300 Mate")
+st.sidebar.caption("Netjets Edition")
+
+mode = st.sidebar.radio("Module Selectie:", 
+    ["🏠 Home", "⚙️ Systems & Procedures"])
+
+if mode == "⚙️ Systems & Procedures":
+    systeem_keuze = st.sidebar.selectbox("Kies Systeem:", 
+        ["Hydraulics", "Electrics", "Powerplant", "Landing Gear", "Brakes"])
+else:
+    systeem_keuze = "Home"
+
+# ------------------------------------------------------------------
+# HOME PAGE
+# ------------------------------------------------------------------
+if systeem_keuze == "Home":
+    st.title("Welcome Captain")
+    st.info("Training Status: Active")
+    st.markdown("""
+    Selecteer **Hydraulics** in het menu om de nieuwe module te testen.
+    Deze app combineert Netjets procedures met interactieve systeemkennis.
+    """)
+
+# ------------------------------------------------------------------
+# HYDRAULICS MODULE
+# ------------------------------------------------------------------
+elif systeem_keuze == "Hydraulics":
+    st.title("💧 Hydraulic System")
+    st.caption("ATA 29 - Source: POH Vol 1 & QRH")
+    
+    current_folder = "assets/hydraulics"
+    
+    if not os.path.exists(current_folder):
+        st.error(f"⚠️ Map niet gevonden: '{current_folder}'. Maak deze map aan en upload je screenshots.")
+    else:
+        files = sorted([f for f in os.listdir(current_folder) if f.lower().endswith(('.png', '.jpg', '.jpeg'))])
+        
+        if not files:
+            st.warning("De map is leeg. Upload je screenshots (bijv. 'hyd_intro.png').")
+        
+        # We lopen door elk bestand heen en genereren de juiste layout
+        for file_name in files:
+            display_name = file_name.rsplit('.', 1)[0].replace('_', ' ').replace('-', ' ').title()
+            file_lower = file_name.lower()
+            
+            with st.expander(f"📘 {display_name}", expanded=True):
+                col1, col2 = st.columns([1.3, 1]) # Plaatje links (breder), Tekst rechts
+                
+                with col1:
+                    image_path = os.path.join(current_folder, file_name)
+                    st.image(Image.open(image_path), use_column_width=True)
+                
+                with col2:
+                    # --- INTELLIGENTE TEKST LOGICA (Gebaseerd op jouw screenshots) ---
+                    
+                    # 1. INTRODUCTIE & BESCHRIJVING
+                    if "intro" in file_lower or "desc" in file_lower:
+                        st.subheader("Systeem Basics")
+                        st.markdown("""
+                        * **Druk:** 3000 PSIG (Nominaal).
+                        * **Vloeistof:** Synthetic Hydrocarbon (MIL-PRF-87257). *Let op: Brandbaar.*
+                        * **Power:** 2x Engine Driven Pumps (EDP).
+                        * **Consumers:** Landing Gear, Brakes, Spoilers, Stick Pusher, Rudder Spring Actuator.
+                        """)
+                    
+                    # 2. SCHEMA & ARCHITECTUUR
+                    elif "schem" in file_lower or "architect" in file_lower:
+                        st.subheader("Architectuur Details")
+                        st.markdown("""
+                        * **Reservoir:** "Spring-rolling diaphragm" (voorkomt cavitatie/schuim).
+                        * **Accumulator:** 25 cu.in. Vangt drukpieken op & levert Noodremdruk (6x).
+                        * **Priority Valve:** Als flow laag is, krijgen *Flight Controls & Brakes* voorrang op het *Landing Gear*.
+                        * **Filters:** Zowel in pressure- als return-lines.
+                        """)
+
+                    # 3. SWITCHES & PANEL
+                    elif "panel" in file_lower or "switch" in file_lower:
+                        st.subheader("Cockpit Controls")
+                        st.markdown("""
+                        **HYD PUMP SOV 1 & 2**
+                        * **OPEN:** Normale operatie.
+                        * **CLOSED:** Sluit de Fire Shutoff Valve (FSOV).
+                        
+                        **Gebruik:**
+                        1.  Engine Fire.
+                        2.  Hydraulic High Temp.
+                        3.  Soms bij lekkages (zie QRH).
+                        """)
+
+                    # 4. MFD & INDICATIES
+                    elif "synoptic" in file_lower or "mfd" in file_lower or "press" in file_lower:
+                        st.subheader("Indicaties (MFD)")
+                        st.markdown("""
+                        **Pressure Scale:**
+                        * 🟢 **Groen:** > 1800 PSI (Normal).
+                        * 🟡 **Amber:** ≤ 1800 PSI (Caution).
+                        * **Amber Dashed:** Invalid info.
+                        
+                        **Synoptic Page:**
+                        Toont real-time flow, FSOV positie, temperatuur en reservoir niveau.
+                        """)
+
+                    # 5. CAS MESSAGES
+                    elif "cas" in file_lower:
+                        st.subheader("CAS Logic")
+                        data = {
+                            "Bericht": ["HYD HI TEMP", "HYD LO PRES", "HYD SOV 1(2) FAIL", "HYD SYS FAULT"],
+                            "Kleur": ["Amber", "Amber", "Amber", "Cyan"],
+                            "Oorzaak": ["Temp > Limit", "Druk < 1800 PSI", "Valve zit vast", "Degradatie"]
+                        }
+                        st.table(pd.DataFrame(data))
+
+                    # 6. QRH: HIGH TEMP
+                    elif "hi temp" in file_lower or "hitemp" in file_lower:
+                        st.error("PROCEDURE: HYD HI TEMP")
+                        st.markdown("""
+                        **Doel:** De oververhitte pomp isoleren.
+                        1.  Sluit beide SOV's.
+                        2.  **Wacht 7 minuten.**
+                        3.  Check of bericht verdwijnt.
+                        
+                        *Risico:* Tire Blowout bij hard remmen (door hitte transfer).
+                        """)
+
+                    # 7. QRH: LO PRES
+                    elif "lo pres" in file_lower or "lopres" in file_lower:
+                        st.warning("EMERGENCY: HYD LO PRES")
+                        st.markdown("""
+                        **Flight Handling:**
+                        * Verwacht lage roll-rates (geen spoilers).
+                        * Geen speedbrakes.
+                        
+                        **Landing Performance (KILLER ITEMS):**
+                        * Flaps: **MAX Available**.
+                        * Landing Distance Factor:
+                            * No Ice: **x 2.70**
+                            * Icing: **x 3.10**
+                        * Antiskid: **OFF** (Disabled).
+                        """)
+
+                    # 8. QRH: SOV FAIL
+                    elif "sov" in file_lower and "fail" in file_lower:
+                        st.error("PROCEDURE: SOV FAIL")
+                        st.markdown("""
+                        **Als bericht blijft staan:**
+                        * **Land As Soon As Possible.**
+                        * Approach & Landing: Gebruik **One Engine Inoperative** procedure (NAP1-25).
+                        """)
+
+                    # FALLBACK
+                    else:
+                        st.info("Zie afbeelding voor details.")
+                        st.text_area("Mijn notities:", placeholder="Typ hier...", key=file_name)
+
+# ------------------------------------------------------------------
+# VOEG HIER LATER ANDERE SYSTEMEN TOE (ELECTRICS, ETC.)
+# ------------------------------------------------------------------
+elif systeem_keuze == "Electrics":
+    st.header("Electrical System")
+    st.write("Upload screenshots in 'assets/electrics' om te beginnen.")

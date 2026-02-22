@@ -1,0 +1,81 @@
+Ik ben een piloten-app aan het maken voor de Embraer Phenom 300. Ik heb een map 'assets/hydraulics' met screenshots. Ik wil dat je de Python code (in main.py) update zodat de juiste tekst naast het juiste plaatje verschijnt.
+
+Gebruik onderstaande logica en teksten. Koppel de tekst aan de bestandsnaam (als deel van de bestandsnaam matcht).
+
+--- START CONTENT LOGICA ---
+
+1. ALS bestandsnaam bevat "intro" OF "desc":
+   Titel: "System Overview"
+   Tekst:
+   * **Nominal Pressure:** 3000 PSIG.
+   * **Fluid:** Synthetic Hydrocarbon (MIL-PRF-87257). Let op: zeer brandbaar.
+   * **Power:** 2x Engine Driven Pumps (EDP).
+   * **Consumers:** Landing Gear, Main Brakes, Spoilers, Stick Pusher, Rudder Spring Actuator.
+
+2. ALS bestandsnaam bevat "schem" OF "architect":
+   Titel: "System Architecture"
+   Tekst:
+   * **Reservoir:** "Spring-rolling diaphragm" (houdt druk op systeem om cavitatie/schuim te voorkomen).
+   * **Accumulator:** 25 cu.in. Vangt drukpieken op & levert noodremdruk (6x acties).
+   * **Priority Valve:** Cruciaal! Als de flow laag is, krijgen de Flight Controls & Brakes voorrang. Het Landing Gear wordt dan 'afgeknepen' (werkt trager).
+   * **Filters:** Zitten in zowel de pressure- als return-lines.
+
+3. ALS bestandsnaam bevat "panel" OF "switch":
+   Titel: "Cockpit Controls"
+   Tekst:
+   * **HYD PUMP SOV 1 & 2 Switches:**
+     * **OPEN:** Normale positie (FSOV is open).
+     * **CLOSED:** Sluit de Fire Shutoff Valve.
+   * **Wanneer sluiten?**
+     * Bij Engine Fire.
+     * Bij Hydraulic High Temp.
+     * Bij lekkages (indien QRH dit vraagt).
+
+4. ALS bestandsnaam bevat "synoptic" OF "mfd" OF "press":
+   Titel: "Indicaties (MFD)"
+   Tekst:
+   * **Pressure Scale:**
+     * 🟢 Groen: > 1800 PSI (Normaal).
+     * 🟡 Amber: ≤ 1800 PSI (Caution).
+     * Amber Dashed: Invalid signal.
+   * **Info:** Synoptic page toont ook FSOV positie, temperatuur en fluid level.
+
+5. ALS bestandsnaam bevat "cas":
+   Titel: "CAS Messages"
+   Tekst:
+   Maak een tabel (dataframe) met deze info:
+   * HYD HI TEMP (Amber) -> Fluid te heet.
+   * HYD LO PRES (Amber) -> Druk < 1800 PSI.
+   * HYD SOV 1/2 FAIL (Amber) -> Valve wil niet dicht/open.
+   * HYD SYS FAULT (Cyan) -> Systeem degradatie.
+
+6. ALS bestandsnaam bevat "hi temp" OF "hitemp":
+   Titel: "Abnormal: HYD HI TEMP"
+   Tekst:
+   * **Risico:** Tire Blowout bij hard remmen (hitte transfer via remmen).
+   * **Actie (Memory/Logic):**
+     1. Sluit beide SOV's.
+     2. Wacht **7 minuten**.
+     3. Als bericht weg is -> Open SOV 2.
+     4. Komt het terug? -> Sluit 2, Open 1.
+   * **Gevolg:** One Engine Inoperative (qua performance).
+
+7. ALS bestandsnaam bevat "lo pres" OF "lopres":
+   Titel: "Emergency: HYD LO PRES"
+   Tekst:
+   * **Flight Handling:** Verwacht lage roll-rates (geen spoilers) & GEEN speedbrakes gebruiken.
+   * **Landing (Killer Items):**
+     * Flaps: MAX Available.
+     * Landing Distance Factor (No Ice): **x 2.70**.
+     * Landing Distance Factor (Icing): **x 3.10**.
+     * Antiskid: **OFF** (niet beschikbaar).
+
+8. ALS bestandsnaam bevat "sov" EN "fail":
+   Titel: "Abnormal: SOV FAIL"
+   Tekst:
+   * **Als bericht blijft:** Land As Soon As Possible.
+   * **Procedure:** Volg de 'One Engine Inoperative' approach & landing procedure (NAP1-25).
+
+--- EINDE CONTENT ---
+
+Zorg dat de code robuust is en deze teksten netjes weergeeft in kolommen naast de afbeeldingen (st.columns).

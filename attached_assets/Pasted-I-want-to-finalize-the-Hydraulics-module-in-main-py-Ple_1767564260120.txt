@@ -1,0 +1,55 @@
+I want to finalize the Hydraulics module in `main.py`.
+Please replace the current Hydraulics logic with a "Narrative Study Guide" layout.
+
+Use the following structure and content. Insert the specific images (which are in `assets/hydraulics/`) exactly where indicated in the text.
+
+--- START CONTENT ---
+
+# 💧 Hydraulic System: Deep Dive
+*ATA 29 - System Description & Logic*
+
+### 1. General Architecture
+The Phenom 300 hydraulic system is a "Constant Pressure" system operating at **3000 PSIG**, utilizing synthetic hydrocarbon fluid (MIL-PRF-87257).
+* **Power:** Pressure is supplied by two **Engine Driven Pumps (EDP)**. As long as the engines are turning, the system is pressurized.
+* **The Reservoir:** Unlike simpler aircraft, this reservoir uses a **Spring-Rolling Diaphragm**. This mechanical spring applies constant pressure to the fluid, preventing foaming and cavitation during high-altitude flight or negative-G maneuvers.
+
+[INSERT IMAGE: 'hyd_schematic.jpg']
+*(Caption: System Schematic - Note the Spring-Loaded Reservoir and Accumulator)*
+
+### 2. Priority & Protection
+The system is designed to keep the flight controls working, even if flow is low.
+* **Priority Valve:** If system flow decreases (e.g., low idle), this valve restricts fluid to the **Landing Gear** to guarantee pressure for the **Flight Controls** and **Brakes**.
+* **Accumulator:** A 25 cu.in accumulator dampens pressure spikes and provides stored energy for the **Emergency/Parking Brake** (Good for 6 full actuations).
+
+### 3. Cockpit Controls
+The system is managed via the **HYD PUMP SOV** switches on the lower panel.
+
+[INSERT IMAGE: 'hyd_panel.png']
+*(Caption: Hydraulic Pump Shutoff Valves)*
+
+* **Normal (OPEN):** The Fire Shutoff Valve (FSOV) is open.
+* **CLOSED:** Electrically closes the FSOV. Powered by the **Emergency Bus**.
+* **Auto-Close Logic:** The FSOV automatically closes if a **High Temperature** is detected to prevent pumping superheated fluid through the airframe.
+
+### 4. CAS Messages & Emergency Logic
+The system monitors for Pressure (Low) and Temperature (High).
+
+[INSERT IMAGE: 'hyd_cas.png']
+*(Caption: CAS Logic Table)*
+
+**Critical Memory Items:**
+* **HYD HI TEMP:**
+    * **Risk:** Tire Blowout due to heat transfer via brakes.
+    * **Action:** Close SOVs, wait **7 minutes** (Cool down), then test isolation.
+* **HYD LO PRES:**
+    * **Critical:** Loss of Spoilers (Roll control) and Stick Pusher.
+    * **Landing Performance:** Distance increases significantly!
+        * Dry/Wet: Factor **x 2.70**
+        * Icing: Factor **x 3.10**
+
+--- END CONTENT ---
+
+**Important Coding Instruction:**
+1. Use `st.markdown` for the text.
+2. Use `st.image` to display the screenshots.
+3. Check if the files (`hyd_schematic.jpg`, `hyd_panel.png`, `hyd_cas.png`) exist before rendering to avoid errors.

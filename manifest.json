@@ -1,0 +1,15 @@
+{
+  "name": "Phenom 300 Training",
+  "short_name": "Phenom 300",
+  "icons": [
+    {
+      "src": "/static/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a365d"
+}

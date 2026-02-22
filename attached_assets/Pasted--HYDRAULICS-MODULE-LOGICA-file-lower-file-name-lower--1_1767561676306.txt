@@ -1,0 +1,94 @@
+# --- HYDRAULICS MODULE LOGICA ---
+                    file_lower = file_name.lower()
+
+                    # 1. ALGEMENE INTRODUCTIE & SYSTEEM BESCHRIJVING
+                    if "intro" in file_lower or "desc" in file_lower:
+                        st.subheader("System Overview")
+                        st.markdown("""
+                        **Key Facts:**
+                        * **Nominal Pressure:** 3000 PSIG.
+                        * **Fluid:** Synthetic Hydrocarbon (MIL-PRF-87257) - *Let op: zeer brandbaar*.
+                        * **Power Source:** 2x Engine Driven Pumps (EDP).
+                        
+                        **Consumers (Wie gebruikt het?):**
+                        1. Landing Gear
+                        2. Main Brakes
+                        3. Multi-function Spoilers
+                        4. Stick Pusher
+                        5. Rudder Spring Actuator
+                        """)
+
+                    # 2. SCHEMA & ARCHITECTUUR
+                    elif "schem" in file_lower or "architect" in file_lower:
+                        st.subheader("System Architecture")
+                        st.markdown("""
+                        **Visualiseer de componenten:**
+                        * **Reservoir/Manifold:** Onder druk door "Spring-rolling diaphragm" om cavitatie op hoogte te voorkomen.
+                        * **Accumulator:** 25 cu.in. - Vangt pieken op en levert noodremdruk (6x remmen).
+                        * **Priority Valve:** Geeft voorrang aan *Flight Controls* & *Brakes* als de flow laag is (knijpt Gear af).
+                        * **Filters:** Zowel in de pressure- als return-lines.
+                        """)
+
+                    # 3. COCKPIT PANEL & SWITCHES
+                    elif "panel" in file_lower or "switch" in file_lower:
+                        st.subheader("Hydraulic Panel")
+                        st.markdown("""
+                        **HYD PUMP SOV Switches (1 & 2):**
+                        * **OPEN (Normaal):** FSOV is open, systeem werkt.
+                        * **CLOSED:** Sluit de *Fire Shutoff Valve*.
+                        
+                        **Wanneer gebruik je CLOSED?**
+                        * Bij Engine Fire.
+                        * Bij Hydraulic Overheat (HI TEMP).
+                        * Bij lekkage (indien checklist dit vraagt).
+                        
+                        *Note: Switches bevinden zich op het onderpaneel (zie pijl).*
+                        """)
+
+                    # 4. MFD SYNOPTIC & PRESSURE INDICATIES
+                    elif "synoptic" in file_lower or "pressure" in file_lower or "mfd" in file_lower:
+                        st.subheader("Indications & Logic")
+                        st.info("Kijk naar de MFD voor real-time status.")
+                        st.markdown("""
+                        **Kleurenlogica (Pressure):**
+                        * 🟢 **GROEN:** > 1800 PSI (Normal Range).
+                        * 🟡 **AMBER:** ≤ 1800 PSI (Caution Range).
+                        * **Amber Dashed:** Invalid data.
+                        
+                        **Visuals:**
+                        * De MFD toont ook de status van de FSOV (open/dicht) en het reservoir niveau.
+                        """)
+
+                    # 5. CAS MESSAGES (DE WAARSCHUWINGEN)
+                    elif "cas" in file_lower or "msg" in file_lower:
+                        st.subheader("CAS Logic")
+                        st.table(pd.DataFrame({
+                            "Message": ["HYD HI TEMP", "HYD LO PRES", "HYD SOV 1(2) FAIL", "HYD SYS FAULT"],
+                            "Type": ["Caution (Amber)", "Caution (Amber)", "Caution (Amber)", "Advisory (Cyan)"],
+                            "Meaning": ["Temp too high", "Press < Operating Range", "Valve fails to close", "System Degradation"]
+                        }))
+
+                    # 6. PROCEDURES (QRH)
+                    elif "hi temp" in file_lower:
+                        st.subheader("Abnormal: HYD HI TEMP")
+                        st.error("⚠️ Risk: Tire Blowout bij hard remmen.")
+                        st.markdown("""
+                        **De 7-Minuten Timer:**
+                        1. Sluit beide SOV's -> Wacht 7 min.
+                        2. Isoleer de boosdoener.
+                        *Gevolg:* One Engine Inoperative (qua approach performance).
+                        """)
+
+                    elif "lo pres" in file_lower:
+                        st.subheader("Emergency: HYD LO PRES")
+                        st.warning("‼️ Critical: Landing Distance x 2.70 of x 3.10!")
+                        st.markdown("""
+                        **Flight:** Geen Spoilers, Geen Stick Pusher.
+                        **Landing:**
+                        * Flaps: MAX.
+                        * Anti-skid: **OFF** (Disabled).
+                        * Rekenvoorbeeld: 3000ft baan nodig -> wordt >8000ft!
+                        """)
+
+                    else:
+                        st.write("Algemene Hydraulics info. Zie afbeelding.")
