@@ -18,7 +18,7 @@ def render_fuel():
 
     folder = "assets/fuel"
 
-    with st.expander("**1. System overview**", expanded=True):
+    with st.expander("**1. System overview (what it’s doing for you)**", expanded=True):
         st.markdown(
             """
 **Purpose**
@@ -35,7 +35,39 @@ def render_fuel():
 _Source: POH 6-09-00 (Original/Rev 6)._"""
         )
 
-    with st.expander("**2. Controls (Fuel panel)**", expanded=False):
+    with st.expander("**2. Quick lookup (numbers & triggers)**", expanded=False):
+        rows = [
+            ("Low-level (per tank)", "140 kg (310 lb) remaining → FUEL 1(2) LO LEVEL"),
+            ("Fuel imbalance", "≥ 100 kg (220 lb) triggers; clears when ≤ 40 kg (88 lb)"),
+            ("Fuel equal (with XFEED open)", "Difference < 20 kg (44 lb)"),
+            ("Fuel temp (display range)", "> -37°C (-34°F) and < 80°C (176°F)"),
+        ]
+        st.table(pd.DataFrame(rows, columns=["Item", "Value / effect"]))
+        st.markdown("_Source: POH 6-09-05 + 6-09-15 (Rev 6/8)._")
+
+    with st.expander("**3. Normal feed logic (what powers what, when)**", expanded=False):
+        st.markdown(
+            """
+**Normal flight**
+- Each engine is normally fed from its **own wing**.
+- Primary feed is via the **ejector (jet) pump**: no moving parts, driven by engine motive flow.
+
+**When the electric boost pumps matter**
+- **Engine start**
+- **Crossfeed (XFEED) operation**
+- **Backup** if primary feed pressure is insufficient (low pressure in primary feed system)
+
+**Automatic mode**
+- With FUEL PUMP selectors in **AUTO**, the **EFCU** commands the electric pumps when needed.
+
+**Why pump power sources are asymmetric (by design)**
+- **DC Pump 1 (left)**: powered by the **Emergency Bus**
+- **DC Pump 2 (right)**: powered by **DC BUS 2**
+
+_Source: POH 6-09-10 (Rev 12)._"""
+        )
+
+    with st.expander("**4. Controls (Fuel panel)**", expanded=False):
         st.markdown(
             """
 **Fuel pump selector (per side)**
@@ -55,7 +87,7 @@ _Source: POH 6-09-05 (Original/Rev 7)._"""
         )
         _img(f"{folder}/fuel_control_panel.png", "Fuel control panel")
 
-    with st.expander("**3. Tanks, ventilation, and indications**", expanded=False):
+    with st.expander("**5. Tanks, ventilation, and indications**", expanded=False):
         st.markdown(
             """
 **Tank structure (each wing)**
@@ -79,7 +111,26 @@ _Source: POH 6-09-10 (Rev 12) + 6-09-05 (Rev 6)._"""
         )
         _img(f"{folder}/fuel_tanks_location.png", "Fuel tanks (location/structure)")
 
-    with st.expander("**4. Engine fuel feed (normal and backup)**", expanded=False):
+    with st.expander("**6. Crossfeed (what it actually does)**", expanded=False):
+        st.markdown(
+            """
+Think of XFEED as **“both engines from one side”** to manage lateral balance.
+
+**LO1**
+- Crossfeed opens + **Pump 2 ON**
+- Both engines are fed from the **right** tank
+
+**LO2**
+- Crossfeed opens + **Pump 1 ON**
+- Both engines are fed from the **left** tank
+
+**Good mental check**
+- If you open XFEED, you should expect to see the **feeding tank quantity decreasing faster**.
+
+_Source: POH 6-09-05 (Original)._"""
+        )
+
+    with st.expander("**7. Engine fuel feed (architecture)**", expanded=False):
         st.markdown(
             """
 **Independent feeds**
@@ -101,7 +152,7 @@ _Source: POH 6-09-10 (Rev 12) + 6-09-05 (Rev 6)._"""
 _Source: POH 6-09-10 (Rev 12)._"""
         )
 
-    with st.expander("**5. Fuel shutoff (fire protection interface)**", expanded=False):
+    with st.expander("**8. Fuel shutoff (fire protection interface)**", expanded=False):
         st.markdown(
             """
 **Fuel shutoff valves**
@@ -112,7 +163,7 @@ _Source: POH 6-09-10 (Rev 12)._"""
 _Source: POH 6-09-10 (Rev 12)._"""
         )
 
-    with st.expander("**6. CAS messages (quick meanings)**", expanded=False):
+    with st.expander("**9. CAS messages (quick meanings)**", expanded=False):
         rows = [
             ("FUEL 1 (2) LO LEVEL", "Low-level sensors: 140 kg (310 lb) remains in that tank."),
             ("FUEL 1 (2) LO PRES", "Low pressure to associated engine while engine is running."),
@@ -127,7 +178,7 @@ _Source: POH 6-09-10 (Rev 12)._"""
         st.table(pd.DataFrame(rows, columns=["CAS message", "Meaning (summary)"]))
         st.markdown("_Source: POH 6-09-15 (Rev 8)._")
 
-    with st.expander("**7. Synoptic (what you’ll see on the MFD)**", expanded=False):
+    with st.expander("**10. Synoptic (what you’ll see on the MFD)**", expanded=False):
         st.markdown(
             """
 The fuel synoptic provides a quick visual of:

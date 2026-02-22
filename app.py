@@ -30,64 +30,54 @@ def navigate(section, system=None):
 
 def render_home():
     st.title("Phenom 300")
-    st.caption("Netjets Edition")
     
-    st.markdown("---")
-    
-    col1, col2 = st.columns(2)
-    
-    with col1:
-        if st.button("Systems", use_container_width=True, type="primary"):
-            navigate('systems')
-            st.rerun()
-    
-    with col2:
-        if st.button("Limitations", use_container_width=True, type="primary"):
-            navigate('limitations')
-            st.rerun()
-    
-    col3, col4 = st.columns(2)
-    
-    with col3:
-        if st.button("Memory Items", use_container_width=True, type="primary"):
-            navigate('memory')
-            st.rerun()
-    
-    with col4:
-        if st.button("Planning", use_container_width=True, type="primary"):
-            navigate('planning')
-            st.rerun()
-    
-    col5, col6 = st.columns(2)
-    
-    with col5:
-        if st.button("SOP", use_container_width=True, type="primary"):
-            navigate('sop')
-            st.rerun()
-    
-    with col6:
-        if st.button("Flight Profiles", use_container_width=True, type="primary"):
-            navigate('profiles')
-            st.rerun()
-    
-    col7, col8 = st.columns(2)
-    
-    with col7:
-        if st.button("Special Airports", use_container_width=True, type="primary"):
-            navigate('airports')
-            st.rerun()
-    
-    with col8:
-        if st.button("Cold Weather Ops", use_container_width=True, type="primary"):
-            navigate('cold_weather')
-            st.rerun()
-    
-    st.markdown("---")
+    st.divider()
+
+    left, right = st.columns(2, gap="large")
+
+    with left:
+        with st.container(border=True):
+            st.markdown("### Training")
+            c1, c2 = st.columns(2, gap="medium")
+            with c1:
+                if st.button("Systems", use_container_width=True, type="primary"):
+                    navigate('systems')
+                    st.rerun()
+                if st.button("Memory Items", use_container_width=True, type="primary"):
+                    navigate('memory')
+                    st.rerun()
+            with c2:
+                if st.button("Limitations", use_container_width=True, type="primary"):
+                    navigate('limitations')
+                    st.rerun()
+                if st.button("Planning", use_container_width=True, type="primary"):
+                    navigate('planning')
+                    st.rerun()
+
+    with right:
+        with st.container(border=True):
+            st.markdown("### Operations")
+            c3, c4 = st.columns(2, gap="medium")
+            with c3:
+                if st.button("SOP", use_container_width=True, type="primary"):
+                    navigate('sop')
+                    st.rerun()
+                if st.button("Special Airports", use_container_width=True, type="primary"):
+                    navigate('airports')
+                    st.rerun()
+            with c4:
+                if st.button("Flight Profiles", use_container_width=True, type="primary"):
+                    navigate('profiles')
+                    st.rerun()
+                if st.button("Cold Weather Ops", use_container_width=True, type="primary"):
+                    navigate('cold_weather')
+                    st.rerun()
+
+    st.divider()
     st.info("Select a module above to begin studying.")
 
 def render_systems():
     st.title("Phenom 300")
-    st.caption("Netjets Edition")
     if st.button("Home", use_container_width=False, type="primary", key="home_btn"):
         navigate('home')
         st.rerun()
@@ -96,9 +86,10 @@ def render_systems():
     
     systems_list = ["Hydraulics", "Electrics", "Powerplant", "Landing Gear & Brakes", "Fuel", "Pressurization", "Ice Protection"]
     
-    col1, col2 = st.columns(2)
+    col1, col2, col3 = st.columns(3, gap="medium")
     for i, sys in enumerate(systems_list):
-        with col1 if i % 2 == 0 else col2:
+        col = [col1, col2, col3][i % 3]
+        with col:
             if st.button(sys, use_container_width=True, key=f"sys_{sys}", type="primary" if st.session_state.system != sys else "secondary"):
                 st.session_state.system = sys
                 st.rerun()
