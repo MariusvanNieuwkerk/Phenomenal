@@ -7,6 +7,7 @@ os.environ.setdefault("STREAMLIT_HOME", os.path.join(_app_dir, ".streamlit_local
 os.environ["STREAMLIT_SERVER_WEB_INDEX_TEMPLATE"] = ".streamlit/index.html"
 
 import streamlit as st
+import streamlit.components.v1 as components
 import pandas as pd
 from PIL import Image
 
@@ -18,6 +19,41 @@ from systems.pressurization import render_pressurization
 
 icon_url = "https://phenomenal--mariusvannieuwk.replit.app/app/static/apple-touch-icon.png"
 st.set_page_config(page_title="Phenom 300 Training", page_icon=icon_url, layout="wide")
+
+def _inject_ui_css():
+    # Use an HTML component (not markdown) so CSS never renders as visible text.
+    components.html(
+        """
+        <style>
+          /* Bigger, more tappable buttons (iPad-friendly). */
+          div.stButton > button {
+            width: 100%;
+            min-height: 68px;
+            padding: 0.95rem 1rem;
+            border-radius: 14px;
+            font-size: 1.05rem;
+            font-weight: 650;
+            line-height: 1.1;
+          }
+
+          /* Slightly larger section headings inside cards. */
+          [data-testid="stMarkdownContainer"] h3 {
+            margin-top: 0.2rem;
+            margin-bottom: 0.8rem;
+          }
+
+          /* Give containers a bit more breathing room on touch devices. */
+          [data-testid="stVerticalBlockBorderWrapper"] {
+            padding-top: 0.25rem;
+            padding-bottom: 0.25rem;
+          }
+        </style>
+        """,
+        height=0,
+    )
+
+
+_inject_ui_css()
 
 if 'section' not in st.session_state:
     st.session_state.section = 'home'
@@ -79,13 +115,13 @@ def render_systems():
         navigate('home')
         st.rerun()
     
-    st.markdown("### Aircraft Systems")
+    st.markdown("## Aircraft Systems")
     
     systems_list = ["Hydraulics", "Electrics", "Powerplant", "Landing Gear & Brakes", "Fuel", "Pressurization", "Ice Protection"]
     
-    col1, col2, col3 = st.columns(3, gap="medium")
+    col1, col2 = st.columns(2, gap="large")
     for i, sys in enumerate(systems_list):
-        col = [col1, col2, col3][i % 3]
+        col = [col1, col2][i % 2]
         with col:
             if st.button(sys, use_container_width=True, key=f"sys_{sys}", type="primary" if st.session_state.system != sys else "secondary"):
                 st.session_state.system = sys
