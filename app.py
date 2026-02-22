@@ -19,61 +19,6 @@ from systems.pressurization import render_pressurization
 icon_url = "https://phenomenal--mariusvannieuwk.replit.app/app/static/apple-touch-icon.png"
 st.set_page_config(page_title="Phenom 300 Training", page_icon=icon_url, layout="wide")
 
-st.markdown("""
-<style>
-    .stApp {
-        max-width: 1024px;
-        margin: 0 auto;
-    }
-    .main-title {
-        text-align: center;
-        font-size: 2.2rem;
-        font-weight: 700;
-        color: #1a365d;
-        margin-bottom: 0.3rem;
-        margin-top: 0;
-        padding-top: 0;
-    }
-    .subtitle {
-        text-align: center;
-        font-size: 1rem;
-        color: #4a5568;
-        margin-bottom: 1rem;
-    }
-    .stButton > button {
-        min-height: 55px;
-        font-size: 1rem !important;
-        font-weight: 600 !important;
-        border-radius: 12px !important;
-        margin-bottom: 0.4rem;
-    }
-    .stButton > button[kind="primary"] {
-        background: linear-gradient(135deg, #1e3a5f 0%, #2d5a87 100%) !important;
-        border: none !important;
-    }
-    .block-container {
-        padding: 0.5rem 1.5rem !important;
-        padding-top: 1rem !important;
-    }
-    h2, h3 {
-        color: #1a365d;
-        margin-top: 0.5rem;
-    }
-    .stMarkdown {
-        font-size: 1rem;
-        line-height: 1.5;
-    }
-    .stTable {
-        font-size: 0.9rem;
-    }
-    div[data-testid="stExpander"] {
-        border-radius: 12px;
-        border: 1px solid #e2e8f0;
-        margin-bottom: 0.8rem;
-    }
-</style>
-""", unsafe_allow_html=True)
-
 if 'section' not in st.session_state:
     st.session_state.section = 'home'
 if 'system' not in st.session_state:
@@ -84,8 +29,8 @@ def navigate(section, system=None):
     st.session_state.system = system
 
 def render_home():
-    st.markdown("<h1 style='text-align: center; margin-bottom: 0;'>Phenom 300</h1>", unsafe_allow_html=True)
-    st.markdown("<p style='text-align: center; color: #666;'>Netjets Edition</p>", unsafe_allow_html=True)
+    st.title("Phenom 300")
+    st.caption("Netjets Edition")
     
     st.markdown("---")
     
@@ -141,8 +86,8 @@ def render_home():
     st.info("Select a module above to begin studying.")
 
 def render_systems():
-    st.markdown("<h1 style='text-align: center; margin-bottom: 0;'>Phenom 300</h1>", unsafe_allow_html=True)
-    st.markdown("<p style='text-align: center; color: #666;'>Netjets Edition</p>", unsafe_allow_html=True)
+    st.title("Phenom 300")
+    st.caption("Netjets Edition")
     if st.button("Home", use_container_width=False, type="primary", key="home_btn"):
         navigate('home')
         st.rerun()
