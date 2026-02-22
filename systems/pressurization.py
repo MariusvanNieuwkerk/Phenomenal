@@ -34,7 +34,7 @@ _Source: POH 6-02-10 (Rev 6/7)._"""
         )
         _img(f"{folder}/pneumatic_system_schematic.png", "Pneumatic system schematic (bleed, PRSOV, XBV)")
 
-    with st.expander("**2. The mental model (deeper, but simple)**", expanded=False):
+    with st.expander("**2. Conceptual model (deeper, but simple)**", expanded=False):
         st.markdown(
             """
 Pressurization is **air in vs air out**.
@@ -43,14 +43,13 @@ Pressurization is **air in vs air out**.
 - Comes from **engine bleed air**, then is conditioned by the ECS.
 
 **Air out (control)**
-- The cabin is “sealed-ish” and the system controls cabin pressure mainly by moving one thing:
-  - the **Outflow Valve (OFV)**.
+- The cabin is not perfectly sealed; cabin pressure is controlled primarily by positioning the **Outflow Valve (OFV)**.
 
-**Translation**
+**Effect of OFV position**
 - **Close OFV a bit** → less air escapes → cabin pressure increases (cabin altitude decreases).
 - **Open OFV a bit** → more air escapes → cabin pressure decreases (cabin altitude increases).
 
-The CPCS is essentially an **automatic OFV manager** that targets a safe/comfortable cabin altitude and rate.
+The CPCS provides automatic OFV control to maintain cabin altitude, cabin rate, and differential pressure within limits.
 """
         )
 
@@ -118,11 +117,11 @@ _Source: POH 6-02-20 (Rev 6)._"""
             ("Cruise", "Hold a stable cabin altitude and protect the structure (delta-P limits)."),
             ("Descent / landing", "Schedule a comfortable cabin descent toward **LFE** so doors open normally after landing."),
         ]
-        st.table(pd.DataFrame(phases, columns=["Phase", "Goal (plain language)"]))
+        st.table(pd.DataFrame(phases, columns=["Phase", "Goal"]))
         st.markdown(
             """
 **Why LFE matters**
-- CPCS needs to know what “ground pressure” it should aim for at destination.
+- CPCS needs to know the destination pressure reference it should target for landing.
 - If LFE is wrong, you can get an uncomfortable/incorrect cabin schedule on descent and landing.
 """
         )
@@ -143,14 +142,14 @@ _Source: POH 6-02-20 (Rev 6)._"""
 _Source: POH 6-02-20 + 6-02-25 (Rev 6/5)._"""
         )
 
-    with st.expander("**8. “If you see this, think that” (common patterns)**", expanded=False):
+    with st.expander("**8. Operational interpretation (common patterns)**", expanded=False):
         patterns = [
-            ("CAB ALTITUDE HI", "Cabin is climbing above safe threshold → think **not enough pressurization** (supply issue) or OFV stuck too open."),
-            ("PRESN AUTO FAIL", "You lost the “automatic OFV manager” → you may need MAN mode to control cabin altitude."),
-            ("CAB DELTA-P FAIL", "Structural protection threshold reached (too high or too low) → the system is protecting the airplane."),
-            ("BLEED FAIL / LEAK / OVERTEMP", "Problem is often **upstream supply** (bleed/pneumatic), not the outflow valve itself."),
+            ("CAB ALTITUDE HI", "Cabin altitude is climbing above the warning threshold; common drivers are **insufficient bleed supply** or an OFV that is too open."),
+            ("PRESN AUTO FAIL", "Automatic pressurization control is unavailable; MAN mode may be required."),
+            ("CAB DELTA-P FAIL", "Differential pressure limit is exceeded (high or low); the system is in a structural protection condition."),
+            ("BLEED FAIL / LEAK / OVERTEMP", "Typically indicates an **upstream pneumatic/bleed** issue rather than an outflow valve issue."),
         ]
-        st.table(pd.DataFrame(patterns, columns=["Cue", "Plain-English meaning"]))
+        st.table(pd.DataFrame(patterns, columns=["Cue", "Operational meaning"]))
 
     with st.expander("**9. Common CAS messages (meaning)**", expanded=False):
         rows = [

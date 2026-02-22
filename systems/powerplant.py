@@ -37,10 +37,10 @@ _Source: POH 6-05-00 (Rev 12)._"""
         with c2:
             _img(f"{folder}/pw535e_engine_cutaway.png", "PW535E engine (cutaway overview)")
 
-    with st.expander("**2. The mental model (simple, but deeper)**", expanded=False):
+    with st.expander("**2. Conceptual model (simple, but deeper)**", expanded=False):
         st.markdown(
             """
-Think of the thrust lever as a **request** and FADEC as the **manager**.
+The thrust lever sets a **commanded thrust**; the FADEC schedules the engine to achieve it within limits.
 
 **Two spools**
 - **N1** ≈ fan / low-pressure spool (what you often *feel* as thrust changes).
@@ -70,7 +70,7 @@ Think of the thrust lever as a **request** and FADEC as the **manager**.
 - With thrust lever at IDLE, momentary START on ENG START/STOP initiates the sequence.
 - FADEC monitors acceleration and **ITT** to protect the engine.
 
-**A simple “what happens when” flow**
+**Start sequence (conceptual)**
 - Starter turns the engine → **N2 rises**
 - FADEC commands fuel/ignition → **ITT rises**
 - Engine stabilizes at idle → starter disengages, generator can come online
@@ -148,14 +148,14 @@ _Source: POH 6-05-30 (Rev 12)._"""
 _Source: POH 6-05-30 (Rev 12)._"""
         )
 
-    with st.expander("**8. “If you see this, think that” (common patterns)**", expanded=False):
+    with st.expander("**8. Operational interpretation (common patterns)**", expanded=False):
         patterns = [
-            ("CTRL FAULT", "Expect thrust changes to be **slower/less crisp**; FADEC is still managing, but with degraded control behavior."),
-            ("FADEC FAULT", "Often means **one channel** is not being received; the other channel may continue to run the engine."),
-            ("FUEL IMP BYP / OIL IMP BYP", "Filter restriction is increasing; think **maintenance soon** and monitor for escalation."),
-            ("ENG EXCEEDANCE", "A limit was exceeded in flight; think **review/maintenance follow-up** (not necessarily immediate failure)."),
+            ("CTRL FAULT", "Thrust modulation may be **degraded or slower**; the engine continues operating with degraded control behavior."),
+            ("FADEC FAULT", "A FADEC channel data fault is indicated; the remaining channel may continue to control the engine."),
+            ("FUEL IMP BYP / OIL IMP BYP", "Filter restriction is increasing; monitor for escalation and anticipate maintenance action."),
+            ("ENG EXCEEDANCE", "An in-flight limit exceedance was detected; maintenance follow-up is typically required."),
         ]
-        st.table(pd.DataFrame(patterns, columns=["CAS / cue", "Plain-English meaning"]))
+        st.table(pd.DataFrame(patterns, columns=["CAS / cue", "Operational meaning"]))
 
     with st.expander("**9. CAS messages (quick meanings)**", expanded=False):
         rows = [

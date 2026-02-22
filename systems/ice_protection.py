@@ -34,20 +34,20 @@ _Source: POH 6-11-00 (Rev 6)._"""
         )
         _img(f"{folder}/ice_rain_protection_system_overview.png", "Ice and rain protection system (overview)")
 
-    with st.expander("**2. The mental model (simple, but deeper)**", expanded=False):
+    with st.expander("**2. Conceptual model (simple, but deeper)**", expanded=False):
         st.markdown(
             """
-Think of ice protection as **two energy types + one consequence**.
+Ice protection uses two main energy sources, with operational consequences.
 
-**Energy type 1: Hot bleed air (thermal anti-ice)**
+**Thermal anti-ice (hot bleed air)**
 - Used for **wing/stab** and **engine inlet** protection.
-- Powerful, but it “costs” engine performance because it uses compressor air.
+- Effective, but it reduces available engine performance because it uses compressor air.
 
-**Energy type 2: Electricity**
+**Electrical heating**
 - Used for **windshield heat** and **probe heat**.
 - Lower performance impact, but can be limited by electrical failures.
 
-**The consequence you must remember**
+**Key operational consequence**
 - When wing/stab anti-ice is ON, the airplane changes stall warning logic and you’ll see **ICE SPEED** related cues/messages.
 """
         )
@@ -70,12 +70,12 @@ _Source: POH 6-11-05 (Rev 6)._"""
         )
         _img(f"{folder}/ice_protection_synoptic_mfd.png", "Ice & rain protection synoptic (MFD)")
 
-    with st.expander("**4. When to use what (plain-English decision aid)**", expanded=False):
+    with st.expander("**4. When to use what (operational guide)**", expanded=False):
         rows = [
             ("Visible moisture + cold temps", "Be ready to use **ENG anti-ice** early to protect inlet and engine sensors."),
             ("Any ice suspected/observed on wings or in icing conditions", "Use **WINGSTAB** per procedures; expect ICE SPEED effects."),
             ("Before takeoff if probes are iced", "Use **ADS PROBES ON** on ground (de-ice the probes)."),
-            ("Loss of visibility in rain/icing", "Use **windshield heat**; rain repellent coating helps but is not “infinite performance”."),
+            ("Loss of visibility in rain/icing", "Use **windshield heat**; rain repellent coating helps but is not unlimited."),
         ]
         st.table(pd.DataFrame(rows, columns=["Situation", "What it’s for (concept)"]))
 
@@ -181,14 +181,14 @@ _Source: POH 6-11-10 (Rev 12)._"""
 _Source: POH 6-11-10 (Rev 12)._"""
         )
 
-    with st.expander("**10. “If you see this, think that” (common patterns)**", expanded=False):
+    with st.expander("**10. Operational interpretation (common patterns)**", expanded=False):
         patterns = [
-            ("A-I LO CAPACITY", "The system can’t deliver enough thermal energy → think **high demand / limited bleed** (conditions, configuration, or failures)."),
-            ("A-I WINGSTB INHB", "System commanded ON but airplane says “not now” (envelope/logic protection)."),
+            ("A-I LO CAPACITY", "Insufficient thermal energy available (e.g., high demand or limited bleed due to conditions/configuration/failures)."),
+            ("A-I WINGSTB INHB", "Wing/stab anti-ice is inhibited by system logic (envelope/protection)."),
             ("WSHLD HTR FAIL", "Overheat or system failure; heat removed to protect windshield."),
             ("ICE SPEED / SWPS ICE SPEED", "Stall warning speeds are adjusted for icing configuration; reset only when sure no ice remains."),
         ]
-        st.table(pd.DataFrame(patterns, columns=["Cue", "Plain-English meaning"]))
+        st.table(pd.DataFrame(patterns, columns=["Cue", "Operational meaning"]))
 
     with st.expander("**11. CAS messages (quick meanings)**", expanded=False):
         rows = [

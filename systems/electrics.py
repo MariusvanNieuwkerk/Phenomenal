@@ -34,16 +34,16 @@ def render_electrics():
 _Source: POH 6-04-00, 6-04-15 (Rev 14)._"""
         )
 
-    with st.expander("**2. The mental model (how to think about it)**", expanded=False):
+    with st.expander("**2. Conceptual model (how to think about it)**", expanded=False):
         st.markdown(
             """
-If you remember just one thing: **two DC “sides” + a smart connector**.
+Core concept: **two independent DC channels with automatic bus-tie logic**.
 
 **Two DC channels (left/right)**
 - In normal flight, each starter generator powers **its own network**.
 - This keeps faults isolated (a problem on one side is less likely to take the other side down).
 
-**The “smart connector” = BUS TIE (AUTO)**
+**BUS TIE (AUTO)**
 - In AUTO, the airplane can **connect the networks** to keep essential buses powered when a source is lost.
 - You’ll see this on the electrical synoptic as a change in which source feeds which bus.
 
@@ -118,9 +118,9 @@ _Source: POH 6-04-15 (Rev 14)._"""
 - **Hot Batt Bus 1 / Hot Batt Bus 2**
 - **Shed Bus 1 / Shed Bus 2**
 
-**What “Shed” means (plain language)**
-- Shed buses are **loads the airplane is willing to drop** to protect the essentials.
-- If power is limited, you’ll see shed buses go OFF so the remaining source(s) don’t overload.
+**Shed buses (load shedding)**
+- Shed buses are **non-essential loads** that can be removed automatically to protect essential buses and prevent overload.
+- When electrical power is limited, it is normal to see **SHED BUS** indications change as loads are shed/restored.
 
 _Source: POH 6-04-20 (Original/Rev 14)._"""
         )
@@ -129,12 +129,12 @@ _Source: POH 6-04-20 (Original/Rev 14)._"""
             "Example bus configuration (S/GEN 1 failed, inflight)",
         )
 
-    with st.expander("**7. What changes when something fails (simple scenarios)**", expanded=False):
+    with st.expander("**7. Typical reconfiguration scenarios (what to expect)**", expanded=False):
         st.markdown(
             """
-The airplane is built to **re-route power automatically**. Your job is usually to:
-- confirm **what source is feeding what**, and
-- prevent **overload** (shed loads if needed).
+The system is designed to **re-route power automatically**. Typical crew focus is:
+- confirm **which source is feeding which bus** on the synoptic, and
+- monitor for **overload / load shedding**.
 """
         )
         scenarios = [
