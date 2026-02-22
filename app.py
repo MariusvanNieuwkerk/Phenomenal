@@ -29,8 +29,6 @@ def navigate(section, system=None):
     st.session_state.system = system
 
 def render_home():
-    st.title("Phenom 300")
-    
     st.divider()
 
     left, right = st.columns(2, gap="large")
@@ -77,7 +75,6 @@ def render_home():
     st.info("Select a module above to begin studying.")
 
 def render_systems():
-    st.title("Phenom 300")
     if st.button("Home", use_container_width=False, type="primary", key="home_btn"):
         navigate('home')
         st.rerun()
@@ -758,8 +755,6 @@ The brake system has **four automatic protection functions:**
             st.image(Image.open(towbar_path), caption="Turning Radius with Towbar", use_container_width=True)
 
 def render_limitations():
-    st.markdown("<h1 style='text-align: center; margin-bottom: 0;'>Phenom 300</h1>", unsafe_allow_html=True)
-    st.markdown("<p style='text-align: center; color: #666;'>Netjets Edition</p>", unsafe_allow_html=True)
     if st.button("Home", use_container_width=False, type="primary", key="home_btn"):
         navigate('home')
         st.rerun()
@@ -997,8 +992,6 @@ def render_limitations():
         st.dataframe(df_app, hide_index=True, use_container_width=True)
 
 def render_memory():
-    st.markdown("<h1 style='text-align: center; margin-bottom: 0;'>Phenom 300</h1>", unsafe_allow_html=True)
-    st.markdown("<p style='text-align: center; color: #666;'>Netjets Edition</p>", unsafe_allow_html=True)
     if st.button("Home", use_container_width=False, type="primary", key="home_btn"):
         navigate('home')
         st.rerun()
@@ -1203,8 +1196,6 @@ def render_memory():
 """)
 
 def render_flight_profiles():
-    st.markdown("<h1 style='text-align: center; margin-bottom: 0;'>Phenom 300</h1>", unsafe_allow_html=True)
-    st.markdown("<p style='text-align: center; color: #666;'>Netjets Edition</p>", unsafe_allow_html=True)
     if st.button("Home", use_container_width=False, type="primary", key="home_btn"):
         navigate('home')
         st.rerun()
@@ -1744,8 +1735,6 @@ def render_flight_profiles():
 """, unsafe_allow_html=True)
 
 def render_planning():
-    st.markdown("<h1 style='text-align: center; margin-bottom: 0;'>Phenom 300</h1>", unsafe_allow_html=True)
-    st.markdown("<p style='text-align: center; color: #666;'>Netjets Edition</p>", unsafe_allow_html=True)
     if st.button("Home", use_container_width=False, type="primary", key="home_btn"):
         navigate('home')
         st.rerun()
@@ -1919,8 +1908,6 @@ Weather at ETA ±1 hour must meet these minima:
 """)
 
 def render_cold_weather():
-    st.markdown("<h1 style='text-align: center; margin-bottom: 0;'>Phenom 300</h1>", unsafe_allow_html=True)
-    st.markdown("<p style='text-align: center; color: #666;'>Netjets Edition</p>", unsafe_allow_html=True)
     if st.button("Home", use_container_width=False, type="primary", key="home_btn"):
         navigate('home')
         st.rerun()
@@ -2292,8 +2279,6 @@ def render_cold_weather():
 """)
 
 def render_placeholder(title):
-    st.markdown("<h1 style='text-align: center; margin-bottom: 0;'>Phenom 300</h1>", unsafe_allow_html=True)
-    st.markdown("<p style='text-align: center; color: #666;'>Netjets Edition</p>", unsafe_allow_html=True)
     if st.button("Home", use_container_width=False, type="primary", key="home_btn"):
         navigate('home')
         st.rerun()

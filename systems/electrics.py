@@ -34,7 +34,25 @@ def render_electrics():
 _Source: POH 6-04-00, 6-04-15 (Rev 14)._"""
         )
 
-    with st.expander("**2. Controls (Electrical panel)**", expanded=False):
+    with st.expander("**2. The mental model (how to think about it)**", expanded=False):
+        st.markdown(
+            """
+If you remember just one thing: **two DC “sides” + a smart connector**.
+
+**Two DC channels (left/right)**
+- In normal flight, each starter generator powers **its own network**.
+- This keeps faults isolated (a problem on one side is less likely to take the other side down).
+
+**The “smart connector” = BUS TIE (AUTO)**
+- In AUTO, the airplane can **connect the networks** to keep essential buses powered when a source is lost.
+- You’ll see this on the electrical synoptic as a change in which source feeds which bus.
+
+**Emergency philosophy**
+- If you lose the normal sources, the system goes into a **simplified emergency configuration**: fewer loads, longer endurance.
+"""
+        )
+
+    with st.expander("**3. Controls (Electrical panel)**", expanded=False):
         st.markdown(
             """
 **Left lateral console – Electrical panel**
@@ -52,7 +70,7 @@ _Source: POH 6-04-05 (Rev 10/14)._"""
         )
         _img(f"{folder}/electrical_panel.png", "Electrical panel (controls & indications)")
 
-    with st.expander("**3. Normal operation (what you should expect)**", expanded=False):
+    with st.expander("**4. Normal operation (what you should expect)**", expanded=False):
         st.markdown(
             """
 **In flight (typical)**
@@ -67,7 +85,7 @@ _Source: POH 6-04-05 (Rev 10/14)._"""
 _Source: POH 6-04-15 (Rev 14)._"""
         )
 
-    with st.expander("**4. Key numbers (quick lookup)**", expanded=False):
+    with st.expander("**5. Key numbers (quick lookup)**", expanded=False):
         st.markdown(
             """
 **Starter generators**
@@ -86,7 +104,7 @@ _Source: POH 6-04-15 (Rev 14)._"""
         )
         _img(f"{folder}/electrical_power_sources_overview.png", "Electrical power sources (SGs, batteries, GPU)")
 
-    with st.expander("**5. Distribution concept (PDUs & buses)**", expanded=False):
+    with st.expander("**6. Distribution concept (PDUs & buses)**", expanded=False):
         st.markdown(
             """
 **Power Distribution Units (PDUs)**
@@ -100,6 +118,10 @@ _Source: POH 6-04-15 (Rev 14)._"""
 - **Hot Batt Bus 1 / Hot Batt Bus 2**
 - **Shed Bus 1 / Shed Bus 2**
 
+**What “Shed” means (plain language)**
+- Shed buses are **loads the airplane is willing to drop** to protect the essentials.
+- If power is limited, you’ll see shed buses go OFF so the remaining source(s) don’t overload.
+
 _Source: POH 6-04-20 (Original/Rev 14)._"""
         )
         _img(
@@ -107,7 +129,24 @@ _Source: POH 6-04-20 (Original/Rev 14)._"""
             "Example bus configuration (S/GEN 1 failed, inflight)",
         )
 
-    with st.expander("**6. Common CAS messages (what they mean)**", expanded=False):
+    with st.expander("**7. What changes when something fails (simple scenarios)**", expanded=False):
+        st.markdown(
+            """
+The airplane is built to **re-route power automatically**. Your job is usually to:
+- confirm **what source is feeding what**, and
+- prevent **overload** (shed loads if needed).
+"""
+        )
+        scenarios = [
+            ("One generator lost", "Remaining generator + bus ties try to keep buses powered; watch for overload / shed buses."),
+            ("Both generators lost", "Batteries become the main source; loads are reduced to stretch endurance (electrical emergency)."),
+            ("GPU connected (ramp)", "GPU normally powers the Central Bus; batteries may charge; confirm GPU AVAIL / IN USE."),
+            ("BUS TIE forced OPEN", "You are intentionally isolating sides; expect some buses/loads to go dark depending on sources."),
+        ]
+        st.table(pd.DataFrame(scenarios, columns=["Scenario", "What you should expect (concept)"]))
+        st.markdown("_Use the electrical synoptic to verify the actual configuration._")
+
+    with st.expander("**8. Common CAS messages (what they mean)**", expanded=False):
         rows = [
             ("ELEC EMERGENCY", "DC main buses de-energized; batteries discharging in electrical emergency."),
             ("ELEC XFR FAIL", "Automatic transfer to electrical emergency condition failed."),
@@ -123,7 +162,7 @@ _Source: POH 6-04-20 (Original/Rev 14)._"""
         st.table(pd.DataFrame(rows, columns=["CAS message", "Meaning (summary)"]))
         st.markdown("_Source: POH 6-04-45 (Rev 10/14)._")
 
-    with st.expander("**7. Where to look (fast)**", expanded=False):
+    with st.expander("**9. Where to look (fast)**", expanded=False):
         st.markdown(
             """
 - **Electrical synoptic**: MFD (system overview, buses, voltages).

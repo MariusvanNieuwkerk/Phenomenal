@@ -34,7 +34,27 @@ _Source: POH 6-02-10 (Rev 6/7)._"""
         )
         _img(f"{folder}/pneumatic_system_schematic.png", "Pneumatic system schematic (bleed, PRSOV, XBV)")
 
-    with st.expander("**2. Controls & indications (where you touch/see it)**", expanded=False):
+    with st.expander("**2. The mental model (deeper, but simple)**", expanded=False):
+        st.markdown(
+            """
+Pressurization is **air in vs air out**.
+
+**Air in (supply)**
+- Comes from **engine bleed air**, then is conditioned by the ECS.
+
+**Air out (control)**
+- The cabin is “sealed-ish” and the system controls cabin pressure mainly by moving one thing:
+  - the **Outflow Valve (OFV)**.
+
+**Translation**
+- **Close OFV a bit** → less air escapes → cabin pressure increases (cabin altitude decreases).
+- **Open OFV a bit** → more air escapes → cabin pressure decreases (cabin altitude increases).
+
+The CPCS is essentially an **automatic OFV manager** that targets a safe/comfortable cabin altitude and rate.
+"""
+        )
+
+    with st.expander("**3. Controls & indications (where you touch/see it)**", expanded=False):
         st.markdown(
             """
 **Primary crew interface**
@@ -51,7 +71,7 @@ _Source: POH 6-02-05 (Original/Rev 6)._"""
         with c2:
             _img(f"{folder}/pressure_indication_mfd.png", "Cabin pressure indication (MFD example)")
 
-    with st.expander("**3. CPCS overview (components & functions)**", expanded=False):
+    with st.expander("**4. CPCS overview (components & functions)**", expanded=False):
         st.markdown(
             """
 **Cabin Pressure Control System (CPCS)**
@@ -74,7 +94,7 @@ _Source: POH 6-02-20 (Rev 6)._"""
         )
         _img(f"{folder}/cpcs_schematic.png", "CPCS schematic")
 
-    with st.expander("**4. Automatic vs Manual mode (what changes)**", expanded=False):
+    with st.expander("**5. Automatic vs Manual mode (what changes)**", expanded=False):
         st.markdown(
             """
 **AUTO (normal)**
@@ -91,7 +111,23 @@ _Source: POH 6-02-20 (Rev 6)._"""
 _Source: POH 6-02-20 (Rev 6)._"""
         )
 
-    with st.expander("**5. Key numbers (quick lookup)**", expanded=False):
+    with st.expander("**6. What the system is trying to do (by phase)**", expanded=False):
+        phases = [
+            ("On the ground", "Keep cabin near ambient; manage comfort and prevent unintended differential pressure."),
+            ("Takeoff / climb", "Gradually schedule cabin altitude and rate to stay comfortable and within differential limits."),
+            ("Cruise", "Hold a stable cabin altitude and protect the structure (delta-P limits)."),
+            ("Descent / landing", "Schedule a comfortable cabin descent toward **LFE** so doors open normally after landing."),
+        ]
+        st.table(pd.DataFrame(phases, columns=["Phase", "Goal (plain language)"]))
+        st.markdown(
+            """
+**Why LFE matters**
+- CPCS needs to know what “ground pressure” it should aim for at destination.
+- If LFE is wrong, you can get an uncomfortable/incorrect cabin schedule on descent and landing.
+"""
+        )
+
+    with st.expander("**7. Key numbers (quick lookup)**", expanded=False):
         st.markdown(
             """
 **Cabin altitude high warning**
@@ -107,7 +143,16 @@ _Source: POH 6-02-20 (Rev 6)._"""
 _Source: POH 6-02-20 + 6-02-25 (Rev 6/5)._"""
         )
 
-    with st.expander("**6. Common CAS messages (meaning)**", expanded=False):
+    with st.expander("**8. “If you see this, think that” (common patterns)**", expanded=False):
+        patterns = [
+            ("CAB ALTITUDE HI", "Cabin is climbing above safe threshold → think **not enough pressurization** (supply issue) or OFV stuck too open."),
+            ("PRESN AUTO FAIL", "You lost the “automatic OFV manager” → you may need MAN mode to control cabin altitude."),
+            ("CAB DELTA-P FAIL", "Structural protection threshold reached (too high or too low) → the system is protecting the airplane."),
+            ("BLEED FAIL / LEAK / OVERTEMP", "Problem is often **upstream supply** (bleed/pneumatic), not the outflow valve itself."),
+        ]
+        st.table(pd.DataFrame(patterns, columns=["Cue", "Plain-English meaning"]))
+
+    with st.expander("**9. Common CAS messages (meaning)**", expanded=False):
         rows = [
             ("CAB ALTITUDE HI", "Cabin altitude ≥ 10,000 ft."),
             ("PRESN AUTO FAIL", "Loss of automatic pressurization mode."),
@@ -122,7 +167,7 @@ _Source: POH 6-02-20 + 6-02-25 (Rev 6/5)._"""
         st.table(pd.DataFrame(rows, columns=["CAS message", "Meaning (summary)"]))
         st.markdown("_Source: POH 6-02-25 (Rev 5)._")
 
-    with st.expander("**7. Diagram cheat sheet**", expanded=False):
+    with st.expander("**10. Diagram cheat sheet**", expanded=False):
         c1, c2 = st.columns(2)
         with c1:
             _img(f"{folder}/cpcs_schematic.png", "CPCS schematic (pressurization control)")

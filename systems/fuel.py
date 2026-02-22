@@ -35,7 +35,25 @@ def render_fuel():
 _Source: POH 6-09-00 (Original/Rev 6)._"""
         )
 
-    with st.expander("**2. Quick lookup (numbers & triggers)**", expanded=False):
+    with st.expander("**2. The mental model (deeper, but simple)**", expanded=False):
+        st.markdown(
+            """
+Think in **three layers**:
+
+**Layer A — The tank (storage)**
+- Each wing has a main tank, but the engine actually “drinks” from a **collector tank**.
+- The collector tank is there so the pickup stays submerged and stable.
+
+**Layer B — The normal feed (no moving parts)**
+- The primary feed is an **ejector/jet pump** (venturi effect).
+- It uses **motive flow** from the engine-driven system to pull fuel forward.
+
+**Layer C — The helper pump (electric boost)**
+- Electric pumps are the “helpers” used for **start**, **crossfeed**, and **backup** if primary pressure is low.
+"""
+        )
+
+    with st.expander("**3. Quick lookup (numbers & triggers)**", expanded=False):
         rows = [
             ("Low-level (per tank)", "140 kg (310 lb) remaining → FUEL 1(2) LO LEVEL"),
             ("Fuel imbalance", "≥ 100 kg (220 lb) triggers; clears when ≤ 40 kg (88 lb)"),
@@ -45,7 +63,7 @@ _Source: POH 6-09-00 (Original/Rev 6)._"""
         st.table(pd.DataFrame(rows, columns=["Item", "Value / effect"]))
         st.markdown("_Source: POH 6-09-05 + 6-09-15 (Rev 6/8)._")
 
-    with st.expander("**3. Normal feed logic (what powers what, when)**", expanded=False):
+    with st.expander("**4. Normal feed logic (what powers what, when)**", expanded=False):
         st.markdown(
             """
 **Normal flight**
@@ -67,7 +85,7 @@ _Source: POH 6-09-00 (Original/Rev 6)._"""
 _Source: POH 6-09-10 (Rev 12)._"""
         )
 
-    with st.expander("**4. Controls (Fuel panel)**", expanded=False):
+    with st.expander("**5. Controls (Fuel panel)**", expanded=False):
         st.markdown(
             """
 **Fuel pump selector (per side)**
@@ -87,7 +105,7 @@ _Source: POH 6-09-05 (Original/Rev 7)._"""
         )
         _img(f"{folder}/fuel_control_panel.png", "Fuel control panel")
 
-    with st.expander("**5. Tanks, ventilation, and indications**", expanded=False):
+    with st.expander("**6. Tanks, ventilation, and indications**", expanded=False):
         st.markdown(
             """
 **Tank structure (each wing)**
@@ -111,7 +129,7 @@ _Source: POH 6-09-10 (Rev 12) + 6-09-05 (Rev 6)._"""
         )
         _img(f"{folder}/fuel_tanks_location.png", "Fuel tanks (location/structure)")
 
-    with st.expander("**6. Crossfeed (what it actually does)**", expanded=False):
+    with st.expander("**7. Crossfeed (what it actually does)**", expanded=False):
         st.markdown(
             """
 Think of XFEED as **“both engines from one side”** to manage lateral balance.
@@ -130,7 +148,7 @@ Think of XFEED as **“both engines from one side”** to manage lateral balance
 _Source: POH 6-09-05 (Original)._"""
         )
 
-    with st.expander("**7. Engine fuel feed (architecture)**", expanded=False):
+    with st.expander("**8. Engine fuel feed (architecture)**", expanded=False):
         st.markdown(
             """
 **Independent feeds**
@@ -152,7 +170,22 @@ _Source: POH 6-09-05 (Original)._"""
 _Source: POH 6-09-10 (Rev 12)._"""
         )
 
-    with st.expander("**8. Fuel shutoff (fire protection interface)**", expanded=False):
+    with st.expander("**9. What happens in common situations (super practical)**", expanded=False):
+        st.markdown(
+            """
+This is the “so what?” layer: what the airplane will do automatically and what you should *expect to see*.
+"""
+        )
+        rows = [
+            ("FUEL 1(2) FEED FAULT", "Primary feed pressure is low → EFCU typically commands the **electric pump ON** to protect the engine feed."),
+            ("FUEL PUMP 1(2) FAIL", "That side’s electric pump isn’t available as a helper → start/XFEED/backup capabilities on that side are reduced."),
+            ("FUEL IMBALANCE", "You have a meaningful lateral difference → expect to manage balance (often via XFEED) and confirm the “feeding side” is the one decreasing."),
+            ("FUEL 1(2) LO PRES", "Engine is running but feed pressure is low → think **fuel supply issue** (not “quantity”). Expect pump logic/CAS to guide you to the affected side."),
+        ]
+        st.table(pd.DataFrame(rows, columns=["Cue", "What it usually means (concept)"]))
+        st.markdown("_This is conceptual guidance; use QRH/AFM procedures for actions._")
+
+    with st.expander("**10. Fuel shutoff (fire protection interface)**", expanded=False):
         st.markdown(
             """
 **Fuel shutoff valves**
@@ -163,7 +196,7 @@ _Source: POH 6-09-10 (Rev 12)._"""
 _Source: POH 6-09-10 (Rev 12)._"""
         )
 
-    with st.expander("**9. CAS messages (quick meanings)**", expanded=False):
+    with st.expander("**11. CAS messages (quick meanings)**", expanded=False):
         rows = [
             ("FUEL 1 (2) LO LEVEL", "Low-level sensors: 140 kg (310 lb) remains in that tank."),
             ("FUEL 1 (2) LO PRES", "Low pressure to associated engine while engine is running."),
@@ -178,7 +211,7 @@ _Source: POH 6-09-10 (Rev 12)._"""
         st.table(pd.DataFrame(rows, columns=["CAS message", "Meaning (summary)"]))
         st.markdown("_Source: POH 6-09-15 (Rev 8)._")
 
-    with st.expander("**10. Synoptic (what you’ll see on the MFD)**", expanded=False):
+    with st.expander("**12. Synoptic (what you’ll see on the MFD)**", expanded=False):
         st.markdown(
             """
 The fuel synoptic provides a quick visual of:

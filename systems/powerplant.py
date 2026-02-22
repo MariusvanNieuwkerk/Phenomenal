@@ -37,7 +37,22 @@ _Source: POH 6-05-00 (Rev 12)._"""
         with c2:
             _img(f"{folder}/pw535e_engine_cutaway.png", "PW535E engine (cutaway overview)")
 
-    with st.expander("**2. Starting & ignition (high-level logic)**", expanded=False):
+    with st.expander("**2. The mental model (simple, but deeper)**", expanded=False):
+        st.markdown(
+            """
+Think of the thrust lever as a **request** and FADEC as the **manager**.
+
+**Two spools**
+- **N1** ≈ fan / low-pressure spool (what you often *feel* as thrust changes).
+- **N2** ≈ high-pressure spool (core speed, closely tied to start stability).
+
+**FADEC (dual-channel)**
+- Schedules **fuel**, controls **start/ignition**, and applies **protections**.
+- If a limit is approached, FADEC typically protects the engine by **reducing fuel flow** (so you might not get the thrust you asked for).
+"""
+        )
+
+    with st.expander("**3. Starting & ignition (high-level logic)**", expanded=False):
         st.markdown(
             """
 **Starting system**
@@ -55,6 +70,11 @@ _Source: POH 6-05-00 (Rev 12)._"""
 - With thrust lever at IDLE, momentary START on ENG START/STOP initiates the sequence.
 - FADEC monitors acceleration and **ITT** to protect the engine.
 
+**A simple “what happens when” flow**
+- Starter turns the engine → **N2 rises**
+- FADEC commands fuel/ignition → **ITT rises**
+- Engine stabilizes at idle → starter disengages, generator can come online
+
 **FADEC aborts a ground start if** (examples)
 - No light-up (ITT doesn’t rise significantly within ~10 s after fuel on)
 - Hot start detected
@@ -63,7 +83,7 @@ _Source: POH 6-05-00 (Rev 12)._"""
 _Source: POH 6-05-20 (Original)._"""
         )
 
-    with st.expander("**3. Engine fuel system (major components)**", expanded=False):
+    with st.expander("**4. Engine fuel system (major components)**", expanded=False):
         st.markdown(
             """
 **Main elements you’ll see referenced**
@@ -80,7 +100,7 @@ _Source: POH 6-05-10 (Rev 6)._"""
         )
         _img(f"{folder}/engine_fuel_system_schematic.png", "Engine fuel system schematic")
 
-    with st.expander("**4. Lubrication (what matters operationally)**", expanded=False):
+    with st.expander("**5. Lubrication (what matters operationally)**", expanded=False):
         st.markdown(
             """
 **Purpose**
@@ -95,7 +115,7 @@ _Source: POH 6-05-10 (Rev 6)._"""
 _Source: POH 6-05-15 (Rev 6)._"""
         )
 
-    with st.expander("**5. Thrust ratings / takeoff dataset (crew interaction)**", expanded=False):
+    with st.expander("**6. Thrust ratings / takeoff dataset (crew interaction)**", expanded=False):
         st.markdown(
             """
 **FADEC-managed ratings**
@@ -108,7 +128,7 @@ _Source: POH 6-05-30 (Rev 12)._"""
         )
         _img(f"{folder}/takeoff_dataset_menu_mfd.png", "Takeoff dataset menu (MFD)")
 
-    with st.expander("**6. Protections (what the FADEC will do)**", expanded=False):
+    with st.expander("**7. Protections (what the FADEC will do)**", expanded=False):
         st.markdown(
             """
 **Overspeed/overtemp limiting**
@@ -128,7 +148,16 @@ _Source: POH 6-05-30 (Rev 12)._"""
 _Source: POH 6-05-30 (Rev 12)._"""
         )
 
-    with st.expander("**7. CAS messages (quick meanings)**", expanded=False):
+    with st.expander("**8. “If you see this, think that” (common patterns)**", expanded=False):
+        patterns = [
+            ("CTRL FAULT", "Expect thrust changes to be **slower/less crisp**; FADEC is still managing, but with degraded control behavior."),
+            ("FADEC FAULT", "Often means **one channel** is not being received; the other channel may continue to run the engine."),
+            ("FUEL IMP BYP / OIL IMP BYP", "Filter restriction is increasing; think **maintenance soon** and monitor for escalation."),
+            ("ENG EXCEEDANCE", "A limit was exceeded in flight; think **review/maintenance follow-up** (not necessarily immediate failure)."),
+        ]
+        st.table(pd.DataFrame(patterns, columns=["CAS / cue", "Plain-English meaning"]))
+
+    with st.expander("**9. CAS messages (quick meanings)**", expanded=False):
         rows = [
             ("E1 (2) FIRE", "Engine 1 (2) fire condition detected."),
             ("E1 (2) OIL LO PRES", "Engine 1 (2) oil pressure is low."),

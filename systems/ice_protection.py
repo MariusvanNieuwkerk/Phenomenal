@@ -34,7 +34,25 @@ _Source: POH 6-11-00 (Rev 6)._"""
         )
         _img(f"{folder}/ice_rain_protection_system_overview.png", "Ice and rain protection system (overview)")
 
-    with st.expander("**2. Controls & indications (quick orientation)**", expanded=False):
+    with st.expander("**2. The mental model (simple, but deeper)**", expanded=False):
+        st.markdown(
+            """
+Think of ice protection as **two energy types + one consequence**.
+
+**Energy type 1: Hot bleed air (thermal anti-ice)**
+- Used for **wing/stab** and **engine inlet** protection.
+- Powerful, but it “costs” engine performance because it uses compressor air.
+
+**Energy type 2: Electricity**
+- Used for **windshield heat** and **probe heat**.
+- Lower performance impact, but can be limited by electrical failures.
+
+**The consequence you must remember**
+- When wing/stab anti-ice is ON, the airplane changes stall warning logic and you’ll see **ICE SPEED** related cues/messages.
+"""
+        )
+
+    with st.expander("**3. Controls & indications (quick orientation)**", expanded=False):
         st.markdown(
             """
 **Controls**
@@ -52,7 +70,16 @@ _Source: POH 6-11-05 (Rev 6)._"""
         )
         _img(f"{folder}/ice_protection_synoptic_mfd.png", "Ice & rain protection synoptic (MFD)")
 
-    with st.expander("**3. Wing & stabilizer anti-ice (WHSAIS)**", expanded=False):
+    with st.expander("**4. When to use what (plain-English decision aid)**", expanded=False):
+        rows = [
+            ("Visible moisture + cold temps", "Be ready to use **ENG anti-ice** early to protect inlet and engine sensors."),
+            ("Any ice suspected/observed on wings or in icing conditions", "Use **WINGSTAB** per procedures; expect ICE SPEED effects."),
+            ("Before takeoff if probes are iced", "Use **ADS PROBES ON** on ground (de-ice the probes)."),
+            ("Loss of visibility in rain/icing", "Use **windshield heat**; rain repellent coating helps but is not “infinite performance”."),
+        ]
+        st.table(pd.DataFrame(rows, columns=["Situation", "What it’s for (concept)"]))
+
+    with st.expander("**5. Wing & stabilizer anti-ice (WHSAIS)**", expanded=False):
         st.markdown(
             """
 **How it works**
@@ -74,7 +101,7 @@ _Source: POH 6-11-10 (Rev 12)._"""
             "Wing & stabilizer anti-ice airflow/pressure/temperature control (schematic)",
         )
 
-    with st.expander("**4. Engine anti-ice (nacelle lip + S/G inlet)**", expanded=False):
+    with st.expander("**6. Engine anti-ice (nacelle lip + S/G inlet)**", expanded=False):
         st.markdown(
             """
 **Purpose**
@@ -98,7 +125,7 @@ _Source: POH 6-11-10 (Rev 12) + 6-05-30._"""
         )
         _img(f"{folder}/engine_antiice_system.png", "Engine anti-ice system (schematic)")
 
-    with st.expander("**5. Windshield heating (anti-ice / anti-fog)**", expanded=False):
+    with st.expander("**7. Windshield heating (anti-ice / anti-fog)**", expanded=False):
         st.markdown(
             """
 **What it does**
@@ -121,7 +148,7 @@ _Source: POH 6-11-10 (Rev 12) + 6-11-20._"""
             "Windshield heating system (schematic)",
         )
 
-    with st.expander("**6. Windshield rain protection (wiperless)**", expanded=False):
+    with st.expander("**8. Windshield rain protection (wiperless)**", expanded=False):
         st.markdown(
             """
 **Concept**
@@ -135,7 +162,7 @@ _Source: POH 6-11-10 (Rev 12) + 6-11-20._"""
 _Source: POH 6-11-10 (Rev 12)._"""
         )
 
-    with st.expander("**7. ADS probe heating (AUTO / ON logic)**", expanded=False):
+    with st.expander("**9. ADS probe heating (AUTO / ON logic)**", expanded=False):
         st.markdown(
             """
 **What’s heated**
@@ -154,7 +181,16 @@ _Source: POH 6-11-10 (Rev 12)._"""
 _Source: POH 6-11-10 (Rev 12)._"""
         )
 
-    with st.expander("**8. CAS messages (quick meanings)**", expanded=False):
+    with st.expander("**10. “If you see this, think that” (common patterns)**", expanded=False):
+        patterns = [
+            ("A-I LO CAPACITY", "The system can’t deliver enough thermal energy → think **high demand / limited bleed** (conditions, configuration, or failures)."),
+            ("A-I WINGSTB INHB", "System commanded ON but airplane says “not now” (envelope/logic protection)."),
+            ("WSHLD HTR FAIL", "Overheat or system failure; heat removed to protect windshield."),
+            ("ICE SPEED / SWPS ICE SPEED", "Stall warning speeds are adjusted for icing configuration; reset only when sure no ice remains."),
+        ]
+        st.table(pd.DataFrame(patterns, columns=["Cue", "Plain-English meaning"]))
+
+    with st.expander("**11. CAS messages (quick meanings)**", expanded=False):
         rows = [
             ("ADS 1 (2) HTR FAIL", "Associated heater is off or failed."),
             ("STBY HTR FAIL", "Standby ADS heater is off or failed."),
