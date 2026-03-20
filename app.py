@@ -11,11 +11,17 @@ import streamlit.components.v1 as components
 import pandas as pd
 from PIL import Image
 
+from systems.air_management import render_air_management
+from systems.airplane_general import render_airplane_general
+from systems.automatic_flight import render_automatic_flight
 from systems.electrics import render_electrics
+from systems.fire_protection import render_fire_protection
+from systems.flight_controls import render_flight_controls
 from systems.fuel import render_fuel
 from systems.ice_protection import render_ice_protection
+from systems.oxygen import render_oxygen
 from systems.powerplant import render_powerplant
-from systems.pressurization import render_pressurization
+from systems.warning_system import render_warning_system
 
 icon_url = "https://phenomenal--mariusvannieuwk.replit.app/app/static/apple-touch-icon.png"
 st.set_page_config(page_title="Phenom 300 Training", page_icon=icon_url, layout="wide")
@@ -117,7 +123,21 @@ def render_systems():
     
     st.markdown("## Aircraft Systems")
     
-    systems_list = ["Hydraulics", "Electrics", "Powerplant", "Landing Gear & Brakes", "Fuel", "Pressurization", "Ice Protection"]
+    systems_list = [
+        "Airplane General",
+        "Air Management",
+        "Automatic Flight",
+        "Electrics",
+        "Powerplant",
+        "Fire Protection",
+        "Flight Controls",
+        "Fuel",
+        "Hydraulics",
+        "Ice Protection",
+        "Landing Gear & Brakes",
+        "Oxygen",
+        "Warning System",
+    ]
     
     col1, col2 = st.columns(2, gap="large")
     for i, sys in enumerate(systems_list):
@@ -129,20 +149,32 @@ def render_systems():
     
     st.markdown("---")
     
-    if st.session_state.system == "Hydraulics":
-        render_hydraulics()
+    if st.session_state.system == "Airplane General":
+        render_airplane_general()
+    elif st.session_state.system == "Air Management":
+        render_air_management()
+    elif st.session_state.system == "Automatic Flight":
+        render_automatic_flight()
     elif st.session_state.system == "Electrics":
         render_electrics()
     elif st.session_state.system == "Powerplant":
         render_powerplant()
+    elif st.session_state.system == "Fire Protection":
+        render_fire_protection()
+    elif st.session_state.system == "Flight Controls":
+        render_flight_controls()
     elif st.session_state.system == "Landing Gear & Brakes":
         render_landing_gear()
     elif st.session_state.system == "Fuel":
         render_fuel()
-    elif st.session_state.system == "Pressurization":
-        render_pressurization()
+    elif st.session_state.system == "Hydraulics":
+        render_hydraulics()
     elif st.session_state.system == "Ice Protection":
         render_ice_protection()
+    elif st.session_state.system == "Oxygen":
+        render_oxygen()
+    elif st.session_state.system == "Warning System":
+        render_warning_system()
     else:
         st.info("Select a system above to view details.")
 
@@ -346,6 +378,21 @@ If the value is invalid, the pointer disappears from the display.
         if os.path.exists(schematic_path):
             st.image(Image.open(schematic_path), caption="Hydraulic System Schematic", use_container_width=True)
 
+    with st.expander("**11. Synoptic pages (POH)**", expanded=False):
+        poh_paths = []
+        if os.path.isdir(folder):
+            for name in os.listdir(folder):
+                if name.startswith("poh_6-10_synoptic_") and name.lower().endswith(".png"):
+                    poh_paths.append(os.path.join(folder, name))
+        poh_paths.sort()
+        if not poh_paths:
+            st.info("No POH synoptic pages found for hydraulics yet.")
+        else:
+            cols = st.columns(2, gap="medium")
+            for i, p in enumerate(poh_paths):
+                with cols[i % 2]:
+                    st.image(Image.open(p), caption=os.path.basename(p), use_container_width=True)
+
 def render_landing_gear():
     st.markdown("## Landing Gear & Brakes")
     st.caption("ATA 32 | Source: Phenom 300 POH")
@@ -376,6 +423,21 @@ def render_landing_gear():
         lg_control_path = os.path.join(folder, "lg_control_panel.png")
         if os.path.exists(lg_control_path):
             st.image(Image.open(lg_control_path), caption="LDG GEAR Control Panel", use_container_width=True)
+
+    with st.expander("**1b. Synoptic pages (POH)**", expanded=False):
+        poh_paths = []
+        if os.path.isdir(folder):
+            for name in os.listdir(folder):
+                if name.startswith("poh_6-12_synoptic_") and name.lower().endswith(".png"):
+                    poh_paths.append(os.path.join(folder, name))
+        poh_paths.sort()
+        if not poh_paths:
+            st.info("No POH synoptic pages found for landing gear yet.")
+        else:
+            cols = st.columns(2, gap="medium")
+            for i, p in enumerate(poh_paths):
+                with cols[i % 2]:
+                    st.image(Image.open(p), caption=os.path.basename(p), use_container_width=True)
     
     with st.expander("**2. Landing Gear Operation**", expanded=False):
         st.markdown("""

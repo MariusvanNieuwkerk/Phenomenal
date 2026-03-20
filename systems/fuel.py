@@ -12,6 +12,25 @@ def _img(path: str, caption: str):
         st.warning(f"Missing image: `{path}`")
 
 
+def _show_folder_images(folder: str, prefix: str, title: str, columns: int = 2):
+    paths = []
+    if os.path.isdir(folder):
+        for name in os.listdir(folder):
+            if name.lower().endswith(".png") and name.startswith(prefix):
+                paths.append(os.path.join(folder, name))
+    paths.sort()
+
+    if not paths:
+        st.info("No POH images found for this section yet.")
+        return
+
+    st.markdown(f"**{title}**")
+    cols = st.columns(columns, gap="medium")
+    for i, p in enumerate(paths):
+        with cols[i % columns]:
+            _img(p, os.path.basename(p))
+
+
 def render_fuel():
     st.markdown("## Fuel System")
     st.caption("ATA 28 | Source: Phenom 300 POH (Section 6-09, Rev 12)")
@@ -223,4 +242,5 @@ The fuel synoptic provides a quick visual of:
 _Source: POH 6-09-05 (Rev 6/7)._"""
         )
         _img(f"{folder}/fuel_synoptic_mfd.png", "Fuel synoptic page (MFD)")
+        _show_folder_images(folder, "poh_6-09_synoptic_", "POH synoptic pages (Fuel)")
 

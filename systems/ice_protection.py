@@ -12,6 +12,25 @@ def _img(path: str, caption: str):
         st.warning(f"Missing image: `{path}`")
 
 
+def _show_folder_images(folder: str, prefix: str, title: str, columns: int = 2):
+    paths = []
+    if os.path.isdir(folder):
+        for name in os.listdir(folder):
+            if name.lower().endswith(".png") and name.startswith(prefix):
+                paths.append(os.path.join(folder, name))
+    paths.sort()
+
+    if not paths:
+        st.info("No POH images found for this section yet.")
+        return
+
+    st.markdown(f"**{title}**")
+    cols = st.columns(columns, gap="medium")
+    for i, p in enumerate(paths):
+        with cols[i % columns]:
+            _img(p, os.path.basename(p))
+
+
 def render_ice_protection():
     st.markdown("## Ice and Rain Protection")
     st.caption("ATA 30 | Source: Phenom 300 POH (Section 6-11, Rev 12/6)")
@@ -69,6 +88,7 @@ Ice protection uses two main energy sources, with operational consequences.
 _Source: POH 6-11-05 (Rev 6)._"""
         )
         _img(f"{folder}/ice_protection_synoptic_mfd.png", "Ice & rain protection synoptic (MFD)")
+        _show_folder_images(folder, "poh_6-11_synoptic_", "POH synoptic pages (Ice & Rain Protection)")
 
     with st.expander("**4. When to use what (operational guide)**", expanded=False):
         rows = [

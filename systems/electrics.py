@@ -12,6 +12,25 @@ def _img(path: str, caption: str):
         st.warning(f"Missing image: `{path}`")
 
 
+def _show_folder_images(folder: str, prefix: str, title: str, columns: int = 2):
+    paths = []
+    if os.path.isdir(folder):
+        for name in os.listdir(folder):
+            if name.lower().endswith(".png") and name.startswith(prefix):
+                paths.append(os.path.join(folder, name))
+    paths.sort()
+
+    if not paths:
+        st.info("No POH images found for this section yet.")
+        return
+
+    st.markdown(f"**{title}**")
+    cols = st.columns(columns, gap="medium")
+    for i, p in enumerate(paths):
+        with cols[i % columns]:
+            _img(p, os.path.basename(p))
+
+
 def render_electrics():
     st.markdown("## Electrical System")
     st.caption("ATA 24 | Source: Phenom 300 POH (Section 6-04, Rev 14)")
@@ -170,4 +189,15 @@ The system is designed to **re-route power automatically**. Typical crew focus i
 - **Switches**: Electrical panel (left lateral console).
 """
         )
+
+    with st.expander("**10. Synoptic pages (POH)**", expanded=False):
+        _show_folder_images(folder, "poh_6-04_synoptic_", "Electrical synoptic pages (MFD)")
+
+    with st.expander("**11. System configurations (POH)**", expanded=False):
+        st.markdown(
+            """
+This section includes the POH electrical system configuration pages that show how power is distributed with different source availability and failures.
+"""
+        )
+        _show_folder_images(folder, "poh_6-04_config_", "Electrical system configurations", columns=2)
 
