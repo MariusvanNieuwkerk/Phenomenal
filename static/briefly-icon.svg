@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none" role="img" aria-label="Briefly">
+  <rect width="80" height="80" rx="20" fill="#D4E0EA"/>
+  <g transform="translate(8, 22)">
+    <path d="M4 28 L14 24 L38 20 L52 17 L58 14 L62 12 L66 14 L62 18 L54 20 L50 26 L40 30 L16 32 L6 30 Z" fill="#3D5F8A"/>
+    <path d="M20 26 L46 26 L44 34 L22 34 Z" fill="#3D5F8A"/>
+    <path d="M6 24 L6 14 L16 24 Z" fill="#3D5F8A"/>
+    <path d="M10 10 L10 4 L14 10 Z" fill="#3D5F8A"/>
+    <ellipse cx="32" cy="31" rx="3.5" ry="2.2" fill="#4A6FA5"/>
+    <ellipse cx="44" cy="31" rx="3.5" ry="2.2" fill="#4A6FA5"/>
+    <path d="M54 17 L62 10 L62 17 Z" fill="#4A6FA5"/>
+  </g>
+</svg>

@@ -22,107 +22,77 @@ from systems.ice_protection import render_ice_protection
 from systems.oxygen import render_oxygen
 from systems.powerplant import render_powerplant
 from systems.warning_system import render_warning_system
+from study.handbook import render_handbook
+from study.sop import render_sop
+from study.special_airports import render_special_airports
+from ui.shell import render_app_shell
+from ui.theme import inject_theme_css, inject_memory_page_css, render_page_header
+from content.render_helpers import render_search_focus_banner, source_footer
 
-icon_url = "https://phenomenal--mariusvannieuwk.replit.app/app/static/apple-touch-icon.png"
-st.set_page_config(page_title="Phenom 300 Training", page_icon=icon_url, layout="wide")
+_icon_path = os.path.join(_app_dir, "static", "briefly-icon.svg")
+st.set_page_config(
+    page_title="Briefly",
+    page_icon=_icon_path if os.path.isfile(_icon_path) else "✈️",
+    layout="wide",
+)
+
+DOCS_DIR = os.path.join(_app_dir, "documents", "operations_manuals")
+OPERATIONS_MANUALS = [
+    ("OM-A - Operations Manual Part A.pdf", "Operations Manual Part A — general company operations."),
+    ("OM-B - Operations Manual Part B - EMB-505.pdf", "Operations Manual Part B — EMB-505 aircraft-specific procedures."),
+    ("OM-C - Operations Manual Part C.pdf", "Operations Manual Part C — route and aerodrome reference."),
+    ("Handbook Phenom 300.pdf", "Phenom 300 training handbook."),
+]
 
 def _inject_ui_css():
-    # Use an HTML component (not markdown) so CSS never renders as visible text.
-    components.html(
-        """
-        <style>
-          /* Bigger, more tappable buttons (iPad-friendly). */
-          div.stButton > button {
-            width: 100%;
-            min-height: 68px;
-            padding: 0.95rem 1rem;
-            border-radius: 14px;
-            font-size: 1.05rem;
-            font-weight: 650;
-            line-height: 1.1;
-          }
-
-          /* Slightly larger section headings inside cards. */
-          [data-testid="stMarkdownContainer"] h3 {
-            margin-top: 0.2rem;
-            margin-bottom: 0.8rem;
-          }
-
-          /* Give containers a bit more breathing room on touch devices. */
-          [data-testid="stVerticalBlockBorderWrapper"] {
-            padding-top: 0.25rem;
-            padding-bottom: 0.25rem;
-          }
-        </style>
-        """,
-        height=0,
-    )
+    inject_theme_css()
 
 
 _inject_ui_css()
 
 if 'section' not in st.session_state:
-    st.session_state.section = 'home'
+    st.session_state.section = 'limitations'
 if 'system' not in st.session_state:
     st.session_state.system = None
 
-def navigate(section, system=None):
+def navigate(section, system=None, airport=None, focus=None):
     st.session_state.section = section
-    st.session_state.system = system
+    if system is not None:
+        st.session_state.system = system
+    elif section != "systems":
+        st.session_state.system = None
+    if airport is not None:
+        st.session_state.airport_selected = airport
+    elif section != "airports":
+        st.session_state.airport_selected = None
+    if focus is not None:
+        st.session_state.search_focus = focus
 
-def render_home():
-    st.divider()
 
-    left, right = st.columns(2, gap="large")
-
-    with left:
+def render_documents():
+    for filename, description in OPERATIONS_MANUALS:
+        path = os.path.join(DOCS_DIR, filename)
         with st.container(border=True):
-            st.markdown("### Training")
-            c1, c2 = st.columns(2, gap="medium")
-            with c1:
-                if st.button("Systems", use_container_width=True, type="primary"):
-                    navigate('systems')
-                    st.rerun()
-                if st.button("Memory Items", use_container_width=True, type="primary"):
-                    navigate('memory')
-                    st.rerun()
-            with c2:
-                if st.button("Limitations", use_container_width=True, type="primary"):
-                    navigate('limitations')
-                    st.rerun()
-                if st.button("Planning", use_container_width=True, type="primary"):
-                    navigate('planning')
-                    st.rerun()
+            st.markdown(f"**{filename}**")
+            st.caption(description)
+            if os.path.isfile(path):
+                size_mb = os.path.getsize(path) / (1024 * 1024)
+                st.caption(f"Available locally ({size_mb:.1f} MB)")
+                with open(path, "rb") as doc_file:
+                    st.download_button(
+                        "Download PDF",
+                        data=doc_file,
+                        file_name=filename,
+                        mime="application/pdf",
+                        key=f"dl_{filename}",
+                        use_container_width=True,
+                    )
+            else:
+                st.warning("File not found in the project folder.")
 
-    with right:
-        with st.container(border=True):
-            st.markdown("### Operations")
-            c3, c4 = st.columns(2, gap="medium")
-            with c3:
-                if st.button("SOP", use_container_width=True, type="primary"):
-                    navigate('sop')
-                    st.rerun()
-                if st.button("Special Airports", use_container_width=True, type="primary"):
-                    navigate('airports')
-                    st.rerun()
-            with c4:
-                if st.button("Flight Profiles", use_container_width=True, type="primary"):
-                    navigate('profiles')
-                    st.rerun()
-                if st.button("Cold Weather Ops", use_container_width=True, type="primary"):
-                    navigate('cold_weather')
-                    st.rerun()
-
-    st.divider()
-    st.info("Select a module above to begin studying.")
 
 def render_systems():
-    if st.button("Home", use_container_width=False, type="primary", key="home_btn"):
-        navigate('home')
-        st.rerun()
-    
-    st.markdown("## Aircraft Systems")
-    
+    render_search_focus_banner()
     systems_list = [
         "Airplane General",
         "Air Management",
@@ -853,13 +823,7 @@ The brake system has **four automatic protection functions:**
             st.image(Image.open(towbar_path), caption="Turning Radius with Towbar", use_container_width=True)
 
 def render_limitations():
-    if st.button("Home", use_container_width=False, type="primary", key="home_btn"):
-        navigate('home')
-        st.rerun()
-    
-    st.markdown("## Limitations & Performance")
-    st.caption("Source: Netjets EASA / FlightSafety Training Guide")
-    
+    render_search_focus_banner()
     with st.expander("**1. Structural & Weight Limits**", expanded=True):
         st.markdown("""
 **Weight Limits (Lbs)**
@@ -1090,34 +1054,8 @@ def render_limitations():
         st.dataframe(df_app, hide_index=True, use_container_width=True)
 
 def render_memory():
-    if st.button("Home", use_container_width=False, type="primary", key="home_btn"):
-        navigate('home')
-        st.rerun()
-    
-    st.markdown("## Memory Items")
-    st.caption("Source: Phenom 300 QRH Rev.19 (March 20, 2020)")
-    
-    st.markdown("""
-    <style>
-    [data-testid="stExpander"] details summary p {
-        color: #CC0000 !important;
-        font-weight: bold !important;
-    }
-    [data-testid="stExpander"] table {
-        width: 100% !important;
-    }
-    [data-testid="stExpander"] table th:first-child,
-    [data-testid="stExpander"] table td:first-child {
-        width: 50% !important;
-    }
-    [data-testid="stExpander"] table th:last-child,
-    [data-testid="stExpander"] table td:last-child {
-        width: 50% !important;
-        text-align: left !important;
-    }
-    </style>
-    """, unsafe_allow_html=True)
-    
+    render_search_focus_banner()
+    inject_memory_page_css()
     with st.expander("**SMOKE EVACUATION**", expanded=False):
         st.markdown("""
 | Item | Action |
@@ -1293,13 +1231,9 @@ def render_memory():
 | PUSHER CUTOUT Button | PUSH IN |
 """)
 
+
 def render_flight_profiles():
-    if st.button("Home", use_container_width=False, type="primary", key="home_btn"):
-        navigate('home')
-        st.rerun()
-    
-    st.markdown("## Flight Profiles")
-    st.caption("Netjets Operations Manual | EMB-505")
+    source_footer("om_b", "Chapter 2 Normal Procedures · Flight profile diagrams")
     
     folder = "assets/flight_profiles"
     
@@ -1833,12 +1767,7 @@ def render_flight_profiles():
 """, unsafe_allow_html=True)
 
 def render_planning():
-    if st.button("Home", use_container_width=False, type="primary", key="home_btn"):
-        navigate('home')
-        st.rerun()
-    
-    st.markdown("## Flight Planning")
-    st.caption("Netjets Operations Manual Part A")
+    source_footer("om_a", "Operating minima, alternates, approach minima")
     
     with st.expander("**1. Operating Minima - Key Rules**", expanded=True):
         st.markdown("""
@@ -2006,12 +1935,7 @@ Weather at ETA ±1 hour must meet these minima:
 """)
 
 def render_cold_weather():
-    if st.button("Home", use_container_width=False, type="primary", key="home_btn"):
-        navigate('home')
-        st.rerun()
-    
-    st.markdown("## Cold Weather Operations")
-    st.caption("Source: Netjets Operations Manual Part B (Section 2.24)")
+    source_footer("om_b", "2.24 Cold Weather Ops")
     
     folder = "assets/cold_weather_ops"
     
@@ -2376,29 +2300,27 @@ def render_cold_weather():
 - Empty fluid and don't refill until prior to next departure
 """)
 
-def render_placeholder(title):
-    if st.button("Home", use_container_width=False, type="primary", key="home_btn"):
-        navigate('home')
-        st.rerun()
-    
-    st.markdown(f"### {title}")
-    st.info("This module is under development.")
+def _render_section(section: str):
+    if section == "documents":
+        render_documents()
+    elif section == "systems":
+        render_systems()
+    elif section == "limitations":
+        render_limitations()
+    elif section == "memory":
+        render_memory()
+    elif section == "planning":
+        render_planning()
+    elif section == "sop":
+        render_sop()
+    elif section == "profiles":
+        render_flight_profiles()
+    elif section == "airports":
+        render_special_airports()
+    elif section == "handbook":
+        render_handbook()
+    elif section == "cold_weather":
+        render_cold_weather()
 
-if st.session_state.section == 'home':
-    render_home()
-elif st.session_state.section == 'systems':
-    render_systems()
-elif st.session_state.section == 'limitations':
-    render_limitations()
-elif st.session_state.section == 'memory':
-    render_memory()
-elif st.session_state.section == 'planning':
-    render_planning()
-elif st.session_state.section == 'sop':
-    render_placeholder("SOP")
-elif st.session_state.section == 'profiles':
-    render_flight_profiles()
-elif st.session_state.section == 'airports':
-    render_placeholder("Special Airports")
-elif st.session_state.section == 'cold_weather':
-    render_cold_weather()
+
+render_app_shell(navigate, _render_section)

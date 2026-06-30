@@ -1,15 +1,17 @@
 {
-  "name": "Phenom 300 Training",
-  "short_name": "Phenom 300",
+  "name": "Briefly",
+  "short_name": "Briefly",
+  "description": "Phenom 300 study and flight preparation",
   "icons": [
     {
-      "src": "https://phenomenal--mariusvannieuwk.replit.app/app/static/apple-touch-icon.png",
-      "sizes": "180x180",
-      "type": "image/png"
+      "src": "/app/static/briefly-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
     }
   ],
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#1a365d"
+  "background_color": "#C5D4E0",
+  "theme_color": "#4A6FA5"
 }
