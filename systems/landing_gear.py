@@ -35,16 +35,19 @@ def render_landing_gear():
         st.markdown("""
 **Configuration:** Tricycle retractable gear, hydraulically powered
 
-**The three gear legs:**
+### The three gear legs:
+
 - **Nose gear (NLG):** Retracts **forward** into the fuselage
 - **Main gear (MLG):** Retracts **inward** into the wing-fuselage fairing
 
-**How the gear works:**
+### How the gear works:
+
 - Controlled by the **LDG GEAR lever** on the main instrument panel
 - Two positions: **UP** (retract) and **DN** (extend)
 - Command is **electrical**, actuation is **hydraulic**
 
-**Built-in safety (ground lock):**
+### Built-in safety (ground lock):
+
 - An interlock **prevents** moving the lever to UP while on the ground
 - In an emergency, you can override this with the **DN LCK REL** button on the LDG GEAR panel
 """)
@@ -73,7 +76,8 @@ def render_landing_gear():
     
     with st.expander("**2. Landing Gear Operation**", expanded=False):
         st.markdown("""
-**RETRACTION (Lever UP)**
+### RETRACTION (Lever UP)
+
 
 When you move the lever to UP:
 1. Electrical command activates the hydraulic retraction actuators
@@ -83,7 +87,8 @@ When you move the lever to UP:
 
 ---
 
-**NORMAL EXTENSION (Lever DN)**
+### NORMAL EXTENSION (Lever DN)
+
 
 When you move the lever to DN:
 1. Uplock box releases each gear leg
@@ -91,7 +96,8 @@ When you move the lever to DN:
 3. **Down lock mechanism** holds gear in extended position
 4. Green lights illuminate when locked down
 
-**What's normal:**
+### What's normal:
+
 - The nose gear often takes **longer** to show a green light than the mains
 - All three legs don't necessarily lock at the exact same time
 - A short delay in position indications is **normal** - don't panic
@@ -101,20 +107,24 @@ When you move the lever to DN:
         st.markdown("""
 **What it's for:** Extends the gear when normal hydraulic extension fails
 
-**Emergency handle location:** On the cockpit **floor**
+### Emergency handle location:** On the cockpit **floor
 
-**How it works:**
+
+### How it works:
+
 1. Pull the free-fall handle
 2. This activates the **free-fall selector valve**
 3. Valve dumps all hydraulic pressure from the gear lines
 4. Up locks are **mechanically released**
 
-**What happens next:**
+### What happens next:
+
 - **Gravity and airflow** push the gear down (no hydraulics needed)
 - **Down lock mechanism** locks the gear in place
 - Green DN lights appear only **after** you move the LDG GEAR lever to DN
 
-**Important details:**
+### Important details:
+
 - Maximum pull force needed: **25 kg (55 lb)**
 - If a main gear won't lock, you may need to **slip the airplane** to use airflow to push that leg into the lock
 """)
@@ -126,28 +136,33 @@ When you move the lever to DN:
         st.markdown("""
 **What it does:** Holds each gear leg **up and locked** when retracted
 
-**Two ways to unlock it:**
+### Two ways to unlock it:
+
 1. **Normal:** Hydraulic actuator releases the lock when you select gear DN
 2. **Emergency:** Mechanical release via the free-fall handle (no hydraulics needed)
 
-**How the system knows the gear is up:**
+### How the system knows the gear is up:
+
 - Each uplock box has a **proximity sensor**
 - When the gear locks in, the sensor signals "up and locked" to the cockpit
 """)
     
     with st.expander("**5. Position & Warning Subsystem**", expanded=False):
         st.markdown("""
-**Sensors that tell the system where the gear is:**
+### Sensors that tell the system where the gear is:
+
 - **Down and locked** proximity switches (one per leg)
 - **Up and locked** proximity switches (one per leg)
 - **Weight On Wheels (WOW)** switches - two per main gear
 - **Lever position** micro switches
 
-**What happens with this data:**
+### What happens with this data:
+
 - The system combines all these signals to show you gear position
 - Also generates CAS messages when something is wrong
 
-**Weight On Wheels (WOW) - important for many systems:**
+### Weight On Wheels (WOW) - important for many systems:
+
 - These switches detect whether the airplane is **on the ground** or **airborne**
 - Compressed = on ground | Extended = airborne
 - If WOW sensors disagree for more than **30 seconds**, you get: **"LG WOW SYS FAIL"**
@@ -162,7 +177,8 @@ When you move the lever to DN:
 
 ---
 
-**With flaps at 0, 1, or 2:**
+### With flaps at 0, 1, or 2:
+
 
 The horn sounds when **ALL** of these are true:
 - Below **700 ft AGL** (radio alt) or within **700 ft** of field elevation
@@ -171,14 +187,16 @@ The horn sounds when **ALL** of these are true:
 
 ---
 
-**With flaps at 3 or FULL:**
+### With flaps at 3 or FULL:
+
 
 - Warning sounds **regardless** of speed, altitude, or power setting
 - **Cannot be silenced** with the WRN INHIB button
 
 ---
 
-**If flaps have failed:**
+### If flaps have failed:
+
 
 - Warning sounds if descending through **700 ft** above field elevation
 
@@ -187,7 +205,8 @@ The horn sounds when **ALL** of these are true:
     
     with st.expander("**7. Brakes System Overview**", expanded=False):
         st.markdown("""
-**Two separate brake systems:**
+### Two separate brake systems:
+
 1. **Main brakes** - your normal braking system
 2. **Emergency/Parking brakes** - backup and parking
 
@@ -195,25 +214,29 @@ Both use hydraulic pressure from the main hydraulic system.
 
 ---
 
-**Main Brake System - what it does:**
+### Main Brake System - what it does:
+
 - Applies brake pressure based on how hard you push the pedals
 - Provides **antiskid protection** to prevent skidding
 - Minimizes stopping distance
 
-**Emergency/Parking Brake - what it does:**
+### Emergency/Parking Brake - what it does:
+
 - Stops the airplane if main brakes fail
 - Holds the airplane parked (works even with hydraulics off)
 
 ---
 
-**How the main brakes work (brake-by-wire):**
+### How the main brakes work (brake-by-wire):
+
 1. You push the rudder pedals (top portion)
 2. **Pedal transducers** sense how much pressure you're applying
 3. Signal goes to the **Brake Control Unit (BCU)**
 4. BCU commands the **brake control valves (BCVs)** - one per wheel
 5. BCVs apply the right amount of hydraulic pressure to the brakes
 
-**Key component - the BCU:**
+### Key component - the BCU:
+
 - Controls left and right brakes **independently**
 - Connected to the **Emergency Bus** (important for emergencies!)
 - Monitors: wheel speed, pedal position, and brake pressure
@@ -225,11 +248,13 @@ The brake system has **four automatic protection functions:**
 
 ---
 
-**A. LOCKED WHEEL PROTECTION**
+### A. LOCKED WHEEL PROTECTION
+
 
 **Purpose:** Prevents a tire from blowing out if one wheel locks up
 
-**How it works:**
+### How it works:
+
 - BCU compares left and right wheel speeds
 - If one wheel drops to **≤30%** of the other's speed, it's "locked"
 - System **releases pressure** on that wheel so it can spin back up
@@ -239,11 +264,13 @@ The brake system has **four automatic protection functions:**
 
 ---
 
-**B. ANTISKID PROTECTION**
+### B. ANTISKID PROTECTION
+
 
 **Purpose:** Maximizes braking without skidding
 
-**How it works:**
+### How it works:
+
 - If a wheel starts to skid, the system **reduces brake pressure** automatically
 - This lets the tire regain grip, then reapplies pressure
 - Active when both wheels are above **30 kt**
@@ -254,16 +281,19 @@ The brake system has **four automatic protection functions:**
 
 ---
 
-**C. TOUCHDOWN PROTECTION**
+### C. TOUCHDOWN PROTECTION
+
 
 **Purpose:** Prevents braking before the wheels spin up at landing
 
-**How it works:**
+### How it works:
+
 - Even if you're pressing the pedals in the flare, **no brake pressure is applied**
 - Wheels are allowed to spin up freely at touchdown
 - Prevents tire blowout from sudden braking on a stationary wheel
 
-**When it cancels:**
+### When it cancels:
+
 - Both wheels exceed **60 kt** (even before WOW says "on ground")
 - **3 seconds** after WOW indicates "on ground" (regardless of speed)
 - After touchdown, the spin-up threshold drops from **60 → 30 kt** over 3 seconds
@@ -272,11 +302,13 @@ The brake system has **four automatic protection functions:**
 
 ---
 
-**D. GEAR RETRACT BRAKING**
+### D. GEAR RETRACT BRAKING
+
 
 **Purpose:** Stops the wheels from spinning before they enter the wheel well
 
-**How it works:**
+### How it works:
+
 1. When WOW = airborne AND you select gear UP
 2. BCU waits **3 seconds** (for hydraulic demand to settle)
 3. Then applies ramped brake pressure to stop the wheels
@@ -288,29 +320,34 @@ The brake system has **four automatic protection functions:**
         st.markdown("""
 **What it is:** An automatic self-test the brake system runs in flight
 
-**When it runs (all conditions must be true):**
+### When it runs (all conditions must be true):
+
 - Gear lever moves from UP to DN
 - At least one gear shows down and locked
 - WOW indicates airborne
 - Both wheels are stationary
 - 10-second delay (lets hydraulic pressure stabilize)
 
-**What it tests:**
+### What it tests:
+
 - Runs the brake pressure loop through its full range
 - Checks the SOV, brake control valves, and pressure transducers
 
-**Duration:** About **5 seconds**
+### Duration:** About **5 seconds
+
 """)
     
     with st.expander("**10. Emergency/Parking Brake**", expanded=False):
         st.markdown("""
-**Two uses for this system:**
+### Two uses for this system:
+
 1. **Parking brake** - hold the airplane while parked
 2. **Emergency brake** - stop the airplane if main brakes fail
 
 ---
 
-**The T-Handle:**
+### The T-Handle:
+
 - Located on the **center pedestal**
 - Connected to the brake valve by a steel cable
 - Pull up = brakes ON | Push down = brakes OFF
@@ -318,14 +355,16 @@ The brake system has **four automatic protection functions:**
 
 ---
 
-**The Accumulator (stores pressure for emergencies):**
+### The Accumulator (stores pressure for emergencies):
+
 - Isolated from the main hydraulic system by a check valve and shutoff valve
 - Shutoff valve opens during engine start (on ground, both thrust levers at idle for **>50 seconds**)
 - Holds enough pressure for **6 full brake applications**
 
 ---
 
-**How you know it's working:**
+### How you know it's working:
+
 - When you pull the handle, hydraulic pressure goes to the brakes
 - A **white PARK BRK light** illuminates on the front panel
 
@@ -349,11 +388,13 @@ The brake system has **four automatic protection functions:**
     
     with st.expander("**11. Fusible Plugs & Brake Wear Pins**", expanded=False):
         st.markdown("""
-**FUSIBLE PLUGS**
+### FUSIBLE PLUGS
+
 
 **What they are:** Safety plugs in the main wheels with a metal core that melts when hot
 
-**Why they exist:**
+### Why they exist:
+
 - After a high-energy event (like an RTO), brakes get extremely hot
 - Heat transfers to the tires, which could explode in the wheel well
 - The fusible plug melts and **releases tire pressure safely** before that can happen
@@ -362,11 +403,13 @@ The brake system has **four automatic protection functions:**
 
 ---
 
-**BRAKE WEAR PINS**
+### BRAKE WEAR PINS
+
 
 **What they are:** Visual indicators showing how much brake pad is left
 
-**How to check:**
+### How to check:
+
 1. Set the **parking brake** (required for accurate reading!)
 2. Look at the wear pins on each main wheel
 3. If pins are **flush with Face A**, brakes need replacement
@@ -447,7 +490,8 @@ The brake system has **four automatic protection functions:**
 
 **Brake-by-wire** — BCU modulates pressure by runway condition (less decel on contaminated runway for same pedal input).
 
-**BRK FAIL causes (fleet experience)**
+### BRK FAIL causes (fleet experience)
+
 - Residual brake pressure at touchdown after rudder brake during approach.
 - Bounce: wheels stop (anti-skid) → pedals after spin-up before WOW → BCU manual mode → **BRK FAIL**.
 - **FOL 010/13**, **FOL 005/16** — system reset may help if no real fault; QRH landing factor if CAS persists.

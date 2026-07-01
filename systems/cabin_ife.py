@@ -31,7 +31,8 @@ def render_cabin_ife():
 
 **IFE switch** — ON/OFF for the system. **Recycle IFE first** if passengers cannot connect.
 
-**Ground vs air**
+### Ground vs air
+
 - On the ground, data often comes via **3G modem** (can feel faster than in flight).
 - **Test/troubleshoot airborne** when possible — ground 3G can mask a broken SBB link.
 
@@ -50,22 +51,26 @@ def render_cabin_ife():
     with st.expander("**2. Go-Go / NetJets IFE — troubleshooting**", expanded=False):
         st.markdown(
             """
-**1. Wi-Fi error on NetJets Entertainment app**
+### 1. Wi-Fi error on NetJets Entertainment app
+
 - Read message (ramp Wi-Fi vs aircraft).
 - Connect to **Your Aircraft's Wi-Fi** or recycle **IFE** switch.
 - Cabin power **≥ 10 minutes** after power-on before reconnecting.
 
-**2. DRM errors**
+### 2. DRM errors
+
 - Power aircraft; wait 5–10 min for UCS boot.
 - iPad: close all apps → Wi-Fi to aircraft → browser **splash.gogo.aero** → confirm load → close apps → open IFE app.
 - If still failing: off-aircraft Wi-Fi + **nje-wireless@netjets.com** to unlock/reinstall app.
 
-**3. No media / blank storefront**
+### 3. No media / blank storefront
+
 - Often after content update with poor 3G.
 - UCS internet: ground = 3G; in flight = SBB only (3G disabled).
 - iPad: close apps → internet → retry app → hard reset if needed.
 
-**4. Grey screen (“grey screen of death”)**
+### 4. Grey screen (“grey screen of death”)
+
 - Go-Go box corruption — usually needs **maintenance remote reboot**; aircraft may go to MX.
 
 _Full maintenance memo: NTA 12/2017 Rev 1 (Handbook ref.)._
@@ -75,19 +80,22 @@ _Full maintenance memo: NTA 12/2017 Rev 1 (Handbook ref.)._
     with st.expander("**3. Nespresso coffee machine**", expanded=False):
         st.markdown(
             """
-**Before use**
+### Before use
+
 - Instruction book next to machine.
 - **Door fully open** — secondary power switch in door cuts power when closed.
 - Use **Volvic** water (large bottles on board) — Evian causes limescale damage.
 - **ONLY** plug into **aircraft socket** — never FBO/hotel (pop + burning smell).
 
-**No power**
+### No power
+
 - Check door open; try another aircraft socket with **iPhone charger** to test socket.
 - CBs above baggage bay can trip — **maintenance** (crew cannot access).
 
 **Quick flash then off** — internal tank empty; exercise valve at base of water container, reseat firmly.
 
-**Cold weather**
+### Cold weather
+
 - If aircraft stays cold: run **EMPTY FLUID SYSTEM** (manual p.7) or remove machine to FBO.
 - Frozen pipes have destroyed machines after multi-day cold soak.
 
@@ -100,11 +108,13 @@ _Full maintenance memo: NTA 12/2017 Rev 1 (Handbook ref.)._
     with st.expander("**4. Lavatory — pre-flight & operation**", expanded=False):
         st.markdown(
             """
-**Pre-flight**
+### Pre-flight
+
 - Check flush works (button not **red** = not ~90% full).
 - If no flush and button not red → may need **~1 L more water** in bowl (handbook uses conservative **4 L** after service).
 
-**Capacity**
+### Capacity
+
 - Tank ~12 L; **red flush button** ~90% (~10 L). Overflow capability ~16 L — stay well below.
 
 **Cold weather link** — if lavatory drained overnight, **refill before departure** (see **Cold Weather**).
@@ -114,7 +124,8 @@ _Full maintenance memo: NTA 12/2017 Rev 1 (Handbook ref.)._
     with st.expander("**5. Lavatory — servicing (post-flight)**", expanded=False):
         st.markdown(
             """
-**Service panel (exterior)**
+### Service panel (exterior)
+
 1. Open inlet rinse + drain valve doors — no leak from internal door before connecting hoses.
 2. **Do not open internal flapper** until waste hose connected.
 3. Attach waste + rinse hoses per handbook diagram.
@@ -159,7 +170,8 @@ _Full maintenance memo: NTA 12/2017 Rev 1 (Handbook ref.)._
     with st.expander("**8. Cabin checks (preflight PM)**", expanded=False):
         st.markdown(
             """
-**Interior (Handbook 2.3.1 + SOP cabin prep)**
+### Interior (Handbook 2.3.1 + SOP cabin prep)
+
 - Emergency equipment, life jackets, FAK/AED, briefing cards
 - Galley / **toilet** clean and stocked
 - iPads charged; magazines / seat pockets

@@ -36,17 +36,20 @@ The **Automatic Flight Control System** has three pilot-facing functions:
     with st.expander("**2. FD vs AP — when to use which**", expanded=False):
         st.markdown(
             """
-**Flight Director only (AP OFF)**
+### Flight Director only (AP OFF)
+
 - PF hand-flies the **command bars**.
 - PM selects modes and calls **'[MODE] GREEN'** after PF selects.
 - Used below AP engage height, manoeuvring, or when AP not desired.
 
-**Autopilot ON**
+### Autopilot ON
+
 - Servos fly to FD commands.
 - PF monitors; PM verifies modes and manages nav/altitude changes.
 - **CWS** — press and hold on the yoke to hand-fly **without** disconnecting AP; FD resynchronises to attitude when released.
 
-**Quick disconnect (red button)**
+### Quick disconnect (red button)
+
 - Disconnects **AP and YD** immediately.
 - After release: AP and YD stay **off** until re-selected (trim and pusher logic separate).
 
@@ -119,7 +122,8 @@ The **Automatic Flight Control System** has three pilot-facing functions:
             """
 Some airports require **steeper than normal** glideslope (e.g. London City 5.5°).
 
-**Concept**
+### Concept
+
 - AFCS provides **steep approach** guidance when selected and available.
 - Uses different gain/limits than normal ILS/APV.
 
@@ -143,7 +147,8 @@ Check **OM-C airport briefing** and **OM-B steep approach** supplement before op
 
 **AP FAIL** — autopilot has failed or disconnected abnormally. **Fly the aircraft** — FD may still guide if available.
 
-**Go-around**
+### Go-around
+
 - **TO/GA** mode (when armed/selected) — pitch and roll guidance for missed approach.
 - Disconnect AP/FD as per QRH if behaviour is wrong.
 
@@ -175,7 +180,8 @@ Before your session, you should be able to explain **without notes**:
 6. **STEEP FAIL** operational consequence.
 7. Where **SWPS / pusher** fits (Flight Controls — not AFCS, but same training day).
 
-**In Briefly**
+### In Briefly
+
 - **SOP → Approaches** — mode callouts on final
 - **SOP → General → Automation** — AP/FD tables
 - **Flight Profiles** — profile diagrams

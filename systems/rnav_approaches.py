@@ -173,7 +173,8 @@ def render_rnav_approaches():
 
 **PM check before FAF:** HSI **FMS L/VNAV** · compare FMS vertical profile to plate · **do not edit** approach waypoints in the FMS database.
 
-**VDI shape tells you the source:**
+### VDI shape tells you the source:
+
 - **Magenta diamond** → SBAS glidepath
 - **Magenta pentagon** → Baro VNAV
 
@@ -292,7 +293,8 @@ def render_rnav_approaches():
 
 **After 1 min to FAF:** downgrade to **LNAV** when past FAF — may be **no message**.
 
-**Pilot actions:**
+### Pilot actions:
+
 - **Acknowledge** GTC message to allow automatic downgrade
 - **Before FAF:** missed approach, or continue to **LNAV/VNAV** or **LNAV** minima if briefed and available
 - **After FAF:** missed approach unless visual references, or above 1000 ft continue to **LNAV** minima if briefed
@@ -337,7 +339,8 @@ def render_rnav_approaches():
         )
         st.markdown(
             """
-**Where to go next in Briefly**
+### Where to go next in Briefly
+
 - **SOP → Approaches** — exact PF/PM callouts per type
 - **Flight Profiles** — stabilised point, config gates, profile diagrams
 - **Special Airports** — airport-specific RNP/RNAV restrictions (e.g. RNP AR prohibited)

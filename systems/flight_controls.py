@@ -17,7 +17,8 @@ def render_flight_controls():
     with st.expander("**1. Big picture — how it all fits together**", expanded=True):
         st.markdown(
             """
-**Two layers to remember**
+### Two layers to remember
+
 
 | Layer | What it is | How you move it |
 |-------|------------|-----------------|
@@ -56,7 +57,8 @@ def render_flight_controls():
 
 **How they move** — DC electric motor → jackscrews → flap actuators (via flexible shafts). **FCE 1** commands the single Power Drive Unit (PDU).
 
-**Speed limits (VFE)**
+### Speed limits (VFE)
+
 
 | Position | Max speed |
 |----------|-----------|
@@ -114,7 +116,8 @@ def render_flight_controls():
     with st.expander("**5. Spoilers & speedbrake**", expanded=False):
         st.markdown(
             """
-**One spoiler system — three jobs**
+### One spoiler system — three jobs
+
 
 | Function | When | Purpose |
 |----------|------|---------|
@@ -222,7 +225,8 @@ def render_flight_controls():
             """
 NetJets Handbook references **FOL 015/11** for **FCE-related CAS at power-up** (flap fail, spoiler fault, pitch trim faults).
 
-**Practical approach:**
+### Practical approach:
+
 1. Note exact CAS level and text.
 2. Check MFD **flight controls synoptic**.
 3. Do not rush past **Before Takeoff** — config check may catch related issues.

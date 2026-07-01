@@ -178,6 +178,47 @@ body.briefly-systems-page .briefly-memory-expander details {{
   background: #FEF2F2 !important;
 }}
 
+body.briefly-systems-page [data-testid="stExpander"]:not(.briefly-memory-expander) [data-testid="stMarkdownContainer"] h3 {{
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  color: {COLORS["ink"]} !important;
+  margin: 1.1rem 0 0.35rem !important;
+  letter-spacing: normal !important;
+  line-height: 1.45 !important;
+}}
+
+body.briefly-systems-page [data-testid="stExpander"]:not(.briefly-memory-expander) [data-testid="stMarkdownContainer"] h3:first-child {{
+  margin-top: 0.25rem !important;
+}}
+
+body.briefly-systems-page [data-testid="stExpander"]:not(.briefly-memory-expander) [data-testid="stMarkdownContainer"] p,
+body.briefly-systems-page [data-testid="stExpander"]:not(.briefly-memory-expander) [data-testid="stMarkdownContainer"] li {{
+  font-size: 1rem !important;
+  line-height: 1.6 !important;
+  color: {COLORS["ink_soft"]} !important;
+}}
+
+body.briefly-systems-page [data-testid="stExpander"]:not(.briefly-memory-expander) [data-testid="stMarkdownContainer"] table {{
+  font-size: 0.95rem;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0.35rem 0 0.75rem;
+}}
+
+body.briefly-systems-page [data-testid="stExpander"]:not(.briefly-memory-expander) [data-testid="stMarkdownContainer"] table th,
+body.briefly-systems-page [data-testid="stExpander"]:not(.briefly-memory-expander) [data-testid="stMarkdownContainer"] table td {{
+  padding: 0.45rem 0.65rem;
+  border: 1px solid rgba(155, 180, 201, 0.55);
+  vertical-align: top;
+}}
+
+body.briefly-systems-page [data-testid="stExpander"]:not(.briefly-memory-expander) [data-testid="stMarkdownContainer"] table th {{
+  background: {COLORS["accent_soft"]};
+  color: {COLORS["ink"]};
+  font-weight: 650;
+  text-align: left;
+}}
+
 body.briefly-systems-page .briefly-memory-expander [data-testid="stMarkdownContainer"] table {{
   border-collapse: separate;
   border-spacing: 0;

@@ -42,12 +42,14 @@ def render_electrics():
     with st.expander("**1. System overview**", expanded=True):
         st.markdown(
             """
-**What this system does**
+### What this system does
+
 - Provides **28 VDC** electrical power to aircraft systems.
 - Designed for **automatic** operation with low pilot workload.
 - Built around **two independent DC channels** for fault isolation; **bus ties** can automatically connect networks if needed.
 
-**Primary power sources**
+### Primary power sources
+
 - **Starter Generators 1/2 (SG1/SG2)**: normal primary sources.
 - **Batteries 1/2**: backup sources (and support starts).
 - **DC GPU**: ground power to energize the airplane on the ramp.
@@ -60,15 +62,18 @@ _Source: POH 6-04-00, 6-04-15 (Rev 14)._"""
             """
 Core concept: **two independent DC channels with automatic bus-tie logic**.
 
-**Two DC channels (left/right)**
+### Two DC channels (left/right)
+
 - In normal flight, each starter generator powers **its own network**.
 - This keeps faults isolated (a problem on one side is less likely to take the other side down).
 
-**BUS TIE (AUTO)**
+### BUS TIE (AUTO)
+
 - In AUTO, the airplane can **connect the networks** to keep essential buses powered when a source is lost.
 - You’ll see this on the electrical synoptic as a change in which source feeds which bus.
 
-**Emergency philosophy**
+### Emergency philosophy
+
 - If you lose the normal sources, the system goes into a **simplified emergency configuration**: fewer loads, longer endurance.
 """
         )
@@ -76,7 +81,8 @@ Core concept: **two independent DC channels with automatic bus-tie logic**.
     with st.expander("**3. Controls (Electrical panel)**", expanded=False):
         st.markdown(
             """
-**Left lateral console – Electrical panel**
+### Left lateral console – Electrical panel
+
 - **GEN 1 / GEN 2 (AUTO / OFF)**: connects or isolates each starter generator from its DC bus.
 - **GPU button (push in/out)**: connects GPU to the **Central Bus** when power quality is acceptable.
   - **GPU AVAIL** indicates the GPU is properly connected and within limits.
@@ -94,12 +100,14 @@ _Source: POH 6-04-05 (Rev 10/14)._"""
     with st.expander("**4. Normal operation (what you should expect)**", expanded=False):
         st.markdown(
             """
-**In flight (typical)**
+### In flight (typical)
+
 - Each starter generator powers its **own DC bus** (split configuration).
 - **SG2 also supplies the Central Bus** under normal conditions.
 - Batteries are generally **charging** when generators/GPU are available.
 
-**On the ramp**
+### On the ramp
+
 - A **DC GPU** can power the **Central Bus** for preflight/servicing and can assist starting.
 - After engine start, the associated **starter generator comes online automatically** (if GEN switch is in AUTO).
 
@@ -109,14 +117,17 @@ _Source: POH 6-04-15 (Rev 14)._"""
     with st.expander("**5. Key numbers (quick lookup)**", expanded=False):
         st.markdown(
             """
-**Starter generators**
+### Starter generators
+
 - Continuous current capability: **330 A (ground)** / **390 A (flight)** each, at **28 VDC**.
 
-**Batteries**
+### Batteries
+
 - Two lead-acid **24 VDC** batteries.
 - Backup endurance for emergency loads: **up to 45 minutes** (dual generator failure).
 
-**GPU (external power) – minimum specs**
+### GPU (external power) – minimum specs
+
 - DC rectifier: **28.5 VDC**, nominal **600 A** (input 200–480 VAC, 25 kVA).
 - Overload capability: **2000 A up to 2 seconds**.
 - GPU AVAIL (power quality): **25–29 V**.
@@ -128,18 +139,21 @@ _Source: POH 6-04-15 (Rev 14)._"""
     with st.expander("**6. Distribution concept (PDUs & buses)**", expanded=False):
         st.markdown(
             """
-**Power Distribution Units (PDUs)**
+### Power Distribution Units (PDUs)
+
 - **LPDU / RPDU**: main distribution units (rear electronic bay).
 - **EPDU**: emergency distribution (nose electronic bay).
 
-**Buses you’ll see referenced**
+### Buses you’ll see referenced
+
 - **DC BUS 1 / DC BUS 2**
 - **Central Bus**
 - **Emergency Bus**
 - **Hot Batt Bus 1 / Hot Batt Bus 2**
 - **Shed Bus 1 / Shed Bus 2**
 
-**Shed buses (load shedding)**
+### Shed buses (load shedding)
+
 - Shed buses are **non-essential loads** that can be removed automatically to protect essential buses and prevent overload.
 - When electrical power is limited, it is normal to see **SHED BUS** indications change as loads are shed/restored.
 

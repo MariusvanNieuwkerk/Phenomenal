@@ -48,7 +48,8 @@ The **Crew Alerting System (CAS)** is your central warning display on the PFD.
             """
 Before takeoff, the system verifies the aircraft is configured correctly (logic varies by phase).
 
-**Typically monitored:**
+### Typically monitored:
+
 - Flap position vs required takeoff setting
 - Speedbrake / spoiler state
 - Trim in takeoff range
@@ -112,7 +113,8 @@ _See **Special Airports** for airport-specific notes (e.g. Lugano)._
             """
 **Ground TA/RA events** — transponder in **AUTO** on ground with faulty **radalt** (e.g. showing 1100 ft on ramp) can trigger **CLIMB** alerts.
 
-**Fleet procedure**
+### Fleet procedure
+
 1. **STBY** at power-up during system tests and FMS programming.
 2. Select **AUTO** just before **taxi** (required for ALT reporting airborne — **ON** does not auto-switch to ALT).
 

@@ -44,7 +44,8 @@ def render_ice_protection():
             """
 The ice and rain protection system is designed to prevent performance/handling degradation from ice and maintain visibility.
 
-**Protected areas**
+### Protected areas
+
 - **Wing & horizontal stabilizer leading edges** (thermal anti-ice using bleed air)
 - **Engine inlets (lip)** (thermal anti-ice using engine bleed)
 - **Windshields** (electrical heating + rain repellent coating)
@@ -60,15 +61,18 @@ _Source: POH 6-11-00 (Rev 6)._"""
             """
 Ice protection uses two main energy sources, with operational consequences.
 
-**Thermal anti-ice (hot bleed air)**
+### Thermal anti-ice (hot bleed air)
+
 - Used for **wing/stab** and **engine inlet** protection.
 - Effective, but it reduces available engine performance because it uses compressor air.
 
-**Electrical heating**
+### Electrical heating
+
 - Used for **windshield heat** and **probe heat**.
 - Lower performance impact, but can be limited by electrical failures.
 
-**Key operational consequence**
+### Key operational consequence
+
 - When wing/stab anti-ice is ON, the airplane changes stall warning logic and you’ll see **ICE SPEED** related cues/messages.
 """
         )
@@ -76,7 +80,8 @@ Ice protection uses two main energy sources, with operational consequences.
     with st.expander("**3. Controls & indications (quick orientation)**", expanded=False):
         st.markdown(
             """
-**Controls**
+### Controls
+
 - Ice/rain protection control panel includes switches for:
   - **WINGSTAB** anti-ice
   - **ENG 1 / ENG 2** anti-ice
@@ -84,7 +89,8 @@ Ice protection uses two main energy sources, with operational consequences.
   - **ADS PROBES** heating (OFF / AUTO / ON)
   - **ICE SPEED RESET** (after confirming no ice remains)
 
-**Indications**
+### Indications
+
 - Synoptic page on the **MFD** provides valve/flow status and legend symbology.
 
 _Source: POH 6-11-05 (Rev 6)._"""
@@ -104,14 +110,17 @@ _Source: POH 6-11-05 (Rev 6)._"""
     with st.expander("**5. Wing & stabilizer anti-ice (WHSAIS)**", expanded=False):
         st.markdown(
             """
-**How it works**
+### How it works
+
 - Uses bleed air and regulation logic to provide adequate thermal energy to the leading edges.
 - System balances bleed temperature vs flow to keep leading edges effective without overheating.
 
-**Ground inhibition**
+### Ground inhibition
+
 - WHSAIS is inhibited on the ground when **wheel speed is below 40 kt** (overheat protection).
 
-**Operational effect (important)**
+### Operational effect (important)
+
 - When **WINGSTAB** is ON, stall warning activation angles are adjusted and **stall warning speeds increase**.
 - The CAS message **SWPS ICE SPEED** is displayed when WINGSTAB is ON.
 - Use **ICE SPEED RESET** only when you’re sure there is **no more ice** on the airplane.
@@ -126,11 +135,13 @@ _Source: POH 6-11-10 (Rev 12)._"""
     with st.expander("**6. Engine anti-ice (nacelle lip + S/G inlet)**", expanded=False):
         st.markdown(
             """
-**Purpose**
+### Purpose
+
 - Prevent/remove ice around the engine inlet cowls (lip).
 - Also routes heat to the **starter/generator air inlet** region to prevent ice accumulation.
 
-**Key components**
+### Key components
+
 - Supply duct
 - **EAI shutoff valve** (pressure-regulating shutoff valve)
 - **Flow limiter (venturi)**
@@ -138,7 +149,8 @@ _Source: POH 6-11-10 (Rev 12)._"""
 - Piccolo tube (distributes hot air inside the inlet lip)
 - Exhaust vent
 
-**Behavior you should know**
+### Behavior you should know
+
 - Each side is **independent**; bleed cannot be shared between engines.
 - When ENG 1(2) anti-ice is ON, the **TT0 probe heater** is also turned ON.
 - The valve is designed to **fail-safe open** in the absence of an electrical signal.
@@ -150,16 +162,19 @@ _Source: POH 6-11-10 (Rev 12) + 6-05-30._"""
     with st.expander("**7. Windshield heating (anti-ice / anti-fog)**", expanded=False):
         st.markdown(
             """
-**What it does**
+### What it does
+
 - Regulates temperature of heating mats embedded in each windshield to prevent:
   - **Ice on the outside**, and
   - **Fog on the inside**
 
-**Normal control range**
+### Normal control range
+
 - Controlled between **35°C and 43°C** (95–110°F).
 - Overheat set point: **60°C** (140°F).
 
-**Overheat / failure**
+### Overheat / failure
+
 - Overheat removes power and triggers **WSHLD 1(2) HTR FAIL**.
 - Reset requires cycling **both WSHLD switches** (system architecture dependency).
 
@@ -173,11 +188,13 @@ _Source: POH 6-11-10 (Rev 12) + 6-11-20._"""
     with st.expander("**8. Windshield rain protection (wiperless)**", expanded=False):
         st.markdown(
             """
-**Concept**
+### Concept
+
 - A hydrophobic **Rain Repellent Coating (RRC)** on each windshield panel causes water to bead.
 - Slipstream removes beads, leaving enough clear area for forward visibility.
 
-**Practical note**
+### Practical note
+
 - The coating does not remain effective indefinitely; service life depends on environment and cleaning practices.
 - Re-application kits are used when required.
 
@@ -187,16 +204,19 @@ _Source: POH 6-11-10 (Rev 12)._"""
     with st.expander("**9. ADS probe heating (AUTO / ON logic)**", expanded=False):
         st.markdown(
             """
-**What’s heated**
+### What’s heated
+
 - Integrated Air Data & Stall Protection Probes (IASP / MFP)
 - Standby pitot-static probe
 
-**Normal position: AUTO**
+### Normal position: AUTO
+
 - Heaters energize automatically when:
   - At least one engine is running, **or**
   - Airplane weight is **not on wheels**.
 
-**ON (ground use)**
+### ON (ground use)
+
 - Can be used on the ground to remove ice from probes before engine start.
 - Can be used in flight if automatic control fails.
 

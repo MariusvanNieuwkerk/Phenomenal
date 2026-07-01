@@ -51,12 +51,14 @@ def render_oxygen():
     with st.expander("**2. Controls & indications**", expanded=False):
         st.markdown(
             """
-**Crew interface**
+### Crew interface
+
 - **OXYGEN control panel** — supply control, crew mask selectors
 - **Mask stowage boxes** — EMERGENCY vs NORMAL dilution (smoke: EMERGENCY + dilution CLOSED)
 - **MFD synoptic** — cylinder pressure / system status
 
-**Passenger system**
+### Passenger system
+
 - **SUPPLY CONTROL** — typically **PAX AUTO** for normal ops
 - Automatic deployment when cabin altitude exceeds threshold (logic per POH)
 """
@@ -66,11 +68,13 @@ def render_oxygen():
     with st.expander("**3. Crew masks — operational**", expanded=False):
         st.markdown(
             """
-**Smoke / fumes / fire**
+### Smoke / fumes / fire
+
 - **DON**, selector **EMERGENCY**, **dilution CLOSED**, smoke goggles as required
 - Establish communication (mic on mask or interphone per POH)
 
-**Depressurization**
+### Depressurization
+
 - **DON**, **100%** oxygen
 - Descend to 10,000 ft or MEA — **CAB ALTITUDE HI** / **EMERGENCY DESCENT** memory items
 
@@ -83,7 +87,8 @@ def render_oxygen():
             """
 **Deployment** — masks drop when cabin altitude logic commands (or manual per QRH).
 
-**PAX briefing essentials**
+### PAX briefing essentials
+
 - Pull mask firmly to start flow
 - Fit over nose and mouth
 - Normal breathing — bag may not fully inflate

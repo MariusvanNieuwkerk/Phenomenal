@@ -59,11 +59,13 @@ Operationally, most “air” topics on the airplane connect back to two questio
     with st.expander("**2. Controls & indications (what you touch / what you monitor)**", expanded=False):
         st.markdown(
             """
-**Primary crew interfaces**
+### Primary crew interfaces
+
 - **Air Conditioning Control Panel** (temperature / distribution / conditioning functions).
 - **Pressurization and Pneumatic Control Panel** (pressurization mode, dump, bleed, crossbleed).
 
-**Primary displays**
+### Primary displays
+
 - **MFD synoptic pages** (air management overview and system state).
 - **Cabin pressure indication** (cabin altitude / rate / differential pressure).
 """
@@ -79,15 +81,18 @@ Operationally, most “air” topics on the airplane connect back to two questio
     with st.expander("**3. Pneumatic (bleed) system (what it supplies)**", expanded=False):
         st.markdown(
             """
-**What bleed air is used for**
+### What bleed air is used for
+
 - **Cabin conditioning and pressurization** (via ECS).
 - **Wing/stabilizer anti-ice** (thermal).
 
-**Key elements**
+### Key elements
+
 - **PRSOV (per engine)**: regulates bleed pressure and provides shutoff.
 - **XBV (Cross Bleed Valve)**: interconnect capability between sides when required.
 
-**Practical monitoring**
+### Practical monitoring
+
 - If multiple “air” functions degrade together (pressurization, temperature control, anti-ice), suspect **bleed supply** first.
 """
         )
@@ -110,13 +115,16 @@ Operational cues:
             """
 Pressurization is controlled by **air in vs air out**.
 
-**Air in (supply)**
+### Air in (supply)
+
 - Engine bleed air (conditioned by ECS).
 
-**Air out (control)**
+### Air out (control)
+
 - Cabin pressure is controlled primarily by positioning the **Outflow Valve (OFV)**.
 
-**Effect of OFV position**
+### Effect of OFV position
+
 - **Close OFV** → less air escapes → cabin pressure increases (cabin altitude decreases).
 - **Open OFV** → more air escapes → cabin pressure decreases (cabin altitude increases).
 
@@ -135,7 +143,8 @@ The CPCS provides automatic OFV control to maintain cabin altitude, cabin rate, 
         st.table(pd.DataFrame(phases, columns=["Phase", "Goal"]))
         st.markdown(
             """
-**Landing field reference**
+### Landing field reference
+
 - The automatic schedule depends on having a correct destination reference (typically from the FMS or via manual entry).
 """
         )
@@ -152,11 +161,13 @@ The CPCS provides automatic OFV control to maintain cabin altitude, cabin rate, 
     with st.expander("**8. AUTO vs MAN pressurization**", expanded=False):
         st.markdown(
             """
-**AUTO (normal)**
+### AUTO (normal)
+
 - CPCS controls cabin exhaust through ground / takeoff / climb / descent / taxi.
 - Needs correct **Landing Field Elevation (LFE)** from FMS or manual MFD entry.
 
-**MAN (abnormal)**
+### MAN (abnormal)
+
 - MODE switch → **MAN**; use **CABIN ALT UP / DN** to command OFV open/close.
 - Manual channel includes altitude limiting — still protect structure.
 

@@ -32,7 +32,8 @@ def render_hydraulics():
 
     with st.expander("**1. System Description**", expanded=False):
         st.markdown("""
-**What makes up the system:**
+### What makes up the system:
+
 - Two **Engine Driven Pumps (EDP)** - one on each engine
 - One **reservoir** with built-in manifold
 - One **accumulator** for backup pressure
@@ -41,12 +42,14 @@ def render_hydraulics():
 - One **pressure gauge**
 - Two **temperature switches**
 
-**Fluid specs:**
+### Fluid specs:
+
 - Type: MIL-PRF-87257 (synthetic hydrocarbon)
 - Color: **Red** - and highly flammable!
 - System pressure: **3000 psi**
 
-**What does hydraulics power?**
+### What does hydraulics power?
+
 - Landing gear (extend/retract)
 - Main wheel brakes
 - Emergency/Parking brakes
@@ -54,24 +57,28 @@ def render_hydraulics():
 - Stick pusher
 - Rudder spring actuator
 
-**Where to see hydraulic info:**
+### Where to see hydraulic info:
+
 - System status → **MFD synoptic page**
 - Warnings/messages → **Both PFDs**
 """)
     
     with st.expander("**2. Reservoir & Manifold**", expanded=False):
         st.markdown("""
-**How the reservoir works:**
+### How the reservoir works:
+
 - A **spring-rolling diaphragm** keeps the fluid pressurized
 - There's a sight glass on the side so you can **visually check fluid level**
 
-**Fluid flow path:**
+### Fluid flow path:
+
 1. Fluid leaves the reservoir → goes to the pump
 2. Pump pressurizes it → sends it to the manifold
 3. Manifold filters the fluid → routes it to aircraft systems
 4. Returning fluid gets **filtered again** before going back to reservoir
 
-**Sensors built into the manifold:**
+### Sensors built into the manifold:
+
 - **2 temperature switches** - monitor fluid temp
 - **2 pressure switches** - control automatic pump operation
 - **1 pressure transducer** - provides continuous pressure reading to cockpit
@@ -79,17 +86,20 @@ def render_hydraulics():
     
     with st.expander("**3. Engine Driven Pump (EDP)**", expanded=False):
         st.markdown("""
-**The basics:**
+### The basics:
+
 - Each engine has one pump attached to its **accessory gearbox**
 - This is your **only** source of hydraulic power - there are no electric backup pumps
 - Simple rule: **Engine running = pump running**
 
-**How it works:**
+### How it works:
+
 1. Engine spins the pump via a coupling shaft
 2. Pump draws low-pressure fluid from the reservoir
 3. Pump outputs **variable flow** at **3000 psi**
 
-**Case drain line:**
+### Case drain line:
+
 - The pump's internal parts need lubrication
 - This lubricating fluid drains back to the reservoir through a dedicated line
 - It passes through the **return filter** before reaching the reservoir
@@ -97,20 +107,24 @@ def render_hydraulics():
     
     with st.expander("**4. Fire Shutoff Valve (FSOV)**", expanded=False):
         st.markdown("""
-**What it is:**
+### What it is:
+
 - Two valves total - one for each engine's hydraulic pump
 - Powered by the **Emergency Bus** *(remember this!)*
 - Position switches tell you if valve is fully **OPEN** or fully **CLOSED**
 
-**Automatic protection:**
+### Automatic protection:
+
 - Valves **close automatically** if hydraulic fluid gets too hot (HYD HI TEMP)
 - System won't let you reopen them manually while overtemp exists
 
-**How to close them manually:**
+### How to close them manually:
+
 - **Option 1:** Engine fire extinguisher shutoff buttons (1 or 2)
 - **Option 2:** HYD PUMP SOV switches on hydraulic panel
 
-**When would you close them?**
+### When would you close them?
+
 - Engine fire
 - HYD HI TEMP message
 - Hydraulic leak (follow QRH)
@@ -118,20 +132,24 @@ def render_hydraulics():
     
     with st.expander("**5. Accumulator**", expanded=False):
         st.markdown("""
-**What it does:**
+### What it does:
+
 - Stores extra hydraulic pressure for high-demand situations
 - Capacity: **25 cubic inches**
 
-**When it helps:**
+### When it helps:
+
 - Braking + ground spoilers at the same time (landing roll)
 - Any moment when demand exceeds what the pumps can supply
 
-**How it's built:**
+### How it's built:
+
 - Cylinder with a sliding piston inside
 - One side: hydraulic fluid | Other side: compressed gas (nitrogen)
 - Piston keeps them separated and at **equal pressure**
 
-**Emergency backup:**
+### Emergency backup:
+
 - If both pumps fail, the accumulator holds enough pressure for **6 full brake applications**
 """)
     
@@ -139,18 +157,21 @@ def render_hydraulics():
         st.markdown("""
 **Purpose:** Protects the most critical systems when hydraulic demand is high.
 
-**Priority systems (always get fluid first):**
+### Priority systems (always get fluid first):
+
 - Spoilers
 - Stick pusher
 - Rudder spring actuator
 - Brakes
 
-**What happens when demand is high:**
+### What happens when demand is high:
+
 - The valve **restricts flow to the landing gear**
 - Gear still works - it just uses **accumulator pressure** instead
 - Gear may cycle slower, but flight controls and brakes stay fully powered
 
-**Example scenario:**
+### Example scenario:
+
 - Engines at idle = low pump output
 - You're moving gear AND using spoilers
 - Priority valve says: "Spoilers and brakes first, gear can wait"
@@ -159,17 +180,20 @@ def render_hydraulics():
     
     with st.expander("**7. Controls & Indications**", expanded=False):
         st.markdown("""
-**Where to find hydraulic info:**
+### Where to find hydraulic info:
+
 - **MFD Synoptic Page** - shows system diagram plus emergency/parking brake accumulator pressure
 
-**HYD PUMP SOV 1 & 2 Switches:**
+### HYD PUMP SOV 1 & 2 Switches:
+
 
 | Position | What it does |
 |----------|--------------|
 | **OPEN** | Opens the Fire Shutoff Valve (normal position) |
 | **CLOSED** | Closes the FSOV - stops hydraulic fluid flow to that pump |
 
-**When should you close the SOV?**
+### When should you close the SOV?
+
 - Engine fire
 - HYD HI TEMP message
 - Hydraulic leak (follow QRH procedure)
@@ -180,7 +204,8 @@ def render_hydraulics():
     
     with st.expander("**8. Pressure Indication**", expanded=False):
         st.markdown("""
-**Reading the digital pressure display:**
+### Reading the digital pressure display:
+
 
 | Color | What it means |
 |-------|---------------|
@@ -191,7 +216,8 @@ def render_hydraulics():
 
 ---
 
-**Reading the pressure gauge (arc with pointer):**
+### Reading the pressure gauge (arc with pointer):
+
 
 The pointer shows the same value as the digital readout.
 

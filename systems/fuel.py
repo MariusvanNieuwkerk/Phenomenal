@@ -42,14 +42,17 @@ def render_fuel():
     with st.expander("**1. System overview (what it’s doing for you)**", expanded=True):
         st.markdown(
             """
-**Purpose**
+### Purpose
+
 - Store fuel and **continuously supply both engines** across the operating envelope.
 - Provide **indication** and crew alerting (synoptic + CAS).
 
-**Where fuel is stored**
+### Where fuel is stored
+
 - Two **integral wing tanks** (left & right), physically isolated from each other.
 
-**Where to see it**
+### Where to see it
+
 - Fuel parameters and synoptic → **MFD** (Fuel synoptic + Fuel Data)
 - Messages → **both PFDs**
 
@@ -61,15 +64,18 @@ _Source: POH 6-09-00 (Original/Rev 6)._"""
             """
 Use a three-layer model:
 
-**Layer A — The tank (storage)**
+### Layer A — The tank (storage)
+
 - Each wing has a main tank, but the engine feed is taken from a **collector tank**.
 - The collector tank helps keep the pickup submerged and the feed stable.
 
-**Layer B — The normal feed (no moving parts)**
+### Layer B — The normal feed (no moving parts)
+
 - The primary feed is an **ejector/jet pump** (venturi effect).
 - It uses **motive flow** from the engine-driven system to pull fuel forward.
 
-**Layer C — The electric boost pump**
+### Layer C — The electric boost pump
+
 - Electric pumps provide boost for **engine start**, **crossfeed**, and **backup** when primary feed pressure is low.
 """
         )
@@ -87,19 +93,23 @@ Use a three-layer model:
     with st.expander("**4. Normal feed logic (what powers what, when)**", expanded=False):
         st.markdown(
             """
-**Normal flight**
+### Normal flight
+
 - Each engine is normally fed from its **own wing**.
 - Primary feed is via the **ejector (jet) pump**: no moving parts, driven by engine motive flow.
 
-**When the electric boost pumps matter**
+### When the electric boost pumps matter
+
 - **Engine start**
 - **Crossfeed (XFEED) operation**
 - **Backup** if primary feed pressure is insufficient (low pressure in primary feed system)
 
-**Automatic mode**
+### Automatic mode
+
 - With FUEL PUMP selectors in **AUTO**, the **EFCU** commands the electric pumps when needed.
 
-**Why pump power sources are asymmetric (by design)**
+### Why pump power sources are asymmetric (by design)
+
 - **DC Pump 1 (left)**: powered by the **Emergency Bus**
 - **DC Pump 2 (right)**: powered by **DC BUS 2**
 
@@ -109,17 +119,20 @@ _Source: POH 6-09-10 (Rev 12)._"""
     with st.expander("**5. Controls (Fuel panel)**", expanded=False):
         st.markdown(
             """
-**Fuel pump selector (per side)**
+### Fuel pump selector (per side)
+
 - **ON**: activates associated electric boost pump.
 - **AUTO**: EFCU controls pump automatically (normal position).
 - **OFF**: deactivates pump.
 
-**Crossfeed knob (XFEED)**
+### Crossfeed knob (XFEED)
+
 - **LO1**: opens crossfeed **and turns on Pump 2** → both engines fed from **right** tank.
 - **OFF**: crossfeed closed.
 - **LO2**: opens crossfeed **and turns on Pump 1** → both engines fed from **left** tank.
 
-**Operational note**
+### Operational note
+
 - Crossfeed operation **should not be performed during takeoff and landing**.
 
 _Source: POH 6-09-05 (Original/Rev 7)._"""
@@ -129,20 +142,24 @@ _Source: POH 6-09-05 (Original/Rev 7)._"""
     with st.expander("**6. Tanks, ventilation, and indications**", expanded=False):
         st.markdown(
             """
-**Tank structure (each wing)**
+### Tank structure (each wing)
+
 - **Main tank**, **surge tank**, and **collector tank**.
 - The **collector tank** keeps pumps submerged to support a steady feed.
 
-**Vent system**
+### Vent system
+
 - Designed to keep tank differential pressure within structural limits and prevent spillage during maneuvers/overfill events.
 - Each tank vents through a **NACA inlet/outlet** on the lower wing surface (inboard of the wing tip).
 
-**Quantity indication**
+### Quantity indication
+
 - **Capacitive** measurement, self-calibrated (no adjustment).
 - Quantity signal is processed by a segregated **EFCU** channel for each tank.
   - Loss of one tank quantity indication also removes the **total** quantity indication.
 
-**Fuel temperature**
+### Fuel temperature
+
 - Measured in the **right collector tank**.
 - Normal display range: **> -37°C (-34°F)** and **< 80°C (176°F)**.
 
@@ -155,15 +172,18 @@ _Source: POH 6-09-10 (Rev 12) + 6-09-05 (Rev 6)._"""
             """
 Crossfeed allows **both engines to be supplied from one tank** to manage lateral fuel balance.
 
-**LO1**
+### LO1
+
 - Crossfeed opens + **Pump 2 ON**
 - Both engines are fed from the **right** tank
 
-**LO2**
+### LO2
+
 - Crossfeed opens + **Pump 1 ON**
 - Both engines are fed from the **left** tank
 
-**Operational check**
+### Operational check
+
 - With XFEED open, the selected feeding tank should decrease faster than the other tank.
 
 _Source: POH 6-09-05 (Original)._"""
@@ -172,19 +192,23 @@ _Source: POH 6-09-05 (Original)._"""
     with st.expander("**8. Engine fuel feed (architecture)**", expanded=False):
         st.markdown(
             """
-**Independent feeds**
+### Independent feeds
+
 - Left and right engine feed systems are **independent**.
 - Closing one engine fuel shutoff valve does **not** make fuel unavailable to the other engine.
 
-**Pumps in each tank**
+### Pumps in each tank
+
 - **Ejector fuel pump** (primary): venturi/jet pump, **no moving parts**, driven by engine motive flow.
 - **Scavenge jet pump**: maintains collector tank level (helps during uncoordinated maneuvers).
 - **Electric boost pump**: used for **engine start**, **XFEED**, and **backup** when ejector feed is not sufficient.
 
-**Automatic logic**
+### Automatic logic
+
 - With pump selector in **AUTO**, EFCU commands the electric boost pumps when required.
 
-**Electrical power sources (asymmetric on purpose)**
+### Electrical power sources (asymmetric on purpose)
+
 - **DC Pump 1 (left)**: powered by the **Emergency Bus**.
 - **DC Pump 2 (right)**: powered by **DC BUS 2**.
 
@@ -209,7 +233,8 @@ This section summarizes typical system behavior and expected indications.
     with st.expander("**10. Fuel shutoff (fire protection interface)**", expanded=False):
         st.markdown(
             """
-**Fuel shutoff valves**
+### Fuel shutoff valves
+
 - Installed in each wing feed line to prevent hazardous fuel flow into fire zones.
 - **Normally open**.
 - Only the **fire shutoff pushbutton** commands them closed.

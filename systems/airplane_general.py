@@ -94,12 +94,14 @@ _Verify exact figures on your POH §6-01 for exam/sim._
 
 **Route:** stand **left of the main door** → walk **toward the nose** → continue **clockwise** around the aircraft → finish at the **main door**.
 
-**Golden rules**
+### Golden rules
+
 - All doors/panels: **fully open OR fully locked** — never ambiguous.
 - Overall: any **damage**, contamination (ice/frost/snow), or abnormal condition → resolve before flight.
 - **POH** is master for latest checklist revision.
 
-**Order of checks**
+### Order of checks
+
 1. External lights (first flight of the day)
 2. Emergency lighting (batteries OFF)
 3. Exterior walkround (item list below)
@@ -130,7 +132,8 @@ _Verify exact figures on your POH §6-01 for exam/sim._
                 """
 Test with **batteries OFF** — confirms emergency lights run on their own supply.
 
-**Check**
+### Check
+
 - Main aisle lights (red, forward of exits)
 - Overhead lights and **EXIT** signs
 - Main door exit sign
@@ -139,7 +142,8 @@ Test with **batteries OFF** — confirms emergency lights run on their own suppl
 
 **After check** — turn all lights **OFF** (especially on battery power).
 
-**Troubleshooting**
+### Troubleshooting
+
 - Flickering or lights ON in ARM → weak/low emergency battery.
 - Charge with GPU or in flight **≥ 45 min**, then retest.
 - Avoid using EMER lights for paperwork after BATT OFF (known battery drain issue).
@@ -223,7 +227,8 @@ Test with **batteries OFF** — confirms emergency lights run on their own suppl
 | **Hydraulic access — upper door** | Lines, connections, **red chip detectors** OK; door closed |
 | **Hydraulic access — lower door** | Reservoir sight gauge — blue fluid mark in **green dispatch range** |
 
-**If fluid level doubtful**
+### If fluid level doubtful
+
 - Full check per **POH 5-30**.
 - Depressurise parking brake (pump T-handle to zero) only with aircraft **chocked** — chocks stay until after **first engine start**.
 - Low fluid + brake release can raise indicated level — interpret carefully.
@@ -251,7 +256,8 @@ Test with **batteries OFF** — confirms emergency lights run on their own suppl
         with st.expander("**3h. Main door (Ch 2.1.4)**", expanded=False):
             st.markdown(
                 """
-**Main door**
+### Main door
+
 - Condition, ease of movement
 - Door lights / exit signage (after emergency lighting check)
 - Seals and locking indication
@@ -263,7 +269,8 @@ Test with **batteries OFF** — confirms emergency lights run on their own suppl
         st.markdown("---")
         st.markdown(
             """
-**Study checklist**
+### Study checklist
+
 - [ ] I know the walkround **direction** (left of door → nose → clockwise → door)
 - [ ] NLG & MLG **safety pins removed**
 - [ ] **Steering torque link** connected when not towing
@@ -279,7 +286,8 @@ _Full handbook PDF with original layout → **Documents → Handbook Phenom 300*
     with st.expander("**4. Cockpit orientation**", expanded=False):
         st.markdown(
             """
-**Left to right (concept)**
+### Left to right (concept)
+
 - **PFD** — flight instruments, FD command bars, CAS messages
 - **MFD** — synoptics, maps, checklists
 - **GTC** — FMS / system setup touch controller

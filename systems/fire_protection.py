@@ -49,7 +49,8 @@ def render_fire_protection():
     with st.expander("**2. Engine fire — crew interface**", expanded=False):
         st.markdown(
             """
-**Typical sequence (concept — use QRH for exact steps):**
+### Typical sequence (concept — use QRH for exact steps):
+
 
 1. **THRUST lever** — IDLE (affected engine)
 2. **START/STOP** — STOP
