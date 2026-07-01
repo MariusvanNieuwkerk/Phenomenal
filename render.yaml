@@ -13,6 +13,7 @@ services:
       --server.port=$PORT
       --server.address=0.0.0.0
       --server.headless=true
+      --server.enableStaticServing=true
       --server.fileWatcherType=none
     healthCheckPath: /_stcore/health
     autoDeployTrigger: commit

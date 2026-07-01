@@ -4,7 +4,6 @@ import os
 # cannot write to `~/.streamlit`).
 _app_dir = os.path.dirname(os.path.abspath(__file__))
 os.environ.setdefault("STREAMLIT_HOME", os.path.join(_app_dir, ".streamlit_local"))
-os.environ["STREAMLIT_SERVER_WEB_INDEX_TEMPLATE"] = ".streamlit/index.html"
 
 import streamlit as st
 import streamlit.components.v1 as components
@@ -35,11 +34,50 @@ from content.render_helpers import render_search_focus_banner, render_system_mem
 from data.memory_items import MEMORY_CONTENT, MEMORY_TITLES, SYSTEM_MEMORY
 
 def _page_icon() -> str:
-    for name in ("favicon.ico", "briefly-icon.png", "briefly-icon.svg"):
-        path = os.path.join(_app_dir, "static", name)
-        if os.path.isfile(path):
-            return path
+    # Streamlit 1.18+ serves /app/static/* when enableStaticServing=true — use as favicon URL.
+    if os.path.isfile(os.path.join(_app_dir, "static", "briefly-icon-32.png")):
+        return "/app/static/briefly-icon-32.png"
     return "✈️"
+
+
+def _inject_app_icons():
+    """Tab favicon + PWA icons via static URLs (enableStaticServing in config.toml)."""
+    components.html(
+        """
+<script>
+(function () {
+  var icon32 = '/app/static/briefly-icon-32.png';
+  var icon180 = '/app/static/briefly-icon-180.png';
+  function apply() {
+    document.querySelectorAll('link[rel*="icon"]').forEach(function (el) { el.remove(); });
+    ['icon', 'shortcut icon'].forEach(function (rel) {
+      var link = document.createElement('link');
+      link.rel = rel;
+      link.type = 'image/png';
+      link.href = icon32;
+      document.head.appendChild(link);
+    });
+    if (!document.querySelector('link[rel="apple-touch-icon"]')) {
+      var apple = document.createElement('link');
+      apple.rel = 'apple-touch-icon';
+      apple.sizes = '180x180';
+      apple.href = icon180;
+      document.head.appendChild(apple);
+    }
+    if (!document.querySelector('link[rel="manifest"]')) {
+      var manifest = document.createElement('link');
+      manifest.rel = 'manifest';
+      manifest.href = '/app/static/manifest.json';
+      document.head.appendChild(manifest);
+    }
+  }
+  apply();
+  new MutationObserver(apply).observe(document.head, { childList: true });
+})();
+</script>
+        """,
+        height=0,
+    )
 
 
 st.set_page_config(
@@ -47,6 +85,8 @@ st.set_page_config(
     page_icon=_page_icon(),
     layout="wide",
 )
+
+_inject_app_icons()
 
 DOCS_DIR = os.path.join(_app_dir, "documents", "operations_manuals")
 OPERATIONS_MANUALS = [
