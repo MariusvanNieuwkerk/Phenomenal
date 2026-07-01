@@ -3,3 +3,4 @@ __pycache__/
 .streamlit_local/
 .pycache_local/
 .python_packages/
+.DS_Store

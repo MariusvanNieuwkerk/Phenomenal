@@ -27,63 +27,20 @@ from systems.warning_system import render_warning_system
 from study.semantic_color import mi_md
 from study.sop import render_sop
 from study.special_airports import render_special_airports
+from ui.pwa import inject_pwa_head_tags, page_icon
 from ui.shell import render_app_shell
 from ui.theme import inject_scroll_to_top_chevron, inject_theme_css, inject_memory_page_css, inject_systems_page_css, render_page_header
 from content.render_helpers import render_search_focus_banner, render_system_memory_items, source_footer, systems_page_top
 from data.memory_items import MEMORY_CONTENT, MEMORY_TITLES, SYSTEM_MEMORY
 
-def _page_icon() -> str:
-    # Streamlit 1.18+ serves /app/static/* when enableStaticServing=true — use as favicon URL.
-    if os.path.isfile(os.path.join(_app_dir, "static", "briefly-icon-32.png")):
-        return "/app/static/briefly-icon-32.png"
-    return "✈️"
-
-
-def _inject_app_icons():
-    """PWA / home-screen icons in the main document head (st.html is not iframed)."""
-    st.html(
-        """
-<script>
-(function () {
-  if (window.__brieflyIconsApplied) return;
-  window.__brieflyIconsApplied = true;
-  var head = document.head;
-  function addLink(rel, href, sizes) {
-    var sel = 'link[rel="' + rel + '"]';
-    if (document.querySelector(sel)) return;
-    var el = document.createElement('link');
-    el.rel = rel;
-    el.href = href;
-    if (sizes) el.sizes = sizes;
-    head.appendChild(el);
-  }
-  function addMeta(name, content) {
-    if (document.querySelector('meta[name="' + name + '"]')) return;
-    var el = document.createElement('meta');
-    el.name = name;
-    el.content = content;
-    head.appendChild(el);
-  }
-  addLink('manifest', '/app/static/manifest.json');
-  addLink('apple-touch-icon', '/app/static/briefly-icon-180.png', '180x180');
-  addMeta('apple-mobile-web-app-title', 'Briefly');
-  addMeta('apple-mobile-web-app-capable', 'yes');
-  addMeta('mobile-web-app-capable', 'yes');
-  addMeta('theme-color', '#1A365D');
-})();
-</script>
-        """,
-        unsafe_allow_javascript=True,
-    )
-
-
 st.set_page_config(
     page_title="Briefly",
-    page_icon=_page_icon(),
+    page_icon=page_icon(),
     layout="wide",
 )
 
-_inject_app_icons()
+inject_pwa_head_tags()
+inject_theme_css()
 
 DOCS_DIR = os.path.join(_app_dir, "documents", "operations_manuals")
 OPERATIONS_MANUALS = [
@@ -92,12 +49,6 @@ OPERATIONS_MANUALS = [
     ("OM-C - Operations Manual Part C.pdf", "Operations Manual Part C — route and aerodrome reference."),
     ("Handbook Phenom 300.pdf", "Phenom 300 fleet handbook — full reference (detail lives in Briefly per topic)."),
 ]
-
-def _inject_ui_css():
-    inject_theme_css()
-
-
-_inject_ui_css()
 
 if 'section' not in st.session_state:
     st.session_state.section = 'limitations'
