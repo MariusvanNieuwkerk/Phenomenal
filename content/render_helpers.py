@@ -2,6 +2,8 @@ import pandas as pd
 import streamlit as st
 
 from content.sources import SOURCES
+from data.memory_items import MEMORY_CONTENT, SYSTEM_MEMORY
+from study.semantic_color import mi_md
 
 CAS_COLUMNS = ["Topic", "Level", "CAS", "Pilot focus"]
 
@@ -62,3 +64,21 @@ def render_search_focus_banner():
         if st.button("✕", key="clear_search_focus", help="Sluiten"):
             st.session_state.search_focus = None
             st.rerun()
+
+
+def render_system_memory_items(system: str):
+    """QRH memory items for this system — red expanders above study content."""
+    titles = SYSTEM_MEMORY.get(system, [])
+    if not titles:
+        return
+    st.markdown(
+        f'<p class="briefly-system-memory-label">QRH memory items</p>',
+        unsafe_allow_html=True,
+    )
+    for title in titles:
+        with st.expander(f"**{title}**", expanded=False):
+            mi_md(MEMORY_CONTENT[title])
+    st.markdown(
+        f'<p class="briefly-system-study-label">System study</p>',
+        unsafe_allow_html=True,
+    )

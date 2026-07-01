@@ -134,6 +134,65 @@ div.stButton > button[data-testid="baseButton-secondary"] {{
   background: {COLORS["surface"]};
 }}
 
+body.briefly-systems-page [data-testid="stExpander"] summary,
+body.briefly-systems-page [data-testid="stExpander"] summary p,
+body.briefly-systems-page [data-testid="stExpander"] summary strong,
+body.briefly-systems-page [data-testid="stExpander"] summary span,
+body.briefly-systems-page [data-testid="stExpander"] summary [data-testid="stMarkdownContainer"],
+body.briefly-systems-page [data-testid="stExpander"] summary [data-testid="stMarkdownContainer"] p,
+body.briefly-systems-page [data-testid="stExpander"] summary [data-testid="stMarkdownContainer"] strong {{
+  color: {COLORS["ink"]} !important;
+  font-weight: 700 !important;
+}}
+
+body.briefly-systems-page .briefly-memory-expander summary,
+body.briefly-systems-page .briefly-memory-expander summary p,
+body.briefly-systems-page .briefly-memory-expander summary strong,
+body.briefly-systems-page .briefly-memory-expander summary span,
+body.briefly-systems-page .briefly-memory-expander summary [data-testid="stMarkdownContainer"],
+body.briefly-systems-page .briefly-memory-expander summary [data-testid="stMarkdownContainer"] p,
+body.briefly-systems-page .briefly-memory-expander summary [data-testid="stMarkdownContainer"] strong {{
+  color: {COLORS["memory"]} !important;
+}}
+
+.briefly-system-memory-label {{
+  margin: 0 0 0.65rem !important;
+  font-size: 0.78rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.12em !important;
+  text-transform: uppercase !important;
+  color: {COLORS["memory"]} !important;
+}}
+
+.briefly-system-study-label {{
+  margin: 1.35rem 0 0.75rem !important;
+  font-size: 0.78rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.1em !important;
+  text-transform: uppercase !important;
+  color: {COLORS["accent_dark"]} !important;
+}}
+
+body.briefly-systems-page .briefly-memory-expander details {{
+  border-color: rgba(220, 38, 38, 0.35) !important;
+  background: #FEF2F2 !important;
+}}
+
+body.briefly-systems-page .briefly-memory-expander [data-testid="stMarkdownContainer"] table {{
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  margin: 0.5rem 0 0.85rem;
+  border: 1px solid rgba(220, 38, 38, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}}
+body.briefly-systems-page .briefly-memory-expander [data-testid="stMarkdownContainer"] table td:first-child {{
+  color: {COLORS["ink_soft"]};
+  font-weight: 600;
+  width: 42%;
+}}
+
 hr {{
   border: none !important;
   height: 1px !important;
@@ -169,32 +228,34 @@ def inject_scroll_to_top_chevron(*, enabled: bool = True, anchor_id: str = "brie
             btn.type = "button";
             btn.setAttribute("aria-label", "Terug naar boven");
             btn.innerHTML = `
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none"
                    xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <path d="M6 14l6-6 6 6" stroke="currentColor" stroke-width="2.5"
+                <path d="M6 14l6-6 6 6" stroke="currentColor" stroke-width="3"
                       stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>`;
+              </svg>
+              <span style="font-size:9px;font-weight:800;letter-spacing:0.08em;margin-top:2px;">TOP</span>`;
             btn.style.cssText = `
               position: fixed;
-              right: max(0.75rem, env(safe-area-inset-right));
+              right: max(1rem, env(safe-area-inset-right));
               top: 50%;
-              z-index: 99999;
-              width: 46px;
-              height: 46px;
-              margin-top: -23px;
-              border-radius: 50%;
-              border: 1.5px solid {accent_dark};
-              background: {accent};
+              z-index: 999999;
+              width: 58px;
+              height: 72px;
+              margin-top: -36px;
+              border-radius: 16px;
+              border: 2.5px solid #FFFFFF;
+              background: linear-gradient(165deg, {accent} 0%, {accent_dark} 100%);
               color: #fff;
               display: flex;
+              flex-direction: column;
               align-items: center;
               justify-content: center;
               cursor: pointer;
-              box-shadow: 0 4px 16px rgba(26, 77, 122, 0.32);
+              box-shadow: 0 6px 28px rgba(26, 77, 122, 0.55), 0 0 0 3px rgba(74, 111, 165, 0.25);
               opacity: 0;
               pointer-events: none;
-              transition: opacity 0.22s ease, transform 0.22s ease;
-              transform: translateX(12px);
+              transition: opacity 0.22s ease, transform 0.22s ease, box-shadow 0.22s ease;
+              transform: translateX(16px);
             `;
             doc.body.appendChild(btn);
             btn.addEventListener("click", () => {{
@@ -208,6 +269,22 @@ def inject_scroll_to_top_chevron(*, enabled: bool = True, anchor_id: str = "brie
                 window.parent.scrollTo({{ top: 0, behavior: "smooth" }});
               }}
             }});
+          }} else {{
+            btn.innerHTML = `
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none"
+                   xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M6 14l6-6 6 6" stroke="currentColor" stroke-width="3"
+                      stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span style="font-size:9px;font-weight:800;letter-spacing:0.08em;margin-top:2px;">TOP</span>`;
+            btn.style.width = "58px";
+            btn.style.height = "72px";
+            btn.style.marginTop = "-36px";
+            btn.style.borderRadius = "16px";
+            btn.style.border = "2.5px solid #FFFFFF";
+            btn.style.background = "linear-gradient(165deg, {accent} 0%, {accent_dark} 100%)";
+            btn.style.flexDirection = "column";
+            btn.style.zIndex = "999999";
           }}
           function scrollY() {{
             const main = doc.querySelector("section.main");
@@ -215,10 +292,13 @@ def inject_scroll_to_top_chevron(*, enabled: bool = True, anchor_id: str = "brie
             return doc.documentElement.scrollTop || doc.body.scrollTop || 0;
           }}
           function onScroll() {{
-            const show = scrollY() > 200;
+            const show = scrollY() > 120;
             btn.style.opacity = show ? "1" : "0";
             btn.style.pointerEvents = show ? "auto" : "none";
-            btn.style.transform = show ? "translateX(0)" : "translateX(12px)";
+            btn.style.transform = show ? "translateX(0)" : "translateX(16px)";
+            btn.style.boxShadow = show
+              ? "0 8px 32px rgba(26, 77, 122, 0.65), 0 0 0 4px rgba(74, 111, 165, 0.35)"
+              : "0 6px 28px rgba(26, 77, 122, 0.55), 0 0 0 3px rgba(74, 111, 165, 0.25)";
           }}
           if (!window.__brieflyScrollTopInit) {{
             window.__brieflyScrollTopInit = true;
@@ -243,6 +323,10 @@ def inject_theme_css():
           const doc = window.parent.document;
           doc.body.classList.remove("briefly-sop-page");
           doc.body.classList.remove("briefly-memory-page");
+          doc.body.classList.remove("briefly-systems-page");
+          doc.querySelectorAll(".briefly-memory-expander").forEach(el => {{
+            el.classList.remove("briefly-memory-expander");
+          }});
           let style = doc.getElementById("briefly-theme");
           if (!style) {{
             style = doc.createElement("style");
@@ -250,6 +334,54 @@ def inject_theme_css():
             doc.head.appendChild(style);
           }}
           style.textContent = `{css}`;
+        }})();
+        </script>
+        """,
+        height=0,
+    )
+
+
+def inject_systems_page_css(memory_titles: list[str] | None = None):
+    """Systems section: ink study expanders; tag QRH memory expanders red."""
+    titles = memory_titles or []
+    titles_js = str(titles).replace("\\", "\\\\")
+    components.html(
+        f"""
+        <script>
+        (function() {{
+          const doc = window.parent.document;
+          doc.body.classList.add("briefly-systems-page");
+          doc.body.classList.remove("briefly-memory-page");
+          const memoryTitles = {titles_js};
+
+          function tagMemoryExpanders() {{
+            doc.querySelectorAll(".briefly-memory-expander").forEach(el => {{
+              el.classList.remove("briefly-memory-expander");
+            }});
+            if (!memoryTitles.length) return;
+            const sorted = [...memoryTitles].sort((a, b) => b.length - a.length);
+            doc.querySelectorAll('[data-testid="stExpander"]').forEach(exp => {{
+              const summary = exp.querySelector("summary");
+              if (!summary) return;
+              const text = summary.textContent.replace(/\\s+/g, " ").trim();
+              if (sorted.some(t => text === t)) {{
+                exp.classList.add("briefly-memory-expander");
+              }}
+            }});
+          }}
+
+          tagMemoryExpanders();
+          setTimeout(tagMemoryExpanders, 120);
+          setTimeout(tagMemoryExpanders, 400);
+          setTimeout(tagMemoryExpanders, 900);
+          if (!window.__brieflyMemoryTagObserver) {{
+            window.__brieflyMemoryTagObserver = true;
+            const main = doc.querySelector("section.main");
+            if (main && typeof MutationObserver !== "undefined") {{
+              const obs = new MutationObserver(() => tagMemoryExpanders());
+              obs.observe(main, {{ childList: true, subtree: true }});
+            }}
+          }}
         }})();
         </script>
         """,
@@ -345,6 +477,10 @@ body.briefly-memory-page [data-testid="stMarkdownContainer"] table td:first-chil
         (function() {{
           const doc = window.parent.document;
           doc.body.classList.add("briefly-memory-page");
+          doc.body.classList.remove("briefly-systems-page");
+          doc.querySelectorAll(".briefly-memory-expander").forEach(el => {{
+            el.classList.remove("briefly-memory-expander");
+          }});
           let style = doc.getElementById("briefly-memory-theme");
           if (!style) {{
             style = doc.createElement("style");

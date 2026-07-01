@@ -3,6 +3,8 @@
 from content.airports import CATEGORY_C_AIRPORTS
 from data.quick_lookup import LOOKUP_CATEGORIES
 
+from data.memory_items import MEMORY_TITLES
+
 LIMITATION_HINTS = {
     "speeds": "Speed Limitations (V-Speeds)",
     "weights": "Structural & Weight Limits",
@@ -43,22 +45,7 @@ SYSTEM_KEYWORDS = {
     ),
 }
 
-MEMORY_ITEMS = [
-    "SMOKE EVACUATION",
-    "SMOKE / FIRE / FUME",
-    "E1(2) FIRE",
-    "ENGINE FIRE, SEVERE DAMAGE or SEPARATION",
-    "DUAL ENGINE FAILURE",
-    "ENGINE ABNORMAL START",
-    "ELEC EMERGENCY",
-    "ELEC XFR FAIL",
-    "EMERGENCY EVACUATION",
-    "CAB ALTITUDE HI",
-    "EMERGENCY DESCENT",
-    "LG WOW SYS FAIL",
-    "GEAR LEVER CANNOT BE MOVED UP",
-    "INADVERTANT PUSHER ACTUATION",
-]
+MEMORY_ITEMS = MEMORY_TITLES
 
 STUDY_MODULES = [
     ("Systems", "systems", "POH aircraft systems"),

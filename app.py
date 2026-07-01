@@ -30,8 +30,9 @@ from study.semantic_color import mi_md
 from study.sop import render_sop
 from study.special_airports import render_special_airports
 from ui.shell import render_app_shell
-from ui.theme import inject_scroll_to_top_chevron, inject_theme_css, inject_memory_page_css, render_page_header
-from content.render_helpers import render_search_focus_banner, source_footer, systems_page_top
+from ui.theme import inject_scroll_to_top_chevron, inject_theme_css, inject_memory_page_css, inject_systems_page_css, render_page_header
+from content.render_helpers import render_search_focus_banner, render_system_memory_items, source_footer, systems_page_top
+from data.memory_items import MEMORY_CONTENT, MEMORY_TITLES, SYSTEM_MEMORY
 
 _icon_path = os.path.join(_app_dir, "static", "briefly-icon.svg")
 st.set_page_config(
@@ -127,8 +128,13 @@ def render_systems():
                 st.rerun()
     
     st.markdown("---")
-    
-    if st.session_state.system == "Airplane General":
+
+    system = st.session_state.system
+    if system:
+        inject_systems_page_css(SYSTEM_MEMORY.get(system, []))
+        render_system_memory_items(system)
+
+    if system == "Airplane General":
         render_airplane_general()
     elif st.session_state.system == "Air Management":
         render_air_management()
@@ -395,181 +401,9 @@ def render_limitations():
 def render_memory():
     render_search_focus_banner()
     inject_memory_page_css()
-    with st.expander("**SMOKE EVACUATION**", expanded=False):
-        mi_md("""
-| Item | Action |
-|------|--------|
-| Oxygen Masks | DON, EMERGENCY |
-| Dilution Valve | CLOSED |
-| Smoke Goggles | DON |
-| Communication | ESTABLISH |
-| Oxygen Knob | CREW ONLY |
-| DUMP Button | PUSH IN |
-| ECS Knob | OFF VENT |
-""")
-    
-    with st.expander("**SMOKE / FIRE / FUME**", expanded=False):
-        mi_md("""
-| Item | Action |
-|------|--------|
-| Oxygen Masks | DON, EMERGENCY |
-| Dilution Valve | CLOSED |
-| Smoke Goggles | DON |
-| Communication | ESTABLISH |
-| DUMP Button | PUSH IN |
-""")
-    
-    with st.expander("**E1(2) FIRE**", expanded=False):
-        mi_md("""
-**Affected Engine:**
-
-| Item | Action |
-|------|--------|
-| Thrust Lever | IDLE |
-| START/STOP Knob | STOP |
-| SHUTOFF Button | PUSH IN |
-
-*On ground or if fire persists after 30 seconds in flight:*
-
-| Item | Action |
-|------|--------|
-| BOTTLE Switch | DISCH |
-""")
-    
-    with st.expander("**ENGINE FIRE, SEVERE DAMAGE or SEPARATION**", expanded=False):
-        mi_md("""
-**Affected Engine:**
-
-| Item | Action |
-|------|--------|
-| Thrust Lever | IDLE |
-| START/STOP Knob | STOP |
-| SHUTOFF Button | PUSH IN |
-
-*Wait 30 seconds and if fire persists:*
-
-| Item | Action |
-|------|--------|
-| BOTTLE Switch | DISCH |
-""")
-    
-    with st.expander("**DUAL ENGINE FAILURE**", expanded=False):
-        mi_md("""
-| Item | Action |
-|------|--------|
-| Thrust Lever | IDLE |
-| Crew Oxygen Masks | DON, 100% |
-| Communication | ESTABLISH |
-""")
-    
-    with st.expander("**ENGINE ABNORMAL START**", expanded=False):
-        mi_md("""
-**Affected Engine:**
-
-| Item | Action |
-|------|--------|
-| START/STOP Knob | STOP |
-""")
-    
-    with st.expander("**ELEC EMERGENCY**", expanded=False):
-        mi_md("""
-| Item | Action |
-|------|--------|
-| PRESN MODE Switch | MAN |
-| CABIN ALT Switch | HOLD DOWN FOR 10 SEC |
-
-*If at or above 25,000 ft:*
-
-| Item | Action |
-|------|--------|
-| Rudder Pedals | FIXED |
-
-*If above 10,000 ft:*
-
-| Item | Action |
-|------|--------|
-| CAB ALTITUDE HI Procedure | ACCOMPLISH |
-""")
-    
-    with st.expander("**ELEC XFR FAIL**", expanded=False):
-        mi_md("""
-| Item | Action |
-|------|--------|
-| ELEC EMER Button | PUSH IN |
-""")
-    
-    with st.expander("**EMERGENCY EVACUATION**", expanded=False):
-        mi_md("""
-| Item | Action |
-|------|--------|
-| Thrust Levers | IDLE |
-| Emergency/Parking Brake | ON |
-| START/STOP Knobs | STOP |
-| FIRE SHUTOFF Buttons | PUSH IN |
-| PRESN MODE Switch | MAN |
-| DUMP Button | PUSH IN |
-| ATC | NOTIFY |
-| Emergency Evacuation | PERFORM |
-| BATT 1 & 2 Switches | OFF |
-""")
-    
-    with st.expander("**CAB ALTITUDE HI**", expanded=False):
-        mi_md("""
-| Item | Action |
-|------|--------|
-| Oxygen Masks | DON, 100% |
-| Communication | ESTABLISH |
-| SIGNS/OUTLET Switch | PED BELTS / OFF |
-| Altitude | Max 10,000ft or MEA (whichever is higher) |
-| Thrust Levers | IDLE |
-| SPEED BRAKE Switch | OPEN |
-| Airspeed | 250 KIAS / MMO Max |
-| LDG GEAR Lever | DN |
-| Transponder | 7700 |
-| ATC | NOTIFY |
-""")
-    
-    with st.expander("**EMERGENCY DESCENT**", expanded=False):
-        mi_md("""
-| Item | Action |
-|------|--------|
-| SIGNS/OUTLET Switch | PED BELTS / OFF |
-| Altitude | Max 10,000ft or MEA (whichever is higher) |
-| Thrust Levers | IDLE |
-| SPEED BRAKE Switch | OPEN |
-| Airspeed | 250 KIAS / MMO Max |
-| LDG GEAR Lever | DN |
-| Transponder | 7700 |
-| ATC | NOTIFY |
-""")
-    
-    with st.expander("**LG WOW SYS FAIL**", expanded=False):
-        mi_md("""
-*If associated with engine failure and obstacle clearance, simultaneously proceed:*
-
-| Item | Action |
-|------|--------|
-| DN LCK REL Button | PRESS |
-| LDG GEAR Lever | UP |
-""")
-    
-    with st.expander("**GEAR LEVER CANNOT BE MOVED UP**", expanded=False):
-        mi_md("""
-*If associated with engine failure and obstacle clearance, simultaneously proceed:*
-
-| Item | Action |
-|------|--------|
-| DN LCK REL Button | PRESS |
-| LDG GEAR Lever | UP |
-""")
-    
-    with st.expander("**INADVERTANT PUSHER ACTUATION**", expanded=False):
-        mi_md("""
-| Item | Action |
-|------|--------|
-| PUSHER CUTOUT Button | PUSH IN |
-""")
-
+    for title in MEMORY_TITLES:
+        with st.expander(f"**{title}**", expanded=False):
+            mi_md(MEMORY_CONTENT[title])
 
 def render_flight_profiles():
     source_footer("om_b", "Chapter 2 Normal Procedures · Flight profile diagrams")
