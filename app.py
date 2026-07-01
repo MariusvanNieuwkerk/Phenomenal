@@ -34,10 +34,17 @@ from ui.theme import inject_scroll_to_top_chevron, inject_theme_css, inject_memo
 from content.render_helpers import render_search_focus_banner, render_system_memory_items, source_footer, systems_page_top
 from data.memory_items import MEMORY_CONTENT, MEMORY_TITLES, SYSTEM_MEMORY
 
-_icon_path = os.path.join(_app_dir, "static", "briefly-icon.svg")
+def _page_icon() -> str:
+    for name in ("favicon.ico", "briefly-icon.png", "briefly-icon.svg"):
+        path = os.path.join(_app_dir, "static", name)
+        if os.path.isfile(path):
+            return path
+    return "✈️"
+
+
 st.set_page_config(
     page_title="Briefly",
-    page_icon=_icon_path if os.path.isfile(_icon_path) else "✈️",
+    page_icon=_page_icon(),
     layout="wide",
 )
 
