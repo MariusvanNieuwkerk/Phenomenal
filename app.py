@@ -6,7 +6,6 @@ _app_dir = os.path.dirname(os.path.abspath(__file__))
 os.environ.setdefault("STREAMLIT_HOME", os.path.join(_app_dir, ".streamlit_local"))
 
 import streamlit as st
-import streamlit.components.v1 as components
 import pandas as pd
 from PIL import Image
 
@@ -41,36 +40,40 @@ def _page_icon() -> str:
 
 
 def _inject_app_icons():
-    """One-shot PWA head tags. No MutationObserver — that caused a browser hang."""
-    components.html(
+    """PWA / home-screen icons in the main document head (st.html is not iframed)."""
+    st.html(
         """
 <script>
 (function () {
   if (window.__brieflyIconsApplied) return;
   window.__brieflyIconsApplied = true;
-  document.querySelectorAll('link[rel*="icon"]').forEach(function (el) { el.remove(); });
-  var link = document.createElement('link');
-  link.rel = 'icon';
-  link.type = 'image/png';
-  link.href = '/app/static/briefly-icon-32.png';
-  document.head.appendChild(link);
-  if (!document.querySelector('link[rel="apple-touch-icon"]')) {
-    var apple = document.createElement('link');
-    apple.rel = 'apple-touch-icon';
-    apple.sizes = '180x180';
-    apple.href = '/app/static/briefly-icon-180.png';
-    document.head.appendChild(apple);
+  var head = document.head;
+  function addLink(rel, href, sizes) {
+    var sel = 'link[rel="' + rel + '"]';
+    if (document.querySelector(sel)) return;
+    var el = document.createElement('link');
+    el.rel = rel;
+    el.href = href;
+    if (sizes) el.sizes = sizes;
+    head.appendChild(el);
   }
-  if (!document.querySelector('link[rel="manifest"]')) {
-    var manifest = document.createElement('link');
-    manifest.rel = 'manifest';
-    manifest.href = '/app/static/manifest.json';
-    document.head.appendChild(manifest);
+  function addMeta(name, content) {
+    if (document.querySelector('meta[name="' + name + '"]')) return;
+    var el = document.createElement('meta');
+    el.name = name;
+    el.content = content;
+    head.appendChild(el);
   }
+  addLink('manifest', '/app/static/manifest.json');
+  addLink('apple-touch-icon', '/app/static/briefly-icon-180.png', '180x180');
+  addMeta('apple-mobile-web-app-title', 'Briefly');
+  addMeta('apple-mobile-web-app-capable', 'yes');
+  addMeta('mobile-web-app-capable', 'yes');
+  addMeta('theme-color', '#1A365D');
 })();
 </script>
         """,
-        height=0,
+        unsafe_allow_javascript=True,
     )
 
 
