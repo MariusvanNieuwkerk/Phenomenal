@@ -1,13 +1,8 @@
 """Flight Controls — Phenom 300 pilot guide (ATA 27)."""
 
-import pandas as pd
 import streamlit as st
 
 from content.render_helpers import back_to_top, cas_quick_reference, source_footer
-
-
-def _table(rows: list[tuple], columns: list[str]):
-    st.dataframe(pd.DataFrame(rows, columns=columns), hide_index=True, use_container_width=True)
 
 
 def render_flight_controls():
@@ -71,14 +66,9 @@ def render_flight_controls():
 **Indications** — flap lever position + flap indication on display; PM confirms after PF callout (**SOP: 'FLAP [X]' → 'FLAP [X]'**).
 
 **Gear warning interaction** — aural warning logic is tied to flap position and WOW (e.g. flaps not 0 with gear up).
+
+CAS → **§8 CAS quick reference** (FLAP FAIL, FLAPS NOT AVAIL).
 """
-        )
-        _table(
-            [
-                ("CAUTION", "FLAP FAIL", "Flap system failed or jammed — flaps will not move. Use QRH. Brief landing without flaps or alternate."),
-                ("ADVISORY", "FLAPS NOT AVAIL", "Flaps unavailable — do not plan normal flap extension. Check QRH / performance."),
-            ],
-            ["Level", "CAS", "What it means for you"],
         )
 
     with st.expander("**4. Trim — pitch, roll, rudder**", expanded=False):
@@ -100,17 +90,9 @@ def render_flight_controls():
 **No CAS for roll/rudder trim failure** — you discover it because the tab **does not move** when you command trim.
 
 **AP mistrim** — if autopilot was trimming pitch, see **Automatic Flight** (AP PITCH MISTRIM) — different from PTRIM failures.
+
+CAS → **§8 CAS quick reference** (PTRIM messages).
 """
-        )
-        _table(
-            [
-                ("CAUTION", "PTRIM NML FAIL", "Normal pitch trim channel lost — backup may still work."),
-                ("CAUTION", "PTRIM BKP FAIL", "Backup pitch trim lost — if normal also failed, pitch trim severely degraded."),
-                ("ADVISORY", "PTRIM LO RATE", "Trim moving slowly — monitor; may not reach desired setting quickly."),
-                ("ADVISORY", "PTRIM SW 1 FAIL", "Trim switch channel 1 failed."),
-                ("ADVISORY", "PTRIM SW 2 FAIL", "Trim switch channel 2 failed."),
-            ],
-            ["Level", "CAS", "Pilot action (concept)"],
         )
 
     with st.expander("**5. Spoilers & speedbrake**", expanded=False):
@@ -134,15 +116,9 @@ def render_flight_controls():
 **Control** — speedbrake lever; verify on **MFD** synoptic (**SOP: 'SPEEDBRAKE OPEN/CLOSED'**).
 
 **Handbook note (Ch 5.5)** — **SPOILER FAULT** after deploying speedbrake in flight is often **water ingress** in LVDT sensors after heavy rain (false asymmetric detection). Usually clears after **power cycle** when dry. Avoid selecting speedbrake in flight if heading to a performance-limited runway as precaution — **ground spoilers still deploy on WOW** (different logic).
+
+CAS → **§8 CAS quick reference** (GND SPLR FAIL, SPDBRK SW DISAG, SPOILER FAULT).
 """
-        )
-        _table(
-            [
-                ("CAUTION", "GND SPLR FAIL", "Ground spoiler function lost — longer stopping distance on RTO/landing. Brief performance."),
-                ("ADVISORY", "SPDBRK SW DISAG", "Speedbrake lever position disagrees with actual spoiler position — verify visually/synoptic."),
-                ("ADVISORY", "SPOILER FAULT", "Spoiler system fault — roll assist / speedbrake / ground spoilers may be affected."),
-            ],
-            ["Level", "CAS", "What it means"],
         )
 
     with st.expander("**6. Rudder — gust lock, boost, ventral rudder**", expanded=False):
@@ -184,20 +160,11 @@ def render_flight_controls():
 **Icing interaction** — with **WINGSTAB** anti-ice ON, stall speeds increase → **SWPS ICE SPEED** / **ICE SPEED** CAS. Reset **ICE SPEED** only above 1,500 ft AAL when sure ice is gone.
 
 **Takeoff configuration check** — part of the warning system; verifies flaps/trim/speedbrake etc. before takeoff (see **Warning System**).
+
+CAS → **§8 CAS quick reference** (PUSHER / SWPS messages).
+
+**Memory item:** *Inadvertent pusher actuation* → **PUSHER CUTOUT — PUSH IN** (see **Memory Items**).
 """
-        )
-        _table(
-            [
-                ("CAUTION", "PUSHER FAIL", "Pusher may not activate — treat stall margins conservatively."),
-                ("CAUTION", "PUSHER OFF", "Pusher inhibited (cutout or fault) — know why before continuing."),
-                ("CAUTION", "SWPS FAIL", "Stall warning/protection degraded — QRH."),
-                ("CAUTION", "SWPS FAULT", "SWPS fault — verify status before takeoff or continuing."),
-                ("CAUTION", "SWPS UNTESTED", "Power-up test not completed — do not dispatch until resolved."),
-            ],
-            ["Level", "CAS", "What it means"],
-        )
-        st.markdown(
-            "**Memory item:** *Inadvertent pusher actuation* → **PUSHER CUTOUT — PUSH IN** (see **Memory Items**)."
         )
 
     cas_quick_reference(

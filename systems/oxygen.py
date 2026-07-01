@@ -107,15 +107,5 @@ def render_oxygen():
         title="5. CAS quick reference",
     )
 
-    with st.expander("**6. Study checklist**", expanded=False):
-        st.markdown(
-            """
-- [ ] Where to read **O₂ quantity** before flight.
-- [ ] Crew mask settings for **smoke** vs **depressurization**.
-- [ ] Link to **CAB ALTITUDE HI** memory item.
-- [ ] Meaning of **OXY LO PRES** and **PAX OXY NO PRES**.
-"""
-        )
-
     back_to_top()
     source_footer("poh", "§6-13 Oxygen · Memory Items (masks)")

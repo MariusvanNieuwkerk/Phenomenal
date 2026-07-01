@@ -14,25 +14,6 @@ def _img(path: str, caption: str):
         st.warning(f"Missing image: `{path}`")
 
 
-def _show_poh_images(folder: str, startswith: str, title: str):
-    paths = []
-    if os.path.isdir(folder):
-        for name in os.listdir(folder):
-            if name.lower().endswith(".png") and name.startswith(startswith):
-                paths.append(os.path.join(folder, name))
-    paths.sort()
-
-    if not paths:
-        st.info("No POH images found for this section yet.")
-        return
-
-    st.markdown(f"**{title}**")
-    cols = st.columns(2, gap="medium")
-    for i, p in enumerate(paths):
-        with cols[i % 2]:
-            _img(p, os.path.basename(p))
-
-
 def render_air_management():
     st.markdown("## Air Management System (Bleed, ECS, Pressurization)")
     st.caption("ATA 21 | Source: Phenom 300 POH (Section 6-02, Rev 6)")
@@ -40,154 +21,139 @@ def render_air_management():
     folder = "assets/air_management"
     press_folder = "assets/pressurization"
 
-    with st.expander("**1. Overview (scope and architecture)**", expanded=True):
+    with st.expander("**0. Big picture**", expanded=True):
         st.markdown(
             """
-The Air Management System combines:
+The Air Management System delivers **conditioned bleed air** for the cabin and **pressurization**, and supplies **bleed** for **wing/stab anti-ice**.
 
-- **Pneumatic (bleed) system**: provides pressurized air from the engines.
-- **Environmental Control System (ECS)**: conditions air for the cabin (temperature and distribution).
-- **Pressurization**: controls cabin altitude, cabin rate, and differential pressure.
+| Question | Answer |
+|----------|--------|
+| **Air in** | Engine bleed → **ECS** conditions it → cabin |
+| **Air out** | **Outflow valve (OFV)** controls how much air leaves the cabin |
+| **Bleed control** | **PRSOV** per engine regulates and can shut off bleed |
+| **Cross-side bleed** | **XBV** can interconnect left and right bleed circuits |
 
-Operationally, most “air” topics on the airplane connect back to two questions:
-- **Do we have a good bleed supply?**
-- **Is the outflow valve being controlled correctly?**
-"""
-        )
-        _img(f"{press_folder}/pneumatic_system_schematic.png", "Bleed / pneumatic overview (PRSOV, XBV, supply)")
+**Where you see it:** air synoptic and **cabin pressure** on the **MFD**; bleed/press CAS on **PFDs**; **pressurization & pneumatic panel**.
 
-    with st.expander("**2. Controls & indications (what you touch / what you monitor)**", expanded=False):
-        st.markdown(
-            """
-### Primary crew interfaces
+**Study focus:** bleed in vs OFV out; what fails together when **bleed** is lost; **AUTO vs MAN** pressurization; **LFE** on descent.
 
-- **Air Conditioning Control Panel** (temperature / distribution / conditioning functions).
-- **Pressurization and Pneumatic Control Panel** (pressurization mode, dump, bleed, crossbleed).
-
-### Primary displays
-
-- **MFD synoptic pages** (air management overview and system state).
-- **Cabin pressure indication** (cabin altitude / rate / differential pressure).
-"""
-        )
-        c1, c2 = st.columns(2, gap="medium")
-        with c1:
-            _img(f"{press_folder}/pressurization_pneumatic_panel.png", "Pressurization & pneumatic control panel")
-        with c2:
-            _img(f"{press_folder}/pressure_indication_mfd.png", "Cabin pressure indication (MFD example)")
-
-        _show_poh_images(folder, "poh_6-02_synoptic_", "POH synoptic pages (Air Management)")
-
-    with st.expander("**3. Pneumatic (bleed) system (what it supplies)**", expanded=False):
-        st.markdown(
-            """
-### What bleed air is used for
-
-- **Cabin conditioning and pressurization** (via ECS).
-- **Wing/stabilizer anti-ice** (thermal).
-
-### Key elements
-
-- **PRSOV (per engine)**: regulates bleed pressure and provides shutoff.
-- **XBV (Cross Bleed Valve)**: interconnect capability between sides when required.
-
-### Practical monitoring
-
-- If multiple “air” functions degrade together (pressurization, temperature control, anti-ice), suspect **bleed supply** first.
+Numeric limits → **Limitations → Air Management (Pressurization)**.
 """
         )
 
-    with st.expander("**4. ECS / temperature control (what you should expect)**", expanded=False):
+    with st.expander("**1. Bleed & pneumatic system**", expanded=False):
         st.markdown(
             """
-The ECS conditions bleed air so the cabin receives:
-- correct **temperature** (temperature control system),
-- correct **flow distribution** (ducting/zone distribution),
-- stable operation across flight phases.
+### What bleed air feeds
 
-Operational cues:
-- If the cabin temperature is slow to respond, verify panel settings and confirm there is no broader **bleed limitation**.
+- **ECS** — cabin temperature, flow, and pressurization supply
+- **Wing & horizontal stabilizer anti-ice** — thermal anti-ice (see **Ice Protection**)
+
+### Key valves
+
+
+| Valve | Role |
+|-------|------|
+| **PRSOV** (per engine) | Regulates bleed pressure; firewall shutoff capability |
+| **XBV** | Crossbleed between left and right circuits when required |
+
+### When several “air” functions fail together
+
+If **pressurization**, **cab temperature**, and **anti-ice** all degrade at once, suspect **bleed supply** upstream — not the outflow valve alone.
+
+**BLEED 1(2) FAIL / LEAK / OVERPRES** and **DUCT 1(2) OVERTEMP** point to the pneumatic side.
+"""
+        )
+        _img(f"{press_folder}/pneumatic_system_schematic.png", "Bleed / pneumatic schematic (POH 6-02-10)")
+
+    with st.expander("**2. ECS & cabin conditioning**", expanded=False):
+        st.markdown(
+            """
+The **Environmental Control System** takes bleed air and delivers:
+
+- Correct **temperature** (temperature control system)
+- Correct **flow and distribution** to the cabin zones
+
+If cabin temperature responds slowly, check panel settings first — then confirm there is no broader **bleed limitation** on the synoptic.
 """
         )
 
-    with st.expander("**5. Pressurization (conceptual model)**", expanded=False):
+    with st.expander("**3. Pressurization — how it works**", expanded=False):
         st.markdown(
             """
-Pressurization is controlled by **air in vs air out**.
+Pressurization is **air in vs air out**.
 
-### Air in (supply)
+### Air in
 
-- Engine bleed air (conditioned by ECS).
+Engine **bleed air**, conditioned by the ECS, flows into the pressurized cabin.
 
-### Air out (control)
+### Air out
 
-- Cabin pressure is controlled primarily by positioning the **Outflow Valve (OFV)**.
+The **Outflow Valve (OFV)** controls cabin exhaust. The **Cabin Pressure Control System (CPCS)** positions the OFV automatically in **AUTO**.
 
-### Effect of OFV position
+- **Close OFV** → less air escapes → cabin pressure **increases** (cabin altitude **decreases**)
+- **Open OFV** → more air escapes → cabin pressure **decreases** (cabin altitude **increases**)
 
-- **Close OFV** → less air escapes → cabin pressure increases (cabin altitude decreases).
-- **Open OFV** → more air escapes → cabin pressure decreases (cabin altitude increases).
+### Mechanical backup
 
-The CPCS provides automatic OFV control to maintain cabin altitude, cabin rate, and differential pressure within limits.
+**Negative Relief Valve (NRV)** and **Positive Relief Valve (PRV)** provide structural relief if control limits are exceeded.
+
+### Landing field elevation (LFE)
+
+In **AUTO**, the CPCS needs a destination pressure reference — normally from the **FMS**, or entered manually on the **MFD**. Wrong **LFE** on descent can produce an uncomfortable or incorrect cabin schedule near landing.
+
+### By flight phase
+
+
+| Phase | Goal |
+|-------|------|
+| Ground | Cabin near ambient; avoid unintended differential pressure |
+| Climb | Schedule cabin altitude and rate within comfort and structural limits |
+| Cruise | Stable cabin altitude; protect delta-P |
+| Descent / landing | Schedule cabin down toward **LFE** so doors open normally on the ground |
 """
         )
-        _img(f"{press_folder}/cpcs_schematic.png", "CPCS schematic (pressurization control)")
+        _img(f"{press_folder}/cpcs_schematic.png", "CPCS schematic (POH 6-02-20)")
 
-    with st.expander("**6. Operating goal by phase (what the system is trying to do)**", expanded=False):
-        phases = [
-            ("On the ground", "Keep cabin near ambient; prevent unintended differential pressure."),
-            ("Takeoff / climb", "Schedule cabin altitude and rate within comfort and structural limits."),
-            ("Cruise", "Maintain stable cabin altitude and protect differential pressure limits."),
-            ("Descent / landing", "Schedule cabin descent toward landing field reference so doors open normally."),
-        ]
-        st.table(pd.DataFrame(phases, columns=["Phase", "Goal"]))
-        st.markdown(
-            """
-### Landing field reference
-
-- The automatic schedule depends on having a correct destination reference (typically from the FMS or via manual entry).
-"""
-        )
-
-    with st.expander("**7. Operational interpretation (common patterns)**", expanded=False):
-        patterns = [
-            ("CAB ALTITUDE HI", "Cabin altitude is increasing; common drivers include insufficient bleed supply or OFV too open."),
-            ("PRESN AUTO FAIL", "Automatic pressurization is unavailable; manual control may be required."),
-            ("CAB DELTA-P FAIL", "Differential pressure limit exceeded (high or low); structural protection condition."),
-            ("BLEED FAIL / LEAK / OVERTEMP", "Typically indicates an upstream pneumatic/bleed issue impacting multiple air functions."),
-        ]
-        st.table(pd.DataFrame(patterns, columns=["Cue", "Operational meaning"]))
-
-    with st.expander("**8. AUTO vs MAN pressurization**", expanded=False):
+    with st.expander("**4. Pressurization controls**", expanded=False):
         st.markdown(
             """
 ### AUTO (normal)
 
-- CPCS controls cabin exhaust through ground / takeoff / climb / descent / taxi.
-- Needs correct **Landing Field Elevation (LFE)** from FMS or manual MFD entry.
+CPCS controls the OFV through ground, takeoff, climb, cruise, descent, and taxi. Requires valid **LFE**.
 
 ### MAN (abnormal)
 
-- MODE switch → **MAN**; use **CABIN ALT UP / DN** to command OFV open/close.
-- Manual channel includes altitude limiting — still protect structure.
+- **MODE** switch → **MAN**
+- **CABIN ALT UP / DN** commands OFV open/close
+- Manual channel includes **altitude limiting** — structure is still protected
 
-**DUMP** — rapid depressurization (ground or per QRH).
+### DUMP
 
-**Memory Items:** *CAB ALTITUDE HI*, *EMERGENCY DESCENT* — see **Memory Items**.
+Rapid depressurization — ground or per QRH.
+
+**Memory Items:** *CAB ALTITUDE HI*, *EMERGENCY DESCENT* — see **Memory Items** (not duplicated here).
+
+**CAB ALTITUDE HI** triggers at **10,000 ft** cabin altitude.
 """
         )
+        c1, c2 = st.columns(2, gap="medium")
+        with c1:
+            _img(f"{press_folder}/pressurization_pneumatic_panel.png", "Pressurization & pneumatic panel")
+        with c2:
+            _img(f"{press_folder}/pressure_indication_mfd.png", "Cabin pressure indication (MFD)")
 
-    with st.expander("**9. Key numbers**", expanded=False):
+    with st.expander("**5. When something fails — what it usually means**", expanded=False):
         st.markdown(
             """
-| Item | Value |
-|------|-------|
-| **CAB ALTITUDE HI** warning | **10,000 ft** cabin altitude |
-| **Delta-P** normal | Below **9.5 psid** |
-| **Delta-P fail** | **> 9.5 psid** or **< -0.3 psid** |
-| **Design ceiling** | Up to **45,000 ft** (cabin ~6,640 ft at max altitude) |
+| Cue | System meaning |
+|-----|----------------|
+| **CAB ALTITUDE HI** | Cabin altitude climbing — often insufficient **bleed in** or OFV too open |
+| **PRESN AUTO FAIL** | Automatic pressurization unavailable — **MAN** may be required |
+| **CAB DELTA-P FAIL** | Differential pressure out of limits — structural protection active |
+| **BLEED / DUCT messages** | Upstream bleed problem — often affects ECS, pressurization, and anti-ice together |
 
-_Verify on POH §6-02 for your revision._
+Use the **MFD synoptic** to see whether the problem is **supply** (bleed) or **exhaust** (OFV/CPCS).
 """
         )
 
@@ -203,31 +169,8 @@ _Verify on POH §6-02 for your revision._
             ("Bleed", "CAUTION", "XBLEED FAIL", "Crossbleed valve not responding."),
             ("Avionics bay", "ADVISORY", "EBAY OVHT", "Avionics bay temp > 70°C."),
         ],
-        title="10. CAS quick reference",
+        title="6. CAS quick reference",
     )
-
-    with st.expander("**11. Diagram cheat sheet**", expanded=False):
-        c1, c2 = st.columns(2, gap="medium")
-        with c1:
-            _img(f"{press_folder}/cpcs_schematic.png", "CPCS schematic")
-        with c2:
-            _img(f"{press_folder}/pneumatic_system_schematic.png", "Pneumatic / bleed")
-        tcs = f"{press_folder}/tcs_schematic.png"
-        if os.path.exists(tcs):
-            _img(tcs, "Temperature Control System (context)")
-
-    with st.expander("**12. Study checklist**", expanded=False):
-        st.markdown(
-            """
-- [ ] Bleed in vs OFV out (pressurization model).
-- [ ] When **XBLEED** is used conceptually.
-- [ ] AUTO vs MAN — when you would select MAN.
-- [ ] **LFE** wrong on descent — what happens?
-- [ ] **CAB ALTITUDE HI** first actions (memory item).
-- [ ] Link bleed failures to **anti-ice** and **ECS**.
-"""
-        )
 
     back_to_top()
     source_footer("poh", "§6-02 Air Management · Memory Items (CAB ALTITUDE HI)")
-

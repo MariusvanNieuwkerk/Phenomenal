@@ -103,15 +103,5 @@ Cross-check indications and synoptic after each action.
     with st.expander("**6. POH extracts**", expanded=False):
         _show_poh_images(folder, "poh_6-06_synoptic_", "POH synoptic pages (Fire Protection)")
 
-    with st.expander("**7. Study checklist**", expanded=False):
-        st.markdown(
-            """
-- [ ] Engine fire memory items (ground vs airborne, 30 s rule, DISCH).
-- [ ] What **FIRE SHUTOFF** does to hydraulics.
-- [ ] Difference between **BAG SMK**, **BAG SMK FAULT**, **BAG SMK FAIL**.
-- [ ] **ENG FIREX DISCH** — bottle spent.
-"""
-        )
-
     back_to_top()
     source_footer("poh", "§6-06 Fire Protection · QRH engine fire memory items")

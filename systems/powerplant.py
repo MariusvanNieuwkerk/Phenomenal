@@ -13,22 +13,6 @@ def _img(path: str, caption: str):
         st.warning(f"Missing image: `{path}`")
 
 
-def _show_folder_images(folder: str, prefix: str, title: str, columns: int = 2):
-    paths = []
-    if os.path.isdir(folder):
-        for name in os.listdir(folder):
-            if name.lower().endswith(".png") and name.startswith(prefix):
-                paths.append(os.path.join(folder, name))
-    paths.sort()
-    if not paths:
-        return
-    st.markdown(f"**{title}**")
-    cols = st.columns(columns, gap="medium")
-    for i, p in enumerate(paths):
-        with cols[i % columns]:
-            _img(p, os.path.basename(p))
-
-
 def render_powerplant():
     st.markdown("## Powerplant (PW535E engines)")
     st.caption("ATA 71 | Source: Phenom 300 POH (Section 6-05)")
@@ -68,6 +52,8 @@ bleed air for pressurisation and anti-ice. Those outputs are described under **E
 
 Engine parameters on the **MFD engine page**. Alerts on the **PFDs**.
 Numeric limits are listed under **Limitations → Engine Limits (PW535E)**.
+
+**Study focus:** thrust lever → FADEC → N1; start sequence (N2, ITT); when ATR commands reserve thrust.
 """
         )
 
@@ -109,8 +95,7 @@ Typical accessories on the Phenom installation:
 - **Bleed Off Valve (BOV)** — FADEC-controlled valve that modulates engine bleed air extraction
 - **TT0 sensor** — total temperature probe in the inlet duct (FADEC ambient input; heated in icing)
 - **Ignition exciters** and **igniters**
-- **EDCU** — Engine Data Collection Unit (engine condition monitoring and maintenance reporting)
-- **Oil tank, sightglass, chip detector** — lubrication system (see §7)
+- **EDCU** — reports engine data to avionics/maintenance
 
 _Source: POH 6-05-00 (Rev 12)._"""
         )
@@ -272,7 +257,6 @@ The **MFD engine page** shows both engines side by side. Key indication groups:
 _Source: POH 6-05-05 (Rev 12)._"""
         )
         _img(f"{folder}/poh_6-05_mfd_engine_indications_p474.png", "MFD engine page — overview (POH 6-05-05 p4)")
-        _show_folder_images(folder, "poh_6-05_mfd_indications_", "MFD engine page — indication details (POH 6-05-05 p5–8)")
 
     # ------------------------------------------------------------------ 5
     with st.expander("**5. Starting, ignition & shutdown**", expanded=False):
@@ -346,48 +330,23 @@ The engine fuel system **pressurises, filters, heats, meters, and delivers** fue
 
 ### Fuel flow path (summary)
 
-Airframe wing feed → **centrifugal boost pump** → **FOHE** (heating) → **fuel filter** →
-**FMU** (HP pump, PRV, proportional module) → **fuel flow meter (FFT)** → **flow divider** →
+Airframe wing feed → **centrifugal boost pump** → **FOHE** (heats fuel, cools oil) → **fuel filter** →
+**FMU** → **fuel flow meter** → **flow divider** → **primary & secondary manifolds** → **11 fuel nozzles**
 
-### primary & secondary manifolds** → **11 fuel nozzles
+### FMU (Fuel Metering Unit)
 
-
-### FMU (Fuel Metering Unit) — central assembly
-
+The FMU meters and shuts off fuel. FADEC drives a torque motor on the metering valve. Key roles:
 
 | Element | Role |
 |---------|------|
-| **Centrifugal boost pump** | Positive inlet pressure to the FMU across the flight envelope |
-| **HP gear pump** | High-pressure supply to nozzles and motive flow |
-| **PRV** | Maintains constant differential pressure across the metering valve |
-| **Proportional module** | Meters burn flow proportional to valve position |
-| **Flow divider & shutoff valve** | Splits primary/secondary flow; shuts off fuel for shutdown |
-| **Wash screen** | Upstream filter protecting PRV and proportional module |
-| **Motive flow takeoff** | High-pressure tap powering the wing-tank **ejector pump** (above idle) |
-| **Ecology system** | Purges unburned fuel from the manifold after shutdown |
-| **ESOV** | Emergency shutoff — mechanically tripped on LP turbine shaft failure |
-| **PMA** | Dual-wound alternator — FADEC primary power when engine is running |
+| **HP pump & PRV** | Pressure for nozzles and motive flow to wing-tank ejector |
+| **Flow divider & shutoff** | Primary/secondary split; fuel off at shutdown |
+| **PMA** | Powers FADEC when engine is running |
+| **ESOV** | Emergency shutoff on LP shaft failure |
 
-### Integrated fuel manifold & nozzles
+**FOHE** shared with the oil system. **Impending bypass** on fuel filter → **FUEL IMP BYP** CAS.
 
-- Flow divider sends fuel to **primary** and **secondary** manifolds
-- Last-chance inlet screens at manifold inlets and each nozzle
-- 11 nozzles arranged for start performance and even combustor temperature distribution
-
-### FOHE
-
-Heats fuel (anti-icing) and cools engine oil. Fuel filter housing includes impending-bypass
-monitoring and a bypass valve for clogging or ice.
-
-### Fuel flow meter (FFT)
-
-Measures fuel flow to the cockpit. If FFT lines fail and the engine shuts down from starvation,
-FADEC closes internal FMU valves upstream of the FFT to prevent excess fuel escape.
-
-### Airframe fuel shutoff
-
-The fire-panel **FIRE SHUTOFF** pushbutton closes the shutoff valve in the wing feed line
-(see **Fuel** and **Fire Protection**).
+Airframe **FIRE SHUTOFF** closes the wing feed line (see **Fuel**, **Fire Protection**).
 
 _Source: POH 6-05-10 (Rev 6)._"""
         )

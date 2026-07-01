@@ -14,240 +14,143 @@ def _img(path: str, caption: str):
         st.warning(f"Missing image: `{path}`")
 
 
-def _show_folder_images(folder: str, prefix: str, title: str, columns: int = 2):
-    paths = []
-    if os.path.isdir(folder):
-        for name in os.listdir(folder):
-            if name.lower().endswith(".png") and name.startswith(prefix):
-                paths.append(os.path.join(folder, name))
-    paths.sort()
-
-    if not paths:
-        st.info("No POH images found for this section yet.")
-        return
-
-    st.markdown(f"**{title}**")
-    cols = st.columns(columns, gap="medium")
-    for i, p in enumerate(paths):
-        with cols[i % columns]:
-            _img(p, os.path.basename(p))
-
-
 def render_fuel():
     st.markdown("## Fuel System")
     st.caption("ATA 28 | Source: Phenom 300 POH (Section 6-09, Rev 12)")
 
     folder = "assets/fuel"
 
-    with st.expander("**1. System overview (what it’s doing for you)**", expanded=True):
+    with st.expander("**0. Big picture**", expanded=True):
         st.markdown(
             """
-### Purpose
+Two **integral wing tanks** (left and right) store fuel and feed **two independent engine lines**.
 
-- Store fuel and **continuously supply both engines** across the operating envelope.
-- Provide **indication** and crew alerting (synoptic + CAS).
+| Element | Role |
+|---------|------|
+| **Collector tank** | Keeps the pickup submerged for a steady feed |
+| **Ejector (jet) pump** | Primary feed — no moving parts, driven by engine motive flow |
+| **Electric boost pump** | Start, crossfeed, and backup when primary pressure is low |
+| **EFCU** | Commands boost pumps in **AUTO**; processes quantity and alerts |
 
-### Where fuel is stored
+**Where you see it:** fuel synoptic and fuel data on the **MFD**; messages on **both PFDs**.
 
-- Two **integral wing tanks** (left & right), physically isolated from each other.
+**Study focus:** normal feed vs when the electric pump runs; **XFEED LO1/LO2**; difference between **quantity**, **pressure**, and **feed fault** messages.
 
-### Where to see it
-
-- Fuel parameters and synoptic → **MFD** (Fuel synoptic + Fuel Data)
-- Messages → **both PFDs**
-
-_Source: POH 6-09-00 (Original/Rev 6)._"""
-        )
-
-    with st.expander("**2. Conceptual model (deeper, but simple)**", expanded=False):
-        st.markdown(
-            """
-Use a three-layer model:
-
-### Layer A — The tank (storage)
-
-- Each wing has a main tank, but the engine feed is taken from a **collector tank**.
-- The collector tank helps keep the pickup submerged and the feed stable.
-
-### Layer B — The normal feed (no moving parts)
-
-- The primary feed is an **ejector/jet pump** (venturi effect).
-- It uses **motive flow** from the engine-driven system to pull fuel forward.
-
-### Layer C — The electric boost pump
-
-- Electric pumps provide boost for **engine start**, **crossfeed**, and **backup** when primary feed pressure is low.
+Numeric limits → **Limitations → Fuel**.
 """
         )
 
-    with st.expander("**3. Quick lookup (numbers & triggers)**", expanded=False):
-        rows = [
-            ("Low-level (per tank)", "140 kg (310 lb) remaining → FUEL 1(2) LO LEVEL"),
-            ("Fuel imbalance", "≥ 100 kg (220 lb) triggers; clears when ≤ 40 kg (88 lb)"),
-            ("Fuel equal (with XFEED open)", "Difference < 20 kg (44 lb)"),
-            ("Fuel temp (display range)", "> -37°C (-34°F) and < 80°C (176°F)"),
-        ]
-        st.table(pd.DataFrame(rows, columns=["Item", "Value / effect"]))
-        st.markdown("_Source: POH 6-09-05 + 6-09-15 (Rev 6/8)._")
-
-    with st.expander("**4. Normal feed logic (what powers what, when)**", expanded=False):
+    with st.expander("**1. How fuel reaches the engine**", expanded=False):
         st.markdown(
             """
 ### Normal flight
 
-- Each engine is normally fed from its **own wing**.
-- Primary feed is via the **ejector (jet) pump**: no moving parts, driven by engine motive flow.
+Each engine is fed from **its own wing tank**. Fuel flows from the main tank into a **collector tank**, then to the engine through an **ejector pump** — a venturi driven by high-pressure fuel from the engine fuel system. No electric motor in normal cruise.
 
-### When the electric boost pumps matter
+A **scavenge jet pump** keeps the collector tank filled during manoeuvres.
+
+### When the electric boost pump runs
+
+The **EFCU** turns the boost pump on when it is needed:
 
 - **Engine start**
-- **Crossfeed (XFEED) operation**
-- **Backup** if primary feed pressure is insufficient (low pressure in primary feed system)
+- **Crossfeed (XFEED)**
+- **Primary feed pressure is low** — you may see **FUEL 1(2) FEED FAULT** as the system reacts
 
-### Automatic mode
+With the pump selector in **AUTO** (normal), you do not command this manually.
 
-- With FUEL PUMP selectors in **AUTO**, the **EFCU** commands the electric pumps when needed.
+### Pump electrical sources (asymmetric by design)
 
-### Why pump power sources are asymmetric (by design)
+- **Pump 1 (left)** — **Emergency Bus**
+- **Pump 2 (right)** — **DC BUS 2**
 
-- **DC Pump 1 (left)**: powered by the **Emergency Bus**
-- **DC Pump 2 (right)**: powered by **DC BUS 2**
+### Independence
 
-_Source: POH 6-09-10 (Rev 12)._"""
+Left and right feed systems are **separate**. Closing one engine **fuel shutoff** (fire handle) does not starve the other engine.
+
+**Engine-side fuel** (FMU, nozzles) → **Powerplant → Engine fuel system**.
+"""
         )
+        _img(f"{folder}/fuel_tanks_location.png", "Fuel tanks — main, surge, and collector (POH 6-09-10)")
 
-    with st.expander("**5. Controls (Fuel panel)**", expanded=False):
+    with st.expander("**2. Fuel panel controls**", expanded=False):
         st.markdown(
             """
-### Fuel pump selector (per side)
+### Fuel pump selector (one per side)
 
-- **ON**: activates associated electric boost pump.
-- **AUTO**: EFCU controls pump automatically (normal position).
-- **OFF**: deactivates pump.
 
-### Crossfeed knob (XFEED)
+| Position | What it does |
+|----------|--------------|
+| **AUTO** | EFCU runs the boost pump when required — normal |
+| **ON** | Boost pump runs continuously |
+| **OFF** | Boost pump disabled |
 
-- **LO1**: opens crossfeed **and turns on Pump 2** → both engines fed from **right** tank.
-- **OFF**: crossfeed closed.
-- **LO2**: opens crossfeed **and turns on Pump 1** → both engines fed from **left** tank.
+### Crossfeed (XFEED)
 
-### Operational note
 
-- Crossfeed operation **should not be performed during takeoff and landing**.
+| Position | What it does |
+|----------|--------------|
+| **LO1** | Opens crossfeed and runs **Pump 2** — both engines fed from the **right** tank |
+| **OFF** | Crossfeed closed — each engine from its own tank |
+| **LO2** | Opens crossfeed and runs **Pump 1** — both engines fed from the **left** tank |
 
-_Source: POH 6-09-05 (Original/Rev 7)._"""
+**Do not use crossfeed during takeoff and landing.**
+
+When XFEED is open, the **feeding** tank should decrease faster than the other. **FUEL EQUAL** (advisory) means lateral difference is small with XFEED open.
+"""
         )
-        _img(f"{folder}/fuel_control_panel.png", "Fuel control panel")
+        _img(f"{folder}/fuel_control_panel.png", "Fuel control panel (POH 6-09-05)")
 
-    with st.expander("**6. Tanks, ventilation, and indications**", expanded=False):
+    with st.expander("**3. Indications & synoptic**", expanded=False):
         st.markdown(
             """
-### Tank structure (each wing)
+### Quantity
 
-- **Main tank**, **surge tank**, and **collector tank**.
-- The **collector tank** keeps pumps submerged to support a steady feed.
-
-### Vent system
-
-- Designed to keep tank differential pressure within structural limits and prevent spillage during maneuvers/overfill events.
-- Each tank vents through a **NACA inlet/outlet** on the lower wing surface (inboard of the wing tip).
-
-### Quantity indication
-
-- **Capacitive** measurement, self-calibrated (no adjustment).
-- Quantity signal is processed by a segregated **EFCU** channel for each tank.
-  - Loss of one tank quantity indication also removes the **total** quantity indication.
+- **Capacitive** probes in each tank — no pilot calibration.
+- Each tank has its own **EFCU** channel. If one tank quantity fails, **total** quantity is also removed.
 
 ### Fuel temperature
 
 - Measured in the **right collector tank**.
-- Normal display range: **> -37°C (-34°F)** and **< 80°C (176°F)**.
+- Display range: **> -37°C (-34°F)** and **< 80°C (176°F)**.
 
-_Source: POH 6-09-10 (Rev 12) + 6-09-05 (Rev 6)._"""
-        )
-        _img(f"{folder}/fuel_tanks_location.png", "Fuel tanks (location/structure)")
+### MFD fuel synoptic
 
-    with st.expander("**7. Crossfeed (what it actually does)**", expanded=False):
-        st.markdown(
-            """
-Crossfeed allows **both engines to be supplied from one tank** to manage lateral fuel balance.
+- Total remaining / total used
+- Left and right tank quantities
+- Electric pump status (ON / OFF / FAILED)
+- Crossfeed valve (OPEN / CLOSED)
 
-### LO1
+### Alerts you should distinguish
 
-- Crossfeed opens + **Pump 2 ON**
-- Both engines are fed from the **right** tank
 
-### LO2
-
-- Crossfeed opens + **Pump 1 ON**
-- Both engines are fed from the **left** tank
-
-### Operational check
-
-- With XFEED open, the selected feeding tank should decrease faster than the other tank.
-
-_Source: POH 6-09-05 (Original)._"""
-        )
-
-    with st.expander("**8. Engine fuel feed (architecture)**", expanded=False):
-        st.markdown(
-            """
-### Independent feeds
-
-- Left and right engine feed systems are **independent**.
-- Closing one engine fuel shutoff valve does **not** make fuel unavailable to the other engine.
-
-### Pumps in each tank
-
-- **Ejector fuel pump** (primary): venturi/jet pump, **no moving parts**, driven by engine motive flow.
-- **Scavenge jet pump**: maintains collector tank level (helps during uncoordinated maneuvers).
-- **Electric boost pump**: used for **engine start**, **XFEED**, and **backup** when ejector feed is not sufficient.
-
-### Automatic logic
-
-- With pump selector in **AUTO**, EFCU commands the electric boost pumps when required.
-
-### Electrical power sources (asymmetric on purpose)
-
-- **DC Pump 1 (left)**: powered by the **Emergency Bus**.
-- **DC Pump 2 (right)**: powered by **DC BUS 2**.
-
-_Source: POH 6-09-10 (Rev 12)._"""
-        )
-
-    with st.expander("**9. Operational interpretation (common situations)**", expanded=False):
-        st.markdown(
-            """
-This section summarizes typical system behavior and expected indications.
+| Message type | What it reflects |
+|--------------|------------------|
+| **LO LEVEL** | Quantity — about **140 kg (310 lb)** left in that tank |
+| **LO PRES** | **Pressure** to the engine while it is running — not the same as low quantity |
+| **FEED FAULT** | Primary (ejector) feed pressure low — EFCU typically commands the boost pump |
+| **IMBALANCE** | Lateral difference ≥ **100 kg (220 lb)**; clears at ≤ **40 kg (88 lb)** |
 """
         )
-        rows = [
-            ("FUEL 1(2) FEED FAULT", "Primary feed pressure is low → EFCU typically commands the **electric pump ON** to protect the engine feed."),
-            ("FUEL PUMP 1(2) FAIL", "That side’s electric pump is not available → start/XFEED/backup capability on that side is reduced."),
-            ("FUEL IMBALANCE", "You have a meaningful lateral difference → expect to manage balance (often via XFEED) and confirm the “feeding side” is the one decreasing."),
-            ("FUEL 1(2) LO PRES", "Engine is running but feed pressure is low → indicates a **fuel supply/pressure** issue (not quantity). Expect pump logic/CAS to guide troubleshooting."),
-        ]
-        st.table(pd.DataFrame(rows, columns=["Cue", "What it usually means (concept)"]))
-        st.markdown("_This is conceptual guidance; use QRH/AFM procedures for actions._")
+        _img(f"{folder}/fuel_synoptic_mfd.png", "Fuel synoptic (MFD)")
 
-    with st.expander("**10. Fuel shutoff (fire protection interface)**", expanded=False):
+    with st.expander("**4. Fuel shutoff & fire protection**", expanded=False):
         st.markdown(
             """
-### Fuel shutoff valves
+Each wing feed line has a **fuel shutoff valve** — **normally open**.
 
-- Installed in each wing feed line to prevent hazardous fuel flow into fire zones.
-- **Normally open**.
-- Only the **fire shutoff pushbutton** commands them closed.
+Only the fire-panel **FIRE SHUTOFF** pushbutton closes it. That stops fuel to the affected engine and is part of fire isolation (see **Fire Protection**).
 
-_Source: POH 6-09-10 (Rev 12)._"""
+**FUEL 1(2) SOV FAIL** means the commanded and actual shutoff valve position do not agree.
+"""
         )
 
-    with st.expander("**11. Power-up CAS — nav database (FOL 001/14)**", expanded=False):
+    with st.expander("**5. Fleet note — spurious fuel CAS at power-up (FOL 001/14)**", expanded=False):
         st.markdown(
             """
-**FUEL PUMP FAIL** or fuel CAS at power-up after loading nav database into the **lower** MFD SD slot.
+**FUEL PUMP FAIL** or other fuel CAS right after loading the nav database into the **lower** MFD SD card slot.
 
-**Fix:** Load navigation database **only** via **top MFD slot** (spare card). See **RNAV → Database updates**.
+Load the navigation database **only** in the **top** MFD slot (spare card). See **RNAV / RNP Approaches → Database updates**.
 """
         )
 
@@ -263,22 +166,8 @@ _Source: POH 6-09-10 (Rev 12)._"""
             ("Servicing", "ADVISORY", "DOOR REFUEL OPEN", "Refuel panel door open; must be closed before takeoff."),
             ("Crossfeed", "ADVISORY", "FUEL EQUAL", "With XFEED open: lateral fuel difference < 20 kg (44 lb)."),
         ],
-        title="12. CAS quick reference",
+        title="6. CAS quick reference",
     )
-
-    with st.expander("**13. Synoptic (what you’ll see on the MFD)**", expanded=False):
-        st.markdown(
-            """
-The fuel synoptic provides a quick visual of:
-- Total fuel remaining / total used
-- Left/right tank quantities
-- Electric pump status (ON/OFF/FAILED)
-- Crossfeed valve status (OPEN/CLOSED)
-
-_Source: POH 6-09-05 (Rev 6/7)._"""
-        )
-        _img(f"{folder}/fuel_synoptic_mfd.png", "Fuel synoptic page (MFD)")
-        _show_folder_images(folder, "poh_6-09_synoptic_", "POH synoptic pages (Fuel)")
 
     back_to_top()
     source_footer("poh", "§6-09 Fuel")

@@ -167,28 +167,5 @@ Check **OM-C airport briefing** and **OM-B steep approach** supplement before op
         title="8. CAS quick reference",
     )
 
-    with st.expander("**9. Study checklist**", expanded=False):
-        st.markdown(
-            """
-Before your session, you should be able to explain **without notes**:
-
-1. Difference between **FD**, **AP**, and **YD**.
-2. **Min engage** vs **min use** heights (600/1000 ft vs 195/220 ft).
-3. What the **ventral rudder** does when YD is ON vs OFF.
-4. What happens when you press **CWS** vs **quick disconnect**.
-5. What **AP PITCH MISTRIM** and **AP ROLL MISTRIM** imply.
-6. **STEEP FAIL** operational consequence.
-7. Where **SWPS / pusher** fits (Flight Controls — not AFCS, but same training day).
-
-### In Briefly
-
-- **SOP → Approaches** — mode callouts on final
-- **SOP → General → Automation** — AP/FD tables
-- **Flight Profiles** — profile diagrams
-- **Memory Items** — inadvertent pusher
-- **Documents** — QRH for each failure
-"""
-        )
-
     back_to_top()
     source_footer("om_b", "§2.1 Automation · §2.12 Approach automation · POH §6-03 AFCS")

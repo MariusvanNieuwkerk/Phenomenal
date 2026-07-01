@@ -14,190 +14,143 @@ def _img(path: str, caption: str):
         st.warning(f"Missing image: `{path}`")
 
 
-def _show_folder_images(folder: str, prefix: str, title: str, columns: int = 2):
-    paths = []
-    if os.path.isdir(folder):
-        for name in os.listdir(folder):
-            if name.lower().endswith(".png") and name.startswith(prefix):
-                paths.append(os.path.join(folder, name))
-    paths.sort()
-
-    if not paths:
-        st.info("No POH images found for this section yet.")
-        return
-
-    st.markdown(f"**{title}**")
-    cols = st.columns(columns, gap="medium")
-    for i, p in enumerate(paths):
-        with cols[i % columns]:
-            _img(p, os.path.basename(p))
-
-
 def render_electrics():
     st.markdown("## Electrical System")
     st.caption("ATA 24 | Source: Phenom 300 POH (Section 6-04, Rev 14)")
 
     folder = "assets/electrics"
 
-    with st.expander("**1. System overview**", expanded=True):
+    with st.expander("**0. Big picture**", expanded=True):
         st.markdown(
             """
-### What this system does
+**28 VDC** powers the aircraft through **two independent DC channels** (left and right). In normal flight each **starter generator** feeds its own network; **bus ties** can connect the sides automatically when a source is lost.
 
-- Provides **28 VDC** electrical power to aircraft systems.
-- Designed for **automatic** operation with low pilot workload.
-- Built around **two independent DC channels** for fault isolation; **bus ties** can automatically connect networks if needed.
+| Source | Role |
+|--------|------|
+| **SG1 / SG2** | Primary power when engines are running |
+| **Battery 1 / 2** | Backup; support starts and emergency loads |
+| **DC GPU** | Ground power on the ramp |
 
-### Primary power sources
+**Where you see it:** **electrical synoptic** on the MFD; CAS on **both PFDs**; switches on the **electrical panel** (left console).
 
-- **Starter Generators 1/2 (SG1/SG2)**: normal primary sources.
-- **Batteries 1/2**: backup sources (and support starts).
-- **DC GPU**: ground power to energize the airplane on the ramp.
-
-_Source: POH 6-04-00, 6-04-15 (Rev 14)._"""
-        )
-
-    with st.expander("**2. Conceptual model (how to think about it)**", expanded=False):
-        st.markdown(
-            """
-Core concept: **two independent DC channels with automatic bus-tie logic**.
-
-### Two DC channels (left/right)
-
-- In normal flight, each starter generator powers **its own network**.
-- This keeps faults isolated (a problem on one side is less likely to take the other side down).
-
-### BUS TIE (AUTO)
-
-- In AUTO, the airplane can **connect the networks** to keep essential buses powered when a source is lost.
-- You’ll see this on the electrical synoptic as a change in which source feeds which bus.
-
-### Emergency philosophy
-
-- If you lose the normal sources, the system goes into a **simplified emergency configuration**: fewer loads, longer endurance.
+**Study focus:** split vs tied configuration; what changes with **one generator lost**, **both lost**, or **GPU** connected.
 """
         )
 
-    with st.expander("**3. Controls (Electrical panel)**", expanded=False):
+    with st.expander("**1. How power is distributed**", expanded=False):
         st.markdown(
             """
-### Left lateral console – Electrical panel
+### Two channels
 
-- **GEN 1 / GEN 2 (AUTO / OFF)**: connects or isolates each starter generator from its DC bus.
-- **GPU button (push in/out)**: connects GPU to the **Central Bus** when power quality is acceptable.
-  - **GPU AVAIL** indicates the GPU is properly connected and within limits.
-  - **IN USE** indicates GPU is actually powering the airplane.
-- **BATT 1 / BATT 2 (ON / OFF)**:
-  - BATT 1 ON connects Hot Batt Bus 1 to the **Emergency Bus**.
-  - BATT 2 ON connects Hot Batt Bus 2 to the **Central Bus**.
-- **ELEC EMER button**: forces electrical emergency configuration (batteries directly to Emergency Bus).
-- **BUS TIE knob (1 OPEN / AUTO / 2 OPEN)**: isolates either side or allows automatic bus tie logic.
+Each side has a **starter generator**, **DC bus**, and **power distribution unit (PDU)**. Normal flight keeps faults **isolated** — a problem on one side is less likely to take down the other.
 
-_Source: POH 6-04-05 (Rev 10/14)._"""
+### Buses you will see on the synoptic
+
+- **DC BUS 1 / DC BUS 2** — main left/right networks
+- **Central Bus** — normally fed by SG2; GPU connects here on the ground
+- **Emergency Bus** — essential loads; batteries can feed it directly
+- **Hot Batt Bus 1 / 2** — always connected to the physical batteries
+- **Shed Bus 1 / 2** — non-essential loads the system can drop under stress
+
+### Bus tie (AUTO)
+
+In **AUTO**, the airplane **connects the networks** when needed so remaining sources can feed essential buses. Watch the synoptic after a generator failure — the diagram shows **who feeds whom**.
+
+### Load shedding
+
+When power is limited, **shed buses** drop non-essential equipment automatically to protect essential buses and avoid overload. **SHED BUS OFF** is often normal in a degraded configuration.
+
+### Battery endurance
+
+With **both generators lost**, batteries supply emergency loads for **up to 45 minutes** (design). Generator continuous limits → **Limitations → Electrical**.
+"""
         )
-        _img(f"{folder}/electrical_panel.png", "Electrical panel (controls & indications)")
+        _img(f"{folder}/electrical_power_sources_overview.png", "Power sources — SGs, batteries, GPU (POH 6-04-15)")
 
-    with st.expander("**4. Normal operation (what you should expect)**", expanded=False):
+    with st.expander("**2. Electrical panel**", expanded=False):
         st.markdown(
             """
-### In flight (typical)
+### GEN 1 / GEN 2 (AUTO / OFF)
 
-- Each starter generator powers its **own DC bus** (split configuration).
-- **SG2 also supplies the Central Bus** under normal conditions.
-- Batteries are generally **charging** when generators/GPU are available.
+Connects or isolates each starter generator from its DC bus. **AUTO** is normal — the generator comes online after engine start.
 
-### On the ramp
+### GPU (push in / out)
 
-- A **DC GPU** can power the **Central Bus** for preflight/servicing and can assist starting.
-- After engine start, the associated **starter generator comes online automatically** (if GEN switch is in AUTO).
+Connects external **DC GPU** to the **Central Bus** when voltage and quality are acceptable.
 
-_Source: POH 6-04-15 (Rev 14)._"""
+- **GPU AVAIL** — GPU connected and within limits
+- **IN USE** — GPU is powering the airplane
+
+### BATT 1 / BATT 2 (ON / OFF)
+
+- **BATT 1 ON** — Hot Batt Bus 1 to **Emergency Bus**
+- **BATT 2 ON** — Hot Batt Bus 2 to **Central Bus**
+
+### ELEC EMER (pushbutton)
+
+Forces **electrical emergency** configuration — batteries directly to Emergency Bus, reduced load set.
+
+### BUS TIE (1 OPEN / AUTO / 2 OPEN)
+
+- **AUTO** — automatic tie logic (normal)
+- **1 OPEN** or **2 OPEN** — intentionally isolate one side
+
+Cold-weather battery care → **Cold Weather** preflight.
+"""
+        )
+        _img(f"{folder}/electrical_panel.png", "Electrical panel (POH 6-04-05)")
+
+    with st.expander("**3. Normal operation**", expanded=False):
+        st.markdown(
+            """
+### In flight
+
+- Each starter generator powers **its own DC bus** (split configuration).
+- **SG2** also supplies the **Central Bus** under normal conditions.
+- Batteries **charge** when generators or GPU are available.
+
+### On the ground
+
+- **DC GPU** can power the **Central Bus** for preflight and can assist engine start.
+- After start, the associated generator comes online automatically with GEN in **AUTO**.
+
+External lights check sequence → **Airplane General → External walkround**.
+"""
         )
 
-    with st.expander("**5. Key numbers (quick lookup)**", expanded=False):
+    with st.expander("**4. When a source fails — what to expect**", expanded=False):
         st.markdown(
             """
-### Starter generators
+The system **re-routes power automatically**. Your job is to read the **synoptic** and watch for **overload** or **shed buses**.
 
-- Continuous current capability: **330 A (ground)** / **390 A (flight)** each, at **28 VDC**.
 
-### Batteries
+| Situation | What the system tries to do |
+|-----------|----------------------------|
+| **One generator lost** | Remaining generator + bus ties keep buses powered; watch **GEN OVLD** |
+| **Both generators lost** | Batteries become main source; **ELEC EMERGENCY** logic; loads shed to extend endurance |
+| **GPU on ramp** | Central Bus from GPU; confirm **GPU AVAIL** / **IN USE** |
+| **BUS TIE forced OPEN** | Sides isolated — some buses may de-energize depending on available sources |
 
-- Two lead-acid **24 VDC** batteries.
-- Backup endurance for emergency loads: **up to 45 minutes** (dual generator failure).
+**GEN 1(2) OFF BUS** — generator not on the bus (failure or GEN switch OFF).
 
-### GPU (external power) – minimum specs
+**BATT DISCHARGE** during normal operation — a battery is discharging when it should be charging.
 
-- DC rectifier: **28.5 VDC**, nominal **600 A** (input 200–480 VAC, 25 kVA).
-- Overload capability: **2000 A up to 2 seconds**.
-- GPU AVAIL (power quality): **25–29 V**.
-
-_Source: POH 6-04-15 (Rev 14)._"""
-        )
-        _img(f"{folder}/electrical_power_sources_overview.png", "Electrical power sources (SGs, batteries, GPU)")
-
-    with st.expander("**6. Distribution concept (PDUs & buses)**", expanded=False):
-        st.markdown(
-            """
-### Power Distribution Units (PDUs)
-
-- **LPDU / RPDU**: main distribution units (rear electronic bay).
-- **EPDU**: emergency distribution (nose electronic bay).
-
-### Buses you’ll see referenced
-
-- **DC BUS 1 / DC BUS 2**
-- **Central Bus**
-- **Emergency Bus**
-- **Hot Batt Bus 1 / Hot Batt Bus 2**
-- **Shed Bus 1 / Shed Bus 2**
-
-### Shed buses (load shedding)
-
-- Shed buses are **non-essential loads** that can be removed automatically to protect essential buses and prevent overload.
-- When electrical power is limited, it is normal to see **SHED BUS** indications change as loads are shed/restored.
-
-_Source: POH 6-04-20 (Original/Rev 14)._"""
+**DC BUS 1(2) OFF** or **EMER BUS OFF** — that bus has no power.
+"""
         )
         _img(
             f"{folder}/bus_configuration_sgen1_failed_inflight.png",
-            "Example bus configuration (S/GEN 1 failed, inflight)",
+            "Example: S/GEN 1 failed in flight (POH configuration page)",
         )
 
-    with st.expander("**7. Typical reconfiguration scenarios (what to expect)**", expanded=False):
+    with st.expander("**5. Where to look**", expanded=False):
         st.markdown(
             """
-The system is designed to **re-route power automatically**. Typical crew focus is:
-- confirm **which source is feeding which bus** on the synoptic, and
-- monitor for **overload / load shedding**.
-"""
-        )
-        scenarios = [
-            ("One generator lost", "Remaining generator + bus ties try to keep buses powered; watch for overload / shed buses."),
-            ("Both generators lost", "Batteries become the main source; loads are reduced to stretch endurance (electrical emergency)."),
-            ("GPU connected (ramp)", "GPU normally powers the Central Bus; batteries may charge; confirm GPU AVAIL / IN USE."),
-            ("BUS TIE forced OPEN", "You are intentionally isolating sides; expect some buses/loads to go dark depending on sources."),
-        ]
-        st.table(pd.DataFrame(scenarios, columns=["Scenario", "What you should expect (concept)"]))
-        st.markdown("_Use the electrical synoptic to verify the actual configuration._")
+- **MFD electrical synoptic** — buses, tie status, voltages, generator load
+- **PFDs** — CAS messages
+- **Electrical panel** — GEN, GPU, BATT, BUS TIE, ELEC EMER
 
-    with st.expander("**7b. External lights check (Handbook 2.1.1)**", expanded=False):
-        st.markdown(
-            """
-Systematic **external lights check** before flight — nav, landing, taxi, inspection lights per handbook sequence.
-
-_Full sequence with photos → **Airplane General → External walkround guide (3a)**._
-"""
-        )
-
-    with st.expander("**7c. Battery best practices (FOL 001/13, 013/11)**", expanded=False):
-        st.markdown(
-            """
-- Request **GPU early** in cold weather (batteries sluggish below **-10°C**).
-- Avoid unnecessary battery discharge on ground — monitor synoptic.
-- Follow GPU connection guidance before high electrical loads.
-
-_See **Cold Weather** pre-flight preparation._
+Full POH configuration diagrams → **Documents** (POH §6-04).
 """
         )
 
@@ -214,28 +167,8 @@ _See **Cold Weather** pre-flight preparation._
             ("Ground power", "ADVISORY", "GPU CONNECTED", "Ground power unit connected to the airplane."),
             ("Buses", "ADVISORY", "SHED BUS OFF", "Shed bus is de-energized."),
         ],
-        title="8. CAS quick reference",
+        title="6. CAS quick reference",
     )
-
-    with st.expander("**9. Where to look (fast)**", expanded=False):
-        st.markdown(
-            """
-- **Electrical synoptic**: MFD (system overview, buses, voltages).
-- **CAS messages**: both PFDs.
-- **Switches**: Electrical panel (left lateral console).
-"""
-        )
-
-    with st.expander("**10. Synoptic pages (POH)**", expanded=False):
-        _show_folder_images(folder, "poh_6-04_synoptic_", "Electrical synoptic pages (MFD)")
-
-    with st.expander("**11. System configurations (POH)**", expanded=False):
-        st.markdown(
-            """
-This section includes the POH electrical system configuration pages that show how power is distributed with different source availability and failures.
-"""
-        )
-        _show_folder_images(folder, "poh_6-04_config_", "Electrical system configurations", columns=2)
 
     back_to_top()
     source_footer("poh", "§6-04 Electrics")
