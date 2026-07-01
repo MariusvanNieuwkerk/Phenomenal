@@ -31,10 +31,6 @@ Ice and rain protection keeps **performance**, **handling**, and **visibility** 
 | **Windshields** | **Electrical** heating | Electrical — lower engine impact |
 | **ADS / stall probes** | **Electrical** heating | AUTO or ON |
 | **Rain** | Hydrophobic **coating** on windshields | No power — limited service life |
-
-In the cockpit, you'll see the ice/rain synoptic on the **MFD**, switches on the **ice protection panel**, and CAS on the **PFDs**.
-
-In practice, the main things to understand are: the cost of **bleed anti-ice** vs **electrical** heating; the link from **WINGSTAB ON** to **ICE SPEED / SWPS**; and when to use each switch.
 """
         )
         _img(f"{folder}/ice_rain_protection_system_overview.png", "Ice and rain protection overview (POH 6-11-00)")

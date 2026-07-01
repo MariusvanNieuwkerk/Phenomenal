@@ -25,8 +25,6 @@ def render_hydraulics():
 | **FSOV ×2** | Fire shutoff isolates each engine pump circuit |
 
 **3000 psi** red fluid — **FIRE SHUTOFF** closes FSOVs (see **Fire Protection**).
-
-In practice, the main things to understand are: what still works with **one engine**, **one pump**, or an **FSOV** closed.
 """
         )
 

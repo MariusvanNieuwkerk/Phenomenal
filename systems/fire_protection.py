@@ -42,7 +42,7 @@ def render_fire_protection():
 | **Isolation** | Fire handles / shutoff buttons → fuel, hydraulics, bleed |
 | **Extinguishing** | Fire bottles → agent to engine nacelle or baggage zone |
 
-In practice, your job is to detect early, isolate the affected zone, and discharge if required — follow **QRH** and **Memory Items** for engine fire.
+Engine fire: **QRH** and **Memory Items**.
 """
         )
 

@@ -27,11 +27,9 @@ The **Automatic Flight Control System** has three pilot-facing functions:
 
 **Servos** — electromechanical actuators on primary flight controls. AP commands go through them; you can override with force or **CWS**.
 
-**FMA (Flight Mode Annunciator)** — always know **lateral** and **vertical** active modes (e.g. HDG + ALT, FMS + GP).
+**FMA (Flight Mode Annunciator)** — **lateral** and **vertical** active modes (e.g. HDG + ALT, FMS + GP).
 
-In practice, the main things to understand are: the difference between **FD**, **AP**, and **YD**; when you can engage AP; and what **mistrim** messages mean.
-
-Exact callouts and limits: **SOP → General → Automation**.
+Callouts and limits: **SOP → General → Automation**.
 """
         )
 
@@ -55,7 +53,7 @@ Exact callouts and limits: **SOP → General → Automation**.
 - Disconnects **AP and YD** immediately.
 - After release: AP and YD stay **off** until re-selected (trim and pusher logic separate).
 
-**Pilot tip:** AP reduces workload; it does **not** reduce responsibility. Unstable approach → **go-around** regardless of AP status.
+Unstable approach → **go-around**, AP on or off.
 """
         )
 

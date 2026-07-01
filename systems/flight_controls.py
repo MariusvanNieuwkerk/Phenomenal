@@ -27,8 +27,6 @@ def render_flight_controls():
 **AFCS (autopilot)** adds **electromechanical servos** on the primary controls — it does not replace your cables, it *overlays* commands on aileron, elevator, and rudder.
 
 **Hydraulics priority** — when demand is high, a **priority valve** protects spoilers, **stick pusher**, rudder spring actuator, and brakes over landing gear extension.
-
-In practice, the main things to understand are: primary controls are **mechanical** (you can still fly basics if hydraulics fail); **FCE 1 vs FCE 2** split flaps/trim/spoilers; and how **hydraulic priority** affects gear vs spoilers under high demand.
 """
         )
 
@@ -43,7 +41,7 @@ In practice, the main things to understand are: primary controls are **mechanica
 
 **Auto-tabs** — small tabs on the elevator trailing edge that deflect automatically with elevator movement — improves pitch authority and feel.
 
-**Pilot tip:** Primary controls are **mechanical**. If hydraulics or electrics misbehave, you can still fly the basics — but secondary systems (flaps, spoilers, trim) may be degraded.
+Primary controls are **mechanical** — secondary systems (flaps, spoilers, trim) depend on electrics and hydraulics.
 """
         )
 

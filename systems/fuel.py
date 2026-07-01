@@ -31,12 +31,6 @@ Two **integral wing tanks** (left and right) store fuel and feed **two independe
 | **Ejector (jet) pump** | Primary feed — no moving parts, driven by engine motive flow |
 | **Electric boost pump** | Start, crossfeed, and backup when primary pressure is low |
 | **EFCU** | Commands boost pumps in **AUTO**; processes quantity and alerts |
-
-In the cockpit, you'll see the fuel synoptic and fuel data on the **MFD**, and messages on **both PFDs**.
-
-In practice, the main things to understand are: when the boost pump runs in normal flight; what **XFEED LO1/LO2** means; and the difference between **quantity**, **pressure**, and **feed fault** messages.
-
-Exact numbers and limits are in **Limitations → Fuel** — you don't need to memorise them here.
 """
         )
 

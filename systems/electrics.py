@@ -30,10 +30,6 @@ def render_electrics():
 | **SG1 / SG2** | Primary power when engines are running |
 | **Battery 1 / 2** | Backup; support starts and emergency loads |
 | **DC GPU** | Ground power on the ramp |
-
-In the cockpit, you'll see the **electrical synoptic** on the MFD, CAS on **both PFDs**, and switches on the **electrical panel** (left console).
-
-In practice, the main things to understand are: **split** vs **tied** configuration; and what changes when you lose **one generator**, **both generators**, or connect a **GPU**.
 """
         )
 

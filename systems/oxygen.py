@@ -41,10 +41,6 @@ def render_oxygen():
 |------|--------|-----------------|
 | **Flight crew** | Quick-don masks in stowage | Smoke/fire/fumes, depressurization, hypoxia |
 | **Passengers** | Drop-down masks (cabin system) | Cabin altitude high / depressurization |
-
-In the cockpit, you'll see **O₂ quantity and pressure** on the **MFD oxygen synoptic** and the oxygen panel before flight.
-
-In practice, the main things to understand are: crew mask settings for **smoke** vs **depressurization**; and the link to **Memory Items** (*SMOKE EVACUATION*, *CAB ALTITUDE HI*, *EMERGENCY DESCENT* — all include **DON masks**).
 """
         )
 

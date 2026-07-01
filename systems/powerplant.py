@@ -30,7 +30,7 @@ and expanded through the turbines.
 
 ### How you control thrust
 
-You set **thrust lever** position. A computer called the **FADEC** (Full Authority Digital Engine Control)
+You set **thrust lever** position. The **FADEC** (Full Authority Digital Engine Control)
 meters fuel, controls start and shutdown, and keeps the engine within speed and temperature limits.
 In normal flight you select a rating; the FADEC delivers the matching fan speed (**N1**).
 
@@ -47,12 +47,6 @@ In normal flight you select a rating; the FADEC delivers the matching fan speed 
 Each engine drives an **accessory gearbox** that turns the starter/generator, hydraulic pump, and
 bleed air for pressurisation and anti-ice. Those outputs are described under **Electrics**,
 **Hydraulics**, and **Air Management**.
-
-In the cockpit, you'll see engine parameters on the **MFD engine page** and alerts on the **PFDs**.
-
-In practice, the main things to understand are: **thrust lever → FADEC → N1**; the start sequence (**N2**, **ITT**); and when **ATR** commands reserve thrust.
-
-Exact numbers and limits are in **Limitations → Engine Limits (PW535E)** — you don't need to memorise them here.
 """
         )
 
@@ -407,7 +401,7 @@ Vents the system and separates air from scavened oil before return to the tank.
 - **Oil pressure** and **oil temperature** on the MFD engine page
 - Green = normal · Yellow = caution · Red = limit exceeded
 
-Exact numbers and limits are in **Limitations → Engine Limits (PW535E)** — you don't need to memorise them here.
+See **Limitations → Engine Limits (PW535E)**.
 
 _Source: POH 6-05-15 (Rev 6)._"""
         )

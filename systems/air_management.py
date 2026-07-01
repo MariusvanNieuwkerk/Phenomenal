@@ -32,12 +32,6 @@ The Air Management System delivers **conditioned bleed air** for the cabin and *
 | **Air out** | **Outflow valve (OFV)** controls how much air leaves the cabin |
 | **Bleed control** | **PRSOV** per engine regulates and can shut off bleed |
 | **Cross-side bleed** | **XBV** can interconnect left and right bleed circuits |
-
-In the cockpit, you'll see the air synoptic and **cabin pressure** on the **MFD**, bleed/press CAS on the **PFDs**, and the **pressurization & pneumatic panel**.
-
-In practice, the main things to understand are: **bleed in** vs **OFV out**; what fails together when **bleed** is lost; **AUTO vs MAN** pressurization; and **LFE** on descent.
-
-Exact numbers and limits are in **Limitations → Air Management (Pressurization)** — you don't need to memorise them here.
 """
         )
 

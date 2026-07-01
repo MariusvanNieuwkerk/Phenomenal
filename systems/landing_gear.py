@@ -27,9 +27,7 @@ def render_landing_gear():
 
 **Brakes:** normal + emergency/parking (accumulator). **Anti-skid** for rejected landing / wet runway.
 
-In practice, the main things to understand are: gear is **hydraulically powered** but **electrically commanded**; what **WOW** and the gear horn mean; and how **anti-skid** ties into a rejected landing.
-
-Related systems: **Hydraulics** (pressure), **Warning System** (config/gear CAS), **Flight Controls** (flaps in config check).
+Related: **Hydraulics**, **Warning System**, **Flight Controls**.
 """
         )
 

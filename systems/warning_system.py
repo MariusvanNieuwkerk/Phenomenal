@@ -20,9 +20,7 @@ The **Crew Alerting System (CAS)** is your central warning display on the PFD.
 | **CAUTION** | Amber | Prompt action — QRH when workload allows |
 | **ADVISORY** | Cyan/white | Awareness — monitor, may not need immediate action |
 
-This page explains how to read CAS messages, the takeoff configuration check, and how **SWPS** / stick pusher alerts appear.
-
-Windshear (Handbook Ch 3.3), EGPWS/TAWS (Ch 5.3), and TCAS/transponder (Ch 5.4) are covered in the Handbook and OM-A — not repeated here.
+Windshear, EGPWS/TAWS, and TCAS: Handbook and OM-A.
 """
         )
 
