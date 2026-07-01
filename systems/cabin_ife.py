@@ -9,7 +9,7 @@ def render_cabin_ife():
     st.markdown("## Cabin & IFE")
     st.caption("Cabin systems · Wi-Fi / Go-Go · Lavatory · Galley · PED · Handbook Ch 2.3, 3.1, 4.4")
 
-    with st.expander("**0. Big picture**", expanded=True):
+    with st.expander("**0. How it works**", expanded=True):
         st.markdown(
             """
 | System | What it does | Crew touchpoint |

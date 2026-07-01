@@ -21,7 +21,7 @@ def render_air_management():
     folder = "assets/air_management"
     press_folder = "assets/pressurization"
 
-    with st.expander("**0. Big picture**", expanded=True):
+    with st.expander("**0. How it works**", expanded=True):
         st.markdown(
             """
 The Air Management System delivers **conditioned bleed air** for the cabin and **pressurization**, and supplies **bleed** for **wing/stab anti-ice**.
@@ -33,11 +33,11 @@ The Air Management System delivers **conditioned bleed air** for the cabin and *
 | **Bleed control** | **PRSOV** per engine regulates and can shut off bleed |
 | **Cross-side bleed** | **XBV** can interconnect left and right bleed circuits |
 
-**Where you see it:** air synoptic and **cabin pressure** on the **MFD**; bleed/press CAS on **PFDs**; **pressurization & pneumatic panel**.
+In the cockpit, you'll see the air synoptic and **cabin pressure** on the **MFD**, bleed/press CAS on the **PFDs**, and the **pressurization & pneumatic panel**.
 
-**Study focus:** bleed in vs OFV out; what fails together when **bleed** is lost; **AUTO vs MAN** pressurization; **LFE** on descent.
+In practice, the main things to understand are: **bleed in** vs **OFV out**; what fails together when **bleed** is lost; **AUTO vs MAN** pressurization; and **LFE** on descent.
 
-Numeric limits → **Limitations → Air Management (Pressurization)**.
+Exact numbers and limits are in **Limitations → Air Management (Pressurization)** — you don't need to memorise them here.
 """
         )
 

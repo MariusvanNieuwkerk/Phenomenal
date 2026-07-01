@@ -9,7 +9,7 @@ def render_warning_system():
     st.markdown("## Warning System (CAS & checks)")
     st.caption("ATA 31 · Crew Alerting System · POH §6-14")
 
-    with st.expander("**1. Big picture**", expanded=True):
+    with st.expander("**1. How it works**", expanded=True):
         st.markdown(
             """
 The **Crew Alerting System (CAS)** is your central warning display on the PFD.
@@ -20,9 +20,9 @@ The **Crew Alerting System (CAS)** is your central warning display on the PFD.
 | **CAUTION** | Amber | Prompt action — QRH when workload allows |
 | **ADVISORY** | Cyan/white | Awareness — monitor, may not need immediate action |
 
-**This module covers:** CAS philosophy, takeoff configuration check, stall-warning controls, and how SWPS/pusher alerts appear.
+This page explains how to read CAS messages, the takeoff configuration check, and how **SWPS** / stick pusher alerts appear.
 
-**Related (not duplicated here):** windshear (Handbook Ch 3.3) · EGPWS/TAWS (Ch 5.3) · TCAS/transponder (Ch 5.4) — see OM-A / Handbook.
+Windshear (Handbook Ch 3.3), EGPWS/TAWS (Ch 5.3), and TCAS/transponder (Ch 5.4) are covered in the Handbook and OM-A — not repeated here.
 """
         )
 

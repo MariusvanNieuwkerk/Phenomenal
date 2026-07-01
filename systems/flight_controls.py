@@ -9,7 +9,7 @@ def render_flight_controls():
     st.markdown("## Flight Controls")
     st.caption("ATA 27 · Primary & secondary surfaces · Flaps · Trim · Spoilers · SWPS · POH §6-07")
 
-    with st.expander("**1. Big picture — how it all fits together**", expanded=True):
+    with st.expander("**1. How it all fits together**", expanded=True):
         st.markdown(
             """
 ### Two layers to remember
@@ -27,6 +27,8 @@ def render_flight_controls():
 **AFCS (autopilot)** adds **electromechanical servos** on the primary controls — it does not replace your cables, it *overlays* commands on aileron, elevator, and rudder.
 
 **Hydraulics priority** — when demand is high, a **priority valve** protects spoilers, **stick pusher**, rudder spring actuator, and brakes over landing gear extension.
+
+In practice, the main things to understand are: primary controls are **mechanical** (you can still fly basics if hydraulics fail); **FCE 1 vs FCE 2** split flaps/trim/spoilers; and how **hydraulic priority** affects gear vs spoilers under high demand.
 """
         )
 

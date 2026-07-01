@@ -13,7 +13,7 @@ def render_hydraulics():
 
     folder = "assets/hydraulics"
 
-    with st.expander("**0. Big picture**", expanded=True):
+    with st.expander("**0. How it works**", expanded=True):
         st.markdown(
             """
 **One hydraulic system** powers gear, brakes, spoilers, and flight-control actuators.
@@ -26,7 +26,7 @@ def render_hydraulics():
 
 **3000 psi** red fluid — **FIRE SHUTOFF** closes FSOVs (see **Fire Protection**).
 
-**Study focus:** what still works with one engine / one pump / FSOV closed.
+In practice, the main things to understand are: what still works with **one engine**, **one pump**, or an **FSOV** closed.
 """
         )
 

@@ -18,7 +18,7 @@ def render_pressurization():
 
     folder = "assets/pressurization"
 
-    with st.expander("**1. What feeds pressurization (big picture)**", expanded=True):
+    with st.expander("**1. How pressurization is fed**", expanded=True):
         st.markdown(
             """
 Pressurization is part of the **Air Management System**.

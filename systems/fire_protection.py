@@ -33,7 +33,7 @@ def render_fire_protection():
 
     folder = "assets/fire_protection"
 
-    with st.expander("**1. Big picture**", expanded=True):
+    with st.expander("**1. How it works**", expanded=True):
         st.markdown(
             """
 | Layer | Function |
@@ -42,7 +42,7 @@ def render_fire_protection():
 | **Isolation** | Fire handles / shutoff buttons → fuel, hydraulics, bleed |
 | **Extinguishing** | Fire bottles → agent to engine nacelle or baggage zone |
 
-**Pilot goal:** detect early, isolate the affected zone, discharge if required — follow **QRH** and **Memory Items** for engine fire.
+In practice, your job is to detect early, isolate the affected zone, and discharge if required — follow **QRH** and **Memory Items** for engine fire.
 """
         )
 
@@ -87,7 +87,7 @@ Detection faults: **BAG SMK FAIL** (two detectors failed) or **BAG SMK FAULT** (
         title="4. CAS quick reference",
     )
 
-    with st.expander("**5. What shutoff isolates (study model)**", expanded=False):
+    with st.expander("**5. What shutoff isolates**", expanded=False):
         st.markdown(
             """
 When you push **FIRE SHUTOFF** or use the fire handle, think in terms of:

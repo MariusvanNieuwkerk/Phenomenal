@@ -71,7 +71,7 @@ For systems knowledge, use the dedicated **Systems** pages.
 """
         )
 
-    with st.expander("**2. Key dimensions (study reference)**", expanded=False):
+    with st.expander("**2. Key dimensions**", expanded=False):
         st.markdown(
             """
 | Item | Approximate value |

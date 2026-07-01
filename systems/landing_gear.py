@@ -13,7 +13,7 @@ def render_landing_gear():
 
     folder = "assets/landing_gear"
 
-    with st.expander("**0. Big picture**", expanded=True):
+    with st.expander("**0. How it works**", expanded=True):
         st.markdown(
             """
 **Tricycle retractable gear** — electrical command, **hydraulic** actuation.
@@ -27,7 +27,9 @@ def render_landing_gear():
 
 **Brakes:** normal + emergency/parking (accumulator). **Anti-skid** for rejected landing / wet runway.
 
-**Links:** **Hydraulics** (pressure), **Warning System** (config/gear CAS), **Flight Controls** (flaps in config check).
+In practice, the main things to understand are: gear is **hydraulically powered** but **electrically commanded**; what **WOW** and the gear horn mean; and how **anti-skid** ties into a rejected landing.
+
+Related systems: **Hydraulics** (pressure), **Warning System** (config/gear CAS), **Flight Controls** (flaps in config check).
 """
         )
 

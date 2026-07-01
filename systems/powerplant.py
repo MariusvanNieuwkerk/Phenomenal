@@ -20,7 +20,7 @@ def render_powerplant():
     folder = "assets/powerplant"
 
     # ------------------------------------------------------------------ 0
-    with st.expander("**0. Big picture**", expanded=True):
+    with st.expander("**0. How it works**", expanded=True):
         st.markdown(
             """
 The Phenom 300 is powered by **two Pratt & Whitney PW535E turbofan engines** mounted on the
@@ -48,12 +48,11 @@ Each engine drives an **accessory gearbox** that turns the starter/generator, hy
 bleed air for pressurisation and anti-ice. Those outputs are described under **Electrics**,
 **Hydraulics**, and **Air Management**.
 
-### Where you see engine data
+In the cockpit, you'll see engine parameters on the **MFD engine page** and alerts on the **PFDs**.
 
-Engine parameters on the **MFD engine page**. Alerts on the **PFDs**.
-Numeric limits are listed under **Limitations → Engine Limits (PW535E)**.
+In practice, the main things to understand are: **thrust lever → FADEC → N1**; the start sequence (**N2**, **ITT**); and when **ATR** commands reserve thrust.
 
-**Study focus:** thrust lever → FADEC → N1; start sequence (N2, ITT); when ATR commands reserve thrust.
+Exact numbers and limits are in **Limitations → Engine Limits (PW535E)** — you don't need to memorise them here.
 """
         )
 
@@ -408,7 +407,7 @@ Vents the system and separates air from scavened oil before return to the tank.
 - **Oil pressure** and **oil temperature** on the MFD engine page
 - Green = normal · Yellow = caution · Red = limit exceeded
 
-Numeric limits → **Limitations → Engine Limits (PW535E)**.
+Exact numbers and limits are in **Limitations → Engine Limits (PW535E)** — you don't need to memorise them here.
 
 _Source: POH 6-05-15 (Rev 6)._"""
         )

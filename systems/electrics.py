@@ -20,7 +20,7 @@ def render_electrics():
 
     folder = "assets/electrics"
 
-    with st.expander("**0. Big picture**", expanded=True):
+    with st.expander("**0. How it works**", expanded=True):
         st.markdown(
             """
 **28 VDC** powers the aircraft through **two independent DC channels** (left and right). In normal flight each **starter generator** feeds its own network; **bus ties** can connect the sides automatically when a source is lost.
@@ -31,9 +31,9 @@ def render_electrics():
 | **Battery 1 / 2** | Backup; support starts and emergency loads |
 | **DC GPU** | Ground power on the ramp |
 
-**Where you see it:** **electrical synoptic** on the MFD; CAS on **both PFDs**; switches on the **electrical panel** (left console).
+In the cockpit, you'll see the **electrical synoptic** on the MFD, CAS on **both PFDs**, and switches on the **electrical panel** (left console).
 
-**Study focus:** split vs tied configuration; what changes with **one generator lost**, **both lost**, or **GPU** connected.
+In practice, the main things to understand are: **split** vs **tied** configuration; and what changes when you lose **one generator**, **both generators**, or connect a **GPU**.
 """
         )
 

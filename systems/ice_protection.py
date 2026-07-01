@@ -19,7 +19,7 @@ def render_ice_protection():
 
     folder = "assets/ice_protection"
 
-    with st.expander("**0. Big picture**", expanded=True):
+    with st.expander("**0. How it works**", expanded=True):
         st.markdown(
             """
 Ice and rain protection keeps **performance**, **handling**, and **visibility** acceptable in icing and precipitation.
@@ -32,9 +32,9 @@ Ice and rain protection keeps **performance**, **handling**, and **visibility** 
 | **ADS / stall probes** | **Electrical** heating | AUTO or ON |
 | **Rain** | Hydrophobic **coating** on windshields | No power — limited service life |
 
-**Where you see it:** ice/rain synoptic on **MFD**; switches on **ice protection panel**; CAS on **PFDs**.
+In the cockpit, you'll see the ice/rain synoptic on the **MFD**, switches on the **ice protection panel**, and CAS on the **PFDs**.
 
-**Study focus:** bleed anti-ice cost vs electrical; **WINGSTAB ON → ICE SPEED / SWPS** link; when each switch is used.
+In practice, the main things to understand are: the cost of **bleed anti-ice** vs **electrical** heating; the link from **WINGSTAB ON** to **ICE SPEED / SWPS**; and when to use each switch.
 """
         )
         _img(f"{folder}/ice_rain_protection_system_overview.png", "Ice and rain protection overview (POH 6-11-00)")

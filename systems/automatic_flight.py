@@ -29,7 +29,9 @@ The **Automatic Flight Control System** has three pilot-facing functions:
 
 **FMA (Flight Mode Annunciator)** — always know **lateral** and **vertical** active modes (e.g. HDG + ALT, FMS + GP).
 
-→ Exact callouts: **SOP → General → Automation**.
+In practice, the main things to understand are: the difference between **FD**, **AP**, and **YD**; when you can engage AP; and what **mistrim** messages mean.
+
+Exact callouts and limits: **SOP → General → Automation**.
 """
         )
 

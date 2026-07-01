@@ -20,7 +20,7 @@ def render_fuel():
 
     folder = "assets/fuel"
 
-    with st.expander("**0. Big picture**", expanded=True):
+    with st.expander("**0. How it works**", expanded=True):
         st.markdown(
             """
 Two **integral wing tanks** (left and right) store fuel and feed **two independent engine lines**.
@@ -32,11 +32,11 @@ Two **integral wing tanks** (left and right) store fuel and feed **two independe
 | **Electric boost pump** | Start, crossfeed, and backup when primary pressure is low |
 | **EFCU** | Commands boost pumps in **AUTO**; processes quantity and alerts |
 
-**Where you see it:** fuel synoptic and fuel data on the **MFD**; messages on **both PFDs**.
+In the cockpit, you'll see the fuel synoptic and fuel data on the **MFD**, and messages on **both PFDs**.
 
-**Study focus:** normal feed vs when the electric pump runs; **XFEED LO1/LO2**; difference between **quantity**, **pressure**, and **feed fault** messages.
+In practice, the main things to understand are: when the boost pump runs in normal flight; what **XFEED LO1/LO2** means; and the difference between **quantity**, **pressure**, and **feed fault** messages.
 
-Numeric limits → **Limitations → Fuel**.
+Exact numbers and limits are in **Limitations → Fuel** — you don't need to memorise them here.
 """
         )
 

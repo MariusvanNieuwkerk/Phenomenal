@@ -34,7 +34,7 @@ def render_oxygen():
 
     folder = "assets/oxygen"
 
-    with st.expander("**1. Big picture**", expanded=True):
+    with st.expander("**1. How it works**", expanded=True):
         st.markdown(
             """
 | User | Supply | When it matters |
@@ -42,9 +42,9 @@ def render_oxygen():
 | **Flight crew** | Quick-don masks in stowage | Smoke/fire/fumes, depressurization, hypoxia |
 | **Passengers** | Drop-down masks (cabin system) | Cabin altitude high / depressurization |
 
-**Quantity / pressure** — monitor on **MFD oxygen synoptic** and panel before flight.
+In the cockpit, you'll see **O₂ quantity and pressure** on the **MFD oxygen synoptic** and the oxygen panel before flight.
 
-**Memory Items:** *SMOKE EVACUATION*, *SMOKE/FIRE/FUME*, *CAB ALTITUDE HI*, *EMERGENCY DESCENT* all include **DON masks** — see **Memory Items**.
+In practice, the main things to understand are: crew mask settings for **smoke** vs **depressurization**; and the link to **Memory Items** (*SMOKE EVACUATION*, *CAB ALTITUDE HI*, *EMERGENCY DESCENT* — all include **DON masks**).
 """
         )
 
