@@ -1,0 +1,2006 @@
+{
+  "icao": "LOWI",
+  "page_count": 19,
+  "pages": [
+    {
+      "page": 1,
+      "image": "static/airports/lowi/page-01.png",
+      "embeds": []
+    },
+    {
+      "page": 2,
+      "image": "static/airports/lowi/page-02.png",
+      "embeds": []
+    },
+    {
+      "page": 3,
+      "image": "static/airports/lowi/page-03.png",
+      "embeds": []
+    },
+    {
+      "page": 4,
+      "image": "static/airports/lowi/page-04.png",
+      "embeds": []
+    },
+    {
+      "page": 5,
+      "image": "static/airports/lowi/page-05.png",
+      "embeds": []
+    },
+    {
+      "page": 6,
+      "image": "static/airports/lowi/page-06.png",
+      "embeds": [
+        "static/airports/lowi/embed-p06-02.jpeg"
+      ]
+    },
+    {
+      "page": 7,
+      "image": "static/airports/lowi/page-07.png",
+      "embeds": [
+        "static/airports/lowi/embed-p07-02.jpeg"
+      ]
+    },
+    {
+      "page": 8,
+      "image": "static/airports/lowi/page-08.png",
+      "embeds": []
+    },
+    {
+      "page": 9,
+      "image": "static/airports/lowi/page-09.png",
+      "embeds": [
+        "static/airports/lowi/embed-p09-02.jpeg"
+      ]
+    },
+    {
+      "page": 10,
+      "image": "static/airports/lowi/page-10.png",
+      "embeds": []
+    },
+    {
+      "page": 11,
+      "image": "static/airports/lowi/page-11.png",
+      "embeds": [
+        "static/airports/lowi/embed-p11-02.jpeg"
+      ]
+    },
+    {
+      "page": 12,
+      "image": "static/airports/lowi/page-12.png",
+      "embeds": []
+    },
+    {
+      "page": 13,
+      "image": "static/airports/lowi/page-13.png",
+      "embeds": []
+    },
+    {
+      "page": 14,
+      "image": "static/airports/lowi/page-14.png",
+      "embeds": []
+    },
+    {
+      "page": 15,
+      "image": "static/airports/lowi/page-15.png",
+      "embeds": []
+    },
+    {
+      "page": 16,
+      "image": "static/airports/lowi/page-16.png",
+      "embeds": [
+        "static/airports/lowi/embed-p16-02.jpeg",
+        "static/airports/lowi/embed-p16-03.jpeg"
+      ]
+    },
+    {
+      "page": 17,
+      "image": "static/airports/lowi/page-17.png",
+      "embeds": []
+    },
+    {
+      "page": 18,
+      "image": "static/airports/lowi/page-18.png",
+      "embeds": [
+        "static/airports/lowi/embed-p18-02.jpeg"
+      ]
+    },
+    {
+      "page": 19,
+      "image": "static/airports/lowi/page-19.png",
+      "embeds": [
+        "static/airports/lowi/embed-p19-02.jpeg"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": "IC training required\nYES\n\nSIC training required\nNO\n\nQualification is type related\nNO\n\nSelf-Briefing\nYES\nEvery Flight",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "IC training required",
+            "YES"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SIC training required",
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Qualification is type related",
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Self-Briefing",
+            "YES",
+            "Every Flight"
+          ]
+        }
+      ],
+      "pages": [
+        1
+      ],
+      "page_images": [
+        "static/airports/lowi/page-01.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 2,
+      "title": "Initial qualification requirements",
+      "body": ". REVALIDATION REQUIREMENTS\nGround Training\nYES\n12 Months\nYES\n12 Months\nSimulator Training\nYES\n12 Months\nYES\n12 Months\nIn-flight familiarization\nNO\n\nNO\n\nFlight training\nNO\n\nNO",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ". REVALIDATION REQUIREMENTS",
+            "Ground Training",
+            "YES",
+            "12 Months",
+            "YES",
+            "12 Months",
+            "Simulator Training",
+            "YES",
+            "12 Months",
+            "YES",
+            "12 Months",
+            "In-flight familiarization",
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Flight training",
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NO"
+          ]
+        }
+      ],
+      "pages": [],
+      "page_images": [],
+      "embeds": []
+    },
+    {
+      "num": 4,
+      "title": "In-flight familiarisation syllabus",
+      "body": "ot applicable.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "ot applicable."
+          ]
+        }
+      ],
+      "pages": [
+        1
+      ],
+      "page_images": [
+        "static/airports/lowi/page-01.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 5,
+      "title": "Limitations / Miscellaneous",
+      "body": "he PF / PM task allocation shall be at the discretion of and assigned by the PIC. When making this assignment the\nPIC shall take into consideration the fact that some manoeuvres (e.g. the TELFS emergency procedure) have only been\ntrained in the simulator as PF by PICs.\n\nJeppesen Charts 11-1 and 11-2 (only available on installed EFB) are replaced by Jeppesen (NetJets) tailored chart 11-\n01 (only available on the Portable EFB). Display of the 11-1 chart on an installed EFB may aid to situational awareness,\nhowever, the primary reference should remain the Jeppesen (NetJets) tailored chart 11-01 on the Portable EFB.\n\nJeppesen (NetJets) tailored charts will not appear on installed EFB so reference to the Portable EFB is essential when\noperating to LOWI.\n\nPF shall hold a current AHQ.\n\nINNSBRUCK, AUSTRIA\nINNSBRUCK\n10-10-2P2\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "he PF / PM task allocation shall be at the discretion of and assigned by the PIC. When making this assignment the",
+            "PIC shall take into consideration the fact that some manoeuvres (e.g. the TELFS emergency procedure) have only been",
+            "trained in the simulator as PF by PICs."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Jeppesen Charts 11-1 and 11-2 (only available on installed EFB) are replaced by Jeppesen (NetJets) tailored chart 11-",
+            "01 (only available on the Portable EFB). Display of the 11-1 chart on an installed EFB may aid to situational awareness,",
+            "however, the primary reference should remain the Jeppesen (NetJets) tailored chart 11-01 on the Portable EFB."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Jeppesen (NetJets) tailored charts will not appear on installed EFB so reference to the Portable EFB is essential when",
+            "operating to LOWI."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PF shall hold a current AHQ."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "INNSBRUCK, AUSTRIA",
+            "INNSBRUCK",
+            "10-10-2P2"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        1
+      ],
+      "page_images": [
+        "static/airports/lowi/page-01.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 6,
+      "title": "Weather / Airport limitations",
+      "body": "REFERENTIAL RUNWAY: Preferred Runway for landing is RWY 26;\n\nCAUTION\n(1) LOWEST AVAILABLE MINIMA\nActual Minima may be higher due to aircraft mass, OAT, etc - see the paragraph for the specific arrival and the Jeppesen Chart to establish the actual minima.\n\nARRIVALS RUNWAY 26 (9.2 Arrival RWY 26)\nARRIVAL\nLOWEST AVAILABLE MINIMA (1)\nDAY/NIGHT\nJEPPESEN CHART\nPDCS Chart\nCAT B\nNORM\n(TAB)\nCONTINGENCY\n(TAB)\nNETJETS LOC DME EAST\nDA(H) 2900 ft\n(1006 ft) / Vis 2800 m\nDA(H) 2900 ft\n(1006 ft) / Vis 3700 m\nNIGHT\nAPPROVED\n11-01 (APP)\n11-01A (APP)\n26DP7\nRNP E RWY 26 (LPV)\nLPV REQUIRED\n(LNAV/VNAV & LNAV\nPROHIBITED)\nDA(H) 3300 ft\n(1406 ft) / Vis 1500 m\nDA(H) 3300 ft\n(1406 ft) / Vis 2400 m\n12-2 (APP)\nVISUAL APPROACH\nVisibility 10 km\nCeiling 9100 ft\nDAY ONLY\nSee brief\nLOC DME EAST\nProhibited for NetJets Operations\n11-1 (APP)\nProhibited for NetJets Operations\nSpecial LOC DME EAST\n11-2 (APP)\nLOC R\n11-3 (APP)\nRNP Z RWY 26 (AR)\n12-21 (APP)\n\nINNSBRUCK, AUSTRIA\nINNSBRUCK\n10-10-2P3\n\n-\n\nPREFERENTIAL RUNWAY: Preferred Runway for landing is RWY 26;\n\nCAUTION\n(1) LOWEST AVAILABLE MINIMA\nActual Minima may be higher due to aircraft mass, OAT, etc - see the paragraph for the specific arrival and the Jeppesen Chart to establish the actual minima.\n\nARRIVALS RUNWAY 08 (9.3 Arrival RWY 08)\nARRIVAL\nLOWEST AVAILABLE MINIMA (1)\nDAY/NIGHT\nJEPPESEN CHART\nPDCS Chart\nCAT B\nNORM\n(TAB)\nCONTINGENCY\n(TAB)\nRNP VISUAL V\nMDA(H) 7100 ft (5193 ft) / Vis 5000 m\nCeiling 5200 ft\nDAY ONLY\n12-1 (APP)\n10-3 (SID) & 10-\n7 (CO)\n08DP4\nNETJETS LOC DME EAST to\nCIRCLING APPROACH\nMDA(H) 3700 ft\n(1793 ft) / Vis 3000 m\nMDA(H) 3700 ft\n(1793 ft) / Vis 5000 m\n11-01 & 19-10\n(APP)\nVISUAL APPROACH\nVisibility 10 km\nCeiling 9100 ft\nSee brief\nLOC DME EAST\nProhibited for NetJets Operations\n11-1 (APP)\nProhibited for NetJets Operations\nSpecial LOC DME EAST\n11-2 (APP)\nLOC R\n11-3 (APP)\nRNP Z RWY 08 (AR)\n12-20 (APP)\n\nINNSBRUCK, AUSTRIA\nINNSBRUCK\n10-10-2P4\n\n-\n\nPREFERENTIAL RUNWAY: Preferred Runway for take-off is RWY 08\n\nDEPARTURES RWY 08 (10.3 Departure RWY 08)\nDEPARTURE\nWEATHER MINIMA\nDAY/NIGHT\nJEPPESEN CHART\nPDCS Chart\nTAKEOFF MASS\nNORM\n(TAB)\nCONTINGENCY\n(TAB)\nRTT 2Q\nRTT 3J\nAll SIDs following \u2018RWY 08\nINITIAL DEPARTURE\u2019\nRVR 150m\nNIGHT\nAPPROVED\n10-3L\n10-3K & 10-3\n(SID)\n10-7C (CO)\nor\n10-7 (CO)\n08DP5\nor\n08DP4\nCheck PDCS\nKPT 5J\nADILO 2J\nBRENO 2J\n10-3F & 10-3E\n(SID)\n10-7 (CO)\n08DP4\nVISUAL DEPARTURE\nVisibility 10 km\nCeiling 9100 ft\nDAY ONLY\n\nSee brief\n\nINNSBRUCK, AUSTRIA\nINNSBRUCK\n10-10-2P5\n\n-\n\nPREFERENTIAL RUNWAY: Preferred Runway for take-off is RWY 08.\nDEPARTURES RWY 26 (10.4 Departure RWY 26)\nDEPARTURE\nWEATHER MINIMA\nDAY/NIGHT\nJEPPESEN CHART\nPDCS Chart\nTAKEOFF MASS\nNORM\n(TAB)\nCONTINGENCY\n(TAB)\nMOGTI 1R\nCeiling 1300 ft\nVisibility 1500 m\nNIGHT\nAPPROVED\n10-3G1 (SID)\n10-3G1 (SID)\n26DP8\nMedium\nMOGTI 3H\nCeiling 2100 ft\nVisibility 5000 m\nNIGHT\nAPPROVED\n10-3G (SID)\n10-3G (SID)\n26DP8\nMedium\nBRENO 3H\nRTT 1R\nRTT 4H\nAll SIDs following \u2018RWY 26\nINITIAL DEPARTURE\u2019\nCeiling 2000 ft\nVisibility 5000 m\nDAY ONLY\n10-3D, 10-3M,\n10-3J, 10-3A\n(SID)\n10-7B (CO)\n26DP7\nLowest\nINCREASED MASS\nDEPARTURE RWY 26\nUse only when required for\ntake off-mass\nCeiling 3000 ft\nVisibility 8 km\nDAY ONLY\n10-3G, 10-3D,\n10-3M, 10-3J,\n10-3A (SID)\n10-7A (CO)\n26DP6\nHighest\nVISUAL DEPARTURE\nCeiling 9100 ft\nVisibility 10 km\nDAY ONLY\nN/A\nSee brief\nMOGTI 1X SPECIAL\nPERFORMANCE RNAV\nProhibited for NetJets Operations\n10-3H (SID)\nProhibited for NetJets Operations\nRTT 3X SPECIAL\nPERFORMANCE RNAV\n10-3N (SID)\n\nINNSBRUCK, AUSTRIA\nINNSBRUCK\n10-10-2P6\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "REFERENTIAL RUNWAY: Preferred Runway for landing is RWY 26;"
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION",
+            "(1) LOWEST AVAILABLE MINIMA",
+            "Actual Minima may be higher due to aircraft mass, OAT, etc - see the paragraph for the specific arrival and the Jeppesen Chart to establish the actual minima."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "ARRIVALS RUNWAY 26 (9.2 Arrival RWY 26)",
+            "ARRIVAL",
+            "LOWEST AVAILABLE MINIMA (1)",
+            "DAY/NIGHT",
+            "JEPPESEN CHART",
+            "PDCS Chart",
+            "CAT B",
+            "NORM",
+            "(TAB)",
+            "CONTINGENCY",
+            "(TAB)",
+            "NETJETS LOC DME EAST",
+            "DA(H) 2900 ft",
+            "(1006 ft) / Vis 2800 m",
+            "DA(H) 2900 ft",
+            "(1006 ft) / Vis 3700 m",
+            "NIGHT",
+            "APPROVED",
+            "11-01 (APP)",
+            "11-01A (APP)",
+            "26DP7",
+            "RNP E RWY 26 (LPV)",
+            "LPV REQUIRED",
+            "(LNAV/VNAV & LNAV",
+            "PROHIBITED)",
+            "DA(H) 3300 ft",
+            "(1406 ft) / Vis 1500 m",
+            "DA(H) 3300 ft",
+            "(1406 ft) / Vis 2400 m",
+            "12-2 (APP)",
+            "VISUAL APPROACH",
+            "Visibility 10 km",
+            "Ceiling 9100 ft",
+            "DAY ONLY",
+            "See brief",
+            "LOC DME EAST",
+            "Prohibited for NetJets Operations",
+            "11-1 (APP)",
+            "Prohibited for NetJets Operations",
+            "Special LOC DME EAST",
+            "11-2 (APP)",
+            "LOC R",
+            "11-3 (APP)",
+            "RNP Z RWY 26 (AR)",
+            "12-21 (APP)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "INNSBRUCK, AUSTRIA",
+            "INNSBRUCK",
+            "10-10-2P3"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PREFERENTIAL RUNWAY: Preferred Runway for landing is RWY 26;"
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION",
+            "(1) LOWEST AVAILABLE MINIMA",
+            "Actual Minima may be higher due to aircraft mass, OAT, etc - see the paragraph for the specific arrival and the Jeppesen Chart to establish the actual minima."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "ARRIVALS RUNWAY 08 (9.3 Arrival RWY 08)",
+            "ARRIVAL",
+            "LOWEST AVAILABLE MINIMA (1)",
+            "DAY/NIGHT",
+            "JEPPESEN CHART",
+            "PDCS Chart",
+            "CAT B",
+            "NORM",
+            "(TAB)",
+            "CONTINGENCY",
+            "(TAB)",
+            "RNP VISUAL V",
+            "MDA(H) 7100 ft (5193 ft) / Vis 5000 m",
+            "Ceiling 5200 ft",
+            "DAY ONLY",
+            "12-1 (APP)",
+            "10-3 (SID) & 10-",
+            "7 (CO)",
+            "08DP4",
+            "NETJETS LOC DME EAST to",
+            "CIRCLING APPROACH",
+            "MDA(H) 3700 ft",
+            "(1793 ft) / Vis 3000 m",
+            "MDA(H) 3700 ft",
+            "(1793 ft) / Vis 5000 m",
+            "11-01 & 19-10",
+            "(APP)",
+            "VISUAL APPROACH",
+            "Visibility 10 km",
+            "Ceiling 9100 ft",
+            "See brief",
+            "LOC DME EAST",
+            "Prohibited for NetJets Operations",
+            "11-1 (APP)",
+            "Prohibited for NetJets Operations",
+            "Special LOC DME EAST",
+            "11-2 (APP)",
+            "LOC R",
+            "11-3 (APP)",
+            "RNP Z RWY 08 (AR)",
+            "12-20 (APP)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "INNSBRUCK, AUSTRIA",
+            "INNSBRUCK",
+            "10-10-2P4"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PREFERENTIAL RUNWAY: Preferred Runway for take-off is RWY 08"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DEPARTURES RWY 08 (10.3 Departure RWY 08)",
+            "DEPARTURE",
+            "WEATHER MINIMA",
+            "DAY/NIGHT",
+            "JEPPESEN CHART",
+            "PDCS Chart",
+            "TAKEOFF MASS",
+            "NORM",
+            "(TAB)",
+            "CONTINGENCY",
+            "(TAB)",
+            "RTT 2Q",
+            "RTT 3J",
+            "All SIDs following \u2018RWY 08",
+            "INITIAL DEPARTURE\u2019",
+            "RVR 150m",
+            "NIGHT",
+            "APPROVED",
+            "10-3L",
+            "10-3K & 10-3",
+            "(SID)",
+            "10-7C (CO)",
+            "or",
+            "10-7 (CO)",
+            "08DP5",
+            "or",
+            "08DP4",
+            "Check PDCS",
+            "KPT 5J",
+            "ADILO 2J",
+            "BRENO 2J",
+            "10-3F & 10-3E",
+            "(SID)",
+            "10-7 (CO)",
+            "08DP4",
+            "VISUAL DEPARTURE",
+            "Visibility 10 km",
+            "Ceiling 9100 ft",
+            "DAY ONLY"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "See brief"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "INNSBRUCK, AUSTRIA",
+            "INNSBRUCK",
+            "10-10-2P5"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PREFERENTIAL RUNWAY: Preferred Runway for take-off is RWY 08.",
+            "DEPARTURES RWY 26 (10.4 Departure RWY 26)",
+            "DEPARTURE",
+            "WEATHER MINIMA",
+            "DAY/NIGHT",
+            "JEPPESEN CHART",
+            "PDCS Chart",
+            "TAKEOFF MASS",
+            "NORM",
+            "(TAB)",
+            "CONTINGENCY",
+            "(TAB)",
+            "MOGTI 1R",
+            "Ceiling 1300 ft",
+            "Visibility 1500 m",
+            "NIGHT",
+            "APPROVED",
+            "10-3G1 (SID)",
+            "10-3G1 (SID)",
+            "26DP8",
+            "Medium",
+            "MOGTI 3H",
+            "Ceiling 2100 ft",
+            "Visibility 5000 m",
+            "NIGHT",
+            "APPROVED",
+            "10-3G (SID)",
+            "10-3G (SID)",
+            "26DP8",
+            "Medium",
+            "BRENO 3H",
+            "RTT 1R",
+            "RTT 4H",
+            "All SIDs following \u2018RWY 26",
+            "INITIAL DEPARTURE\u2019",
+            "Ceiling 2000 ft",
+            "Visibility 5000 m",
+            "DAY ONLY",
+            "10-3D, 10-3M,",
+            "10-3J, 10-3A",
+            "(SID)",
+            "10-7B (CO)",
+            "26DP7",
+            "Lowest",
+            "INCREASED MASS",
+            "DEPARTURE RWY 26",
+            "Use only when required for",
+            "take off-mass",
+            "Ceiling 3000 ft",
+            "Visibility 8 km",
+            "DAY ONLY",
+            "10-3G, 10-3D,",
+            "10-3M, 10-3J,",
+            "10-3A (SID)",
+            "10-7A (CO)",
+            "26DP6",
+            "Highest",
+            "VISUAL DEPARTURE",
+            "Ceiling 9100 ft",
+            "Visibility 10 km",
+            "DAY ONLY",
+            "N/A",
+            "See brief",
+            "MOGTI 1X SPECIAL",
+            "PERFORMANCE RNAV",
+            "Prohibited for NetJets Operations",
+            "10-3H (SID)",
+            "Prohibited for NetJets Operations",
+            "RTT 3X SPECIAL",
+            "PERFORMANCE RNAV",
+            "10-3N (SID)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "INNSBRUCK, AUSTRIA",
+            "INNSBRUCK",
+            "10-10-2P6"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        2
+      ],
+      "page_images": [
+        "static/airports/lowi/page-02.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 7,
+      "title": "Overview",
+      "body": "nnsbruck is a mountain airport located in Western Austria. It is situated in the Inn valley oriented East-West. Expect\nthe possibility of rapidly changing weather conditions throughout the year, particularly during the winter. LOWI gets\nvery busy during ski season weekends. Expect ATC slot restrictions and tight coordination.\n\nOverview of the Airport",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "nnsbruck is a mountain airport located in Western Austria. It is situated in the Inn valley oriented East-West. Expect",
+            "the possibility of rapidly changing weather conditions throughout the year, particularly during the winter. LOWI gets",
+            "very busy during ski season weekends. Expect ATC slot restrictions and tight coordination."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Overview of the Airport"
+          ]
+        }
+      ],
+      "pages": [
+        6
+      ],
+      "page_images": [
+        "static/airports/lowi/page-06.png"
+      ],
+      "embeds": [
+        "static/airports/lowi/embed-p06-02.jpeg"
+      ]
+    },
+    {
+      "num": 8,
+      "title": "Operational procedures \u2014 General",
+      "body": "EATHER\nWhenever marginal weather conditions are to be expected for departure, crews should contact Innsbruck Forecast\n(Tel. +43 5 1703 4643) or Innsbruck Tower (Tel. +43 5 1703 6612) to obtain actual weather reports. Weather\ninformation including web-cam pictures may also be viewed at www.innsbruck-airport.com.\nExpect Foehn wind when LIPB QNH is 6 hPa greater than LOWI QNH.\nDuring FOEHN conditions (wind 100-180, 15-25 KTS, gusts 30-50 KTS), possible vertical and horizontal windshear with\nmoderate to severe turbulence, especially over the city, to the south of the city and over the Inn river short of runway\n08, below 5000 feet.\n\nARRIVAL CTOTS\nWhen the weather is marginal, arrivals into Innsbruck may be regulated by use of CTOT at departure aerodrome, due\nto \u2018special arrival procedure\u2019 to prevent the departure of aircraft that have a low chance of making a successful\napproach at Innsbruck.\nDue to the various special approvals for lower minima, this is not always applied 100% correctly - operators who\nbelieve they should be included in the approved flight list, should contact Innsbruck Supervisor on +43 5 1703 6610.\n\nINNSBRUCK, AUSTRIA\nINNSBRUCK\n10-10-2P7\n\n-\nCOLD TEMPERATURE CORRECTIONS\nCorrection of Minimum Radar Vectoring Altitude is done by ATC, all other corrections are the responsibility of the\npilot \u2013 ATC and the ATIS may provide some information on required cold temperature corrections.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "EATHER",
+            "Whenever marginal weather conditions are to be expected for departure, crews should contact Innsbruck Forecast",
+            "(Tel. +43 5 1703 4643) or Innsbruck Tower (Tel. +43 5 1703 6612) to obtain actual weather reports. Weather",
+            "information including web-cam pictures may also be viewed at www.innsbruck-airport.com.",
+            "Expect Foehn wind when LIPB QNH is 6 hPa greater than LOWI QNH.",
+            "During FOEHN conditions (wind 100-180, 15-25 KTS, gusts 30-50 KTS), possible vertical and horizontal windshear with",
+            "moderate to severe turbulence, especially over the city, to the south of the city and over the Inn river short of runway",
+            "08, below 5000 feet."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "ARRIVAL CTOTS",
+            "When the weather is marginal, arrivals into Innsbruck may be regulated by use of CTOT at departure aerodrome, due",
+            "to \u2018special arrival procedure\u2019 to prevent the departure of aircraft that have a low chance of making a successful",
+            "approach at Innsbruck.",
+            "Due to the various special approvals for lower minima, this is not always applied 100% correctly - operators who",
+            "believe they should be included in the approved flight list, should contact Innsbruck Supervisor on +43 5 1703 6610."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "INNSBRUCK, AUSTRIA",
+            "INNSBRUCK",
+            "10-10-2P7"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "COLD TEMPERATURE CORRECTIONS",
+            "Correction of Minimum Radar Vectoring Altitude is done by ATC, all other corrections are the responsibility of the",
+            "pilot \u2013 ATC and the ATIS may provide some information on required cold temperature corrections."
+          ]
+        }
+      ],
+      "pages": [
+        6
+      ],
+      "page_images": [
+        "static/airports/lowi/page-06.png"
+      ],
+      "embeds": [
+        "static/airports/lowi/embed-p06-02.jpeg"
+      ]
+    },
+    {
+      "num": 9,
+      "title": "Arrival procedures",
+      "body": ".1 GENERAL\nRefer to Jeppesen.\n\n9.2. ARRIVALS RWY 26\nSee the table Arrivals Runway 26 under 6. WEATHER / AIRPORT LIMITATIONS for a list of arrivals Runway 26 with\napplicable limitations, see below operating instructions for RWY 26 arrivals:\n\u2022 9.2.1. RWY 26 - NETJETS LOC DME EAST\n\u2022 9.2.2. RNP E RWY 26 (LPV)\n\u2022 9.5. VISUAL APPROACH\nSee also 8. Operational Procedures - General for further info on Weather, Arrival CTOTs, and Cold Temperature\nCorrections.\n\nFinal RWY 26\n\nINNSBRUCK, AUSTRIA\nINNSBRUCK\n10-10-2P8\n\n-\n9.2.1 RWY 26 - NETJETS LOC DME EAST - CHART 11-01\nARRIVAL GENERAL: See also 8. Operational Procedures - General for further info on Weather, Arrival CTOTs, and Cold\nTemperature Corrections.\n\nMINIMA (NIGHT APPROVED):\n\u2022 NetJets is approved to use lower minima than the standard LOC DME EAST (Jeppesen chart 11-1).\n\u2022 Correct procedure and minima are shown on Jeppesen (NetJets) chart 11-01.\n\u2022 Minima depends on missed approach climb gradient, the lowest minima is 2900 ft (1006 ft) / CAT B - 2800 m\n/ CAT C 3700m and requires a 6% missed approach climb gradient.\n\u2022 Cloud ceiling is required to be at or above the minima.\n\nPROCEDURE & MISSED APPROACH:\nThe primary reference shall be the Jeppesen (NetJets) chart 11-01 (only available on the iPad EFB).\n\nFor aircraft with an installed EFB it is recommended to display the chart 11-1 (only available on the installed EFB) to\naid situational awareness.\n\nChart 11-1 is identical to the Jeppesen (NetJets) chart 11-01 except that 11-1 is missing the following:\n\u2022 Lower Minima which NetJets is approved to fly to.\n\u2022 OEV DME vs ALTITUDE references inside 8.0 OEV.\nThe missed approach is identical on both charts, so in the event of a missed approach the 11-1 on the installed EFB\nmay be referenced.\n\nBALKED LANDING:\nSee Jeppesen (NetJets) chart 11-01A (Note that this procedure requires the conventional aids OEV and OEJ to be\nserviceable) or 9.4 VISUAL CIRCUIT (AFTER BALKED LANDING) if a visual circuit is required.\n\n9.2.2 RNP E RWY 26 (LPV) - CHART 12-2\nLPV APPROVED AIRCRAFT ONLY\nARRIVAL GENERAL: See also 8. Operational Procedures - General for further info on Weather, Arrival CTOTs, and\nCold Temperature Corrections.\n\nMINIMA (NIGHT APPROVED):\n\u2022 Minima is available for LPV approved aircraft only (i.e. there is no LNAV or LNAV / VNAV minima).\n\u2022 Minima depends on missed approach climb gradient, the lowest minima is 3300 ft (1406 ft) / CAT B - 1500\nm / CAT C 2400m and requires a 7.1% missed approach climb gradient.\n\nPROCEDURE & MISSED APPROACH: See Jeppesen chart 12-2.\n\nBALKED LANDING:\nSee Jeppesen (NetJets) chart 11-01A (Note that this procedure requires the conventional aids OEV and OEJ to be\nserviceable) or 9.4 VISUAL CIRCUIT (AFTER BALKED LANDING) if a visual circuit is required.\n\nINNSBRUCK, AUSTRIA\nINNSBRUCK\n10-10-2P9\n\n-\n9.3. ARRIVALS RWY 08\nSee the table Arrivals Runway 08 under 6. WEATHER / AIRPORT LIMITATIONS for a list of arrivals Runway 08 with\napplicable limitations, see below for operating instructions for RWY 08 arrivals:\n\u2022 9.3.1. RNP VISUAL V RWY 08.\n\u2022 9.3.2. NETJETS LOC DME EAST to CIRCLING APPROACH RWY 08 .\n\u2022 9.5. VISUAL APPROACH.\nSee also 8. Operational Procedures - General for further info on Weather, Arrival CTOTs, and Cold Temperature\nCorrections.\n\nWARNING: FOEHN\nWith FOEHN Conditions expect the runway in use to be Runway 08 Crews should note that during FOEHN conditions\nsevere downdraughts may be encountered south of the city - in the event of a balked landing, pilots are advised to\nroute visually north of the city before picking up the standard balked landing routing.\n\nFinal RWY 08\n\nINNSBRUCK, AUSTRIA\nINNSBRUCK\n28 NOV 2025 10-10-2P10\n\n-\n9.3.1 RNP VISUAL V RWY 08 - CHART 12-1\nWARNING: FOEHN\nARRIVAL GENERAL: See also 8. Operational Procedures - General for further info on Weather, Arrival CTOTs, and\nCold Temperature Corrections.\n\nMINIMA (DAY ONLY):\n\u2022 Minima is as shown on Jeppesen Chart 12-1 & copied below.\n\u2022 CAT B & C -  MDA(H) 7100 ft (5193 ft)\nVisibility 5000 m\nCeiling 5200 ft.\n\u2022 Note the Ceiling requirement.\n\u2022 LOWI has a ceilometer at WI814 so ATC are able to provide the cloud ceiling at this point on request.\nPROCEDURE & MISSED APPROACH:\n\u2022 See Jeppesen chart 12-1.\n\u2022 Note that is will be necessary to sequence the missed approach in the FMS in order to continue to receive\nguidance in the visual segment following the MAP at WI814.\nBALKED LANDING:\nIf an escape procedure is required, then see Jeppesen Chart 10-3 RWY 08 Initial Departure and Jeppesen (Netjets)\nChart 10-7 Engine Failure Procedure Rwy 08 as applicable or 9.4 VISUAL CIRCUIT (AFTER BALKED LANDING) if a visual\ncircuit is required.\n\n9.3.2 NETJETS LOC DME EAST TO CIRCLING APPROACH RWY 08 - CHART 11-01 TO 19-10\nWARNING: FOEHN\nARRIVAL GENERAL: See also 8. Operational Procedures - General for further info on Weather, Arrival CTOTs, and Cold\nTemperature Corrections.\n\nMINIMA (DAY ONLY):\nNetJets is approved to use lower minima than the standard LOC DME EAST (Jeppesen chart 11-1), the correct\nprocedure and minima are shown on Jeppesen (NetJets) chart 11-01 and below.\n\nCAT B - MDA(H) 3700 ft (1793 ft) / Visibility 3000 m.\n\nPROCEDURE & MISSED APPROACH: See Jeppesen (NetJets) 11-01 and Jeppesen chart 19-10 for procedure.\n\nBALKED LANDING:\nIf an escape procedure is required, then see Jeppesen Chart 10-3 RWY 08 Initial Departure and Jeppesen (Netjets)\nChart 10-7 Engine Failure Procedure RWY 08 as applicable or 9.4 VISUAL CIRCUIT (AFTER BALKED LANDING) if a visual\ncircuit is required.\n\nINNSBRUCK, AUSTRIA\nINNSBRUCK\n28 NOV 2025 10-10-2P11\n\n-\n9.4. VISUAL CIRCUIT (AFTER BALKED LANDING)\nMINIMA (DAY ONLY): Minima for a visual circuit after a balked landing is Ceiling 3093 ft / Visibility 5000 m.\n\nPROCEDURE:\nIf VMC with the required weather minima and a circuit to land is required following a balked landing from either\nrunway then follow the tracks shown on the visual circuit diagram below.\n\nVisual Circuit (After Balked landing)\n9.5 VISUAL APPROACH\nARRIVAL GENERAL: See also 8. Operational Procedures - General for further info on Weather, Arrival CTOTs, and Cold\nTemperature Corrections.\n\nVISUAL APPROACH:\nWhen weather is good, ATC may offer a visual approach to either runway, NetJets aircraft may accept such an arrival\nonly if it would save a significant delay, has been thoroughly briefed in accordance with OM-A 8.3.28.11 VISUAL\nAPPROACHES UNDER IFR and OM-A 8.3.28.5 POSITIVE IDENTIFICATION OF AERODROMES, and subject to the\nfollowing:\n\nMINIMA (DAY ONLY): Visibility 10 km, Ceiling 9100 ft.\n\nPROCEDURE & MISSED APPROACH:\nThe route to be used for the approach and missed approach shall be planned and briefed prior to commencing the\napproach (consider planning to intercept the final part of an appropriate instrument approach where feasible).\n\nBALKED LANDING:\nA balked landing procedure appropriate to the runway in use shall be selected and briefed prior to commencing the\napproach.\n\nINNSBRUCK, AUSTRIA\nINNSBRUCK\n28 NOV 2025 10-10-2P12\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ".1 GENERAL",
+            "Refer to Jeppesen."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "9.2. ARRIVALS RWY 26",
+            "See the table Arrivals Runway 26 under 6. WEATHER / AIRPORT LIMITATIONS for a list of arrivals Runway 26 with",
+            "applicable limitations, see below operating instructions for RWY 26 arrivals:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "9.2.1. RWY 26 - NETJETS LOC DME EAST",
+            "9.2.2. RNP E RWY 26 (LPV)",
+            "9.5. VISUAL APPROACH"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "See also 8. Operational Procedures - General for further info on Weather, Arrival CTOTs, and Cold Temperature",
+            "Corrections."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Final RWY 26"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "INNSBRUCK, AUSTRIA",
+            "INNSBRUCK",
+            "10-10-2P8"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.2.1 RWY 26 - NETJETS LOC DME EAST - CHART 11-01",
+            "ARRIVAL GENERAL: See also 8. Operational Procedures - General for further info on Weather, Arrival CTOTs, and Cold",
+            "Temperature Corrections."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA (NIGHT APPROVED):"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "NetJets is approved to use lower minima than the standard LOC DME EAST (Jeppesen chart 11-1).",
+            "Correct procedure and minima are shown on Jeppesen (NetJets) chart 11-01.",
+            "Minima depends on missed approach climb gradient, the lowest minima is 2900 ft (1006 ft) / CAT B - 2800 m"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "/ CAT C 3700m and requires a 6% missed approach climb gradient."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Cloud ceiling is required to be at or above the minima."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE & MISSED APPROACH:",
+            "The primary reference shall be the Jeppesen (NetJets) chart 11-01 (only available on the iPad EFB)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "For aircraft with an installed EFB it is recommended to display the chart 11-1 (only available on the installed EFB) to",
+            "aid situational awareness."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Chart 11-1 is identical to the Jeppesen (NetJets) chart 11-01 except that 11-1 is missing the following:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Lower Minima which NetJets is approved to fly to.",
+            "OEV DME vs ALTITUDE references inside 8.0 OEV."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "The missed approach is identical on both charts, so in the event of a missed approach the 11-1 on the installed EFB",
+            "may be referenced."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BALKED LANDING:",
+            "See Jeppesen (NetJets) chart 11-01A (Note that this procedure requires the conventional aids OEV and OEJ to be",
+            "serviceable) or 9.4 VISUAL CIRCUIT (AFTER BALKED LANDING) if a visual circuit is required."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "9.2.2 RNP E RWY 26 (LPV) - CHART 12-2",
+            "LPV APPROVED AIRCRAFT ONLY",
+            "ARRIVAL GENERAL: See also 8. Operational Procedures - General for further info on Weather, Arrival CTOTs, and",
+            "Cold Temperature Corrections."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA (NIGHT APPROVED):"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Minima is available for LPV approved aircraft only (i.e. there is no LNAV or LNAV / VNAV minima).",
+            "Minima depends on missed approach climb gradient, the lowest minima is 3300 ft (1406 ft) / CAT B - 1500"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "m / CAT C 2400m and requires a 7.1% missed approach climb gradient."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE & MISSED APPROACH: See Jeppesen chart 12-2."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BALKED LANDING:",
+            "See Jeppesen (NetJets) chart 11-01A (Note that this procedure requires the conventional aids OEV and OEJ to be",
+            "serviceable) or 9.4 VISUAL CIRCUIT (AFTER BALKED LANDING) if a visual circuit is required."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "INNSBRUCK, AUSTRIA",
+            "INNSBRUCK",
+            "10-10-2P9"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.3. ARRIVALS RWY 08",
+            "See the table Arrivals Runway 08 under 6. WEATHER / AIRPORT LIMITATIONS for a list of arrivals Runway 08 with",
+            "applicable limitations, see below for operating instructions for RWY 08 arrivals:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "9.3.1. RNP VISUAL V RWY 08.",
+            "9.3.2. NETJETS LOC DME EAST to CIRCLING APPROACH RWY 08 .",
+            "9.5. VISUAL APPROACH."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "See also 8. Operational Procedures - General for further info on Weather, Arrival CTOTs, and Cold Temperature",
+            "Corrections."
+          ]
+        },
+        {
+          "type": "warning",
+          "lines": [
+            "WARNING: FOEHN",
+            "With FOEHN Conditions expect the runway in use to be Runway 08 Crews should note that during FOEHN conditions",
+            "severe downdraughts may be encountered south of the city - in the event of a balked landing, pilots are advised to",
+            "route visually north of the city before picking up the standard balked landing routing."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Final RWY 08"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "INNSBRUCK, AUSTRIA",
+            "INNSBRUCK",
+            "28 NOV 2025 10-10-2P10"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.3.1 RNP VISUAL V RWY 08 - CHART 12-1"
+          ]
+        },
+        {
+          "type": "warning",
+          "lines": [
+            "WARNING: FOEHN",
+            "ARRIVAL GENERAL: See also 8. Operational Procedures - General for further info on Weather, Arrival CTOTs, and",
+            "Cold Temperature Corrections."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA (DAY ONLY):"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Minima is as shown on Jeppesen Chart 12-1 & copied below.",
+            "CAT B & C -  MDA(H) 7100 ft (5193 ft)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Visibility 5000 m",
+            "Ceiling 5200 ft."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Note the Ceiling requirement.",
+            "LOWI has a ceilometer at WI814 so ATC are able to provide the cloud ceiling at this point on request."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE & MISSED APPROACH:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "See Jeppesen chart 12-1.",
+            "Note that is will be necessary to sequence the missed approach in the FMS in order to continue to receive"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "guidance in the visual segment following the MAP at WI814.",
+            "BALKED LANDING:",
+            "If an escape procedure is required, then see Jeppesen Chart 10-3 RWY 08 Initial Departure and Jeppesen (Netjets)",
+            "Chart 10-7 Engine Failure Procedure Rwy 08 as applicable or 9.4 VISUAL CIRCUIT (AFTER BALKED LANDING) if a visual",
+            "circuit is required."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "9.3.2 NETJETS LOC DME EAST TO CIRCLING APPROACH RWY 08 - CHART 11-01 TO 19-10"
+          ]
+        },
+        {
+          "type": "warning",
+          "lines": [
+            "WARNING: FOEHN",
+            "ARRIVAL GENERAL: See also 8. Operational Procedures - General for further info on Weather, Arrival CTOTs, and Cold",
+            "Temperature Corrections."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA (DAY ONLY):",
+            "NetJets is approved to use lower minima than the standard LOC DME EAST (Jeppesen chart 11-1), the correct",
+            "procedure and minima are shown on Jeppesen (NetJets) chart 11-01 and below."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CAT B - MDA(H) 3700 ft (1793 ft) / Visibility 3000 m."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE & MISSED APPROACH: See Jeppesen (NetJets) 11-01 and Jeppesen chart 19-10 for procedure."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BALKED LANDING:",
+            "If an escape procedure is required, then see Jeppesen Chart 10-3 RWY 08 Initial Departure and Jeppesen (Netjets)",
+            "Chart 10-7 Engine Failure Procedure RWY 08 as applicable or 9.4 VISUAL CIRCUIT (AFTER BALKED LANDING) if a visual",
+            "circuit is required."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "INNSBRUCK, AUSTRIA",
+            "INNSBRUCK",
+            "28 NOV 2025 10-10-2P11"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.4. VISUAL CIRCUIT (AFTER BALKED LANDING)",
+            "MINIMA (DAY ONLY): Minima for a visual circuit after a balked landing is Ceiling 3093 ft / Visibility 5000 m."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE:",
+            "If VMC with the required weather minima and a circuit to land is required following a balked landing from either",
+            "runway then follow the tracks shown on the visual circuit diagram below."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Visual Circuit (After Balked landing)",
+            "9.5 VISUAL APPROACH",
+            "ARRIVAL GENERAL: See also 8. Operational Procedures - General for further info on Weather, Arrival CTOTs, and Cold",
+            "Temperature Corrections."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VISUAL APPROACH:",
+            "When weather is good, ATC may offer a visual approach to either runway, NetJets aircraft may accept such an arrival",
+            "only if it would save a significant delay, has been thoroughly briefed in accordance with OM-A 8.3.28.11 VISUAL",
+            "APPROACHES UNDER IFR and OM-A 8.3.28.5 POSITIVE IDENTIFICATION OF AERODROMES, and subject to the",
+            "following:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA (DAY ONLY): Visibility 10 km, Ceiling 9100 ft."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE & MISSED APPROACH:",
+            "The route to be used for the approach and missed approach shall be planned and briefed prior to commencing the",
+            "approach (consider planning to intercept the final part of an appropriate instrument approach where feasible)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BALKED LANDING:",
+            "A balked landing procedure appropriate to the runway in use shall be selected and briefed prior to commencing the",
+            "approach."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "INNSBRUCK, AUSTRIA",
+            "INNSBRUCK",
+            "28 NOV 2025 10-10-2P12"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        7
+      ],
+      "page_images": [
+        "static/airports/lowi/page-07.png"
+      ],
+      "embeds": [
+        "static/airports/lowi/embed-p07-02.jpeg"
+      ]
+    },
+    {
+      "num": 10,
+      "title": "Departure procedures",
+      "body": "0.1 GENERAL\nSLOT ADHERENCE\n\u2022 Monitor TWR freq. at latest 15 min prior CTOT.\n\u2022 Inform ATC that you are able to comply with CTOT as soon as possible.\n\u2022 If unable - inform ATC that:\no you need a SLOT - extension of maximum 15 min; or\no you need a delay with more than 15 min.\n\nRUNWAY IN USE VS PLANNED RUNWAY\n\u2022 Check the ATIS early.\n\u2022 When the RWY in use stated is the same as your planned SIDRWY: just plan for the SID you want to use, no\nneed to call ATC for SID or RWY in use.\n\u2022 Upon startup request, state the requested SID \u2018Fraction XXX request startup via SID XXX\u2019.\n\u2022 When you are unable to depart on the stated RWY in use, advise ATC together with the estimate to be fully\nready for startup and which SID is needed (ATC prefer KPT5J when you need RWY08 and RWY26 is in use).\n\nLINE-UP PROCEDURES\n\u2022 ATC expects you will backtrack for full length, there is no need to request this.\n\u2022 In case of inbound traffic you will be asked if you are able to depart within 3 minutes, before reaching the\nholding point \u2013 3 minutes from line-up to take-off means next inbound is about 10nm final with speed 160kt.\n\n10.2. DEPARTURE RUNWAY 08\nSee also 10.1 General for info on Slot adherance, Runway in use vs planned runway, Line-up Procedures and also 11.\nGround Procedures for info on pushback vs stand.\nSee the table Departure Runway 08 under 6. WEATHER / AIRPORT LIMITATIONS for a list of departures Runway 08\nwith applicable limitations, see below for operating instructions for the following departures:\n\u2022 10.2.1. DEPARTURE RUNWAY 08 - RTT 2Q, RTT 3J & all SIDs following the RWY 08 INITIAL DEPARTURE.\n\u2022 10.2.2. DEPARTURE RUNWAY 08 - KPT 5J, ADILO 2J & BRENO 2J.\n\u2022 10.4. VISUAL DEPARTURE TO XXXXX.\n\nWARNING: FOEHN\nDuring FOEHN conditions severe downdraughts may be encountered south of the city, when able to do so in VMC\npilots should proceed visually north of the city before picking up the standard routing - however if departing in IMC\nconditions then the SID routing must be accurately adhered to.\n\nINNSBRUCK, AUSTRIA\nINNSBRUCK\n28 NOV 2025 10-10-2P13\n\n-\n10.2.1 DEPARTURE RUNWAY 08 - RTT 2Q, RTT 3J & ALL SIDS FOLLOWING THE RWY 08 INITIAL DEPARTURE\nDeparture General: See also 10.1 General for info on Slot adherence, Runway in use vs planned runway, Line-up\nProcedures and also 11. Ground Procedures for info on pushback vs stand.\n\nWARNING: FOEHN\n\nMINIMA (NIGHT APPROVED): RVR 150 m.\n\nPERFORMANCE DATA:\n\u2022 If planned take-off mass permits then use PDCS chart \u201808DP5\u2019.\n\u2022 If required for an increase in take-off mass then use PDCS chart \u201808DP4\u2019.\nNote: for some aircraft types \u201808DP5\u2019 may permit a higher take-off mass than \u201808DP4\u2019.\n\nDEPARTURE ROUTE: As per SID.\n\nCONTINGENCY:\n\u2022 If using PDCS chart \u201808DP5\u2019: as per Jeppesen (NetJets) chart 10-7C ENGINE FAILURE PROCEDURE RWY 08\n(STRAIGHT CLIMB).\n\u2022 If using PDCS chart \u201808DP4\u2019: as per Jeppesen (NetJets) chart 10-7 ENGINE FAILURE PROCEDURE RWY 08\n(RACETRACK).\n\n10.2.2 DEPARTURE RUNWAY 08 - KPT 5J, ADILO 2J & BRENO 2J\nWARNING: FOEHN\nDEPARTURE GENERAL: See also 10.1 General for info on Slot adherance, Runway in use vs planned runway, Line-up\nProcedures and also 11. Ground Procedures for info on pushback vs stand.\n\nMINIMA (NIGHT APPROVED): RVR 150 m.\n\nPERFORMANCE DATA: As per PDCS chart \u201808DP4\u2019.\n\nDEPARTURE ROUTE: As per SID.\n\nCONTINGENCY: As per Jeppesen (NetJets) chart 10-7 ENGINE FAILURE PROCEDURE RWY 08 (RACETRACK).\n\nINNSBRUCK, AUSTRIA\nINNSBRUCK\n28 NOV 2025 10-10-2P14\n\n-\n10.3. DEPARTURE RUNWAY 26\nSee also 10.1. General for info on Slot adherence, Runway in use vs planned runway, Line-up Procedures, and also",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "0.1 GENERAL",
+            "SLOT ADHERENCE"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Monitor TWR freq. at latest 15 min prior CTOT.",
+            "Inform ATC that you are able to comply with CTOT as soon as possible.",
+            "If unable - inform ATC that:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "o you need a SLOT - extension of maximum 15 min; or",
+            "o you need a delay with more than 15 min."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "RUNWAY IN USE VS PLANNED RUNWAY"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Check the ATIS early.",
+            "When the RWY in use stated is the same as your planned SIDRWY: just plan for the SID you want to use, no"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "need to call ATC for SID or RWY in use."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Upon startup request, state the requested SID \u2018Fraction XXX request startup via SID XXX\u2019.",
+            "When you are unable to depart on the stated RWY in use, advise ATC together with the estimate to be fully"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "ready for startup and which SID is needed (ATC prefer KPT5J when you need RWY08 and RWY26 is in use)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LINE-UP PROCEDURES"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "ATC expects you will backtrack for full length, there is no need to request this.",
+            "In case of inbound traffic you will be asked if you are able to depart within 3 minutes, before reaching the"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "holding point \u2013 3 minutes from line-up to take-off means next inbound is about 10nm final with speed 160kt."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "10.2. DEPARTURE RUNWAY 08",
+            "See also 10.1 General for info on Slot adherance, Runway in use vs planned runway, Line-up Procedures and also 11.",
+            "Ground Procedures for info on pushback vs stand.",
+            "See the table Departure Runway 08 under 6. WEATHER / AIRPORT LIMITATIONS for a list of departures Runway 08",
+            "with applicable limitations, see below for operating instructions for the following departures:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "10.2.1. DEPARTURE RUNWAY 08 - RTT 2Q, RTT 3J & all SIDs following the RWY 08 INITIAL DEPARTURE.",
+            "10.2.2. DEPARTURE RUNWAY 08 - KPT 5J, ADILO 2J & BRENO 2J.",
+            "10.4. VISUAL DEPARTURE TO XXXXX."
+          ]
+        },
+        {
+          "type": "warning",
+          "lines": [
+            "WARNING: FOEHN",
+            "During FOEHN conditions severe downdraughts may be encountered south of the city, when able to do so in VMC",
+            "pilots should proceed visually north of the city before picking up the standard routing - however if departing in IMC",
+            "conditions then the SID routing must be accurately adhered to."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "INNSBRUCK, AUSTRIA",
+            "INNSBRUCK",
+            "28 NOV 2025 10-10-2P13"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "10.2.1 DEPARTURE RUNWAY 08 - RTT 2Q, RTT 3J & ALL SIDS FOLLOWING THE RWY 08 INITIAL DEPARTURE",
+            "Departure General: See also 10.1 General for info on Slot adherence, Runway in use vs planned runway, Line-up",
+            "Procedures and also 11. Ground Procedures for info on pushback vs stand."
+          ]
+        },
+        {
+          "type": "warning",
+          "lines": [
+            "WARNING: FOEHN"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA (NIGHT APPROVED): RVR 150 m."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PERFORMANCE DATA:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "If planned take-off mass permits then use PDCS chart \u201808DP5\u2019.",
+            "If required for an increase in take-off mass then use PDCS chart \u201808DP4\u2019."
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note: for some aircraft types \u201808DP5\u2019 may permit a higher take-off mass than \u201808DP4\u2019."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DEPARTURE ROUTE: As per SID."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CONTINGENCY:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "If using PDCS chart \u201808DP5\u2019: as per Jeppesen (NetJets) chart 10-7C ENGINE FAILURE PROCEDURE RWY 08"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "(STRAIGHT CLIMB)."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "If using PDCS chart \u201808DP4\u2019: as per Jeppesen (NetJets) chart 10-7 ENGINE FAILURE PROCEDURE RWY 08"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "(RACETRACK)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "10.2.2 DEPARTURE RUNWAY 08 - KPT 5J, ADILO 2J & BRENO 2J"
+          ]
+        },
+        {
+          "type": "warning",
+          "lines": [
+            "WARNING: FOEHN",
+            "DEPARTURE GENERAL: See also 10.1 General for info on Slot adherance, Runway in use vs planned runway, Line-up",
+            "Procedures and also 11. Ground Procedures for info on pushback vs stand."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA (NIGHT APPROVED): RVR 150 m."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PERFORMANCE DATA: As per PDCS chart \u201808DP4\u2019."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DEPARTURE ROUTE: As per SID."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CONTINGENCY: As per Jeppesen (NetJets) chart 10-7 ENGINE FAILURE PROCEDURE RWY 08 (RACETRACK)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "INNSBRUCK, AUSTRIA",
+            "INNSBRUCK",
+            "28 NOV 2025 10-10-2P14"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "10.3. DEPARTURE RUNWAY 26",
+            "See also 10.1. General for info on Slot adherence, Runway in use vs planned runway, Line-up Procedures, and also"
+          ]
+        }
+      ],
+      "pages": [
+        12
+      ],
+      "page_images": [
+        "static/airports/lowi/page-12.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 11,
+      "title": "Ground procedures",
+      "body": "ee the table Departure Runway 26 under 6. WEATHER / AIRPORT LIMITATIONS for a list of departures Runway 26\nwith applicable limitations, see below for operating instructions for the following departures:\n\u2022 10.3.1. DEPARTURE RUNWAY 26 - SID MOGTI 1R.\n\u2022 10.3.2. DEPARTURE RUNWAY 26 - SID MOGTI 3H.\n\u2022 10.3.3. DEPARTURE RUNWAY 26 - OTHER RWY 26 SIDs.\n\u2022 10.3.4. INCREASED MASS DEPARTURE RUNWAY 26 (TELFS VMC CONTINGENCY).\n\u2022 10.4. VISUAL DEPARTURE TO XXXXX.\n\n10.3.1. DEPARTURE RUNWAY 26 - SID MOGTI 1R - CHART 10-3G1\nDEPARTURE GENERAL: See also 10.1 General for info on Slot adherence, Runway in use vs. planned runway, Line-up\nProcedures and also 11. Ground Procedures for info on pushback vs. stand.\n\nMINIMA (NIGHT APPROVED): As per text at bottom of Jeppesen 10-3G1 (Ceiling 1300 ft / Visibility 1500 m).\n\nPERFORMANCE DATA: As per PDCS chart '26DP8'.\n\nDEPARTURE ROUTE:\n\u2022 As per the SID.\n\u2022 Unlike the MOGTI 3H there is NO visual segment on the MOGTI 1R. It is a fully IMC SID.\n\nDEPARTURE PROCEDURE:\n\u2022 Follow the FMS guidance accurately.\n\u2022 Climb using best gradient of climb.\n\nCONTINGENCY:\n\u2022 Follow the MOGTI 1R SID track.\n\u2022 Maintain best gradient of climb as per the OM-B / AFM engine failure profile.\n\u2022 Accelerate as per the PDCS chart \u201826DP8\u2019.\nNote: The PDCS chart '26DP8' is a fully IMC contingency procedure, so in the event of an engine failure there is no\nrequirement to maintain VMC / visual.\n\nINNSBRUCK, AUSTRIA\nINNSBRUCK\n28 NOV 2025 10-10-2P15\n\n-\n10.3.2. DEPARTURE RUNWAY 26 - SID MOGTI 3H - CHART 10-3G\nDEPARTURE GENERAL: See also 10.1. General for info on Slot adherence, Runway in use vs planned runway, Line-up\nProcedures and also 11. Ground Procedures for info on pushback vs stand.\n\nMINIMA (NIGHT APPROVED): As per text at bottom of Jeppesen 10-3G (Ceiling 2100 ft / Visibility 5000 m).\n\nPERFORMANCE DATA: As per PDCS chart \u201826DP8\u2019.\n\nDEPARTURE ROUTE:\n\u2022 As per the SID.\n\u2022 Visual section of the departure extends only until passed WI505 and established on track 290\u00b0 to WI506, (and\nabove 4000 ft).\n\u2022 This visual requirement is due to obstacles penetrating the outside of the rather large protected airspace that\nRNAV-1 procedure design requires during a turn, no visual manoeuvring is required.\n\nDEPARTURE PROCEDURE:\n\u2022 Follow the FMS guidance accurately both during the visual and IMC sections.\n\u2022 If the cloud ceiling is below your cleared level, then initially set an altitude that will allow you to remain clear\nof cloud but with an absolute minimum of 4000 ft (with the weather at minima the ceiling will be 4007 ft\nAMSL).\n\u2022 Once past WI505 and established on 290\u00b0 track to WI506 immediately resume climb to your cleared level\nusing best gradient of climb.\n\nCONTINGENCY:\n\u2022 Follow the MOGTI 3H SID track.\n\u2022 Maintaining best gradient of climb as per the OM-B / AFM engine failure profile.\n\u2022 Accelerate as per the PDCS chart \u201826DP8\u2019.\nNote: The PDCS chart \u201826DP8\u2019 is a fully IMC contingency procedure so in the event of an engine failure there is no\nrequirement to maintain VMC / visual.\n\nTHREATS:\n-\nIf cleared to the FL but leveling initially at an Altitude - ensure to set STD when resuming climb to the cleared FL.\n-\nIf you misjudged the cloud ceiling and enter cloud prior to passing WI505 do NOT descend to regain visual\nconditions, immediately resume climb using best gradient to your cleared level.\n\nINNSBRUCK, AUSTRIA\nINNSBRUCK\n28 NOV 2025 10-10-2P16\n\n-\n10.3.3. DEPARTURE RUNWAY 26 - OTHER RWY 26 SIDS\nDEPARTURE GENERAL: See also 10.1 General for info on Slot adherence, runway in use vs planned runway, Line-up\nProcedures and also 11. Ground Procedures for info on pushback vs stand.\n\nDEPARTURE RUNWAY 26 - OTHER RWY 26 SID: BRENO 3H, RTT 4H & RTT 1R & all SIDs following the RWY 26 INITIAL\nDEPARTURE Jeppesen chart 10-3A are approved.\n\u2022 If no speed / bank angle limitations are given on the SID then use Max. 150 KIAS / Min. 25\u00b0 AOB.\n\nMINIMA (DAY ONLY): Visibility 5000 m, Ceiling 2000 ft.\n\nPERFORMANCE DATA: As per PDCS chart \u201826DP7\u2019.\n\nDEPARTURE ROUTE: As per SID.\n\nCONTINGENCY:\n\u2022 As per Jeppesen (NetJets) chart 10-7B ENGINE FAILURE PROCEDURE RWY 26 (RTT).\n\u2022 Maintain visual until established on the OEJ course 065\u00b0 then climb (IMC allowed) with best gradient on the OEJ.\nNote: There are small differences between the turn points and track for the \u2018normal\u2019 and \u2018contingency\u2019 procedures as\nshown below.\n\nNormal procedure [10-3A]\nContingency procedure [10-7B]\n\nINNSBRUCK, AUSTRIA\nINNSBRUCK\n28 NOV 2025 10-10-2P17\n\n-\n10.3.4. INCREASED MASS DEPARTURE RUNWAY 26 (TELFS VMC CONTINGENCY)\nDEPARTURE GENERAL: See also 10.1. General for info on Slot adherance, Runway in use vs planned runway, Line-up\nProcedures and also 11. Ground Procedures for info on pushback vs stand.\n\nINCREASED MASS DEPARTURE RUNWAY 26 (TELFS VMC CONTINGENCY):\nIn the event that the PDCS chart \u201826DP8\u2019, \u201826DP7\u2019 or a departure Runway 08 with a tailwind do not permit the\nrequired take-off mass, then departure using the increased take-off mass from PDCS chart \u201826DP6\u2019 is permitted using\nany of the SIDs listed as approved, provided the following is adhered to:\n\nMINIMA (DAY ONLY):\n\u2022 Visibility 8 km, Ceiling 3000 ft overhead aerodrome.\n\u2022 Ceiling 3000 ft overhead the ceilometer located at WI814 (in the vicinity of TELFS) when this information is\navailable.\n\nPERFORMANCE DATA: As per PDCS chart \u201826DP6\u2019.\n\nDEPARTURE ROUTE: As per assigned SID.\n\u2022 If no speed / bank angle limitations are given on the SID then use Max 150 KIAS / Min 25\u00b0 AOB.\n\nCONTINGENCY: As per Jeppesen (NetJets) chart 10-7A VMC ENGINE FAILURE PROCEDURE RWY 26 (via TELFS).\n\nTANKERING: This procedure shall not be used to facilitate economic tankering.\n\nTHREAT BASED BRIEFING TOPICS:\n-\nThis contingency procedure will require a deviation from the assigned SID following an engine failure, the point\nof which this will occur will vary depending on the SID assigned and where an engine failure occurs, it is essential\nthat all decision points and routings are thoroughly briefed prior to departure.\n\n-\nThe procedure via TELFs requires crews to remain in the valley maintaining VMC for an extended period, crews\nshould be aware that the weather further down the valley towards TELFS may differ from the weather overhead\nthe aerodrome, crew shall ask ATC for the ceiling at WI814 (in the vicinity of TELFS) but be aware that this only\ngives cloud ceiling at that specific point and no visibility information.\n\n-\nCrew should consider and brief their possible actions in the event the weather further down the valley is worse\nthan expected, forcing them to be inadvertent IMC during the VMC part of the contingency procedure, this may\ninclude; max gradient climb to MSA, requesting assistance from Innsbruck Radar to avoid terrain, use of aircraft\nequipment (e.g. TAWS display, Synthetic Vision etc) to avoid terrain.\n\nINNSBRUCK, AUSTRIA\nINNSBRUCK\n28 NOV 2025 10-10-2P18\n\n-\n10.4. VISUAL DEPARTURE TO XXXX\nDEPARTURE GENERAL: See also 10.1. General for info on Slot adherance, Runway in use vs planned runway, Line-up\nProcedures and also 11. Ground Procedures for info on pushback vs stand.\n\nVISUAL DEPARTURE TO XXXXX: ATC may from either runway offer a visual departure to a given point (e.g. \u2018visual\ndeparture to KONIN\u2019), NetJets aircraft may accept such a departure subject to the following:\n\nMINIMA (DAY ONLY): Higher of;\n\u2022 Visibility 10 km, Ceiling 9100 ft; or\n\u2022 Such a level that will allow adequate visual terrain clearance towards the given point.\n\nPERFORMANCE DATA: As per the PDCS chart for the runway in use and selected contingency procedure (see below).\n\nDEPARTURE ROUTE:\n\u2022 There is no pre-defined / published routing for a \u2018visual departure\u2019.\n\u2022 In most cases ATC will expect you to climb along the valley in the direction of take-off until reaching an altitude\nwhere a safe turn maintaining visual separation from terrain can be made towards the given point.\n\u2022 If there is any ambiguity with regard to the departure routing, ATC must be questioned and the ambiguity\nresolved prior to departure.\n\nCONTINGENCY:\n\u2022 Crew shall select and brief the most appropriate contingency procedure for the runway in use and the given\nrouting.\n\u2022 PDCS for the selected contingency procedure shall be used for performance data.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "ee the table Departure Runway 26 under 6. WEATHER / AIRPORT LIMITATIONS for a list of departures Runway 26",
+            "with applicable limitations, see below for operating instructions for the following departures:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "10.3.1. DEPARTURE RUNWAY 26 - SID MOGTI 1R.",
+            "10.3.2. DEPARTURE RUNWAY 26 - SID MOGTI 3H.",
+            "10.3.3. DEPARTURE RUNWAY 26 - OTHER RWY 26 SIDs.",
+            "10.3.4. INCREASED MASS DEPARTURE RUNWAY 26 (TELFS VMC CONTINGENCY).",
+            "10.4. VISUAL DEPARTURE TO XXXXX."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "10.3.1. DEPARTURE RUNWAY 26 - SID MOGTI 1R - CHART 10-3G1",
+            "DEPARTURE GENERAL: See also 10.1 General for info on Slot adherence, Runway in use vs. planned runway, Line-up",
+            "Procedures and also 11. Ground Procedures for info on pushback vs. stand."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA (NIGHT APPROVED): As per text at bottom of Jeppesen 10-3G1 (Ceiling 1300 ft / Visibility 1500 m)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PERFORMANCE DATA: As per PDCS chart '26DP8'."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DEPARTURE ROUTE:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "As per the SID.",
+            "Unlike the MOGTI 3H there is NO visual segment on the MOGTI 1R. It is a fully IMC SID."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DEPARTURE PROCEDURE:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Follow the FMS guidance accurately.",
+            "Climb using best gradient of climb."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CONTINGENCY:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Follow the MOGTI 1R SID track.",
+            "Maintain best gradient of climb as per the OM-B / AFM engine failure profile.",
+            "Accelerate as per the PDCS chart \u201826DP8\u2019."
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note: The PDCS chart '26DP8' is a fully IMC contingency procedure, so in the event of an engine failure there is no",
+            "requirement to maintain VMC / visual."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "INNSBRUCK, AUSTRIA",
+            "INNSBRUCK",
+            "28 NOV 2025 10-10-2P15"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "10.3.2. DEPARTURE RUNWAY 26 - SID MOGTI 3H - CHART 10-3G",
+            "DEPARTURE GENERAL: See also 10.1. General for info on Slot adherence, Runway in use vs planned runway, Line-up",
+            "Procedures and also 11. Ground Procedures for info on pushback vs stand."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA (NIGHT APPROVED): As per text at bottom of Jeppesen 10-3G (Ceiling 2100 ft / Visibility 5000 m)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PERFORMANCE DATA: As per PDCS chart \u201826DP8\u2019."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DEPARTURE ROUTE:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "As per the SID.",
+            "Visual section of the departure extends only until passed WI505 and established on track 290\u00b0 to WI506, (and"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "above 4000 ft)."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "This visual requirement is due to obstacles penetrating the outside of the rather large protected airspace that"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "RNAV-1 procedure design requires during a turn, no visual manoeuvring is required."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DEPARTURE PROCEDURE:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Follow the FMS guidance accurately both during the visual and IMC sections.",
+            "If the cloud ceiling is below your cleared level, then initially set an altitude that will allow you to remain clear"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "of cloud but with an absolute minimum of 4000 ft (with the weather at minima the ceiling will be 4007 ft",
+            "AMSL)."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Once past WI505 and established on 290\u00b0 track to WI506 immediately resume climb to your cleared level"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "using best gradient of climb."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CONTINGENCY:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Follow the MOGTI 3H SID track.",
+            "Maintaining best gradient of climb as per the OM-B / AFM engine failure profile.",
+            "Accelerate as per the PDCS chart \u201826DP8\u2019."
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note: The PDCS chart \u201826DP8\u2019 is a fully IMC contingency procedure so in the event of an engine failure there is no",
+            "requirement to maintain VMC / visual."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "THREATS:",
+            "-",
+            "If cleared to the FL but leveling initially at an Altitude - ensure to set STD when resuming climb to the cleared FL.",
+            "-",
+            "If you misjudged the cloud ceiling and enter cloud prior to passing WI505 do NOT descend to regain visual",
+            "conditions, immediately resume climb using best gradient to your cleared level."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "INNSBRUCK, AUSTRIA",
+            "INNSBRUCK",
+            "28 NOV 2025 10-10-2P16"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "10.3.3. DEPARTURE RUNWAY 26 - OTHER RWY 26 SIDS",
+            "DEPARTURE GENERAL: See also 10.1 General for info on Slot adherence, runway in use vs planned runway, Line-up",
+            "Procedures and also 11. Ground Procedures for info on pushback vs stand."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DEPARTURE RUNWAY 26 - OTHER RWY 26 SID: BRENO 3H, RTT 4H & RTT 1R & all SIDs following the RWY 26 INITIAL",
+            "DEPARTURE Jeppesen chart 10-3A are approved."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "If no speed / bank angle limitations are given on the SID then use Max. 150 KIAS / Min. 25\u00b0 AOB."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA (DAY ONLY): Visibility 5000 m, Ceiling 2000 ft."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PERFORMANCE DATA: As per PDCS chart \u201826DP7\u2019."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DEPARTURE ROUTE: As per SID."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CONTINGENCY:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "As per Jeppesen (NetJets) chart 10-7B ENGINE FAILURE PROCEDURE RWY 26 (RTT).",
+            "Maintain visual until established on the OEJ course 065\u00b0 then climb (IMC allowed) with best gradient on the OEJ."
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note: There are small differences between the turn points and track for the \u2018normal\u2019 and \u2018contingency\u2019 procedures as",
+            "shown below."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Normal procedure [10-3A]",
+            "Contingency procedure [10-7B]"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "INNSBRUCK, AUSTRIA",
+            "INNSBRUCK",
+            "28 NOV 2025 10-10-2P17"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "10.3.4. INCREASED MASS DEPARTURE RUNWAY 26 (TELFS VMC CONTINGENCY)",
+            "DEPARTURE GENERAL: See also 10.1. General for info on Slot adherance, Runway in use vs planned runway, Line-up",
+            "Procedures and also 11. Ground Procedures for info on pushback vs stand."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "INCREASED MASS DEPARTURE RUNWAY 26 (TELFS VMC CONTINGENCY):",
+            "In the event that the PDCS chart \u201826DP8\u2019, \u201826DP7\u2019 or a departure Runway 08 with a tailwind do not permit the",
+            "required take-off mass, then departure using the increased take-off mass from PDCS chart \u201826DP6\u2019 is permitted using",
+            "any of the SIDs listed as approved, provided the following is adhered to:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA (DAY ONLY):"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Visibility 8 km, Ceiling 3000 ft overhead aerodrome.",
+            "Ceiling 3000 ft overhead the ceilometer located at WI814 (in the vicinity of TELFS) when this information is"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "available."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PERFORMANCE DATA: As per PDCS chart \u201826DP6\u2019."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DEPARTURE ROUTE: As per assigned SID."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "If no speed / bank angle limitations are given on the SID then use Max 150 KIAS / Min 25\u00b0 AOB."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CONTINGENCY: As per Jeppesen (NetJets) chart 10-7A VMC ENGINE FAILURE PROCEDURE RWY 26 (via TELFS)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "TANKERING: This procedure shall not be used to facilitate economic tankering."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "THREAT BASED BRIEFING TOPICS:",
+            "-",
+            "This contingency procedure will require a deviation from the assigned SID following an engine failure, the point",
+            "of which this will occur will vary depending on the SID assigned and where an engine failure occurs, it is essential",
+            "that all decision points and routings are thoroughly briefed prior to departure."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "The procedure via TELFs requires crews to remain in the valley maintaining VMC for an extended period, crews",
+            "should be aware that the weather further down the valley towards TELFS may differ from the weather overhead",
+            "the aerodrome, crew shall ask ATC for the ceiling at WI814 (in the vicinity of TELFS) but be aware that this only",
+            "gives cloud ceiling at that specific point and no visibility information."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "Crew should consider and brief their possible actions in the event the weather further down the valley is worse",
+            "than expected, forcing them to be inadvertent IMC during the VMC part of the contingency procedure, this may",
+            "include; max gradient climb to MSA, requesting assistance from Innsbruck Radar to avoid terrain, use of aircraft",
+            "equipment (e.g. TAWS display, Synthetic Vision etc) to avoid terrain."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "INNSBRUCK, AUSTRIA",
+            "INNSBRUCK",
+            "28 NOV 2025 10-10-2P18"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "10.4. VISUAL DEPARTURE TO XXXX",
+            "DEPARTURE GENERAL: See also 10.1. General for info on Slot adherance, Runway in use vs planned runway, Line-up",
+            "Procedures and also 11. Ground Procedures for info on pushback vs stand."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VISUAL DEPARTURE TO XXXXX: ATC may from either runway offer a visual departure to a given point (e.g. \u2018visual",
+            "departure to KONIN\u2019), NetJets aircraft may accept such a departure subject to the following:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA (DAY ONLY): Higher of;"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Visibility 10 km, Ceiling 9100 ft; or",
+            "Such a level that will allow adequate visual terrain clearance towards the given point."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PERFORMANCE DATA: As per the PDCS chart for the runway in use and selected contingency procedure (see below)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DEPARTURE ROUTE:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "There is no pre-defined / published routing for a \u2018visual departure\u2019.",
+            "In most cases ATC will expect you to climb along the valley in the direction of take-off until reaching an altitude"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "where a safe turn maintaining visual separation from terrain can be made towards the given point."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "If there is any ambiguity with regard to the departure routing, ATC must be questioned and the ambiguity"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "resolved prior to departure."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CONTINGENCY:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Crew shall select and brief the most appropriate contingency procedure for the runway in use and the given"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "routing."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "PDCS for the selected contingency procedure shall be used for performance data."
+          ]
+        }
+      ],
+      "pages": [
+        14,
+        18
+      ],
+      "page_images": [
+        "static/airports/lowi/page-14.png",
+        "static/airports/lowi/page-18.png"
+      ],
+      "embeds": [
+        "static/airports/lowi/embed-p18-02.jpeg"
+      ]
+    },
+    {
+      "num": 11,
+      "title": "Ground procedures",
+      "body": "here are 10 parking stands at LOWI, stands 7-10 are restricted to pushback only for large aircraft such as B737 &\nA320, however, smaller aircraft such as NetJets aircraft types may taxi out from these stands if sufficient room is\navailable. If necessary, a marshaller may be requested from ATC to ensure wingtip clearance during the turn out.\n\nParking Stands\nWhen turning out of stand (without push back), pilots are asked to turn as soon as possible (not taxi to close to the\nterminal) and then use as little thrust as possible during the turn when the engines point at the buildings.\n\nINNSBRUCK, AUSTRIA\nINNSBRUCK\n28 NOV 2025 10-10-2P19\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "here are 10 parking stands at LOWI, stands 7-10 are restricted to pushback only for large aircraft such as B737 &",
+            "A320, however, smaller aircraft such as NetJets aircraft types may taxi out from these stands if sufficient room is",
+            "available. If necessary, a marshaller may be requested from ATC to ensure wingtip clearance during the turn out."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Parking Stands",
+            "When turning out of stand (without push back), pilots are asked to turn as soon as possible (not taxi to close to the",
+            "terminal) and then use as little thrust as possible during the turn when the engines point at the buildings."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "INNSBRUCK, AUSTRIA",
+            "INNSBRUCK",
+            "28 NOV 2025 10-10-2P19"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        14,
+        18
+      ],
+      "page_images": [
+        "static/airports/lowi/page-14.png",
+        "static/airports/lowi/page-18.png"
+      ],
+      "embeds": [
+        "static/airports/lowi/embed-p18-02.jpeg"
+      ]
+    },
+    {
+      "num": 12,
+      "title": "Miscellaneous",
+      "body": "efer to Jeppesen.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "efer to Jeppesen."
+          ]
+        }
+      ],
+      "pages": [
+        19
+      ],
+      "page_images": [
+        "static/airports/lowi/page-19.png"
+      ],
+      "embeds": [
+        "static/airports/lowi/embed-p19-02.jpeg"
+      ]
+    },
+    {
+      "num": 13,
+      "title": "Charts / Pictures / Other",
+      "body": "eather and precipitation at LOWI",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "eather and precipitation at LOWI"
+          ]
+        }
+      ],
+      "pages": [
+        19
+      ],
+      "page_images": [
+        "static/airports/lowi/page-19.png"
+      ],
+      "embeds": [
+        "static/airports/lowi/embed-p19-02.jpeg"
+      ]
+    },
+    {
+      "num": 14,
+      "title": "Changes since the last revision",
+      "body": "RNP Y renamed RNP VISUAL V.\n- LOC DME WEST procedure removed.\n- LOC DME R and RNP Z (AR) chart index corrected.\n- Preferred RWY note added to arrival tables.\n- Lowest available minima note made a caution note.\n- Day/Night limitation made more visible on arrival/departure tables\n- OEI reference corrected for RWY26 arrivals (26DP7 instead of 26DP8)\nProvide feedback to Lis-OpsTechnical@netjets.com",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "RNP Y renamed RNP VISUAL V."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "LOC DME WEST procedure removed.",
+            "LOC DME R and RNP Z (AR) chart index corrected.",
+            "Preferred RWY note added to arrival tables.",
+            "Lowest available minima note made a caution note.",
+            "Day/Night limitation made more visible on arrival/departure tables",
+            "OEI reference corrected for RWY26 arrivals (26DP7 instead of 26DP8)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Provide feedback to Lis-OpsTechnical@netjets.com"
+          ]
+        }
+      ],
+      "pages": [
+        19
+      ],
+      "page_images": [
+        "static/airports/lowi/page-19.png"
+      ],
+      "embeds": [
+        "static/airports/lowi/embed-p19-02.jpeg"
+      ]
+    }
+  ]
+}

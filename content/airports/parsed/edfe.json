@@ -1,0 +1,920 @@
+{
+  "icao": "EDFE",
+  "page_count": 8,
+  "pages": [
+    {
+      "page": 1,
+      "image": "static/airports/edfe/page-01.png",
+      "embeds": []
+    },
+    {
+      "page": 2,
+      "image": "static/airports/edfe/page-02.png",
+      "embeds": [
+        "static/airports/edfe/embed-p02-02.jpeg"
+      ]
+    },
+    {
+      "page": 3,
+      "image": "static/airports/edfe/page-03.png",
+      "embeds": []
+    },
+    {
+      "page": 4,
+      "image": "static/airports/edfe/page-04.png",
+      "embeds": [
+        "static/airports/edfe/embed-p04-02.jpeg",
+        "static/airports/edfe/embed-p04-03.jpeg"
+      ]
+    },
+    {
+      "page": 5,
+      "image": "static/airports/edfe/page-05.png",
+      "embeds": []
+    },
+    {
+      "page": 6,
+      "image": "static/airports/edfe/page-06.png",
+      "embeds": []
+    },
+    {
+      "page": 7,
+      "image": "static/airports/edfe/page-07.png",
+      "embeds": [
+        "static/airports/edfe/embed-p07-02.jpeg",
+        "static/airports/edfe/embed-p07-03.jpeg"
+      ]
+    },
+    {
+      "page": 8,
+      "image": "static/airports/edfe/page-08.png",
+      "embeds": [
+        "static/airports/edfe/embed-p08-02.jpeg"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": "IC training required\nYES\n\nSIC training required\nNO\n\nQualification is type related\nYES\n\nSelf-Briefing\nYES",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "IC training required",
+            "YES"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SIC training required",
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Qualification is type related",
+            "YES"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Self-Briefing",
+            "YES"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        1
+      ],
+      "page_images": [
+        "static/airports/edfe/page-01.png",
+        "static/airports/edfe/page-01.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 2,
+      "title": "Initial qualification requirements",
+      "body": ". REVALIDATION REQUIREMENTS\nGround Training\nNO\n\nNO\n\nSimulator Training\nYES\n12 Months\nYES\n\nIn-flight familiarization\nNO\n\nNO\n\nFlight training\nNO\n\nNO",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ". REVALIDATION REQUIREMENTS",
+            "Ground Training",
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Simulator Training",
+            "YES",
+            "12 Months",
+            "YES"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "In-flight familiarization",
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Flight training",
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NO"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        1
+      ],
+      "page_images": [
+        "static/airports/edfe/page-01.png",
+        "static/airports/edfe/page-01.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 5,
+      "title": "Limitations / Miscellaneous",
+      "body": "AY ONLY\n-  The following are PROHIBITED:",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "AY ONLY"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "The following are PROHIBITED:"
+          ]
+        }
+      ],
+      "pages": [
+        1
+      ],
+      "page_images": [
+        "static/airports/edfe/page-01.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": ".  SLO, GA or fractional ops performance. Only Commercial performance factors shall be applied.\n\n-  PF shall hold a current AHQ.\n-  For DEPARTURE RWY26, the pilot flying shall be a qualified EDFE PIC.\n-  The PIC must not be designated as \u2018INEXPERIENCED\u2019.\n-  TCAS and EGPWS must be operative (ie no MEL).",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ".  SLO, GA or fractional ops performance. Only Commercial performance factors shall be applied."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "PF shall hold a current AHQ.",
+            "For DEPARTURE RWY26, the pilot flying shall be a qualified EDFE PIC.",
+            "The PIC must not be designated as \u2018INEXPERIENCED\u2019.",
+            "TCAS and EGPWS must be operative (ie no MEL)."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        1
+      ],
+      "page_images": [
+        "static/airports/edfe/page-01.png",
+        "static/airports/edfe/page-01.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 6,
+      "title": "Weather / Airport limitations",
+      "body": "RRIVAL\nDEPARTURE\n\nVISIBILITY\nCEILING\nVISIBILITY\nCEILING\nB\n8KM\n1900ft\n8KM* (see below)\n1900ft\nC\n\nOTHER LIMITATIONS\n*RWY 08 LOWER VISIBILITY DEPARTURE PROCEDURE (5000M) may apply, refer to briefing.\n\nFRANKFURT-EGELSBACH, GERMANY\nFRANKFURT-EGELSBACH\n30-10-2P2\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "RRIVAL",
+            "DEPARTURE"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VISIBILITY",
+            "CEILING",
+            "VISIBILITY",
+            "CEILING",
+            "B",
+            "8KM",
+            "1900ft",
+            "8KM* (see below)",
+            "1900ft",
+            "C"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "OTHER LIMITATIONS",
+            "*RWY 08 LOWER VISIBILITY DEPARTURE PROCEDURE (5000M) may apply, refer to briefing."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "FRANKFURT-EGELSBACH, GERMANY",
+            "FRANKFURT-EGELSBACH",
+            "30-10-2P2"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        1
+      ],
+      "page_images": [
+        "static/airports/edfe/page-01.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 7,
+      "title": "Overview",
+      "body": "he aerodrome is located 11NM south of the city of Frankfurt and 5NM south of Frankfurt-Main International airport\n(EDDF).  MSA within 25NM of the ARP is 4000ft.\n\nOVERVIEW FROM THE SOUTHWEST",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "he aerodrome is located 11NM south of the city of Frankfurt and 5NM south of Frankfurt-Main International airport",
+            "(EDDF).  MSA within 25NM of the ARP is 4000ft."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "OVERVIEW FROM THE SOUTHWEST"
+          ]
+        }
+      ],
+      "pages": [
+        2
+      ],
+      "page_images": [
+        "static/airports/edfe/page-02.png"
+      ],
+      "embeds": [
+        "static/airports/edfe/embed-p02-02.jpeg"
+      ]
+    },
+    {
+      "num": 8,
+      "title": "Operational procedures \u2014 General",
+      "body": "HREATS:\nRISK OF COLLISION.\nThere is no dedicated approach to this Airport.  LANGEN RADAR /FRANKFURT APP will control you to their minimum\nRadar Vectored Altitude then expect you to cancel IFR and continue visually to EDFE below the Frankfurt Class C\nAirspace.  This will place you in the equivalent of Class E/G airspace during the final stages of approach or initial\nstages of departure.  Crew must expect uncontrolled traffic in the vicinity of EDFE.  Adhere to OM-A 8.3.1 VFR Policy\nand crew may find additional guidance on uncontrolled airspace operations in:  COMPLY/200-FLEET Training &\nStandards/250-FLEET Training & Standards Library/IFR/VFR Ops in Class E & G Airspace (UK/EU) Enrichment\nGuide.\n\nCONTROLLED AIRSPACE:\nEDDF is close to EDFE and defines the arrival and departure procedures available.  EDFE EGELSBACH has an\nATZ/RMZ/TMZ Class G (SFC/1500ft) beneath the EDDF Class C FRANKFURT A area (2500ft \u2013 FL100) and the\nFRANKFURT CLASS D (1500ft -2500ft) area.  The extended centreline of RWY 18 is less than 3NM away.  Crew may\nexpect a stepped descent below this altitude with LANGEN RADAR and will be required to cancel IFR prior to the\nlateral limit of the FRANKFURT ZONE.  Review the map on the FD Pro App in VFR mode with airspace ON.\n\nOBSTACLES ON RWY 26 APPROACH.\nA railway with power lines runs across the approach path approximately 900 feet before the displaced threshold.\nThe height of the power lines is 32 feet, these obstacles are lit and marked with balloons alternating white and red.\nAn Abbreviated two-light Precision Approach Path Indicator (APAPI) set at 4.4\u00b0 and is the only vertical guidance for\napproach and landing.  Egelsbach AIP strongly recommends crews follow the APAPI during final approach to ensure\nsafe clearance of the powerlines.\n\nFRANKFURT-EGELSBACH, GERMANY\nFRANKFURT-EGELSBACH\n30-10-2P3\n\n-\nService is provided by EGELSBACH INFORMATION, (Air to Ground Station).   EGELSBACH APRON provides start-up and\nclearance (frequencies as per EDFE Jepp Chart 39-2).\nLANGEN INFORMATION provides an FIS (Jepp Chart 39-1A).\n\nThe following NETJETS TAILORED CHARTS exist:\n30-3-NJE:\nNetjets VFR Departure.\n39-10-NJE:\nNetjets Visual Apch Rwy26 via ASBAB.\n\nREQUIRED WAYPOINTS\nCheck if coordinates are already in the FMS (or enter manually).\nMAX 160KIAS at WPTs.\n\nWPT\nLAT/LONG\nSPESA\nN49 51.7  E009 20.9\nPEKIG\nN49 59.6  E009 03.1\nASBAB\nN49 58.1  E008 50.9\nDELTA\nN49 52.2  E008 36.1\nD3\nN49 55.3  E008 36.7\nYANKEE (Insert \u2018Y\u2019 in FMS)\nN49 58.2  E008 51.4\nNote: point Y is within 0.3NM of point ASBAB",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "HREATS:",
+            "RISK OF COLLISION.",
+            "There is no dedicated approach to this Airport.  LANGEN RADAR /FRANKFURT APP will control you to their minimum",
+            "Radar Vectored Altitude then expect you to cancel IFR and continue visually to EDFE below the Frankfurt Class C",
+            "Airspace.  This will place you in the equivalent of Class E/G airspace during the final stages of approach or initial",
+            "stages of departure.  Crew must expect uncontrolled traffic in the vicinity of EDFE.  Adhere to OM-A 8.3.1 VFR Policy",
+            "and crew may find additional guidance on uncontrolled airspace operations in:  COMPLY/200-FLEET Training &",
+            "Standards/250-FLEET Training & Standards Library/IFR/VFR Ops in Class E & G Airspace (UK/EU) Enrichment",
+            "Guide."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CONTROLLED AIRSPACE:",
+            "EDDF is close to EDFE and defines the arrival and departure procedures available.  EDFE EGELSBACH has an",
+            "ATZ/RMZ/TMZ Class G (SFC/1500ft) beneath the EDDF Class C FRANKFURT A area (2500ft \u2013 FL100) and the",
+            "FRANKFURT CLASS D (1500ft -2500ft) area.  The extended centreline of RWY 18 is less than 3NM away.  Crew may",
+            "expect a stepped descent below this altitude with LANGEN RADAR and will be required to cancel IFR prior to the",
+            "lateral limit of the FRANKFURT ZONE.  Review the map on the FD Pro App in VFR mode with airspace ON."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "OBSTACLES ON RWY 26 APPROACH.",
+            "A railway with power lines runs across the approach path approximately 900 feet before the displaced threshold.",
+            "The height of the power lines is 32 feet, these obstacles are lit and marked with balloons alternating white and red.",
+            "An Abbreviated two-light Precision Approach Path Indicator (APAPI) set at 4.4\u00b0 and is the only vertical guidance for",
+            "approach and landing.  Egelsbach AIP strongly recommends crews follow the APAPI during final approach to ensure",
+            "safe clearance of the powerlines."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "FRANKFURT-EGELSBACH, GERMANY",
+            "FRANKFURT-EGELSBACH",
+            "30-10-2P3"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "Service is provided by EGELSBACH INFORMATION, (Air to Ground Station).   EGELSBACH APRON provides start-up and",
+            "clearance (frequencies as per EDFE Jepp Chart 39-2).",
+            "LANGEN INFORMATION provides an FIS (Jepp Chart 39-1A)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "The following NETJETS TAILORED CHARTS exist:",
+            "30-3-NJE:",
+            "Netjets VFR Departure.",
+            "39-10-NJE:",
+            "Netjets Visual Apch Rwy26 via ASBAB."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "REQUIRED WAYPOINTS",
+            "Check if coordinates are already in the FMS (or enter manually).",
+            "MAX 160KIAS at WPTs."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "WPT",
+            "LAT/LONG",
+            "SPESA",
+            "N49 51.7  E009 20.9",
+            "PEKIG",
+            "N49 59.6  E009 03.1",
+            "ASBAB",
+            "N49 58.1  E008 50.9",
+            "DELTA",
+            "N49 52.2  E008 36.1",
+            "D3",
+            "N49 55.3  E008 36.7",
+            "YANKEE (Insert \u2018Y\u2019 in FMS)",
+            "N49 58.2  E008 51.4"
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note: point Y is within 0.3NM of point ASBAB"
+          ]
+        }
+      ],
+      "pages": [
+        2
+      ],
+      "page_images": [
+        "static/airports/edfe/page-02.png"
+      ],
+      "embeds": [
+        "static/airports/edfe/embed-p02-02.jpeg"
+      ]
+    },
+    {
+      "num": 9,
+      "title": "Arrival procedures",
+      "body": ".1 GENERAL\nTHREATS\nOnly RWY 26 is approved for arrival due to the proximity of EDDF.   The German ATC Service (DFS) has a procedure\nfor arrivals to RWY 26 at EDFE.\nExpect to be handed to LANGEN RADAR for descent.  LANGEN will provide RADAR VECTORS via PEKIG and ASBAB to\nease pressure on FRANKFURT departures - this procedure REPLACES all other previous arrivals to EDFE.  In certain\nRWY configurations at EDDF a handover to FRANFURT APPROACH may be arranged by LANGEN.\niPad:  Consider use of VFR map, with Roads and Airspace selected - this will aid situational awareness.\n\nCAUTION:\nASBAB is just within the Frankfurt Class C airspace and 0.3nm beyond compulsory reporting point YANKEE (Y).  A\nVFR arrival via YANKEE is possible, Point YANKEE is within 0.3 NM of ASBAB.\n\nArrival YANKEE (Y) routing is defined as:\nYANKEE (Y)-(VFR 1400')-RWY26\n\nFRANKFURT-EGELSBACH, GERMANY\nFRANKFURT-EGELSBACH\n30-10-2P4\n\n-\n\nOVERLAY ON RADAR MINIMUMS\n\nRWY 26 - NOTE RAILWAY & POWERLINES IN UNDERSHOOT. DISPLACED THRESHOLD.\n\nFRANKFURT-EGELSBACH, GERMANY\nFRANKFURT-EGELSBACH\n30-10-2P5\n\n-\n9.2  ARRIVAL RWY26 VIA PEKIG - ASBAB\n\nMINIMA:\n\nDAY ONLY\n\nVisibility 8KM,  Ceiling 1900ft (2300Ft QNH).\n\nPERFORMANCE:\nAs per PDCS.  Restrict arrival weight to not more than departure DP26 to allow for the balked\nlanding scenario following the motorway to the south.\n\nPROCEDURE:\nRequest RADAR VECTORS TO PEKIG with LANGEN.  They are familiar with this routing.\nEnter the following route into the FMS.  Allow enough time to do this:\n\nPEKIG (3000ft ) \u2013 ASBAB (2100ft / winter 2300ft) \u2013 EDFE RWY 26.\nASBAB should be considered the MAP for this approach.\nContact EGELSBACH INFORMATION for the latest airfield information and maintain a listening\nwatch for traffic on secondary VHF no LATER THAN 10 MINUTES PRIOR TO ARRIVAL (AIP\nrequirement).\nLANGEN RADAR may offer vectors to intercept final approach track via ASBAB (course 265\u00b0).\nWhen EDDF is on WESTERLY arrivals (RWY 25L/C/R), expect an initial routing to PEKIG via an\nEDDF RNAV STAR or RNAV Transition point.  The relevant EDDF RNAV arrival charts will aid\nsituational awareness.  KERAX, SPESA and INBOS are likely.\nATC may require holding at CHA VOR. This holding pattern is displayed on some of the EDDF\nJepp 10-2 series charts or EDFE 39-10-NJE.\nCANCELLING IFR:\nThe change to VFR must take place \u2018prior to ASBAB\u2019 (instruction from DFS).  If this is not\npossible follow the MISSED APPROACH instructions below.\nDESCENT PROFILE:\nFrom ASBAB at 2100ft QNH (1700ft AAL) descend to 1500ft to enter the EDFE RMZ at or below\n1500ft (5NM from THOLD RWY 26).\nReduce the rate of descent to intercept and then follow the APAPI for a 4.4\u00b0 glidepath.  DO\nNOT fly a shallow glidepath due to the Displaced THOLD, powerlines and Railway on SHORT\nFINAL.\nBe aware that at ASBAB you may not have the RWY in sight at the 8KM minimum visibility, but\nif clear of cloud and in sight of the ground the visual approach and descent may be continued.\nCONTINGENCY:\nPDCS STRAIGHT  & 26DP are available.\n\n9.3  MISSED APPROACH - RWY26\nThis procedure is shown on Jepp 39-10-NJE.  If at ASBAB (7.7NM from RWY) you are:\n\n\u2022 Unable to cancel IFR and continue VFR/VMC, or\n\u2022 IFR cancellation is not confirmed by LANGEN RADAR or FRANKFURT APP.\n\nTHEN\n\u2022 Follow any Instructions given by LANGEN RADAR.\n\nIF NO INSTRUCTIONS RECEIVED:\n\u2022  Climb to 4000ft.\n\u2022  Initiate a LEFT climbing turn (minimum 15\u00ba AOB / MAX 160 KIAS),\n\u2022  Fly inbound CHA VOR,\n\u2022  Inform LANGEN RADAR or FRANKFURT APP at the earliest opportunity.\n\nIn case of lost communication, commence a left turn (MAX 160KIAS) inbound CHA and climb to 4000ft and attempt\nto regain contact with LANGEN RADAR or FRANKFURT APP.\n\nFRANKFURT-EGELSBACH, GERMANY\nFRANKFURT-EGELSBACH\n30-10-2P6\n\n-\nEnter published holding (refer to EDDF STAR/RNAV transition charts).\n9.4  BALKED LANDING RWY26 AFTER CANCELLING IFR\nThis procedure is described on Jepp 39-10-NJE.\nMaintain VMC.\n\n\u2022 GREATER THAN 5NM (track distance) from THOLD: (ie at or above 1500ft QNH), follow 9.3 MISSED APPROACH-\nRWY 26 above. Note the following:\n-\nBe aware that you will need to use FMS distance, there is no DME.\n-\nContact LANGEN or FRANKFURT frequency as soon as safely possible \u2013 the procedure will take you into\nthe CLASS C FRANKFURT zone above 1500ft QNH.\n\n\u2022  DURING FINAL VISUAL DESCENT BELOW 1500ft:\n-\nClimb and maintain 1400ft and 160KIAS maximum.\n-\nRoute: D3 \u2013 DELTA \u2013 FKS VOR/DME  (1400' / K160-).\n-\nAdvise EGELSBACH INFO of your intentions.\n-\nIf an additional approach is required, remain with EGELSBACH INFORMATION until advised, expect on\npassing DELTA to regain IFR with LANGEN RADAR / FRANKFURT APP and be routed to PEKIG for RWY 26\n(Entry YANKEE) arrival.\n-\nIf an additional approach is not required, then remain with EGELSBACH INFORMATION until advised,\nexpect to regain IFR with LANGEN RADAR for further climb when passing DELTA.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ".1 GENERAL",
+            "THREATS",
+            "Only RWY 26 is approved for arrival due to the proximity of EDDF.   The German ATC Service (DFS) has a procedure",
+            "for arrivals to RWY 26 at EDFE.",
+            "Expect to be handed to LANGEN RADAR for descent.  LANGEN will provide RADAR VECTORS via PEKIG and ASBAB to",
+            "ease pressure on FRANKFURT departures - this procedure REPLACES all other previous arrivals to EDFE.  In certain",
+            "RWY configurations at EDDF a handover to FRANFURT APPROACH may be arranged by LANGEN.",
+            "iPad:  Consider use of VFR map, with Roads and Airspace selected - this will aid situational awareness."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION:",
+            "ASBAB is just within the Frankfurt Class C airspace and 0.3nm beyond compulsory reporting point YANKEE (Y).  A",
+            "VFR arrival via YANKEE is possible, Point YANKEE is within 0.3 NM of ASBAB."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Arrival YANKEE (Y) routing is defined as:",
+            "YANKEE (Y)-(VFR 1400')-RWY26"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "FRANKFURT-EGELSBACH, GERMANY",
+            "FRANKFURT-EGELSBACH",
+            "30-10-2P4"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "OVERLAY ON RADAR MINIMUMS"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "RWY 26 - NOTE RAILWAY & POWERLINES IN UNDERSHOOT. DISPLACED THRESHOLD."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "FRANKFURT-EGELSBACH, GERMANY",
+            "FRANKFURT-EGELSBACH",
+            "30-10-2P5"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.2  ARRIVAL RWY26 VIA PEKIG - ASBAB"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DAY ONLY"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Visibility 8KM,  Ceiling 1900ft (2300Ft QNH)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PERFORMANCE:",
+            "As per PDCS.  Restrict arrival weight to not more than departure DP26 to allow for the balked",
+            "landing scenario following the motorway to the south."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE:",
+            "Request RADAR VECTORS TO PEKIG with LANGEN.  They are familiar with this routing.",
+            "Enter the following route into the FMS.  Allow enough time to do this:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PEKIG (3000ft ) \u2013 ASBAB (2100ft / winter 2300ft) \u2013 EDFE RWY 26.",
+            "ASBAB should be considered the MAP for this approach.",
+            "Contact EGELSBACH INFORMATION for the latest airfield information and maintain a listening",
+            "watch for traffic on secondary VHF no LATER THAN 10 MINUTES PRIOR TO ARRIVAL (AIP",
+            "requirement).",
+            "LANGEN RADAR may offer vectors to intercept final approach track via ASBAB (course 265\u00b0).",
+            "When EDDF is on WESTERLY arrivals (RWY 25L/C/R), expect an initial routing to PEKIG via an",
+            "EDDF RNAV STAR or RNAV Transition point.  The relevant EDDF RNAV arrival charts will aid",
+            "situational awareness.  KERAX, SPESA and INBOS are likely.",
+            "ATC may require holding at CHA VOR. This holding pattern is displayed on some of the EDDF",
+            "Jepp 10-2 series charts or EDFE 39-10-NJE.",
+            "CANCELLING IFR:",
+            "The change to VFR must take place \u2018prior to ASBAB\u2019 (instruction from DFS).  If this is not",
+            "possible follow the MISSED APPROACH instructions below.",
+            "DESCENT PROFILE:",
+            "From ASBAB at 2100ft QNH (1700ft AAL) descend to 1500ft to enter the EDFE RMZ at or below",
+            "1500ft (5NM from THOLD RWY 26).",
+            "Reduce the rate of descent to intercept and then follow the APAPI for a 4.4\u00b0 glidepath.  DO",
+            "NOT fly a shallow glidepath due to the Displaced THOLD, powerlines and Railway on SHORT",
+            "FINAL.",
+            "Be aware that at ASBAB you may not have the RWY in sight at the 8KM minimum visibility, but",
+            "if clear of cloud and in sight of the ground the visual approach and descent may be continued.",
+            "CONTINGENCY:",
+            "PDCS STRAIGHT  & 26DP are available."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "9.3  MISSED APPROACH - RWY26",
+            "This procedure is shown on Jepp 39-10-NJE.  If at ASBAB (7.7NM from RWY) you are:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Unable to cancel IFR and continue VFR/VMC, or",
+            "IFR cancellation is not confirmed by LANGEN RADAR or FRANKFURT APP."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "THEN"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Follow any Instructions given by LANGEN RADAR."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "IF NO INSTRUCTIONS RECEIVED:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Climb to 4000ft.",
+            "Initiate a LEFT climbing turn (minimum 15\u00ba AOB / MAX 160 KIAS),",
+            "Fly inbound CHA VOR,",
+            "Inform LANGEN RADAR or FRANKFURT APP at the earliest opportunity."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "In case of lost communication, commence a left turn (MAX 160KIAS) inbound CHA and climb to 4000ft and attempt",
+            "to regain contact with LANGEN RADAR or FRANKFURT APP."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "FRANKFURT-EGELSBACH, GERMANY",
+            "FRANKFURT-EGELSBACH",
+            "30-10-2P6"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "Enter published holding (refer to EDDF STAR/RNAV transition charts).",
+            "9.4  BALKED LANDING RWY26 AFTER CANCELLING IFR",
+            "This procedure is described on Jepp 39-10-NJE.",
+            "Maintain VMC."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "GREATER THAN 5NM (track distance) from THOLD: (ie at or above 1500ft QNH), follow 9.3 MISSED APPROACH-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "RWY 26 above. Note the following:",
+            "-",
+            "Be aware that you will need to use FMS distance, there is no DME.",
+            "-",
+            "Contact LANGEN or FRANKFURT frequency as soon as safely possible \u2013 the procedure will take you into",
+            "the CLASS C FRANKFURT zone above 1500ft QNH."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "DURING FINAL VISUAL DESCENT BELOW 1500ft:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "Climb and maintain 1400ft and 160KIAS maximum.",
+            "-",
+            "Route: D3 \u2013 DELTA \u2013 FKS VOR/DME  (1400' / K160-).",
+            "-",
+            "Advise EGELSBACH INFO of your intentions.",
+            "-",
+            "If an additional approach is required, remain with EGELSBACH INFORMATION until advised, expect on",
+            "passing DELTA to regain IFR with LANGEN RADAR / FRANKFURT APP and be routed to PEKIG for RWY 26",
+            "(Entry YANKEE) arrival.",
+            "-",
+            "If an additional approach is not required, then remain with EGELSBACH INFORMATION until advised,",
+            "expect to regain IFR with LANGEN RADAR for further climb when passing DELTA."
+          ]
+        }
+      ],
+      "pages": [
+        3
+      ],
+      "page_images": [
+        "static/airports/edfe/page-03.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 10,
+      "title": "Departure procedures",
+      "body": "0.1 GENERAL\nTHREATS\nDepartures are allowed from both RWY 08 and RWY 26.\nEGELSBACH INFORMATION will provide the departure instructions.\nSee Jeppesen EDFE 30-3-NJE Netjets VFR Departure.\nConsider a listening watch with EDDF FRANKFURT TWR on secondary VHF (118.780 Mhz or 119.905 Mhz).\n\n10.2  DEPARTURE RWY 08 (EXIT YANKEE)\nROUTE: YANKEE (Y) (1400' / K160-)\n\nIf able to maintain VMC, after YANKEE (Y) continue climb to 3400ft MSL. Further climb and routing must be\ncoordinated with LANGEN RADAR or FRANKFURT APP. YANKEE is a compulsory reporting point.\n\n10.3  LOWER VISIBILITY DEPARTURE RWY 08 (COORDINATED VFR/IFR CHANGEOVER) (EXIT YANKEE)\nMINIMA:\n\nDAY ONLY, RWY 08 ONLY.  Visibility 5KM and clear of cloud until IFR.\n\nPERFORMANCE:\nAs per PDCS.\n\nPROCEDURE:\nROUTE: YANKEE (Y) (1400')\nEGELSBACH INFORMATION will relay ATC clearance from LANGEN RADAR, including routing,\nairborne frequency, and squawk code.\nExpect to receive departure slot (clearance valid from ... To ...) or instruction to call for release\nby LANGEN RADAR.\nIFR starts passing MRVA, as stated in the clearance.\n\nCONTINGENCY:\nStraight Procedure only from RWY 08.\n\nFRANKFURT-EGELSBACH, GERMANY\nFRANKFURT-EGELSBACH\n30-10-2P7\n\n-\n10.4  DEPARTURE RWY 26 (EXIT DELTA)\nMINIMA:\n\nDAY ONLY, visibility 8KM, Ceiling 1900ft, clear of cloud until IFR.\n\nPERFORMANCE:\nAs per PDCS.  Use 26DP.\n\nPROCEDURE:\nAt 785ft (400AGL) turn LEFT to D3\n\nROUTE: D3 \u2013 DELTA \u2013 FKS (VOR/DME) .  level and maintain 1400ft and 160KIAS maximum.\nAvoid Erzhausen.\nRemain WEST of the A5 Motorway but stay within 0.5Nm to avoid EDDF CTR (Class D SFC -\n1500ft).\nDELTA is a compulsory Reporting Point.\n\nCONTINGENCY:\nStraight Procedure only from RWY 08.\n\nDEPARTURE RWY 26 - AVOID ERZHAUSEN (NOISE SENSITIVE)",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "0.1 GENERAL",
+            "THREATS",
+            "Departures are allowed from both RWY 08 and RWY 26.",
+            "EGELSBACH INFORMATION will provide the departure instructions.",
+            "See Jeppesen EDFE 30-3-NJE Netjets VFR Departure.",
+            "Consider a listening watch with EDDF FRANKFURT TWR on secondary VHF (118.780 Mhz or 119.905 Mhz)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "10.2  DEPARTURE RWY 08 (EXIT YANKEE)",
+            "ROUTE: YANKEE (Y) (1400' / K160-)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "If able to maintain VMC, after YANKEE (Y) continue climb to 3400ft MSL. Further climb and routing must be",
+            "coordinated with LANGEN RADAR or FRANKFURT APP. YANKEE is a compulsory reporting point."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "10.3  LOWER VISIBILITY DEPARTURE RWY 08 (COORDINATED VFR/IFR CHANGEOVER) (EXIT YANKEE)",
+            "MINIMA:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DAY ONLY, RWY 08 ONLY.  Visibility 5KM and clear of cloud until IFR."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PERFORMANCE:",
+            "As per PDCS."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE:",
+            "ROUTE: YANKEE (Y) (1400')",
+            "EGELSBACH INFORMATION will relay ATC clearance from LANGEN RADAR, including routing,",
+            "airborne frequency, and squawk code.",
+            "Expect to receive departure slot (clearance valid from ... To ...) or instruction to call for release",
+            "by LANGEN RADAR.",
+            "IFR starts passing MRVA, as stated in the clearance."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CONTINGENCY:",
+            "Straight Procedure only from RWY 08."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "FRANKFURT-EGELSBACH, GERMANY",
+            "FRANKFURT-EGELSBACH",
+            "30-10-2P7"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "10.4  DEPARTURE RWY 26 (EXIT DELTA)",
+            "MINIMA:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DAY ONLY, visibility 8KM, Ceiling 1900ft, clear of cloud until IFR."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PERFORMANCE:",
+            "As per PDCS.  Use 26DP."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE:",
+            "At 785ft (400AGL) turn LEFT to D3"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "ROUTE: D3 \u2013 DELTA \u2013 FKS (VOR/DME) .  level and maintain 1400ft and 160KIAS maximum.",
+            "Avoid Erzhausen.",
+            "Remain WEST of the A5 Motorway but stay within 0.5Nm to avoid EDDF CTR (Class D SFC -",
+            "1500ft).",
+            "DELTA is a compulsory Reporting Point."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CONTINGENCY:",
+            "Straight Procedure only from RWY 08."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DEPARTURE RWY 26 - AVOID ERZHAUSEN (NOISE SENSITIVE)"
+          ]
+        }
+      ],
+      "pages": [
+        6
+      ],
+      "page_images": [
+        "static/airports/edfe/page-06.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 11,
+      "title": "Ground procedures",
+      "body": "ARKING STANDS\n\nFRANKFURT-EGELSBACH, GERMANY\nFRANKFURT-EGELSBACH\n30-10-2P8\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "ARKING STANDS"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "FRANKFURT-EGELSBACH, GERMANY",
+            "FRANKFURT-EGELSBACH",
+            "30-10-2P8"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        7
+      ],
+      "page_images": [
+        "static/airports/edfe/page-07.png"
+      ],
+      "embeds": [
+        "static/airports/edfe/embed-p07-02.jpeg",
+        "static/airports/edfe/embed-p07-03.jpeg"
+      ]
+    },
+    {
+      "num": 12,
+      "title": "Miscellaneous",
+      "body": "ore information about Frankfurt-Egelsbach, including a WEBCAM for a weather preview, can be found on\nhttp://www.egelsbach-airport.com\nStandard VFR Squawk in Germany is 7000.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "ore information about Frankfurt-Egelsbach, including a WEBCAM for a weather preview, can be found on",
+            "http://www.egelsbach-airport.com",
+            "Standard VFR Squawk in Germany is 7000."
+          ]
+        }
+      ],
+      "pages": [
+        8
+      ],
+      "page_images": [
+        "static/airports/edfe/page-08.png"
+      ],
+      "embeds": [
+        "static/airports/edfe/embed-p08-02.jpeg"
+      ]
+    },
+    {
+      "num": 13,
+      "title": "Charts / Pictures / Other",
+      "body": "VERAGE WEATHER AND PRECIPITATION",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "VERAGE WEATHER AND PRECIPITATION"
+          ]
+        }
+      ],
+      "pages": [
+        8
+      ],
+      "page_images": [
+        "static/airports/edfe/page-08.png"
+      ],
+      "embeds": [
+        "static/airports/edfe/embed-p08-02.jpeg"
+      ]
+    },
+    {
+      "num": 14,
+      "title": "Changes since the last revision",
+      "body": "ew DFS procedure for arrival RWY 26.  RID VOR/DME replaced with FKS VOR/DME. Corrections to\nprocedure to perform departures from RWY 26. Airfield Call Sign change from Egelsbach Radio -> Egelsbach\nInformation.\nProvide feedback or address any questions to Lis-OpsTechnical@netjets.com",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "ew DFS procedure for arrival RWY 26.  RID VOR/DME replaced with FKS VOR/DME. Corrections to",
+            "procedure to perform departures from RWY 26. Airfield Call Sign change from Egelsbach Radio -> Egelsbach",
+            "Information.",
+            "Provide feedback or address any questions to Lis-OpsTechnical@netjets.com"
+          ]
+        }
+      ],
+      "pages": [
+        8
+      ],
+      "page_images": [
+        "static/airports/edfe/page-08.png"
+      ],
+      "embeds": [
+        "static/airports/edfe/embed-p08-02.jpeg"
+      ]
+    }
+  ]
+}

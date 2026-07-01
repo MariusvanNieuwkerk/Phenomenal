@@ -4,6 +4,8 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 
+from content.render_helpers import back_to_top, cas_quick_reference, source_footer
+
 
 def _img(path: str, caption: str):
     if os.path.exists(path):
@@ -210,24 +212,26 @@ _Source: POH 6-11-10 (Rev 12)._"""
         ]
         st.table(pd.DataFrame(patterns, columns=["Cue", "Operational meaning"]))
 
-    with st.expander("**11. CAS messages (quick meanings)**", expanded=False):
-        rows = [
-            ("ADS 1 (2) HTR FAIL", "Associated heater is off or failed."),
-            ("STBY HTR FAIL", "Standby ADS heater is off or failed."),
-            ("A-I E1 (2) FAIL", "Nacelle anti-ice valve closed when commanded open, or duct failure detected."),
-            ("A-I E1 (2) FAULT", "Engine anti-ice valve failed when commanded to close."),
-            ("A-I E1 (2) ON", "Engine anti-ice is ON and operating normally."),
-            ("A-I LO CAPACITY", "Not enough thermal energy available for wing/stab anti-ice operation."),
-            ("A-I WINGSTB INHB", "WINGSTAB commanded ON outside operational envelope."),
-            ("A-I WINGSTB LEAK", "Hot bleed air leak in wing/stab anti-ice ducting."),
-            ("A-I WINGSTB FAIL", "Wing/stab anti-ice failure (or significant thrust lever asymmetry)."),
-            ("A-I WINGSTB ARM", "WINGSTAB commanded ON prior to takeoff / certain conditions."),
-            ("A-I WINGSTB ON", "Wing/stab anti-ice is ON and operating normally."),
-            ("ICE CONDITION", "Ice detector indicates icing conditions (optional equipment)."),
-            ("ICE DET FAIL", "Ice detector failed (optional equipment)."),
-            ("WSHLD 1 (2) HTR FAIL", "Windshield overheated or heating system failed."),
-            ("ADS HTR SW ON", "ADS probes knob is ON."),
-        ]
-        st.table(pd.DataFrame(rows, columns=["CAS message", "Meaning (summary)"]))
-        st.markdown("_Source: POH 6-11-20 (Rev 6)._")
+    cas_quick_reference(
+        [
+            ("ADS probes", "CAUTION", "ADS 1 (2) HTR FAIL", "Associated heater is off or failed."),
+            ("ADS probes", "CAUTION", "STBY HTR FAIL", "Standby ADS heater is off or failed."),
+            ("Engine A-I", "CAUTION", "A-I E1 (2) FAIL", "Nacelle anti-ice valve closed when commanded open, or duct failure."),
+            ("Engine A-I", "CAUTION", "A-I E1 (2) FAULT", "Engine anti-ice valve failed when commanded to close."),
+            ("Engine A-I", "ADVISORY", "A-I E1 (2) ON", "Engine anti-ice is ON and operating normally."),
+            ("Wing/stab A-I", "CAUTION", "A-I LO CAPACITY", "Not enough thermal energy for wing/stab anti-ice."),
+            ("Wing/stab A-I", "ADVISORY", "A-I WINGSTB INHB", "WINGSTAB commanded ON outside operational envelope."),
+            ("Wing/stab A-I", "CAUTION", "A-I WINGSTB LEAK", "Hot bleed air leak in wing/stab anti-ice ducting."),
+            ("Wing/stab A-I", "CAUTION", "A-I WINGSTB FAIL", "Wing/stab anti-ice failure or thrust lever asymmetry."),
+            ("Wing/stab A-I", "ADVISORY", "A-I WINGSTB ARM", "WINGSTAB commanded ON prior to takeoff / certain conditions."),
+            ("Wing/stab A-I", "ADVISORY", "A-I WINGSTB ON", "Wing/stab anti-ice is ON and operating normally."),
+            ("Detection", "ADVISORY", "ICE CONDITION", "Ice detector indicates icing conditions (optional)."),
+            ("Detection", "CAUTION", "ICE DET FAIL", "Ice detector failed (optional)."),
+            ("Windshield", "CAUTION", "WSHLD 1 (2) HTR FAIL", "Windshield overheated or heating system failed."),
+            ("ADS probes", "ADVISORY", "ADS HTR SW ON", "ADS probes knob is ON."),
+        ],
+        title="11. CAS quick reference",
+    )
 
+    back_to_top()
+    source_footer("poh", "§6-11 Ice Protection · Flight Controls (SWPS ICE SPEED)")

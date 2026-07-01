@@ -36,6 +36,6 @@ def render_sop():
 - **Planning** — minima, alternates, go/no-go weather
 - **Cold Weather** — de-icing, HOT, contaminated surfaces
 - **Special Airports** — Cat C briefings (OM-C)
-- **Memory** — emergency memory items (QRH)
+- **Memory Items** — emergency memory items (QRH)
 - **Documents** — full OM-B PDF
 """)

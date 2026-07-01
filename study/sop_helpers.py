@@ -2,9 +2,11 @@
 
 import streamlit as st
 
+from study.semantic_color import colorize_sop_md
+
 
 def sop_md(text: str):
-    st.markdown(text)
+    st.markdown(colorize_sop_md(text), unsafe_allow_html=True)
 
 
 def sop_crew_table(rows: list[tuple[str, str, str]], intro: str = ""):

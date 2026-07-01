@@ -1,0 +1,2818 @@
+{
+  "icao": "LSZS",
+  "page_count": 27,
+  "pages": [
+    {
+      "page": 1,
+      "image": "static/airports/lszs/page-01.png",
+      "embeds": []
+    },
+    {
+      "page": 2,
+      "image": "static/airports/lszs/page-02.png",
+      "embeds": []
+    },
+    {
+      "page": 3,
+      "image": "static/airports/lszs/page-03.png",
+      "embeds": []
+    },
+    {
+      "page": 4,
+      "image": "static/airports/lszs/page-04.png",
+      "embeds": [
+        "static/airports/lszs/embed-p04-02.jpeg"
+      ]
+    },
+    {
+      "page": 5,
+      "image": "static/airports/lszs/page-05.png",
+      "embeds": []
+    },
+    {
+      "page": 6,
+      "image": "static/airports/lszs/page-06.png",
+      "embeds": []
+    },
+    {
+      "page": 7,
+      "image": "static/airports/lszs/page-07.png",
+      "embeds": []
+    },
+    {
+      "page": 8,
+      "image": "static/airports/lszs/page-08.png",
+      "embeds": [
+        "static/airports/lszs/embed-p08-02.jpeg",
+        "static/airports/lszs/embed-p08-03.jpeg"
+      ]
+    },
+    {
+      "page": 9,
+      "image": "static/airports/lszs/page-09.png",
+      "embeds": [
+        "static/airports/lszs/embed-p09-02.jpeg"
+      ]
+    },
+    {
+      "page": 10,
+      "image": "static/airports/lszs/page-10.png",
+      "embeds": []
+    },
+    {
+      "page": 11,
+      "image": "static/airports/lszs/page-11.png",
+      "embeds": [
+        "static/airports/lszs/embed-p11-02.jpeg",
+        "static/airports/lszs/embed-p11-03.jpeg"
+      ]
+    },
+    {
+      "page": 12,
+      "image": "static/airports/lszs/page-12.png",
+      "embeds": []
+    },
+    {
+      "page": 13,
+      "image": "static/airports/lszs/page-13.png",
+      "embeds": []
+    },
+    {
+      "page": 14,
+      "image": "static/airports/lszs/page-14.png",
+      "embeds": []
+    },
+    {
+      "page": 15,
+      "image": "static/airports/lszs/page-15.png",
+      "embeds": []
+    },
+    {
+      "page": 16,
+      "image": "static/airports/lszs/page-16.png",
+      "embeds": []
+    },
+    {
+      "page": 17,
+      "image": "static/airports/lszs/page-17.png",
+      "embeds": []
+    },
+    {
+      "page": 18,
+      "image": "static/airports/lszs/page-18.png",
+      "embeds": []
+    },
+    {
+      "page": 19,
+      "image": "static/airports/lszs/page-19.png",
+      "embeds": []
+    },
+    {
+      "page": 20,
+      "image": "static/airports/lszs/page-20.png",
+      "embeds": []
+    },
+    {
+      "page": 21,
+      "image": "static/airports/lszs/page-21.png",
+      "embeds": []
+    },
+    {
+      "page": 22,
+      "image": "static/airports/lszs/page-22.png",
+      "embeds": []
+    },
+    {
+      "page": 23,
+      "image": "static/airports/lszs/page-23.png",
+      "embeds": [
+        "static/airports/lszs/embed-p23-02.jpeg"
+      ]
+    },
+    {
+      "page": 24,
+      "image": "static/airports/lszs/page-24.png",
+      "embeds": []
+    },
+    {
+      "page": 25,
+      "image": "static/airports/lszs/page-25.png",
+      "embeds": []
+    },
+    {
+      "page": 26,
+      "image": "static/airports/lszs/page-26.png",
+      "embeds": []
+    },
+    {
+      "page": 27,
+      "image": "static/airports/lszs/page-27.png",
+      "embeds": []
+    }
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": "IC training required\nYES\nSIM Training + Online Test (ATMS/My Currency LSZS Required) - See also section 5\nSIC training required\nYES\nOnline Test Only (No ATMS/My Currency tracking)- See also section 5\nQualification is type related\nNO\n\nSelf-Briefing\nYES",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "IC training required",
+            "YES",
+            "SIM Training + Online Test (ATMS/My Currency LSZS Required) - See also section 5",
+            "SIC training required",
+            "YES",
+            "Online Test Only (No ATMS/My Currency tracking)- See also section 5",
+            "Qualification is type related",
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Self-Briefing",
+            "YES"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        24,
+        24,
+        24
+      ],
+      "page_images": [
+        "static/airports/lszs/page-01.png",
+        "static/airports/lszs/page-24.png",
+        "static/airports/lszs/page-24.png",
+        "static/airports/lszs/page-24.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 2,
+      "title": "Initial qualification requirements",
+      "body": ". REVALIDATION REQUIREMENTS\nGround Training\nYES\nOnline Test\nYES\n12 Months - (Online Test)\nSimulator Training\nYES\nPICs Only\nYES\n12 Months - (PICs Only)\nIn-flight familiarization\nNO\n\nNO\n\nFlight training\nNO\n\nNO",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ". REVALIDATION REQUIREMENTS",
+            "Ground Training",
+            "YES",
+            "Online Test",
+            "YES",
+            "12 Months - (Online Test)",
+            "Simulator Training",
+            "YES",
+            "PICs Only",
+            "YES",
+            "12 Months - (PICs Only)",
+            "In-flight familiarization",
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Flight training",
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NO"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        24,
+        24,
+        24
+      ],
+      "page_images": [
+        "static/airports/lszs/page-01.png",
+        "static/airports/lszs/page-24.png",
+        "static/airports/lszs/page-24.png",
+        "static/airports/lszs/page-24.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 5,
+      "title": "Limitations / Miscellaneous",
+      "body": "ll operations (VFR, which is preferred, and IFR) are DAY ONLY.\nIFR operation has specific mandatory RAIM requirements for non-SBAS aircraft; detailed in APPENDIX.\nNetjets has authorisation to waive the CAT B/C 24-month LSZS landing recency requirement when simulator training\nhas been provided on a simulator approved by the National Aviation Authority; The LSZS PIC simulator training\nqualification fulfils this.\n\nPIC Qualification: PIC to be qualified by completing the LSZS online test and simulator training. LSZS PIC qualification\ncan be checked on ATMS and 'Waypoint' App - 'My Currency'.\n\nSIC Qualification: SIC is qualified by having completed the LSZS online test. LSZS SIC qualification is NOT shown on\nATMS or 'Waypoint' App - 'My Currency'.\n\nThe validity of the online test and SIM training is 12months as per OM-A 5.4.1.2.10 Validity.\n\nPF shall hold a current AHQ.\n\nSAMEDAN, SWITZERLAND\nSAMEDAN\n10-10-2P2\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "ll operations (VFR, which is preferred, and IFR) are DAY ONLY.",
+            "IFR operation has specific mandatory RAIM requirements for non-SBAS aircraft; detailed in APPENDIX.",
+            "Netjets has authorisation to waive the CAT B/C 24-month LSZS landing recency requirement when simulator training",
+            "has been provided on a simulator approved by the National Aviation Authority; The LSZS PIC simulator training",
+            "qualification fulfils this."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PIC Qualification: PIC to be qualified by completing the LSZS online test and simulator training. LSZS PIC qualification",
+            "can be checked on ATMS and 'Waypoint' App - 'My Currency'."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SIC Qualification: SIC is qualified by having completed the LSZS online test. LSZS SIC qualification is NOT shown on",
+            "ATMS or 'Waypoint' App - 'My Currency'."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "The validity of the online test and SIM training is 12months as per OM-A 5.4.1.2.10 Validity."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PF shall hold a current AHQ."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAMEDAN, SWITZERLAND",
+            "SAMEDAN",
+            "10-10-2P2"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        1
+      ],
+      "page_images": [
+        "static/airports/lszs/page-01.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 6,
+      "title": "Weather / Airport limitations",
+      "body": "RRIVALS\nsee section 9. Arrival Procedures\nARRIVAL\nMinima\nDAY ONLY\nJeppesen\nPerformance\nPDCS Setup (2)\nChart\nIndex\nPortable\nEFB Tab\nLanding\nBalked\nlanding\nVFR (1)\nVFR Approach\nRWY 03 via\nMALOJ\nVisibility: 8km\nCeiling: BKN or OVC cloud - 10,400ft AAL;\nFEW or SCT cloud - 2200ft AAL\n\nPilots\u2019 assessment required to ensure\napproach, RWY and missed approach are\nclear of cloud\n19-1\n19-1A\n19-11\nAPP\n\u2018Arrival\u2019\n03\n\u2018Departure\u2019\n03DP4\nVFR Approach\nRWY 21 via\nZERNZ\n\u2018Arrival\u2019\n21\n\u2018Departure\u2019\n21DP2\nIFR\nVisual APCH\nWith RNP\nGuidance\nRWY 03\nVisibility: 5000m\nCeiling: 5800ft AAL\nDA(H): as per Jeppesen + 50ft\n19-10\n\u2018Arrival\u2019\n03\n\u2018Departure\u2019\n03DP5\nRNP RWY 21(3)\nVisibility: 5000m\nDA(H): as per Jeppesen + 50ft\n12-1\n12-1A\n\u2018Arrival\u2019\n21\n\u2018Departure\u2019\n21DP3\n\n(1) VFR in Class E requires 8KM visibility, 1000ft vertical, 1500m horizontal clearance from cloud.\n\n(2) PDCS is used to check both the Landing and Balked Landing performance. The required PDCS settings are\ndescribed fully in the arrival procedure section.\n\n(3) RNP RWY21 has a 15-degree offset with a very high ceiling requirement which permits a stable approach. CAT-\nC aircraft are authorised to perform this approach using CDFA technique to the IFR charted minima on Jeppesen\nchart 12-1. This procedure remains compliant with the intent of OM-A 8.3.28.18.3-part B.\n\nSee departures on next page\u2026\n\nSAMEDAN, SWITZERLAND\nSAMEDAN\n10-10-2P3\n\n-\n\nDEPARTURES\nsee section 10. Departure Procedures\nDEPARTURE\nMinima\nDAY ONLY\nJeppesen\nPerformance\nPDCS Setup\nChart\nIndex\nPortable\nEFB Tab\nVFR (1)\n\nVFR Departure\nRWY 03\nVisibility: 8km\nCeiling: BKN or OVC cloud - 10,400ft AAL;\nFEW or SCT cloud - 2200ft AAL\n\nPilots\u2019 assessment required to ensure departure\nand OEI path are clear of cloud.\n19-1\n19-1A\n19-11\nAPP\n03DP4\nVFR Departure\nRWY 21\n21DP2\nIFR\nRWY 03 SID\nRONAG 1E\nVisibility 2000m\n10-3A\nSID\n03DP2\nIRS (2)\nNo Ceiling required\nNON-IRS (2)\nCeiling: 2000ft AAL\nRWY 03 SID\nRONAG 1V\nVisibility 5000m\nCeiling 4400ft AAL.\n10-3C\n03DP3\nRWY 21 SID\nPELAD 1W\nVisibility 2000m\n10-3\n21DP1\nIRS (2)\nNo Ceiling required\nNON-IRS (2)\nCeiling: 2000ft AAL\nRWY 21 SID\nPELAD 1V\nVisibility 5000m\nCeiling 5100ft AAL\n10-3B\n21DP1\n\n(1) VFR in Class E requires 8KM visibility, 1000ft vertical, 1500m horizontal clearance from cloud.\n\n(2) IRS Equipped Aircraft: Challenger 350, Falcon 2000EX & Global 5000/6000.\nNON-IRS Equipped Aircraft: Phenom 300, Citation XLS & Citation Latitude.\n\nSAMEDAN, SWITZERLAND\nSAMEDAN\n10-10-2P4\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "RRIVALS",
+            "see section 9. Arrival Procedures",
+            "ARRIVAL",
+            "Minima",
+            "DAY ONLY",
+            "Jeppesen",
+            "Performance",
+            "PDCS Setup (2)",
+            "Chart",
+            "Index",
+            "Portable",
+            "EFB Tab",
+            "Landing",
+            "Balked",
+            "landing",
+            "VFR (1)",
+            "VFR Approach",
+            "RWY 03 via",
+            "MALOJ",
+            "Visibility: 8km",
+            "Ceiling: BKN or OVC cloud - 10,400ft AAL;",
+            "FEW or SCT cloud - 2200ft AAL"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Pilots\u2019 assessment required to ensure",
+            "approach, RWY and missed approach are",
+            "clear of cloud",
+            "19-1",
+            "19-1A",
+            "19-11",
+            "APP",
+            "\u2018Arrival\u2019",
+            "03",
+            "\u2018Departure\u2019",
+            "03DP4",
+            "VFR Approach",
+            "RWY 21 via",
+            "ZERNZ",
+            "\u2018Arrival\u2019",
+            "21",
+            "\u2018Departure\u2019",
+            "21DP2",
+            "IFR",
+            "Visual APCH",
+            "With RNP",
+            "Guidance",
+            "RWY 03",
+            "Visibility: 5000m",
+            "Ceiling: 5800ft AAL",
+            "DA(H): as per Jeppesen + 50ft",
+            "19-10",
+            "\u2018Arrival\u2019",
+            "03",
+            "\u2018Departure\u2019",
+            "03DP5",
+            "RNP RWY 21(3)",
+            "Visibility: 5000m",
+            "DA(H): as per Jeppesen + 50ft",
+            "12-1",
+            "12-1A",
+            "\u2018Arrival\u2019",
+            "21",
+            "\u2018Departure\u2019",
+            "21DP3"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "(1) VFR in Class E requires 8KM visibility, 1000ft vertical, 1500m horizontal clearance from cloud."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "(2) PDCS is used to check both the Landing and Balked Landing performance. The required PDCS settings are",
+            "described fully in the arrival procedure section."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "(3) RNP RWY21 has a 15-degree offset with a very high ceiling requirement which permits a stable approach. CAT-",
+            "C aircraft are authorised to perform this approach using CDFA technique to the IFR charted minima on Jeppesen",
+            "chart 12-1. This procedure remains compliant with the intent of OM-A 8.3.28.18.3-part B."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "See departures on next page\u2026"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAMEDAN, SWITZERLAND",
+            "SAMEDAN",
+            "10-10-2P3"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DEPARTURES",
+            "see section 10. Departure Procedures",
+            "DEPARTURE",
+            "Minima",
+            "DAY ONLY",
+            "Jeppesen",
+            "Performance",
+            "PDCS Setup",
+            "Chart",
+            "Index",
+            "Portable",
+            "EFB Tab",
+            "VFR (1)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VFR Departure",
+            "RWY 03",
+            "Visibility: 8km",
+            "Ceiling: BKN or OVC cloud - 10,400ft AAL;",
+            "FEW or SCT cloud - 2200ft AAL"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Pilots\u2019 assessment required to ensure departure",
+            "and OEI path are clear of cloud.",
+            "19-1",
+            "19-1A",
+            "19-11",
+            "APP",
+            "03DP4",
+            "VFR Departure",
+            "RWY 21",
+            "21DP2",
+            "IFR",
+            "RWY 03 SID",
+            "RONAG 1E",
+            "Visibility 2000m",
+            "10-3A",
+            "SID",
+            "03DP2",
+            "IRS (2)",
+            "No Ceiling required",
+            "NON-IRS (2)",
+            "Ceiling: 2000ft AAL",
+            "RWY 03 SID",
+            "RONAG 1V",
+            "Visibility 5000m",
+            "Ceiling 4400ft AAL.",
+            "10-3C",
+            "03DP3",
+            "RWY 21 SID",
+            "PELAD 1W",
+            "Visibility 2000m",
+            "10-3",
+            "21DP1",
+            "IRS (2)",
+            "No Ceiling required",
+            "NON-IRS (2)",
+            "Ceiling: 2000ft AAL",
+            "RWY 21 SID",
+            "PELAD 1V",
+            "Visibility 5000m",
+            "Ceiling 5100ft AAL",
+            "10-3B",
+            "21DP1"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "(1) VFR in Class E requires 8KM visibility, 1000ft vertical, 1500m horizontal clearance from cloud."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "(2) IRS Equipped Aircraft: Challenger 350, Falcon 2000EX & Global 5000/6000.",
+            "NON-IRS Equipped Aircraft: Phenom 300, Citation XLS & Citation Latitude."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAMEDAN, SWITZERLAND",
+            "SAMEDAN",
+            "10-10-2P4"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        2
+      ],
+      "page_images": [
+        "static/airports/lszs/page-02.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 7,
+      "title": "Overview",
+      "body": "amedan airport is situated in a mountainous area in eastern Switzerland. The Regional Airport, operated by Engadin\nAirport, lies in the heart of one of the Alpine tourist regions. Located 5 km from St. Moritz at a height of 5600 ft above\nsea level, it is the highest airport in Europe.\n\nOverview",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "amedan airport is situated in a mountainous area in eastern Switzerland. The Regional Airport, operated by Engadin",
+            "Airport, lies in the heart of one of the Alpine tourist regions. Located 5 km from St. Moritz at a height of 5600 ft above",
+            "sea level, it is the highest airport in Europe."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Overview"
+          ]
+        }
+      ],
+      "pages": [
+        4
+      ],
+      "page_images": [
+        "static/airports/lszs/page-04.png"
+      ],
+      "embeds": [
+        "static/airports/lszs/embed-p04-02.jpeg"
+      ]
+    },
+    {
+      "num": 8,
+      "title": "Operational procedures \u2014 General",
+      "body": "SZS is aligned with the valley and the Samedan FIZ has Class G airspace from ground to 2000ft AGL and Class E from\n2000ft AGL to 10,000ft AMSL.\n\nSamedan is open to VFR and IFR traffic, the latter is likely to have significant delays and comes with a performance\npenalty. Due to this, VFR is preferred when weather permits. However, when operationally quiet and in good weather,\nconsider IFR for upkeep of procedural proficiency.\n\nPlan and brief early the use of VFR vs IFR by checking the following: Confirm the suitability of weather and the flight\nplan issued, then coordinate VFR vs IFR with Dispatch and or Samedan Info as required. Note that IFR / VFR require\nreference to specific performance information and careful performance assessment and planning is required. The\nrelevant PDCS chart required is detailed in section 6. WEATHER / AIRPORTS LIMITATIONS Arrival and Departure tables.\n\nThe ATS flight plan code at the end of the OFP (reference OM-A 8.1.10.4) will show how you have been filed: For\nexample (FPL-NJE123A-IN) shows that NJE123A has been filed \u2018I\u2019 \u2013 intended entire flight opeated IFR. The other\noptions are \u2018V\u2019 \u2013 intended entire flight opeated VFR, \u2018Y\u2019 \u2013 intended initially IFR followed by change to VFR and \u2018Z\u2019 \u2013\nintended initially VFR followed by change to IFR.\n\nNote the location of Shooting Range, Restricted area LS(R)-11 / LS(R)-11A on Jeppesen 19-11, and check if active by\nNOTAM, Samedan Info or by calling +41 (0) 44 813 31 10.\nAll arrivals to Rwy 21 & 03 and departure from Rwy 03 require the range to be cold.\n\nSAMEDAN, SWITZERLAND\nSAMEDAN\n10-10-2P5\n\n-\n\nWARNING:\nCold Temperature Correction; must be applied as per OM-A 8.3.3.6 whenever the airport is 0\u00b0C or colder. Due to this\nbeing critical for IFR ops at LSZS, the appendix to this brief contains the calculated corrections.\n\nVFR Waypoints:\nCheck the following waypoints are correctly inserted into the FMS, these are required for VFR and will help SA when\nIFR:\nZERNEZ\nZERNZ\nN46 42.0 E010 05.6\nMALOJA\nMALOJ\nN46 24.0 E009 41.8\n\nVFR transponder code; When VFR in Switzerland, squawk 7000\n\nVFR TRAFFIC:\nCAUTION:\nExtensive VFR traffic \u2013 maintain constant sharp lookout and fly on RHS of valley whilst VFR.\n\nNote the location of the VFR valley passes, reporting points and circuits. Expect VFR traffic to be concentrated in these\nareas.\nNote the location of St. Moritz \u2013 Expect possible heli traffic especially in winter.\n\nCAUTION:\nGlider / Hang/Para glider activity: The mountains and valleys surrounding the airport provide ideal gliding\nconditions during the months of May to October. Expect high glider activity during these months. Gliders may not\nbe transponder equipped.\n\nDAVOS World Economic Forum\nAll flights into LSZS during DAVOS WEF must use the procedures as described in the specific WEF pilot brief (activated\nby NOTAM). They will be different to the procedures described in this OM-C brief which is to be used at all other\ntimes.\n\nWEATHER:\nExpect possibility of quickly deteriorating weather during unstable conditions. Valley conditions can be confirmed\non Samedan website webcams. Average weather shown here and Cold weather correction tables are detailed\nAPPENDIX.\n\nAIRFIELD WEBSITE: www.engadin-airport.ch\n\nNOISE ABATEMENT:\nRefer to Jeppesen 10-1P2 for noise abatement procedures on ground.\nRefer to VFR Jeppesen chart 19-1A and note the noise sensitive areas. Prioritise Safety, however, try to avoid\noverflying these areas when able.\n\nSAMEDAN, SWITZERLAND\nSAMEDAN\n10-10-2P6\n\n-\nTHREATS:\n\nCFIT\n-\nCold temperature correction is critical, especially during IFR procedures.\n-\nIncreased probability of loss of RNP, especially critical during IFR approaches.\n-\nPrecise visual manoeuvring within a valley is required. EGPWS hotspots detailed in APPENDIX.\n-\nHigh density altitude handling; increased turn radius, decreased aircraft performance.\n-\nWinter conditions \u2013 snow obscured terrain.\n-\nHigh deck angle on climb-out; reduced forward visibility.\n-\nNon-Standard PAPIs; For guidance only \u2013 does not give obstacle clearance.\n\nRWY EXCURSION\n-\nHigh density altitude handling; destabilised approach and longer landing rollout.\n-\nNarrow RWY at 40m.\n-\nLanding Rwy 03 requires late manoeuvring that can be destabilising.\n-\nNon-Standard PAPI; 5\u00b0 Left of Centreline, can be destabilising.\n-\nNo Approach lights or RWY lights.\n\nMID AIR COLLISION\n-\nClass E and G airspace; no separation between IFR/VFR or VFR/VFR.\n-\nExtensive GA VFR traffic year-round, hotspots at VFR mountain passes.\n-\nAFIS only; AFISO has no traffic display and is prohibited from sequencing airborne traffic.\n-\nHeliport nearby; hospital just west of Rwy, rotary traffic can trigger TCAS.\n-\nHigh intensity rotary activity around St. Moritz, especially in Winter.\n-\nGliders active in FIZ during the summer; they may not be transponder equipped.\n-\nGlider area East of Zernez village, near ZS710.\n\nLOSS OF CONTROL\n-\nProximity to terrain can cause turbulence and wind-shear in light to moderate wind.\n-\nHigh density altitude handling; Increased turn radius can lead to overbanking and decreased stall margin.\n\nRWY INCURSION\n-\nShort taxi out on narrow taxiway to active RWY.\n-\nNo taxi lighting.\n\nSAMEDAN, SWITZERLAND\nSAMEDAN\n10-10-2P7\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "SZS is aligned with the valley and the Samedan FIZ has Class G airspace from ground to 2000ft AGL and Class E from",
+            "2000ft AGL to 10,000ft AMSL."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Samedan is open to VFR and IFR traffic, the latter is likely to have significant delays and comes with a performance",
+            "penalty. Due to this, VFR is preferred when weather permits. However, when operationally quiet and in good weather,",
+            "consider IFR for upkeep of procedural proficiency."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Plan and brief early the use of VFR vs IFR by checking the following: Confirm the suitability of weather and the flight",
+            "plan issued, then coordinate VFR vs IFR with Dispatch and or Samedan Info as required. Note that IFR / VFR require",
+            "reference to specific performance information and careful performance assessment and planning is required. The",
+            "relevant PDCS chart required is detailed in section 6. WEATHER / AIRPORTS LIMITATIONS Arrival and Departure tables."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "The ATS flight plan code at the end of the OFP (reference OM-A 8.1.10.4) will show how you have been filed: For",
+            "example (FPL-NJE123A-IN) shows that NJE123A has been filed \u2018I\u2019 \u2013 intended entire flight opeated IFR. The other",
+            "options are \u2018V\u2019 \u2013 intended entire flight opeated VFR, \u2018Y\u2019 \u2013 intended initially IFR followed by change to VFR and \u2018Z\u2019 \u2013",
+            "intended initially VFR followed by change to IFR."
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note the location of Shooting Range, Restricted area LS(R)-11 / LS(R)-11A on Jeppesen 19-11, and check if active by",
+            "NOTAM, Samedan Info or by calling +41 (0) 44 813 31 10.",
+            "All arrivals to Rwy 21 & 03 and departure from Rwy 03 require the range to be cold."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAMEDAN, SWITZERLAND",
+            "SAMEDAN",
+            "10-10-2P5"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "warning",
+          "lines": [
+            "WARNING:",
+            "Cold Temperature Correction; must be applied as per OM-A 8.3.3.6 whenever the airport is 0\u00b0C or colder. Due to this",
+            "being critical for IFR ops at LSZS, the appendix to this brief contains the calculated corrections."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VFR Waypoints:",
+            "Check the following waypoints are correctly inserted into the FMS, these are required for VFR and will help SA when",
+            "IFR:",
+            "ZERNEZ",
+            "ZERNZ",
+            "N46 42.0 E010 05.6",
+            "MALOJA",
+            "MALOJ",
+            "N46 24.0 E009 41.8"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VFR transponder code; When VFR in Switzerland, squawk 7000"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VFR TRAFFIC:"
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION:",
+            "Extensive VFR traffic \u2013 maintain constant sharp lookout and fly on RHS of valley whilst VFR."
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note the location of the VFR valley passes, reporting points and circuits. Expect VFR traffic to be concentrated in these",
+            "areas."
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note the location of St. Moritz \u2013 Expect possible heli traffic especially in winter."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION:",
+            "Glider / Hang/Para glider activity: The mountains and valleys surrounding the airport provide ideal gliding",
+            "conditions during the months of May to October. Expect high glider activity during these months. Gliders may not",
+            "be transponder equipped."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DAVOS World Economic Forum",
+            "All flights into LSZS during DAVOS WEF must use the procedures as described in the specific WEF pilot brief (activated",
+            "by NOTAM). They will be different to the procedures described in this OM-C brief which is to be used at all other",
+            "times."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "WEATHER:",
+            "Expect possibility of quickly deteriorating weather during unstable conditions. Valley conditions can be confirmed",
+            "on Samedan website webcams. Average weather shown here and Cold weather correction tables are detailed",
+            "APPENDIX."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "AIRFIELD WEBSITE: www.engadin-airport.ch"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NOISE ABATEMENT:",
+            "Refer to Jeppesen 10-1P2 for noise abatement procedures on ground.",
+            "Refer to VFR Jeppesen chart 19-1A and note the noise sensitive areas. Prioritise Safety, however, try to avoid",
+            "overflying these areas when able."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAMEDAN, SWITZERLAND",
+            "SAMEDAN",
+            "10-10-2P6"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "THREATS:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CFIT",
+            "-",
+            "Cold temperature correction is critical, especially during IFR procedures.",
+            "-",
+            "Increased probability of loss of RNP, especially critical during IFR approaches.",
+            "-",
+            "Precise visual manoeuvring within a valley is required. EGPWS hotspots detailed in APPENDIX.",
+            "-",
+            "High density altitude handling; increased turn radius, decreased aircraft performance.",
+            "-",
+            "Winter conditions \u2013 snow obscured terrain.",
+            "-",
+            "High deck angle on climb-out; reduced forward visibility.",
+            "-",
+            "Non-Standard PAPIs; For guidance only \u2013 does not give obstacle clearance."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "RWY EXCURSION",
+            "-",
+            "High density altitude handling; destabilised approach and longer landing rollout.",
+            "-",
+            "Narrow RWY at 40m.",
+            "-",
+            "Landing Rwy 03 requires late manoeuvring that can be destabilising.",
+            "-",
+            "Non-Standard PAPI; 5\u00b0 Left of Centreline, can be destabilising.",
+            "-",
+            "No Approach lights or RWY lights."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MID AIR COLLISION",
+            "-",
+            "Class E and G airspace; no separation between IFR/VFR or VFR/VFR.",
+            "-",
+            "Extensive GA VFR traffic year-round, hotspots at VFR mountain passes.",
+            "-",
+            "AFIS only; AFISO has no traffic display and is prohibited from sequencing airborne traffic.",
+            "-",
+            "Heliport nearby; hospital just west of Rwy, rotary traffic can trigger TCAS.",
+            "-",
+            "High intensity rotary activity around St. Moritz, especially in Winter.",
+            "-",
+            "Gliders active in FIZ during the summer; they may not be transponder equipped.",
+            "-",
+            "Glider area East of Zernez village, near ZS710."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LOSS OF CONTROL",
+            "-",
+            "Proximity to terrain can cause turbulence and wind-shear in light to moderate wind.",
+            "-",
+            "High density altitude handling; Increased turn radius can lead to overbanking and decreased stall margin."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "RWY INCURSION",
+            "-",
+            "Short taxi out on narrow taxiway to active RWY.",
+            "-",
+            "No taxi lighting."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAMEDAN, SWITZERLAND",
+            "SAMEDAN",
+            "10-10-2P7"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        4
+      ],
+      "page_images": [
+        "static/airports/lszs/page-04.png"
+      ],
+      "embeds": [
+        "static/airports/lszs/embed-p04-02.jpeg"
+      ]
+    },
+    {
+      "num": 9,
+      "title": "Arrival procedures",
+      "body": ".1 GENERAL\nWhen weather permits, the VFR arrival is preferred.\nThis section contains 9.2. VFR Arrivals and 9.3. IFR Arrivals.\n\n9.2. VFR Arrivals\nReference the following:\nA. Arrivals table under section 6. WEATHER / AIRPORTS LIMITATIONS for a list of approaches with associated\nlimitations and information. Only these approaches are authorised.\nB. Section 8. OPERATIONAL PROCEDURES \u2013 GENERAL prior to all operations at Samedan.\nC. Finally, see below operating instructions for VFR arrivals.\n\n9.2.1. VFR APPROACH RWY 03 VIA MALOJ\nMINIMA:\nDAY ONLY. Visibility: 8km.\nCEILING:\nWith BKN or OVC cloud - 10,400ft AAL; FEW or SCT cloud - 2200ft AAL.\nPilots\u2019 assessment required to ensure approach, RWY and missed approach are clear of cloud\n\nJeppesen Charts:\n19-1, 19-1A, 19-11\n\nPerformance PDCS setup: \u2018Arrival\u2019 to LSZS, \u2018Runway\u2019 to 03. And,\n\u2018Departure\u2019 to LSZS, \u2018Runway\u2019 to 03DP4.\n\nMax Landing Mass is to be limited to the lower of the following:\nA. Landing Performance; Select \u2018Arrival\u2019 to LSZS and \u2018Runway\u2019 to 03. Input actual landing\nweather and configuration, use \u2018FLDTA\u2019 in \u2018Options\u2019.\nB. Balked Landing Performance; Select \u2018Departure\u2019 to LSZS and \u2018Runway\u2019 to 03DP4.\nInput actual weather, \u2018Flap\u2019 to most optimal go-around configuration. \u2018Options\u2019 to\nDRY RWY regardless of actual RWY state.\n\nPROCEDURE:\nA. Arrival:\n-\nExpect IFR routing with Zurich ATC to LSZS overhead descending to FL160. Note that there are three published\nIFR holds in the vicinity of LSZS, these being at PELAD, GUGSA and RONAG.\n-\nConfirm the status of LS(R)-11 / LS(R)-11A (with Samedan Info secondary comm) whilst still IFR prior to arrival. If\neither of these is active, then Samedan info will need to coordinate a crossing clearance with Swiss MIL.\n-\nWhen LS(R)-11 / LS(R)-11A is active and if no coordinated crossing clearance is available then this will prevent ALL\narrivals (due to approach RWY 21 and Missed approach RWY 03) - Remain IFR and either hold until able to enter\nLS(R)-11 / LS(R)-11A or divert as necessary.\n\nB. Overhead:\n-\nIn the overhead at FL160 identify Samedan valley and airport. Confirm that you can proceed visually. VMC needs\nto be maintained throughout the approach and possible missed approach. Check the whole length of the valley\nbetween MALOJ and ZERNZ.\n-\nIf unable to proceed visually then remain IFR and hold or divert as necessary.\n\nSAMEDAN, SWITZERLAND\nSAMEDAN\n10-10-2P8\n\n-\n-\nIf conditions permit the VFR approach and possible missed approach, then cancel IFR.\n-\nStart descent to 12000ft AMSL and position for a straight in VFR approach via MALOJ for RWY 03.\n\nC. Downwind Leg:\n-\nBe prepared to lose visual contact with the airport. Extend downwind leg until abeam MALOJ for RWY 03.\n\nOverhead. North up.\n\nVFR Chart -Downwind for RWY 03\n\nSAMEDAN, SWITZERLAND\nSAMEDAN\n10-10-2P9\n\n-\nD. Turning Final Rwy 03:\nStart a left descending turn to final (min 1000 fpm is recommended).\n\nE. Final Rwy 03:\nPoint \u2018W\u2019 is shown on the VFR Jeppesen charts, is 2nm final and the edge of Samedan FIZ if asked to report it.\nThere is a hill on final Rwy 03 centreline. Pass to the left of the hill for an offset final to prevent undue steep approach\nor terrain proximity. Ensure Stable approach criteria by 300ft AAL.\n\nF. Missed Approach / Balked Landing:\nVisual manoeuvring will be required. Initially route as per PDCS OEI procedure then when performance allows proceed\nvisually to ZERNZ and out-climb the valley to 12000ft AMSL. Return to the LSZS overhead for a repeat VFR approach\nor coordinate IFR diversion as required.\n\nFinal RWY 03.\n\nSAMEDAN, SWITZERLAND\nSAMEDAN\n13 MAY 2025 10-10-2P10\n\n-\n9.2.2. VFR APPROACH RWY 21 VIA ZERNZ\nMINIMA:\nDAY ONLY. Visibility: 8km.\nCEILING:\nWith BKN or OVC cloud - 10,400ft AAL; FEW or SCT cloud - 2200ft AAL.\nPilots\u2019 assessment required to ensure approach, RWY and missed approach are clear of cloud.\n\nJeppesen Charts:\n19-1, 19-1A, 19-11\n\nPerformance PDCS setup: \u2018Arrival\u2019 to LSZS, \u2018Runway\u2019 to 21. And,\n\u2018Departure\u2019 to LSZS, \u2018Runway\u2019 to 21DP2.\n\nMax Landing Mass is to be limited to the lower of the following:\nA. Landing Performance; Select \u2018Arrival\u2019 to LSZS and \u2018Runway\u2019 to 21. Input actual landing\nweather and configuration, use \u2018FLDTA\u2019 in \u2018Options\u2019.\nB. Balked Landing Performance; Select \u2018Departure\u2019 to LSZS and \u2018Runway\u2019 to 21DP2.\nInput actual weather, \u2018Flap\u2019 to most optimal go-around configuration. \u2018Options\u2019 to\nDRY RWY regardless of actual RWY state.\n\nPROCEDURE:\nA. Arrival:\n-\nExpect IFR routing with Zurich ATC to LSZS overhead descending to FL160. Note that there are three published\nIFR holds in the vicinity of LSZS, these being at PELAD, GUGSA and RONAG.\n-\nConfirm the status of LS(R)-11 / LS(R)-11A (with Samedan Info secondary comm) whilst still IFR prior to arrival. If\neither of these is active, then Samedan info will need to coordinate a crossing clearance with Swiss MIL.\n-\nWhen LS(R)-11 / LS(R)-11A is active and if no coordinated crossing clearance is available then this will prevent ALL\narrivals (due to approach RWY 21 and Missed approach RWY 03) - Remain IFR and either hold until able to enter\nLS(R)-11 / LS(R)-11A or divert as necessary.\n\nB. Overhead:\n-\nIn the overhead at FL160 identify Samedan valley and airport. Confirm that you can proceed visually. VMC needs\nto be maintained throughout the approach and possible missed approach. Check the whole length of the valley\nbetween MALOJ and ZERNZ.\n-\nIf unable to proceed visually then remain IFR and hold or divert as necessary.\n-\nIf conditions permit the VFR approach and possible missed approach, then cancel IFR.\n-\nStart descent to 12000ft AMSL and position for a straight in VFR approach via ZERNZ for RWY 21.\n\nC. Downwind Leg:\n-\nBe prepared to lose visual contact with the airport. Extend downwind leg until abeam ZERNZ for RWY 21.\n\nD. Turning Final Rwy 21:\n-\nStart a left descending turn to final. Recommended rate 1000-1500fpm.\n\nE. Final Rwy 21:\n-\nPoint \u2018E\u2019 is shown on the VFR Jeppesen charts, is 2nm final and the edge of Samedan FIZ if asked to report it.\n\nSAMEDAN, SWITZERLAND\nSAMEDAN\n13 MAY 2025 10-10-2P11\n\n-\nF. Missed Approach / Balked Landing:\n-\nVisual manoeuvring will be required. Initially route as per PDCS OEI procedure then when performance allows\nproceed visually to MALOJ and out-climb the valley to 12000ft AMSL. Return to the LSZS overhead for a repeat\nVFR approach or coordinate IFR diversion as required.\n\nVFR Chart -Downwind for RWY 21\n\nFinal RWY 21\n\nSAMEDAN, SWITZERLAND\nSAMEDAN\n13 MAY 2025 10-10-2P12\n\n-\n9.3. IFR Arrivals\nReference the following:\nA. Arrivals table under section 6. WEATHER / AIRPORTS LIMITATIONS for a list of approaches with associated\nlimitations and information. Only these approaches are authorised.\nB. Section 8. OPERATIONAL PROCEDURES \u2013 GENERAL prior to all operations at Samedan.\nC. Finally, see below operating instructions for IFR arrivals.\n\nSAMEDAN, SWITZERLAND\nSAMEDAN\n13 MAY 2025 10-10-2P13\n\n-\n9.3.1. VISUAL APPROACH WITH RNP GUIDANCE RWY 03\n\nMINIMA:\nDAY ONLY. Visibility 5000m. DA As per Jeppesen + 50ft.\nCEILING:\n5800ft AAL.\nJeppesen Charts:\n19-10\n\nPerformance PDCS setup: \u2018Arrival\u2019 to LSZS, \u2018Runway\u2019 to 03. And,\n\u2018Departure\u2019 to LSZS, \u2018Runway\u2019 to 03DP5.\n\nMax Landing Mass is to be limited to the lower of the following:\nA. Landing Performance; Select \u2018Arrival\u2019 to LSZS and \u2018Runway\u2019 to 03. Input actual landing\nweather and configuration, use \u2018FLDTA\u2019 in \u2018Options\u2019.\nB. Balked Landing Performance; Select \u2018Departure\u2019 to LSZS and \u2018Runway\u2019 to 03DP5.\nInput actual weather. Input \u2018Flap\u2019, and \u2018Options\u2019 as per table below.\n\nRAIM Prediction Check for Non-SBAS Equipped Aircraft:\nNon-SBAS equipped aircraft will require a dispatch produced RAIM Prediction Check with 10-degree mask angle;\nprocedures detailed in APPENDIX. Note the FMS based RAIM check is not valid. IFR operations on non-SBAS equipped\naircraft during times when RAIM is predicted as unavailable is prohibited. If necessary, delay, divert or coordinate\nrefiling as VFR as required.\n\nAltimeter Cold Temperature Corrections:\nMust be applied when LSZS surface temperature is 0\u00b0C or colder to all published altitudes shown on approach and\nmissed approach procedure. Use the correction chart in the APPENDIX.\n\nPROCEDURE: As per Jeppesen.\n\nThere are 2 decision points with specific required visual references as follows:\nPoint 1 \u2013 DA as per Jeppesen; Either the aerodrome shall be in sight or both crew members shall be able to\npositively identify terrain features that will enable the visual portion to be safely carried out as per OM-A 8.3.28.11\nVisual Approaches Under IFR.\nPoint 2 \u2013 8820ft AMSL; The landing runway shall be in sight at this NetJets defined point.\n\nRequired PDCS Settings for checking Balked Landing Performance on IFR Approach\nPDCS\n\u2018Departure\u2019 to\nLSZS\nSETTING\nEMB-505\nCE-560XLS\nCE-680A\nBD-100\nDA-2EASy\nBD-700\n\u2018Runway\u2019 to\n03DP5\n\u2018FLAP\u2019\n2\n15\n2\n10\n10\n6\n\u2018 OPTIONS\u2019\nANTI-ICE\nAnti-Ice ON performance analysis must be used when LSZS is 10\u00b0C or colder\nand reported weather conditions would necessitate anti-ice protection\nduring any of the published missed approach procedure. (Rwy 03 - 14,000ft\nat RONAG).\nDRY RWY\nAlways Set to DRY regardless of actual RWY State.\n\nSAMEDAN, SWITZERLAND\nSAMEDAN\n13 MAY 2025 10-10-2P14\n\n-\nIf at either decision point the required visual references are not met, or subsequently lost, perform the missed\napproach procedure.\nOnce visual with RWY and having passed Point 2, continue as per VFR Approach - Final RWY 03.\n\nMissed Approach / Balked Landing Procedure:\nImmediately initiate a maximum gradient climb and follow the published missed approach procedure.\n\nSAMEDAN, SWITZERLAND\nSAMEDAN\n13 MAY 2025 10-10-2P15\n\n-\n9.3.2. RNP RWY 21\nMINIMA:\nDAY ONLY. Visibility 5000m. DA As per Jeppesen + 50ft\nJeppesen Charts:\n12-1,12-1A\n\nPerformance PDCS setup: \u2018Arrival\u2019 to LSZS, \u2018Runway\u2019 to 21. And,\n\u2018Departure\u2019 to LSZS, \u2018Runway\u2019 to 21DP3.\n\nMax Landing Mass is to be limited to the lower of the following:\nC. Landing Performance; Select \u2018Arrival\u2019 to LSZS and \u2018Runway\u2019 to 21. Input actual landing\nweather and configuration, use \u2018FLDTA\u2019 in \u2018Options\u2019.\nD. Balked Landing Performance; Select \u2018Departure\u2019 to LSZS and \u2018Runway\u2019 to 21DP3.\nInput actual weather. Input \u2018Flap\u2019, and \u2018Options\u2019 as per table below.\n\nRAIM Prediction Check for Non-SBAS Equipped Aircraft:\nNon-SBAS equipped aircraft will require a dispatch produced RAIM Prediction Check with 10-degree mask angle;\nprocedures detailed in APPENDIX. Note the FMS based RAIM check is not valid. IFR operations on non-SBAS equipped\naircraft during times when RAIM is predicted as unavailable is prohibited. If necessary, delay, divert or coordinate\nrefiling as VFR as required.\n\nAltimeter Cold Temperature Corrections:\nMust be applied when LSZS surface temperature is 0\u00b0C or colder to all published altitudes shown on approach and\nmissed approach procedure. Use the correction chart in the APPENDIX.\n\nPROCEDURE: As per Jeppesen.\nRequired Visual References to continue approach: If at the decision altitude the landing runway is not visible or visual\ncontact is subsequently lost, perform the missed approach procedure.\nOnce visual with the Rwy and having passed DA, continue as per VFR Approach - Final RWY 21\nCAUTION:\nThe distance from the decision point to RWY is significantly further than the 5000 m minimum. Be Go-Around\nminded in marginal conditions.\n\nMissed Approach / Balked Landing Procedure: Immediately initiate a maximum gradient climb and follow the\npublished missed approach procedure.\nRequired PDCS Settings for checking Balked Landing Performance on IFR Approach\nPDCS \u2018Departure\u2019\nto LSZS\nSETTING\nEMB-505\nCE-560XLS\nCE-680A\nBD-100\nDA-2EASy\nBD-700\n\u2018Runway\u2019 to\n03DP5\n\u2018FLAP\u2019\n2\n15\n2\n10\n10\n6\n\u2018 OPTIONS\u2019\nANTI-ICE\nAnti-Ice ON performance analysis must be used when LSZS is 10\u00b0C or colder\nand reported weather conditions would necessitate anti-ice protection\nduring any of the published missed approach procedure. (Rwy 21 \u2013 16,000ft\nat PELAD)\nDRY RWY\nAlways Set to DRY regardless of actual RWY State.\n\nSAMEDAN, SWITZERLAND\nSAMEDAN\n13 MAY 2025 10-10-2P16\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ".1 GENERAL",
+            "When weather permits, the VFR arrival is preferred.",
+            "This section contains 9.2. VFR Arrivals and 9.3. IFR Arrivals."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "9.2. VFR Arrivals",
+            "Reference the following:",
+            "A. Arrivals table under section 6. WEATHER / AIRPORTS LIMITATIONS for a list of approaches with associated",
+            "limitations and information. Only these approaches are authorised.",
+            "B. Section 8. OPERATIONAL PROCEDURES \u2013 GENERAL prior to all operations at Samedan.",
+            "C. Finally, see below operating instructions for VFR arrivals."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "9.2.1. VFR APPROACH RWY 03 VIA MALOJ",
+            "MINIMA:",
+            "DAY ONLY. Visibility: 8km.",
+            "CEILING:",
+            "With BKN or OVC cloud - 10,400ft AAL; FEW or SCT cloud - 2200ft AAL.",
+            "Pilots\u2019 assessment required to ensure approach, RWY and missed approach are clear of cloud"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Jeppesen Charts:",
+            "19-1, 19-1A, 19-11"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Performance PDCS setup: \u2018Arrival\u2019 to LSZS, \u2018Runway\u2019 to 03. And,",
+            "\u2018Departure\u2019 to LSZS, \u2018Runway\u2019 to 03DP4."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Max Landing Mass is to be limited to the lower of the following:",
+            "A. Landing Performance; Select \u2018Arrival\u2019 to LSZS and \u2018Runway\u2019 to 03. Input actual landing",
+            "weather and configuration, use \u2018FLDTA\u2019 in \u2018Options\u2019.",
+            "B. Balked Landing Performance; Select \u2018Departure\u2019 to LSZS and \u2018Runway\u2019 to 03DP4.",
+            "Input actual weather, \u2018Flap\u2019 to most optimal go-around configuration. \u2018Options\u2019 to",
+            "DRY RWY regardless of actual RWY state."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE:",
+            "A. Arrival:",
+            "-",
+            "Expect IFR routing with Zurich ATC to LSZS overhead descending to FL160. Note that there are three published",
+            "IFR holds in the vicinity of LSZS, these being at PELAD, GUGSA and RONAG.",
+            "-",
+            "Confirm the status of LS(R)-11 / LS(R)-11A (with Samedan Info secondary comm) whilst still IFR prior to arrival. If",
+            "either of these is active, then Samedan info will need to coordinate a crossing clearance with Swiss MIL.",
+            "-",
+            "When LS(R)-11 / LS(R)-11A is active and if no coordinated crossing clearance is available then this will prevent ALL",
+            "arrivals (due to approach RWY 21 and Missed approach RWY 03) - Remain IFR and either hold until able to enter",
+            "LS(R)-11 / LS(R)-11A or divert as necessary."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "B. Overhead:",
+            "-",
+            "In the overhead at FL160 identify Samedan valley and airport. Confirm that you can proceed visually. VMC needs",
+            "to be maintained throughout the approach and possible missed approach. Check the whole length of the valley",
+            "between MALOJ and ZERNZ.",
+            "-",
+            "If unable to proceed visually then remain IFR and hold or divert as necessary."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAMEDAN, SWITZERLAND",
+            "SAMEDAN",
+            "10-10-2P8"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "-",
+            "If conditions permit the VFR approach and possible missed approach, then cancel IFR.",
+            "-",
+            "Start descent to 12000ft AMSL and position for a straight in VFR approach via MALOJ for RWY 03."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "C. Downwind Leg:",
+            "-",
+            "Be prepared to lose visual contact with the airport. Extend downwind leg until abeam MALOJ for RWY 03."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Overhead. North up."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VFR Chart -Downwind for RWY 03"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAMEDAN, SWITZERLAND",
+            "SAMEDAN",
+            "10-10-2P9"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "D. Turning Final Rwy 03:",
+            "Start a left descending turn to final (min 1000 fpm is recommended)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "E. Final Rwy 03:",
+            "Point \u2018W\u2019 is shown on the VFR Jeppesen charts, is 2nm final and the edge of Samedan FIZ if asked to report it.",
+            "There is a hill on final Rwy 03 centreline. Pass to the left of the hill for an offset final to prevent undue steep approach",
+            "or terrain proximity. Ensure Stable approach criteria by 300ft AAL."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "F. Missed Approach / Balked Landing:",
+            "Visual manoeuvring will be required. Initially route as per PDCS OEI procedure then when performance allows proceed",
+            "visually to ZERNZ and out-climb the valley to 12000ft AMSL. Return to the LSZS overhead for a repeat VFR approach",
+            "or coordinate IFR diversion as required."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Final RWY 03."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAMEDAN, SWITZERLAND",
+            "SAMEDAN",
+            "13 MAY 2025 10-10-2P10"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.2.2. VFR APPROACH RWY 21 VIA ZERNZ",
+            "MINIMA:",
+            "DAY ONLY. Visibility: 8km.",
+            "CEILING:",
+            "With BKN or OVC cloud - 10,400ft AAL; FEW or SCT cloud - 2200ft AAL.",
+            "Pilots\u2019 assessment required to ensure approach, RWY and missed approach are clear of cloud."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Jeppesen Charts:",
+            "19-1, 19-1A, 19-11"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Performance PDCS setup: \u2018Arrival\u2019 to LSZS, \u2018Runway\u2019 to 21. And,",
+            "\u2018Departure\u2019 to LSZS, \u2018Runway\u2019 to 21DP2."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Max Landing Mass is to be limited to the lower of the following:",
+            "A. Landing Performance; Select \u2018Arrival\u2019 to LSZS and \u2018Runway\u2019 to 21. Input actual landing",
+            "weather and configuration, use \u2018FLDTA\u2019 in \u2018Options\u2019.",
+            "B. Balked Landing Performance; Select \u2018Departure\u2019 to LSZS and \u2018Runway\u2019 to 21DP2.",
+            "Input actual weather, \u2018Flap\u2019 to most optimal go-around configuration. \u2018Options\u2019 to",
+            "DRY RWY regardless of actual RWY state."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE:",
+            "A. Arrival:",
+            "-",
+            "Expect IFR routing with Zurich ATC to LSZS overhead descending to FL160. Note that there are three published",
+            "IFR holds in the vicinity of LSZS, these being at PELAD, GUGSA and RONAG.",
+            "-",
+            "Confirm the status of LS(R)-11 / LS(R)-11A (with Samedan Info secondary comm) whilst still IFR prior to arrival. If",
+            "either of these is active, then Samedan info will need to coordinate a crossing clearance with Swiss MIL.",
+            "-",
+            "When LS(R)-11 / LS(R)-11A is active and if no coordinated crossing clearance is available then this will prevent ALL",
+            "arrivals (due to approach RWY 21 and Missed approach RWY 03) - Remain IFR and either hold until able to enter",
+            "LS(R)-11 / LS(R)-11A or divert as necessary."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "B. Overhead:",
+            "-",
+            "In the overhead at FL160 identify Samedan valley and airport. Confirm that you can proceed visually. VMC needs",
+            "to be maintained throughout the approach and possible missed approach. Check the whole length of the valley",
+            "between MALOJ and ZERNZ.",
+            "-",
+            "If unable to proceed visually then remain IFR and hold or divert as necessary.",
+            "-",
+            "If conditions permit the VFR approach and possible missed approach, then cancel IFR.",
+            "-",
+            "Start descent to 12000ft AMSL and position for a straight in VFR approach via ZERNZ for RWY 21."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "C. Downwind Leg:",
+            "-",
+            "Be prepared to lose visual contact with the airport. Extend downwind leg until abeam ZERNZ for RWY 21."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "D. Turning Final Rwy 21:",
+            "-",
+            "Start a left descending turn to final. Recommended rate 1000-1500fpm."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "E. Final Rwy 21:",
+            "-",
+            "Point \u2018E\u2019 is shown on the VFR Jeppesen charts, is 2nm final and the edge of Samedan FIZ if asked to report it."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAMEDAN, SWITZERLAND",
+            "SAMEDAN",
+            "13 MAY 2025 10-10-2P11"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "F. Missed Approach / Balked Landing:",
+            "-",
+            "Visual manoeuvring will be required. Initially route as per PDCS OEI procedure then when performance allows",
+            "proceed visually to MALOJ and out-climb the valley to 12000ft AMSL. Return to the LSZS overhead for a repeat",
+            "VFR approach or coordinate IFR diversion as required."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VFR Chart -Downwind for RWY 21"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Final RWY 21"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAMEDAN, SWITZERLAND",
+            "SAMEDAN",
+            "13 MAY 2025 10-10-2P12"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.3. IFR Arrivals",
+            "Reference the following:",
+            "A. Arrivals table under section 6. WEATHER / AIRPORTS LIMITATIONS for a list of approaches with associated",
+            "limitations and information. Only these approaches are authorised.",
+            "B. Section 8. OPERATIONAL PROCEDURES \u2013 GENERAL prior to all operations at Samedan.",
+            "C. Finally, see below operating instructions for IFR arrivals."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAMEDAN, SWITZERLAND",
+            "SAMEDAN",
+            "13 MAY 2025 10-10-2P13"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.3.1. VISUAL APPROACH WITH RNP GUIDANCE RWY 03"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA:",
+            "DAY ONLY. Visibility 5000m. DA As per Jeppesen + 50ft.",
+            "CEILING:",
+            "5800ft AAL.",
+            "Jeppesen Charts:",
+            "19-10"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Performance PDCS setup: \u2018Arrival\u2019 to LSZS, \u2018Runway\u2019 to 03. And,",
+            "\u2018Departure\u2019 to LSZS, \u2018Runway\u2019 to 03DP5."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Max Landing Mass is to be limited to the lower of the following:",
+            "A. Landing Performance; Select \u2018Arrival\u2019 to LSZS and \u2018Runway\u2019 to 03. Input actual landing",
+            "weather and configuration, use \u2018FLDTA\u2019 in \u2018Options\u2019.",
+            "B. Balked Landing Performance; Select \u2018Departure\u2019 to LSZS and \u2018Runway\u2019 to 03DP5.",
+            "Input actual weather. Input \u2018Flap\u2019, and \u2018Options\u2019 as per table below."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "RAIM Prediction Check for Non-SBAS Equipped Aircraft:",
+            "Non-SBAS equipped aircraft will require a dispatch produced RAIM Prediction Check with 10-degree mask angle;",
+            "procedures detailed in APPENDIX. Note the FMS based RAIM check is not valid. IFR operations on non-SBAS equipped",
+            "aircraft during times when RAIM is predicted as unavailable is prohibited. If necessary, delay, divert or coordinate",
+            "refiling as VFR as required."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Altimeter Cold Temperature Corrections:",
+            "Must be applied when LSZS surface temperature is 0\u00b0C or colder to all published altitudes shown on approach and",
+            "missed approach procedure. Use the correction chart in the APPENDIX."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE: As per Jeppesen."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "There are 2 decision points with specific required visual references as follows:",
+            "Point 1 \u2013 DA as per Jeppesen; Either the aerodrome shall be in sight or both crew members shall be able to",
+            "positively identify terrain features that will enable the visual portion to be safely carried out as per OM-A 8.3.28.11",
+            "Visual Approaches Under IFR.",
+            "Point 2 \u2013 8820ft AMSL; The landing runway shall be in sight at this NetJets defined point."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Required PDCS Settings for checking Balked Landing Performance on IFR Approach",
+            "PDCS",
+            "\u2018Departure\u2019 to",
+            "LSZS",
+            "SETTING",
+            "EMB-505",
+            "CE-560XLS",
+            "CE-680A",
+            "BD-100",
+            "DA-2EASy",
+            "BD-700",
+            "\u2018Runway\u2019 to",
+            "03DP5",
+            "\u2018FLAP\u2019",
+            "2",
+            "15",
+            "2",
+            "10",
+            "10",
+            "6",
+            "\u2018 OPTIONS\u2019",
+            "ANTI-ICE",
+            "Anti-Ice ON performance analysis must be used when LSZS is 10\u00b0C or colder",
+            "and reported weather conditions would necessitate anti-ice protection",
+            "during any of the published missed approach procedure. (Rwy 03 - 14,000ft",
+            "at RONAG).",
+            "DRY RWY",
+            "Always Set to DRY regardless of actual RWY State."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAMEDAN, SWITZERLAND",
+            "SAMEDAN",
+            "13 MAY 2025 10-10-2P14"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "If at either decision point the required visual references are not met, or subsequently lost, perform the missed",
+            "approach procedure.",
+            "Once visual with RWY and having passed Point 2, continue as per VFR Approach - Final RWY 03."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Missed Approach / Balked Landing Procedure:",
+            "Immediately initiate a maximum gradient climb and follow the published missed approach procedure."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAMEDAN, SWITZERLAND",
+            "SAMEDAN",
+            "13 MAY 2025 10-10-2P15"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.3.2. RNP RWY 21",
+            "MINIMA:",
+            "DAY ONLY. Visibility 5000m. DA As per Jeppesen + 50ft",
+            "Jeppesen Charts:",
+            "12-1,12-1A"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Performance PDCS setup: \u2018Arrival\u2019 to LSZS, \u2018Runway\u2019 to 21. And,",
+            "\u2018Departure\u2019 to LSZS, \u2018Runway\u2019 to 21DP3."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Max Landing Mass is to be limited to the lower of the following:",
+            "C. Landing Performance; Select \u2018Arrival\u2019 to LSZS and \u2018Runway\u2019 to 21. Input actual landing",
+            "weather and configuration, use \u2018FLDTA\u2019 in \u2018Options\u2019.",
+            "D. Balked Landing Performance; Select \u2018Departure\u2019 to LSZS and \u2018Runway\u2019 to 21DP3.",
+            "Input actual weather. Input \u2018Flap\u2019, and \u2018Options\u2019 as per table below."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "RAIM Prediction Check for Non-SBAS Equipped Aircraft:",
+            "Non-SBAS equipped aircraft will require a dispatch produced RAIM Prediction Check with 10-degree mask angle;",
+            "procedures detailed in APPENDIX. Note the FMS based RAIM check is not valid. IFR operations on non-SBAS equipped",
+            "aircraft during times when RAIM is predicted as unavailable is prohibited. If necessary, delay, divert or coordinate",
+            "refiling as VFR as required."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Altimeter Cold Temperature Corrections:",
+            "Must be applied when LSZS surface temperature is 0\u00b0C or colder to all published altitudes shown on approach and",
+            "missed approach procedure. Use the correction chart in the APPENDIX."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE: As per Jeppesen.",
+            "Required Visual References to continue approach: If at the decision altitude the landing runway is not visible or visual",
+            "contact is subsequently lost, perform the missed approach procedure.",
+            "Once visual with the Rwy and having passed DA, continue as per VFR Approach - Final RWY 21"
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION:",
+            "The distance from the decision point to RWY is significantly further than the 5000 m minimum. Be Go-Around",
+            "minded in marginal conditions."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Missed Approach / Balked Landing Procedure: Immediately initiate a maximum gradient climb and follow the",
+            "published missed approach procedure.",
+            "Required PDCS Settings for checking Balked Landing Performance on IFR Approach",
+            "PDCS \u2018Departure\u2019",
+            "to LSZS",
+            "SETTING",
+            "EMB-505",
+            "CE-560XLS",
+            "CE-680A",
+            "BD-100",
+            "DA-2EASy",
+            "BD-700",
+            "\u2018Runway\u2019 to",
+            "03DP5",
+            "\u2018FLAP\u2019",
+            "2",
+            "15",
+            "2",
+            "10",
+            "10",
+            "6",
+            "\u2018 OPTIONS\u2019",
+            "ANTI-ICE",
+            "Anti-Ice ON performance analysis must be used when LSZS is 10\u00b0C or colder",
+            "and reported weather conditions would necessitate anti-ice protection",
+            "during any of the published missed approach procedure. (Rwy 21 \u2013 16,000ft",
+            "at PELAD)",
+            "DRY RWY",
+            "Always Set to DRY regardless of actual RWY State."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAMEDAN, SWITZERLAND",
+            "SAMEDAN",
+            "13 MAY 2025 10-10-2P16"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        7
+      ],
+      "page_images": [
+        "static/airports/lszs/page-07.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 10,
+      "title": "Departure procedures",
+      "body": "0.1. GENERAL\nWhen weather permits, the VFR departure is preferred.\nThis section contains 10.2 VFR Departures and 10.3 IFR Departures.\n\n10.2. VFR Departures\nReference the following:\nA. Departures table under section 6. WEATHER / AIRPORTS LIMITATIONS for a list of departures with\nassociated limitations and information. Only these departures are authorised.\nB. Section 8. OPERATIONAL PROCEDURES \u2013 GENERAL prior to all operations at Samedan.\nC. Finally, see below operating instructions for VFR departures.\n\n10.2.1. VFR DEPARTURE RWY 03\nMINIMA:\nDAY ONLY. Visibility: 8km.\nCEILING:\nWith BKN or OVC cloud - 10,400ft AAL; FEW or SCT cloud - 2200ft AAL.\nPilots\u2019 assessment required to ensure approach, RWY and missed approach are clear of cloud\nJeppesen Charts:\n19-1, 19-1A, 19-11\n\nPerformance:\nAs per PDCS 03DP4.\n\nUse actual weather and conditions in \u2018Options\u2019. Use most optimal \u2018Flap\u2019 setting for Take-off.\n\nContingency:\nAs per PDCS 03DP4 \u2018Engine Out Procedure\u2019. Note the OEI valley course reversal.\n\nPROCEDURE:\n\n-\nExpect VFR departure with coordinated IFR clearance with Swiss / Zurich ATC\n-\nCheck the valley in the direction of departure to ensure VFR conditions can be maintained for the departure and\nOEI procedure.\n-\nClimb visually with max gradient climb to clear the valley.\n-\nMaintain VMC until clear of terrain and IFR clearance is obtained. Expect Swiss radar to be available passing\n12000ft AMSL.\n\nSAMEDAN, SWITZERLAND\nSAMEDAN\n13 MAY 2025 10-10-2P17\n\n-\n10.2.1. VFR DEPARTURE RWY 21\nMINIMA:\nDAY ONLY. Visibility: 8km.\nCEILING:\nWith BKN or OVC cloud - 10,400ft AAL; FEW or SCT cloud - 2200ft AAL.\nPilots\u2019 assessment required to ensure approach, RWY and missed approach are clear of cloud\nJeppesen Charts:\n19-1, 19-1A, 19-11\n\nPerformance:\nAs per PDCS 21DP2.\n\nUse actual weather and conditions in \u2018Options\u2019. Use most optimal \u2018Flap\u2019 setting for Take-off.\n\nContingency:\nAs per PDCS 21DP2 \u2018Engine Out Procedure\u2019.\n\nPROCEDURE:\n\n-\nExpect VFR departure with coordinated IFR clearance with Swiss / Zurich ATC\n-\nCheck the valley in the direction of departure to ensure VFR conditions can be maintained for the departure and\nOEI procedure.\n-\nClimb visually with max gradient climb to clear the valley.\n-\nMaintain VMC until clear of terrain and IFR clearance is obtained. Expect Swiss radar to be available passing\n12000ft AMSL.\n\nSAMEDAN, SWITZERLAND\nSAMEDAN\n13 MAY 2025 10-10-2P18\n\n-\n10.3. IFR Departures\nAll four IFR departures are high performance SIDs that mandate RNAV1 capability and require immediate IFR climb.\nCarefully note requirements and weather minima as per Jeppesen prior to departure.\n\nHigh Performance RNAV SIDs:\nAll SIDs require high performance with minimum climb gradient as follows:\nRONAG 1E\n16.6% to 10,200 ft AMSL\nRONAG 1V\n10.0% to 10,600 ft AMSL\nPELAD 1V\n10.0% to 11,500 ft AMSL\nPELAD 1W\n15.6% to 10,700 ft AMSL\n\nCrew shall brief the climb profile they will use giving due consideration to the following:\no Minimum SID climb gradient and noting the OEI procedure laterally follows the SID.\no Best gradient climb speed (example V2+10)\no Departure altitude as per ATC\no Weather conditions with minimum icing speeds\no OM-B / AFM limitations\no Passenger comfort considerations due to deck angle.\n\nThe table below can be used to assist crews in meeting these requirements:\n\nAll-Engines Required Climb Gradient vs Groundspeed vs Rate of Climb\n10% Gradient\n15.6% Gradient\n16.6% Gradient\nGroundspeed\n(KT)\nRate of Climb\n(FPM)\nGroundspeed\n(KT)\nRate of Climb\n(FPM)\nGroundspeed\n(KT)\nRate of Climb\n(FPM)\n120\n1215\n120\n1896\n120\n2017\n130\n1317\n130\n2054\n130\n2185\n140\n1418\n140\n2212\n140\n2354\n150\n1519\n150\n2370\n150\n2522\n160\n1620\n160\n2528\n160\n2690\n170\n1722\n170\n2686\n170\n2858\n180\n1823\n180\n2844\n180\n3026\n190\n1924\n190\n3002\n190\n3194\n200\n2025\n200\n3160\n200\n3362\n\nIFR Departure Instructions. Reference the following:\nA. Departures table under section 6. WEATHER / AIRPORTS LIMITATIONS for a list of departures with\nassociated limitations and information. Only these departures are authorised.\nB. Section 8. OPERATIONAL PROCEDURES \u2013 GENERAL prior to all operations at Samedan.\nC. Finally, see below operating instructions for IFR departures.\n\nSAMEDAN, SWITZERLAND\nSAMEDAN\n13 MAY 2025 10-10-2P19\n\n-\n10.3.1. RWY 03 SID RONAG 1E\nMINIMA:\nDAY ONLY. Visibility 2000m.\nCEILING:\nIRS Equipped A/C (BD-100, DA-2EASy and BD-700) \u2013 No Ceiling Required.\n\nNon-IRS Equipped A/C (EMB-505, CE-560XLS and CE-680A) \u2013 Ceiling 2,000ft AAL.\nJeppesen Charts:\n10-3A\n\nPerformance:\nAs per PDCS 03DP2.\nUse actual weather and conditions in \u2018Options\u2019. Use most optimal \u2018Flap\u2019 setting for Take-off.\n\nNote: Anti-Ice ON performance analysis must be used when LSZS is 10\u00b0C or colder and reported\nweather conditions would necessitate anti-ice protection during the SID to 14,000ft AMSL.\n\nContingency:\nWith OEI; Laterally follow the SID, accelerate as per PDCS \u2018LO MSL\u2019 and climb to MSA.\n\nRaim Prediction Check:\nNon-SBAS equipped aircraft will require a dispatch produced RAIM Prediction Check with 10-degree mask angle;\nprocedures detailed in APPENDIX. Operations on non-SBAS equipped aircraft during times when RAIM is predicted as\nunavailable is prohibited. If necessary, delay or coordinate refiling as VFR as required.\n\nAltimeter Cold Temperature Corrections:\nMust be applied when LSZS surface temperature is 0\u00b0C or colder to the published altitudes shown on the SID and OEI\nprocedure. Use the correction chart in the APPENDIX.\n\nPROCEDURE: As per Jeppesen.\n\n-\nEnsure weather is at or above minima prior to departure.\n-\nInitial climb shall be with maximum gradient; then, after climb profile is assured, continue the IMC climb as per\nHigh Performance RNAV SID guidance to the departure altitude as per ATC.\n\nSAMEDAN, SWITZERLAND\nSAMEDAN\n13 MAY 2025 10-10-2P20\n\n-\n10.3.2. RWY 03 SID RONAG 1V\nMINIMA:\nDAY ONLY. Visibility 5000m.\nCEILING:\n4400ft AAL.\nJeppesen Charts:\n10-3C\n\nPerformance:\nAs per PDCS 03DP3.\nUse actual weather and conditions in \u2018Options\u2019. Use most optimal \u2018Flap\u2019 setting for Take-off.\n\nNote: Anti-Ice ON performance analysis must be used when LSZS is 10\u00b0C or colder and reported\nweather conditions would necessitate anti-ice protection during the SID to 14,000ft AMSL.\n\nContingency:\nWith OEI; Laterally follow the SID, accelerate as per PDCS \u2018LO MSL\u2019 and climb to MSA.\n\nRaim Prediction Check:\nNon-SBAS equipped aircraft will require a dispatch produced RAIM Prediction Check with 10-degree mask angle;\nprocedures detailed in APPENDIX. Operations on non-SBAS equipped aircraft during times when RAIM is predicted as\nunavailable is prohibited. If necessary, delay or coordinate refiling as VFR as required.\n\nAltimeter Cold Temperature Corrections:\nMust be applied when LSZS surface temperature is 0\u00b0C or colder to the published altitudes shown on the SID and OEI\nprocedure. Use the correction chart in the APPENDIX.\n\nPROCEDURE: As per Jeppesen.\n\n-\nEnsure weather is at or above minima prior to departure; ceiling minima requirement ensures \u2018visual ground\ncontact\u2019 until 10000ft AMSL.\n-\nInitial climb shall be with maximum gradient; then, after climb profile is assured, continue the IMC climb as per\nHigh Performance RNAV SID guidance to the departure altitude as per ATC.\n\nSAMEDAN, SWITZERLAND\nSAMEDAN\n13 MAY 2025 10-10-2P21\n\n-\n10.3.3. RWY 21 SID PELAD 1W\nMINIMA:\nDAY ONLY. Visibility 2000m.\nCEILING:\nIRS Equipped A/C (BD-100, DA-2EASy and BD-700) \u2013 No Ceiling Required.\n\nNon-IRS Equipped A/C (EMB-505, CE-560XLS and CE-680A) \u2013 Ceiling 2,000ft AAL.\nJeppesen Charts:\n10-3\n\nPerformance:\nAs per PDCS 21DP1.\nUse actual weather and conditions in \u2018Options\u2019. Use most optimal \u2018Flap\u2019 setting for Take-off.\n\nNote: Anti-Ice ON performance analysis must be used when LSZS is 10\u00b0C or colder and reported\nweather conditions would necessitate anti-ice protection during the SID to 14,000ft AMSL.\n\nContingency:\nWith OEI; Laterally follow the SID, accelerate as per PDCS \u2018LO MSL\u2019 and climb to MSA.\n\nRaim Prediction Check:\nNon-SBAS equipped aircraft will require a dispatch produced RAIM Prediction Check with 10-degree mask angle;\nprocedures detailed in APPENDIX. Operations on non-SBAS equipped aircraft during times when RAIM is predicted as\nunavailable is prohibited. If necessary, delay or coordinate refiling as VFR as required.\n\nAltimeter Cold Temperature Corrections:\nMust be applied when LSZS surface temperature is 0\u00b0C or colder to the published altitudes shown on the SID and OEI\nprocedure. Use the correction chart in the APPENDIX.\n\nPROCEDURE: As per Jeppesen.\n\n-\nEnsure weather is at or above minima prior to departure.\n-\nInitial climb shall be with maximum gradient; then, after climb profile is assured, continue the IMC climb as per\nHigh Performance RNAV SID guidance to the departure altitude as per ATC.\n\nSAMEDAN, SWITZERLAND\nSAMEDAN\n13 MAY 2025 10-10-2P22\n\n-\n10.3.4. RWY 21 SID PELAD 1V\nMINIMA:\nDAY ONLY. Visibility 5000m.\nCEILING:\n5100ft AAL.\nJeppesen Charts:\n10-3B\n\nPerformance:\nAs per PDCS 21DP1.\nUse actual weather and conditions in \u2018Options\u2019. Use most optimal \u2018Flap\u2019 setting for Take-off.\n\nNote: Anti-Ice ON performance analysis must be used when LSZS is 10\u00b0C or colder and reported\nweather conditions would necessitate anti-ice protection during the SID to 14,000ft AMSL.\n\nContingency:\nWith OEI; Laterally follow the SID, accelerate as per PDCS \u2018LO MSL\u2019 and climb to MSA.\n\nRaim Prediction Check:\nNon-SBAS equipped aircraft will require a dispatch produced RAIM Prediction Check with 10-degree mask angle;\nprocedures detailed in APPENDIX. Operations on non-SBAS equipped aircraft during times when RAIM is predicted as\nunavailable is prohibited. If necessary, delay or coordinate refiling as VFR as required.\n\nAltimeter Cold Temperature Corrections:\nMust be applied when LSZS surface temperature is 0\u00b0C or colder to the published altitudes shown on the SID and OEI\nprocedure. Use the correction chart in the APPENDIX.\n\nPROCEDURE: As per Jeppesen.\n\n-\nEnsure weather is at or above minima prior to departure; ceiling minima requirement ensures \u2018visual ground\ncontact\u2019 until 10600ft AMSL.\n-\nInitial climb shall be with maximum gradient; then, after climb profile is assured, continue the IMC climb as per\nHigh Performance RNAV SID guidance to the departure altitude as per ATC.\n\nSAMEDAN, SWITZERLAND\nSAMEDAN\n13 MAY 2025 10-10-2P23\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "0.1. GENERAL",
+            "When weather permits, the VFR departure is preferred.",
+            "This section contains 10.2 VFR Departures and 10.3 IFR Departures."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "10.2. VFR Departures",
+            "Reference the following:",
+            "A. Departures table under section 6. WEATHER / AIRPORTS LIMITATIONS for a list of departures with",
+            "associated limitations and information. Only these departures are authorised.",
+            "B. Section 8. OPERATIONAL PROCEDURES \u2013 GENERAL prior to all operations at Samedan.",
+            "C. Finally, see below operating instructions for VFR departures."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "10.2.1. VFR DEPARTURE RWY 03",
+            "MINIMA:",
+            "DAY ONLY. Visibility: 8km.",
+            "CEILING:",
+            "With BKN or OVC cloud - 10,400ft AAL; FEW or SCT cloud - 2200ft AAL.",
+            "Pilots\u2019 assessment required to ensure approach, RWY and missed approach are clear of cloud",
+            "Jeppesen Charts:",
+            "19-1, 19-1A, 19-11"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Performance:",
+            "As per PDCS 03DP4."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Use actual weather and conditions in \u2018Options\u2019. Use most optimal \u2018Flap\u2019 setting for Take-off."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Contingency:",
+            "As per PDCS 03DP4 \u2018Engine Out Procedure\u2019. Note the OEI valley course reversal."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "Expect VFR departure with coordinated IFR clearance with Swiss / Zurich ATC",
+            "-",
+            "Check the valley in the direction of departure to ensure VFR conditions can be maintained for the departure and",
+            "OEI procedure.",
+            "-",
+            "Climb visually with max gradient climb to clear the valley.",
+            "-",
+            "Maintain VMC until clear of terrain and IFR clearance is obtained. Expect Swiss radar to be available passing",
+            "12000ft AMSL."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAMEDAN, SWITZERLAND",
+            "SAMEDAN",
+            "13 MAY 2025 10-10-2P17"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "10.2.1. VFR DEPARTURE RWY 21",
+            "MINIMA:",
+            "DAY ONLY. Visibility: 8km.",
+            "CEILING:",
+            "With BKN or OVC cloud - 10,400ft AAL; FEW or SCT cloud - 2200ft AAL.",
+            "Pilots\u2019 assessment required to ensure approach, RWY and missed approach are clear of cloud",
+            "Jeppesen Charts:",
+            "19-1, 19-1A, 19-11"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Performance:",
+            "As per PDCS 21DP2."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Use actual weather and conditions in \u2018Options\u2019. Use most optimal \u2018Flap\u2019 setting for Take-off."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Contingency:",
+            "As per PDCS 21DP2 \u2018Engine Out Procedure\u2019."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "Expect VFR departure with coordinated IFR clearance with Swiss / Zurich ATC",
+            "-",
+            "Check the valley in the direction of departure to ensure VFR conditions can be maintained for the departure and",
+            "OEI procedure.",
+            "-",
+            "Climb visually with max gradient climb to clear the valley.",
+            "-",
+            "Maintain VMC until clear of terrain and IFR clearance is obtained. Expect Swiss radar to be available passing",
+            "12000ft AMSL."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAMEDAN, SWITZERLAND",
+            "SAMEDAN",
+            "13 MAY 2025 10-10-2P18"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "10.3. IFR Departures",
+            "All four IFR departures are high performance SIDs that mandate RNAV1 capability and require immediate IFR climb.",
+            "Carefully note requirements and weather minima as per Jeppesen prior to departure."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "High Performance RNAV SIDs:",
+            "All SIDs require high performance with minimum climb gradient as follows:",
+            "RONAG 1E",
+            "16.6% to 10,200 ft AMSL",
+            "RONAG 1V",
+            "10.0% to 10,600 ft AMSL",
+            "PELAD 1V",
+            "10.0% to 11,500 ft AMSL",
+            "PELAD 1W",
+            "15.6% to 10,700 ft AMSL"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Crew shall brief the climb profile they will use giving due consideration to the following:",
+            "o Minimum SID climb gradient and noting the OEI procedure laterally follows the SID.",
+            "o Best gradient climb speed (example V2+10)",
+            "o Departure altitude as per ATC",
+            "o Weather conditions with minimum icing speeds",
+            "o OM-B / AFM limitations",
+            "o Passenger comfort considerations due to deck angle."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "The table below can be used to assist crews in meeting these requirements:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "All-Engines Required Climb Gradient vs Groundspeed vs Rate of Climb",
+            "10% Gradient",
+            "15.6% Gradient",
+            "16.6% Gradient",
+            "Groundspeed",
+            "(KT)",
+            "Rate of Climb",
+            "(FPM)",
+            "Groundspeed",
+            "(KT)",
+            "Rate of Climb",
+            "(FPM)",
+            "Groundspeed",
+            "(KT)",
+            "Rate of Climb",
+            "(FPM)",
+            "120",
+            "1215",
+            "120",
+            "1896",
+            "120",
+            "2017",
+            "130",
+            "1317",
+            "130",
+            "2054",
+            "130",
+            "2185",
+            "140",
+            "1418",
+            "140",
+            "2212",
+            "140",
+            "2354",
+            "150",
+            "1519",
+            "150",
+            "2370",
+            "150",
+            "2522",
+            "160",
+            "1620",
+            "160",
+            "2528",
+            "160",
+            "2690",
+            "170",
+            "1722",
+            "170",
+            "2686",
+            "170",
+            "2858",
+            "180",
+            "1823",
+            "180",
+            "2844",
+            "180",
+            "3026",
+            "190",
+            "1924",
+            "190",
+            "3002",
+            "190",
+            "3194",
+            "200",
+            "2025",
+            "200",
+            "3160",
+            "200",
+            "3362"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "IFR Departure Instructions. Reference the following:",
+            "A. Departures table under section 6. WEATHER / AIRPORTS LIMITATIONS for a list of departures with",
+            "associated limitations and information. Only these departures are authorised.",
+            "B. Section 8. OPERATIONAL PROCEDURES \u2013 GENERAL prior to all operations at Samedan.",
+            "C. Finally, see below operating instructions for IFR departures."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAMEDAN, SWITZERLAND",
+            "SAMEDAN",
+            "13 MAY 2025 10-10-2P19"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "10.3.1. RWY 03 SID RONAG 1E",
+            "MINIMA:",
+            "DAY ONLY. Visibility 2000m.",
+            "CEILING:",
+            "IRS Equipped A/C (BD-100, DA-2EASy and BD-700) \u2013 No Ceiling Required."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Non-IRS Equipped A/C (EMB-505, CE-560XLS and CE-680A) \u2013 Ceiling 2,000ft AAL.",
+            "Jeppesen Charts:",
+            "10-3A"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Performance:",
+            "As per PDCS 03DP2.",
+            "Use actual weather and conditions in \u2018Options\u2019. Use most optimal \u2018Flap\u2019 setting for Take-off."
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note: Anti-Ice ON performance analysis must be used when LSZS is 10\u00b0C or colder and reported",
+            "weather conditions would necessitate anti-ice protection during the SID to 14,000ft AMSL."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Contingency:",
+            "With OEI; Laterally follow the SID, accelerate as per PDCS \u2018LO MSL\u2019 and climb to MSA."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Raim Prediction Check:",
+            "Non-SBAS equipped aircraft will require a dispatch produced RAIM Prediction Check with 10-degree mask angle;",
+            "procedures detailed in APPENDIX. Operations on non-SBAS equipped aircraft during times when RAIM is predicted as",
+            "unavailable is prohibited. If necessary, delay or coordinate refiling as VFR as required."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Altimeter Cold Temperature Corrections:",
+            "Must be applied when LSZS surface temperature is 0\u00b0C or colder to the published altitudes shown on the SID and OEI",
+            "procedure. Use the correction chart in the APPENDIX."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE: As per Jeppesen."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "Ensure weather is at or above minima prior to departure.",
+            "-",
+            "Initial climb shall be with maximum gradient; then, after climb profile is assured, continue the IMC climb as per",
+            "High Performance RNAV SID guidance to the departure altitude as per ATC."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAMEDAN, SWITZERLAND",
+            "SAMEDAN",
+            "13 MAY 2025 10-10-2P20"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "10.3.2. RWY 03 SID RONAG 1V",
+            "MINIMA:",
+            "DAY ONLY. Visibility 5000m.",
+            "CEILING:",
+            "4400ft AAL.",
+            "Jeppesen Charts:",
+            "10-3C"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Performance:",
+            "As per PDCS 03DP3.",
+            "Use actual weather and conditions in \u2018Options\u2019. Use most optimal \u2018Flap\u2019 setting for Take-off."
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note: Anti-Ice ON performance analysis must be used when LSZS is 10\u00b0C or colder and reported",
+            "weather conditions would necessitate anti-ice protection during the SID to 14,000ft AMSL."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Contingency:",
+            "With OEI; Laterally follow the SID, accelerate as per PDCS \u2018LO MSL\u2019 and climb to MSA."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Raim Prediction Check:",
+            "Non-SBAS equipped aircraft will require a dispatch produced RAIM Prediction Check with 10-degree mask angle;",
+            "procedures detailed in APPENDIX. Operations on non-SBAS equipped aircraft during times when RAIM is predicted as",
+            "unavailable is prohibited. If necessary, delay or coordinate refiling as VFR as required."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Altimeter Cold Temperature Corrections:",
+            "Must be applied when LSZS surface temperature is 0\u00b0C or colder to the published altitudes shown on the SID and OEI",
+            "procedure. Use the correction chart in the APPENDIX."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE: As per Jeppesen."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "Ensure weather is at or above minima prior to departure; ceiling minima requirement ensures \u2018visual ground",
+            "contact\u2019 until 10000ft AMSL.",
+            "-",
+            "Initial climb shall be with maximum gradient; then, after climb profile is assured, continue the IMC climb as per",
+            "High Performance RNAV SID guidance to the departure altitude as per ATC."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAMEDAN, SWITZERLAND",
+            "SAMEDAN",
+            "13 MAY 2025 10-10-2P21"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "10.3.3. RWY 21 SID PELAD 1W",
+            "MINIMA:",
+            "DAY ONLY. Visibility 2000m.",
+            "CEILING:",
+            "IRS Equipped A/C (BD-100, DA-2EASy and BD-700) \u2013 No Ceiling Required."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Non-IRS Equipped A/C (EMB-505, CE-560XLS and CE-680A) \u2013 Ceiling 2,000ft AAL.",
+            "Jeppesen Charts:",
+            "10-3"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Performance:",
+            "As per PDCS 21DP1.",
+            "Use actual weather and conditions in \u2018Options\u2019. Use most optimal \u2018Flap\u2019 setting for Take-off."
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note: Anti-Ice ON performance analysis must be used when LSZS is 10\u00b0C or colder and reported",
+            "weather conditions would necessitate anti-ice protection during the SID to 14,000ft AMSL."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Contingency:",
+            "With OEI; Laterally follow the SID, accelerate as per PDCS \u2018LO MSL\u2019 and climb to MSA."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Raim Prediction Check:",
+            "Non-SBAS equipped aircraft will require a dispatch produced RAIM Prediction Check with 10-degree mask angle;",
+            "procedures detailed in APPENDIX. Operations on non-SBAS equipped aircraft during times when RAIM is predicted as",
+            "unavailable is prohibited. If necessary, delay or coordinate refiling as VFR as required."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Altimeter Cold Temperature Corrections:",
+            "Must be applied when LSZS surface temperature is 0\u00b0C or colder to the published altitudes shown on the SID and OEI",
+            "procedure. Use the correction chart in the APPENDIX."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE: As per Jeppesen."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "Ensure weather is at or above minima prior to departure.",
+            "-",
+            "Initial climb shall be with maximum gradient; then, after climb profile is assured, continue the IMC climb as per",
+            "High Performance RNAV SID guidance to the departure altitude as per ATC."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAMEDAN, SWITZERLAND",
+            "SAMEDAN",
+            "13 MAY 2025 10-10-2P22"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "10.3.4. RWY 21 SID PELAD 1V",
+            "MINIMA:",
+            "DAY ONLY. Visibility 5000m.",
+            "CEILING:",
+            "5100ft AAL.",
+            "Jeppesen Charts:",
+            "10-3B"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Performance:",
+            "As per PDCS 21DP1.",
+            "Use actual weather and conditions in \u2018Options\u2019. Use most optimal \u2018Flap\u2019 setting for Take-off."
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note: Anti-Ice ON performance analysis must be used when LSZS is 10\u00b0C or colder and reported",
+            "weather conditions would necessitate anti-ice protection during the SID to 14,000ft AMSL."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Contingency:",
+            "With OEI; Laterally follow the SID, accelerate as per PDCS \u2018LO MSL\u2019 and climb to MSA."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Raim Prediction Check:",
+            "Non-SBAS equipped aircraft will require a dispatch produced RAIM Prediction Check with 10-degree mask angle;",
+            "procedures detailed in APPENDIX. Operations on non-SBAS equipped aircraft during times when RAIM is predicted as",
+            "unavailable is prohibited. If necessary, delay or coordinate refiling as VFR as required."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Altimeter Cold Temperature Corrections:",
+            "Must be applied when LSZS surface temperature is 0\u00b0C or colder to the published altitudes shown on the SID and OEI",
+            "procedure. Use the correction chart in the APPENDIX."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE: As per Jeppesen."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "Ensure weather is at or above minima prior to departure; ceiling minima requirement ensures \u2018visual ground",
+            "contact\u2019 until 10600ft AMSL.",
+            "-",
+            "Initial climb shall be with maximum gradient; then, after climb profile is assured, continue the IMC climb as per",
+            "High Performance RNAV SID guidance to the departure altitude as per ATC."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAMEDAN, SWITZERLAND",
+            "SAMEDAN",
+            "13 MAY 2025 10-10-2P23"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        16
+      ],
+      "page_images": [
+        "static/airports/lszs/page-16.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 11,
+      "title": "Ground procedures",
+      "body": "efer to Jeppesen.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "efer to Jeppesen."
+          ]
+        }
+      ],
+      "pages": [
+        23
+      ],
+      "page_images": [
+        "static/airports/lszs/page-23.png"
+      ],
+      "embeds": [
+        "static/airports/lszs/embed-p23-02.jpeg"
+      ]
+    },
+    {
+      "num": 13,
+      "title": "Charts / Pictures / Other",
+      "body": "eather and precipitation at Samedan",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "eather and precipitation at Samedan"
+          ]
+        }
+      ],
+      "pages": [
+        23
+      ],
+      "page_images": [
+        "static/airports/lszs/page-23.png"
+      ],
+      "embeds": [
+        "static/airports/lszs/embed-p23-02.jpeg"
+      ]
+    },
+    {
+      "num": 14,
+      "title": "Changes since the last revision",
+      "body": "riefing has been updated to display the new template.\nAdded AHQ requirement.\nClimb gradients adjusted on some IFR SIDs.\nProvide feedback to Lis-OpsTechnical@netjets.com\n\nSAMEDAN, SWITZERLAND\nSAMEDAN\n13 MAY 2025 10-10-2P24\n\n-\n\nAPPENDIX\nThis section contains the following supplemental information:",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "riefing has been updated to display the new template.",
+            "Added AHQ requirement.",
+            "Climb gradients adjusted on some IFR SIDs.",
+            "Provide feedback to Lis-OpsTechnical@netjets.com"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAMEDAN, SWITZERLAND",
+            "SAMEDAN",
+            "13 MAY 2025 10-10-2P24"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "APPENDIX",
+            "This section contains the following supplemental information:"
+          ]
+        }
+      ],
+      "pages": [
+        23
+      ],
+      "page_images": [
+        "static/airports/lszs/page-23.png"
+      ],
+      "embeds": [
+        "static/airports/lszs/embed-p23-02.jpeg"
+      ]
+    },
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": ". RAIM Prediction Checks",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ". RAIM Prediction Checks"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        24,
+        24,
+        24
+      ],
+      "page_images": [
+        "static/airports/lszs/page-01.png",
+        "static/airports/lszs/page-24.png",
+        "static/airports/lszs/page-24.png",
+        "static/airports/lszs/page-24.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 3,
+      "title": "Revalidation requirements",
+      "body": ". EGPWS ALERTS\nThe following EGPWS alerts are common due to the specific terrain and operating procedures at Samedan.\nCrew response to ALL EGPWS alerts is to be in accordance with OMA 8.3.5.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ". EGPWS ALERTS",
+            "The following EGPWS alerts are common due to the specific terrain and operating procedures at Samedan.",
+            "Crew response to ALL EGPWS alerts is to be in accordance with OMA 8.3.5."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        24,
+        24,
+        24
+      ],
+      "page_images": [
+        "static/airports/lszs/page-01.png",
+        "static/airports/lszs/page-24.png",
+        "static/airports/lszs/page-24.png",
+        "static/airports/lszs/page-24.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": "he left of the approach.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "he left of the approach."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        24,
+        24,
+        24
+      ],
+      "page_images": [
+        "static/airports/lszs/page-01.png",
+        "static/airports/lszs/page-24.png",
+        "static/airports/lszs/page-24.png",
+        "static/airports/lszs/page-24.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 2,
+      "title": "Initial qualification requirements",
+      "body": ". TERRAIN CAUTION and related PULL UP WARNING - Final RWY 03 associated with the hill on short\nfinal.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ". TERRAIN CAUTION and related PULL UP WARNING - Final RWY 03 associated with the hill on short",
+            "final."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        24,
+        24,
+        24
+      ],
+      "page_images": [
+        "static/airports/lszs/page-01.png",
+        "static/airports/lszs/page-24.png",
+        "static/airports/lszs/page-24.png",
+        "static/airports/lszs/page-24.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 2,
+      "title": "Initial qualification requirements",
+      "body": "RAIM prediction check is mandatory for IFR operations at LSZS when SBAS is not installed or available. The\nCitation XLS or any other aircraft type with SBAS INOP must perform a RAIM prediction check with 10-degree\nmask angle for IFR operations at LSZS.\n\nDispatch Requirement: Produce a RAIM prediction check with 10-degree mask angle using the following website\nand settings: https://augur.eurocontrol.int/tool/ Mask Angle: 10\u00b0 / Algorithm: FD / Selective Availability: Unaware\n(OFF) / Integrity Level: APPROACH (RNP 0.3) for Approaches or Terminal (RNP 1.0) for SIDs / Barometric Aiding:\nOff\n\nThis produces a list of times when RAIM is predicted as being unavailable with 10-degree mask angle at Samedan.\n\nCrew Requirement: For non-SBAS available aircraft, check the RAIM prediction times as provided by dispatch. The\nFMS based RAIM check is not valid at LSZS as it does not limit 10-degree mask angle.\nNo IFR procedure at LSZS shall be commenced during periods when RAIM is predicted as being unavailable. If\nnecessary, delay, divert or coordinate refiling as VFR as required.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "RAIM prediction check is mandatory for IFR operations at LSZS when SBAS is not installed or available. The",
+            "Citation XLS or any other aircraft type with SBAS INOP must perform a RAIM prediction check with 10-degree",
+            "mask angle for IFR operations at LSZS."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Dispatch Requirement: Produce a RAIM prediction check with 10-degree mask angle using the following website",
+            "and settings: https://augur.eurocontrol.int/tool/ Mask Angle: 10\u00b0 / Algorithm: FD / Selective Availability: Unaware",
+            "(OFF) / Integrity Level: APPROACH (RNP 0.3) for Approaches or Terminal (RNP 1.0) for SIDs / Barometric Aiding:",
+            "Off"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "This produces a list of times when RAIM is predicted as being unavailable with 10-degree mask angle at Samedan."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Crew Requirement: For non-SBAS available aircraft, check the RAIM prediction times as provided by dispatch. The",
+            "FMS based RAIM check is not valid at LSZS as it does not limit 10-degree mask angle.",
+            "No IFR procedure at LSZS shall be commenced during periods when RAIM is predicted as being unavailable. If",
+            "necessary, delay, divert or coordinate refiling as VFR as required."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        24,
+        24,
+        24
+      ],
+      "page_images": [
+        "static/airports/lszs/page-01.png",
+        "static/airports/lszs/page-24.png",
+        "static/airports/lszs/page-24.png",
+        "static/airports/lszs/page-24.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 3,
+      "title": "Revalidation requirements",
+      "body": "s per OM-A 8.3.3.6, cold temperature correction is to be applied when aerodrome temperature is 0\u00b0C or colder.\nThe following tables are to be used at LSZS only as they reference LSZS Apt Elev.\nIFR Arrivals:\ni)\nVisual Approach with RNP Guidance RWY 03\nii)\nRNP RWY 21\nIFR Departures:\niii)\nIFR Departure RWY 03\niv)\nIFR Departure RWY 21\n\nSAMEDAN, SWITZERLAND\nSAMEDAN\n13 MAY 2025 10-10-2P25\n\n-\ni) Cold Temperature Correction Table - Visual Approach with RNP\nGuidance Rwy 03\n\nCOLD TEMPERATURE CORRECTED ALTITUDES\nVISUAL APPROACH WITH RNP GUIDANCE Rwy 03\nCold Temperature corrected; hard \u201cnot below\u201d Altitudes and \u201crecommended\u201d Altitudes\n\nAerodrome Temperature LSZS (\u00b0C)\nFIX\nAltitude\n(feet)\n0\u00b0\n-5\u00b0\n-10\u00b0\n-15\u00b0\n-20\u00b0\n-25\u00b0\n-30\u00b0\nPELAD\n16000\n16152\n16347\n16542\n16737\n16932\n17127\n17323\nZS700\n13000\n13107\n13244\n13382\n13519\n13656\n13793\n13930\nZS701\n12400\n12498\n12624\n12750\n12876\n13001\n13127\n13253\nZS702\n11800\n11889\n12004\n12118\n12233\n12347\n12462\n12576\nMDA\n11400\n11490\n11600\n11710\n11830\n11950\n12080\n12210\nVisual Segment\nDIST to ZS705\nNM\nAltitude\n(feet)\n0\u00b0\n-5\u00b0\n-10\u00b0\n-15\u00b0\n-20\u00b0\n-25\u00b0\n-30\u00b0\n10.0\n11370\n11452\n11559\n11665\n11772\n11878\n11985\n12091\n9.0\n10890\n10967\n11065\n11162\n11260\n11357\n11454\n11552\n8.6\n10700\n10780\n10870\n10970\n11080\n11190\n11300\n11410\n8.0\n10420\n10490\n10580\n10680\n10780\n10880\n10980\n11100\n7.0\n9940\n10010\n10090\n10170\n10260\n10350\n10450\n10550\n6.0\n9460\n9503\n9574\n9644\n9715\n9784\n9855\n9925\n5.0\n8980\n9026\n9088\n9149\n9211\n9273\n9335\n9397\nMust be visual\nwith Runway\n8820\n8870\n8930\n8990\n9060\n9130\n9200\n9270\n\nMissed Approach Altitude\nFIX\nAltitude\n(feet)\n0\u00b0\n-5\u00b0\n-10\u00b0\n-15\u00b0\n-20\u00b0\n-25\u00b0\n-30\u00b0\nRONAG\n14000\n14122\n14278\n14435\n14591\n14747\n14904\n15060\n\nSAMEDAN, SWITZERLAND\nSAMEDAN\n13 MAY 2025 10-10-2P26\n\n-\nii) Cold Temperature Correction Table \u2013 RNP RWY 21\n\nCOLD TEMPERATURE CORRECTED ALTITUDES\nRNP Rwy 21\nCold Temperature corrected; hard \u201cnot below\u201d Altitudes and \u201crecommended\u201d Altitudes\n\nAerodrome Temperature LSZS (\u00b0C)\nFIX\nAltitude\n(feet)\n0\u00b0\n-5\u00b0\n-10\u00b0\n-15\u00b0\n-20\u00b0\n-25\u00b0\n-30\u00b0\nRONAG\n14000\n14122\n14278\n14435\n14591\n14747\n14904\n15060\nZS710\n13000\n13107\n13244\n13382\n13519\n13656\n13793\n13930\nDIST to ZS712\nNM\nAltitude\n(feet)\n0\u00b0\n-5\u00b0\n-10\u00b0\n-15\u00b0\n-20\u00b0\n-25\u00b0\n-30\u00b0\n15.0\n13000\n13107\n13244\n13382\n13519\n13656\n13793\n13930\n14.0\n12530\n12652\n12781\n12910\n13039\n13167\n13296\n13425\n13.0\n12060\n12197\n12318\n12439\n12559\n12679\n12799\n12919\n12.0\n11600\n11743\n11855\n11967\n12078\n12190\n12302\n12414\n11.0\n11130\n11288\n11391\n11495\n11598\n11702\n11805\n11909\n10.0\n10660\n10833\n10928\n11024\n11118\n11213\n11308\n11403\n9.9\n10600\n10680\n10770\n10870\n10970\n11080\n11190\n11300\n9.0\n10190\n10347\n10433\n10519\n10605\n10691\n10777\n10863\n8.0\n9720\n9840\n9917\n9994\n10070\n10147\n10223\n10300\nMDA 2.5%\n9500\n9560\n9630\n9710\n9790\n9870\n9960\n10050\n7.0\n9250\n9333\n9400\n9468\n9535\n9603\n9670\n9737\n6.0\n8780\n8826\n8884\n8942\n9001\n9058\n9116\n9174\nMDA 4.3%\n8680\n8724\n8780\n8836\n8893\n8949\n9005\n9061\n\nMISSED APPROACH ALTITUDES\nFIX\nAltitude\n(feet)\n0\u00b0\n-5\u00b0\n-10\u00b0\n-15\u00b0\n-20\u00b0\n-25\u00b0\n-30\u00b0\nZS702 at or\nabove\n12700\n12803\n12934\n13066\n13198\n13329\n13460\n13592\nPELAD\n16000\n16152\n16347\n16542\n16737\n16932\n17127\n17323\n\nSAMEDAN, SWITZERLAND\nSAMEDAN\n13 MAY 2025 10-10-2P27\n\n-\niii) Cold Temperature Correction Table \u2013 IFR DEPARTURE RWY 03\n\nCOLD TEMPERATURE CORRECTED ALTITUDES\nIFR Departure RWY 03\nAerodrome Temperature LSZS (\u00b0C)\nAltitude\n(feet)\n0\u00b0\n-5\u00b0\n-10\u00b0\n-15\u00b0\n-20\u00b0\n-25\u00b0\n-30\u00b0\n14000\n14122\n14278\n14435\n14591\n14747\n14904\n15060\n\niv) Cold Temperature Correction Table \u2013 IFR DEPARTURE RWY 21\n\nCOLD TEMPERATURE CORRECTED ALTITUDES\nIFR Departure RWY 21\nAerodrome Temperature LSZS (\u00b0C)\nAltitude\n(feet)\n0\u00b0\n-5\u00b0\n-10\u00b0\n-15\u00b0\n-20\u00b0\n-25\u00b0\n-30\u00b0\n16000\n16152\n16347\n16542\n16737\n16932\n17127\n17323",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "s per OM-A 8.3.3.6, cold temperature correction is to be applied when aerodrome temperature is 0\u00b0C or colder.",
+            "The following tables are to be used at LSZS only as they reference LSZS Apt Elev.",
+            "IFR Arrivals:",
+            "i)",
+            "Visual Approach with RNP Guidance RWY 03",
+            "ii)",
+            "RNP RWY 21",
+            "IFR Departures:",
+            "iii)",
+            "IFR Departure RWY 03",
+            "iv)",
+            "IFR Departure RWY 21"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAMEDAN, SWITZERLAND",
+            "SAMEDAN",
+            "13 MAY 2025 10-10-2P25"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "i) Cold Temperature Correction Table - Visual Approach with RNP",
+            "Guidance Rwy 03"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "COLD TEMPERATURE CORRECTED ALTITUDES",
+            "VISUAL APPROACH WITH RNP GUIDANCE Rwy 03",
+            "Cold Temperature corrected; hard \u201cnot below\u201d Altitudes and \u201crecommended\u201d Altitudes"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Aerodrome Temperature LSZS (\u00b0C)",
+            "FIX",
+            "Altitude",
+            "(feet)",
+            "0\u00b0",
+            "-5\u00b0",
+            "-10\u00b0",
+            "-15\u00b0",
+            "-20\u00b0",
+            "-25\u00b0",
+            "-30\u00b0",
+            "PELAD",
+            "16000",
+            "16152",
+            "16347",
+            "16542",
+            "16737",
+            "16932",
+            "17127",
+            "17323",
+            "ZS700",
+            "13000",
+            "13107",
+            "13244",
+            "13382",
+            "13519",
+            "13656",
+            "13793",
+            "13930",
+            "ZS701",
+            "12400",
+            "12498",
+            "12624",
+            "12750",
+            "12876",
+            "13001",
+            "13127",
+            "13253",
+            "ZS702",
+            "11800",
+            "11889",
+            "12004",
+            "12118",
+            "12233",
+            "12347",
+            "12462",
+            "12576",
+            "MDA",
+            "11400",
+            "11490",
+            "11600",
+            "11710",
+            "11830",
+            "11950",
+            "12080",
+            "12210",
+            "Visual Segment",
+            "DIST to ZS705",
+            "NM",
+            "Altitude",
+            "(feet)",
+            "0\u00b0",
+            "-5\u00b0",
+            "-10\u00b0",
+            "-15\u00b0",
+            "-20\u00b0",
+            "-25\u00b0",
+            "-30\u00b0",
+            "10.0",
+            "11370",
+            "11452",
+            "11559",
+            "11665",
+            "11772",
+            "11878",
+            "11985",
+            "12091",
+            "9.0",
+            "10890",
+            "10967",
+            "11065",
+            "11162",
+            "11260",
+            "11357",
+            "11454",
+            "11552",
+            "8.6",
+            "10700",
+            "10780",
+            "10870",
+            "10970",
+            "11080",
+            "11190",
+            "11300",
+            "11410",
+            "8.0",
+            "10420",
+            "10490",
+            "10580",
+            "10680",
+            "10780",
+            "10880",
+            "10980",
+            "11100",
+            "7.0",
+            "9940",
+            "10010",
+            "10090",
+            "10170",
+            "10260",
+            "10350",
+            "10450",
+            "10550",
+            "6.0",
+            "9460",
+            "9503",
+            "9574",
+            "9644",
+            "9715",
+            "9784",
+            "9855",
+            "9925",
+            "5.0",
+            "8980",
+            "9026",
+            "9088",
+            "9149",
+            "9211",
+            "9273",
+            "9335",
+            "9397",
+            "Must be visual",
+            "with Runway",
+            "8820",
+            "8870",
+            "8930",
+            "8990",
+            "9060",
+            "9130",
+            "9200",
+            "9270"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Missed Approach Altitude",
+            "FIX",
+            "Altitude",
+            "(feet)",
+            "0\u00b0",
+            "-5\u00b0",
+            "-10\u00b0",
+            "-15\u00b0",
+            "-20\u00b0",
+            "-25\u00b0",
+            "-30\u00b0",
+            "RONAG",
+            "14000",
+            "14122",
+            "14278",
+            "14435",
+            "14591",
+            "14747",
+            "14904",
+            "15060"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAMEDAN, SWITZERLAND",
+            "SAMEDAN",
+            "13 MAY 2025 10-10-2P26"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "ii) Cold Temperature Correction Table \u2013 RNP RWY 21"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "COLD TEMPERATURE CORRECTED ALTITUDES",
+            "RNP Rwy 21",
+            "Cold Temperature corrected; hard \u201cnot below\u201d Altitudes and \u201crecommended\u201d Altitudes"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Aerodrome Temperature LSZS (\u00b0C)",
+            "FIX",
+            "Altitude",
+            "(feet)",
+            "0\u00b0",
+            "-5\u00b0",
+            "-10\u00b0",
+            "-15\u00b0",
+            "-20\u00b0",
+            "-25\u00b0",
+            "-30\u00b0",
+            "RONAG",
+            "14000",
+            "14122",
+            "14278",
+            "14435",
+            "14591",
+            "14747",
+            "14904",
+            "15060",
+            "ZS710",
+            "13000",
+            "13107",
+            "13244",
+            "13382",
+            "13519",
+            "13656",
+            "13793",
+            "13930",
+            "DIST to ZS712",
+            "NM",
+            "Altitude",
+            "(feet)",
+            "0\u00b0",
+            "-5\u00b0",
+            "-10\u00b0",
+            "-15\u00b0",
+            "-20\u00b0",
+            "-25\u00b0",
+            "-30\u00b0",
+            "15.0",
+            "13000",
+            "13107",
+            "13244",
+            "13382",
+            "13519",
+            "13656",
+            "13793",
+            "13930",
+            "14.0",
+            "12530",
+            "12652",
+            "12781",
+            "12910",
+            "13039",
+            "13167",
+            "13296",
+            "13425",
+            "13.0",
+            "12060",
+            "12197",
+            "12318",
+            "12439",
+            "12559",
+            "12679",
+            "12799",
+            "12919",
+            "12.0",
+            "11600",
+            "11743",
+            "11855",
+            "11967",
+            "12078",
+            "12190",
+            "12302",
+            "12414",
+            "11.0",
+            "11130",
+            "11288",
+            "11391",
+            "11495",
+            "11598",
+            "11702",
+            "11805",
+            "11909",
+            "10.0",
+            "10660",
+            "10833",
+            "10928",
+            "11024",
+            "11118",
+            "11213",
+            "11308",
+            "11403",
+            "9.9",
+            "10600",
+            "10680",
+            "10770",
+            "10870",
+            "10970",
+            "11080",
+            "11190",
+            "11300",
+            "9.0",
+            "10190",
+            "10347",
+            "10433",
+            "10519",
+            "10605",
+            "10691",
+            "10777",
+            "10863",
+            "8.0",
+            "9720",
+            "9840",
+            "9917",
+            "9994",
+            "10070",
+            "10147",
+            "10223",
+            "10300",
+            "MDA 2.5%",
+            "9500",
+            "9560",
+            "9630",
+            "9710",
+            "9790",
+            "9870",
+            "9960",
+            "10050",
+            "7.0",
+            "9250",
+            "9333",
+            "9400",
+            "9468",
+            "9535",
+            "9603",
+            "9670",
+            "9737",
+            "6.0",
+            "8780",
+            "8826",
+            "8884",
+            "8942",
+            "9001",
+            "9058",
+            "9116",
+            "9174",
+            "MDA 4.3%",
+            "8680",
+            "8724",
+            "8780",
+            "8836",
+            "8893",
+            "8949",
+            "9005",
+            "9061"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MISSED APPROACH ALTITUDES",
+            "FIX",
+            "Altitude",
+            "(feet)",
+            "0\u00b0",
+            "-5\u00b0",
+            "-10\u00b0",
+            "-15\u00b0",
+            "-20\u00b0",
+            "-25\u00b0",
+            "-30\u00b0",
+            "ZS702 at or",
+            "above",
+            "12700",
+            "12803",
+            "12934",
+            "13066",
+            "13198",
+            "13329",
+            "13460",
+            "13592",
+            "PELAD",
+            "16000",
+            "16152",
+            "16347",
+            "16542",
+            "16737",
+            "16932",
+            "17127",
+            "17323"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAMEDAN, SWITZERLAND",
+            "SAMEDAN",
+            "13 MAY 2025 10-10-2P27"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "iii) Cold Temperature Correction Table \u2013 IFR DEPARTURE RWY 03"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "COLD TEMPERATURE CORRECTED ALTITUDES",
+            "IFR Departure RWY 03",
+            "Aerodrome Temperature LSZS (\u00b0C)",
+            "Altitude",
+            "(feet)",
+            "0\u00b0",
+            "-5\u00b0",
+            "-10\u00b0",
+            "-15\u00b0",
+            "-20\u00b0",
+            "-25\u00b0",
+            "-30\u00b0",
+            "14000",
+            "14122",
+            "14278",
+            "14435",
+            "14591",
+            "14747",
+            "14904",
+            "15060"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "iv) Cold Temperature Correction Table \u2013 IFR DEPARTURE RWY 21"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "COLD TEMPERATURE CORRECTED ALTITUDES",
+            "IFR Departure RWY 21",
+            "Aerodrome Temperature LSZS (\u00b0C)",
+            "Altitude",
+            "(feet)",
+            "0\u00b0",
+            "-5\u00b0",
+            "-10\u00b0",
+            "-15\u00b0",
+            "-20\u00b0",
+            "-25\u00b0",
+            "-30\u00b0",
+            "16000",
+            "16152",
+            "16347",
+            "16542",
+            "16737",
+            "16932",
+            "17127",
+            "17323"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        24,
+        24,
+        24
+      ],
+      "page_images": [
+        "static/airports/lszs/page-01.png",
+        "static/airports/lszs/page-24.png",
+        "static/airports/lszs/page-24.png",
+        "static/airports/lszs/page-24.png"
+      ],
+      "embeds": []
+    }
+  ]
+}

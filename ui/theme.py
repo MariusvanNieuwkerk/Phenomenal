@@ -4,7 +4,7 @@ import os
 import streamlit as st
 import streamlit.components.v1 as components
 
-from ui.tokens import COLORS, FONT_FAMILY
+from ui.tokens import COLORS, FONT_FAMILY, LOGO_FONT_FAMILY, LOGO_FONT_URL
 
 APP_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATIC_DIR = os.path.join(APP_DIR, "static")
@@ -19,8 +19,22 @@ def _svg_data_uri(filename: str) -> str:
 
 def _theme_css() -> str:
     return f"""
+@import url('{LOGO_FONT_URL}');
+
 html, body, [class*="css"] {{
   font-family: {FONT_FAMILY} !important;
+}}
+
+.briefly-logo,
+[data-testid="stMarkdownContainer"] p.briefly-logo {{
+  margin: 1.65rem 0 0.85rem !important;
+  padding: 0 !important;
+  font-family: {LOGO_FONT_FAMILY} !important;
+  font-weight: 600 !important;
+  font-size: 2.85rem !important;
+  letter-spacing: 0.03em !important;
+  line-height: 1.05 !important;
+  color: {COLORS["ink"]} !important;
 }}
 
 .stApp {{
@@ -33,7 +47,7 @@ html, body, [class*="css"] {{
 
 .block-container {{
   max-width: 1400px;
-  padding-top: 0.75rem;
+  padding-top: 1.75rem;
   padding-bottom: 2rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -129,6 +143,97 @@ hr {{
 """
 
 
+def inject_scroll_to_top_chevron(*, enabled: bool = True, anchor_id: str = "briefly-systems-top"):
+    """Fixed side chevron — visible after scrolling down (Systems page)."""
+    accent = COLORS["accent"]
+    accent_dark = COLORS["accent_dark"]
+    enabled_js = "true" if enabled else "false"
+    components.html(
+        f"""
+        <script>
+        (function() {{
+          const doc = window.parent.document;
+          const enabled = {enabled_js};
+          const anchorId = "{anchor_id}";
+          let btn = doc.getElementById("briefly-scroll-top");
+          if (!enabled) {{
+            if (btn) {{
+              btn.style.opacity = "0";
+              btn.style.pointerEvents = "none";
+            }}
+            return;
+          }}
+          if (!btn) {{
+            btn = doc.createElement("button");
+            btn.id = "briefly-scroll-top";
+            btn.type = "button";
+            btn.setAttribute("aria-label", "Terug naar boven");
+            btn.innerHTML = `
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                   xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M6 14l6-6 6 6" stroke="currentColor" stroke-width="2.5"
+                      stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>`;
+            btn.style.cssText = `
+              position: fixed;
+              right: max(0.75rem, env(safe-area-inset-right));
+              top: 50%;
+              z-index: 99999;
+              width: 46px;
+              height: 46px;
+              margin-top: -23px;
+              border-radius: 50%;
+              border: 1.5px solid {accent_dark};
+              background: {accent};
+              color: #fff;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              cursor: pointer;
+              box-shadow: 0 4px 16px rgba(26, 77, 122, 0.32);
+              opacity: 0;
+              pointer-events: none;
+              transition: opacity 0.22s ease, transform 0.22s ease;
+              transform: translateX(12px);
+            `;
+            doc.body.appendChild(btn);
+            btn.addEventListener("click", () => {{
+              const target = doc.getElementById(anchorId);
+              const main = doc.querySelector("section.main");
+              if (target) {{
+                target.scrollIntoView({{ behavior: "smooth", block: "start" }});
+              }} else if (main) {{
+                main.scrollTo({{ top: 0, behavior: "smooth" }});
+              }} else {{
+                window.parent.scrollTo({{ top: 0, behavior: "smooth" }});
+              }}
+            }});
+          }}
+          function scrollY() {{
+            const main = doc.querySelector("section.main");
+            if (main && main.scrollHeight > main.clientHeight) return main.scrollTop;
+            return doc.documentElement.scrollTop || doc.body.scrollTop || 0;
+          }}
+          function onScroll() {{
+            const show = scrollY() > 200;
+            btn.style.opacity = show ? "1" : "0";
+            btn.style.pointerEvents = show ? "auto" : "none";
+            btn.style.transform = show ? "translateX(0)" : "translateX(12px)";
+          }}
+          if (!window.__brieflyScrollTopInit) {{
+            window.__brieflyScrollTopInit = true;
+            const main = doc.querySelector("section.main");
+            if (main) main.addEventListener("scroll", onScroll, {{ passive: true }});
+            window.parent.addEventListener("scroll", onScroll, {{ passive: true }});
+          }}
+          onScroll();
+        }})();
+        </script>
+        """,
+        height=0,
+    )
+
+
 def inject_theme_css():
     css = _theme_css().replace("\\", "\\\\").replace("`", "\\`")
     components.html(
@@ -137,6 +242,7 @@ def inject_theme_css():
         (function() {{
           const doc = window.parent.document;
           doc.body.classList.remove("briefly-sop-page");
+          doc.body.classList.remove("briefly-memory-page");
           let style = doc.getElementById("briefly-theme");
           if (!style) {{
             style = doc.createElement("style");
@@ -152,15 +258,7 @@ def inject_theme_css():
 
 
 def render_header():
-    logo_uri = _svg_data_uri("briefly-logo.svg")
-    components.html(
-        f"""
-        <div style="padding:0.5rem 0 0.85rem;overflow:visible;">
-          <img src="{logo_uri}" alt="Briefly" style="height:44px;width:auto;display:block;" />
-        </div>
-        """,
-        height=76,
-    )
+    st.markdown('<p class="briefly-logo">Briefly</p>', unsafe_allow_html=True)
 
 
 def render_nav_button_row(items, active_section: str, navigate_fn, row_key: str):
@@ -183,15 +281,70 @@ def render_hero(subtitle: str | None = None):
 
 
 def inject_memory_page_css():
-    css = (
-        '[data-testid="stExpander"] details summary p {'
-        f'color: {COLORS["memory"]} !important; font-weight: 700 !important; }}'
-    ).replace("\\", "\\\\").replace("`", "\\`")
+    css = f"""
+body.briefly-memory-page [data-testid="stExpander"] summary,
+body.briefly-memory-page [data-testid="stExpander"] summary p,
+body.briefly-memory-page [data-testid="stExpander"] summary strong,
+body.briefly-memory-page [data-testid="stExpander"] summary span,
+body.briefly-memory-page [data-testid="stExpander"] summary [data-testid="stMarkdownContainer"],
+body.briefly-memory-page [data-testid="stExpander"] summary [data-testid="stMarkdownContainer"] p,
+body.briefly-memory-page [data-testid="stExpander"] summary [data-testid="stMarkdownContainer"] strong {{
+  color: {COLORS["memory"]} !important;
+  font-weight: 700 !important;
+}}
+body.briefly-memory-page [data-testid="stMarkdownContainer"] table {{
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  margin: 0.5rem 0 0.85rem;
+  border: 1px solid rgba(155, 180, 201, 0.45);
+  border-radius: 10px;
+  overflow: hidden;
+}}
+body.briefly-memory-page [data-testid="stMarkdownContainer"] table thead th {{
+  background: {COLORS["accent_soft"]};
+  color: {COLORS["ink_soft"]};
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.45rem 0.7rem;
+}}
+body.briefly-memory-page [data-testid="stMarkdownContainer"] table td {{
+  padding: 0.45rem 0.7rem;
+  border-top: 1px solid rgba(155, 180, 201, 0.22);
+  vertical-align: top;
+  background: transparent;
+}}
+body.briefly-memory-page [data-testid="stMarkdownContainer"] table td:first-child {{
+  color: {COLORS["ink_soft"]};
+  font-weight: 600;
+  width: 42%;
+}}
+.briefly-mi-critical {{
+  color: #B91C1C;
+  font-weight: 800;
+}}
+.briefly-mi-action {{
+  color: #C2410C;
+  font-weight: 700;
+}}
+.briefly-mi-caution {{
+  color: #92400E;
+  background: #FFFBEB;
+  border-left: 3px solid #F59E0B;
+  padding: 0.45rem 0.65rem;
+  border-radius: 0 8px 8px 0;
+  margin: 0.35rem 0 0.55rem;
+  font-size: 0.9rem;
+  font-style: italic;
+}}
+""".replace("\\", "\\\\").replace("`", "\\`")
     components.html(
         f"""
         <script>
         (function() {{
           const doc = window.parent.document;
+          doc.body.classList.add("briefly-memory-page");
           let style = doc.getElementById("briefly-memory-theme");
           if (!style) {{
             style = doc.createElement("style");

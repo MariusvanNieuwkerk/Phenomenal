@@ -1,0 +1,886 @@
+{
+  "icao": "EGLC",
+  "page_count": 8,
+  "pages": [
+    {
+      "page": 1,
+      "image": "static/airports/eglc/page-01.png",
+      "embeds": []
+    },
+    {
+      "page": 2,
+      "image": "static/airports/eglc/page-02.png",
+      "embeds": []
+    },
+    {
+      "page": 3,
+      "image": "static/airports/eglc/page-03.png",
+      "embeds": [
+        "static/airports/eglc/embed-p03-02.jpeg"
+      ]
+    },
+    {
+      "page": 4,
+      "image": "static/airports/eglc/page-04.png",
+      "embeds": [
+        "static/airports/eglc/embed-p04-02.jpeg",
+        "static/airports/eglc/embed-p04-03.jpeg"
+      ]
+    },
+    {
+      "page": 5,
+      "image": "static/airports/eglc/page-05.png",
+      "embeds": []
+    },
+    {
+      "page": 6,
+      "image": "static/airports/eglc/page-06.png",
+      "embeds": []
+    },
+    {
+      "page": 7,
+      "image": "static/airports/eglc/page-07.png",
+      "embeds": []
+    },
+    {
+      "page": 8,
+      "image": "static/airports/eglc/page-08.png",
+      "embeds": [
+        "static/airports/eglc/embed-p08-02.jpeg"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": "IC qualification required\nYES\nEGLC PIC (which includes: Steep Approach PF required; AHQ required).\nSIC qualification required\nYES\nEGLC SIC\nQualification is type related\nYES\n\nSelf-Briefing\nNO",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "IC qualification required",
+            "YES",
+            "EGLC PIC (which includes: Steep Approach PF required; AHQ required).",
+            "SIC qualification required",
+            "YES",
+            "EGLC SIC",
+            "Qualification is type related",
+            "YES"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Self-Briefing",
+            "NO"
+          ]
+        }
+      ],
+      "pages": [
+        1
+      ],
+      "page_images": [
+        "static/airports/eglc/page-01.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 2,
+      "title": "Initial qualification requirements",
+      "body": ". REVALIDATION REQUIREMENTS\nGround Training\nYES\nSelf-briefing\nYES\n12 Months\nSimulator Training\nYES\n\nYES\nEMB-505, BD-100, BD-700: 6 months\nRemaining fleets: 12 Months\nIn-flight familiarization\nNO\n\nNO\n\nFlight training\nNO\n\nNO",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ". REVALIDATION REQUIREMENTS",
+            "Ground Training",
+            "YES",
+            "Self-briefing",
+            "YES",
+            "12 Months",
+            "Simulator Training",
+            "YES"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "YES",
+            "EMB-505, BD-100, BD-700: 6 months",
+            "Remaining fleets: 12 Months",
+            "In-flight familiarization",
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Flight training",
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NO"
+          ]
+        }
+      ],
+      "pages": [
+        1
+      ],
+      "page_images": [
+        "static/airports/eglc/page-01.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 5,
+      "title": "Limitations / Miscellaneous",
+      "body": "PPROACH & LANDING\n\u2022 Steep approach approved aircraft and qualified crew shall be used.\n\u2022 Steep approach procedures and performance shall be used.\n\u2022 Fractional Ops performance is PROHIBITED.\n\u2022 See OM-A 8.3.28.3 Steep Approach Operations, OM-D 2.1.1.5.6 and OM-D 2.1.3.4.6.\n\nEGLC PF / PM ASSIGNMENT\n\u2022 BD-700: LHS shall be PF for take-off and landing.\n\u2022 All other fleets: PF assignment for take-off shall be at the discretion of the PIC. PF shall hold a current AHQ.\nFor Approach:\n\u2022 PF shall hold current AHQ and Steep Approach PF qualifications.\n\u2022 PM shall hold as a minimum, a current Steep Approach PM qualification.\n\nLONDON, UK\nLONDON CITY\n40-10-2P2\n\n-\nWIND LIMITATIONS\n\nMax CROSSWIND Component for LANDING:\nEMB-505:\n28 KTS\nCE-560XLS:\n24 KTS\nCE-680A:\n30 KTS\nBD-100:\n20 KTS\nCL-600:\n20 KTS\nBD-700:\n15 KTS\n\nMax TAILWIND Component for LANDING:\nEMB-505:\n5 KTS\nCE-680A:\n5 KTS\nCE-560XLS:\n0 (zero) KTS\nBD-100:\n0 (zero) KTS\nCL-600:\n0 (zero) KTS\nBD-700:\n0 (zero) KTS\n\nNote: EGLC normally operates to reduce tailwind component (TWC) to zero if possible; however, a slight\nTWC is sometimes experienced with a light Southerly wind. Up to and including 5 KTS, TWC can be\naccepted on landing if specifically permitted by OM-B / AFM and when performance permits.\n\nMax Wind for TAXIING:\nAll fleets:\n50 KTS\n\nMax CROSSWIND Component for TAKE-OFF:\nAs per OM-B.\n\nDIVERSION OF FLIGHT\n\nWARNING:\nIt is PROHIBITED to nominate EGLC as a nominated diversion aerodrome.\n\nDiversions for customer/crew preference to EGLC shall be avoided, except if coordinated with Flight Dispatch\nor the Duty Manager (via Hotline).\n\nRUNWAY SURFACE (as per AIP AD 2.20)\n\u2022 Operations by all aircraft shall be permitted only when the runway is DRY, or if WET devoid of other than small\nareas of water not exceeding depth of 3 mm.\n\u2022 Operations will be PROHIBITED when the runway is CONTAMINATED:\no by ICE or SLUSH to a depth exceeding 3 mm, or\no DRY SNOW to a depth of 10 mm, or\no the reported friction measurement is reported as worse than 'medium' provided that this condition\nshall not apply if there is an appropriate entry covering operation from contaminated runways\ncontained in the relevant flight manual.\n\nLONDON, UK\nLONDON CITY\n40-10-2P3\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "PPROACH & LANDING"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Steep approach approved aircraft and qualified crew shall be used.",
+            "Steep approach procedures and performance shall be used.",
+            "Fractional Ops performance is PROHIBITED.",
+            "See OM-A 8.3.28.3 Steep Approach Operations, OM-D 2.1.1.5.6 and OM-D 2.1.3.4.6."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "EGLC PF / PM ASSIGNMENT"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "BD-700: LHS shall be PF for take-off and landing.",
+            "All other fleets: PF assignment for take-off shall be at the discretion of the PIC. PF shall hold a current AHQ."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "For Approach:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "PF shall hold current AHQ and Steep Approach PF qualifications.",
+            "PM shall hold as a minimum, a current Steep Approach PM qualification."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LONDON, UK",
+            "LONDON CITY",
+            "40-10-2P2"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "WIND LIMITATIONS"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Max CROSSWIND Component for LANDING:",
+            "EMB-505:",
+            "28 KTS",
+            "CE-560XLS:",
+            "24 KTS",
+            "CE-680A:",
+            "30 KTS",
+            "BD-100:",
+            "20 KTS",
+            "CL-600:",
+            "20 KTS",
+            "BD-700:",
+            "15 KTS"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Max TAILWIND Component for LANDING:",
+            "EMB-505:",
+            "5 KTS",
+            "CE-680A:",
+            "5 KTS",
+            "CE-560XLS:",
+            "0 (zero) KTS",
+            "BD-100:",
+            "0 (zero) KTS",
+            "CL-600:",
+            "0 (zero) KTS",
+            "BD-700:",
+            "0 (zero) KTS"
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note: EGLC normally operates to reduce tailwind component (TWC) to zero if possible; however, a slight",
+            "TWC is sometimes experienced with a light Southerly wind. Up to and including 5 KTS, TWC can be",
+            "accepted on landing if specifically permitted by OM-B / AFM and when performance permits."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Max Wind for TAXIING:",
+            "All fleets:",
+            "50 KTS"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Max CROSSWIND Component for TAKE-OFF:",
+            "As per OM-B."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DIVERSION OF FLIGHT"
+          ]
+        },
+        {
+          "type": "warning",
+          "lines": [
+            "WARNING:",
+            "It is PROHIBITED to nominate EGLC as a nominated diversion aerodrome."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Diversions for customer/crew preference to EGLC shall be avoided, except if coordinated with Flight Dispatch",
+            "or the Duty Manager (via Hotline)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "RUNWAY SURFACE (as per AIP AD 2.20)"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Operations by all aircraft shall be permitted only when the runway is DRY, or if WET devoid of other than small"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "areas of water not exceeding depth of 3 mm."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Operations will be PROHIBITED when the runway is CONTAMINATED:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "o by ICE or SLUSH to a depth exceeding 3 mm, or",
+            "o DRY SNOW to a depth of 10 mm, or",
+            "o the reported friction measurement is reported as worse than 'medium' provided that this condition",
+            "shall not apply if there is an appropriate entry covering operation from contaminated runways",
+            "contained in the relevant flight manual."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LONDON, UK",
+            "LONDON CITY",
+            "40-10-2P3"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        1
+      ],
+      "page_images": [
+        "static/airports/eglc/page-01.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 6,
+      "title": "Weather / Airport limitations",
+      "body": "RRIVAL\nDEPARTURE\n\nVISIBILITY\nCEILING\nVISIBILITY\nCEILING\nB\nRefer to section:",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "RRIVAL",
+            "DEPARTURE"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VISIBILITY",
+            "CEILING",
+            "VISIBILITY",
+            "CEILING",
+            "B",
+            "Refer to section:"
+          ]
+        }
+      ],
+      "pages": [
+        3
+      ],
+      "page_images": [
+        "static/airports/eglc/page-03.png"
+      ],
+      "embeds": [
+        "static/airports/eglc/embed-p03-02.jpeg"
+      ]
+    },
+    {
+      "num": 9,
+      "title": "Arrival procedures",
+      "body": "s per Jeppesen\nC\n\nOTHER LIMITATIONS\nNil.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "s per Jeppesen",
+            "C"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "OTHER LIMITATIONS",
+            "Nil."
+          ]
+        }
+      ],
+      "pages": [
+        3,
+        4
+      ],
+      "page_images": [
+        "static/airports/eglc/page-03.png",
+        "static/airports/eglc/page-04.png"
+      ],
+      "embeds": [
+        "static/airports/eglc/embed-p03-02.jpeg",
+        "static/airports/eglc/embed-p04-02.jpeg",
+        "static/airports/eglc/embed-p04-03.jpeg"
+      ]
+    },
+    {
+      "num": 7,
+      "title": "Overview",
+      "body": "ondon City airport is a busy civil airport located in East London and is Category C due to required Steep Approach\ntraining.\nThe airport also needs special consideration due to the relatively short runway, close proximity obstacles, possible\nmagnetic anomalies and noise.\nRefer to Jeppesen Airport Briefing pages 40-1P through 40-1P2 for additional information.\n\nAirport overview\n\nLONDON, UK\nLONDON CITY\n40-10-2P4\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "ondon City airport is a busy civil airport located in East London and is Category C due to required Steep Approach",
+            "training.",
+            "The airport also needs special consideration due to the relatively short runway, close proximity obstacles, possible",
+            "magnetic anomalies and noise.",
+            "Refer to Jeppesen Airport Briefing pages 40-1P through 40-1P2 for additional information."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Airport overview"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LONDON, UK",
+            "LONDON CITY",
+            "40-10-2P4"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        3
+      ],
+      "page_images": [
+        "static/airports/eglc/page-03.png"
+      ],
+      "embeds": [
+        "static/airports/eglc/embed-p03-02.jpeg"
+      ]
+    },
+    {
+      "num": 8,
+      "title": "Operational procedures \u2014 General",
+      "body": "he airport is surrounded by close in buildings / obstacles, hence the need for the steep approach. Expect possible\nlow-level turbulence and windshear in strong winds.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "he airport is surrounded by close in buildings / obstacles, hence the need for the steep approach. Expect possible",
+            "low-level turbulence and windshear in strong winds."
+          ]
+        }
+      ],
+      "pages": [
+        4
+      ],
+      "page_images": [
+        "static/airports/eglc/page-04.png"
+      ],
+      "embeds": [
+        "static/airports/eglc/embed-p04-02.jpeg",
+        "static/airports/eglc/embed-p04-03.jpeg"
+      ]
+    },
+    {
+      "num": 9,
+      "title": "Arrival procedures",
+      "body": ".1. GENERAL\nUnder normal conditions, an ILS/LOC approach shall be conducted, refer to 9.2 ILS/LOC APPROACHES.\nWhenever the ILS/LOC is unavailable by NOTAM or AIP Supplement, a visual approach is required. Under this\ncondition, refer to 9.3 VISUAL APPROACH.\n\nFinal RWY 27\n\nFinal RWY 09\n\nLONDON, UK\nLONDON CITY\n40-10-2P5\n\n-\n9.2. ILS/LOC APPROACHES\n\nMINIMA:\n\nAs per Jeppesen\n\nPERFORMANCE:\nSteep approach performance shall be used.\nCheck tailwind carefully - ensure any Fleet specific/AFM tailwind limitations are\nadhered to.\n\nPROCEDURE:\nAs per Jeppesen.\nSteep approach procedures shall be used\n\nCAUTION:\nODLEG transition does not connect directly to the ILS 09 and the distance from ODLEG to the Localiser is less than\n1.9nm so careful planning and monitoring of Flight Director modes is required.\n\nLONDON, UK\nLONDON CITY\n40-10-2P6\n\n-\n9.3. VISUAL APPROACH\n\nWARNING\nA visual approach is only to be used when ILS/LOC approach is not available, this will be indicated by NOTAM\nand/or AIP Supplement (due to navaids being unserviceable).\nIn all other conditions, an ILS/LOC approach shall be conducted (as per 9.2 ILS/LOC APPROACHES).\n\nMINIMA:\n\nCeiling:\n2000ft\n\nVisibility:\n6KM\n\nPAPI must be operative.\n\nPERFORMANCE:\nSteep approach performance shall be used.\nCheck tailwind carefully - ensure any Fleet specific/AFM tailwind limitations are\nadhered to.\n\nPROCEDURE:\nSteep approach procedures shall be used.\nRefer to chart 49-10 VISUAL APPROACH PROFILE (CAT A, B & C).  This chart is contained\nin the TAXI tab (and not the APP tab) on the iPad FD Pro App.\n\nNote: on consultation with EGLC ATC, crew may expect to commence the Visual\napproach from 2000ft and not the 1500ft/1600ft shown on Jepp 49-10.  This is partially\ntraffic flow with THAMES RADAR and partially due to Noise Abatement strategies.  This\nequates to 3.4nm from THOLD.\n\nDistances on this chart are based on the DME which MAY NOT be available.  In this\nsituation, make use of the Speed/Rate of Descent tables on the appropriate ILS Jepp\nChart.\n\nConfigure early and make a smooth but positive attitude selection for the final descent\nto avoid being high.\n\nNote the requirement to hold the required visual references before final visual descent.\n\nBe prepared to GO AROUND.  This is not a usual operational mode and errors in the\nentry and maintenance of the visual steep descent may be encountered.  Given the\nshort final sector length, an unstable approach may result.\n\nMISSED APPROACH:\n(Including a Balked Landing). Following consultation with EGLC ATC, the following\nprocedures can be expected:\n\n\u2022 EGLC may provide specific Instructions to aircraft on a Visual Approach in the event\nof a missed approach.  In the event no instructions are received:\n\n\u2022 RWY 27:  Follow the ILS/LOC published missed approach.  If the ILSR is unavailable\non RWY 27, use LON DME.  This is shown on the Jepp 41-2 Chart.\n\n\u2022 RWY 09:  Climb straight ahead (track 092\u00ba) to 2000ft and follow ATC instructions.\nExpect to be handed to THAMES RADAR (DIRECTOR) as soon as safely possible.\n\nLONDON, UK\nLONDON CITY\n40-10-2P7\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ".1. GENERAL",
+            "Under normal conditions, an ILS/LOC approach shall be conducted, refer to 9.2 ILS/LOC APPROACHES.",
+            "Whenever the ILS/LOC is unavailable by NOTAM or AIP Supplement, a visual approach is required. Under this",
+            "condition, refer to 9.3 VISUAL APPROACH."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Final RWY 27"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Final RWY 09"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LONDON, UK",
+            "LONDON CITY",
+            "40-10-2P5"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.2. ILS/LOC APPROACHES"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "As per Jeppesen"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PERFORMANCE:",
+            "Steep approach performance shall be used.",
+            "Check tailwind carefully - ensure any Fleet specific/AFM tailwind limitations are",
+            "adhered to."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE:",
+            "As per Jeppesen.",
+            "Steep approach procedures shall be used"
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION:",
+            "ODLEG transition does not connect directly to the ILS 09 and the distance from ODLEG to the Localiser is less than",
+            "1.9nm so careful planning and monitoring of Flight Director modes is required."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LONDON, UK",
+            "LONDON CITY",
+            "40-10-2P6"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.3. VISUAL APPROACH"
+          ]
+        },
+        {
+          "type": "warning",
+          "lines": [
+            "WARNING",
+            "A visual approach is only to be used when ILS/LOC approach is not available, this will be indicated by NOTAM",
+            "and/or AIP Supplement (due to navaids being unserviceable).",
+            "In all other conditions, an ILS/LOC approach shall be conducted (as per 9.2 ILS/LOC APPROACHES)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Ceiling:",
+            "2000ft"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Visibility:",
+            "6KM"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PAPI must be operative."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PERFORMANCE:",
+            "Steep approach performance shall be used.",
+            "Check tailwind carefully - ensure any Fleet specific/AFM tailwind limitations are",
+            "adhered to."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE:",
+            "Steep approach procedures shall be used.",
+            "Refer to chart 49-10 VISUAL APPROACH PROFILE (CAT A, B & C).  This chart is contained",
+            "in the TAXI tab (and not the APP tab) on the iPad FD Pro App."
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note: on consultation with EGLC ATC, crew may expect to commence the Visual",
+            "approach from 2000ft and not the 1500ft/1600ft shown on Jepp 49-10.  This is partially",
+            "traffic flow with THAMES RADAR and partially due to Noise Abatement strategies.  This",
+            "equates to 3.4nm from THOLD."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Distances on this chart are based on the DME which MAY NOT be available.  In this",
+            "situation, make use of the Speed/Rate of Descent tables on the appropriate ILS Jepp",
+            "Chart."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Configure early and make a smooth but positive attitude selection for the final descent",
+            "to avoid being high."
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note the requirement to hold the required visual references before final visual descent."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Be prepared to GO AROUND.  This is not a usual operational mode and errors in the",
+            "entry and maintenance of the visual steep descent may be encountered.  Given the",
+            "short final sector length, an unstable approach may result."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MISSED APPROACH:",
+            "(Including a Balked Landing). Following consultation with EGLC ATC, the following",
+            "procedures can be expected:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "EGLC may provide specific Instructions to aircraft on a Visual Approach in the event"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "of a missed approach.  In the event no instructions are received:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "RWY 27:  Follow the ILS/LOC published missed approach.  If the ILSR is unavailable"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "on RWY 27, use LON DME.  This is shown on the Jepp 41-2 Chart."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "RWY 09:  Climb straight ahead (track 092\u00ba) to 2000ft and follow ATC instructions."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Expect to be handed to THAMES RADAR (DIRECTOR) as soon as safely possible."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LONDON, UK",
+            "LONDON CITY",
+            "40-10-2P7"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        3,
+        4
+      ],
+      "page_images": [
+        "static/airports/eglc/page-03.png",
+        "static/airports/eglc/page-04.png"
+      ],
+      "embeds": [
+        "static/airports/eglc/embed-p03-02.jpeg",
+        "static/airports/eglc/embed-p04-02.jpeg",
+        "static/airports/eglc/embed-p04-03.jpeg"
+      ]
+    },
+    {
+      "num": 10,
+      "title": "Departure procedures",
+      "body": "0.1. GENERAL\nAs per Jeppesen.\nShort runway - consider static take-off.\nCAUTION:\nBe aware of noise monitoring \u2013 use noise abatement take-off.\nEGLC is a level bust hotspot. Low level off procedures in accordance with OM-B should be followed.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "0.1. GENERAL",
+            "As per Jeppesen.",
+            "Short runway - consider static take-off."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION:",
+            "Be aware of noise monitoring \u2013 use noise abatement take-off.",
+            "EGLC is a level bust hotspot. Low level off procedures in accordance with OM-B should be followed."
+          ]
+        }
+      ],
+      "pages": [
+        7
+      ],
+      "page_images": [
+        "static/airports/eglc/page-07.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 11,
+      "title": "Ground procedures",
+      "body": "he Apron is very limited for space. A marshaller must be in attendance for all Apron Movements and Engine Starts.\n\nMAGNETIC ANOMALIES:\nDue to ferrous material in the RWY structure and the close proximity metallic items at the Jet Centre apron, be vigilant\nto magnetic anomalies. The threat is most apparent at the holding point for RWY 27 (especially when facing North at\nholding point M) but can occur at the Jet centre apron.\nMeasures to minimise magnetic problems include using slew mode if able or facing East instead of North at holding\npoint M.\nAny HDG discrepancies shall be resolved before departure is initiated.\n\nNOISE SENSITIVE:\nBe aware of APU time limitations - see Jepps 40-4. Consider requesting GPU.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "he Apron is very limited for space. A marshaller must be in attendance for all Apron Movements and Engine Starts."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MAGNETIC ANOMALIES:",
+            "Due to ferrous material in the RWY structure and the close proximity metallic items at the Jet Centre apron, be vigilant",
+            "to magnetic anomalies. The threat is most apparent at the holding point for RWY 27 (especially when facing North at",
+            "holding point M) but can occur at the Jet centre apron.",
+            "Measures to minimise magnetic problems include using slew mode if able or facing East instead of North at holding",
+            "point M.",
+            "Any HDG discrepancies shall be resolved before departure is initiated."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NOISE SENSITIVE:",
+            "Be aware of APU time limitations - see Jepps 40-4. Consider requesting GPU."
+          ]
+        }
+      ],
+      "pages": [
+        7
+      ],
+      "page_images": [
+        "static/airports/eglc/page-07.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 12,
+      "title": "Miscellaneous",
+      "body": "il.\n\nLONDON, UK\nLONDON CITY\n40-10-2P8\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "il."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LONDON, UK",
+            "LONDON CITY",
+            "40-10-2P8"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        7
+      ],
+      "page_images": [
+        "static/airports/eglc/page-07.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 13,
+      "title": "Charts / Pictures / Other",
+      "body": "VERAGE WEATHER AND PRECIPITATION",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "VERAGE WEATHER AND PRECIPITATION"
+          ]
+        }
+      ],
+      "pages": [
+        8
+      ],
+      "page_images": [
+        "static/airports/eglc/page-08.png"
+      ],
+      "embeds": [
+        "static/airports/eglc/embed-p08-02.jpeg"
+      ]
+    },
+    {
+      "num": 14,
+      "title": "Changes since the last revision",
+      "body": "dded reference pointing to Jeppesen Airport Briefing pages.\nCorrected the chart index for APU limitations.\nProvide feedback to Lis-OpsTechnical@netjets.com",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "dded reference pointing to Jeppesen Airport Briefing pages.",
+            "Corrected the chart index for APU limitations.",
+            "Provide feedback to Lis-OpsTechnical@netjets.com"
+          ]
+        }
+      ],
+      "pages": [
+        8
+      ],
+      "page_images": [
+        "static/airports/eglc/page-08.png"
+      ],
+      "embeds": [
+        "static/airports/eglc/embed-p08-02.jpeg"
+      ]
+    }
+  ]
+}

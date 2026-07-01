@@ -4,6 +4,8 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 
+from content.render_helpers import back_to_top, cas_quick_reference, source_footer
+
 
 def _img(path: str, caption: str):
     if os.path.exists(path):
@@ -157,21 +159,23 @@ _Source: POH 6-05-30 (Rev 12)._"""
         ]
         st.table(pd.DataFrame(patterns, columns=["CAS / cue", "Operational meaning"]))
 
-    with st.expander("**9. CAS messages (quick meanings)**", expanded=False):
-        rows = [
-            ("E1 (2) FIRE", "Engine 1 (2) fire condition detected."),
-            ("E1 (2) OIL LO PRES", "Engine 1 (2) oil pressure is low."),
-            ("E1 (2) CTRL FAULT", "Thrust modulation may be degraded or respond slowly."),
-            ("E1 (2) FAIL", "Uncommanded engine shutdown occurred."),
-            ("E1 (2) FUEL IMP BYP", "Fuel filter impending bypass."),
-            ("E1 (2) OIL IMP BYP", "Oil filter impending bypass."),
-            ("E1 (2) CHIP DETECTED", "Chip detected in engine system."),
-            ("E1 (2) FADEC FAULT", "Avionics not receiving data from one FADEC channel."),
-            ("E1 (2) TT0 HTR FAIL", "TT0 sensor heating failed."),
-            ("E1 (2) TT0 PROBE ICE", "TT0 heating turned off due to ice crystal formation."),
-            ("ENG NO TO DATA", "Takeoff data not entered successfully."),
-            ("ENG EXCEEDANCE", "In-flight engine limit exceedance detected."),
-        ]
-        st.table(pd.DataFrame(rows, columns=["CAS message", "Meaning (summary)"]))
-        st.markdown("_Source: POH 6-05-35 (Rev 6)._")
+    cas_quick_reference(
+        [
+            ("Fire", "WARNING", "E1 (2) FIRE", "Engine fire condition detected — memory item / QRH."),
+            ("Oil", "CAUTION", "E1 (2) OIL LO PRES", "Engine oil pressure is low."),
+            ("Control", "CAUTION", "E1 (2) CTRL FAULT", "Thrust modulation may be degraded or respond slowly."),
+            ("Engine", "WARNING", "E1 (2) FAIL", "Uncommanded engine shutdown occurred."),
+            ("Filters", "ADVISORY", "E1 (2) FUEL IMP BYP", "Fuel filter impending bypass."),
+            ("Filters", "ADVISORY", "E1 (2) OIL IMP BYP", "Oil filter impending bypass."),
+            ("Engine", "CAUTION", "E1 (2) CHIP DETECTED", "Chip detected in engine system."),
+            ("FADEC", "CAUTION", "E1 (2) FADEC FAULT", "Avionics not receiving data from one FADEC channel."),
+            ("TT0 probe", "CAUTION", "E1 (2) TT0 HTR FAIL", "TT0 sensor heating failed."),
+            ("TT0 probe", "ADVISORY", "E1 (2) TT0 PROBE ICE", "TT0 heating turned off due to ice crystal formation."),
+            ("Performance", "ADVISORY", "ENG NO TO DATA", "Takeoff data not entered successfully."),
+            ("Limits", "CAUTION", "ENG EXCEEDANCE", "In-flight engine limit exceedance detected."),
+        ],
+        title="9. CAS quick reference",
+    )
 
+    back_to_top()
+    source_footer("poh", "§6-05 Powerplant · QRH engine fire memory items")

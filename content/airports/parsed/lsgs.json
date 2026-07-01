@@ -1,0 +1,1843 @@
+{
+  "icao": "LSGS",
+  "page_count": 17,
+  "pages": [
+    {
+      "page": 1,
+      "image": "static/airports/lsgs/page-01.png",
+      "embeds": []
+    },
+    {
+      "page": 2,
+      "image": "static/airports/lsgs/page-02.png",
+      "embeds": []
+    },
+    {
+      "page": 3,
+      "image": "static/airports/lsgs/page-03.png",
+      "embeds": []
+    },
+    {
+      "page": 4,
+      "image": "static/airports/lsgs/page-04.png",
+      "embeds": []
+    },
+    {
+      "page": 5,
+      "image": "static/airports/lsgs/page-05.png",
+      "embeds": []
+    },
+    {
+      "page": 6,
+      "image": "static/airports/lsgs/page-06.png",
+      "embeds": [
+        "static/airports/lsgs/embed-p06-02.jpeg",
+        "static/airports/lsgs/embed-p06-03.jpeg"
+      ]
+    },
+    {
+      "page": 7,
+      "image": "static/airports/lsgs/page-07.png",
+      "embeds": [
+        "static/airports/lsgs/embed-p07-02.jpeg"
+      ]
+    },
+    {
+      "page": 8,
+      "image": "static/airports/lsgs/page-08.png",
+      "embeds": []
+    },
+    {
+      "page": 9,
+      "image": "static/airports/lsgs/page-09.png",
+      "embeds": []
+    },
+    {
+      "page": 10,
+      "image": "static/airports/lsgs/page-10.png",
+      "embeds": [
+        "static/airports/lsgs/embed-p10-02.jpeg"
+      ]
+    },
+    {
+      "page": 11,
+      "image": "static/airports/lsgs/page-11.png",
+      "embeds": []
+    },
+    {
+      "page": 12,
+      "image": "static/airports/lsgs/page-12.png",
+      "embeds": []
+    },
+    {
+      "page": 13,
+      "image": "static/airports/lsgs/page-13.png",
+      "embeds": [
+        "static/airports/lsgs/embed-p13-03.png"
+      ]
+    },
+    {
+      "page": 14,
+      "image": "static/airports/lsgs/page-14.png",
+      "embeds": [
+        "static/airports/lsgs/embed-p14-02.jpeg",
+        "static/airports/lsgs/embed-p14-03.jpeg"
+      ]
+    },
+    {
+      "page": 15,
+      "image": "static/airports/lsgs/page-15.png",
+      "embeds": []
+    },
+    {
+      "page": 16,
+      "image": "static/airports/lsgs/page-16.png",
+      "embeds": []
+    },
+    {
+      "page": 17,
+      "image": "static/airports/lsgs/page-17.png",
+      "embeds": [
+        "static/airports/lsgs/embed-p17-02.jpeg"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": "IC training required\nYES\nSimulator training & Online briefing\nSIC training required\nYES\nOnline briefing\nQualification is type related\nYES\nQUAL A: YES - QUAL B: YES\nSelf-Briefing\nYES\nOM-C Review",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "IC training required",
+            "YES",
+            "Simulator training & Online briefing",
+            "SIC training required",
+            "YES",
+            "Online briefing",
+            "Qualification is type related",
+            "YES",
+            "QUAL A: YES - QUAL B: YES",
+            "Self-Briefing",
+            "YES",
+            "OM-C Review"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        2,
+        4,
+        5,
+        5,
+        9,
+        11,
+        11,
+        15,
+        16
+      ],
+      "page_images": [
+        "static/airports/lsgs/page-01.png",
+        "static/airports/lsgs/page-02.png",
+        "static/airports/lsgs/page-04.png",
+        "static/airports/lsgs/page-05.png",
+        "static/airports/lsgs/page-05.png",
+        "static/airports/lsgs/page-09.png",
+        "static/airports/lsgs/page-11.png",
+        "static/airports/lsgs/page-11.png",
+        "static/airports/lsgs/page-15.png",
+        "static/airports/lsgs/page-16.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 2,
+      "title": "Initial qualification requirements",
+      "body": ". REVALIDATION REQUIREMENTS\nGround Training\nYES\n12 Months\nYES\n12 Months\nSimulator Training\nYES\n12 Months\nYES\n12 Months\nIn-flight familiarization\nNO\n\nNO\n\nFlight training\nNO\n\nNO",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ". REVALIDATION REQUIREMENTS",
+            "Ground Training",
+            "YES",
+            "12 Months",
+            "YES",
+            "12 Months",
+            "Simulator Training",
+            "YES",
+            "12 Months",
+            "YES",
+            "12 Months",
+            "In-flight familiarization",
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Flight training",
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NO"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        2,
+        4,
+        5,
+        5,
+        9,
+        11,
+        11,
+        15,
+        16
+      ],
+      "page_images": [
+        "static/airports/lsgs/page-01.png",
+        "static/airports/lsgs/page-02.png",
+        "static/airports/lsgs/page-04.png",
+        "static/airports/lsgs/page-05.png",
+        "static/airports/lsgs/page-05.png",
+        "static/airports/lsgs/page-09.png",
+        "static/airports/lsgs/page-11.png",
+        "static/airports/lsgs/page-11.png",
+        "static/airports/lsgs/page-15.png",
+        "static/airports/lsgs/page-16.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 5,
+      "title": "Limitations / Miscellaneous",
+      "body": "ARNING:\n\n-\nOnly the Arrivals and Departures as detailed in this brief are to be flown.\n-\nVFR Operations are PROHIBITED when LSGS MIL areas are active.\n\nPF shall hold a current AHQ.\n\nIGS Rwy 25 followed by Circle to Land Rwy 07 (CAT B only).\nThis manoeuvre requires specific simulator training and is best flown from the LHS. It is restricted to Qualification B\ncrew operating CAT B aircraft and has a speed limit of 125 KTS.\nEGPWS shall be operational.\n\nIGS Rwy 25 followed by Visual Approach Rwy 07 (Challenger 350 and CAT B).\nThis manoeuvre follows the same lateral and vertical guidance as the CAT B Circle to land Rwy 07 so also requires\nspecific simulator training and is best flown from the LHS. It is restricted to Qualification B crew operating the\nChallenger 350 (Cat C) and CAT B aircraft. The IGS Rwy 25 followed by Visual Approach Rwy 07 has a maximum speed\nlimit of 135 KTS.\nEGPWS shall be operational.\n\nSION, SWITZERLAND\nSION\n10-10-2P2\n\n-\nCREW ASSIGNMENTS\nThe PIC, when assigning the PF/PM duties, shall give due consideration to the fact that only LSGS qualified PICs will\nhave trained the EFATO procedures and the circling / visual approach to Rwy 07 (with the associated descending left\nturn) as PF in the simulator; and shall ensure these procedures, including crew assignments, are fully briefed prior to\nexecution.\n\nQUALIFICATION REQUIREMENTS, as follows:",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "ARNING:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "Only the Arrivals and Departures as detailed in this brief are to be flown.",
+            "-",
+            "VFR Operations are PROHIBITED when LSGS MIL areas are active."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PF shall hold a current AHQ."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "IGS Rwy 25 followed by Circle to Land Rwy 07 (CAT B only).",
+            "This manoeuvre requires specific simulator training and is best flown from the LHS. It is restricted to Qualification B",
+            "crew operating CAT B aircraft and has a speed limit of 125 KTS.",
+            "EGPWS shall be operational."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "IGS Rwy 25 followed by Visual Approach Rwy 07 (Challenger 350 and CAT B).",
+            "This manoeuvre follows the same lateral and vertical guidance as the CAT B Circle to land Rwy 07 so also requires",
+            "specific simulator training and is best flown from the LHS. It is restricted to Qualification B crew operating the",
+            "Challenger 350 (Cat C) and CAT B aircraft. The IGS Rwy 25 followed by Visual Approach Rwy 07 has a maximum speed",
+            "limit of 135 KTS.",
+            "EGPWS shall be operational."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SION, SWITZERLAND",
+            "SION",
+            "10-10-2P2"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "CREW ASSIGNMENTS",
+            "The PIC, when assigning the PF/PM duties, shall give due consideration to the fact that only LSGS qualified PICs will",
+            "have trained the EFATO procedures and the circling / visual approach to Rwy 07 (with the associated descending left",
+            "turn) as PF in the simulator; and shall ensure these procedures, including crew assignments, are fully briefed prior to",
+            "execution."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "QUALIFICATION REQUIREMENTS, as follows:"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        5
+      ],
+      "page_images": [
+        "static/airports/lsgs/page-01.png",
+        "static/airports/lsgs/page-05.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": "ll pilots shall successfully complete the Sion Type A online qualification, including the online test.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "ll pilots shall successfully complete the Sion Type A online qualification, including the online test."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        2,
+        4,
+        5,
+        5,
+        9,
+        11,
+        11,
+        15,
+        16
+      ],
+      "page_images": [
+        "static/airports/lsgs/page-01.png",
+        "static/airports/lsgs/page-02.png",
+        "static/airports/lsgs/page-04.png",
+        "static/airports/lsgs/page-05.png",
+        "static/airports/lsgs/page-05.png",
+        "static/airports/lsgs/page-09.png",
+        "static/airports/lsgs/page-11.png",
+        "static/airports/lsgs/page-11.png",
+        "static/airports/lsgs/page-15.png",
+        "static/airports/lsgs/page-16.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 2,
+      "title": "Initial qualification requirements",
+      "body": "pon completion of the Simulator Training Syllabus for Qualification A and the Self Training (OM-C Briefing / Online\nBriefing) pilots are qualified with Airport Qualification A.\nWhen operating to Qualification A minima: Both FCMs need to be qualified to Qualification A as a minimum and either\nthe PIC or SIC can perform as PF at the discretion of the PIC.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "pon completion of the Simulator Training Syllabus for Qualification A and the Self Training (OM-C Briefing / Online",
+            "Briefing) pilots are qualified with Airport Qualification A.",
+            "When operating to Qualification A minima: Both FCMs need to be qualified to Qualification A as a minimum and either",
+            "the PIC or SIC can perform as PF at the discretion of the PIC."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        2,
+        4,
+        5,
+        5,
+        9,
+        11,
+        11,
+        15,
+        16
+      ],
+      "page_images": [
+        "static/airports/lsgs/page-01.png",
+        "static/airports/lsgs/page-02.png",
+        "static/airports/lsgs/page-04.png",
+        "static/airports/lsgs/page-05.png",
+        "static/airports/lsgs/page-05.png",
+        "static/airports/lsgs/page-09.png",
+        "static/airports/lsgs/page-11.png",
+        "static/airports/lsgs/page-11.png",
+        "static/airports/lsgs/page-15.png",
+        "static/airports/lsgs/page-16.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 3,
+      "title": "Revalidation requirements",
+      "body": "IC shall normally be trained to Sion Qualification B by successfully completing the Self Training (OM-C Briefing /\nOnline Briefing) and the Simulator Training Syllabus for Sion Qualification B.\nWhen operating to Qualification B minima: The PIC must hold the Qualification B and perform as PF while the SIC only\nneeds to hold Qualification A but is restricted to PM role.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "IC shall normally be trained to Sion Qualification B by successfully completing the Self Training (OM-C Briefing /",
+            "Online Briefing) and the Simulator Training Syllabus for Sion Qualification B.",
+            "When operating to Qualification B minima: The PIC must hold the Qualification B and perform as PF while the SIC only",
+            "needs to hold Qualification A but is restricted to PM role."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        2,
+        5
+      ],
+      "page_images": [
+        "static/airports/lsgs/page-01.png",
+        "static/airports/lsgs/page-02.png",
+        "static/airports/lsgs/page-05.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 6,
+      "title": "Weather / Airport limitations",
+      "body": "RRIVAL\nDEPARTURE\n\nVISIBILITY\nCEILING\nVISIBILITY\nCEILING\nB\nSee briefing.\nC\n\nSION, SWITZERLAND\nSION\n10-10-2P3\n\n-\n\nARRIVALS (9. ARRIVAL PROCEDURES)\nAPPROACH\nLowest available minima (1)\nJeppesen or (NetJets) Charts\nPDCS chart\nQUAL A\nQUAL B\nNormal (TAB)\nContingency (TAB)\nIGS Rwy 25\nCeiling: 6500 ft\nMDA 8000 ft\nVisibility: 8 KM\nDAY Only\nDA: As per\nJeppesen\nVisibility: 5 KM\nNIGHT Approved\n11-1 (APP)\n(NetJets)\n10-7 (CO)\n25DP5\nVFR Approach Rwy 25\nCeiling 15,500 ft\nVisibility 8 KM\nDAY Only\nSee brief\n25DP4\nIGS Rwy 25 Followed by\nCircle to Land Rwy 07 (CAT B\nonly)\nPROHIBITED\nCeiling: 6500 ft\nVisibility: 8 KM\nDAY Only\n(NetJets)\n11-1A (APP)\n(NetJets)\n19-11 (APP)\n07DP4\nIGS Rwy 25 Followed by\nVisual Approach Rwy 07\n(CL350 + CAT B)\nPROHIBITED\nCeiling: 6500 ft\nVisibility: 8 KM\nDAY Only\n(NetJets)\n11-1B (APP)\n(NetJets)\n19-11 (APP)\n07DP4\nVFR Approach Rwy 07\nCeiling 16,400 ft\nVisibility 8 KM\nDAY Only\nSee brief\n07DP4\nRNP Rwy 25 (AR)\nPROHIBITED for NetJets Operations\n12-20 (APP)\nPROHIBITED for NetJets Operations\n(1) Actual Minima may be higher due to aircraft mass, OAT, etc - see the paragraph for the specific arrival & the Jeppesen Chart to\nestablish the actual minima.\n\nDEPARTURES (10. DEPARTURE PROCEDURES)\nDEPARTURE\nLowest available minima\nJeppesen or (NetJets) Charts\nPDCS chart\nQUAL A\nQUAL B\nNormal (TAB)\nContingency (TAB)\nQUAL A\nQUAL B\nIFR Departure Rwy 25\nCeiling: 6500 ft\nVisibility: 8 KM\nDAY Only\nVisibility: 550 m\nNIGHT Approved\n10-3A\n10-3E\n10-3C\n10-3G\nNetJets\n10-7 (CO)\n25DP4\n25DP5\n(2)\nIFR Departure Rwy 07\nCeiling 6,500 ft\nVisibility 8 KM\nDAY Only\nSee brief\n(NetJets)\n19-11 (APP)\n07DP4\nVFR Departure Rwy 25\nCeiling 16,400 ft\nVisibility 8 KM\nDAY Only\nNIL\n(NetJets) 10-7 (CO) or\n19-11 (APP)\n25DP4\nVFR Departure Rwy 07\nSee brief\n07DP4\n(2) Qual B crew may use Qual A performance provided DAY ONLY and Qual A minima is assured.\n\nSION, SWITZERLAND\nSION\n10-10-2P4\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "RRIVAL",
+            "DEPARTURE"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VISIBILITY",
+            "CEILING",
+            "VISIBILITY",
+            "CEILING",
+            "B",
+            "See briefing.",
+            "C"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SION, SWITZERLAND",
+            "SION",
+            "10-10-2P3"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "ARRIVALS (9. ARRIVAL PROCEDURES)",
+            "APPROACH",
+            "Lowest available minima (1)",
+            "Jeppesen or (NetJets) Charts",
+            "PDCS chart",
+            "QUAL A",
+            "QUAL B",
+            "Normal (TAB)",
+            "Contingency (TAB)",
+            "IGS Rwy 25",
+            "Ceiling: 6500 ft",
+            "MDA 8000 ft",
+            "Visibility: 8 KM",
+            "DAY Only",
+            "DA: As per",
+            "Jeppesen",
+            "Visibility: 5 KM",
+            "NIGHT Approved",
+            "11-1 (APP)",
+            "(NetJets)",
+            "10-7 (CO)",
+            "25DP5",
+            "VFR Approach Rwy 25",
+            "Ceiling 15,500 ft",
+            "Visibility 8 KM",
+            "DAY Only",
+            "See brief",
+            "25DP4",
+            "IGS Rwy 25 Followed by",
+            "Circle to Land Rwy 07 (CAT B",
+            "only)",
+            "PROHIBITED",
+            "Ceiling: 6500 ft",
+            "Visibility: 8 KM",
+            "DAY Only",
+            "(NetJets)",
+            "11-1A (APP)",
+            "(NetJets)",
+            "19-11 (APP)",
+            "07DP4",
+            "IGS Rwy 25 Followed by",
+            "Visual Approach Rwy 07",
+            "(CL350 + CAT B)",
+            "PROHIBITED",
+            "Ceiling: 6500 ft",
+            "Visibility: 8 KM",
+            "DAY Only",
+            "(NetJets)",
+            "11-1B (APP)",
+            "(NetJets)",
+            "19-11 (APP)",
+            "07DP4",
+            "VFR Approach Rwy 07",
+            "Ceiling 16,400 ft",
+            "Visibility 8 KM",
+            "DAY Only",
+            "See brief",
+            "07DP4",
+            "RNP Rwy 25 (AR)",
+            "PROHIBITED for NetJets Operations",
+            "12-20 (APP)",
+            "PROHIBITED for NetJets Operations",
+            "(1) Actual Minima may be higher due to aircraft mass, OAT, etc - see the paragraph for the specific arrival & the Jeppesen Chart to",
+            "establish the actual minima."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DEPARTURES (10. DEPARTURE PROCEDURES)",
+            "DEPARTURE",
+            "Lowest available minima",
+            "Jeppesen or (NetJets) Charts",
+            "PDCS chart",
+            "QUAL A",
+            "QUAL B",
+            "Normal (TAB)",
+            "Contingency (TAB)",
+            "QUAL A",
+            "QUAL B",
+            "IFR Departure Rwy 25",
+            "Ceiling: 6500 ft",
+            "Visibility: 8 KM",
+            "DAY Only",
+            "Visibility: 550 m",
+            "NIGHT Approved",
+            "10-3A",
+            "10-3E",
+            "10-3C",
+            "10-3G",
+            "NetJets",
+            "10-7 (CO)",
+            "25DP4",
+            "25DP5",
+            "(2)",
+            "IFR Departure Rwy 07",
+            "Ceiling 6,500 ft",
+            "Visibility 8 KM",
+            "DAY Only",
+            "See brief",
+            "(NetJets)",
+            "19-11 (APP)",
+            "07DP4",
+            "VFR Departure Rwy 25",
+            "Ceiling 16,400 ft",
+            "Visibility 8 KM",
+            "DAY Only",
+            "NIL",
+            "(NetJets) 10-7 (CO) or",
+            "19-11 (APP)",
+            "25DP4",
+            "VFR Departure Rwy 07",
+            "See brief",
+            "07DP4",
+            "(2) Qual B crew may use Qual A performance provided DAY ONLY and Qual A minima is assured."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SION, SWITZERLAND",
+            "SION",
+            "10-10-2P4"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        2
+      ],
+      "page_images": [
+        "static/airports/lsgs/page-02.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 7,
+      "title": "Overview",
+      "body": "SGS is a Mountain airport is situated in the Swiss Alps, elevation 1582ft. Mountainous terrain is close on both sides\nof the valley, the highest rising over 3500 M (11,500 ft) within 10 NM.\n\nTHREATS:\nCFIT\nLSGS lays in a valley surrounded by significant mountainous terrain; MSA is 17900\u2019 to the South.\n\nThere are two EGPWS Alert hotspots due to terrain:",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "SGS is a Mountain airport is situated in the Swiss Alps, elevation 1582ft. Mountainous terrain is close on both sides",
+            "of the valley, the highest rising over 3500 M (11,500 ft) within 10 NM."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "THREATS:",
+            "CFIT",
+            "LSGS lays in a valley surrounded by significant mountainous terrain; MSA is 17900\u2019 to the South."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "There are two EGPWS Alert hotspots due to terrain:"
+          ]
+        }
+      ],
+      "pages": [
+        4
+      ],
+      "page_images": [
+        "static/airports/lsgs/page-04.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": "nd aligning too early on final, overshooting the Rwy centreline or by avoiding the hospital by too great a margin.\nSimilarly, EGPWS alerts can be triggered if the vertical profile is not adjusted from the 6-degree IGS path to the 4-\ndegree PAPI path. (Brief the \u2018Visual Approach\u2019 window on the IGS chart (Jeppesen 11-1) which shows the required\ntracks, ranges, and altitudes).",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "nd aligning too early on final, overshooting the Rwy centreline or by avoiding the hospital by too great a margin.",
+            "Similarly, EGPWS alerts can be triggered if the vertical profile is not adjusted from the 6-degree IGS path to the 4-",
+            "degree PAPI path. (Brief the \u2018Visual Approach\u2019 window on the IGS chart (Jeppesen 11-1) which shows the required",
+            "tracks, ranges, and altitudes)."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        2,
+        4,
+        5,
+        5,
+        9,
+        11,
+        11,
+        15,
+        16
+      ],
+      "page_images": [
+        "static/airports/lsgs/page-01.png",
+        "static/airports/lsgs/page-02.png",
+        "static/airports/lsgs/page-04.png",
+        "static/airports/lsgs/page-05.png",
+        "static/airports/lsgs/page-05.png",
+        "static/airports/lsgs/page-09.png",
+        "static/airports/lsgs/page-11.png",
+        "static/airports/lsgs/page-11.png",
+        "static/airports/lsgs/page-15.png",
+        "static/airports/lsgs/page-16.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 2,
+      "title": "Initial qualification requirements",
+      "body": "wy 07 and use the NetJets Tailored chart 11-1A).\n\nEGPWS procedures are described in OM-A 8.3.5 and must be followed.\n\nLOSS OF CONTROL\nAll Approach procedures start at a higher altitude which increases TAS, Groundspeed and turn radius. (Brief energy\nmanagement and Flap / Slat Altitude limitation).\nProcedures may also require low speed/ low altitude manoeuvring, particularly during a balked landing or go around,\nas well as the Circle-to Land Rwy 07.\n\nMID AIR COLLISION\nLSGS is a mixed military and civilian airport with a high volume of GA, helicopters, and commercial traffic. Parachuting\nmay take place up to 15,000 ft and Hang-Gliding activity is common in the valley. Crew must make full use of TCAS\nand consider OM A 8.3.1 VFR-IFR Policy, as some airspace is Class E, (non-transpoding traffic may be encountered).\nA systematic, thorough visual lookout must be maintained.\n\nRWY INCURSION\nVery short taxiway to active Rwy. Mix of GA traffic which may also use the grass Rwy along with Military traffic.\n\nRWY EXCURSION\nRisk of unstable approach for both Rwys:\n\nThe IGS Rwy 25 has an initial 6\u00b0 glideslope which terminates at approximately 7NM from LSGS, followed by a visual\nsegment with a 4\u00b0 PAPI. Similarly, the IGS Rwy 25 also has a requirement to visually align with the centreline after\npassing D6.0 SIO whilst avoiding the overflight of the hospital and the terrain to the South. Crew must be mindful of\nthese and make an appropriate correction in order to not descend low on the approach path or turn too late or\nsharply onto final, particularly at night.\n\nThe IGS Rwy 25 followed by Circle to land Rwy 07 or the IGS Rwy 25 followed by Visual Approach Rwy 07 requires\nprecise planning and manoeuvring to enable a stable approach. Crew shall carefully brief the OM-C guidance and\ncrosscheck and navigational set up prior to execution.\n\n- continues next page -\n\nSION, SWITZERLAND\nSION\n10-10-2P5\n\n-\nTHREATS (CONTD.):\nSPECIAL CONSIDERATIONS\nDuring MIL activity arrestor cables may be used: Ensure they are lowered prior to take-off or landing. It is not\npermitted to trample over the cable during taxi.\nDuring MIL activity, carefully check the SID climb profile notes on Jeppesen SID charts.\n\nMINIMA / PERFORMANCE\nDifferent Qualification criteria (A or B) have different minima and performance requirements. Ensure you are aware\nof the crew capabilities, procedures available and the performance/ minima required. Carefully brief section 6.\nWEATHER/AIRPORTS LIMITATIONS.\n\nCONFIGURATION / FLAPS\nDue to the high platform altitudes on approach, crews are to exercise caution when configuring and ensure that\naircraft limits are not exceeded.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "wy 07 and use the NetJets Tailored chart 11-1A)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "EGPWS procedures are described in OM-A 8.3.5 and must be followed."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LOSS OF CONTROL",
+            "All Approach procedures start at a higher altitude which increases TAS, Groundspeed and turn radius. (Brief energy",
+            "management and Flap / Slat Altitude limitation).",
+            "Procedures may also require low speed/ low altitude manoeuvring, particularly during a balked landing or go around,",
+            "as well as the Circle-to Land Rwy 07."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MID AIR COLLISION",
+            "LSGS is a mixed military and civilian airport with a high volume of GA, helicopters, and commercial traffic. Parachuting",
+            "may take place up to 15,000 ft and Hang-Gliding activity is common in the valley. Crew must make full use of TCAS",
+            "and consider OM A 8.3.1 VFR-IFR Policy, as some airspace is Class E, (non-transpoding traffic may be encountered).",
+            "A systematic, thorough visual lookout must be maintained."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "RWY INCURSION",
+            "Very short taxiway to active Rwy. Mix of GA traffic which may also use the grass Rwy along with Military traffic."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "RWY EXCURSION",
+            "Risk of unstable approach for both Rwys:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "The IGS Rwy 25 has an initial 6\u00b0 glideslope which terminates at approximately 7NM from LSGS, followed by a visual",
+            "segment with a 4\u00b0 PAPI. Similarly, the IGS Rwy 25 also has a requirement to visually align with the centreline after",
+            "passing D6.0 SIO whilst avoiding the overflight of the hospital and the terrain to the South. Crew must be mindful of",
+            "these and make an appropriate correction in order to not descend low on the approach path or turn too late or",
+            "sharply onto final, particularly at night."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "The IGS Rwy 25 followed by Circle to land Rwy 07 or the IGS Rwy 25 followed by Visual Approach Rwy 07 requires",
+            "precise planning and manoeuvring to enable a stable approach. Crew shall carefully brief the OM-C guidance and",
+            "crosscheck and navigational set up prior to execution."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "continues next page -"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SION, SWITZERLAND",
+            "SION",
+            "10-10-2P5"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "THREATS (CONTD.):",
+            "SPECIAL CONSIDERATIONS",
+            "During MIL activity arrestor cables may be used: Ensure they are lowered prior to take-off or landing. It is not",
+            "permitted to trample over the cable during taxi.",
+            "During MIL activity, carefully check the SID climb profile notes on Jeppesen SID charts."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA / PERFORMANCE",
+            "Different Qualification criteria (A or B) have different minima and performance requirements. Ensure you are aware",
+            "of the crew capabilities, procedures available and the performance/ minima required. Carefully brief section 6.",
+            "WEATHER/AIRPORTS LIMITATIONS."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CONFIGURATION / FLAPS",
+            "Due to the high platform altitudes on approach, crews are to exercise caution when configuring and ensure that",
+            "aircraft limits are not exceeded."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        2,
+        4,
+        5,
+        5,
+        9,
+        11,
+        11,
+        15,
+        16
+      ],
+      "page_images": [
+        "static/airports/lsgs/page-01.png",
+        "static/airports/lsgs/page-02.png",
+        "static/airports/lsgs/page-04.png",
+        "static/airports/lsgs/page-05.png",
+        "static/airports/lsgs/page-05.png",
+        "static/airports/lsgs/page-09.png",
+        "static/airports/lsgs/page-11.png",
+        "static/airports/lsgs/page-11.png",
+        "static/airports/lsgs/page-15.png",
+        "static/airports/lsgs/page-16.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 8,
+      "title": "Operational procedures \u2014 General",
+      "body": "RRESTOR CABLES\nDuring MIL activity, arrestor cables may be in use. Cables are normally lowered during civilian use. However, confirm\ncables are lowered with ATC prior to approach or departure.\n\nCAUTION:\nCIVIL aircraft are prohibited from trampling the arrestor cables.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "RRESTOR CABLES",
+            "During MIL activity, arrestor cables may be in use. Cables are normally lowered during civilian use. However, confirm",
+            "cables are lowered with ATC prior to approach or departure."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION:",
+            "CIVIL aircraft are prohibited from trampling the arrestor cables."
+          ]
+        }
+      ],
+      "pages": [
+        5
+      ],
+      "page_images": [
+        "static/airports/lsgs/page-05.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 9,
+      "title": "Arrival procedures",
+      "body": ".1 GENERAL\nSee THREATS.\nOnly the following approaches as described are approved:",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ".1 GENERAL",
+            "See THREATS.",
+            "Only the following approaches as described are approved:"
+          ]
+        }
+      ],
+      "pages": [
+        5
+      ],
+      "page_images": [
+        "static/airports/lsgs/page-05.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": ". VFR Approach Rwy 25.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ". VFR Approach Rwy 25."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        2,
+        4,
+        5,
+        5,
+        9,
+        11,
+        11,
+        15,
+        16
+      ],
+      "page_images": [
+        "static/airports/lsgs/page-01.png",
+        "static/airports/lsgs/page-02.png",
+        "static/airports/lsgs/page-04.png",
+        "static/airports/lsgs/page-05.png",
+        "static/airports/lsgs/page-05.png",
+        "static/airports/lsgs/page-09.png",
+        "static/airports/lsgs/page-11.png",
+        "static/airports/lsgs/page-11.png",
+        "static/airports/lsgs/page-15.png",
+        "static/airports/lsgs/page-16.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 3,
+      "title": "Revalidation requirements",
+      "body": ". IGS Rwy 25 followed by Visual Approach Rwy 07 (Challenger 350 and CAT B)",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ". IGS Rwy 25 followed by Visual Approach Rwy 07 (Challenger 350 and CAT B)"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        2,
+        5
+      ],
+      "page_images": [
+        "static/airports/lsgs/page-01.png",
+        "static/airports/lsgs/page-02.png",
+        "static/airports/lsgs/page-05.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": "hat aircraft limits are not exceeded.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "hat aircraft limits are not exceeded."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        2,
+        4,
+        5,
+        5,
+        9,
+        11,
+        11,
+        15,
+        16
+      ],
+      "page_images": [
+        "static/airports/lsgs/page-01.png",
+        "static/airports/lsgs/page-02.png",
+        "static/airports/lsgs/page-04.png",
+        "static/airports/lsgs/page-05.png",
+        "static/airports/lsgs/page-05.png",
+        "static/airports/lsgs/page-09.png",
+        "static/airports/lsgs/page-11.png",
+        "static/airports/lsgs/page-11.png",
+        "static/airports/lsgs/page-15.png",
+        "static/airports/lsgs/page-16.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 2,
+      "title": "Initial qualification requirements",
+      "body": "hresholds and are set at 4\u00b0.\n\nSION, SWITZERLAND\nSION\n10-10-2P6\n\n-\n9.2. IGS RWY 25\nSee THREATS.\nMINIMA: See table in 6. WEATHER /AIRPORTS LIMITATIONS.\nQualification B: Jeppesen 11-1. The Missed Approach Climb gradient will determine the respective DA - refer to PDCS\ncharts for respective approach climb gradient.\nMISSED APPROACH: As per Jeppesen 11-1.\nBALKED LANDING RWY 25: As per Jeppesen (NetJets) chart 10-7.\n\nWARNING:\nQUAL B CREW ONLY: When weather is below Qual A minima, maximum landing mass shall be limited to the RWY 25\nIMC maximum dry runway take-off mass. See PDCS chart 25DP5. This is to ensure balked landing performance.\n\nCAUTION:\nNote the change from a 6\u00b0 IGS to a 4\u00b0 visual approach at D7 ISI.\nNOTE: The visual approach inset on Jeppesen 11-1 assists to avoid overflying the hospital and to aid the stable\napproach - follow published track and altitudes and keep the hospital to the right of the aircraft.\n\nJeppesen 11-1 Visual Approach Inset\n\nAvoidance of the Hospital Area\n\nSION, SWITZERLAND\nSION\n10-10-2P7\n\n-\nCAUTION:\nACFT with Honeywell FMS:\nFirst point of IGS Rwy 25 missed approach procedure in the FMS shows a right turn to heading of 063\u00b0, instead of\nproceeding straight ahead. Once the missed approach is activated, the missed approach procedure is flown correctly\nand does NOT turn right. Therefore, the FMS may be used for the missed approach.\n\nFlight crew shall, however, be cautious and monitor the procedure closely to ensure the procedure is flown correctly\nand be ready to revert to conventional navigation to SIO VOR should the aeroplane begin the right turn.\n\nFinal Rwy 25\n\nSION, SWITZERLAND\nSION\n10-10-2P8\n\n-\n9.3. VFR APPROACH RWY 25\nSee THREATS.\nWARNING:\n\n-\nTo be used when the IGS Rwy 25 or SIO VOR is unavailable.\n-\nPROHIBITED when LSGS MIL areas are active.\n\nMINIMA:\nSee 6. WEATHER /AIRPORTS LIMITATIONS.\n\nPROCEDURE:\n\u2022 Verify that VMC conditions and adequate visual references can be maintained throughout the approach.\n\u2022 Request vectors or self-position to establish on track GS603 to MASAB, altitude 17,000 ft. Cancel IFR no later\nthan MASAB.\n\u2022 Use Jeppesen chart 11-1 vertical speed vs. groundspeed table to determine target rate of descent.\n\u2022 Use the FMS vertical path indication as reference to enhance situational awareness.\n\u2022 Fly route as E-E1-E2, at or above 3000 ft.\n\u2022 Refer to Jeppesen 19-10 and 10-1V.\n\nWPT\nCOORDINATES\nE\nN46 19.3 E007 40.4\nE1\nN46 17.8 E007 31.6\nE2\nN46 15.1 E007 25.1\nAt or above 3000 ft.\n\nAvoid overflying the Hospital and proceed visually to land Rwy 25.\n\nMISSED APPROACH: As per Jeppesen 11-1.\nCAUTION:\nThe course changes between IGS and missed approach, do not follow the IGS back course outbound.\n\nBALKED LANDING: As per Jeppesen (NetJets) chart 10-7.\nD10.8 ISI equals D10.0 SIO\nD23.3 ISI equals D22.5 SIO.\n\nSION, SWITZERLAND\nSION\n10-10-2P9\n\n-\n9.4. IGS Rwy 25 followed by Circle to Land Rwy 07 (CAT B only)\nSee THREATS.\nCAUTION:\nThis procedure can only be flown by Cat B aircraft.\n\nThe procedure shall be flown with Max 125 KIAS\n\nNOTE: Landing weight may need to be restricted to ensure max speeds are not exceeded.\n\nEGPWS shall be operational.\n\nPF must be an LSGS qualified PIC (Qual B only) that has performed the specific circling Rwy 07 simulator training. This\nmanoeuvre is recommended to be flown from the LHS.\n\nWARNING:\nThe required circle to land is a VISUAL manoeuvre.\n\nNetJets\u2019 tailored chart 11-1A provides lateral and vertical guidance to aid the avoidance of EGPWS alerts and permits\na safe stable approach; it should be followed. The guidance contains RNAV waypoints which may be used visually to\naid situational awareness during this manoeuvre.\n\nThe circling manoeuvre shall be flown visually in accordance with the OM-A procedural guidance. Any waypoint\ninsertion error or RAIM deviation may lead to off-course positioning in mountainous terrain. The insertion of the\nwaypoints should be re-checked by both crew members.\n\nMINIMA:\nSee 6. WEATHER /AIRPORTS LIMITATIONS.\nNOTE: The required NetJets minima is more restrictive than standard. Use the NetJets minima which is detailed on\nthe tailored chart 11-1A.\n\nPROCEDURE:\nVISUAL circling manoeuvre as per NetJets Tailored Chart 11-1A.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "hresholds and are set at 4\u00b0."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SION, SWITZERLAND",
+            "SION",
+            "10-10-2P6"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.2. IGS RWY 25",
+            "See THREATS.",
+            "MINIMA: See table in 6. WEATHER /AIRPORTS LIMITATIONS.",
+            "Qualification B: Jeppesen 11-1. The Missed Approach Climb gradient will determine the respective DA - refer to PDCS",
+            "charts for respective approach climb gradient.",
+            "MISSED APPROACH: As per Jeppesen 11-1.",
+            "BALKED LANDING RWY 25: As per Jeppesen (NetJets) chart 10-7."
+          ]
+        },
+        {
+          "type": "warning",
+          "lines": [
+            "WARNING:",
+            "QUAL B CREW ONLY: When weather is below Qual A minima, maximum landing mass shall be limited to the RWY 25",
+            "IMC maximum dry runway take-off mass. See PDCS chart 25DP5. This is to ensure balked landing performance."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION:"
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note the change from a 6\u00b0 IGS to a 4\u00b0 visual approach at D7 ISI."
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "NOTE: The visual approach inset on Jeppesen 11-1 assists to avoid overflying the hospital and to aid the stable",
+            "approach - follow published track and altitudes and keep the hospital to the right of the aircraft."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Jeppesen 11-1 Visual Approach Inset"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Avoidance of the Hospital Area"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SION, SWITZERLAND",
+            "SION",
+            "10-10-2P7"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION:",
+            "ACFT with Honeywell FMS:",
+            "First point of IGS Rwy 25 missed approach procedure in the FMS shows a right turn to heading of 063\u00b0, instead of",
+            "proceeding straight ahead. Once the missed approach is activated, the missed approach procedure is flown correctly",
+            "and does NOT turn right. Therefore, the FMS may be used for the missed approach."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Flight crew shall, however, be cautious and monitor the procedure closely to ensure the procedure is flown correctly",
+            "and be ready to revert to conventional navigation to SIO VOR should the aeroplane begin the right turn."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Final Rwy 25"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SION, SWITZERLAND",
+            "SION",
+            "10-10-2P8"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.3. VFR APPROACH RWY 25",
+            "See THREATS."
+          ]
+        },
+        {
+          "type": "warning",
+          "lines": [
+            "WARNING:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "To be used when the IGS Rwy 25 or SIO VOR is unavailable.",
+            "-",
+            "PROHIBITED when LSGS MIL areas are active."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA:",
+            "See 6. WEATHER /AIRPORTS LIMITATIONS."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Verify that VMC conditions and adequate visual references can be maintained throughout the approach.",
+            "Request vectors or self-position to establish on track GS603 to MASAB, altitude 17,000 ft. Cancel IFR no later"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "than MASAB."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Use Jeppesen chart 11-1 vertical speed vs. groundspeed table to determine target rate of descent.",
+            "Use the FMS vertical path indication as reference to enhance situational awareness.",
+            "Fly route as E-E1-E2, at or above 3000 ft.",
+            "Refer to Jeppesen 19-10 and 10-1V."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "WPT",
+            "COORDINATES",
+            "E",
+            "N46 19.3 E007 40.4",
+            "E1",
+            "N46 17.8 E007 31.6",
+            "E2",
+            "N46 15.1 E007 25.1",
+            "At or above 3000 ft."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Avoid overflying the Hospital and proceed visually to land Rwy 25."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MISSED APPROACH: As per Jeppesen 11-1."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION:",
+            "The course changes between IGS and missed approach, do not follow the IGS back course outbound."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BALKED LANDING: As per Jeppesen (NetJets) chart 10-7.",
+            "D10.8 ISI equals D10.0 SIO",
+            "D23.3 ISI equals D22.5 SIO."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SION, SWITZERLAND",
+            "SION",
+            "10-10-2P9"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.4. IGS Rwy 25 followed by Circle to Land Rwy 07 (CAT B only)",
+            "See THREATS."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION:",
+            "This procedure can only be flown by Cat B aircraft."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "The procedure shall be flown with Max 125 KIAS"
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "NOTE: Landing weight may need to be restricted to ensure max speeds are not exceeded."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "EGPWS shall be operational."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PF must be an LSGS qualified PIC (Qual B only) that has performed the specific circling Rwy 07 simulator training. This",
+            "manoeuvre is recommended to be flown from the LHS."
+          ]
+        },
+        {
+          "type": "warning",
+          "lines": [
+            "WARNING:",
+            "The required circle to land is a VISUAL manoeuvre."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NetJets\u2019 tailored chart 11-1A provides lateral and vertical guidance to aid the avoidance of EGPWS alerts and permits",
+            "a safe stable approach; it should be followed. The guidance contains RNAV waypoints which may be used visually to",
+            "aid situational awareness during this manoeuvre."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "The circling manoeuvre shall be flown visually in accordance with the OM-A procedural guidance. Any waypoint",
+            "insertion error or RAIM deviation may lead to off-course positioning in mountainous terrain. The insertion of the",
+            "waypoints should be re-checked by both crew members."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA:",
+            "See 6. WEATHER /AIRPORTS LIMITATIONS."
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "NOTE: The required NetJets minima is more restrictive than standard. Use the NetJets minima which is detailed on",
+            "the tailored chart 11-1A."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE:",
+            "VISUAL circling manoeuvre as per NetJets Tailored Chart 11-1A."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        2,
+        4,
+        5,
+        5,
+        9,
+        11,
+        11,
+        15,
+        16
+      ],
+      "page_images": [
+        "static/airports/lsgs/page-01.png",
+        "static/airports/lsgs/page-02.png",
+        "static/airports/lsgs/page-04.png",
+        "static/airports/lsgs/page-05.png",
+        "static/airports/lsgs/page-05.png",
+        "static/airports/lsgs/page-09.png",
+        "static/airports/lsgs/page-11.png",
+        "static/airports/lsgs/page-11.png",
+        "static/airports/lsgs/page-15.png",
+        "static/airports/lsgs/page-16.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": "pproach is required at this point, then missed approach procedure is as per Jeppesen 11-1.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "pproach is required at this point, then missed approach procedure is as per Jeppesen 11-1."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        2,
+        4,
+        5,
+        5,
+        9,
+        11,
+        11,
+        15,
+        16
+      ],
+      "page_images": [
+        "static/airports/lsgs/page-01.png",
+        "static/airports/lsgs/page-02.png",
+        "static/airports/lsgs/page-04.png",
+        "static/airports/lsgs/page-05.png",
+        "static/airports/lsgs/page-05.png",
+        "static/airports/lsgs/page-09.png",
+        "static/airports/lsgs/page-11.png",
+        "static/airports/lsgs/page-11.png",
+        "static/airports/lsgs/page-15.png",
+        "static/airports/lsgs/page-16.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 2,
+      "title": "Initial qualification requirements",
+      "body": "UIDANCE as per NetJets Tailored Chart 11-1A.\n\n- continues next page -\n\nSION, SWITZERLAND\nSION\n13 MAY 2025 10-10-2P10\n\n-\nGENERAL NOTE: Descent below MDA (as published by Jeppesen) can only be made when:\n\u2022 Visual reference established and maintained.\n\u2022 Landing threshold in sight; and\n\u2022 Obstacle clearance maintained until positioned for landing\n\nFinal Rwy 07\n\nSION, SWITZERLAND\nSION\n13 MAY 2025 10-10-2P11\n\n-\n9.5 IGS Rwy 25 followed by Visual Approach Rwy 07 (Challenger 350 and CAT B).\nSee THREATS.\nCAUTION:\nThis procedure can only be flown on the following aircraft types:",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "UIDANCE as per NetJets Tailored Chart 11-1A."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "continues next page -"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SION, SWITZERLAND",
+            "SION",
+            "13 MAY 2025 10-10-2P10"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "GENERAL NOTE: Descent below MDA (as published by Jeppesen) can only be made when:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Visual reference established and maintained.",
+            "Landing threshold in sight; and",
+            "Obstacle clearance maintained until positioned for landing"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Final Rwy 07"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SION, SWITZERLAND",
+            "SION",
+            "13 MAY 2025 10-10-2P11"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.5 IGS Rwy 25 followed by Visual Approach Rwy 07 (Challenger 350 and CAT B).",
+            "See THREATS."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION:",
+            "This procedure can only be flown on the following aircraft types:"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        2,
+        4,
+        5,
+        5,
+        9,
+        11,
+        11,
+        15,
+        16
+      ],
+      "page_images": [
+        "static/airports/lsgs/page-01.png",
+        "static/airports/lsgs/page-02.png",
+        "static/airports/lsgs/page-04.png",
+        "static/airports/lsgs/page-05.png",
+        "static/airports/lsgs/page-05.png",
+        "static/airports/lsgs/page-09.png",
+        "static/airports/lsgs/page-11.png",
+        "static/airports/lsgs/page-11.png",
+        "static/airports/lsgs/page-15.png",
+        "static/airports/lsgs/page-16.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": ".\nCat B aircraft (wishing to utilise the increased Max IAS available)\n\nThe procedure shall be flown with Max 135 KIAS\n\nNOTE: Landing weight may need to be restricted to ensure max speeds are not exceeded.\n\nEGPWS shall be operational.\n\nPF must be an LSGS qualified PIC (Qual B only) that has performed the specific circling Rwy 07 simulator training. This\nmanoeuvre is recommended to be flown from the LHS.\n\nWARNING:\nThis is a VISUAL APPROACH.\n\nNetJets\u2019 tailored chart 11-1B provides lateral and vertical guidance to aid the avoidance of EGPWS alerts and permits\na safe stable approach; it should be followed. The guidance contains RNAV waypoints which may be used visually to\naid situational awareness during this manoeuvre.\n\nThe Visual Approach shall be flown visually in accordance with the OM-A procedural guidance. Any waypoint insertion\nerror or RAIM deviation may lead to off-course positioning in mountainous terrain. The insertion of the waypoints\nshould be re-checked by both crew members.\n\nMINIMA:\nSee 6. WEATHER /AIRPORTS LIMITATIONS.\nNOTE: Use the NetJets minima which is detailed on the tailored chart 11-1B.\n\nPROCEDURE:\nVISUAL APPROACH as per NetJets Tailored Chart 11-1B.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ".",
+            "Cat B aircraft (wishing to utilise the increased Max IAS available)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "The procedure shall be flown with Max 135 KIAS"
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "NOTE: Landing weight may need to be restricted to ensure max speeds are not exceeded."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "EGPWS shall be operational."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PF must be an LSGS qualified PIC (Qual B only) that has performed the specific circling Rwy 07 simulator training. This",
+            "manoeuvre is recommended to be flown from the LHS."
+          ]
+        },
+        {
+          "type": "warning",
+          "lines": [
+            "WARNING:",
+            "This is a VISUAL APPROACH."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NetJets\u2019 tailored chart 11-1B provides lateral and vertical guidance to aid the avoidance of EGPWS alerts and permits",
+            "a safe stable approach; it should be followed. The guidance contains RNAV waypoints which may be used visually to",
+            "aid situational awareness during this manoeuvre."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "The Visual Approach shall be flown visually in accordance with the OM-A procedural guidance. Any waypoint insertion",
+            "error or RAIM deviation may lead to off-course positioning in mountainous terrain. The insertion of the waypoints",
+            "should be re-checked by both crew members."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA:",
+            "See 6. WEATHER /AIRPORTS LIMITATIONS."
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "NOTE: Use the NetJets minima which is detailed on the tailored chart 11-1B."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE:",
+            "VISUAL APPROACH as per NetJets Tailored Chart 11-1B."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        2,
+        4,
+        5,
+        5,
+        9,
+        11,
+        11,
+        15,
+        16
+      ],
+      "page_images": [
+        "static/airports/lsgs/page-01.png",
+        "static/airports/lsgs/page-02.png",
+        "static/airports/lsgs/page-04.png",
+        "static/airports/lsgs/page-05.png",
+        "static/airports/lsgs/page-05.png",
+        "static/airports/lsgs/page-09.png",
+        "static/airports/lsgs/page-11.png",
+        "static/airports/lsgs/page-11.png",
+        "static/airports/lsgs/page-15.png",
+        "static/airports/lsgs/page-16.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 10,
+      "title": "Departure procedures",
+      "body": "0.1. GENERAL\nCertain SID altitude constraints only apply during MIL activity.\nThe Transition Altitudes are different depending on the SID. Check appropriate SID chart for the applicable Transition\nAltitude.\nMax. climb gradient must be maintained to ensure terrain clearance performance.\n\n10.2. IFR DEPARTURE RWY 25\nSee THREATS.\nCAUTION:\nAll IFR Departures shall be High Performance Departures (HPD).\nNetJets has approval to perform HPD regardless of Qualification A or B status provided that the applicable weather\nminima in accordance with the crews' qualification status are adhered to.\n\nMINIMA: See 6. WEATHER /AIRPORTS LIMITATIONS.\nPROCEDURE: as per Jeppesen.\n\nPERFORMANCE:\nQual A\n- Use PDCS chart 25DP4.\nQual B\n- Use PDCS chart 25DP5 for Night & IMC departures; OR\n- If Qual A minima is assured, then 25DP4 for DAY ONLY VMC departures.\nDeparture Route: As per Jeppesen published Rwy 25 High Performance Departures (HPD).\nContingency Procedure: As per Jeppesen (NetJets) chart 10-7.\n\nVMC departure (Qual A):\nMaintain appropriate aeroplane configuration until 10D SIO to ensure that the maximum speed that is stipulated on\nthe NetJets chart 10-7 (10D SIO turn) is complied with. This may require a delay in flap retraction.\nNOTES:",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "0.1. GENERAL",
+            "Certain SID altitude constraints only apply during MIL activity.",
+            "The Transition Altitudes are different depending on the SID. Check appropriate SID chart for the applicable Transition",
+            "Altitude.",
+            "Max. climb gradient must be maintained to ensure terrain clearance performance."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "10.2. IFR DEPARTURE RWY 25",
+            "See THREATS."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION:",
+            "All IFR Departures shall be High Performance Departures (HPD).",
+            "NetJets has approval to perform HPD regardless of Qualification A or B status provided that the applicable weather",
+            "minima in accordance with the crews' qualification status are adhered to."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA: See 6. WEATHER /AIRPORTS LIMITATIONS.",
+            "PROCEDURE: as per Jeppesen."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PERFORMANCE:",
+            "Qual A"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Use PDCS chart 25DP4."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Qual B"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Use PDCS chart 25DP5 for Night & IMC departures; OR",
+            "If Qual A minima is assured, then 25DP4 for DAY ONLY VMC departures."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Departure Route: As per Jeppesen published Rwy 25 High Performance Departures (HPD).",
+            "Contingency Procedure: As per Jeppesen (NetJets) chart 10-7."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VMC departure (Qual A):",
+            "Maintain appropriate aeroplane configuration until 10D SIO to ensure that the maximum speed that is stipulated on",
+            "the NetJets chart 10-7 (10D SIO turn) is complied with. This may require a delay in flap retraction.",
+            "NOTES:"
+          ]
+        }
+      ],
+      "pages": [
+        15
+      ],
+      "page_images": [
+        "static/airports/lsgs/page-15.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": "erformance.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "erformance."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        2,
+        4,
+        5,
+        5,
+        9,
+        11,
+        11,
+        15,
+        16
+      ],
+      "page_images": [
+        "static/airports/lsgs/page-01.png",
+        "static/airports/lsgs/page-02.png",
+        "static/airports/lsgs/page-04.png",
+        "static/airports/lsgs/page-05.png",
+        "static/airports/lsgs/page-05.png",
+        "static/airports/lsgs/page-09.png",
+        "static/airports/lsgs/page-11.png",
+        "static/airports/lsgs/page-11.png",
+        "static/airports/lsgs/page-15.png",
+        "static/airports/lsgs/page-16.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 2,
+      "title": "Initial qualification requirements",
+      "body": "eaching T/O thrust time limit, reduce power to MCT while keeping the initial T/O flap setting. This will ensure\nadequate stall margins at V2+10 during the turn to track 342\u00b0 (D 10.0 S1O). Maintaining this speed will provide\nsufficient terrain /obstacle clearance and aid in avoiding EGPWS warnings. This procedure does not apply\nwhen proceeding straight out towards D22.5 S1O.\n\nVMC departure (Qual B):\nCrew may elect to use VMC performance data to increase payload. When this is done, the Qual. A departure minima\nand VMC Engine Failure procedure shall be used. Applicable DAY ONLY.\n\nSION, SWITZERLAND\nSION\n13 MAY 2025 10-10-2P16\n\n-\n10.3. IFR DEPARTURE RWY 07\nSee THREATS.\n\nMINIMA: See 6. WEATHER /AIRPORTS LIMITATIONS.\nPERFORMANCE: As per PDCS chart 07DP4.\nDeparture routes: As per Jeppesen (NetJets) chart 19-11 until established on R068 (248\u00b0) inbound SIO VOR, then\nfollow the assigned departure route.\nContingency Procedures: As per Jeppesen (NetJets) chart 19-11.\nAfter passing the overhead and established on the 233\u00b0 track, continue routing as per Jeppesen (NetJets) chart 10-7.\nNOTES:",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "eaching T/O thrust time limit, reduce power to MCT while keeping the initial T/O flap setting. This will ensure",
+            "adequate stall margins at V2+10 during the turn to track 342\u00b0 (D 10.0 S1O). Maintaining this speed will provide",
+            "sufficient terrain /obstacle clearance and aid in avoiding EGPWS warnings. This procedure does not apply",
+            "when proceeding straight out towards D22.5 S1O."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VMC departure (Qual B):",
+            "Crew may elect to use VMC performance data to increase payload. When this is done, the Qual. A departure minima",
+            "and VMC Engine Failure procedure shall be used. Applicable DAY ONLY."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SION, SWITZERLAND",
+            "SION",
+            "13 MAY 2025 10-10-2P16"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "10.3. IFR DEPARTURE RWY 07",
+            "See THREATS."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA: See 6. WEATHER /AIRPORTS LIMITATIONS.",
+            "PERFORMANCE: As per PDCS chart 07DP4.",
+            "Departure routes: As per Jeppesen (NetJets) chart 19-11 until established on R068 (248\u00b0) inbound SIO VOR, then",
+            "follow the assigned departure route.",
+            "Contingency Procedures: As per Jeppesen (NetJets) chart 19-11.",
+            "After passing the overhead and established on the 233\u00b0 track, continue routing as per Jeppesen (NetJets) chart 10-7.",
+            "NOTES:"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        2,
+        4,
+        5,
+        5,
+        9,
+        11,
+        11,
+        15,
+        16
+      ],
+      "page_images": [
+        "static/airports/lsgs/page-01.png",
+        "static/airports/lsgs/page-02.png",
+        "static/airports/lsgs/page-04.png",
+        "static/airports/lsgs/page-05.png",
+        "static/airports/lsgs/page-05.png",
+        "static/airports/lsgs/page-09.png",
+        "static/airports/lsgs/page-11.png",
+        "static/airports/lsgs/page-11.png",
+        "static/airports/lsgs/page-15.png",
+        "static/airports/lsgs/page-16.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 11,
+      "title": "Ground procedures",
+      "body": "ARNING:\nGlobal 5000/6000 aircraft type shall not park on the TRANSIT PARKING APRON. Maximum wingspans are 17 m\n(yellow line) & 27 m (red line).",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "ARNING:",
+            "Global 5000/6000 aircraft type shall not park on the TRANSIT PARKING APRON. Maximum wingspans are 17 m",
+            "(yellow line) & 27 m (red line)."
+          ]
+        }
+      ],
+      "pages": [
+        17
+      ],
+      "page_images": [
+        "static/airports/lsgs/page-17.png"
+      ],
+      "embeds": [
+        "static/airports/lsgs/embed-p17-02.jpeg"
+      ]
+    },
+    {
+      "num": 12,
+      "title": "Miscellaneous",
+      "body": "or weather info including METARs call +41 27 329 06 00.\nMore information may be obtained from www.sionairport.ch and www.piste25.ch .\nGlider activities take place between mid-March and mid-September. Simultaneous use of concrete and grass\nrunways is PROHIBITED. ATC will coordinate glider activity with IFR flights.\n\nWEATHER\nLSGS may experience rapid and significant weather changes throughout the year. Most of the time there are\nwesterly winds aligned with Rwy 25. With high pressure north of the Alps and low pressure south of the Alps, a\nstrong north wind ('Foehn') causes turbulence and windshear. The Foehn usually blows into the valley from the east\nwith Rwy 07 in use.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "or weather info including METARs call +41 27 329 06 00.",
+            "More information may be obtained from www.sionairport.ch and www.piste25.ch .",
+            "Glider activities take place between mid-March and mid-September. Simultaneous use of concrete and grass",
+            "runways is PROHIBITED. ATC will coordinate glider activity with IFR flights."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "WEATHER",
+            "LSGS may experience rapid and significant weather changes throughout the year. Most of the time there are",
+            "westerly winds aligned with Rwy 25. With high pressure north of the Alps and low pressure south of the Alps, a",
+            "strong north wind ('Foehn') causes turbulence and windshear. The Foehn usually blows into the valley from the east",
+            "with Rwy 07 in use."
+          ]
+        }
+      ],
+      "pages": [
+        17
+      ],
+      "page_images": [
+        "static/airports/lsgs/page-17.png"
+      ],
+      "embeds": [
+        "static/airports/lsgs/embed-p17-02.jpeg"
+      ]
+    },
+    {
+      "num": 13,
+      "title": "Charts / Pictures / Other",
+      "body": "emperature and Precipitation",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "emperature and Precipitation"
+          ]
+        }
+      ],
+      "pages": [
+        17
+      ],
+      "page_images": [
+        "static/airports/lsgs/page-17.png"
+      ],
+      "embeds": [
+        "static/airports/lsgs/embed-p17-02.jpeg"
+      ]
+    },
+    {
+      "num": 14,
+      "title": "Changes since the last revision",
+      "body": "pproach to RWY07 after IGS RWY25 split into circle-to-land RWY07 (CAT B) and Visual Approach RWY07\n(CL350).\nProvide feedback to Lis-OpsTechnical@netjets.com",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "pproach to RWY07 after IGS RWY25 split into circle-to-land RWY07 (CAT B) and Visual Approach RWY07",
+            "(CL350).",
+            "Provide feedback to Lis-OpsTechnical@netjets.com"
+          ]
+        }
+      ],
+      "pages": [
+        17
+      ],
+      "page_images": [
+        "static/airports/lsgs/page-17.png"
+      ],
+      "embeds": [
+        "static/airports/lsgs/embed-p17-02.jpeg"
+      ]
+    }
+  ]
+}

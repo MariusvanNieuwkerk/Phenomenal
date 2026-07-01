@@ -7,14 +7,13 @@ from ui.theme import render_header, render_nav_button_row
 
 NAV_ITEMS = [
     ("Limitations", "limitations"),
-    ("Memory", "memory"),
+    ("Memory Items", "memory"),
     ("Systems", "systems"),
     ("Planning", "planning"),
     ("SOP", "sop"),
     ("Profiles", "profiles"),
     ("Cold Weather", "cold_weather"),
-    ("Airports", "airports"),
-    ("Handbook", "handbook"),
+    ("Special Airports", "airports"),
     ("Documents", "documents"),
 ]
 

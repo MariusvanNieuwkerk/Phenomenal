@@ -1,0 +1,943 @@
+{
+  "icao": "LESO",
+  "page_count": 10,
+  "pages": [
+    {
+      "page": 1,
+      "image": "static/airports/leso/page-01.png",
+      "embeds": []
+    },
+    {
+      "page": 2,
+      "image": "static/airports/leso/page-02.png",
+      "embeds": []
+    },
+    {
+      "page": 3,
+      "image": "static/airports/leso/page-03.png",
+      "embeds": [
+        "static/airports/leso/embed-p03-02.jpeg"
+      ]
+    },
+    {
+      "page": 4,
+      "image": "static/airports/leso/page-04.png",
+      "embeds": [
+        "static/airports/leso/embed-p04-02.jpeg",
+        "static/airports/leso/embed-p04-03.jpeg"
+      ]
+    },
+    {
+      "page": 5,
+      "image": "static/airports/leso/page-05.png",
+      "embeds": [
+        "static/airports/leso/embed-p05-02.jpeg"
+      ]
+    },
+    {
+      "page": 6,
+      "image": "static/airports/leso/page-06.png",
+      "embeds": [
+        "static/airports/leso/embed-p06-02.png",
+        "static/airports/leso/embed-p06-03.jpeg"
+      ]
+    },
+    {
+      "page": 7,
+      "image": "static/airports/leso/page-07.png",
+      "embeds": [
+        "static/airports/leso/embed-p07-02.jpeg",
+        "static/airports/leso/embed-p07-03.jpeg"
+      ]
+    },
+    {
+      "page": 8,
+      "image": "static/airports/leso/page-08.png",
+      "embeds": [
+        "static/airports/leso/embed-p08-02.jpeg"
+      ]
+    },
+    {
+      "page": 9,
+      "image": "static/airports/leso/page-09.png",
+      "embeds": [
+        "static/airports/leso/embed-p09-02.jpeg"
+      ]
+    },
+    {
+      "page": 10,
+      "image": "static/airports/leso/page-10.png",
+      "embeds": [
+        "static/airports/leso/embed-p10-02.jpeg"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": "IC qualification required\nYES\n\nSIC qualification required\nNO\n\nQualification is type related\nYES\n\nSelf-Briefing\nYES",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "IC qualification required",
+            "YES"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SIC qualification required",
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Qualification is type related",
+            "YES"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Self-Briefing",
+            "YES"
+          ]
+        }
+      ],
+      "pages": [
+        1
+      ],
+      "page_images": [
+        "static/airports/leso/page-01.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 2,
+      "title": "Initial qualification requirements",
+      "body": ". REVALIDATION REQUIREMENTS\nGround Training\nYES\nSelf-briefing from OM-C and Jeppesen\nprior to familiarisation flight\nNO\n\nSimulator Training\nNO\n\nNO\n\nIn-flight familiarization\nYES\nRefer to section",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ". REVALIDATION REQUIREMENTS",
+            "Ground Training",
+            "YES",
+            "Self-briefing from OM-C and Jeppesen",
+            "prior to familiarisation flight",
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Simulator Training",
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "In-flight familiarization",
+            "YES",
+            "Refer to section"
+          ]
+        }
+      ],
+      "pages": [
+        1
+      ],
+      "page_images": [
+        "static/airports/leso/page-01.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 4,
+      "title": "In-flight familiarisation syllabus",
+      "body": "ES\nAny approach at LESO will revalidate\nthe qualification for 12 months.\nFlight training\nNO\n\nNO",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "ES",
+            "Any approach at LESO will revalidate",
+            "the qualification for 12 months.",
+            "Flight training",
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NO"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        1
+      ],
+      "page_images": [
+        "static/airports/leso/page-01.png",
+        "static/airports/leso/page-01.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 4,
+      "title": "In-flight familiarisation syllabus",
+      "body": "ENERAL CONSIDERATIONS:\n\nCAUTION\nThere is NO requirement to land from the familiarisation approach, a low approach and go-around will fulfil the\nfamiliarisation requirement.\n\nFAMILIARISATION FLIGHT:\nCREW COMPOSITION\nMINIMA\nREQUIREMENTS\nPIC not LESO qualified\nDAY ONLY\nCeiling 2500ft\nVisibility 5km\n\u2022\nOne low approach and go-around as PF or PM.\n\u2022\nCrews are to take note of all relevant aspects of\noperating to LESO.\n\u2022\nNon-Revenue flight\nPIC not LESO qualified flying\nas SIC to Commander who is\nLESO qualified\n\nAs per Jeppesen\n\u2022\nOne approach and go-around or one landing as PF or\nPM.\n\u2022\nNon-qualified PIC to take note of all relevant aspects of\noperating to LESO.\n\u2022\nRevenue or Non-Revenue Flight.\n\nSAN SEBASTIAN, SPAIN\nSAN SEBASTIAN\n10-10-2P2\n\n-\nDOCUMENTATION:\n\n-\nContact the Dispatch Supervisor for a familiarisation brief. The Dispatch Supervisor will then complete the form\nNTA-TRN-FCM-3104-FLT-TR-ALL and send it to you for your records.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "ENERAL CONSIDERATIONS:"
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION",
+            "There is NO requirement to land from the familiarisation approach, a low approach and go-around will fulfil the",
+            "familiarisation requirement."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "FAMILIARISATION FLIGHT:",
+            "CREW COMPOSITION",
+            "MINIMA",
+            "REQUIREMENTS",
+            "PIC not LESO qualified",
+            "DAY ONLY",
+            "Ceiling 2500ft",
+            "Visibility 5km"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            ""
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "One low approach and go-around as PF or PM."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            ""
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Crews are to take note of all relevant aspects of",
+            "operating to LESO."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            ""
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Non-Revenue flight",
+            "PIC not LESO qualified flying",
+            "as SIC to Commander who is",
+            "LESO qualified"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "As per Jeppesen"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            ""
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "One approach and go-around or one landing as PF or",
+            "PM."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            ""
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Non-qualified PIC to take note of all relevant aspects of",
+            "operating to LESO."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            ""
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Revenue or Non-Revenue Flight."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAN SEBASTIAN, SPAIN",
+            "SAN SEBASTIAN",
+            "10-10-2P2"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "DOCUMENTATION:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "Contact the Dispatch Supervisor for a familiarisation brief. The Dispatch Supervisor will then complete the form",
+            "NTA-TRN-FCM-3104-FLT-TR-ALL and send it to you for your records."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        1
+      ],
+      "page_images": [
+        "static/airports/leso/page-01.png",
+        "static/airports/leso/page-01.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 5,
+      "title": "Limitations / Miscellaneous",
+      "body": "Aerodrome qualification is valid for 12 months.\n\u2022 If the last flight into LESO is more than 12 months ago, then the initial qualification will require to be performed\nagain.\n\u2022 PF shall hold a current AHQ.\n\nRWY 04 Only:\n\u2022 PAPI set to 4.75 degrees so landing RWY 04 is a STEEP APPROACH.\n\u2022 Steep approach approved aircraft and qualified crew shall be used.\n\u2022 Steep approach procedures and performance shall be used.\n\u2022 Fractional Ops performance is PROHIBITED.\n\nMountain airport - NO NIGHT CIRCLING Landing RWY 04 is DAY ONLY.\n\nLimitations to the use of Jeppesen Published Minima and Speeds for Circling to RWY 04:\nProtection areas used for the design of the circling minima at LESO are considerably less than those prescribed by\nPANS-OPS and the limiting speeds published by Jeppesen are NOT compatible with these reduced areas, therefore\nNetJets aircrafts are limited to circling in accordance with the limitations, minima and procedures shown in 9.4\nCIRCLING TO RWY 04 ONLY.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "Aerodrome qualification is valid for 12 months."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "If the last flight into LESO is more than 12 months ago, then the initial qualification will require to be performed"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "again."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "PF shall hold a current AHQ."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "RWY 04 Only:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "PAPI set to 4.75 degrees so landing RWY 04 is a STEEP APPROACH.",
+            "Steep approach approved aircraft and qualified crew shall be used.",
+            "Steep approach procedures and performance shall be used.",
+            "Fractional Ops performance is PROHIBITED."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Mountain airport - NO NIGHT CIRCLING Landing RWY 04 is DAY ONLY."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Limitations to the use of Jeppesen Published Minima and Speeds for Circling to RWY 04:",
+            "Protection areas used for the design of the circling minima at LESO are considerably less than those prescribed by",
+            "PANS-OPS and the limiting speeds published by Jeppesen are NOT compatible with these reduced areas, therefore",
+            "NetJets aircrafts are limited to circling in accordance with the limitations, minima and procedures shown in 9.4",
+            "CIRCLING TO RWY 04 ONLY."
+          ]
+        }
+      ],
+      "pages": [
+        2
+      ],
+      "page_images": [
+        "static/airports/leso/page-02.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 6,
+      "title": "Weather / Airport limitations",
+      "body": "RRIVAL\nDEPARTURE\n\nVISIBILITY\nCEILING\nVISIBILITY\nCEILING\nB\nAs per Jeppesen\nNight approved except Circling Rwy 04\n(SEE 9.4 Circling RWY 04)\nAs per Jeppesen.\n\nC\n\nOTHER LIMITATIONS\nNil.\n\nSAN SEBASTIAN, SPAIN\nSAN SEBASTIAN\n10-10-2P3\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "RRIVAL",
+            "DEPARTURE"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VISIBILITY",
+            "CEILING",
+            "VISIBILITY",
+            "CEILING",
+            "B",
+            "As per Jeppesen",
+            "Night approved except Circling Rwy 04",
+            "(SEE 9.4 Circling RWY 04)",
+            "As per Jeppesen."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "C"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "OTHER LIMITATIONS",
+            "Nil."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAN SEBASTIAN, SPAIN",
+            "SAN SEBASTIAN",
+            "10-10-2P3"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        2
+      ],
+      "page_images": [
+        "static/airports/leso/page-02.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 7,
+      "title": "Overview",
+      "body": "he airfield lies on the north-western part of Spain next to the French border about 14nm southwest of LFBZ (Biarritz).\nHigh terrain surrounds the aerodrome.\n\nAIRPORT OVERVIEW",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "he airfield lies on the north-western part of Spain next to the French border about 14nm southwest of LFBZ (Biarritz).",
+            "High terrain surrounds the aerodrome."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "AIRPORT OVERVIEW"
+          ]
+        }
+      ],
+      "pages": [
+        3
+      ],
+      "page_images": [
+        "static/airports/leso/page-03.png"
+      ],
+      "embeds": [
+        "static/airports/leso/embed-p03-02.jpeg"
+      ]
+    },
+    {
+      "num": 8,
+      "title": "Operational procedures \u2014 General",
+      "body": "ESO is categorised by NetJets as a CAT-C Aerodrome, as a result a previous real approach in VMC or in an approved\nsimulator is required.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "ESO is categorised by NetJets as a CAT-C Aerodrome, as a result a previous real approach in VMC or in an approved",
+            "simulator is required."
+          ]
+        }
+      ],
+      "pages": [
+        3
+      ],
+      "page_images": [
+        "static/airports/leso/page-03.png"
+      ],
+      "embeds": [
+        "static/airports/leso/embed-p03-02.jpeg"
+      ]
+    },
+    {
+      "num": 9,
+      "title": "Arrival procedures",
+      "body": ".1 GENERAL\nPreference should be given to the RNP approaches which provide a straight in approach to both RWY 22 and 04.\nThe VOR RWY 22 approach and Circling RWY 04 should only be used as a backup in the event the RNP approaches\nare not available (e.g. aircraft equipment unserviceability or GPS jamming).\n\n9.2 PREFERED APPROACHES\nRWY 22: RNP Z/Y/X RWY 22 (Chart 12-1,-2 and -3)\nRWY 04: RNP A (Chart 12-4)\n\u2022 Straight in approach to RWY 04 - As per Jeppesen.\n\nSAN SEBASTIAN, SPAIN\nSAN SEBASTIAN\n10-10-2P4\n\n-\n9.3 BACKUP APPROACHES\nCircling RWY 04 (9.4 Circling to RWY 04)\n\u2022 Circling from RNP Z/Y/X RWY 22 and VOR RWY 22.\nVOR RWY 22 (Chart 13-1)\n\u2022 Straight in approach to RWY 22: As per Jeppesen.\n\nFinal RWY 04\n\nFINAL RWY 22\n\nSAN SEBASTIAN, SPAIN\nSAN SEBASTIAN\n10-10-2P5\n\n-\n9.4. CIRCLING TO RWY 04\n\u2022 PAPI set to 4.75 degrees so landing RWY 04 is a STEEP APPROACH.\n\u2022 Steep approach approved aircraft and qualified crew shall be used.\n\u2022 Steep approach procedures and performance shall be used.\n\u2022 Fractional Ops performance is PROHIBITED.\nNetJets Minima for all circling approaches to RWY 04:\n\u2022 Visibility: 5km;\n\u2022 Ceiling: 2400ft;\n\u2022 MDA (H): 2350ft (2335ft);\n\u2022 Max Speed: 160KT IAS;\n\nGuidance for circling from VOR RWY 22 to landing RWY 04:\nThe following guidance is based on a speed of 160 kt. If a lower speed is used, then the required bank angle\nand ROD will reduce. However, to ensure a stabilised approach is possible, it is recommended to keep to the\nground track shown.\nIf circling to RWY 04 from RNP Z/Y/X RWY 22, join this procedure at an appropriate point (e.g. breakoff or\nbeginning of downwind) and then follow the same procedure from that point.\n\u2022 Prior to starting the approach, check with LESO TWR for permission to enter Danger Area \u201cLE(D)\u20138\u201d as the\ncircling will enter this area and advise them you will be circling at 2350 ft AMSL.\n\nSAN SEBASTIAN, SPAIN\nSAN SEBASTIAN\n10-10-2P6\n\n-\n\u2022 Note that 2350 ft is above the platform altitude for the VOR RWY 22, do not descend to platform altitude,\nmaintain 2350 ft.\n\n\u2022 At D5.0 \u201cSSN\u201d (Missed Approach Point), if visual reference for circling is acquired turn right track 264. Maintain\n2350 ft.\n\n\u2022 Maintain track 264. until reaching the ridge, then turn left onto a downwind track 219. Maintain 2350 ft.\n\u2022 Follow the ridge until approaching the mast (mast is 1931 ft amsl), approx. radial 335. from \u201cSSN\u201d VOR. Maintain\n2350 ft.\n\nSAN SEBASTIAN, SPAIN\nSAN SEBASTIAN\n10-10-2P7\n\n-\n\n\u2022 Initiate a left turn using 25\u00b0 AOB and when established turning away from the mast & high ground, initiate\ndescent initially to follow a 5.5\u00b0 path (1560 fpm at 160 kt). Max speed - 160 kts, Min speed - Vref (steep\napproach) plus 10 kts.\n\nCAUTION:\nDo not be tempted to turn significantly earlier as this will require a very high rate of descent to intercept the 4.75\u00b0\nPAPI and perform a stabilised approach.\n\nSAN SEBASTIAN, SPAIN\nSAN SEBASTIAN\n10-10-2P8\n\n-\n\u2022 Maintain the descent throughout the turn to roll out on final approx. 1000 ft / 1.87 NM from the threshold\non the 4.75\u00b0 PAPI (adjust descent rate in the turn to achieve this).\n\u2022 Reduce the RoD and speed to maintain the 4.75\u00b0 PAPI for a stabilised \u2018Steep Approach\u2019 landing.\n\nSAN SEBASTIAN, SPAIN\nSAN SEBASTIAN\n10-10-2P9\n\n-\n\n9.5. CIRCUIT DIRECTION\nCircuit pattern is to the North / West: RWY 22 right hand circuits, RWY 04 left hand.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ".1 GENERAL",
+            "Preference should be given to the RNP approaches which provide a straight in approach to both RWY 22 and 04.",
+            "The VOR RWY 22 approach and Circling RWY 04 should only be used as a backup in the event the RNP approaches",
+            "are not available (e.g. aircraft equipment unserviceability or GPS jamming)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "9.2 PREFERED APPROACHES",
+            "RWY 22: RNP Z/Y/X RWY 22 (Chart 12-1,-2 and -3)",
+            "RWY 04: RNP A (Chart 12-4)"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Straight in approach to RWY 04 - As per Jeppesen."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAN SEBASTIAN, SPAIN",
+            "SAN SEBASTIAN",
+            "10-10-2P4"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.3 BACKUP APPROACHES",
+            "Circling RWY 04 (9.4 Circling to RWY 04)"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Circling from RNP Z/Y/X RWY 22 and VOR RWY 22."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VOR RWY 22 (Chart 13-1)"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Straight in approach to RWY 22: As per Jeppesen."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Final RWY 04"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "FINAL RWY 22"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAN SEBASTIAN, SPAIN",
+            "SAN SEBASTIAN",
+            "10-10-2P5"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.4. CIRCLING TO RWY 04"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "PAPI set to 4.75 degrees so landing RWY 04 is a STEEP APPROACH.",
+            "Steep approach approved aircraft and qualified crew shall be used.",
+            "Steep approach procedures and performance shall be used.",
+            "Fractional Ops performance is PROHIBITED."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NetJets Minima for all circling approaches to RWY 04:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Visibility: 5km;",
+            "Ceiling: 2400ft;",
+            "MDA (H): 2350ft (2335ft);",
+            "Max Speed: 160KT IAS;"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Guidance for circling from VOR RWY 22 to landing RWY 04:",
+            "The following guidance is based on a speed of 160 kt. If a lower speed is used, then the required bank angle",
+            "and ROD will reduce. However, to ensure a stabilised approach is possible, it is recommended to keep to the",
+            "ground track shown.",
+            "If circling to RWY 04 from RNP Z/Y/X RWY 22, join this procedure at an appropriate point (e.g. breakoff or",
+            "beginning of downwind) and then follow the same procedure from that point."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Prior to starting the approach, check with LESO TWR for permission to enter Danger Area \u201cLE(D)\u20138\u201d as the"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "circling will enter this area and advise them you will be circling at 2350 ft AMSL."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAN SEBASTIAN, SPAIN",
+            "SAN SEBASTIAN",
+            "10-10-2P6"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Note that 2350 ft is above the platform altitude for the VOR RWY 22, do not descend to platform altitude,"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "maintain 2350 ft."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "At D5.0 \u201cSSN\u201d (Missed Approach Point), if visual reference for circling is acquired turn right track 264. Maintain"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "2350 ft."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Maintain track 264. until reaching the ridge, then turn left onto a downwind track 219. Maintain 2350 ft.",
+            "Follow the ridge until approaching the mast (mast is 1931 ft amsl), approx. radial 335. from \u201cSSN\u201d VOR. Maintain"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "2350 ft."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAN SEBASTIAN, SPAIN",
+            "SAN SEBASTIAN",
+            "10-10-2P7"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Initiate a left turn using 25\u00b0 AOB and when established turning away from the mast & high ground, initiate"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "descent initially to follow a 5.5\u00b0 path (1560 fpm at 160 kt). Max speed - 160 kts, Min speed - Vref (steep",
+            "approach) plus 10 kts."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION:",
+            "Do not be tempted to turn significantly earlier as this will require a very high rate of descent to intercept the 4.75\u00b0",
+            "PAPI and perform a stabilised approach."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAN SEBASTIAN, SPAIN",
+            "SAN SEBASTIAN",
+            "10-10-2P8"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Maintain the descent throughout the turn to roll out on final approx. 1000 ft / 1.87 NM from the threshold"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "on the 4.75\u00b0 PAPI (adjust descent rate in the turn to achieve this)."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Reduce the RoD and speed to maintain the 4.75\u00b0 PAPI for a stabilised \u2018Steep Approach\u2019 landing."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAN SEBASTIAN, SPAIN",
+            "SAN SEBASTIAN",
+            "10-10-2P9"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "9.5. CIRCUIT DIRECTION",
+            "Circuit pattern is to the North / West: RWY 22 right hand circuits, RWY 04 left hand."
+          ]
+        }
+      ],
+      "pages": [
+        3
+      ],
+      "page_images": [
+        "static/airports/leso/page-03.png"
+      ],
+      "embeds": [
+        "static/airports/leso/embed-p03-02.jpeg"
+      ]
+    },
+    {
+      "num": 10,
+      "title": "Departure procedures",
+      "body": "0.1 GENERAL\nAs per Jeppesen.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "0.1 GENERAL",
+            "As per Jeppesen."
+          ]
+        }
+      ],
+      "pages": [
+        9
+      ],
+      "page_images": [
+        "static/airports/leso/page-09.png"
+      ],
+      "embeds": [
+        "static/airports/leso/embed-p09-02.jpeg"
+      ]
+    },
+    {
+      "num": 11,
+      "title": "Ground procedures",
+      "body": "efer to Jeppesen.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "efer to Jeppesen."
+          ]
+        }
+      ],
+      "pages": [
+        9
+      ],
+      "page_images": [
+        "static/airports/leso/page-09.png"
+      ],
+      "embeds": [
+        "static/airports/leso/embed-p09-02.jpeg"
+      ]
+    },
+    {
+      "num": 12,
+      "title": "Miscellaneous",
+      "body": "efer to Jeppesen.\n\nSAN SEBASTIAN, SPAIN\nSAN SEBASTIAN\n13 MAY 2025 10-10-2P10\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "efer to Jeppesen."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "SAN SEBASTIAN, SPAIN",
+            "SAN SEBASTIAN",
+            "13 MAY 2025 10-10-2P10"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        9
+      ],
+      "page_images": [
+        "static/airports/leso/page-09.png"
+      ],
+      "embeds": [
+        "static/airports/leso/embed-p09-02.jpeg"
+      ]
+    },
+    {
+      "num": 13,
+      "title": "Charts / Pictures / Other",
+      "body": "eather and precipitation at LESO",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "eather and precipitation at LESO"
+          ]
+        }
+      ],
+      "pages": [
+        10
+      ],
+      "page_images": [
+        "static/airports/leso/page-10.png"
+      ],
+      "embeds": [
+        "static/airports/leso/embed-p10-02.jpeg"
+      ]
+    },
+    {
+      "num": 14,
+      "title": "Changes since the last revision",
+      "body": "he briefing was updated to reflect the new RNP Index charts and numbering. A caution note regarding\nthe familiarisation requirement has also been highlighted.\nProvide feedback to Lis-OpsTechnical@netjets.com",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "he briefing was updated to reflect the new RNP Index charts and numbering. A caution note regarding",
+            "the familiarisation requirement has also been highlighted.",
+            "Provide feedback to Lis-OpsTechnical@netjets.com"
+          ]
+        }
+      ],
+      "pages": [
+        10
+      ],
+      "page_images": [
+        "static/airports/leso/page-10.png"
+      ],
+      "embeds": [
+        "static/airports/leso/embed-p10-02.jpeg"
+      ]
+    }
+  ]
+}

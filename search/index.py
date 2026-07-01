@@ -25,11 +25,22 @@ SYSTEM_KEYWORDS = {
     "landing gear & brakes": ("Landing Gear & Brakes", ["gear", "brake", "landing gear", "wow"]),
     "air management": ("Air Management", ["pressurization", "press", "cabin altitude", "ecs"]),
     "oxygen": ("Oxygen", ["oxygen", "o2", "mask"]),
-    "flight controls": ("Flight Controls", ["flap", "aileron", "rudder", "spoiler", "pusher"]),
+    "flight controls": ("Flight Controls", ["flap", "aileron", "rudder", "spoiler", "pusher", "swps", "trim", "ptrim", "gust lock"]),
     "fire protection": ("Fire Protection", ["fire", "extinguisher"]),
-    "warning system": ("Warning System", ["cas", "warning", "caution", "advisory"]),
-    "automatic flight": ("Automatic Flight", ["autopilot", "ap", "fms", "yd", "yaw damper"]),
-    "airplane general": ("Airplane General", ["dimensions", "door", "walkaround"]),
+    "warning system": ("Warning System", ["cas", "warning", "caution", "advisory", "egpws", "taws", "tcas", "transponder"]),
+    "automatic flight": ("Automatic Flight", ["autopilot", "ap", "fms", "yd", "yaw damper", "mistrim", "steep fail", "flight director"]),
+    "rnav / rnp approaches": (
+        "RNAV / RNP Approaches",
+        ["rnav", "rnp", "lnav", "vnav", "lpv", "apv", "cdfa", "garmin", "g3000", "sbas", "overlay", "fms pink", "jdm", "database", "nav database", "sd card", "connext", "cmc", "default profile", "netjets default", "crew profile"],
+    ),
+    "airplane general": (
+        "Airplane General",
+        ["dimensions", "door", "walkaround", "walkround", "exterior", "nose gear", "brake wear", "static discharger", "hydraulic reservoir", "emergency lights", "pitot", "radome"],
+    ),
+    "cabin & ife": (
+        "Cabin & IFE",
+        ["wifi", "wi-fi", "go-go", "gogo", "ife", "lavatory", "toilet", "nespresso", "coffee", "ped", "galley", "ucs"],
+    ),
 }
 
 MEMORY_ITEMS = [
@@ -53,10 +64,9 @@ STUDY_MODULES = [
     ("Systems", "systems", "POH aircraft systems"),
     ("Flight Planning", "planning", "OM-A minima and alternates"),
     ("SOP", "sop", "OM-B standard operating procedures"),
-    ("Flight Profiles", "profiles", "Normal and abnormal profiles"),
-    ("Cold Weather Ops", "cold_weather", "OM-B cold weather procedures"),
+    ("Flight Profiles", "profiles", "Normal and abnormal profiles · OEI gradient · min fuel · cruise Mach"),
+    ("Cold Weather Ops", "cold_weather", "OM-B cold weather · severe icing · temp comp"),
     ("Special Airports", "airports", "OM-C Category C aerodromes"),
-    ("Handbook", "handbook", "Phenom 300 training handbook"),
     ("Limitations", "limitations", "Weights, speeds, engine and system limits"),
     ("Memory Items", "memory", "QRH memory items"),
     ("Documents", "documents", "OM-A, OM-B, OM-C, Handbook PDFs"),
@@ -128,7 +138,7 @@ def build_search_index():
     entries.append(_entry("OM-A", "documents", "Operations Manual Part A", keywords="om-a om a manual"))
     entries.append(_entry("OM-B", "documents", "Operations Manual Part B EMB-505", keywords="om-b om b sop manual"))
     entries.append(_entry("OM-C", "documents", "Operations Manual Part C", keywords="om-c om c airport manual"))
-    entries.append(_entry("Handbook", "documents", "Phenom 300 Handbook", keywords="handbook training"))
+    entries.append(_entry("Handbook PDF", "documents", "Phenom 300 Handbook (full fleet manual)", keywords="handbook training wifi toilet nespresso fms database"))
 
     return entries
 

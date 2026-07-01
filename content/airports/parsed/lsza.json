@@ -1,0 +1,2096 @@
+{
+  "icao": "LSZA",
+  "page_count": 21,
+  "pages": [
+    {
+      "page": 1,
+      "image": "static/airports/lsza/page-01.png",
+      "embeds": []
+    },
+    {
+      "page": 2,
+      "image": "static/airports/lsza/page-02.png",
+      "embeds": []
+    },
+    {
+      "page": 3,
+      "image": "static/airports/lsza/page-03.png",
+      "embeds": []
+    },
+    {
+      "page": 4,
+      "image": "static/airports/lsza/page-04.png",
+      "embeds": []
+    },
+    {
+      "page": 5,
+      "image": "static/airports/lsza/page-05.png",
+      "embeds": []
+    },
+    {
+      "page": 6,
+      "image": "static/airports/lsza/page-06.png",
+      "embeds": [
+        "static/airports/lsza/embed-p06-02.jpeg"
+      ]
+    },
+    {
+      "page": 7,
+      "image": "static/airports/lsza/page-07.png",
+      "embeds": [
+        "static/airports/lsza/embed-p07-02.jpeg"
+      ]
+    },
+    {
+      "page": 8,
+      "image": "static/airports/lsza/page-08.png",
+      "embeds": []
+    },
+    {
+      "page": 9,
+      "image": "static/airports/lsza/page-09.png",
+      "embeds": [
+        "static/airports/lsza/embed-p09-02.jpeg"
+      ]
+    },
+    {
+      "page": 10,
+      "image": "static/airports/lsza/page-10.png",
+      "embeds": []
+    },
+    {
+      "page": 11,
+      "image": "static/airports/lsza/page-11.png",
+      "embeds": []
+    },
+    {
+      "page": 12,
+      "image": "static/airports/lsza/page-12.png",
+      "embeds": [
+        "static/airports/lsza/embed-p12-02.jpeg"
+      ]
+    },
+    {
+      "page": 13,
+      "image": "static/airports/lsza/page-13.png",
+      "embeds": []
+    },
+    {
+      "page": 14,
+      "image": "static/airports/lsza/page-14.png",
+      "embeds": []
+    },
+    {
+      "page": 15,
+      "image": "static/airports/lsza/page-15.png",
+      "embeds": []
+    },
+    {
+      "page": 16,
+      "image": "static/airports/lsza/page-16.png",
+      "embeds": [
+        "static/airports/lsza/embed-p16-02.jpeg"
+      ]
+    },
+    {
+      "page": 17,
+      "image": "static/airports/lsza/page-17.png",
+      "embeds": [
+        "static/airports/lsza/embed-p17-02.jpeg",
+        "static/airports/lsza/embed-p17-03.jpeg"
+      ]
+    },
+    {
+      "page": 18,
+      "image": "static/airports/lsza/page-18.png",
+      "embeds": []
+    },
+    {
+      "page": 19,
+      "image": "static/airports/lsza/page-19.png",
+      "embeds": []
+    },
+    {
+      "page": 20,
+      "image": "static/airports/lsza/page-20.png",
+      "embeds": [
+        "static/airports/lsza/embed-p20-02.jpeg",
+        "static/airports/lsza/embed-p20-03.jpeg"
+      ]
+    },
+    {
+      "page": 21,
+      "image": "static/airports/lsza/page-21.png",
+      "embeds": [
+        "static/airports/lsza/embed-p21-02.png"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": "efer to Crew Qualifications section for further information on the different qualification levels.\n\nCREW QUALIFICATION LEVEL\n\nQUAL A\nQUAL B\nQUAL B2\nQUAL C\nQUAL C2\nQUAL D\nTRAINING\nREQUIRED\nPIC\nYES\nYES\nYES\nYES\nYES\nYES\nSIC\uf08c\nYES\nNO\nNO\nNO\nNO\nNO\nQUALIFICATION\nIS TYPE RELATED\nPIC\nYES\nYES\nYES\nYES\nYES\nYES\nSIC\nNO\nNO\nNO\nNO\nNO\nNO\nSELF-BRIEFING\nPIC\nYES\nYES\nYES\nYES\nYES\nYES\nSIC\n\n\uf08c On-line briefing and test only.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "efer to Crew Qualifications section for further information on the different qualification levels."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CREW QUALIFICATION LEVEL"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "QUAL A",
+            "QUAL B",
+            "QUAL B2",
+            "QUAL C",
+            "QUAL C2",
+            "QUAL D",
+            "TRAINING",
+            "REQUIRED",
+            "PIC",
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "SIC\uf08c",
+            "YES",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "QUALIFICATION",
+            "IS TYPE RELATED",
+            "PIC",
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "SIC",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "SELF-BRIEFING",
+            "PIC",
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "SIC"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "\uf08c On-line briefing and test only."
+          ]
+        }
+      ],
+      "pages": [
+        1
+      ],
+      "page_images": [
+        "static/airports/lsza/page-01.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 2,
+      "title": "Initial qualification requirements",
+      "body": "REW QUALIFICATION LEVEL\n\nQUAL A\nQUAL B\nQUAL B2\nQUAL C\nQUAL C2\nQUAL D\nGROUND\nTRAINING\uf08d\nPIC\nYES\nYES\nYES\nYES\nYES\nYES\nSIC\nSIMULATOR\nTRAINING\nPIC\nYES\nYES\nYES\nYES\nYES\nYES\nSIC\nNO\nNO\nNO\nNO\nNO\nNO\nIN-FLIGHT\nFAMILIARISATION\nPIC\nNO\nNO\nNO\nNO\nNO\nNO\nSIC\nFLIGHT\nTRAINING\nPIC\nNO\nNO\nNO\nNO\nNO\nNO\nSIC\n\nQUAL A\nQUAL B\nQUAL B2\nQUAL C\nQUAL C2\nQUAL D\nVALIDITY FROM\nCOMPLETION OF THE\nINITIAL REQUIREMENTS\nPIC\n24 months \uf08e\n12 months\n24 months\n12 months\n24 months\n24 months\nSIC\nN/A\nN/A\nN/A\nN/A\nN/A\n\n\uf08d On-line briefing and test.\n\uf08e On-line briefing completed every 12 months, on-line test completed every 24 months.\n\nLUGANO, SWITZERLAND\nLUGANO\n10-10-2P2\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "REW QUALIFICATION LEVEL"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "QUAL A",
+            "QUAL B",
+            "QUAL B2",
+            "QUAL C",
+            "QUAL C2",
+            "QUAL D",
+            "GROUND",
+            "TRAINING\uf08d",
+            "PIC",
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "SIC",
+            "SIMULATOR",
+            "TRAINING",
+            "PIC",
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "SIC",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "IN-FLIGHT",
+            "FAMILIARISATION",
+            "PIC",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "SIC",
+            "FLIGHT",
+            "TRAINING",
+            "PIC",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "SIC"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "QUAL A",
+            "QUAL B",
+            "QUAL B2",
+            "QUAL C",
+            "QUAL C2",
+            "QUAL D",
+            "VALIDITY FROM",
+            "COMPLETION OF THE",
+            "INITIAL REQUIREMENTS",
+            "PIC",
+            "24 months \uf08e",
+            "12 months",
+            "24 months",
+            "12 months",
+            "24 months",
+            "24 months",
+            "SIC",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "\uf08d On-line briefing and test.",
+            "\uf08e On-line briefing completed every 12 months, on-line test completed every 24 months."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LUGANO, SWITZERLAND",
+            "LUGANO",
+            "10-10-2P2"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        1
+      ],
+      "page_images": [
+        "static/airports/lsza/page-01.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 3,
+      "title": "Revalidation requirements",
+      "body": "REW QUALIFICATION LEVEL\n\nQUAL A\nQUAL B\nQUAL B2\nQUAL C\nQUAL C2\nQUAL D\nGROUND\nTRAINING\uf08f\nPIC\nYES\nYES\nYES\nYES\nYES\nYES\nSIC\nSIMULATOR\nTRAINING\nPIC\nYES\nNO\nNO\nNO\nNO\nNO\nSIC\nNO\nIN-FLIGHT\nFAMILIARISATION\nPIC\nNO\nNO\nNO\nNO\nNO\nNO\nSIC\nFLIGHT\nTRAINING\nPIC\nNO\nNO\nNO\nNO\nNO\nNO\nSIC\n\n\uf08f On-line briefing completed every 12 months, on-line test completed every 24 months.\n\nREVALIDATION CRITERIA AND VALIDITY\n\nCREW QUALIFICATION LEVEL\n\nQUAL A\n\uf090\nQUAL B\n\uf091\nQUAL B2\n\uf092\nQUAL C\n\uf093\nQUAL C2\n\nQUAL D\nQUAL B\n1x IFR approach as PF/PM\nwithin the initial 12 months\nPIC\nN/A\n12 months\n24 months\nN/A\nN/A\nN/A\nSIC\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nQUAL B2\n3x IFR approaches as PF/PM\nwith QUAL B2 minima\nPIC\nN/A\n12 months\n24 months\nN/A\nN/A\nN/A\nSIC\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nQUAL C\n1x IFR approach as PF/PM\nwithin the initial 12 months\nPIC\nN/A\nN/A\nN/A\n12 months\n24 months\nN/A\nSIC\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nQUAL C2\n3x IFR approaches as PF/PM\nwith QUAL C2 minima\nPIC\nN/A\nN/A\nN/A\n12 months\n24 months\nN/A\nSIC\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nQUAL D\n1x IFR departure as PF/PM\nwithin the initial 12 months\nPIC\nN/A\nN/A\nN/A\nN/A\nN/A\n24 months\nSIC\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\n\n\uf090\uf092 Qual (B) / Qual (C): If the initial 12-month validity period is exceeded, the PIC may continue to operate as Qual\n(B2) / Qual (C2) - as applicable - for further 12 months with increased weather minima \u2013 see 6. WEATHER/AIRPORT\nLIMITATIONS - arrivals\n\n\uf091\uf093 Qual (B2) / Qual (C2):\n\u2022 If within the further 12 months the PIC flies as PF or PM 3x IFR approaches then they are considered fully\nqualified Qual (B) / Qual (C) again and the standard 12-month will apply.\n\u2022 If within the further 12 months the PIC fails to fly as PF or PM at least 3 IFR approaches the Qual (B) / (C)\nqualification is lost, and a full initial qualification is required.\n\nLUGANO, SWITZERLAND\nLUGANO\n10-10-2P3\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "REW QUALIFICATION LEVEL"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "QUAL A",
+            "QUAL B",
+            "QUAL B2",
+            "QUAL C",
+            "QUAL C2",
+            "QUAL D",
+            "GROUND",
+            "TRAINING\uf08f",
+            "PIC",
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "SIC",
+            "SIMULATOR",
+            "TRAINING",
+            "PIC",
+            "YES",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "SIC",
+            "NO",
+            "IN-FLIGHT",
+            "FAMILIARISATION",
+            "PIC",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "SIC",
+            "FLIGHT",
+            "TRAINING",
+            "PIC",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "SIC"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "\uf08f On-line briefing completed every 12 months, on-line test completed every 24 months."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "REVALIDATION CRITERIA AND VALIDITY"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CREW QUALIFICATION LEVEL"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "QUAL A",
+            "\uf090",
+            "QUAL B",
+            "\uf091",
+            "QUAL B2",
+            "\uf092",
+            "QUAL C",
+            "\uf093",
+            "QUAL C2"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "QUAL D",
+            "QUAL B",
+            "1x IFR approach as PF/PM",
+            "within the initial 12 months",
+            "PIC",
+            "N/A",
+            "12 months",
+            "24 months",
+            "N/A",
+            "N/A",
+            "N/A",
+            "SIC",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "QUAL B2",
+            "3x IFR approaches as PF/PM",
+            "with QUAL B2 minima",
+            "PIC",
+            "N/A",
+            "12 months",
+            "24 months",
+            "N/A",
+            "N/A",
+            "N/A",
+            "SIC",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "QUAL C",
+            "1x IFR approach as PF/PM",
+            "within the initial 12 months",
+            "PIC",
+            "N/A",
+            "N/A",
+            "N/A",
+            "12 months",
+            "24 months",
+            "N/A",
+            "SIC",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "QUAL C2",
+            "3x IFR approaches as PF/PM",
+            "with QUAL C2 minima",
+            "PIC",
+            "N/A",
+            "N/A",
+            "N/A",
+            "12 months",
+            "24 months",
+            "N/A",
+            "SIC",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "QUAL D",
+            "1x IFR departure as PF/PM",
+            "within the initial 12 months",
+            "PIC",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "24 months",
+            "SIC",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "\uf090\uf092 Qual (B) / Qual (C): If the initial 12-month validity period is exceeded, the PIC may continue to operate as Qual",
+            "(B2) / Qual (C2) - as applicable - for further 12 months with increased weather minima \u2013 see 6. WEATHER/AIRPORT",
+            "LIMITATIONS - arrivals"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "\uf091\uf093 Qual (B2) / Qual (C2):"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "If within the further 12 months the PIC flies as PF or PM 3x IFR approaches then they are considered fully"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "qualified Qual (B) / Qual (C) again and the standard 12-month will apply."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "If within the further 12 months the PIC fails to fly as PF or PM at least 3 IFR approaches the Qual (B) / (C)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "qualification is lost, and a full initial qualification is required."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LUGANO, SWITZERLAND",
+            "LUGANO",
+            "10-10-2P3"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        2
+      ],
+      "page_images": [
+        "static/airports/lsza/page-02.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 5,
+      "title": "Limitations / Miscellaneous",
+      "body": "REW QUALIFICATIONS:\n\nThere are 5 types of pilot qualifications for Lugano:\nQualification (A)\n- which permits DAY only operation with a high weather minima\nQualification (B)\n- which permits landing RWY19 DAY/NIGHT with lower weather minima\nQualification (B2) - which permits landing RWY19 DAY/NIGHT with increased weather minima (+500ft ceiling\nand +1000m visibility) when compared to Qual (B)\n- this qualification level is internally defined by NetJets, capturing when extending Qual (B)\nbeyond 12 months but less than 24 months validity.\nQualification (C)\n- which permits the IGS 01 approach\nQualification (C2) - which permits the IGS 01 approach with increased weather minima (+500ft ceiling and\n+1000m visibility) when compared to Qual (C)\n- this qualification level is internally defined by NetJets, capturing when extending Qual (C)\nbeyond 12 months but less than 24 months validity.\nQualification (D)\n- which permits take-off RWY19 at NIGHT with lower weather minima\n\nFor all operations at LSZA the PF shall hold a current AHQ.\nNTA requires that all flight crew members on fleets which operate to LSZA must hold a Qual (A), which consists\nof an on-line briefing plus a test for a PIC/SIC, and additionally NetJets simulator training for Qual (A) PICs.\nFor arrivals and/or departures requiring qualification (B), (B2), (C), (C2) or (D), the PF shall hold a PIC qualification\n(B), (B2), (C) or (D) as applicable to the operation but may fly from either seat.\nHolding Qual (A) also gives the qualification to operate as SIC / PM for Qual (B), (B2), (C), (C2) and (D) operations.\nCREW QUALIFICATION LEVEL\nRequirement\n\u00b4My currency\u00b4 annotation\nPIC\nSIC (or PIC acting as SIC)\nQualification (A)\nLSZA - A - PIC\nLSZA - SIC\nQualification (B)\nLSZA - B - PIC\nQualification (B2)\nLSZA - B2 - PIC\nQualification (C)\nLSZA - C - PIC\nQualification (C2)\nLSZA - C2 - PIC\nQualification (D)\nLSZA - D - PIC\n\nLUGANO, SWITZERLAND\nLUGANO\n10-10-2P4\n\n-\nQUALIFICATION B/B2 EQUIPMENT REQUIREMENTS:\n\nAIRCRAFT EQUIPMENT:\nFor operation to Qual (B) or Qual (B2) minimums, the following equipment shall be operational. This is in\naddition to any possible MEL restrictions.\n\u2022 EGPWS must be fully operational;\n\u2022 Radio Altimeter system must be fully operational;\n\u2022 1 VOR system;\n\u2022 1 Mode A/C SSR Transponder;\n\u2022 TCAS components must all be fully functional;\n\u2022 1 FMS with up-to-date Nav Database;\n\u2022 All PFD & MFD screens must be operational (TAWS Relative Terrain enabled and displayed on the MFD);\n\u2022 2 GPS Sensors or 2 DME systems.\n\nAERODROME EQUIPMENT:\nFor night landings the RWY lead-in lighting system (RLLS) must be operative.\n\nLUGANO, SWITZERLAND\nLUGANO\n10-10-2P5\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "REW QUALIFICATIONS:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "There are 5 types of pilot qualifications for Lugano:",
+            "Qualification (A)"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "which permits DAY only operation with a high weather minima"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Qualification (B)"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "which permits landing RWY19 DAY/NIGHT with lower weather minima"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Qualification (B2) - which permits landing RWY19 DAY/NIGHT with increased weather minima (+500ft ceiling",
+            "and +1000m visibility) when compared to Qual (B)"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "this qualification level is internally defined by NetJets, capturing when extending Qual (B)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "beyond 12 months but less than 24 months validity.",
+            "Qualification (C)"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "which permits the IGS 01 approach"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Qualification (C2) - which permits the IGS 01 approach with increased weather minima (+500ft ceiling and",
+            "+1000m visibility) when compared to Qual (C)"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "this qualification level is internally defined by NetJets, capturing when extending Qual (C)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "beyond 12 months but less than 24 months validity.",
+            "Qualification (D)"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "which permits take-off RWY19 at NIGHT with lower weather minima"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "For all operations at LSZA the PF shall hold a current AHQ.",
+            "NTA requires that all flight crew members on fleets which operate to LSZA must hold a Qual (A), which consists",
+            "of an on-line briefing plus a test for a PIC/SIC, and additionally NetJets simulator training for Qual (A) PICs.",
+            "For arrivals and/or departures requiring qualification (B), (B2), (C), (C2) or (D), the PF shall hold a PIC qualification",
+            "(B), (B2), (C) or (D) as applicable to the operation but may fly from either seat.",
+            "Holding Qual (A) also gives the qualification to operate as SIC / PM for Qual (B), (B2), (C), (C2) and (D) operations.",
+            "CREW QUALIFICATION LEVEL",
+            "Requirement",
+            "\u00b4My currency\u00b4 annotation",
+            "PIC",
+            "SIC (or PIC acting as SIC)",
+            "Qualification (A)",
+            "LSZA - A - PIC",
+            "LSZA - SIC",
+            "Qualification (B)",
+            "LSZA - B - PIC",
+            "Qualification (B2)",
+            "LSZA - B2 - PIC",
+            "Qualification (C)",
+            "LSZA - C - PIC",
+            "Qualification (C2)",
+            "LSZA - C2 - PIC",
+            "Qualification (D)",
+            "LSZA - D - PIC"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LUGANO, SWITZERLAND",
+            "LUGANO",
+            "10-10-2P4"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "QUALIFICATION B/B2 EQUIPMENT REQUIREMENTS:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "AIRCRAFT EQUIPMENT:",
+            "For operation to Qual (B) or Qual (B2) minimums, the following equipment shall be operational. This is in",
+            "addition to any possible MEL restrictions."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "EGPWS must be fully operational;",
+            "Radio Altimeter system must be fully operational;",
+            "1 VOR system;",
+            "1 Mode A/C SSR Transponder;",
+            "TCAS components must all be fully functional;",
+            "1 FMS with up-to-date Nav Database;",
+            "All PFD & MFD screens must be operational (TAWS Relative Terrain enabled and displayed on the MFD);",
+            "2 GPS Sensors or 2 DME systems."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "AERODROME EQUIPMENT:",
+            "For night landings the RWY lead-in lighting system (RLLS) must be operative."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LUGANO, SWITZERLAND",
+            "LUGANO",
+            "10-10-2P5"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        3
+      ],
+      "page_images": [
+        "static/airports/lsza/page-03.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 6,
+      "title": "Weather / Airport limitations",
+      "body": "RRIVAL\nCrew Qualification\nAircraft Approach Speed Category\nRWY 19\nRWY 01\nQual (A)\nCat B aircraft\nDAY ONLY\nCeiling 3100 ft\nVisibility 5 km\nDAY ONLY\nCeiling 5100 ft\nVisibility 8 km\nCat C aircraft able to maintain all\nspeed limits detailed on Jeppesen\n11-2 / 11-3 (see 9.4 Category C\nAircraft \u2013 Approach RWY 19)\nDAY ONLY\nCeiling 3100 ft\nVisibility 5 km\nCat C aircraft unable to maintain all\nspeed limits detailed on Jeppesen\n11-2 / 11-3 (see 9.4 Category C\nAircraft \u2013 Approach RWY 19)\nDAY ONLY\nCeiling 5100 ft\nVisibility 8 km\nQual (B)\n(PIC 12 months or less validity)\nCat B aircraft\nCeiling 1700 ft\nDAY Visibility 3 km\nNIGHT Visibility 5 km\nQual (B2)\n(PIC more than 12 but less\nthan 24 months validity)\nCat B aircraft\nCeiling 2200 ft\nDAY Visibility 4 km\nNIGHT Visibility 6 km\nQual (C)\n(PIC 12 months or less validity)\nCE-680A only\nNot Applicable\nAs per Jeppesen\nChart 11-1\nQual (C2)\n(PIC more than 12 but less\nthan 24 months validity)\nCE-680A only\nNot Applicable\nAs per Jeppesen\nChart 11-1\nCeiling +500ft\nVisibility +1000m\n\nDEPARTURE\nCrew Qualification\nRWY 19\nRWY 01\nQual (A)\n\nDAY ONLY\nCeiling 2100 ft\nVisibility 3000 m\nDAY ONLY\nCeiling 4100 ft\nVisibility 5 km\nQual (D)\nDAY & NIGHT\nCeiling not required\nVisibility 400 m\n\nOTHER LIMITATIONS\n\nVFR TAKE-OFF PROHIBITED.\n\nLUGANO, SWITZERLAND\nLUGANO\n10-10-2P6\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "RRIVAL",
+            "Crew Qualification",
+            "Aircraft Approach Speed Category",
+            "RWY 19",
+            "RWY 01",
+            "Qual (A)",
+            "Cat B aircraft",
+            "DAY ONLY",
+            "Ceiling 3100 ft",
+            "Visibility 5 km",
+            "DAY ONLY",
+            "Ceiling 5100 ft",
+            "Visibility 8 km",
+            "Cat C aircraft able to maintain all",
+            "speed limits detailed on Jeppesen",
+            "11-2 / 11-3 (see 9.4 Category C",
+            "Aircraft \u2013 Approach RWY 19)",
+            "DAY ONLY",
+            "Ceiling 3100 ft",
+            "Visibility 5 km",
+            "Cat C aircraft unable to maintain all",
+            "speed limits detailed on Jeppesen",
+            "11-2 / 11-3 (see 9.4 Category C",
+            "Aircraft \u2013 Approach RWY 19)",
+            "DAY ONLY",
+            "Ceiling 5100 ft",
+            "Visibility 8 km",
+            "Qual (B)",
+            "(PIC 12 months or less validity)",
+            "Cat B aircraft",
+            "Ceiling 1700 ft",
+            "DAY Visibility 3 km",
+            "NIGHT Visibility 5 km",
+            "Qual (B2)",
+            "(PIC more than 12 but less",
+            "than 24 months validity)",
+            "Cat B aircraft",
+            "Ceiling 2200 ft",
+            "DAY Visibility 4 km",
+            "NIGHT Visibility 6 km",
+            "Qual (C)",
+            "(PIC 12 months or less validity)",
+            "CE-680A only",
+            "Not Applicable",
+            "As per Jeppesen",
+            "Chart 11-1",
+            "Qual (C2)",
+            "(PIC more than 12 but less",
+            "than 24 months validity)",
+            "CE-680A only",
+            "Not Applicable",
+            "As per Jeppesen",
+            "Chart 11-1",
+            "Ceiling +500ft",
+            "Visibility +1000m"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DEPARTURE",
+            "Crew Qualification",
+            "RWY 19",
+            "RWY 01",
+            "Qual (A)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DAY ONLY",
+            "Ceiling 2100 ft",
+            "Visibility 3000 m",
+            "DAY ONLY",
+            "Ceiling 4100 ft",
+            "Visibility 5 km",
+            "Qual (D)",
+            "DAY & NIGHT",
+            "Ceiling not required",
+            "Visibility 400 m"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "OTHER LIMITATIONS"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VFR TAKE-OFF PROHIBITED."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LUGANO, SWITZERLAND",
+            "LUGANO",
+            "10-10-2P6"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        5
+      ],
+      "page_images": [
+        "static/airports/lsza/page-05.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 7,
+      "title": "Overview",
+      "body": "he aerodrome of Lugano is located at the South edge of the Italian Alps, 2.2 NM West of Lugano city and North of\nthe Ceresio lake.\nThe mountains North of the CTR are up to 7300 feet high, South of the CTR they are up to 4100 feet high.\n\nOverview of the Airport",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "he aerodrome of Lugano is located at the South edge of the Italian Alps, 2.2 NM West of Lugano city and North of",
+            "the Ceresio lake.",
+            "The mountains North of the CTR are up to 7300 feet high, South of the CTR they are up to 4100 feet high."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Overview of the Airport"
+          ]
+        }
+      ],
+      "pages": [
+        6
+      ],
+      "page_images": [
+        "static/airports/lsza/page-06.png"
+      ],
+      "embeds": [
+        "static/airports/lsza/embed-p06-02.jpeg"
+      ]
+    },
+    {
+      "num": 8,
+      "title": "Operational procedures \u2014 General",
+      "body": "pecial procedures and authorisations are required to operate at Lugano. This briefing combines Lugano Airport and\nNetJets requirements to detail which procedures NTA crew may use and which minima to fly to.\n\nNetJets has 3 tailored Jeppesen Charts for Lugano which can all be found under the \u2018CO\u2019 Tab on the iPad EFB as follows:\n\u2022 10-7 - NETJETS Special Engine Fail RWY 01 VMC.\n\u2022 10-7A - NETJETS Special Engine Fail RWY 19 IMC/VMC.\n\u2022 10-7B - NETJETS Missed Apch Circling CHARLIE RWY 19.\n\nLUGANO, SWITZERLAND\nLUGANO\n10-10-2P7\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "pecial procedures and authorisations are required to operate at Lugano. This briefing combines Lugano Airport and",
+            "NetJets requirements to detail which procedures NTA crew may use and which minima to fly to."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NetJets has 3 tailored Jeppesen Charts for Lugano which can all be found under the \u2018CO\u2019 Tab on the iPad EFB as follows:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "10-7 - NETJETS Special Engine Fail RWY 01 VMC.",
+            "10-7A - NETJETS Special Engine Fail RWY 19 IMC/VMC.",
+            "10-7B - NETJETS Missed Apch Circling CHARLIE RWY 19."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LUGANO, SWITZERLAND",
+            "LUGANO",
+            "10-10-2P7"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        6
+      ],
+      "page_images": [
+        "static/airports/lsza/page-06.png"
+      ],
+      "embeds": [
+        "static/airports/lsza/embed-p06-02.jpeg"
+      ]
+    },
+    {
+      "num": 9,
+      "title": "Arrival procedures",
+      "body": ".1. GENERAL\n\nLANDING RUNWAY 01\n-\nMinima and procedures are the same for Qual (A) and Qual (B) crew regardless of aircraft category, only a\nvisual approach as per 9.6 IFR Visual Approach RWY 01 is permitted.\n-\nThe IGS RWY 01 as per Jeppesen 11-1 is for Qual (C) or Qual (C2) pilots in the CE-680A fleet ONLY.\n\nLANDING RUNWAY 19\n-\nQual (A)\no CAT B aircraft should normally expect to perform the LOC RWY 01 for CIRCLING RWY 19 as per 9.2.\nCIRCLING APPROACH TO RWY 19 \u2013 QUAL (A) [CAT B AIRCRAFT].\no CAT C aircraft should refer to 9.4 CATEGORY C AIRCRAFT - APPROACH RWY 19.\n-\nQual (B) & Qual (B2)\no CAT B aircraft may land with a lower weather minima and also at night, see 9.3. CIRCLING APPROACH\nTO RWY 19 \u2013 QUAL (B) & QUAL (B2) [CAT B AIRCRAFT].\n\nNOISE ABATEMENT\nUse of thrust reversers above idle should be limited to safety requirements (e.g. landing when the runway is reported\nas wet) and exceptional operational conditions.\n\nLATE DESCENT CLEARANCE\nFor all approaches, expect possible late handover to Lugano. Consider preparing the PINIK hold on arrival in case the\napproach or descent clearance is delayed.\n\nCAUTION\nLEVEL VIOLATION HOTSPOT\nJEPPESEN CHART 10-2B is difficult to read.  Note the ODINA 8L, LEGLO 5P & EKLIB 5P \u2018hide\u2019 the cleared descent level\nand may cause LEVEL BUSTS.\n\nLEGLO 5P & EKLIB 5P:          Minimum level between D29.0 BRL and PINIK is the Transition Level as given by LSZA\nATIS (or by ATC), only after PINIK the minimum level goes down to 6000ft.\nODINA 8L:                              Minimum level between LUGAN and D20.0 MMP is the Transition Level as given by LSZA\nATIS (or by ATC), only after D20.0 MMP the minimum level goes down to 6000ft.\n\nLUGANO, SWITZERLAND\nLUGANO\n10-10-2P8\n\n-\n9.2. CIRCLING APPROACH TO RWY 19 \u2013 QUAL (A) [CAT B AIRCRAFT]\nDAY ONLY\nWeather Minima: Ceiling 3100ft / Visibility 5km\n\nExecute the LOC RWY 01 for CIRCLING RWY 19 as per Jeppesen 11-2, followed by circling approach FOXTROT as per\nJeppesen 19-11.\n\nCircling CHARLIE is PROHIBITED for Qual (A) crew.\n\nCircling FOXTROT\nThe Circling FOXTROT procedure is the preferential manoeuvre for noise abatement purposes when landing on RWY\n19 (AIP AD 2.21 3.)\n\nThe following FMS waypoints can aid flying the Circling FOXTROT, although it should be remembered that this is a\nvisual procedure that shall be performed in accordance with the relevant Jeppesen chart \u2013 some of these waypoints\nmay already be present in the FMS, carefully check as it may require manual insertion.\n\nFMS WPT\nCOORDINATES\nDESCRIPTION\n10ILU\nN45 59.11 E008 54.03\nBreak-Off D1.7\n32ARP\nN46 02.61 E008 57.66 3.2 nm from ARP\nD017B\nN46 02.03 E008 55.51 1.65 nm Final 19\nD017A\nN46 01.34 E008 55.17\n0.9 nm Final 19\n\nSee the \u2018Circling FOXTROT RWY 19 - FMS Points\u2019 picture for how these waypoints relate to the terrain.\n\nMissed Approach / Balked landing\n\nUp to MAPt:\nFly Published Missed Approach as per Jeppesen procedure.\n\nAfter MAPt:\nMaintain VMC and visually regain circling altitude and circling prescribed track to point LUGAN (in the\noverhead). On passing LUGAN climb and follow SID track outbound to PINIK at 6000 ft.\n\nEGPWS alerts\nEGPWS alerts may be experienced whilst performing the circle-to-land procedure. They are most likely to occur during\nthe descending base leg. Crew response to EGPWS Alerts and Warnings shall always be in accordance with OM-A\n8.3.5.\n\nLUGANO, SWITZERLAND\nLUGANO\n10-10-2P9\n\n-\n\nCircling FOXTROT RWY 19 - FMS Points\n4 DME\n\nLUGANO, SWITZERLAND\nLUGANO\n13 MAY 2025 10-10-2P10\n\n-\n9.3. CIRCLING APPROACH TO RWY 19 \u2013 QUAL (B) & QUAL (B2) [CAT B AIRCRAFT]\nQual (B) or Qual (B2) crew may use the same procedures and minima as for Qual (A) crew, unless the weather\nconditions require the use of lower minima permitted by Qual (B) or Qual (B2) or a night landing is required, in which\ncase the following weather minima shall apply:\n\nQUAL (B)\nQUAL (B2)\nDAY\nCeiling 1700 ft\nVisibility 3 km\nCeiling 2200 ft\nVisibility 4 km\nNIGHT\nCeiling 1700 ft\nVisibility 5 km\nCeiling 2200 ft\nVisibility 6 km\n\nCAUTION:\n- Refer to aircraft and airport requirements on QUALIFICATION B/B2 EQUIPMENT REQUIREMENTS\n- For night landings the RWY lead-in lighting system (RLLS) must be operative.\n\nExecute the LOC RWY 01 for CIRCLING RWY 19 as per Jeppesen 11-2, followed by circling approach CHARLIE to Runway",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ".1. GENERAL"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LANDING RUNWAY 01",
+            "-",
+            "Minima and procedures are the same for Qual (A) and Qual (B) crew regardless of aircraft category, only a",
+            "visual approach as per 9.6 IFR Visual Approach RWY 01 is permitted.",
+            "-",
+            "The IGS RWY 01 as per Jeppesen 11-1 is for Qual (C) or Qual (C2) pilots in the CE-680A fleet ONLY."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LANDING RUNWAY 19",
+            "-",
+            "Qual (A)",
+            "o CAT B aircraft should normally expect to perform the LOC RWY 01 for CIRCLING RWY 19 as per 9.2.",
+            "CIRCLING APPROACH TO RWY 19 \u2013 QUAL (A) [CAT B AIRCRAFT].",
+            "o CAT C aircraft should refer to 9.4 CATEGORY C AIRCRAFT - APPROACH RWY 19.",
+            "-",
+            "Qual (B) & Qual (B2)",
+            "o CAT B aircraft may land with a lower weather minima and also at night, see 9.3. CIRCLING APPROACH",
+            "TO RWY 19 \u2013 QUAL (B) & QUAL (B2) [CAT B AIRCRAFT]."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NOISE ABATEMENT",
+            "Use of thrust reversers above idle should be limited to safety requirements (e.g. landing when the runway is reported",
+            "as wet) and exceptional operational conditions."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LATE DESCENT CLEARANCE",
+            "For all approaches, expect possible late handover to Lugano. Consider preparing the PINIK hold on arrival in case the",
+            "approach or descent clearance is delayed."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION",
+            "LEVEL VIOLATION HOTSPOT",
+            "JEPPESEN CHART 10-2B is difficult to read.  Note the ODINA 8L, LEGLO 5P & EKLIB 5P \u2018hide\u2019 the cleared descent level",
+            "and may cause LEVEL BUSTS."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LEGLO 5P & EKLIB 5P:          Minimum level between D29.0 BRL and PINIK is the Transition Level as given by LSZA",
+            "ATIS (or by ATC), only after PINIK the minimum level goes down to 6000ft.",
+            "ODINA 8L:                              Minimum level between LUGAN and D20.0 MMP is the Transition Level as given by LSZA",
+            "ATIS (or by ATC), only after D20.0 MMP the minimum level goes down to 6000ft."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LUGANO, SWITZERLAND",
+            "LUGANO",
+            "10-10-2P8"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.2. CIRCLING APPROACH TO RWY 19 \u2013 QUAL (A) [CAT B AIRCRAFT]",
+            "DAY ONLY",
+            "Weather Minima: Ceiling 3100ft / Visibility 5km"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Execute the LOC RWY 01 for CIRCLING RWY 19 as per Jeppesen 11-2, followed by circling approach FOXTROT as per",
+            "Jeppesen 19-11."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Circling CHARLIE is PROHIBITED for Qual (A) crew."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Circling FOXTROT",
+            "The Circling FOXTROT procedure is the preferential manoeuvre for noise abatement purposes when landing on RWY",
+            "19 (AIP AD 2.21 3.)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "The following FMS waypoints can aid flying the Circling FOXTROT, although it should be remembered that this is a",
+            "visual procedure that shall be performed in accordance with the relevant Jeppesen chart \u2013 some of these waypoints",
+            "may already be present in the FMS, carefully check as it may require manual insertion."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "FMS WPT",
+            "COORDINATES",
+            "DESCRIPTION",
+            "10ILU",
+            "N45 59.11 E008 54.03",
+            "Break-Off D1.7",
+            "32ARP",
+            "N46 02.61 E008 57.66 3.2 nm from ARP",
+            "D017B",
+            "N46 02.03 E008 55.51 1.65 nm Final 19",
+            "D017A",
+            "N46 01.34 E008 55.17",
+            "0.9 nm Final 19"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "See the \u2018Circling FOXTROT RWY 19 - FMS Points\u2019 picture for how these waypoints relate to the terrain."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Missed Approach / Balked landing"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Up to MAPt:",
+            "Fly Published Missed Approach as per Jeppesen procedure."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "After MAPt:",
+            "Maintain VMC and visually regain circling altitude and circling prescribed track to point LUGAN (in the",
+            "overhead). On passing LUGAN climb and follow SID track outbound to PINIK at 6000 ft."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "EGPWS alerts",
+            "EGPWS alerts may be experienced whilst performing the circle-to-land procedure. They are most likely to occur during",
+            "the descending base leg. Crew response to EGPWS Alerts and Warnings shall always be in accordance with OM-A",
+            "8.3.5."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LUGANO, SWITZERLAND",
+            "LUGANO",
+            "10-10-2P9"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Circling FOXTROT RWY 19 - FMS Points",
+            "4 DME"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LUGANO, SWITZERLAND",
+            "LUGANO",
+            "13 MAY 2025 10-10-2P10"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.3. CIRCLING APPROACH TO RWY 19 \u2013 QUAL (B) & QUAL (B2) [CAT B AIRCRAFT]",
+            "Qual (B) or Qual (B2) crew may use the same procedures and minima as for Qual (A) crew, unless the weather",
+            "conditions require the use of lower minima permitted by Qual (B) or Qual (B2) or a night landing is required, in which",
+            "case the following weather minima shall apply:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "QUAL (B)",
+            "QUAL (B2)",
+            "DAY",
+            "Ceiling 1700 ft",
+            "Visibility 3 km",
+            "Ceiling 2200 ft",
+            "Visibility 4 km",
+            "NIGHT",
+            "Ceiling 1700 ft",
+            "Visibility 5 km",
+            "Ceiling 2200 ft",
+            "Visibility 6 km"
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Refer to aircraft and airport requirements on QUALIFICATION B/B2 EQUIPMENT REQUIREMENTS",
+            "For night landings the RWY lead-in lighting system (RLLS) must be operative."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Execute the LOC RWY 01 for CIRCLING RWY 19 as per Jeppesen 11-2, followed by circling approach CHARLIE to Runway"
+          ]
+        }
+      ],
+      "pages": [
+        7
+      ],
+      "page_images": [
+        "static/airports/lsza/page-07.png"
+      ],
+      "embeds": [
+        "static/airports/lsza/embed-p07-02.jpeg"
+      ]
+    },
+    {
+      "num": 19,
+      "title": "Circling Charlie",
+      "body": "he following FMS waypoints can aid flying the Circling CHARLIE, although it should be remembered that this is a\nvisual procedure that shall be performed in accordance with the relevant Jeppesen chart \u2013 some of these waypoints\nmay already be present in the FMS, carefully check as it may require manual insertion.\n\nFMS WPT\nCOORDINATES\nDESCRIPTION\n10ILU\nN45 59.11 E008 54.03\nBreak-Off D1.7\n20ILU\nN46 01.16 E008 56.95\n2.0 nm ARP\nD017B\nN46 02.03 E008 55.51 1.65 nm Final 19\nD017A\nN46 01.34 E008 55.17\n0.9 nm Final 19\n\nSee the \u2018Circling CHARLIE RWY 19 - FMS Points\u2019 picture for how these waypoints relate to the terrain.\n\nMissed Approach / Balked landing\n\nUp to MAPt:\nFly Published Missed Approach as per Jeppesen Procedure.\n\nAfter MAPt:\nFly NetJets Missed Approach procedure, as per Jeppesen (NetJets) 10-7B. If it is certain that you are on the\npublished circling Charlie track, then it is permissible to perform the following level turn procedure:\n-\nMaintain published track, configuration, speed (max 135 kts), and altitude to 20ILU point.\n-\nPerform level left hand turn to 197\u00b0 track inbound to RWY 19.\n-\nWhen wings level clean aircraft configuration, climb, accelerate, and follow SID track outbound to PINIK at\n6000 ft. This level turn procedure requires much less energy than the normal missed approach procedure\nand makes containing the speed easier.\n\nLUGANO, SWITZERLAND\nLUGANO\n13 MAY 2025 10-10-2P11\n\n-\nEGPWS alerts\nEGPWS alerts may be experienced whilst performing the circle to land procedure. They are most likely to occur during\nthe descending base leg. Crew response to EGPWS Alerts and Warnings shall always be in accordance with OM-A\n8.3.5.\n\nLUGANO, SWITZERLAND\nLUGANO\n13 MAY 2025 10-10-2P12\n\n-\n\nCircling CHARLIE RWY 19 - FMS Points\n3 DME\n\nLUGANO, SWITZERLAND\nLUGANO\n13 MAY 2025 10-10-2P13\n\n-\n9.4. CATEGORY C AIRCRAFT \u2013 APPROACH RWY 19\n(as per 9.2 Circling Approach to RWY 19 \u2013 Qual (A) [CAT B Aircraft]) provided ALL speeds shown on Jeppesen 11-2 are\nadhered to. If all of these speeds cannot be maintained or if there is any doubt, then the IFR Visual approach\nprocedure and visual approach minima must be used.\n\nCAT-C Aircraft Limitations\nAircraft\nType\nLanding\nMass\nLimiting Speed from\nJeppesen 11-2\nPermitted procedure\nWeather\nMinima\nChallenger 350\n33,700 lbs\nor less\nInitial missed approach\nspeed of 135 kt\nLOC RWY 01 for CIRCLING RWY 19 as\nper 9.2 Circling Approach to RWY 19 \u2013\nQual (A) [CAT B Aircraft].\nDAY ONLY\nCeiling 3100 ft\nVisibility 5 km\nGreater\nthan\n33,700 lbs\nN/A\nVisual approach as per 9.5 IFR Visual\nApproach RWY 19.\nDAY ONLY\nCeiling 5100 ft\nVisibility 8 km\n\nLUGANO, SWITZERLAND\nLUGANO\n13 MAY 2025 10-10-2P14\n\n-\n9.5. IFR VISUAL APPROACH RWY 19\nNormally, an IFR visual approach RWY 19 will only be flown by a CAT C aircraft that is unable to comply with the\nspeeds shown on Jeppesen 11-2 (see 9.4 Category C Aircraft - Approach RWY 19):\n\u2022 DAY ONLY.\n\u2022 Weather Minima:  Ceiling 5100 ft\nVisibility 8 km.\nConsider visually following the vertical and lateral profile of LOC RWY 01 for CIRCLING RWY 19 followed by circling\nRWY 19.\n\nCAUTION:\n\u2022 Descent below 6000 ft whilst south of PINIK is PROHIBITED. This is due to interaction with Milan Malpensa\ndepartures which level off at 5000 ft south of PINIK.\n\u2022 The published Circle-to-land prescribed flight tracks do not guarantee CAT C obstacle clearance, so they should\nbe used as guidance only. Consider using Circle FOXTROT as guidance with a slightly wider base leg to allow for\nthe increased CAT C turn radius.\n\u2022 The runway is approx. 8 nm / 14.4 km from PINIK, so with 8 km visibility, the runway might not be visible.\n\nMISSED APPROACH / BALKED LANDING:\n\nUp to LOC RWY 01 / CIRCLING RWY 19 MAPt:\nVisually regain Missed Approach procedure as per Jeppesen 11-2.\n\nAfter LOC RWY 01 / CIRCLING RWY 19 MAPt:\nMaintain VMC and visually regain circling altitude and circling track to point LUGAN (in the overhead). On\npassing LUGAN climb and follow SID track outbound to PINIK at 6000ft.\n\nLUGANO, SWITZERLAND\nLUGANO\n13 MAY 2025 10-10-2P15\n\n-\n9.6. IFR VISUAL APPROACH RWY 01\n\u2022 DAY ONLY\n\u2022 Weather Minima:\nCeiling 5100 ft\nVisibility 8 km.\n\u2022 CAT B & CAT C Aircraft.\n\nCheck with ATC that the 4.17\u00b0 PAPI are switched on.\n\nThis approach is a visual approach with no prescribed tracks or vertical profile, the suggested ground tracks (red\ndashed line) and vertical profile depicted in pictures \u2018Visual Approach RWY 01\u2019 and \u2018View from 8.0 ILU at 4105 ft\u2019 may\nonly be used to aid briefing / situational awareness.\nOnce visual and cleared for a visual approach, initiate a descent aiming to intercept the 4.17\u00b0 PAPI by 3.3 ILU (2.5 nm\nfrom the threshold) latest, the Altitudes and (Heights) given on the picture \u2018Visual Approach RWY 01\u2019 show the 4.17\u00b0\nvertical path which will be intercepted from above.\n\nCAUTION:\n\u2022 Descent below 6000 ft whist south of PINIK is PROHIBITED. This is due to interaction with Milan Malpensa\ndepartures which level off at 5000 ft south of PINIK.\n\u2022 If the approach starts directly from PINIK at 6000 ft, then a steep descent (circa 6.99\u00b0) is required to intercept the\n4.17\u00b0 PAPI by 3.3 ILU (a table in picture \u2018Visual Approach RWY 01\u2019 gives Groundspeed vs Rate of Descent required\nfor a 6.99\u00b0 descent).\n\u2022 The RWY is approx. 8 nm / 14.4 km from PINIK, so with 8 km visibility, the runway might not be visible.\n\nTo manage the descent angle required to intercept the 4.17\u00b0 PAPI consider adding some track miles to the approach,\ninitially using a higher rate of descent or performing an orbit just north of PINIK.\n\nMISSED APPROACH / BALKED LANDING:\n\nUp to D1.9 ILU:\nVisually join the LOC RWY 01 for CIRCLING RWY 19 missed approach procedure as per Jepp. 11-2.\n\nAfter D1.9 ILU:\nIf performance permits it, visually regain Missed Approach procedure as per Jeppesen 11-2. If performance is\nnot assured, then visually follow OEI procedure as per PDCS chart \u201801DP4\u2019.\n\nLUGANO, SWITZERLAND\nLUGANO\n13 MAY 2025 10-10-2P16\n\n-\n\nVISUAL APPROACH RWY 01\n\nLUGANO, SWITZERLAND\nLUGANO\n13 MAY 2025 10-10-2P17\n\n-\n\nVIEW FROM 8.0 ILU AT 4105FT\n\nFINAL RWY 01\n\nLUGANO, SWITZERLAND\nLUGANO\n13 MAY 2025 10-10-2P18\n\n-\n9.7. IGS RWY 01\nCE-680A ONLY\nNOTE: CE-680A is certified for steep approaches up to 6.65\u00b0 for tracking and 6\u00b0 for landing.\n\nQUALIFICATION:\n\nCrew Qualification Level\nRequirement\n\u00b4My currency\u00b4 annotation\nPIC\nSIC (or PIC acting as SIC)\nQual (C)\nLSZA - C - PIC\nLSZA - SIC\nQual (C2)\nLSZA \u2013 C2 - PIC\nLSZA - SIC\n\nWEATHER MINIMA:\n\nQUAL (C)\nQUAL (C2)\nAs per Jeppesen\nChart 11-1\nAs per Jeppesen\nChart 11-1\nCeiling + 500ft\nVisibility + 1000m\n\nPROCEDURE:\nThe use of the instrument APCH procedure IGS 01 is subject to the following regulations:\na. The approach will be performed at an angle of 6.65\u00b0 (Phase 1). The landing phase (Phase 2) is performed at\na maximum angle of 6\u00b0, with the assistance of the PAPI set to this value.\nb. The aircraft must be established (with the correspondent VREF) on the approach, with an approach angle of\n6\u00b0 at latest by 500 ft AAL; in any other case, the approach procedure must be terminated and a go-around\ninitiated.\nc. The approach may only be performed if the tailwind component at the LDG threshold does not exceed half\nof the value of the maximum tailwind component permitted, in accordance with the AFM for steep APCH\nprocedures.\nd. The maximum permitted error above the glide path must correspond to no more than half-scale on the\nglide-slope indicator (generally 1 dot). In a case where this limit is exceeded, a go-around procedure must\nbe immediately initiated.\n\nPAPI RWY 01\nThere are two PAPIs for RWY 01. For all approaches, only one PAPI shall be illuminated and operative. The 6\u00b0 PAPI on\nRWY 01 will only be in use for IFR traffic performing an IGS approach.\nFor all other approaches, the 4.17\u00b0 PAPI on RWY 01 will be in use. If on an IGS approach for a circling to land on RWY\n19, the aircraft may descend onto the 6.0\u00b0 PAPI earlier than the MDA or Visual Descent Point (VDP) but never before\n3 DME ILU.\n\nMISSED APPROACH / BALKED LANDING\nOne Engine Out \u2013 Follow the procedure on CO Jepp chart 10-7.\nAll Engines \u2013 As per IGS 01 chart 11-1.\n\nLUGANO, SWITZERLAND\nLUGANO\n13 MAY 2025 10-10-2P19\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "he following FMS waypoints can aid flying the Circling CHARLIE, although it should be remembered that this is a",
+            "visual procedure that shall be performed in accordance with the relevant Jeppesen chart \u2013 some of these waypoints",
+            "may already be present in the FMS, carefully check as it may require manual insertion."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "FMS WPT",
+            "COORDINATES",
+            "DESCRIPTION",
+            "10ILU",
+            "N45 59.11 E008 54.03",
+            "Break-Off D1.7",
+            "20ILU",
+            "N46 01.16 E008 56.95",
+            "2.0 nm ARP",
+            "D017B",
+            "N46 02.03 E008 55.51 1.65 nm Final 19",
+            "D017A",
+            "N46 01.34 E008 55.17",
+            "0.9 nm Final 19"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "See the \u2018Circling CHARLIE RWY 19 - FMS Points\u2019 picture for how these waypoints relate to the terrain."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Missed Approach / Balked landing"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Up to MAPt:",
+            "Fly Published Missed Approach as per Jeppesen Procedure."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "After MAPt:",
+            "Fly NetJets Missed Approach procedure, as per Jeppesen (NetJets) 10-7B. If it is certain that you are on the",
+            "published circling Charlie track, then it is permissible to perform the following level turn procedure:",
+            "-",
+            "Maintain published track, configuration, speed (max 135 kts), and altitude to 20ILU point.",
+            "-",
+            "Perform level left hand turn to 197\u00b0 track inbound to RWY 19.",
+            "-",
+            "When wings level clean aircraft configuration, climb, accelerate, and follow SID track outbound to PINIK at",
+            "6000 ft. This level turn procedure requires much less energy than the normal missed approach procedure",
+            "and makes containing the speed easier."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LUGANO, SWITZERLAND",
+            "LUGANO",
+            "13 MAY 2025 10-10-2P11"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "EGPWS alerts",
+            "EGPWS alerts may be experienced whilst performing the circle to land procedure. They are most likely to occur during",
+            "the descending base leg. Crew response to EGPWS Alerts and Warnings shall always be in accordance with OM-A",
+            "8.3.5."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LUGANO, SWITZERLAND",
+            "LUGANO",
+            "13 MAY 2025 10-10-2P12"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Circling CHARLIE RWY 19 - FMS Points",
+            "3 DME"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LUGANO, SWITZERLAND",
+            "LUGANO",
+            "13 MAY 2025 10-10-2P13"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.4. CATEGORY C AIRCRAFT \u2013 APPROACH RWY 19",
+            "(as per 9.2 Circling Approach to RWY 19 \u2013 Qual (A) [CAT B Aircraft]) provided ALL speeds shown on Jeppesen 11-2 are",
+            "adhered to. If all of these speeds cannot be maintained or if there is any doubt, then the IFR Visual approach",
+            "procedure and visual approach minima must be used."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CAT-C Aircraft Limitations",
+            "Aircraft",
+            "Type",
+            "Landing",
+            "Mass",
+            "Limiting Speed from",
+            "Jeppesen 11-2",
+            "Permitted procedure",
+            "Weather",
+            "Minima",
+            "Challenger 350",
+            "33,700 lbs",
+            "or less",
+            "Initial missed approach",
+            "speed of 135 kt",
+            "LOC RWY 01 for CIRCLING RWY 19 as",
+            "per 9.2 Circling Approach to RWY 19 \u2013",
+            "Qual (A) [CAT B Aircraft].",
+            "DAY ONLY",
+            "Ceiling 3100 ft",
+            "Visibility 5 km",
+            "Greater",
+            "than",
+            "33,700 lbs",
+            "N/A",
+            "Visual approach as per 9.5 IFR Visual",
+            "Approach RWY 19.",
+            "DAY ONLY",
+            "Ceiling 5100 ft",
+            "Visibility 8 km"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LUGANO, SWITZERLAND",
+            "LUGANO",
+            "13 MAY 2025 10-10-2P14"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.5. IFR VISUAL APPROACH RWY 19",
+            "Normally, an IFR visual approach RWY 19 will only be flown by a CAT C aircraft that is unable to comply with the",
+            "speeds shown on Jeppesen 11-2 (see 9.4 Category C Aircraft - Approach RWY 19):"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "DAY ONLY.",
+            "Weather Minima:  Ceiling 5100 ft"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Visibility 8 km.",
+            "Consider visually following the vertical and lateral profile of LOC RWY 01 for CIRCLING RWY 19 followed by circling",
+            "RWY 19."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Descent below 6000 ft whilst south of PINIK is PROHIBITED. This is due to interaction with Milan Malpensa"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "departures which level off at 5000 ft south of PINIK."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "The published Circle-to-land prescribed flight tracks do not guarantee CAT C obstacle clearance, so they should"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "be used as guidance only. Consider using Circle FOXTROT as guidance with a slightly wider base leg to allow for",
+            "the increased CAT C turn radius."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "The runway is approx. 8 nm / 14.4 km from PINIK, so with 8 km visibility, the runway might not be visible."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MISSED APPROACH / BALKED LANDING:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Up to LOC RWY 01 / CIRCLING RWY 19 MAPt:",
+            "Visually regain Missed Approach procedure as per Jeppesen 11-2."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "After LOC RWY 01 / CIRCLING RWY 19 MAPt:",
+            "Maintain VMC and visually regain circling altitude and circling track to point LUGAN (in the overhead). On",
+            "passing LUGAN climb and follow SID track outbound to PINIK at 6000ft."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LUGANO, SWITZERLAND",
+            "LUGANO",
+            "13 MAY 2025 10-10-2P15"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.6. IFR VISUAL APPROACH RWY 01"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "DAY ONLY",
+            "Weather Minima:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Ceiling 5100 ft",
+            "Visibility 8 km."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "CAT B & CAT C Aircraft."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Check with ATC that the 4.17\u00b0 PAPI are switched on."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "This approach is a visual approach with no prescribed tracks or vertical profile, the suggested ground tracks (red",
+            "dashed line) and vertical profile depicted in pictures \u2018Visual Approach RWY 01\u2019 and \u2018View from 8.0 ILU at 4105 ft\u2019 may",
+            "only be used to aid briefing / situational awareness.",
+            "Once visual and cleared for a visual approach, initiate a descent aiming to intercept the 4.17\u00b0 PAPI by 3.3 ILU (2.5 nm",
+            "from the threshold) latest, the Altitudes and (Heights) given on the picture \u2018Visual Approach RWY 01\u2019 show the 4.17\u00b0",
+            "vertical path which will be intercepted from above."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Descent below 6000 ft whist south of PINIK is PROHIBITED. This is due to interaction with Milan Malpensa"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "departures which level off at 5000 ft south of PINIK."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "If the approach starts directly from PINIK at 6000 ft, then a steep descent (circa 6.99\u00b0) is required to intercept the"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "4.17\u00b0 PAPI by 3.3 ILU (a table in picture \u2018Visual Approach RWY 01\u2019 gives Groundspeed vs Rate of Descent required",
+            "for a 6.99\u00b0 descent)."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "The RWY is approx. 8 nm / 14.4 km from PINIK, so with 8 km visibility, the runway might not be visible."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "To manage the descent angle required to intercept the 4.17\u00b0 PAPI consider adding some track miles to the approach,",
+            "initially using a higher rate of descent or performing an orbit just north of PINIK."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MISSED APPROACH / BALKED LANDING:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Up to D1.9 ILU:",
+            "Visually join the LOC RWY 01 for CIRCLING RWY 19 missed approach procedure as per Jepp. 11-2."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "After D1.9 ILU:",
+            "If performance permits it, visually regain Missed Approach procedure as per Jeppesen 11-2. If performance is",
+            "not assured, then visually follow OEI procedure as per PDCS chart \u201801DP4\u2019."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LUGANO, SWITZERLAND",
+            "LUGANO",
+            "13 MAY 2025 10-10-2P16"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VISUAL APPROACH RWY 01"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LUGANO, SWITZERLAND",
+            "LUGANO",
+            "13 MAY 2025 10-10-2P17"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VIEW FROM 8.0 ILU AT 4105FT"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "FINAL RWY 01"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LUGANO, SWITZERLAND",
+            "LUGANO",
+            "13 MAY 2025 10-10-2P18"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.7. IGS RWY 01",
+            "CE-680A ONLY"
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "NOTE: CE-680A is certified for steep approaches up to 6.65\u00b0 for tracking and 6\u00b0 for landing."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "QUALIFICATION:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Crew Qualification Level",
+            "Requirement",
+            "\u00b4My currency\u00b4 annotation",
+            "PIC",
+            "SIC (or PIC acting as SIC)",
+            "Qual (C)",
+            "LSZA - C - PIC",
+            "LSZA - SIC",
+            "Qual (C2)",
+            "LSZA \u2013 C2 - PIC",
+            "LSZA - SIC"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "WEATHER MINIMA:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "QUAL (C)",
+            "QUAL (C2)",
+            "As per Jeppesen",
+            "Chart 11-1",
+            "As per Jeppesen",
+            "Chart 11-1",
+            "Ceiling + 500ft",
+            "Visibility + 1000m"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE:",
+            "The use of the instrument APCH procedure IGS 01 is subject to the following regulations:",
+            "a. The approach will be performed at an angle of 6.65\u00b0 (Phase 1). The landing phase (Phase 2) is performed at",
+            "a maximum angle of 6\u00b0, with the assistance of the PAPI set to this value.",
+            "b. The aircraft must be established (with the correspondent VREF) on the approach, with an approach angle of",
+            "6\u00b0 at latest by 500 ft AAL; in any other case, the approach procedure must be terminated and a go-around",
+            "initiated.",
+            "c. The approach may only be performed if the tailwind component at the LDG threshold does not exceed half",
+            "of the value of the maximum tailwind component permitted, in accordance with the AFM for steep APCH",
+            "procedures.",
+            "d. The maximum permitted error above the glide path must correspond to no more than half-scale on the",
+            "glide-slope indicator (generally 1 dot). In a case where this limit is exceeded, a go-around procedure must",
+            "be immediately initiated."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PAPI RWY 01",
+            "There are two PAPIs for RWY 01. For all approaches, only one PAPI shall be illuminated and operative. The 6\u00b0 PAPI on",
+            "RWY 01 will only be in use for IFR traffic performing an IGS approach.",
+            "For all other approaches, the 4.17\u00b0 PAPI on RWY 01 will be in use. If on an IGS approach for a circling to land on RWY",
+            "19, the aircraft may descend onto the 6.0\u00b0 PAPI earlier than the MDA or Visual Descent Point (VDP) but never before",
+            "3 DME ILU."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MISSED APPROACH / BALKED LANDING",
+            "One Engine Out \u2013 Follow the procedure on CO Jepp chart 10-7.",
+            "All Engines \u2013 As per IGS 01 chart 11-1."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LUGANO, SWITZERLAND",
+            "LUGANO",
+            "13 MAY 2025 10-10-2P19"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        10
+      ],
+      "page_images": [
+        "static/airports/lsza/page-10.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 10,
+      "title": "Departure procedures",
+      "body": "0.1. GENERAL\n\nDEPARTURE RWY 01:\n-\nthe minima and procedures are the same for Qual (A) and Qual (D) crew.\n\nDEPARTURE RWY 19:\n-\nQual (D) crew may depart with a lower weather minima and also at night. However, as per PDCS chart,\ndeparting under these conditions will result in a lower maximum takeoff mass than under Qual (A) departure\nconditions.\n-\nQual (D) crews may depart using Qual (A) procedures and minima (as per 10.3 Departure Runway 19 (Qual\n(A))) if a higher take-off mass is required.\n\n10.2. DEPARTURE RUNWAY 01\n\n\u2022 DAY ONLY\n\u2022 Weather Minima:\nCeiling 4100 ft\nVisibility 5 km.\n\nPERFORMANCE: As per PDCS chart \u201801DP4\u2019.\n\nNORMAL PROCEDURE: As per Jeppesen. On the SID, note the requirement to maintain Visual ground Contact until\npoint LUGAN (Airfield overhead). LUGAN also has an SID Altitude restriction of at or above 5000 ft (4085 ft above\nAirport).\n\nCONTINGENCY RWY 01: See Jeppesen (NetJets) 10-7 & PDCS chart \u201801DP4\u2019. Note that the contingency procedure\nrequires VMC to be maintained until established outbound on the ILU LOC, once established outbound on the LOC\na continuous climb (into IMC if required) can be made.\n\nCAUTION:\nCANE2U SID RWY 01: TRACK DEVIATION HOTSPOT IN HIGH TERRAIN\n\nInitial Climb:\nComply with 'INITIAL CLIMB' description on JEPP 10-3B. Remain on the published track (right\nturn) until 'LUGAN'.\nDO NOT turn LEFT to 'CANNE' even if you have reached 5000\u00b4prior to 'LUGAN'.\n\nRouting:\nAt 'LUGAN' and above 5000\u00b4 turn LEFT intercept SRN R347 to 'CANNE'. (FMS coding ZA505,\nZA506)\n\nLUGANO, SWITZERLAND\nLUGANO\n13 MAY 2025 10-10-2P20\n\n-\n\nCANE2U SID RWY 01 - TRACK DEVIATION HOTSPOT IN HIGH TERRAIN\n\n10.3. DEPARTURE RUNWAY 19 (QUAL (A))\n\u2022 DAY ONLY\n\u2022 Weather Minima:\nCeiling 2100 ft\nVisibility 3000 m.\n\nPERFORMANCE: As per PDCS chart \u201819DP\u2019.\n\nNORMAL PROCEDURE: As per Jeppesen.\n\nCONTINGENCY RWY 19: See Jeppesen (NetJets) chart 10-7A \u2018QUAL (A) VMC\u2019 procedure and PDCS chart \u201819DP\u2019.\n\n10.4. DEPARTURE RUNWAY 19 (QUAL (D))\n\u2022 DAY or NIGHT.\n\u2022 Weather Minima:\nCeiling not required\nVisibility 400 m.\n\nPERFORMANCE: As per PDCS chart \u201819DP\u2019.\n\nNORMAL PROCEDURE: As per Jeppesen.\n\nCONTINGENCY RWY 19: See Jeppesen (NetJets) chart 10-7A \u2018QUAL (D) IMC\u2019 procedure and PDCS \u201819DP\u2019 chart.\n\nInitial Climb\nRouting\n\nLUGANO, SWITZERLAND\nLUGANO\n13 MAY 2025 10-10-2P21\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "0.1. GENERAL"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DEPARTURE RWY 01:",
+            "-",
+            "the minima and procedures are the same for Qual (A) and Qual (D) crew."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DEPARTURE RWY 19:",
+            "-",
+            "Qual (D) crew may depart with a lower weather minima and also at night. However, as per PDCS chart,",
+            "departing under these conditions will result in a lower maximum takeoff mass than under Qual (A) departure",
+            "conditions.",
+            "-",
+            "Qual (D) crews may depart using Qual (A) procedures and minima (as per 10.3 Departure Runway 19 (Qual",
+            "(A))) if a higher take-off mass is required."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "10.2. DEPARTURE RUNWAY 01"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "DAY ONLY",
+            "Weather Minima:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Ceiling 4100 ft",
+            "Visibility 5 km."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PERFORMANCE: As per PDCS chart \u201801DP4\u2019."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NORMAL PROCEDURE: As per Jeppesen. On the SID, note the requirement to maintain Visual ground Contact until",
+            "point LUGAN (Airfield overhead). LUGAN also has an SID Altitude restriction of at or above 5000 ft (4085 ft above",
+            "Airport)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CONTINGENCY RWY 01: See Jeppesen (NetJets) 10-7 & PDCS chart \u201801DP4\u2019. Note that the contingency procedure",
+            "requires VMC to be maintained until established outbound on the ILU LOC, once established outbound on the LOC",
+            "a continuous climb (into IMC if required) can be made."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION:",
+            "CANE2U SID RWY 01: TRACK DEVIATION HOTSPOT IN HIGH TERRAIN"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Initial Climb:",
+            "Comply with 'INITIAL CLIMB' description on JEPP 10-3B. Remain on the published track (right",
+            "turn) until 'LUGAN'.",
+            "DO NOT turn LEFT to 'CANNE' even if you have reached 5000\u00b4prior to 'LUGAN'."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Routing:",
+            "At 'LUGAN' and above 5000\u00b4 turn LEFT intercept SRN R347 to 'CANNE'. (FMS coding ZA505,",
+            "ZA506)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LUGANO, SWITZERLAND",
+            "LUGANO",
+            "13 MAY 2025 10-10-2P20"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CANE2U SID RWY 01 - TRACK DEVIATION HOTSPOT IN HIGH TERRAIN"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "10.3. DEPARTURE RUNWAY 19 (QUAL (A))"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "DAY ONLY",
+            "Weather Minima:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Ceiling 2100 ft",
+            "Visibility 3000 m."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PERFORMANCE: As per PDCS chart \u201819DP\u2019."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NORMAL PROCEDURE: As per Jeppesen."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CONTINGENCY RWY 19: See Jeppesen (NetJets) chart 10-7A \u2018QUAL (A) VMC\u2019 procedure and PDCS chart \u201819DP\u2019."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "10.4. DEPARTURE RUNWAY 19 (QUAL (D))"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "DAY or NIGHT.",
+            "Weather Minima:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Ceiling not required",
+            "Visibility 400 m."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PERFORMANCE: As per PDCS chart \u201819DP\u2019."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NORMAL PROCEDURE: As per Jeppesen."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CONTINGENCY RWY 19: See Jeppesen (NetJets) chart 10-7A \u2018QUAL (D) IMC\u2019 procedure and PDCS \u201819DP\u2019 chart."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Initial Climb",
+            "Routing"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LUGANO, SWITZERLAND",
+            "LUGANO",
+            "13 MAY 2025 10-10-2P21"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        19
+      ],
+      "page_images": [
+        "static/airports/lsza/page-19.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 11,
+      "title": "Ground procedures",
+      "body": "efer to Jeppesen.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "efer to Jeppesen."
+          ]
+        }
+      ],
+      "pages": [
+        21
+      ],
+      "page_images": [
+        "static/airports/lsza/page-21.png"
+      ],
+      "embeds": [
+        "static/airports/lsza/embed-p21-02.png"
+      ]
+    },
+    {
+      "num": 12,
+      "title": "Miscellaneous",
+      "body": "EATHER CHARACTERISTICS - please see http://www.lugano-qualification.ch\nGLIDER ACTIVITY: The Mountains surrounding the airport are potential areas for gliding and para-gliding activity.\nSpecial attention should be exercise near PINIK and CALDO during spring and summer.\nVisit the site http://www.lugano-qualification.ch for any further information and photographs.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "EATHER CHARACTERISTICS - please see http://www.lugano-qualification.ch",
+            "GLIDER ACTIVITY: The Mountains surrounding the airport are potential areas for gliding and para-gliding activity.",
+            "Special attention should be exercise near PINIK and CALDO during spring and summer.",
+            "Visit the site http://www.lugano-qualification.ch for any further information and photographs."
+          ]
+        }
+      ],
+      "pages": [
+        21
+      ],
+      "page_images": [
+        "static/airports/lsza/page-21.png"
+      ],
+      "embeds": [
+        "static/airports/lsza/embed-p21-02.png"
+      ]
+    },
+    {
+      "num": 13,
+      "title": "Charts / Pictures / Other",
+      "body": "emperature & Precipitation",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "emperature & Precipitation"
+          ]
+        }
+      ],
+      "pages": [
+        21
+      ],
+      "page_images": [
+        "static/airports/lsza/page-21.png"
+      ],
+      "embeds": [
+        "static/airports/lsza/embed-p21-02.png"
+      ]
+    },
+    {
+      "num": 14,
+      "title": "Changes since the last revision",
+      "body": "Change to the Lugano qualifications.\n- Introduction of new qualification levels Qual (B2), Qual (C2) and Qual (D).\n- Integration of safety alerts related to STAR level bust and RWY01 SID track deviation.\nProvide feedback to Lis-OpsTechnical@netjets.com",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "Change to the Lugano qualifications."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Introduction of new qualification levels Qual (B2), Qual (C2) and Qual (D).",
+            "Integration of safety alerts related to STAR level bust and RWY01 SID track deviation."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Provide feedback to Lis-OpsTechnical@netjets.com"
+          ]
+        }
+      ],
+      "pages": [
+        21
+      ],
+      "page_images": [
+        "static/airports/lsza/page-21.png"
+      ],
+      "embeds": [
+        "static/airports/lsza/embed-p21-02.png"
+      ]
+    }
+  ]
+}

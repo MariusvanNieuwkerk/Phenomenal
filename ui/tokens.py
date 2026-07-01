@@ -20,3 +20,6 @@ FONT_URL = "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;
 
 DISPLAY_FONT_FAMILY = '"Outfit", system-ui, sans-serif'
 DISPLAY_FONT_URL = "https://fonts.googleapis.com/css2?family=Outfit:wght@600;700&display=swap"
+
+LOGO_FONT_FAMILY = '"Reddit Mono", ui-monospace, monospace'
+LOGO_FONT_URL = "https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@600&display=swap"

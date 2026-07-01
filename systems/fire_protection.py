@@ -1,15 +1,16 @@
+"""Fire Protection — detection, shutoff, extinguishing (ATA 26)."""
+
 import os
 
-import pandas as pd
 import streamlit as st
 from PIL import Image
+
+from content.render_helpers import back_to_top, cas_quick_reference, source_footer
 
 
 def _img(path: str, caption: str):
     if os.path.exists(path):
         st.image(Image.open(path), caption=caption, use_container_width=True)
-    else:
-        st.warning(f"Missing image: `{path}`")
 
 
 def _show_poh_images(folder: str, startswith: str, title: str):
@@ -19,70 +20,97 @@ def _show_poh_images(folder: str, startswith: str, title: str):
             if name.lower().endswith(".png") and name.startswith(startswith):
                 paths.append(os.path.join(folder, name))
     paths.sort()
-
     if not paths:
         st.info("No POH images found for this section yet.")
         return
-
     st.markdown(f"**{title}**")
     for p in paths:
         _img(p, os.path.basename(p))
 
-
 def render_fire_protection():
     st.markdown("## Fire Protection")
-    st.caption("ATA 26 | Source: Phenom 300 POH (Section 6-06, Rev 6)")
+    st.caption("ATA 26 · Engine & baggage fire · POH §6-06")
 
     folder = "assets/fire_protection"
 
-    with st.expander("**1. Overview**", expanded=True):
+    with st.expander("**1. Big picture**", expanded=True):
         st.markdown(
             """
-The fire protection system provides:
-- **Detection** (sensors/logic) for engine fire conditions.
-- **Crew alerting** via CAS and panel indications.
-- **Extinguishing capability** via dedicated fire bottles (per POH configuration).
+| Layer | Function |
+|-------|----------|
+| **Detection** | Sensors + logic → CAS WARNING/CAUTION |
+| **Isolation** | Fire handles / shutoff buttons → fuel, hydraulics, bleed |
+| **Extinguishing** | Fire bottles → agent to engine nacelle or baggage zone |
 
-The operational intent is rapid identification and a clear crew interface to isolate the affected engine and discharge extinguishing agent as required.
+**Pilot goal:** detect early, isolate the affected zone, discharge if required — follow **QRH** and **Memory Items** for engine fire.
 """
         )
 
-    with st.expander("**2. Controls & indications (crew interface)**", expanded=False):
+    with st.expander("**2. Engine fire — crew interface**", expanded=False):
         st.markdown(
             """
-You interact with fire protection primarily through:
-- The **engine fire protection control panel** (fire handles/buttons, discharge).
-- **CAS messages** and associated annunciations.
+**Typical sequence (concept — use QRH for exact steps):**
 
-Use the QRH/AFM procedures for specific actions.
+1. **THRUST lever** — IDLE (affected engine)
+2. **START/STOP** — STOP
+3. **FIRE SHUTOFF** — PUSH IN (isolates fuel/hyd/bleed paths per design)
+4. If fire persists (~30 s): **BOTTLE** — DISCH
+
+**Memory Items:** *E1(2) FIRE*, *ENGINE FIRE SEVERE DAMAGE OR SEPARATION* — see **Memory Items**.
+
+**Hydraulics link:** FIRE SHUTOFF also closes **FSOVs** (see **Hydraulics**).
 """
         )
 
-    with st.expander("**3. System logic (conceptual)**", expanded=False):
+    with st.expander("**3. Baggage compartment smoke**", expanded=False):
         st.markdown(
             """
-At a high level:
-- **Detection** drives alerting.
-- **Fire shutoff** isolates fuel/hydraulic/bleed paths per system design.
-- **Extinguishing** provides agent discharge to the affected zone.
+**BAG SMK** WARNING — smoke detected in baggage compartment.
 
-For studying: focus on what each crew action isolates (fuel, bleed, electrics/hydraulics as applicable) and what indications confirm the commanded state.
+- Confirm indication; consider diversion and landing.
+- Follow QRH for smoke/fire/fumes if smoke enters cabin (**Memory Items**).
+
+Detection faults: **BAG SMK FAIL** (two detectors failed) or **BAG SMK FAULT** (one detector).
 """
         )
 
-    with st.expander("**4. CAS messages (POH quick reference)**", expanded=False):
-        rows = [
-            ("WARNING", "BAG SMK", "Smoke detected in baggage compartment."),
-            ("CAUTION", "E1 (2) FIRE DET FAIL", "Engine fire detection system has failed."),
-            ("CAUTION", "E1 (2) FIREX FAIL", "Engine fire extinguisher system has failed."),
-            ("CAUTION", "BAG SMK FAIL", "Two baggage compartment smoke detectors have failed."),
-            ("CAUTION", "ENG FIREX DISCH", "Engine fire-extinguisher bottle has been discharged."),
-            ("ADVISORY", "BAG SMK FAULT", "One baggage compartment smoke detector has failed."),
-        ]
-        st.table(pd.DataFrame(rows, columns=["Type", "Message", "Meaning"]))
-        st.markdown("_Source: POH 6-06-35 (Rev 6)._")
+    cas_quick_reference(
+        [
+            ("Baggage", "WARNING", "BAG SMK", "Smoke in baggage compartment — immediate action."),
+            ("Engine", "CAUTION", "E1 (2) FIRE DET FAIL", "Engine fire detection inoperative for that engine."),
+            ("Engine", "CAUTION", "E1 (2) FIREX FAIL", "Engine fire extinguisher system failed."),
+            ("Baggage", "CAUTION", "BAG SMK FAIL", "Both baggage smoke detectors failed."),
+            ("Engine", "CAUTION", "ENG FIREX DISCH", "Bottle already discharged — no second shot on same bottle."),
+            ("Baggage", "ADVISORY", "BAG SMK FAULT", "One baggage smoke detector failed."),
+        ],
+        title="4. CAS quick reference",
+    )
 
-    with st.expander("**5. POH extracts**", expanded=False):
+    with st.expander("**5. What shutoff isolates (study model)**", expanded=False):
+        st.markdown(
+            """
+When you push **FIRE SHUTOFF** or use the fire handle, think in terms of:
+
+- **Fuel** — stop feeding the fire
+- **Hydraulics** — FSOV closes (that engine's pump circuit)
+- **Bleed / pneumatics** — isolate engine bleed
+
+Cross-check indications and synoptic after each action.
+"""
+        )
+
+    with st.expander("**6. POH extracts**", expanded=False):
         _show_poh_images(folder, "poh_6-06_synoptic_", "POH synoptic pages (Fire Protection)")
-        st.markdown("_If no synoptic images were detected automatically, we can extract additional POH pages for this section._")
 
+    with st.expander("**7. Study checklist**", expanded=False):
+        st.markdown(
+            """
+- [ ] Engine fire memory items (ground vs airborne, 30 s rule, DISCH).
+- [ ] What **FIRE SHUTOFF** does to hydraulics.
+- [ ] Difference between **BAG SMK**, **BAG SMK FAULT**, **BAG SMK FAIL**.
+- [ ] **ENG FIREX DISCH** — bottle spent.
+"""
+        )
+
+    back_to_top()
+    source_footer("poh", "§6-06 Fire Protection · QRH engine fire memory items")

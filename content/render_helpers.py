@@ -1,6 +1,42 @@
+import pandas as pd
 import streamlit as st
 
 from content.sources import SOURCES
+
+CAS_COLUMNS = ["Topic", "Level", "CAS", "Pilot focus"]
+
+_CAS_INTRO = (
+    "Grouped by topic. **Always complete the QRH** when a message requires action."
+)
+
+
+def systems_page_top():
+    st.markdown('<div id="briefly-systems-top"></div>', unsafe_allow_html=True)
+
+
+def back_to_top():
+    st.markdown(
+        '<div style="text-align:center;margin:1.25rem 0 0.5rem;">'
+        '<a href="#briefly-systems-top" style="text-decoration:none;font-weight:600;">'
+        "↑ Terug naar boven</a></div>",
+        unsafe_allow_html=True,
+    )
+
+
+def cas_quick_reference(
+    rows: list[tuple[str, str, str, str]],
+    *,
+    title: str = "CAS quick reference",
+    expanded: bool = False,
+    intro: str | None = None,
+):
+    with st.expander(f"**{title}**", expanded=expanded):
+        st.markdown(intro or _CAS_INTRO)
+        st.dataframe(
+            pd.DataFrame(rows, columns=CAS_COLUMNS),
+            hide_index=True,
+            use_container_width=True,
+        )
 
 
 def source_footer(key: str, section: str | None = None):

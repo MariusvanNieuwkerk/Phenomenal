@@ -1,0 +1,973 @@
+{
+  "icao": "LFTZ",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "image": "static/airports/lftz/page-01.png",
+      "embeds": []
+    },
+    {
+      "page": 2,
+      "image": "static/airports/lftz/page-02.png",
+      "embeds": []
+    },
+    {
+      "page": 3,
+      "image": "static/airports/lftz/page-03.png",
+      "embeds": [
+        "static/airports/lftz/embed-p03-02.jpeg"
+      ]
+    },
+    {
+      "page": 4,
+      "image": "static/airports/lftz/page-04.png",
+      "embeds": []
+    },
+    {
+      "page": 5,
+      "image": "static/airports/lftz/page-05.png",
+      "embeds": [
+        "static/airports/lftz/embed-p05-02.jpeg"
+      ]
+    },
+    {
+      "page": 6,
+      "image": "static/airports/lftz/page-06.png",
+      "embeds": [
+        "static/airports/lftz/embed-p06-02.jpeg"
+      ]
+    },
+    {
+      "page": 7,
+      "image": "static/airports/lftz/page-07.png",
+      "embeds": [
+        "static/airports/lftz/embed-p07-02.jpeg"
+      ]
+    },
+    {
+      "page": 8,
+      "image": "static/airports/lftz/page-08.png",
+      "embeds": []
+    },
+    {
+      "page": 9,
+      "image": "static/airports/lftz/page-09.png",
+      "embeds": [
+        "static/airports/lftz/embed-p09-02.jpeg",
+        "static/airports/lftz/embed-p09-03.jpeg"
+      ]
+    },
+    {
+      "page": 10,
+      "image": "static/airports/lftz/page-10.png",
+      "embeds": [
+        "static/airports/lftz/embed-p10-02.jpeg"
+      ]
+    },
+    {
+      "page": 11,
+      "image": "static/airports/lftz/page-11.png",
+      "embeds": [
+        "static/airports/lftz/embed-p11-02.jpeg"
+      ]
+    },
+    {
+      "page": 12,
+      "image": "static/airports/lftz/page-12.png",
+      "embeds": [
+        "static/airports/lftz/embed-p12-02.jpeg"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": "IC training required\nYES\nAircraft flight training\nSIC training required\nYES\nOM-C brief familiarisation\nQualification is type related\nYES\n\nSelf-Briefing\nNO",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "IC training required",
+            "YES",
+            "Aircraft flight training",
+            "SIC training required",
+            "YES",
+            "OM-C brief familiarisation",
+            "Qualification is type related",
+            "YES"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Self-Briefing",
+            "NO"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        2,
+        2,
+        8
+      ],
+      "page_images": [
+        "static/airports/lftz/page-01.png",
+        "static/airports/lftz/page-02.png",
+        "static/airports/lftz/page-02.png",
+        "static/airports/lftz/page-08.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 2,
+      "title": "Initial qualification requirements",
+      "body": ". REVALIDATION REQUIREMENTS\nGround Training\nYES\n\nYES\nOM-C briefing review prior to every\nflight\nSimulator Training\nNO\n\nNO\n\nIn-flight familiarization\nYES\nNote 1\nYES\nNote 3\nFlight training\nYES\nNote 2\nNO",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ". REVALIDATION REQUIREMENTS",
+            "Ground Training",
+            "YES"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "YES",
+            "OM-C briefing review prior to every",
+            "flight",
+            "Simulator Training",
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "In-flight familiarization",
+            "YES"
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note 1",
+            "YES"
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note 3",
+            "Flight training",
+            "YES"
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note 2",
+            "NO"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        2,
+        2,
+        8
+      ],
+      "page_images": [
+        "static/airports/lftz/page-01.png",
+        "static/airports/lftz/page-02.png",
+        "static/airports/lftz/page-02.png",
+        "static/airports/lftz/page-08.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 4,
+      "title": "In-flight familiarisation syllabus",
+      "body": "ote 1 - PIC must operate to and from La Mole as PF within two months of initial qualification.\nNote 2 - With TRI approved by DSAC/SE\nNote 3 - To remain qualified, PIC must operate to and from LFTZ within 12 months of last visit.\n\nIn flight training - Pilot Qualifications\nPIC Qualification is valid for 12 months, provided PIC has validated the qualification within first 2 months. Refer to\nTraining Syllabus.\n\nEach time a pilot operates to and from LFTZ, the qualification is valid for 12 months from the date of operation.\n\nLA MOLE, FRANCE\nLA MOLE\n10-10-2P2\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "ote 1 - PIC must operate to and from La Mole as PF within two months of initial qualification."
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note 2 - With TRI approved by DSAC/SE"
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note 3 - To remain qualified, PIC must operate to and from LFTZ within 12 months of last visit."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "In flight training - Pilot Qualifications",
+            "PIC Qualification is valid for 12 months, provided PIC has validated the qualification within first 2 months. Refer to",
+            "Training Syllabus."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Each time a pilot operates to and from LFTZ, the qualification is valid for 12 months from the date of operation."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LA MOLE, FRANCE",
+            "LA MOLE",
+            "10-10-2P2"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        2
+      ],
+      "page_images": [
+        "static/airports/lftz/page-01.png",
+        "static/airports/lftz/page-02.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 5,
+      "title": "Limitations / Miscellaneous",
+      "body": "AY ONLY OPERATIONS\nPF shall hold a current AHQ.\nPhenom 300 ONLY and CE-680A Latitude\nLanding on RWY 24 only and take-off from RWY 06 only; daylight only; PF for approach, landing, and take-off shall be\nthe PIC occupying the LHS; normal CAT AIR-OPS performance calculations must be used for all operations.\n\nTake-off and landing are prohibited if:",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "AY ONLY OPERATIONS",
+            "PF shall hold a current AHQ.",
+            "Phenom 300 ONLY and CE-680A Latitude",
+            "Landing on RWY 24 only and take-off from RWY 06 only; daylight only; PF for approach, landing, and take-off shall be",
+            "the PIC occupying the LHS; normal CAT AIR-OPS performance calculations must be used for all operations."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Take-off and landing are prohibited if:"
+          ]
+        }
+      ],
+      "pages": [
+        2
+      ],
+      "page_images": [
+        "static/airports/lftz/page-02.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 2,
+      "title": "Initial qualification requirements",
+      "body": ". No AFIS wind speed is available.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ". No AFIS wind speed is available."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        2,
+        2,
+        8
+      ],
+      "page_images": [
+        "static/airports/lftz/page-01.png",
+        "static/airports/lftz/page-02.png",
+        "static/airports/lftz/page-02.png",
+        "static/airports/lftz/page-08.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 4,
+      "title": "In-flight familiarisation syllabus",
+      "body": "he approach is not permitted in the following cases:",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "he approach is not permitted in the following cases:"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        2
+      ],
+      "page_images": [
+        "static/airports/lftz/page-01.png",
+        "static/airports/lftz/page-02.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": ". One engine inoperative.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ". One engine inoperative."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        2,
+        2,
+        8
+      ],
+      "page_images": [
+        "static/airports/lftz/page-01.png",
+        "static/airports/lftz/page-02.png",
+        "static/airports/lftz/page-02.png",
+        "static/airports/lftz/page-08.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 3,
+      "title": "Revalidation requirements",
+      "body": "atitude: both Thrust Reversers must be operational.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "atitude: both Thrust Reversers must be operational."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        2,
+        2
+      ],
+      "page_images": [
+        "static/airports/lftz/page-01.png",
+        "static/airports/lftz/page-02.png",
+        "static/airports/lftz/page-02.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 6,
+      "title": "Weather / Airport limitations",
+      "body": "RRIVAL\nDEPARTURE\n\nVISIBILITY\nCEILING\nVISIBILITY\nCEILING\nB\n5 km\n2500 ft\n5 km\n2500 ft\nC\n\nOTHER LIMITATIONS\nNil\n\nLA MOLE, FRANCE\nLA MOLE\n10-10-2P3\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "RRIVAL",
+            "DEPARTURE"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VISIBILITY",
+            "CEILING",
+            "VISIBILITY",
+            "CEILING",
+            "B",
+            "5 km",
+            "2500 ft",
+            "5 km",
+            "2500 ft",
+            "C"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "OTHER LIMITATIONS",
+            "Nil"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LA MOLE, FRANCE",
+            "LA MOLE",
+            "10-10-2P3"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        2
+      ],
+      "page_images": [
+        "static/airports/lftz/page-02.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 7,
+      "title": "Overview",
+      "body": "a Mole is a Category C airport located near Saint Tropez. NetJets has special authorisation from DSAC/SE to operate\nat LFTZ using the special procedures within this OM-C\n\nLa Mole Airport Overview",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "a Mole is a Category C airport located near Saint Tropez. NetJets has special authorisation from DSAC/SE to operate",
+            "at LFTZ using the special procedures within this OM-C"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "La Mole Airport Overview"
+          ]
+        }
+      ],
+      "pages": [
+        3
+      ],
+      "page_images": [
+        "static/airports/lftz/page-03.png"
+      ],
+      "embeds": [
+        "static/airports/lftz/embed-p03-02.jpeg"
+      ]
+    },
+    {
+      "num": 8,
+      "title": "Operational procedures \u2014 General",
+      "body": "a Mole requires extensive visual manoeuvring for the arrival and departure.\nEnsure the weather minima is met for the entire visual portion required.\nThe procedures outlined in this document are designed to minimise noise disturbance and also to avoid infringing\nany adjacent airspace.\nTo assist with Situational Awareness, the map display shall be adjusted to a suitable range scale with all adjacent\nand restricted airspace and TAWS overlay (Latitude) displayed on the MFD.\nNote Prohibited, Restricted and Danger Areas along with Airspace carefully from the EFB.\n\nLA MOLE, FRANCE\nLA MOLE\n10-10-2P4\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "a Mole requires extensive visual manoeuvring for the arrival and departure.",
+            "Ensure the weather minima is met for the entire visual portion required.",
+            "The procedures outlined in this document are designed to minimise noise disturbance and also to avoid infringing",
+            "any adjacent airspace.",
+            "To assist with Situational Awareness, the map display shall be adjusted to a suitable range scale with all adjacent",
+            "and restricted airspace and TAWS overlay (Latitude) displayed on the MFD."
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note Prohibited, Restricted and Danger Areas along with Airspace carefully from the EFB."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LA MOLE, FRANCE",
+            "LA MOLE",
+            "10-10-2P4"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        3
+      ],
+      "page_images": [
+        "static/airports/lftz/page-03.png"
+      ],
+      "embeds": [
+        "static/airports/lftz/embed-p03-02.jpeg"
+      ]
+    },
+    {
+      "num": 9,
+      "title": "Arrival procedures",
+      "body": ".1 GENERAL\nArrivals to RWY 24 ONLY.\nExpect a visual approach RWY 24 via EM (Warehouse SE of Port Grimaud beach).\nWhen the weather is close to the required minima, the VOR A procedure may be used solely as a cloud-breaking\nprocedure to become visual at or above 2500ft; if VMC can be maintained - carry out an immediate right turn at an\naltitude up to 3400ft; maintain VMC below the cloud. Cancel IFR and proceed VFR towards STP. After STP fly east\ntowards the coast and visually position to EM.\nIf VMC cannot be obtained, follow the published MAP for the VOR A approach and coordinate with ATC a diversion\nto the preferred alternate airport.\n\n9.2  VISUAL APPROACH RWY 24 VIA EM (PORT GRIMAUD)\nProcedure:\nWhen coming from the East via Golfe de Saint-Tropez, keep to the centre of the bay in order to minimise\nnoise on either side of the bay.\nReport visual over EM at altitude 2500ft and fully configured.\nDescend upon leaving EM and follow track 234\u00b0 while remaining SE of highway D98 until abeam Cogolin;\nDistance from EM to threshold RWY 24 is approx. 5.8NM.\nDistance from STP to threshold RWY 24 is 5NM.\nDescent rate from EM is approximately 900fpm.\nEnsure stable approach criteria are met at 500ft AAL.\nWhen meeting stable approach criteria (wings level by 300ft), continue the approach until the windsock can\nclearly be seen and based on the visual assessment, continue the approach, or go around.\n\nConsiderations:\nWhen establishing initial contact with the AFIS controller, ask if any other aircraft have reported windshear;\nIn case of an engine failure before abeam Cogolin, turn left towards STP and climb to an altitude of 2500ft\nremaining VMC.\nIn case of an engine failure after abeam Cogolin, initiate a go-around whilst following the prescribed ground\ntrack for the approach and missed approach.\nIn the event on an engine failure below 300ft continue to land or initiate a go-around if the engine failure\ndestabilises the approach.\nThe windsock is left abeam threshold RWY 24 and offers the best indication of the actual touchdown wind\nReported wind \u2018calm\u2019 is used for winds up to 3kt from any direction.\nSelect Hyeres (LFTH) approach frequency on the spare VHF radio (Com 2).\nIn case of windshear below 300ft AAL, take into account the low energy state of the aircraft and a potential\ncontinued sink towards the runway during the windshear escape manoeuvre while maintaining the aircraft in\nthe required pitch attitude.\n\nLA MOLE, FRANCE\nLA MOLE\n10-10-2P5\n\n-\nApproach Configuration:\nFlap Full\nLanding Gear down\nApproach speed Vref+5kt\n\nVISUAL APPROACH RWY 24 VIA EM (NORTH UP)\n\nLA MOLE, FRANCE\nLA MOLE\n10-10-2P6\n\n-\n\nVISUAL APPROACH RWY 24 VIA EM TRACK UP\n9.3  VMC GO-AROUND / BALKED LANDING:\nRemain VMC during the go-around procedure.\nFly overhead the runway on runway track until abeam the apron.\nTurn right abeam the apron, following the centre of La Mole valley (track 290\u00b0).\nAbeam \u2018station d'epuration\u2019 (water treatment plant) on right hand side, turn left to avoid La Mole village and\ncontinue along the valley, following road D98 (average track 250\u00b0).\nClean up altitude 1100ft AEO or 1600ft OEI.\nThereafter climb to 3400ft, weather permitting, or a minimum of 2500ft\nAt 10 DME STP along the valley, turn left and continue the turn to intercept R250 inbound STP.\nAvoid the built-up areas at approximately 5 DME STP and proceed visually to EM for another approach or proceed\nto alternate airport.\nReport intentions to the AFIS controller as soon as possible.\n\nLA MOLE, FRANCE\nLA MOLE\n10-10-2P7\n\n-\nPerformance: In accordance with PDCS data.\n\nVMC GO AROUND / BALKED LANDING\n\nLA MOLE, FRANCE\nLA MOLE\n10-10-2P8\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ".1 GENERAL",
+            "Arrivals to RWY 24 ONLY.",
+            "Expect a visual approach RWY 24 via EM (Warehouse SE of Port Grimaud beach).",
+            "When the weather is close to the required minima, the VOR A procedure may be used solely as a cloud-breaking",
+            "procedure to become visual at or above 2500ft; if VMC can be maintained - carry out an immediate right turn at an",
+            "altitude up to 3400ft; maintain VMC below the cloud. Cancel IFR and proceed VFR towards STP. After STP fly east",
+            "towards the coast and visually position to EM.",
+            "If VMC cannot be obtained, follow the published MAP for the VOR A approach and coordinate with ATC a diversion",
+            "to the preferred alternate airport."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "9.2  VISUAL APPROACH RWY 24 VIA EM (PORT GRIMAUD)",
+            "Procedure:",
+            "When coming from the East via Golfe de Saint-Tropez, keep to the centre of the bay in order to minimise",
+            "noise on either side of the bay.",
+            "Report visual over EM at altitude 2500ft and fully configured.",
+            "Descend upon leaving EM and follow track 234\u00b0 while remaining SE of highway D98 until abeam Cogolin;",
+            "Distance from EM to threshold RWY 24 is approx. 5.8NM.",
+            "Distance from STP to threshold RWY 24 is 5NM.",
+            "Descent rate from EM is approximately 900fpm.",
+            "Ensure stable approach criteria are met at 500ft AAL.",
+            "When meeting stable approach criteria (wings level by 300ft), continue the approach until the windsock can",
+            "clearly be seen and based on the visual assessment, continue the approach, or go around."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Considerations:",
+            "When establishing initial contact with the AFIS controller, ask if any other aircraft have reported windshear;",
+            "In case of an engine failure before abeam Cogolin, turn left towards STP and climb to an altitude of 2500ft",
+            "remaining VMC.",
+            "In case of an engine failure after abeam Cogolin, initiate a go-around whilst following the prescribed ground",
+            "track for the approach and missed approach.",
+            "In the event on an engine failure below 300ft continue to land or initiate a go-around if the engine failure",
+            "destabilises the approach.",
+            "The windsock is left abeam threshold RWY 24 and offers the best indication of the actual touchdown wind",
+            "Reported wind \u2018calm\u2019 is used for winds up to 3kt from any direction.",
+            "Select Hyeres (LFTH) approach frequency on the spare VHF radio (Com 2).",
+            "In case of windshear below 300ft AAL, take into account the low energy state of the aircraft and a potential",
+            "continued sink towards the runway during the windshear escape manoeuvre while maintaining the aircraft in",
+            "the required pitch attitude."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LA MOLE, FRANCE",
+            "LA MOLE",
+            "10-10-2P5"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "Approach Configuration:",
+            "Flap Full",
+            "Landing Gear down",
+            "Approach speed Vref+5kt"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VISUAL APPROACH RWY 24 VIA EM (NORTH UP)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LA MOLE, FRANCE",
+            "LA MOLE",
+            "10-10-2P6"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VISUAL APPROACH RWY 24 VIA EM TRACK UP",
+            "9.3  VMC GO-AROUND / BALKED LANDING:",
+            "Remain VMC during the go-around procedure.",
+            "Fly overhead the runway on runway track until abeam the apron.",
+            "Turn right abeam the apron, following the centre of La Mole valley (track 290\u00b0).",
+            "Abeam \u2018station d'epuration\u2019 (water treatment plant) on right hand side, turn left to avoid La Mole village and",
+            "continue along the valley, following road D98 (average track 250\u00b0).",
+            "Clean up altitude 1100ft AEO or 1600ft OEI.",
+            "Thereafter climb to 3400ft, weather permitting, or a minimum of 2500ft",
+            "At 10 DME STP along the valley, turn left and continue the turn to intercept R250 inbound STP.",
+            "Avoid the built-up areas at approximately 5 DME STP and proceed visually to EM for another approach or proceed",
+            "to alternate airport.",
+            "Report intentions to the AFIS controller as soon as possible."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LA MOLE, FRANCE",
+            "LA MOLE",
+            "10-10-2P7"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "Performance: In accordance with PDCS data."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VMC GO AROUND / BALKED LANDING"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LA MOLE, FRANCE",
+            "LA MOLE",
+            "10-10-2P8"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        4
+      ],
+      "page_images": [
+        "static/airports/lftz/page-04.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 10,
+      "title": "Departure procedures",
+      "body": "0.1 GENERAL\nDepartures RWY 06 only. Expect VFR departure as detailed below.\nStatic take-off only, using full runway length.\n\nDo not fly IFR SIDs as shown on Jeppesen as the required climb gradients cannot be met OEI.\n(with a MTOM of 22,000 lb the Latitude is able to reach minimum 12% climb gradient (max 30 deg C OAT and flaps\n1)\nTake-off is not permitted in the following cases:",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "0.1 GENERAL",
+            "Departures RWY 06 only. Expect VFR departure as detailed below.",
+            "Static take-off only, using full runway length."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Do not fly IFR SIDs as shown on Jeppesen as the required climb gradients cannot be met OEI.",
+            "(with a MTOM of 22,000 lb the Latitude is able to reach minimum 12% climb gradient (max 30 deg C OAT and flaps",
+            "1)",
+            "Take-off is not permitted in the following cases:"
+          ]
+        }
+      ],
+      "pages": [
+        8
+      ],
+      "page_images": [
+        "static/airports/lftz/page-08.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": ". Wet or contaminated runway\nPerformance: In accordance with PDCS data.\n\n10.2  VFR DEPARTURE\nProcedure:\nInitially Rwy HDG 061\u00b0\nAbeam factory on right hand side (see La Mole airport overview picture), turn LEFT onto approximate HDG\n036\u00b0\nMaintain VMC in the centre of the valley towards the coastline\n(direction EM) and when passing 1500'\nturn right, maintaining VMC to STP VOR for IFR join in (see VFR departure RWY 06 picture)\nStandard flap retraction as per aircraft OM-B.\nThen climb at 150kts to max 3400ft maintaining VMC until cleared to join controlled airspace.\nRemain clear of controlled airspace until instructed.\n\nTake-off configuration:\nStatic take-off / using full runway length.\nFlaps: As per PDCS data.\nMaximum take-off weights in accordance with PDCS data.\n\nLA MOLE, FRANCE\nLA MOLE\n10-10-2P9\n\n-\n\nVFR DEPARTURE RWY 06\n\nVISUAL APPROACH RWY 24 / VFR DEPARTURE RWY 06\n10.3  ENGINE FAILURE PROCEDURE RWY 06\nShortly after departure from RWY 06 - abeam the factory (see La Mole airport overview picture in section 7) - turn\nleft to visually follow the valley (See Picture - Engine Failure Procedure RWY 06 Track). For reference only, see\ntracks dependent on V2 shown in a table in the picture section.\nAt 3.3 DME STP, but not below 1000 feet, turn right to STP.\nMinimum Acceleration Altitude is 1559 ft (as per PDCS data).\nClimb to maximum altitude 3400 ft maintaining VMC below cloud.\n\nLA MOLE, FRANCE\nLA MOLE\n10-10-2P10\n\n-\nCritical obstacles:\nRefer to Critical obstacles table in this section along with LFTZ engine out corridor for V2 values of 100-120kts\nbelow.\nTRACK\nV2\nCONDITIONS\n041\u00ba\n100KT\nISA\n040\u00ba\n100KT\nISA +15\u2019\n039\u00ba\n105KT\n038\u00ba\n110KT\n037\u00ba\n115KT\n036\u00ba\n120KT\n\nENGINE FAILURE PROCEDURE RWY 06 TRACK\n\nENGINE FAILURE PROCEDURE (PHENOM) RWY 06 V2 TABLE\n\nLA MOLE, FRANCE\nLA MOLE\n10-10-2P11\n\n-\n\nOEI CORRIDOR RWY 06 CRITICAL OBSTACLES.\n\nLA MOLE, FRANCE\nLA MOLE\n10-10-2P12\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ". Wet or contaminated runway",
+            "Performance: In accordance with PDCS data."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "10.2  VFR DEPARTURE",
+            "Procedure:",
+            "Initially Rwy HDG 061\u00b0",
+            "Abeam factory on right hand side (see La Mole airport overview picture), turn LEFT onto approximate HDG",
+            "036\u00b0",
+            "Maintain VMC in the centre of the valley towards the coastline",
+            "(direction EM) and when passing 1500'",
+            "turn right, maintaining VMC to STP VOR for IFR join in (see VFR departure RWY 06 picture)",
+            "Standard flap retraction as per aircraft OM-B.",
+            "Then climb at 150kts to max 3400ft maintaining VMC until cleared to join controlled airspace.",
+            "Remain clear of controlled airspace until instructed."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Take-off configuration:",
+            "Static take-off / using full runway length.",
+            "Flaps: As per PDCS data.",
+            "Maximum take-off weights in accordance with PDCS data."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LA MOLE, FRANCE",
+            "LA MOLE",
+            "10-10-2P9"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VFR DEPARTURE RWY 06"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VISUAL APPROACH RWY 24 / VFR DEPARTURE RWY 06",
+            "10.3  ENGINE FAILURE PROCEDURE RWY 06",
+            "Shortly after departure from RWY 06 - abeam the factory (see La Mole airport overview picture in section 7) - turn",
+            "left to visually follow the valley (See Picture - Engine Failure Procedure RWY 06 Track). For reference only, see",
+            "tracks dependent on V2 shown in a table in the picture section.",
+            "At 3.3 DME STP, but not below 1000 feet, turn right to STP.",
+            "Minimum Acceleration Altitude is 1559 ft (as per PDCS data).",
+            "Climb to maximum altitude 3400 ft maintaining VMC below cloud."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LA MOLE, FRANCE",
+            "LA MOLE",
+            "10-10-2P10"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "Critical obstacles:",
+            "Refer to Critical obstacles table in this section along with LFTZ engine out corridor for V2 values of 100-120kts",
+            "below.",
+            "TRACK",
+            "V2",
+            "CONDITIONS",
+            "041\u00ba",
+            "100KT",
+            "ISA",
+            "040\u00ba",
+            "100KT",
+            "ISA +15\u2019",
+            "039\u00ba",
+            "105KT",
+            "038\u00ba",
+            "110KT",
+            "037\u00ba",
+            "115KT",
+            "036\u00ba",
+            "120KT"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "ENGINE FAILURE PROCEDURE RWY 06 TRACK"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "ENGINE FAILURE PROCEDURE (PHENOM) RWY 06 V2 TABLE"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LA MOLE, FRANCE",
+            "LA MOLE",
+            "10-10-2P11"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "OEI CORRIDOR RWY 06 CRITICAL OBSTACLES."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LA MOLE, FRANCE",
+            "LA MOLE",
+            "10-10-2P12"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        2,
+        2,
+        8
+      ],
+      "page_images": [
+        "static/airports/lftz/page-01.png",
+        "static/airports/lftz/page-02.png",
+        "static/airports/lftz/page-02.png",
+        "static/airports/lftz/page-08.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 11,
+      "title": "Ground procedures",
+      "body": "efer to Jeppesen.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "efer to Jeppesen."
+          ]
+        }
+      ],
+      "pages": [
+        12
+      ],
+      "page_images": [
+        "static/airports/lftz/page-12.png"
+      ],
+      "embeds": [
+        "static/airports/lftz/embed-p12-02.jpeg"
+      ]
+    },
+    {
+      "num": 12,
+      "title": "Miscellaneous",
+      "body": "ith Westerly winds in excess of 10Kts caution possible rotor and associated windshear when landing RWY 24.\nIt is common to have wind from 240 degrees at the threshold 24 and from 140 degrees at mid-point. This is the main\nreason for the wind associated restrictions.\nWesterly winds are prevailing either as a result of Mistral (all year long but mostly winter months) and sea -breeze\nphenomenon in the summer.\nOperation is most likely to be disrupted between 1200 and 1700 local time due to breeze in excess of 15 kt.\nCaution busy VFR traffic from light aircraft and helicopters particularly in area of EM and STP VOR.\nATIS available by phone: +33 4 94 54 76 62.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "ith Westerly winds in excess of 10Kts caution possible rotor and associated windshear when landing RWY 24.",
+            "It is common to have wind from 240 degrees at the threshold 24 and from 140 degrees at mid-point. This is the main",
+            "reason for the wind associated restrictions.",
+            "Westerly winds are prevailing either as a result of Mistral (all year long but mostly winter months) and sea -breeze",
+            "phenomenon in the summer.",
+            "Operation is most likely to be disrupted between 1200 and 1700 local time due to breeze in excess of 15 kt."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "Caution busy VFR traffic from light aircraft and helicopters particularly in area of EM and STP VOR.",
+            "ATIS available by phone: +33 4 94 54 76 62."
+          ]
+        }
+      ],
+      "pages": [
+        12
+      ],
+      "page_images": [
+        "static/airports/lftz/page-12.png"
+      ],
+      "embeds": [
+        "static/airports/lftz/embed-p12-02.jpeg"
+      ]
+    },
+    {
+      "num": 13,
+      "title": "Charts / Pictures / Other",
+      "body": "VERAGE WEATHER AND PRECIPITATION",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "VERAGE WEATHER AND PRECIPITATION"
+          ]
+        }
+      ],
+      "pages": [
+        12
+      ],
+      "page_images": [
+        "static/airports/lftz/page-12.png"
+      ],
+      "embeds": [
+        "static/airports/lftz/embed-p12-02.jpeg"
+      ]
+    },
+    {
+      "num": 14,
+      "title": "Changes since the last revision",
+      "body": "riefing has been updated to display the new template. Added AHQ requirement.\nProvide feedback to Lis-OpsTechnical@netjets.com",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "riefing has been updated to display the new template. Added AHQ requirement.",
+            "Provide feedback to Lis-OpsTechnical@netjets.com"
+          ]
+        }
+      ],
+      "pages": [
+        12
+      ],
+      "page_images": [
+        "static/airports/lftz/page-12.png"
+      ],
+      "embeds": [
+        "static/airports/lftz/embed-p12-02.jpeg"
+      ]
+    }
+  ]
+}

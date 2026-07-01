@@ -4,6 +4,8 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 
+from content.render_helpers import back_to_top, cas_quick_reference, source_footer
+
 
 def _img(path: str, caption: str):
     if os.path.exists(path):
@@ -165,21 +167,41 @@ The system is designed to **re-route power automatically**. Typical crew focus i
         st.table(pd.DataFrame(scenarios, columns=["Scenario", "What you should expect (concept)"]))
         st.markdown("_Use the electrical synoptic to verify the actual configuration._")
 
-    with st.expander("**8. Common CAS messages (what they mean)**", expanded=False):
-        rows = [
-            ("ELEC EMERGENCY", "DC main buses de-energized; batteries discharging in electrical emergency."),
-            ("ELEC XFR FAIL", "Automatic transfer to electrical emergency condition failed."),
-            ("GEN 1 (2) OFF BUS", "Generator failure or GEN switch OFF; associated generator isolated."),
-            ("GEN OVLD", "Remaining generator current above 330 A (ground) / 390 A (flight)."),
-            ("BATT 1 (2) OFF BUS", "Associated battery isolated from electrical network."),
-            ("BATT DISCHARGE", "At least one battery discharging during normal operation."),
-            ("DC BUS 1 (2) OFF", "Associated DC bus is de-energized."),
-            ("EMER BUS OFF", "Emergency Bus is de-energized."),
-            ("GPU CONNECTED", "Ground power unit connected to the airplane."),
-            ("SHED BUS OFF", "Shed bus is de-energized."),
-        ]
-        st.table(pd.DataFrame(rows, columns=["CAS message", "Meaning (summary)"]))
-        st.markdown("_Source: POH 6-04-45 (Rev 10/14)._")
+    with st.expander("**7b. External lights check (Handbook 2.1.1)**", expanded=False):
+        st.markdown(
+            """
+Systematic **external lights check** before flight — nav, landing, taxi, inspection lights per handbook sequence.
+
+_Full sequence with photos → **Airplane General → External walkround guide (3a)**._
+"""
+        )
+
+    with st.expander("**7c. Battery best practices (FOL 001/13, 013/11)**", expanded=False):
+        st.markdown(
+            """
+- Request **GPU early** in cold weather (batteries sluggish below **-10°C**).
+- Avoid unnecessary battery discharge on ground — monitor synoptic.
+- Follow GPU connection guidance before high electrical loads.
+
+_See **Cold Weather** pre-flight preparation._
+"""
+        )
+
+    cas_quick_reference(
+        [
+            ("Emergency", "WARNING", "ELEC EMERGENCY", "DC main buses de-energized; batteries discharging in electrical emergency."),
+            ("Emergency", "CAUTION", "ELEC XFR FAIL", "Automatic transfer to electrical emergency condition failed."),
+            ("Generators", "CAUTION", "GEN 1 (2) OFF BUS", "Generator failure or GEN switch OFF; associated generator isolated."),
+            ("Generators", "CAUTION", "GEN OVLD", "Remaining generator current above 330 A (ground) / 390 A (flight)."),
+            ("Batteries", "CAUTION", "BATT 1 (2) OFF BUS", "Associated battery isolated from electrical network."),
+            ("Batteries", "CAUTION", "BATT DISCHARGE", "At least one battery discharging during normal operation."),
+            ("Buses", "CAUTION", "DC BUS 1 (2) OFF", "Associated DC bus is de-energized."),
+            ("Buses", "CAUTION", "EMER BUS OFF", "Emergency Bus is de-energized."),
+            ("Ground power", "ADVISORY", "GPU CONNECTED", "Ground power unit connected to the airplane."),
+            ("Buses", "ADVISORY", "SHED BUS OFF", "Shed bus is de-energized."),
+        ],
+        title="8. CAS quick reference",
+    )
 
     with st.expander("**9. Where to look (fast)**", expanded=False):
         st.markdown(
@@ -201,3 +223,5 @@ This section includes the POH electrical system configuration pages that show ho
         )
         _show_folder_images(folder, "poh_6-04_config_", "Electrical system configurations", columns=2)
 
+    back_to_top()
+    source_footer("poh", "§6-04 Electrics")

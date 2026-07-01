@@ -4,6 +4,8 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 
+from content.render_helpers import back_to_top, cas_quick_reference, source_footer
+
 
 def _img(path: str, caption: str):
     if os.path.exists(path):
@@ -146,5 +148,75 @@ The CPCS provides automatic OFV control to maintain cabin altitude, cabin rate, 
             ("BLEED FAIL / LEAK / OVERTEMP", "Typically indicates an upstream pneumatic/bleed issue impacting multiple air functions."),
         ]
         st.table(pd.DataFrame(patterns, columns=["Cue", "Operational meaning"]))
-        st.markdown("_Source reference: POH 6-02 (controls/indications, CAS messages)._")
+
+    with st.expander("**8. AUTO vs MAN pressurization**", expanded=False):
+        st.markdown(
+            """
+**AUTO (normal)**
+- CPCS controls cabin exhaust through ground / takeoff / climb / descent / taxi.
+- Needs correct **Landing Field Elevation (LFE)** from FMS or manual MFD entry.
+
+**MAN (abnormal)**
+- MODE switch → **MAN**; use **CABIN ALT UP / DN** to command OFV open/close.
+- Manual channel includes altitude limiting — still protect structure.
+
+**DUMP** — rapid depressurization (ground or per QRH).
+
+**Memory Items:** *CAB ALTITUDE HI*, *EMERGENCY DESCENT* — see **Memory Items**.
+"""
+        )
+
+    with st.expander("**9. Key numbers**", expanded=False):
+        st.markdown(
+            """
+| Item | Value |
+|------|-------|
+| **CAB ALTITUDE HI** warning | **10,000 ft** cabin altitude |
+| **Delta-P** normal | Below **9.5 psid** |
+| **Delta-P fail** | **> 9.5 psid** or **< -0.3 psid** |
+| **Design ceiling** | Up to **45,000 ft** (cabin ~6,640 ft at max altitude) |
+
+_Verify on POH §6-02 for your revision._
+"""
+        )
+
+    cas_quick_reference(
+        [
+            ("Pressurization", "WARNING", "CAB ALTITUDE HI", "Cabin altitude ≥ 10,000 ft — memory item."),
+            ("Pressurization", "CAUTION", "PRESN AUTO FAIL", "Automatic pressurization lost — consider MAN."),
+            ("Pressurization", "CAUTION", "CAB DELTA-P FAIL", "Delta-P out of limits — structural protection."),
+            ("Bleed", "CAUTION", "BLEED 1 (2) FAIL", "Bleed unavailable on that engine."),
+            ("Bleed", "CAUTION", "BLEED 1 (2) LEAK", "Leak in bleed line."),
+            ("Bleed", "CAUTION", "BLEED 1 (2) OVERPRES", "Bleed manifold overpressure."),
+            ("Bleed", "CAUTION", "DUCT 1 (2) OVERTEMP", "Bleed duct overheat."),
+            ("Bleed", "CAUTION", "XBLEED FAIL", "Crossbleed valve not responding."),
+            ("Avionics bay", "ADVISORY", "EBAY OVHT", "Avionics bay temp > 70°C."),
+        ],
+        title="10. CAS quick reference",
+    )
+
+    with st.expander("**11. Diagram cheat sheet**", expanded=False):
+        c1, c2 = st.columns(2, gap="medium")
+        with c1:
+            _img(f"{press_folder}/cpcs_schematic.png", "CPCS schematic")
+        with c2:
+            _img(f"{press_folder}/pneumatic_system_schematic.png", "Pneumatic / bleed")
+        tcs = f"{press_folder}/tcs_schematic.png"
+        if os.path.exists(tcs):
+            _img(tcs, "Temperature Control System (context)")
+
+    with st.expander("**12. Study checklist**", expanded=False):
+        st.markdown(
+            """
+- [ ] Bleed in vs OFV out (pressurization model).
+- [ ] When **XBLEED** is used conceptually.
+- [ ] AUTO vs MAN — when you would select MAN.
+- [ ] **LFE** wrong on descent — what happens?
+- [ ] **CAB ALTITUDE HI** first actions (memory item).
+- [ ] Link bleed failures to **anti-ice** and **ECS**.
+"""
+        )
+
+    back_to_top()
+    source_footer("poh", "§6-02 Air Management · Memory Items (CAB ALTITUDE HI)")
 

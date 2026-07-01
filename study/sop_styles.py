@@ -46,12 +46,10 @@ body.briefly-sop-page [data-testid="stMarkdownContainer"] table thead th {{
 }}
 
 body.briefly-sop-page [data-testid="stMarkdownContainer"] table thead th:nth-child(2) {{
-  background: {c["pf_bg"]};
   color: {c["pf_ink"]};
 }}
 
 body.briefly-sop-page [data-testid="stMarkdownContainer"] table thead th:nth-child(3) {{
-  background: {c["pm_bg"]};
   color: {c["pm_ink"]};
 }}
 
@@ -60,6 +58,7 @@ body.briefly-sop-page [data-testid="stMarkdownContainer"] table td {{
   border-bottom: 1px solid rgba(155, 180, 201, 0.22);
   vertical-align: top;
   color: {COLORS["ink"]};
+  background: transparent;
 }}
 
 body.briefly-sop-page [data-testid="stMarkdownContainer"] table tr:last-child td {{
@@ -69,20 +68,6 @@ body.briefly-sop-page [data-testid="stMarkdownContainer"] table tr:last-child td
 body.briefly-sop-page [data-testid="stMarkdownContainer"] table td:first-child {{
   font-weight: 550;
   color: {COLORS["ink_soft"]};
-  background: rgba(255, 255, 255, 0.35);
-}}
-
-body.briefly-sop-page [data-testid="stMarkdownContainer"] table td:nth-child(2) {{
-  background: rgba(232, 238, 245, 0.35);
-}}
-
-body.briefly-sop-page [data-testid="stMarkdownContainer"] table td:nth-child(3) {{
-  background: rgba(231, 240, 239, 0.35);
-}}
-
-body.briefly-sop-page [data-testid="stMarkdownContainer"] table td:nth-child(2):only-child,
-body.briefly-sop-page [data-testid="stMarkdownContainer"] table thead th:only-child {{
-  background: transparent;
 }}
 
 body.briefly-sop-page [data-testid="stMarkdownContainer"] strong {{
@@ -159,6 +144,34 @@ body.briefly-sop-page [data-testid="stExpander"] details[open] {{
   padding: 0;
   font-weight: 600;
 }}
+
+.briefly-sop-mode-green {{
+  color: #15803D;
+  font-weight: 800;
+}}
+.briefly-sop-mode-white {{
+  color: #374151;
+  font-weight: 800;
+  background: #E5E7EB;
+  padding: 0.04em 0.22em;
+  border-radius: 4px;
+}}
+.briefly-sop-mode-pink {{
+  color: #BE185D;
+  font-weight: 800;
+}}
+.briefly-sop-mode-blue {{
+  color: #1D4ED8;
+  font-weight: 800;
+}}
+.briefly-sop-mode-ok {{
+  color: #15803D;
+  font-weight: 800;
+}}
+.briefly-sop-danger {{
+  color: #B91C1C;
+  font-weight: 800;
+}}
 """
 
 
@@ -170,6 +183,7 @@ def inject_sop_styles():
         (function() {{
           const doc = window.parent.document;
           doc.body.classList.add("briefly-sop-page");
+          doc.body.classList.remove("briefly-memory-page");
           let style = doc.getElementById("briefly-sop-styles");
           if (!style) {{
             style = doc.createElement("style");
@@ -200,7 +214,9 @@ def render_sop_legend():
 
 
 def sop_note(kind: str, text: str):
+    from study.semantic_color import colorize_sop_md
+
     st.markdown(
-        f'<div class="briefly-sop-note {kind}">{text}</div>',
+        f'<div class="briefly-sop-note {kind}">{colorize_sop_md(text)}</div>',
         unsafe_allow_html=True,
     )

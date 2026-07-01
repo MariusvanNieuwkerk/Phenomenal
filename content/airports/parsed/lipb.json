@@ -1,0 +1,3011 @@
+{
+  "icao": "LIPB",
+  "page_count": 29,
+  "pages": [
+    {
+      "page": 1,
+      "image": "static/airports/lipb/page-01.png",
+      "embeds": []
+    },
+    {
+      "page": 2,
+      "image": "static/airports/lipb/page-02.png",
+      "embeds": []
+    },
+    {
+      "page": 3,
+      "image": "static/airports/lipb/page-03.png",
+      "embeds": [
+        "static/airports/lipb/embed-p03-02.jpeg"
+      ]
+    },
+    {
+      "page": 4,
+      "image": "static/airports/lipb/page-04.png",
+      "embeds": []
+    },
+    {
+      "page": 5,
+      "image": "static/airports/lipb/page-05.png",
+      "embeds": []
+    },
+    {
+      "page": 6,
+      "image": "static/airports/lipb/page-06.png",
+      "embeds": []
+    },
+    {
+      "page": 7,
+      "image": "static/airports/lipb/page-07.png",
+      "embeds": [
+        "static/airports/lipb/embed-p07-02.jpeg"
+      ]
+    },
+    {
+      "page": 8,
+      "image": "static/airports/lipb/page-08.png",
+      "embeds": []
+    },
+    {
+      "page": 9,
+      "image": "static/airports/lipb/page-09.png",
+      "embeds": [
+        "static/airports/lipb/embed-p09-02.jpeg"
+      ]
+    },
+    {
+      "page": 10,
+      "image": "static/airports/lipb/page-10.png",
+      "embeds": []
+    },
+    {
+      "page": 11,
+      "image": "static/airports/lipb/page-11.png",
+      "embeds": []
+    },
+    {
+      "page": 12,
+      "image": "static/airports/lipb/page-12.png",
+      "embeds": []
+    },
+    {
+      "page": 13,
+      "image": "static/airports/lipb/page-13.png",
+      "embeds": [
+        "static/airports/lipb/embed-p13-02.jpeg",
+        "static/airports/lipb/embed-p13-03.jpeg"
+      ]
+    },
+    {
+      "page": 14,
+      "image": "static/airports/lipb/page-14.png",
+      "embeds": [
+        "static/airports/lipb/embed-p14-02.jpeg",
+        "static/airports/lipb/embed-p14-03.jpeg"
+      ]
+    },
+    {
+      "page": 15,
+      "image": "static/airports/lipb/page-15.png",
+      "embeds": [
+        "static/airports/lipb/embed-p15-02.jpeg",
+        "static/airports/lipb/embed-p15-03.jpeg"
+      ]
+    },
+    {
+      "page": 16,
+      "image": "static/airports/lipb/page-16.png",
+      "embeds": []
+    },
+    {
+      "page": 17,
+      "image": "static/airports/lipb/page-17.png",
+      "embeds": []
+    },
+    {
+      "page": 18,
+      "image": "static/airports/lipb/page-18.png",
+      "embeds": [
+        "static/airports/lipb/embed-p18-02.jpeg"
+      ]
+    },
+    {
+      "page": 19,
+      "image": "static/airports/lipb/page-19.png",
+      "embeds": []
+    },
+    {
+      "page": 20,
+      "image": "static/airports/lipb/page-20.png",
+      "embeds": [
+        "static/airports/lipb/embed-p20-02.jpeg",
+        "static/airports/lipb/embed-p20-03.jpeg"
+      ]
+    },
+    {
+      "page": 21,
+      "image": "static/airports/lipb/page-21.png",
+      "embeds": [
+        "static/airports/lipb/embed-p21-02.jpeg",
+        "static/airports/lipb/embed-p21-03.jpeg"
+      ]
+    },
+    {
+      "page": 22,
+      "image": "static/airports/lipb/page-22.png",
+      "embeds": []
+    },
+    {
+      "page": 23,
+      "image": "static/airports/lipb/page-23.png",
+      "embeds": [
+        "static/airports/lipb/embed-p23-02.jpeg"
+      ]
+    },
+    {
+      "page": 24,
+      "image": "static/airports/lipb/page-24.png",
+      "embeds": []
+    },
+    {
+      "page": 25,
+      "image": "static/airports/lipb/page-25.png",
+      "embeds": [
+        "static/airports/lipb/embed-p25-02.jpeg"
+      ]
+    },
+    {
+      "page": 26,
+      "image": "static/airports/lipb/page-26.png",
+      "embeds": []
+    },
+    {
+      "page": 27,
+      "image": "static/airports/lipb/page-27.png",
+      "embeds": [
+        "static/airports/lipb/embed-p27-02.png"
+      ]
+    },
+    {
+      "page": 28,
+      "image": "static/airports/lipb/page-28.png",
+      "embeds": [
+        "static/airports/lipb/embed-p28-02.jpeg"
+      ]
+    },
+    {
+      "page": 29,
+      "image": "static/airports/lipb/page-29.png",
+      "embeds": [
+        "static/airports/lipb/embed-p29-02.jpeg"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": "IC training required\nYES\nIn-Flight Familiarisation\u2013 See section 4.\nand Online Test (My Currency LIPB Required) \u2013 See crew general qualification\nSIC training required\nYES\nOnline Test Only (My Currency LIPB Required) \u2013 See crew general qualification\nQualification is type related\nYES\n\nSelf-Briefing\nYES",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "IC training required",
+            "YES",
+            "In-Flight Familiarisation\u2013 See section 4.",
+            "and Online Test (My Currency LIPB Required) \u2013 See crew general qualification",
+            "SIC training required",
+            "YES",
+            "Online Test Only (My Currency LIPB Required) \u2013 See crew general qualification",
+            "Qualification is type related",
+            "YES"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Self-Briefing",
+            "YES"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        1,
+        3,
+        28
+      ],
+      "page_images": [
+        "static/airports/lipb/page-01.png",
+        "static/airports/lipb/page-01.png",
+        "static/airports/lipb/page-03.png",
+        "static/airports/lipb/page-28.png"
+      ],
+      "embeds": [
+        "static/airports/lipb/embed-p03-02.jpeg",
+        "static/airports/lipb/embed-p28-02.jpeg"
+      ]
+    },
+    {
+      "num": 2,
+      "title": "Initial qualification requirements",
+      "body": ". REVALIDATION REQUIREMENTS\nGround Training\nYES\nOnline Test\nYES\n12 months \u2013 (Online Test)\nSimulator Training\nNO\n\nNO\n\nIn-flight familiarization\nYES\nPIC only, as detailed in 4. IN-FLIGHT\nFAMILIARISATION SYLLABUS\n12 months (OM-A 5.4.1.2.10)\nYES\nAs detailed in 4. IN-FLIGHT\nFAMILIARISATION SYLLABUS\n12 months (OM-A 5.4.1.2.10)\nFlight training\nNO\n\nNO",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ". REVALIDATION REQUIREMENTS",
+            "Ground Training",
+            "YES",
+            "Online Test",
+            "YES",
+            "12 months \u2013 (Online Test)",
+            "Simulator Training",
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "In-flight familiarization",
+            "YES",
+            "PIC only, as detailed in 4. IN-FLIGHT",
+            "FAMILIARISATION SYLLABUS",
+            "12 months (OM-A 5.4.1.2.10)",
+            "YES",
+            "As detailed in 4. IN-FLIGHT",
+            "FAMILIARISATION SYLLABUS",
+            "12 months (OM-A 5.4.1.2.10)",
+            "Flight training",
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NO"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        1,
+        3,
+        28
+      ],
+      "page_images": [
+        "static/airports/lipb/page-01.png",
+        "static/airports/lipb/page-01.png",
+        "static/airports/lipb/page-03.png",
+        "static/airports/lipb/page-28.png"
+      ],
+      "embeds": [
+        "static/airports/lipb/embed-p03-02.jpeg",
+        "static/airports/lipb/embed-p28-02.jpeg"
+      ]
+    },
+    {
+      "num": 4,
+      "title": "In-flight familiarisation syllabus",
+      "body": "AUTION\nBoth crew members shall complete LIPB Online Test before any operation at LIPB.\nPlease refer to CREW QUALIFICATION section.\n\nINFLIGHT FAMILIARISATION REQUIREMENT:\nAfter having completed the LIPB online test:",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "AUTION",
+            "Both crew members shall complete LIPB Online Test before any operation at LIPB.",
+            "Please refer to CREW QUALIFICATION section."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "INFLIGHT FAMILIARISATION REQUIREMENT:",
+            "After having completed the LIPB online test:"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        3
+      ],
+      "page_images": [
+        "static/airports/lipb/page-01.png",
+        "static/airports/lipb/page-03.png"
+      ],
+      "embeds": [
+        "static/airports/lipb/embed-p03-02.jpeg"
+      ]
+    },
+    {
+      "num": 2,
+      "title": "Initial qualification requirements",
+      "body": "ote: PIC operating as either PF or PM will be qualified following familiarisation. If both pilots are company PICs, both\nmay be qualified on the same flight.\n\nPost-flight, the Dispatch Supervisor will complete the crew authorisation process via email with the crew.\n\nBOLZANO, ITALY\nBOLZANO\n10-10-2P2\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "ote: PIC operating as either PF or PM will be qualified following familiarisation. If both pilots are company PICs, both",
+            "may be qualified on the same flight."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Post-flight, the Dispatch Supervisor will complete the crew authorisation process via email with the crew."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BOLZANO, ITALY",
+            "BOLZANO",
+            "10-10-2P2"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        1,
+        3,
+        28
+      ],
+      "page_images": [
+        "static/airports/lipb/page-01.png",
+        "static/airports/lipb/page-01.png",
+        "static/airports/lipb/page-03.png",
+        "static/airports/lipb/page-28.png"
+      ],
+      "embeds": [
+        "static/airports/lipb/embed-p03-02.jpeg",
+        "static/airports/lipb/embed-p28-02.jpeg"
+      ]
+    },
+    {
+      "num": 5,
+      "title": "Limitations / Miscellaneous",
+      "body": "AY ONLY.\nGlobal 5000/6000 PROHIBITED.\nEGPWS and TCAS shall be operable.\nPF shall hold a current AHQ.\n\nThe following are PROHIBITED (NetJets imposed):\n\u2022 LOC DME RWY 01.\n\u2022 RNP RWY 01.\n\u2022 Night Operations.\n\nThe only authorised IFR approach for NetJets use is VOR A followed by Circling with Prescribed tracks for CAT B only.\nThe preferred approach (weather and traffic permitting) is a VFR APCH using initial guidance from VOR A (CAT B and\nDeviation from OM-A 8.3.1 para 1 is approved (use of a VFR approach in preference to an IFR approach).\nIFR is the preferred method for departure.\n\nVFR arrivals shall follow the routings contained in this briefing. VFR arrivals from the North, for example using the\nBrenner Pass and the Reschen Pass are PROHIBITED.\n\nWIND RESTRICTION:\nWhen flying the Circle-to-land with Prescribed flight tracks procedure (as per Jeppesen 19-10 & 19-12), a 15KT MAX\nSURFACE WIND (INCLUDING GUSTS) shall be applied. This wind restriction is a NetJets limitation and it is not\napplicable to the VFR approach neither to departure procedures.\n\nCRITICAL MANOEUVRING SPEED:\nAll aircraft are to ensure weight and flap setting permit compliance with the Max manoeuvring speeds and angle of\nbank requirements:\n\nAPPROACH\nRWY\nMAX IAS (KTS)\nBANK (\u00b0)\nNOTES\n\nVOR A (Circle-to-Land with\nPrescribed Tracks)\n19\n130\n25\nCAT B ONLY\n01\n135\n22\n\nVFR APPROACH\n19\n155\n25\nCAT B & CAT C\n01\n\nBOLZANO, ITALY\nBOLZANO\n10-10-2P3\n\n-\nCREW GENERAL QUALIFICATION:\nFor all operations at LIPB the PF shall hold a current AHQ.\n\nCAUTION:\nUNQUALIFIED CREW: Contact the Dispatch Supervisor prior to flight for familiarisation instructions.\n\n\u2022 PIC Qualification: by completing the LIPB online test and in-flight familiarisation.\n\u2022 SIC Qualification: by completing the LIPB online test.\nLIPB PIC and LIPB SIC qualifications can be checked on the 'Waypoint' App - 'My Currency'.\n\nThe validity of the online test and in-flight familiarisation is 12 months as per OM-A 5.4.1.2.10 Validity.\nThis crew qualification complies with \u201c1.1 Authorization for operators\u201d requirements (10-1P).\nA. PILOT QUALIFICATION TEST INSTRUCTIONS:\n\nPIC and SIC shall register and complete the online course at:\nhttps://ifr-qualification.bolzanoairport.it/login\n\nThe qualification takes about 40 minutes. The platform offers the pilot 30 questions out of a total of over\n150. The pilot qualification test is passed with at least 80% correct answers.\nOnce the crew click the link, they will have access to a Pilot Familiarisation Briefing available for download.\nThe pilot qualification test will be based on the downloaded briefing.\nFor convenience, this pilot briefing is also available on Comply365:\n> 100- \u00abFleet\u00bb Onboard Docs\n> 103- \u00abFleet\u00bb CAT-B Aerodrome Briefings >\n> LIPB Pilot Familiarisation Briefing\n\nINSTRUCTIONS:",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "AY ONLY.",
+            "Global 5000/6000 PROHIBITED.",
+            "EGPWS and TCAS shall be operable.",
+            "PF shall hold a current AHQ."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "The following are PROHIBITED (NetJets imposed):"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "LOC DME RWY 01.",
+            "RNP RWY 01.",
+            "Night Operations."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "The only authorised IFR approach for NetJets use is VOR A followed by Circling with Prescribed tracks for CAT B only.",
+            "The preferred approach (weather and traffic permitting) is a VFR APCH using initial guidance from VOR A (CAT B and",
+            "Deviation from OM-A 8.3.1 para 1 is approved (use of a VFR approach in preference to an IFR approach).",
+            "IFR is the preferred method for departure."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VFR arrivals shall follow the routings contained in this briefing. VFR arrivals from the North, for example using the",
+            "Brenner Pass and the Reschen Pass are PROHIBITED."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "WIND RESTRICTION:",
+            "When flying the Circle-to-land with Prescribed flight tracks procedure (as per Jeppesen 19-10 & 19-12), a 15KT MAX",
+            "SURFACE WIND (INCLUDING GUSTS) shall be applied. This wind restriction is a NetJets limitation and it is not",
+            "applicable to the VFR approach neither to departure procedures."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CRITICAL MANOEUVRING SPEED:",
+            "All aircraft are to ensure weight and flap setting permit compliance with the Max manoeuvring speeds and angle of",
+            "bank requirements:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "APPROACH",
+            "RWY",
+            "MAX IAS (KTS)",
+            "BANK (\u00b0)",
+            "NOTES"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VOR A (Circle-to-Land with",
+            "Prescribed Tracks)",
+            "19",
+            "130",
+            "25",
+            "CAT B ONLY",
+            "01",
+            "135",
+            "22"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VFR APPROACH",
+            "19",
+            "155",
+            "25",
+            "CAT B & CAT C",
+            "01"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BOLZANO, ITALY",
+            "BOLZANO",
+            "10-10-2P3"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "CREW GENERAL QUALIFICATION:",
+            "For all operations at LIPB the PF shall hold a current AHQ."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION:",
+            "UNQUALIFIED CREW: Contact the Dispatch Supervisor prior to flight for familiarisation instructions."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "PIC Qualification: by completing the LIPB online test and in-flight familiarisation.",
+            "SIC Qualification: by completing the LIPB online test."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LIPB PIC and LIPB SIC qualifications can be checked on the 'Waypoint' App - 'My Currency'."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "The validity of the online test and in-flight familiarisation is 12 months as per OM-A 5.4.1.2.10 Validity.",
+            "This crew qualification complies with \u201c1.1 Authorization for operators\u201d requirements (10-1P).",
+            "A. PILOT QUALIFICATION TEST INSTRUCTIONS:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PIC and SIC shall register and complete the online course at:",
+            "https://ifr-qualification.bolzanoairport.it/login"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "The qualification takes about 40 minutes. The platform offers the pilot 30 questions out of a total of over",
+            "150. The pilot qualification test is passed with at least 80% correct answers.",
+            "Once the crew click the link, they will have access to a Pilot Familiarisation Briefing available for download.",
+            "The pilot qualification test will be based on the downloaded briefing.",
+            "For convenience, this pilot briefing is also available on Comply365:",
+            "> 100- \u00abFleet\u00bb Onboard Docs",
+            "> 103- \u00abFleet\u00bb CAT-B Aerodrome Briefings >",
+            "> LIPB Pilot Familiarisation Briefing"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "INSTRUCTIONS:"
+          ]
+        }
+      ],
+      "pages": [
+        2,
+        3
+      ],
+      "page_images": [
+        "static/airports/lipb/page-02.png",
+        "static/airports/lipb/page-03.png"
+      ],
+      "embeds": [
+        "static/airports/lipb/embed-p03-02.jpeg"
+      ]
+    },
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": ". Enter personal and license information.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ". Enter personal and license information."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        1,
+        3,
+        28
+      ],
+      "page_images": [
+        "static/airports/lipb/page-01.png",
+        "static/airports/lipb/page-01.png",
+        "static/airports/lipb/page-03.png",
+        "static/airports/lipb/page-28.png"
+      ],
+      "embeds": [
+        "static/airports/lipb/embed-p03-02.jpeg",
+        "static/airports/lipb/embed-p28-02.jpeg"
+      ]
+    },
+    {
+      "num": 3,
+      "title": "Revalidation requirements",
+      "body": ". Select \u201cYES\u201d to all six performance-related questions.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ". Select \u201cYES\u201d to all six performance-related questions."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        3,
+        28
+      ],
+      "page_images": [
+        "static/airports/lipb/page-01.png",
+        "static/airports/lipb/page-03.png",
+        "static/airports/lipb/page-28.png"
+      ],
+      "embeds": [
+        "static/airports/lipb/embed-p03-02.jpeg",
+        "static/airports/lipb/embed-p28-02.jpeg"
+      ]
+    },
+    {
+      "num": 5,
+      "title": "Limitations / Miscellaneous",
+      "body": ". Select \u201cTake the Qualification Test\u201d to start the Pilot qualification test.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ". Select \u201cTake the Qualification Test\u201d to start the Pilot qualification test."
+          ]
+        }
+      ],
+      "pages": [
+        2,
+        3
+      ],
+      "page_images": [
+        "static/airports/lipb/page-02.png",
+        "static/airports/lipb/page-03.png"
+      ],
+      "embeds": [
+        "static/airports/lipb/embed-p03-02.jpeg"
+      ]
+    },
+    {
+      "num": 7,
+      "title": "Overview",
+      "body": "lightdispatch@netjets.com\nB. IN FLIGHT FAMILISARISATION:\nPlease refer to the In-Flight Familiarisation syllabus.\n\nBOLZANO, ITALY\nBOLZANO\n10-10-2P4\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "lightdispatch@netjets.com",
+            "B. IN FLIGHT FAMILISARISATION:",
+            "Please refer to the In-Flight Familiarisation syllabus."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BOLZANO, ITALY",
+            "BOLZANO",
+            "10-10-2P4"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        3,
+        7
+      ],
+      "page_images": [
+        "static/airports/lipb/page-03.png",
+        "static/airports/lipb/page-07.png"
+      ],
+      "embeds": [
+        "static/airports/lipb/embed-p03-02.jpeg",
+        "static/airports/lipb/embed-p07-02.jpeg"
+      ]
+    },
+    {
+      "num": 6,
+      "title": "Weather / Airport limitations",
+      "body": "PPROACH RWY 01\nSee section 9. ARRIVAL PROCEDURES\nAPPROACH\nRWY 01\nLOWEST AVAILABLE MINIMA\nJEPPESEN CHART\nPDCS CHART\nNOTES:\nCAT B\nNORM\nCONT\n\nVFR APCH  RWY01\nusing VOR A\nDAY ONLY\nVisibility 8km\nCeiling 8313ft (9100ft QNH)\n13-1\n19-1\nNil.\nLANDING PERF:\nArrival \u201801\u2019\n\nBALKED LANDING PERF:\nDeparture \u201801DP1\u2019\n\nPreferred arrival for CAT B and CAT C if weather\nconditions and local traffic permit.\nCAUTION: The minima required is higher than\nshown on Jeppesen 13-1.\nVOR A - Circle-to-land\nwith prescribed tracks\nRWY 01\nDAY ONLY\nVisibility 5km\nCeiling 4133 ft\n(4920 ft QNH)\nN/A\n13-1\n19-10\n19-11\n(Balked\nlanding)\nProcedure is for CAT B Only and permits lower\nweather minima.\nCAUTION: Max surface wind 15Kts, including\ngusts (NetJets Restriction)\nVFR APCH RWY 01\nwhen VOR OZE U/S\nDAY ONLY\nVisibility 8km\n11,713 ft (12500 QNH)\n19-1\nNil\nContingency procedure for CAT B & CAT C when\nthe VOR OZE is unavailable.\nLOC DME RWY 01\nPROHIBITED FOR NETJETS OPERATION\nThese approaches have not been operationally\nassessed and are therefore NOT APPROVED for\nNetJets.\nLOC DME may be referenced whilst VFR ONLY to\naid Situational Awareness.\nRNP RWY 01\n\nBOLZANO, ITALY\nBOLZANO\n10-10-2P5\n\n-\n\nAPPROACH RWY 19\nSee section 9. ARRIVAL PROCEDURES\nAPPROACH\nRWY 19\nLOWEST AVAILABLE MINIMA\nJEPPESEN CHART\nPDCS CHART\nNOTES:\nCAT B\nNORM\nCONT\nVFR APCH RWY 19 using\nVOR A\nDAY ONLY\nVisibility 8km\nCeiling 8313ft (9100ft QNH)\n13-1\n19-1\nNil.\nLANDING PERF:\nArrival \u201819\u2019\n\nBALKED LANDING PERF:\nDeparture \u201819DP2\u2019\n\nPreferred approach for CAT B & CAT C if RWY 01\nnot available and weather conditions permit.\nCAUTION: The minima required is higher than\nshown on Jeppesen 13-1.\nVOR A - Circle-to-land\nwith prescribed tracks\nRWY 19\nDAY ONLY\nVisibility 5km\nCeiling 4133 ft\n(4920 ft QNH)\nN/A\n13-1\n19-12\nNil.\nProcedure is for CAT B Only and permits lower\nweather minima.\nCAUTION: Max surface wind 15Kts, including gusts\n(NetJets Restriction)\nVFR APCH RWY 19 when\nVOR OZE U/S\nDAY ONLY\nVisibility 8km\n11,713 ft (12,500 QNH)\n19-1\nNil\nContingency procedure for CAT B & CAT C when\nVOR OZE is unavailable.\nLOC/DME RWY 01\n(Circle-to-land RWY 19)\nPROHIBITED FOR NETJETS OPERATION\nCIRCLING RWY 19 IS PROHIBITED\nThese approaches have not been operationally\nassessed and are therefore NOT APPROVED for\nNetJets.\nLOC DME may be referenced whilst VFR ONLY to aid\nSituational Awareness.\nRNP RWY 01\n(Circle-to-land RWY 19)\n\nBOLZANO, ITALY\nBOLZANO\n10-10-2P6\n\n-\n\nCAUTION\n(1) PDCS DEPARTURE CHART: if the \u2018STPT\u2019 PDCS performance is required (WET RWY for example) then the Runway Starter Extension shall be fully used. This is\nshown in grey on Jeppesen 10-9 and labelled \u2018Start point\u2019.\nSection 10. DEPARTURE PROCEDURES\nRWY 01 & RWY 19\nDEPARTURE\n\nLOWEST AVAILABLE MINIMA\nJEPPESEN CHART\nPDCS\nDEPARTURE\nCHART(1)\nNOTES:\nCAT B\nNORM TAB\nCONT\nTAB\nIFR DEPARTURE\nRWY 19\n(Conventional)\nDAY ONLY\nVisibility 5km\nCeiling 2700ft (3487 ft QNH)\n10-3B\n10-3E\nNil.\n\u201819\u2019,\n\u201819DP2\u2019\nOr\n\u201819STPT\u2019\nPreferred departure.\nRequires visual manoeuvring to OZE VOR followed by\nIFR Initial Climb to FORER. SIDs start at FORER\n\nIFR DEPARTURE\nRWY 01\n(Conventional)\nDAY ONLY\nVisibility 5km\nCeiling 2700ft (3487 ft QNH)\n10-3B\n10-3C\nNil.\n\u201801\u2019,\n\u201801DP1\u2019\nOr\n\u201801STPT\u2019\nEither Jepp 10-3B or 10-3C can be used for the initial\nclimb to OZE VOR.\n10-3B requires visual manoeuvring.\n10-3C has more limiting climb gradient and speed.\nBoth have IFR Initial Climb to FORER. SIDs start at\nFORER\nVFR DEPARTURE\nRWY 01 & RWY 19\nDAY ONLY\nVisibility 8km\nCeiling 11,713 ft (12,500 QNH)\n19-1\n19-2\n19-3\n19-3A\nNil.\nRWY 01:\n\u201801\u2019, \u201801DP1\u2019 Or\n\u201801STPT\u2019\nRWY 19:\n\u201819\u2019, \u201819DP2\u2019 Or\n\u201819STPT\u2019\nContingency procedure if IFR procedures are\nunavailable.\n(OZE VOR U/S for example)\nRNP INITIAL CLIMB\nand\nRNP TRANSTITIONS\nPROHIBITED\n10-3\n10-3A\n10-3D\nPROHIBITED FOR NETJETS OPERATIONS\n\nBOLZANO, ITALY\nBOLZANO\n10-10-2P7\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "PPROACH RWY 01",
+            "See section 9. ARRIVAL PROCEDURES",
+            "APPROACH",
+            "RWY 01",
+            "LOWEST AVAILABLE MINIMA",
+            "JEPPESEN CHART",
+            "PDCS CHART",
+            "NOTES:",
+            "CAT B",
+            "NORM",
+            "CONT"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VFR APCH  RWY01",
+            "using VOR A",
+            "DAY ONLY",
+            "Visibility 8km",
+            "Ceiling 8313ft (9100ft QNH)",
+            "13-1",
+            "19-1",
+            "Nil.",
+            "LANDING PERF:",
+            "Arrival \u201801\u2019"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BALKED LANDING PERF:",
+            "Departure \u201801DP1\u2019"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Preferred arrival for CAT B and CAT C if weather",
+            "conditions and local traffic permit."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION: The minima required is higher than",
+            "shown on Jeppesen 13-1.",
+            "VOR A - Circle-to-land",
+            "with prescribed tracks",
+            "RWY 01",
+            "DAY ONLY",
+            "Visibility 5km",
+            "Ceiling 4133 ft",
+            "(4920 ft QNH)",
+            "N/A",
+            "13-1",
+            "19-10",
+            "19-11",
+            "(Balked",
+            "landing)",
+            "Procedure is for CAT B Only and permits lower",
+            "weather minima."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION: Max surface wind 15Kts, including",
+            "gusts (NetJets Restriction)",
+            "VFR APCH RWY 01",
+            "when VOR OZE U/S",
+            "DAY ONLY",
+            "Visibility 8km",
+            "11,713 ft (12500 QNH)",
+            "19-1",
+            "Nil",
+            "Contingency procedure for CAT B & CAT C when",
+            "the VOR OZE is unavailable.",
+            "LOC DME RWY 01",
+            "PROHIBITED FOR NETJETS OPERATION",
+            "These approaches have not been operationally",
+            "assessed and are therefore NOT APPROVED for",
+            "NetJets.",
+            "LOC DME may be referenced whilst VFR ONLY to",
+            "aid Situational Awareness.",
+            "RNP RWY 01"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BOLZANO, ITALY",
+            "BOLZANO",
+            "10-10-2P5"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "APPROACH RWY 19",
+            "See section 9. ARRIVAL PROCEDURES",
+            "APPROACH",
+            "RWY 19",
+            "LOWEST AVAILABLE MINIMA",
+            "JEPPESEN CHART",
+            "PDCS CHART",
+            "NOTES:",
+            "CAT B",
+            "NORM",
+            "CONT",
+            "VFR APCH RWY 19 using",
+            "VOR A",
+            "DAY ONLY",
+            "Visibility 8km",
+            "Ceiling 8313ft (9100ft QNH)",
+            "13-1",
+            "19-1",
+            "Nil.",
+            "LANDING PERF:",
+            "Arrival \u201819\u2019"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BALKED LANDING PERF:",
+            "Departure \u201819DP2\u2019"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Preferred approach for CAT B & CAT C if RWY 01",
+            "not available and weather conditions permit."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION: The minima required is higher than",
+            "shown on Jeppesen 13-1.",
+            "VOR A - Circle-to-land",
+            "with prescribed tracks",
+            "RWY 19",
+            "DAY ONLY",
+            "Visibility 5km",
+            "Ceiling 4133 ft",
+            "(4920 ft QNH)",
+            "N/A",
+            "13-1",
+            "19-12",
+            "Nil.",
+            "Procedure is for CAT B Only and permits lower",
+            "weather minima."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION: Max surface wind 15Kts, including gusts",
+            "(NetJets Restriction)",
+            "VFR APCH RWY 19 when",
+            "VOR OZE U/S",
+            "DAY ONLY",
+            "Visibility 8km",
+            "11,713 ft (12,500 QNH)",
+            "19-1",
+            "Nil",
+            "Contingency procedure for CAT B & CAT C when",
+            "VOR OZE is unavailable.",
+            "LOC/DME RWY 01",
+            "(Circle-to-land RWY 19)",
+            "PROHIBITED FOR NETJETS OPERATION",
+            "CIRCLING RWY 19 IS PROHIBITED",
+            "These approaches have not been operationally",
+            "assessed and are therefore NOT APPROVED for",
+            "NetJets.",
+            "LOC DME may be referenced whilst VFR ONLY to aid",
+            "Situational Awareness.",
+            "RNP RWY 01",
+            "(Circle-to-land RWY 19)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BOLZANO, ITALY",
+            "BOLZANO",
+            "10-10-2P6"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION",
+            "(1) PDCS DEPARTURE CHART: if the \u2018STPT\u2019 PDCS performance is required (WET RWY for example) then the Runway Starter Extension shall be fully used. This is",
+            "shown in grey on Jeppesen 10-9 and labelled \u2018Start point\u2019.",
+            "Section 10. DEPARTURE PROCEDURES",
+            "RWY 01 & RWY 19",
+            "DEPARTURE"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LOWEST AVAILABLE MINIMA",
+            "JEPPESEN CHART",
+            "PDCS",
+            "DEPARTURE",
+            "CHART(1)",
+            "NOTES:",
+            "CAT B",
+            "NORM TAB",
+            "CONT",
+            "TAB",
+            "IFR DEPARTURE",
+            "RWY 19",
+            "(Conventional)",
+            "DAY ONLY",
+            "Visibility 5km",
+            "Ceiling 2700ft (3487 ft QNH)",
+            "10-3B",
+            "10-3E",
+            "Nil.",
+            "\u201819\u2019,",
+            "\u201819DP2\u2019",
+            "Or",
+            "\u201819STPT\u2019",
+            "Preferred departure.",
+            "Requires visual manoeuvring to OZE VOR followed by",
+            "IFR Initial Climb to FORER. SIDs start at FORER"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "IFR DEPARTURE",
+            "RWY 01",
+            "(Conventional)",
+            "DAY ONLY",
+            "Visibility 5km",
+            "Ceiling 2700ft (3487 ft QNH)",
+            "10-3B",
+            "10-3C",
+            "Nil.",
+            "\u201801\u2019,",
+            "\u201801DP1\u2019",
+            "Or",
+            "\u201801STPT\u2019",
+            "Either Jepp 10-3B or 10-3C can be used for the initial",
+            "climb to OZE VOR.",
+            "10-3B requires visual manoeuvring.",
+            "10-3C has more limiting climb gradient and speed.",
+            "Both have IFR Initial Climb to FORER. SIDs start at",
+            "FORER",
+            "VFR DEPARTURE",
+            "RWY 01 & RWY 19",
+            "DAY ONLY",
+            "Visibility 8km",
+            "Ceiling 11,713 ft (12,500 QNH)",
+            "19-1",
+            "19-2",
+            "19-3",
+            "19-3A",
+            "Nil.",
+            "RWY 01:",
+            "\u201801\u2019, \u201801DP1\u2019 Or",
+            "\u201801STPT\u2019",
+            "RWY 19:",
+            "\u201819\u2019, \u201819DP2\u2019 Or",
+            "\u201819STPT\u2019",
+            "Contingency procedure if IFR procedures are",
+            "unavailable.",
+            "(OZE VOR U/S for example)",
+            "RNP INITIAL CLIMB",
+            "and",
+            "RNP TRANSTITIONS",
+            "PROHIBITED",
+            "10-3",
+            "10-3A",
+            "10-3D",
+            "PROHIBITED FOR NETJETS OPERATIONS"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BOLZANO, ITALY",
+            "BOLZANO",
+            "10-10-2P7"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        3,
+        4
+      ],
+      "page_images": [
+        "static/airports/lipb/page-03.png",
+        "static/airports/lipb/page-04.png"
+      ],
+      "embeds": [
+        "static/airports/lipb/embed-p03-02.jpeg"
+      ]
+    },
+    {
+      "num": 7,
+      "title": "Overview",
+      "body": "IPB is a challenging MOUNTAIN AIRPORT with significant terrain. All approaches require pre-study. LIPB is NOT\nmodelled in Flight Simulators, so a Familiarisation flight is required prior to operation.\nThe airport is situated in the northeast of Italy, within the Italian Alps. LIPB is close to the Austrian border and halfway\nbetween Innsbruck (LOWI) and Villafranca (LIPX).\n\nThe preferred approach is a  VFR APCH using VOR A to either RWY 01 or RWY 19. This is due to the complexities of\nthe Circle-to-land with prescribed flight tracks procedures which are flown within Class G (uncontrolled) airspace.\n\nWhen weather deteriorates below the minima (6. WEATHER / AIRPORTS LIMITATIONS) for the VFR arrival, the VOR\nA is available to Jeppesen minima, with Prescribed Tracks, for CAT B aircraft only.\n\nminima, to position for a VFR approach.\n\nThe RNP and LOC DME approaches are PROHIBITED for NetJets as these approaches have not yet been operationally\nassessed.\n\nOverview - Looking North.\n\nBOLZANO, ITALY\nBOLZANO\n10-10-2P8\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "IPB is a challenging MOUNTAIN AIRPORT with significant terrain. All approaches require pre-study. LIPB is NOT",
+            "modelled in Flight Simulators, so a Familiarisation flight is required prior to operation.",
+            "The airport is situated in the northeast of Italy, within the Italian Alps. LIPB is close to the Austrian border and halfway",
+            "between Innsbruck (LOWI) and Villafranca (LIPX)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "The preferred approach is a  VFR APCH using VOR A to either RWY 01 or RWY 19. This is due to the complexities of",
+            "the Circle-to-land with prescribed flight tracks procedures which are flown within Class G (uncontrolled) airspace."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "When weather deteriorates below the minima (6. WEATHER / AIRPORTS LIMITATIONS) for the VFR arrival, the VOR",
+            "A is available to Jeppesen minima, with Prescribed Tracks, for CAT B aircraft only."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "minima, to position for a VFR approach."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "The RNP and LOC DME approaches are PROHIBITED for NetJets as these approaches have not yet been operationally",
+            "assessed."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Overview - Looking North."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BOLZANO, ITALY",
+            "BOLZANO",
+            "10-10-2P8"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        3,
+        7
+      ],
+      "page_images": [
+        "static/airports/lipb/page-03.png",
+        "static/airports/lipb/page-07.png"
+      ],
+      "embeds": [
+        "static/airports/lipb/embed-p03-02.jpeg",
+        "static/airports/lipb/embed-p07-02.jpeg"
+      ]
+    },
+    {
+      "num": 8,
+      "title": "Operational procedures \u2014 General",
+      "body": "HREAT BASED BRIEFING TOPICS:\nCONFUSION\nLIPB is an airport with complicated IFR arrival procedures and Prescribed Flight Tracks, some of which vary by aircraft\nCategory and some which NetJets are not approved for.\nNetJets applies more stringent VFR minima than the AIP. Care must be taken to prepare for arrival. Planning and pre-\nstudy is required to ensure you are prepared for a go around or balked landing, particularly the PRESCRIBED TRACKS\nfollowing the VOR A. Make effective use of Familiarisation flights to study the terrain and procedures, including the\nairport produced Pilot Briefing available at:\nhttps://www.bolzanoairport.it/images/PILOTS_FAMILIARIZATION_BRIEFING.pdf\nor\nhttps://www.bolzanoairport.it/en/pilots-corner-en.htm\n\nCOLLISION RISK\nLIPB is a busy and popular VFR/IFR airport, situated at the head of the main valley throughfare between Italy and\nAustria. GA, helicopter, and gliders traffic may be expected, including VFR arrivals from the N.\n\nLIPB has a combined ATZ and RMZ, (Class G GND-6500ft). Only one IFR arrival is allowed at any time, with VFR traffic\nrequired to remain clear of the ATZ during IFR operations. However, LIPB has confirmed that terrain masking,\nprocedures partially in uncontrolled airspace and the locality of Helicopter sites makes this impractical and warns\nthat VFR traffic may be encountered at any time during IFR procedures. Crew must adhere to OM-A 8.3.1 VFR Flight\nPolicy and maximise use of TCAS and lookout during operations to LIPB.\nCrew must not expect to be protected during IFR (VOR A) approaches. Significantly, LIPB prefers arrivals to follow the\nVFR procedures outlined in this briefing as they are more predictable to most airspace users and reduce flight time in\nbusy airspace.\n\nCFIT\nSignificant mountainous terrain exists surrounding the airport. A lack of radar and protected instrument approaches,\ncombined with protracted VFR arrivals, increases the risk of CFIT. Crew should follow the procedures and\nrecommended vertical profiles in this briefing. Crew must make a prompt decision to abort any approach if the\nweather conditions are below minima. EGPWS is mandatory for operations to LIPB. Crew must also ensure their OEI\nperformance is adequate for the conditions. Note: The valley to the south is a safe escape route, leading to a large\nlake and to the most suitable close airport - Villafranca (LIPX) at 194\u00b0 / 66nm.\n\nUNSTABLE APPROACHES\nThe only IFR approach approved for our operation is the VOR A followed by circle-to-land with prescribed tracks for\nBOTH RWY 01 and RWY 19. This is only available to CAT B aircraft to the JEPPESEN MINIMA. Both CAT B and CAT C\nmay fly the initial VOR A to higher minima followed by positioning for a VFR arrival. High terrain makes the VOR A\nunsuitable for a visual straight in to RWY 01 from the Missed Approach Point, and RWY 19 requires manoeuvring at\nslow speed to land. To mitigate unstable approaches, crew must plan descents and configuration changes carefully.\nGuidance is in 9. ARRIVAL PROCEDURES. Be aware that when flying a VFR approach to RWY 19, the airport will be\nout of sight during the downwind positioning. Finally, displaced thresholds on both RWYs increase the risk of an\noptical illusion during final approach, and PAPIs are steeper than usual and set at 4.48\u00b0.\n\nIn all situations, crew must be prepared to GO-AROUND from an unstable approach.\n\nBOLZANO, ITALY\nBOLZANO\n10-10-2P9\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "HREAT BASED BRIEFING TOPICS:",
+            "CONFUSION",
+            "LIPB is an airport with complicated IFR arrival procedures and Prescribed Flight Tracks, some of which vary by aircraft",
+            "Category and some which NetJets are not approved for.",
+            "NetJets applies more stringent VFR minima than the AIP. Care must be taken to prepare for arrival. Planning and pre-",
+            "study is required to ensure you are prepared for a go around or balked landing, particularly the PRESCRIBED TRACKS",
+            "following the VOR A. Make effective use of Familiarisation flights to study the terrain and procedures, including the",
+            "airport produced Pilot Briefing available at:",
+            "https://www.bolzanoairport.it/images/PILOTS_FAMILIARIZATION_BRIEFING.pdf",
+            "or",
+            "https://www.bolzanoairport.it/en/pilots-corner-en.htm"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "COLLISION RISK",
+            "LIPB is a busy and popular VFR/IFR airport, situated at the head of the main valley throughfare between Italy and",
+            "Austria. GA, helicopter, and gliders traffic may be expected, including VFR arrivals from the N."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LIPB has a combined ATZ and RMZ, (Class G GND-6500ft). Only one IFR arrival is allowed at any time, with VFR traffic",
+            "required to remain clear of the ATZ during IFR operations. However, LIPB has confirmed that terrain masking,",
+            "procedures partially in uncontrolled airspace and the locality of Helicopter sites makes this impractical and warns",
+            "that VFR traffic may be encountered at any time during IFR procedures. Crew must adhere to OM-A 8.3.1 VFR Flight",
+            "Policy and maximise use of TCAS and lookout during operations to LIPB.",
+            "Crew must not expect to be protected during IFR (VOR A) approaches. Significantly, LIPB prefers arrivals to follow the",
+            "VFR procedures outlined in this briefing as they are more predictable to most airspace users and reduce flight time in",
+            "busy airspace."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CFIT",
+            "Significant mountainous terrain exists surrounding the airport. A lack of radar and protected instrument approaches,",
+            "combined with protracted VFR arrivals, increases the risk of CFIT. Crew should follow the procedures and",
+            "recommended vertical profiles in this briefing. Crew must make a prompt decision to abort any approach if the",
+            "weather conditions are below minima. EGPWS is mandatory for operations to LIPB. Crew must also ensure their OEI",
+            "performance is adequate for the conditions. Note: The valley to the south is a safe escape route, leading to a large",
+            "lake and to the most suitable close airport - Villafranca (LIPX) at 194\u00b0 / 66nm."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "UNSTABLE APPROACHES",
+            "The only IFR approach approved for our operation is the VOR A followed by circle-to-land with prescribed tracks for",
+            "BOTH RWY 01 and RWY 19. This is only available to CAT B aircraft to the JEPPESEN MINIMA. Both CAT B and CAT C",
+            "may fly the initial VOR A to higher minima followed by positioning for a VFR arrival. High terrain makes the VOR A",
+            "unsuitable for a visual straight in to RWY 01 from the Missed Approach Point, and RWY 19 requires manoeuvring at",
+            "slow speed to land. To mitigate unstable approaches, crew must plan descents and configuration changes carefully.",
+            "Guidance is in 9. ARRIVAL PROCEDURES. Be aware that when flying a VFR approach to RWY 19, the airport will be",
+            "out of sight during the downwind positioning. Finally, displaced thresholds on both RWYs increase the risk of an",
+            "optical illusion during final approach, and PAPIs are steeper than usual and set at 4.48\u00b0."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "In all situations, crew must be prepared to GO-AROUND from an unstable approach."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BOLZANO, ITALY",
+            "BOLZANO",
+            "10-10-2P9"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        8
+      ],
+      "page_images": [
+        "static/airports/lipb/page-08.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 9,
+      "title": "Arrival procedures",
+      "body": ".1 GENERAL\nOPERATIONAL PROCEDURES - GENERAL\nThe Straight in VFR APCH RWY 01 using VOR A for the initial descent is available to both CAT B and CAT C aircraft.\nThis is the preferred approach when weather and local traffic permits.\n\nThe VOR A is available to both CAT B and CAT C aircraft; however, the procedure terminates at the VOR and requires\neither a circle-to-land with prescribed tracks (CAT B only) or a VFR approach with significantly higher minimums and\nan earlier break-off point from the VOR A (CAT B or CAT C).\n\nA VFR approach to RWY 19 is approved for both CAT B and C aircraft but requires slow speed manoeuvring.\n\nIt is recommended the latest break-off point from the VOR when performing the VFR APCH using VOR A:\n\u2022 RWY 01: D10 OZE (D13IBZ). This is because the required rate of descent inside this distance becomes excessive\nfor a successful approach.\n\u2022 RWY19: D6.5 OZE (D3.5 IBZ). This allows the aircraft to position safely into the valley for the downwind.\n\nDuring all approaches, FDM has shown there is a possibility of EGPWS alerts caused by restricted lateral separation\nand spurs of terrain - see the appropriate arrival section for details.\n\nFACING SOUTH: AIRPORT IS IN CENTRE(-RIGHT) OF IMAGE\nNOTE TERRAIN SURROUNDING THE AIRFIELD\n\nBOLZANO, ITALY\nBOLZANO\n28 NOV 2025 10-10-2P10\n\n-\n9.2. VFR APCH RWY 01 using VOR A\nMINIMA:\n\nDAY ONLY. Visibility: 8 km. Ceiling: 8313 ft (9100 ft QNH)\nNote: If OZE VOR and or DME is unavailable then Ceiling minima is increased to 11,713\nft (12,500 QNH)\n\nJEPPESEN CHARTS:\n13-1, 19-1.\n\nPERFORMANCE:\n\nUse the following setup:\nARRIVAL -  01 and\nDEPARTURE: 01DP1. (for Balked Landing scenario).\n\nMax Landing Mass is to be limited to the lower of the following options:\nLanding Performance; Select \u2018Arrival\u2019 to LIPB and \u2018Runway\u2019 to 01. Input actual landing\nweather and configuration, use \u2018FLDTA\u2019 in \u2018Options\u2019, and;\nBalked Landing Performance; Select \u2018Departure\u2019 to LIPB and \u2018Runway\u2019 to 01DP1. Input\nactual weather, \u2018Flap\u2019 to most optimal go-around configuration. \u2018Options\u2019 to DRY RWY\nregardless of actual RWY state.\n\nPROCEDURE:\nExpect IFR STAR to FORER followed by VOR A with a break-off for VFR Approach (straight-\nin) to RWY 01.\n\nWeather and performance permitting, this is the preferred approach. Crew should NOT\nattempt to arrive VFR from the North by use of the northern valleys.\n\nThe VFR approach straight-in to RWY 01 is performed after breaking off from the VOR A\nwhen VMC is assured.\n\nThe earliest point to break off-off from the VOR A is FORER (Due to airspace).\n\nThe latest recommended break-off point from the VOR is D10 OZE (D13IBZ). This is\nbecause the required rate of descent inside this distance becomes excessive for a\nsuccessful approach.\n\nSee guidance pictures and recommended profile as per RECOMMENDED VERTICAL\nPROFILE for VFR APCH RWY 01 using VOR A\n\nIf IMC at FORER, descend as per VOR A to the minima above. Do not attempt a VFR\nstraight-in approach from the VOR A when inside D10 OZE (too high \u2013 unstable\napproach). Either perform the missed approach or Visual Pattern.\n\nOn maintaining VMC (anticipate between D16-20 OZE or D22-25 IBZ), cancel IFR and fly\na VFR approach to RWY 01 using the South - North Valley. An early transition to the\nvalley, reduced speed and early configuration changes will assist with descent and\nenergy management.\n\nCAUTION:\nEGPWS alerts may be generated if crew descend VFR following the OZE VOR or IBZ LOC inbound track, or if crew do\nnot follow the valley contours accurately. All EGPWS alerts must be actioned in accordance with OM-A 8.3.5.\n\nBOLZANO, ITALY\nBOLZANO\n28 NOV 2025 10-10-2P11\n\n-\nOnce VFR inbound, consider use of the LOC DME IBZ to aid situational awareness\nespecially for the DME.\nThe VOR/DME OZE is also available and will give a more dependable DME signal at\nextended range as it is on a hill, however, be aware that the VOR/DME OZE is situated\n3.2 NM before the RWY 01 threshold.\n\nOZE VOR/DME Outage:\nIf the OZE VOR and or DME is unavailable, then the VFR Approach RWY 01 may still be\nflown however the Ceiling requirement shall be increased to 11,713 ft (12500 QNH).\nEnsure VMC at FORER, cancel IFR and continue the VFR approach RWY 01 descending\nusing the IBZ DME in the vertical guidance table.\n\nMISSED APPROACH:\nWhilst on VOR A: As per Jeppesen.\n\nBALKED LANDING:\nPreferred option is to perform a LEFT-HAND Visual Pattern at Min Alt 3300ft (2500ft\nAAL) with Max 155 KIAS at 25\u00b0 Angle of Bank.\n\nNote this is performed around the spur of high ground \u2013 see diagram. The published\npattern height for RWY 01 is 2500 ft AAL \u2013 consider higher to increase visibility in the\nvalley.\n\nAlternatively: Intercept the Missed Approach profile for the VOR A, avoiding terrain and\nobstacles visually until established on the R014\u00b0 outbound OZE. (160KIAS Max until\nestablished on the southerly track inbound VOR OZE). This will require coordination with\nATC and IFR (re)clearance.\n\nCONTINGENCY:\nThe PDCS 01DP1 take-off procedure may be used for a RWY 01 balked landing scenario.\nThis provides an IMC procedure with OEI performance to escape SOUTH towards FORER.\nClimb with Max rate to 12000 ft QNH (or FL 120 if departing LIPB).\n\nBOLZANO, ITALY\nBOLZANO\n28 NOV 2025 10-10-2P12\n\n-\nRECOMMENDED VERTICAL PROFILE for VFR APCH RWY 01 using VOR A:\nTable 1 provides vertical guidance based on a 4.0\u00b0 glidepath, to achieve 50 ft over threshold RWY 01.\nNote: the IBZ LOC DME is located within 0.1NM of the threshold, but the OZE VOR/DME is D3.2 short of the RWY\nTHOLD 01.\n\nThis is a conservative descent to provide a measure of flexibility for crew to increase as necessary. Note PAPI are set\nat 4.48\u00b0. Once established on final approach, adjust vertical profile to intercept the PAPI as necessary.\nCrew should consider early configuration changes to provide both a measure of collision protection (OM-A 8.3.5) and\nmore efficient energy management on approach.\n\nCAUTION:\nFor situational awareness and guidance in VMC ONLY. NOT to be used for terrain separation. EGPWS alert may be\ngenerated if crew conduct a steep descent using the LOC or VOR instead of the valley.\n\nDISTANCE IBZ\nDME (NM)\nDISTANCE OZE\nVOR (NM)\nALTITUDE\n(FT QNH)\nTRACK MILES\nTOUCH-DOWN\nNOTES\n20\n18\n9170\n21\nEnter Valley From FORER\n18\n16\n8330\n19\n\n16\n14\n7490\n17\n\n14\n11\n7070\n14.5\nCAUTION: Do Not Take Valley to NW\n12\n9\n5810\n12.3\n\n10\n7\n4970\n10.2\n\n9\n6\n4550\n9.1\n\n8\n5\n4130\n8\n\n7\n4\n3710\n7\n\n6\n3\n3290\n6\n\n5\n2\n2870\n5\n\n4\n0.7\n2450\n4\n\n3\n0.2\n2030\n3\nPassing Abeam VOR\n2\n1\n1610\n2\nVOR Distance Increasing\n1\n2\n1190\n1\n\n0\n3\n770\n0\nTHRESHOLD RWY 01\nTABLE 1: VERTICAL GUIDANCE: RWY 01\n\nNOTE:\n\n180 KIAS requires 1275 ft/min rate of descent.\nTo achieve a 4.0\u00ba glidepath\n160 KIAS requires 1133 ft/min rate of descent.\n(425 ft per NM)\n\n140 KIAS requires 990 ft/min rate of descent.\n\nBOLZANO, ITALY\nBOLZANO\n28 NOV 2025 10-10-2P13\n\n-\n\nVFR APPROACH DOWN VALLEY, ENTRY VIA FORER.  LOOKING NW\n\nVOR A D10 OZE on 4.0\u00b0 Glidepath BREAK-OFF LIMIT FOR VFR STRAIGHT-IN RWY 01\n\nBOLZANO, ITALY\nBOLZANO\n28 NOV 2025 10-10-2P14\n\n-\n\nRWY 01 EGPWS ALERT AREAS- VIEWED FROM FORER\n\nFINAL APPROACH, ON VERTICAL PROFILE, AT 7.0NM\n\nBOLZANO, ITALY\nBOLZANO\n28 NOV 2025 10-10-2P15\n\n-\n\n4.5NM FINAL: ON PROFILE.  KNOWN AREAS OF EGPWS ALERTS\n\nRWY 01\n\nBOLZANO, ITALY\nBOLZANO\n28 NOV 2025 10-10-2P16\n\n-\n9.3. VFR APCH RWY 19 using VOR A\nMINIMA:\n\nDAY ONLY. Visibility: 8 km. Ceiling: 8313 ft (9100 ft QNH)\nNote: If OZE VOR and or DME is unavailable then Ceiling minima is increased to 11,713\nft (12,500 QNH)\n\nJEPPESEN CHARTS:\n13-1, 19-1.\n\nPERFORMANCE:\n\nUse the following setup:\nARRIVAL: RWY 19. And,\nDEPARTURE: 19DP2. (Balked Landing)\n\nMax Landing Mass is to be limited to the lower of the following options:\nLanding Performance; Select \u2018Arrival\u2019 to LIPB and \u2018Runway\u2019 to 19. Input actual landing\nweather and configuration, use \u2018FLDTA\u2019 in \u2018Options\u2019, and;\nBalked Landing Performance; Select \u2018Departure\u2019 to LIPB and \u2018Runway\u2019 to 19DP2. Input\nactual weather, \u2018Flap\u2019 to most optimal go-around configuration. \u2018Options\u2019 to DRY RWY\nregardless of actual RWY state.\n\nPROCEDURE:\nExpect IFR STAR to FORER followed by VOR A with a break-off for VFR Approach RWY 19.\nThis is the preferred approach if RWY 19 is required. Crew should NOT attempt to arrive\nVFR from the North by use of the northern valleys.\n\nThe VFR approach to RWY 19 is performed after breaking off the VOR A & VMC is assured.\n\nThe earliest point to break off-off from the VOR A is FORER (Due to airspace).\n\nThe latest recommended break-off point from the VOR is D6.5 OZE (D3.5 IBZ). This allows\nthe aircraft to position safely into the valley for the downwind.\n\nSee the following guidance pictures and recommended vertical profile in TABLE 2:\nVERTICAL GUIDANCE: RWY 19\n\nIf IMC at FORER, descend as per VOR A to the minima above.\n\nOn maintaining VMC (anticipate between D16-20 OZE or D22-25 IBZ), cancel IFR and\nenter the North-South Valley or continue with the VOR A until no later than D6.5 OZE\n(D3.5 IBZ), to break left and make a comfortable approach via a wide Right-Hand visual\npattern.\n\nCAUTION:\nEGPWS alerts may be generated if crew attempt to descend VFR by following the OZE VOR or IBZ LOC inbound track,\nor if crew do not follow the valley contours accurately. All EGPWS alerts must be actioned in accordance with OM-A\n8.3.5.\n\nIt is recommended the latest break-off point from the VOR A for the Visual Approach to RWY 19 is D6.5 OZE (D3.5\nIBZ). This allows the aircraft to position safely into the valley for the downwind.\n\nPAPI on RWY 19 are set at 4.48\u00b0 and cannot be used beyond 2.6 NM due to terrain.\n\nBOLZANO, ITALY\nBOLZANO\n28 NOV 2025 10-10-2P17\n\n-\n\nOZE VOR/DME Outage:\nIf the OZE VOR and or DME is unavailable, then the VFR Approach RWY 19 may still be\nflown however the Ceiling requirement shall be increased to 11,713 ft (12500 QNH).\nEnsure VMC at FORER, cancel IFR and continue the VFR approach RWY 19 descending\nusing the IBZ DME in the vertical guidance table.\n\nOnce established VFR inbound, consider use of the LOC DME IBZ to aid situational\nawareness especially for the DME measurement.\n\nThe VOR/DME OZE is also available and will give a more reliable DME signal at extended\nrange as it is on a hill, however, be aware that the VOR/DME OZE is situated 3.2 NM\nbefore the RWY 01 threshold.\nAt D5.5 OZE, (D9.0 IBZ), turn LEFT and visually fly down the LEFT VALLEY (approximate\nheading 350\u00b0M). A good visual aiming feature is the lake in the valley at D1.5 OZE.\n\nContinue a 4.0\u00b0 glidepath, following the valley. The following waypoints may be manually\ninserted into the FMS to aid positioning, but they are for SITUATIONAL AWARENESS\nONLY.\n\nLIPB1: (flyby)\nN46 21.9   E011 15.6\n6450ft QNH\nLIPB2: (flyby)\nN46 24.9   E011 15.1\n4130ft QNH\nLIPB3: (flyover)\nN46 28.7   E011 15.8\n2870ft QNH\n\nContinue following the lateral and vertical guidance shown in the accompanying pictures.\nSlower speed (180-160 KIAS) and early configuration changes make the approach more\nmanageable.\n\nThe base turn is made at LIPB3, which is also abeam the distinct ruined Fort on the hilltop\non the RIGHT (RWY is obscured by terrain).\n\nReduce speed and configure for the base leg and final turn. (Preferably 140 KIAS but\nMax. 155 KIAS with 25\u00b0 Angle of Bank in the turn).\n\nNOTE: Visual contact with the airport will be lost temporarily during the downwind.\n\nMISSED APPROACH:\nWhilst on VOR A: As per Jeppesen.\n\nBALKED LANDING:\nPreferred option is to perform / continue a RIGHT-HAND Visual Pattern at Min Alt\n3300ft (2500ft AAL) with Max 155 KIAS at 25\u00b0 Angle of Bank.\nNote this is performed around the spur of high ground \u2013 see diagram. The published\npattern height for RWY 19 is 2000 ft AAL \u2013 it is recommended to fly at Min 2500ft AAL to\nincrease visibility in the valley.\nThe visual pattern can be used to either position for a second approach to RWY 19 or to\nposition overhead RWY 19 to climb out to FORER.\n\nBOLZANO, ITALY\nBOLZANO\n28 NOV 2025 10-10-2P18\n\n-\n\nTo Climb out to FORER; Refer to INITIAL CLIMB (ALL RWYS) Jepp 10-3B:\n\u2022 At the RWY 19 Threshold, begin a max. rate climb to 12000 ft QNH (or FL 120 if\ndeparting LIPB).\n\u2022 Route to OZE under visual conditions, once above 3600 ft QNH and at OZE, climb may\nbe continued IMC.\n\u2022 Follow the Jepp 10-3B profile to FORER.\n\u2022 At FORER, reconfigure for a further approach or join the SID.\n\nCONTINGENCY:\nThe PDCS 19DP2 take-off procedure may be used for a RWY 19 balked landing scenario.\nThis provides an IMC procedure with OEI performance to escape SOUTH towards FORER.\nClimb with Max rate to 12000 ft QNH (or FL 120 if departing LIPB).\n\nVFR APPROACH RWY 19: LOOKING NW\n\nBOLZANO, ITALY\nBOLZANO\n28 NOV 2025 10-10-2P19\n\n-\nRECOMMENDED VERTICAL PROFILE FOR VFR APPROACH RWY 19:\nTable 2 provides vertical guidance based on a 4.0\u00b0 glidepath, to achieve 50 ft over threshold RWY 19.\nNote: the IBZ LOC DME is located within 0.1NM of the threshold, but the OZE VOR/DME is D3.2 short of the RWY\nTHOLD 01.\nCAUTION:\nThis table is for situational awareness and guidance in VMC ONLY. It must NOT be used for terrain separation. EGPWS\nalert may be generated if crew do not use the valley, (conducting a steep descent using the LOC or VOR).\n\nDISTANCE\nIBZ DME\n(NM)\nDISTANCE\nOZE VOR\n(NM)\nALTITUDE\n(FT QNH)\nTRACK\nMILES\nTOUCH-\nDOWN\nNOTES\n13\n10\n8750\n19\n\n12\n9\n8330\n18\n\n11\n8\n7910\n17\n\n10\n7\n7490\n16\n\n9.0\n5.5\n7070\n15\nTURN ONTO TRACK 350\u00b0M\n-\n3.0\n6450\n13.5\nLIPB1\n-\n2.6\n4130\n8\nLIPB2 (Abeam OZE VOR, DME increasing)\n-\n4.8\n2870\n5\nLIPB3\n-\n5.2\n2450\n4\n\n-\n5.3\n2030\n3\n\n-\n5.3\n1610\n2\n\n-\n5.0\n1190\n1\nWings Level\n-\n4.0\n786\n0\nTHRESHOLD RWY 19\nTABLE 2: VERTICAL GUIDANCE: RWY 19\n\nNOTE:\n\n180 KIAS requires 1275 ft/min rate of descent.\nTo achieve a 4.0\u00ba glidepath\n160 KIAS requires 1133 ft/min rate of descent.\n(425 ft per NM)\n\n150 KIAS requires 1050 ft/min rate of descent.\n140 KIAS requires 990 ft/min rate of descent.\n\nBOLZANO, ITALY\nBOLZANO\n28 NOV 2025 10-10-2P20\n\n-\n\nTURN TO HEADING 350\u00b0M  AT D5.5OZE (D8.5 IBZ).\nNOTE VISUAL AIMING FEATURE (LAKE) TOWARDS WAYPOINT LIPB2\n\nOVERHEAD WAYPOINT LIPB2:  NOTE AIRPORT ABOUT TO BECOME HIDDEN BY TERRAIN.\n\nBOLZANO, ITALY\nBOLZANO\n28 NOV 2025 10-10-2P21\n\n-\n\nBASE TURN RWY 19 WITH VISUAL FEATURES\n\nFINAL RWY 19\n\nBOLZANO, ITALY\nBOLZANO\n28 NOV 2025 10-10-2P22\n\n-\n9.4. VOR A - CIRCLE-TO-LAND WITH PRESCRIBED TRACKS\nOPERATIONAL PROCEDURES - GENERAL - Crews must NOT consider they are protected from other traffic when\nperforming the IFR approach to LIPB, especially when conditions allow VFR flight.\n\nThe VOR A - Circle-to-land with prescribed tracks is limited to CAT B aircraft only and should be used when weather\nprevents the preferred VFR APCH using VOR A.\n\nWhen conducting the VOR A to minimums PRESCRIBED FLIGHT TRACKS are required. These tracks are complex and\nrequire careful study.\n\nAccurate pre-flight planning must be conducted to ensure that during approach, the aircraft weight and flap setting\nduring PRESCRIBED TRACKS permit the crew to comply with the max circling speeds and angle of bank requirements.\n\nNote: If weather permits, then the preferred approach is VFR APCH RWY 01 using VOR A or if RWY 19 in use then\nVFR APCH RWY 19 using VOR A. However, caution the latest recommended break-off point for the VFR APCH:\n\nLATEST RECOMMENDED BREAK-OFF FOR THE PREFERRED VFR APPROACH:\nRWY 01: D10 OZE (D13IBZ). Otherwise,  the required rate of descent becomes excessive for a successful approach.\nRWY19:  D6.5 OZE (D3.5 IBZ). This allows the aircraft to position safely into the valley for the downwind.\n\nMINIMA:\n\nDAY ONLY. Visibility: 5 km. Ceiling: 4133 ft (4920 ft QNH)\n\nJEPPESEN CHARTS:\nRWY 01; 13-1, 19-10, 19-11.\n\nRWY 19; 13-1, 19-12.\n\nPERFORMANCE:\n\nUse the following setup:\nARRIVAL: RWY in use 01 or 19. And,\nDEPARTURE to LIPB, RWY in use 01 -01DP1, or 19 -19DP2.\n\nMax Landing Mass is to be limited to the lower of the following options:\nLanding Performance; Select \u2018Arrival\u2019 to LIPB and \u2018Runway\u2019 to RWY in use, 01 or 19. Input\nactual landing weather and configuration, use \u2018FLDTA\u2019 in \u2018Options\u2019, and;\nBalked Landing Performance; Select \u2018Departure\u2019 to LIPB and \u2018Runway\u2019 to 01DP1 if RWY\n01 in use or 19DP2 if RWY 19 in use. Input actual weather, \u2018Flap\u2019 to most optimal go-\naround configuration. \u2018Options\u2019 to DRY RWY regardless of actual RWY state.\n\nPROCEDURE:\n\nRequest the VOR A - Circle to land with prescribed tracks.\nPerform VOR A as per Jepp 13-1 then,\nRWY 01 in use; Circle-to-land with Prescribed Tracks RWY 01 as per Jepp 19-10, or\n\nRWY 19 in use; Circle-to-land with Prescribed Tracks RWY 19 as per Jepp 19-12.\n\nEnsure performance and configuration allows the Max Circling speeds:\nRWY 01\n135 Kts\n22\u00b0 Angle of Bank\nRWY 19\n130 Kts\n25\u00b0 Angle of Bank\n\nMISSED APPROACH:\nVOR A:\nJepp 13-1.\nCIRCLING WITH PRESCRIBED FLIGHT TRACKS TO RWY 01:  Jepp 19-10.\nCIRCLING WITH PRESCRIBED FLIGHT TRACKS TO RWY 19:  Jepp 19-12.\n\nBOLZANO, ITALY\nBOLZANO\n28 NOV 2025 10-10-2P23\n\n-\nBALKED LANDING:\nRWY 01:\nThe recommended Balked landing procedure from RWY 01 with marginal weather is to\nperform the PDCS 01DP1 from the threshold. This provides an IMC procedure escape\nprocedure with OEI performance to FORER. Climb with Max rate to 12000 ft QNH (or FL\n120 if departing LIPB).\nJepp 19-11 has tracks for either a return to RWY 01 or routing to OZE VOR to intercept\nthe VOR A missed approach procedure as per Jepp 13-1. (See Caution note below)\n\nRWY 19:\nJepp 19-12 has tracks for either a visual pattern for a repeat approach to RWY 19 or\nrouting to intercept the VOR A missed approach as per Jepp 13-1.\nPDCS 19DP2 can be used from Threshold RWY 19 as an IMC escape procedure to FORER.\nClimb with Max rate to 12000 ft QNH (or FL 120 if departing LIPB).\n\nCAUTION:\nThe Balked landing RWY 01 example procedure as per Jepp 19-11 is complex and difficult to fly. PDCS 01DP1\nprocedure provides an alternative escape procedure to FORER and can be flown from RWY 01 Threshold.\n\n3D VIEW: CIRCLE WITH PRESCRIBED FLIGHT TRACKS RWY 19.\n\nBOLZANO, ITALY\nBOLZANO\n28 NOV 2025 10-10-2P24\n\n-\n9.5. VFR PATTERN\nA VFR Pattern to the West of LIPB, routing around the hill within the central valley may be used if needed and\nconditions permit.\nThe VFR Pattern provides a method to return for an additional VFR approach following a Balked landing for example\nand requires the same heightened minima as the \u2018VFR APCH using VOR A\u2019.\n\nMINIMA:\n\nDAY ONLY, Visibility 8km, Ceiling 8313ft (9100ft QNH).\n\nPROCEDURE:\n\nRWY 01: Visual LEFT-HAND Pattern around the central hill.\n\nRWY 19: Visual RIGHT-HAND Pattern around the central hill.\n\nMINIMUM Recommended Pattern height 2500 ft (3300 ft QNH)\n\nNote: The published Traffic Circuit on Jepps 19-3 for RWY 01 / 19 is 2500\u2019 / 2000\u2019. It is\nrecommended to fly higher to aid visibility and reduce traffic threat.\n\nDue to the required turn radius within the valley, it is recommended to limit the speed\nduring the VFR Pattern turns to 140 KT; Max speed is 155 KT & 25\u00b0AoB.\n\nDo not delay the turn around the Southern side of the hill as the valley starts to\nnarrow further to the South. Perform the Left-Hand turn to final RWY 01 and Right-\nHand cross wind turn following climb out from RWY 19 at D2.8 OZE / D6.1 IBZ.\n\nThe downwind leg of the VFR Pattern uses the same track as \u2018VFR APCH RWY 19 using\nVOR A\u2019 so the same waypoints may be manually inserted into the FMS to aid\npositioning, but they are for SITUATIONAL AWARENESS ONLY.\n\nLIPB1:\n\nN46 21.9  E011 15.6\nMin 3300ft QNH\nLIPB2:\n\nN46 24.9  E011 15.1\nMin 3300ft QNH\nLIPB3:\n\nN46 28.7  E011 15.8\nMin 3300ft QNH\n\nSee VFR Pattern diagram on next page:\n\nBOLZANO, ITALY\nBOLZANO\n28 NOV 2025 10-10-2P25\n\n-\n\nVFR Pattern\n\nBOLZANO, ITALY\nBOLZANO\n28 NOV 2025 10-10-2P26\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ".1 GENERAL",
+            "OPERATIONAL PROCEDURES - GENERAL",
+            "The Straight in VFR APCH RWY 01 using VOR A for the initial descent is available to both CAT B and CAT C aircraft.",
+            "This is the preferred approach when weather and local traffic permits."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "The VOR A is available to both CAT B and CAT C aircraft; however, the procedure terminates at the VOR and requires",
+            "either a circle-to-land with prescribed tracks (CAT B only) or a VFR approach with significantly higher minimums and",
+            "an earlier break-off point from the VOR A (CAT B or CAT C)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "A VFR approach to RWY 19 is approved for both CAT B and C aircraft but requires slow speed manoeuvring."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "It is recommended the latest break-off point from the VOR when performing the VFR APCH using VOR A:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "RWY 01: D10 OZE (D13IBZ). This is because the required rate of descent inside this distance becomes excessive"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "for a successful approach."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "RWY19: D6.5 OZE (D3.5 IBZ). This allows the aircraft to position safely into the valley for the downwind."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "During all approaches, FDM has shown there is a possibility of EGPWS alerts caused by restricted lateral separation",
+            "and spurs of terrain - see the appropriate arrival section for details."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "FACING SOUTH: AIRPORT IS IN CENTRE(-RIGHT) OF IMAGE"
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "NOTE TERRAIN SURROUNDING THE AIRFIELD"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BOLZANO, ITALY",
+            "BOLZANO",
+            "28 NOV 2025 10-10-2P10"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.2. VFR APCH RWY 01 using VOR A",
+            "MINIMA:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DAY ONLY. Visibility: 8 km. Ceiling: 8313 ft (9100 ft QNH)"
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note: If OZE VOR and or DME is unavailable then Ceiling minima is increased to 11,713",
+            "ft (12,500 QNH)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "JEPPESEN CHARTS:",
+            "13-1, 19-1."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PERFORMANCE:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Use the following setup:",
+            "ARRIVAL -  01 and",
+            "DEPARTURE: 01DP1. (for Balked Landing scenario)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Max Landing Mass is to be limited to the lower of the following options:",
+            "Landing Performance; Select \u2018Arrival\u2019 to LIPB and \u2018Runway\u2019 to 01. Input actual landing",
+            "weather and configuration, use \u2018FLDTA\u2019 in \u2018Options\u2019, and;",
+            "Balked Landing Performance; Select \u2018Departure\u2019 to LIPB and \u2018Runway\u2019 to 01DP1. Input",
+            "actual weather, \u2018Flap\u2019 to most optimal go-around configuration. \u2018Options\u2019 to DRY RWY",
+            "regardless of actual RWY state."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE:",
+            "Expect IFR STAR to FORER followed by VOR A with a break-off for VFR Approach (straight-",
+            "in) to RWY 01."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Weather and performance permitting, this is the preferred approach. Crew should NOT",
+            "attempt to arrive VFR from the North by use of the northern valleys."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "The VFR approach straight-in to RWY 01 is performed after breaking off from the VOR A",
+            "when VMC is assured."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "The earliest point to break off-off from the VOR A is FORER (Due to airspace)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "The latest recommended break-off point from the VOR is D10 OZE (D13IBZ). This is",
+            "because the required rate of descent inside this distance becomes excessive for a",
+            "successful approach."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "See guidance pictures and recommended profile as per RECOMMENDED VERTICAL",
+            "PROFILE for VFR APCH RWY 01 using VOR A"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "If IMC at FORER, descend as per VOR A to the minima above. Do not attempt a VFR",
+            "straight-in approach from the VOR A when inside D10 OZE (too high \u2013 unstable",
+            "approach). Either perform the missed approach or Visual Pattern."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "On maintaining VMC (anticipate between D16-20 OZE or D22-25 IBZ), cancel IFR and fly",
+            "a VFR approach to RWY 01 using the South - North Valley. An early transition to the",
+            "valley, reduced speed and early configuration changes will assist with descent and",
+            "energy management."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION:",
+            "EGPWS alerts may be generated if crew descend VFR following the OZE VOR or IBZ LOC inbound track, or if crew do",
+            "not follow the valley contours accurately. All EGPWS alerts must be actioned in accordance with OM-A 8.3.5."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BOLZANO, ITALY",
+            "BOLZANO",
+            "28 NOV 2025 10-10-2P11"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "Once VFR inbound, consider use of the LOC DME IBZ to aid situational awareness",
+            "especially for the DME.",
+            "The VOR/DME OZE is also available and will give a more dependable DME signal at",
+            "extended range as it is on a hill, however, be aware that the VOR/DME OZE is situated",
+            "3.2 NM before the RWY 01 threshold."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "OZE VOR/DME Outage:",
+            "If the OZE VOR and or DME is unavailable, then the VFR Approach RWY 01 may still be",
+            "flown however the Ceiling requirement shall be increased to 11,713 ft (12500 QNH).",
+            "Ensure VMC at FORER, cancel IFR and continue the VFR approach RWY 01 descending",
+            "using the IBZ DME in the vertical guidance table."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MISSED APPROACH:",
+            "Whilst on VOR A: As per Jeppesen."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BALKED LANDING:",
+            "Preferred option is to perform a LEFT-HAND Visual Pattern at Min Alt 3300ft (2500ft",
+            "AAL) with Max 155 KIAS at 25\u00b0 Angle of Bank."
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note this is performed around the spur of high ground \u2013 see diagram. The published",
+            "pattern height for RWY 01 is 2500 ft AAL \u2013 consider higher to increase visibility in the",
+            "valley."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Alternatively: Intercept the Missed Approach profile for the VOR A, avoiding terrain and",
+            "obstacles visually until established on the R014\u00b0 outbound OZE. (160KIAS Max until",
+            "established on the southerly track inbound VOR OZE). This will require coordination with",
+            "ATC and IFR (re)clearance."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CONTINGENCY:",
+            "The PDCS 01DP1 take-off procedure may be used for a RWY 01 balked landing scenario.",
+            "This provides an IMC procedure with OEI performance to escape SOUTH towards FORER.",
+            "Climb with Max rate to 12000 ft QNH (or FL 120 if departing LIPB)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BOLZANO, ITALY",
+            "BOLZANO",
+            "28 NOV 2025 10-10-2P12"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "RECOMMENDED VERTICAL PROFILE for VFR APCH RWY 01 using VOR A:",
+            "Table 1 provides vertical guidance based on a 4.0\u00b0 glidepath, to achieve 50 ft over threshold RWY 01."
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note: the IBZ LOC DME is located within 0.1NM of the threshold, but the OZE VOR/DME is D3.2 short of the RWY",
+            "THOLD 01."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "This is a conservative descent to provide a measure of flexibility for crew to increase as necessary. Note PAPI are set",
+            "at 4.48\u00b0. Once established on final approach, adjust vertical profile to intercept the PAPI as necessary.",
+            "Crew should consider early configuration changes to provide both a measure of collision protection (OM-A 8.3.5) and",
+            "more efficient energy management on approach."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION:",
+            "For situational awareness and guidance in VMC ONLY. NOT to be used for terrain separation. EGPWS alert may be",
+            "generated if crew conduct a steep descent using the LOC or VOR instead of the valley."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DISTANCE IBZ",
+            "DME (NM)",
+            "DISTANCE OZE",
+            "VOR (NM)",
+            "ALTITUDE",
+            "(FT QNH)",
+            "TRACK MILES",
+            "TOUCH-DOWN",
+            "NOTES",
+            "20",
+            "18",
+            "9170",
+            "21",
+            "Enter Valley From FORER",
+            "18",
+            "16",
+            "8330",
+            "19"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "16",
+            "14",
+            "7490",
+            "17"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "14",
+            "11",
+            "7070",
+            "14.5"
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION: Do Not Take Valley to NW",
+            "12",
+            "9",
+            "5810",
+            "12.3"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "10",
+            "7",
+            "4970",
+            "10.2"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "9",
+            "6",
+            "4550",
+            "9.1"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "8",
+            "5",
+            "4130",
+            "8"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "7",
+            "4",
+            "3710",
+            "7"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "6",
+            "3",
+            "3290",
+            "6"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "5",
+            "2",
+            "2870",
+            "5"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "4",
+            "0.7",
+            "2450",
+            "4"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "3",
+            "0.2",
+            "2030",
+            "3",
+            "Passing Abeam VOR",
+            "2",
+            "1",
+            "1610",
+            "2",
+            "VOR Distance Increasing",
+            "1",
+            "2",
+            "1190",
+            "1"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "0",
+            "3",
+            "770",
+            "0",
+            "THRESHOLD RWY 01",
+            "TABLE 1: VERTICAL GUIDANCE: RWY 01"
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "NOTE:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "180 KIAS requires 1275 ft/min rate of descent.",
+            "To achieve a 4.0\u00ba glidepath",
+            "160 KIAS requires 1133 ft/min rate of descent.",
+            "(425 ft per NM)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "140 KIAS requires 990 ft/min rate of descent."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BOLZANO, ITALY",
+            "BOLZANO",
+            "28 NOV 2025 10-10-2P13"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VFR APPROACH DOWN VALLEY, ENTRY VIA FORER.  LOOKING NW"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VOR A D10 OZE on 4.0\u00b0 Glidepath BREAK-OFF LIMIT FOR VFR STRAIGHT-IN RWY 01"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BOLZANO, ITALY",
+            "BOLZANO",
+            "28 NOV 2025 10-10-2P14"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "RWY 01 EGPWS ALERT AREAS- VIEWED FROM FORER"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "FINAL APPROACH, ON VERTICAL PROFILE, AT 7.0NM"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BOLZANO, ITALY",
+            "BOLZANO",
+            "28 NOV 2025 10-10-2P15"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "4.5NM FINAL: ON PROFILE.  KNOWN AREAS OF EGPWS ALERTS"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "RWY 01"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BOLZANO, ITALY",
+            "BOLZANO",
+            "28 NOV 2025 10-10-2P16"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.3. VFR APCH RWY 19 using VOR A",
+            "MINIMA:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DAY ONLY. Visibility: 8 km. Ceiling: 8313 ft (9100 ft QNH)"
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note: If OZE VOR and or DME is unavailable then Ceiling minima is increased to 11,713",
+            "ft (12,500 QNH)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "JEPPESEN CHARTS:",
+            "13-1, 19-1."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PERFORMANCE:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Use the following setup:",
+            "ARRIVAL: RWY 19. And,",
+            "DEPARTURE: 19DP2. (Balked Landing)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Max Landing Mass is to be limited to the lower of the following options:",
+            "Landing Performance; Select \u2018Arrival\u2019 to LIPB and \u2018Runway\u2019 to 19. Input actual landing",
+            "weather and configuration, use \u2018FLDTA\u2019 in \u2018Options\u2019, and;",
+            "Balked Landing Performance; Select \u2018Departure\u2019 to LIPB and \u2018Runway\u2019 to 19DP2. Input",
+            "actual weather, \u2018Flap\u2019 to most optimal go-around configuration. \u2018Options\u2019 to DRY RWY",
+            "regardless of actual RWY state."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE:",
+            "Expect IFR STAR to FORER followed by VOR A with a break-off for VFR Approach RWY 19.",
+            "This is the preferred approach if RWY 19 is required. Crew should NOT attempt to arrive",
+            "VFR from the North by use of the northern valleys."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "The VFR approach to RWY 19 is performed after breaking off the VOR A & VMC is assured."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "The earliest point to break off-off from the VOR A is FORER (Due to airspace)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "The latest recommended break-off point from the VOR is D6.5 OZE (D3.5 IBZ). This allows",
+            "the aircraft to position safely into the valley for the downwind."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "See the following guidance pictures and recommended vertical profile in TABLE 2:",
+            "VERTICAL GUIDANCE: RWY 19"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "If IMC at FORER, descend as per VOR A to the minima above."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "On maintaining VMC (anticipate between D16-20 OZE or D22-25 IBZ), cancel IFR and",
+            "enter the North-South Valley or continue with the VOR A until no later than D6.5 OZE",
+            "(D3.5 IBZ), to break left and make a comfortable approach via a wide Right-Hand visual",
+            "pattern."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION:",
+            "EGPWS alerts may be generated if crew attempt to descend VFR by following the OZE VOR or IBZ LOC inbound track,",
+            "or if crew do not follow the valley contours accurately. All EGPWS alerts must be actioned in accordance with OM-A",
+            "8.3.5."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "It is recommended the latest break-off point from the VOR A for the Visual Approach to RWY 19 is D6.5 OZE (D3.5",
+            "IBZ). This allows the aircraft to position safely into the valley for the downwind."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PAPI on RWY 19 are set at 4.48\u00b0 and cannot be used beyond 2.6 NM due to terrain."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BOLZANO, ITALY",
+            "BOLZANO",
+            "28 NOV 2025 10-10-2P17"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "OZE VOR/DME Outage:",
+            "If the OZE VOR and or DME is unavailable, then the VFR Approach RWY 19 may still be",
+            "flown however the Ceiling requirement shall be increased to 11,713 ft (12500 QNH).",
+            "Ensure VMC at FORER, cancel IFR and continue the VFR approach RWY 19 descending",
+            "using the IBZ DME in the vertical guidance table."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Once established VFR inbound, consider use of the LOC DME IBZ to aid situational",
+            "awareness especially for the DME measurement."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "The VOR/DME OZE is also available and will give a more reliable DME signal at extended",
+            "range as it is on a hill, however, be aware that the VOR/DME OZE is situated 3.2 NM",
+            "before the RWY 01 threshold.",
+            "At D5.5 OZE, (D9.0 IBZ), turn LEFT and visually fly down the LEFT VALLEY (approximate",
+            "heading 350\u00b0M). A good visual aiming feature is the lake in the valley at D1.5 OZE."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Continue a 4.0\u00b0 glidepath, following the valley. The following waypoints may be manually",
+            "inserted into the FMS to aid positioning, but they are for SITUATIONAL AWARENESS",
+            "ONLY."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LIPB1: (flyby)",
+            "N46 21.9   E011 15.6",
+            "6450ft QNH",
+            "LIPB2: (flyby)",
+            "N46 24.9   E011 15.1",
+            "4130ft QNH",
+            "LIPB3: (flyover)",
+            "N46 28.7   E011 15.8",
+            "2870ft QNH"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Continue following the lateral and vertical guidance shown in the accompanying pictures.",
+            "Slower speed (180-160 KIAS) and early configuration changes make the approach more",
+            "manageable."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "The base turn is made at LIPB3, which is also abeam the distinct ruined Fort on the hilltop",
+            "on the RIGHT (RWY is obscured by terrain)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Reduce speed and configure for the base leg and final turn. (Preferably 140 KIAS but",
+            "Max. 155 KIAS with 25\u00b0 Angle of Bank in the turn)."
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "NOTE: Visual contact with the airport will be lost temporarily during the downwind."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MISSED APPROACH:",
+            "Whilst on VOR A: As per Jeppesen."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BALKED LANDING:",
+            "Preferred option is to perform / continue a RIGHT-HAND Visual Pattern at Min Alt",
+            "3300ft (2500ft AAL) with Max 155 KIAS at 25\u00b0 Angle of Bank."
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note this is performed around the spur of high ground \u2013 see diagram. The published",
+            "pattern height for RWY 19 is 2000 ft AAL \u2013 it is recommended to fly at Min 2500ft AAL to",
+            "increase visibility in the valley.",
+            "The visual pattern can be used to either position for a second approach to RWY 19 or to",
+            "position overhead RWY 19 to climb out to FORER."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BOLZANO, ITALY",
+            "BOLZANO",
+            "28 NOV 2025 10-10-2P18"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "To Climb out to FORER; Refer to INITIAL CLIMB (ALL RWYS) Jepp 10-3B:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "At the RWY 19 Threshold, begin a max. rate climb to 12000 ft QNH (or FL 120 if"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "departing LIPB)."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Route to OZE under visual conditions, once above 3600 ft QNH and at OZE, climb may"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "be continued IMC."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Follow the Jepp 10-3B profile to FORER.",
+            "At FORER, reconfigure for a further approach or join the SID."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CONTINGENCY:",
+            "The PDCS 19DP2 take-off procedure may be used for a RWY 19 balked landing scenario.",
+            "This provides an IMC procedure with OEI performance to escape SOUTH towards FORER.",
+            "Climb with Max rate to 12000 ft QNH (or FL 120 if departing LIPB)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VFR APPROACH RWY 19: LOOKING NW"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BOLZANO, ITALY",
+            "BOLZANO",
+            "28 NOV 2025 10-10-2P19"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "RECOMMENDED VERTICAL PROFILE FOR VFR APPROACH RWY 19:",
+            "Table 2 provides vertical guidance based on a 4.0\u00b0 glidepath, to achieve 50 ft over threshold RWY 19."
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note: the IBZ LOC DME is located within 0.1NM of the threshold, but the OZE VOR/DME is D3.2 short of the RWY",
+            "THOLD 01."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION:",
+            "This table is for situational awareness and guidance in VMC ONLY. It must NOT be used for terrain separation. EGPWS",
+            "alert may be generated if crew do not use the valley, (conducting a steep descent using the LOC or VOR)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DISTANCE",
+            "IBZ DME",
+            "(NM)",
+            "DISTANCE",
+            "OZE VOR",
+            "(NM)",
+            "ALTITUDE",
+            "(FT QNH)",
+            "TRACK",
+            "MILES",
+            "TOUCH-",
+            "DOWN",
+            "NOTES",
+            "13",
+            "10",
+            "8750",
+            "19"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "12",
+            "9",
+            "8330",
+            "18"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "11",
+            "8",
+            "7910",
+            "17"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "10",
+            "7",
+            "7490",
+            "16"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "9.0",
+            "5.5",
+            "7070",
+            "15",
+            "TURN ONTO TRACK 350\u00b0M",
+            "-",
+            "3.0",
+            "6450",
+            "13.5",
+            "LIPB1",
+            "-",
+            "2.6",
+            "4130",
+            "8",
+            "LIPB2 (Abeam OZE VOR, DME increasing)",
+            "-",
+            "4.8",
+            "2870",
+            "5",
+            "LIPB3",
+            "-",
+            "5.2",
+            "2450",
+            "4"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "5.3",
+            "2030",
+            "3"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "5.3",
+            "1610",
+            "2"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "5.0",
+            "1190",
+            "1",
+            "Wings Level",
+            "-",
+            "4.0",
+            "786",
+            "0",
+            "THRESHOLD RWY 19",
+            "TABLE 2: VERTICAL GUIDANCE: RWY 19"
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "NOTE:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "180 KIAS requires 1275 ft/min rate of descent.",
+            "To achieve a 4.0\u00ba glidepath",
+            "160 KIAS requires 1133 ft/min rate of descent.",
+            "(425 ft per NM)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "150 KIAS requires 1050 ft/min rate of descent.",
+            "140 KIAS requires 990 ft/min rate of descent."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BOLZANO, ITALY",
+            "BOLZANO",
+            "28 NOV 2025 10-10-2P20"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "TURN TO HEADING 350\u00b0M  AT D5.5OZE (D8.5 IBZ)."
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "NOTE VISUAL AIMING FEATURE (LAKE) TOWARDS WAYPOINT LIPB2"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "OVERHEAD WAYPOINT LIPB2:  NOTE AIRPORT ABOUT TO BECOME HIDDEN BY TERRAIN."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BOLZANO, ITALY",
+            "BOLZANO",
+            "28 NOV 2025 10-10-2P21"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BASE TURN RWY 19 WITH VISUAL FEATURES"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "FINAL RWY 19"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BOLZANO, ITALY",
+            "BOLZANO",
+            "28 NOV 2025 10-10-2P22"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.4. VOR A - CIRCLE-TO-LAND WITH PRESCRIBED TRACKS",
+            "OPERATIONAL PROCEDURES - GENERAL - Crews must NOT consider they are protected from other traffic when",
+            "performing the IFR approach to LIPB, especially when conditions allow VFR flight."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "The VOR A - Circle-to-land with prescribed tracks is limited to CAT B aircraft only and should be used when weather",
+            "prevents the preferred VFR APCH using VOR A."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "When conducting the VOR A to minimums PRESCRIBED FLIGHT TRACKS are required. These tracks are complex and",
+            "require careful study."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Accurate pre-flight planning must be conducted to ensure that during approach, the aircraft weight and flap setting",
+            "during PRESCRIBED TRACKS permit the crew to comply with the max circling speeds and angle of bank requirements."
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note: If weather permits, then the preferred approach is VFR APCH RWY 01 using VOR A or if RWY 19 in use then",
+            "VFR APCH RWY 19 using VOR A. However, caution the latest recommended break-off point for the VFR APCH:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LATEST RECOMMENDED BREAK-OFF FOR THE PREFERRED VFR APPROACH:",
+            "RWY 01: D10 OZE (D13IBZ). Otherwise,  the required rate of descent becomes excessive for a successful approach.",
+            "RWY19:  D6.5 OZE (D3.5 IBZ). This allows the aircraft to position safely into the valley for the downwind."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DAY ONLY. Visibility: 5 km. Ceiling: 4133 ft (4920 ft QNH)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "JEPPESEN CHARTS:",
+            "RWY 01; 13-1, 19-10, 19-11."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "RWY 19; 13-1, 19-12."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PERFORMANCE:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Use the following setup:",
+            "ARRIVAL: RWY in use 01 or 19. And,",
+            "DEPARTURE to LIPB, RWY in use 01 -01DP1, or 19 -19DP2."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Max Landing Mass is to be limited to the lower of the following options:",
+            "Landing Performance; Select \u2018Arrival\u2019 to LIPB and \u2018Runway\u2019 to RWY in use, 01 or 19. Input",
+            "actual landing weather and configuration, use \u2018FLDTA\u2019 in \u2018Options\u2019, and;",
+            "Balked Landing Performance; Select \u2018Departure\u2019 to LIPB and \u2018Runway\u2019 to 01DP1 if RWY",
+            "01 in use or 19DP2 if RWY 19 in use. Input actual weather, \u2018Flap\u2019 to most optimal go-",
+            "around configuration. \u2018Options\u2019 to DRY RWY regardless of actual RWY state."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Request the VOR A - Circle to land with prescribed tracks.",
+            "Perform VOR A as per Jepp 13-1 then,",
+            "RWY 01 in use; Circle-to-land with Prescribed Tracks RWY 01 as per Jepp 19-10, or"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "RWY 19 in use; Circle-to-land with Prescribed Tracks RWY 19 as per Jepp 19-12."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Ensure performance and configuration allows the Max Circling speeds:",
+            "RWY 01",
+            "135 Kts",
+            "22\u00b0 Angle of Bank",
+            "RWY 19",
+            "130 Kts",
+            "25\u00b0 Angle of Bank"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MISSED APPROACH:",
+            "VOR A:",
+            "Jepp 13-1.",
+            "CIRCLING WITH PRESCRIBED FLIGHT TRACKS TO RWY 01:  Jepp 19-10.",
+            "CIRCLING WITH PRESCRIBED FLIGHT TRACKS TO RWY 19:  Jepp 19-12."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BOLZANO, ITALY",
+            "BOLZANO",
+            "28 NOV 2025 10-10-2P23"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "BALKED LANDING:",
+            "RWY 01:",
+            "The recommended Balked landing procedure from RWY 01 with marginal weather is to",
+            "perform the PDCS 01DP1 from the threshold. This provides an IMC procedure escape",
+            "procedure with OEI performance to FORER. Climb with Max rate to 12000 ft QNH (or FL",
+            "120 if departing LIPB).",
+            "Jepp 19-11 has tracks for either a return to RWY 01 or routing to OZE VOR to intercept",
+            "the VOR A missed approach procedure as per Jepp 13-1. (See Caution note below)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "RWY 19:",
+            "Jepp 19-12 has tracks for either a visual pattern for a repeat approach to RWY 19 or",
+            "routing to intercept the VOR A missed approach as per Jepp 13-1.",
+            "PDCS 19DP2 can be used from Threshold RWY 19 as an IMC escape procedure to FORER.",
+            "Climb with Max rate to 12000 ft QNH (or FL 120 if departing LIPB)."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION:",
+            "The Balked landing RWY 01 example procedure as per Jepp 19-11 is complex and difficult to fly. PDCS 01DP1",
+            "procedure provides an alternative escape procedure to FORER and can be flown from RWY 01 Threshold."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "3D VIEW: CIRCLE WITH PRESCRIBED FLIGHT TRACKS RWY 19."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BOLZANO, ITALY",
+            "BOLZANO",
+            "28 NOV 2025 10-10-2P24"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.5. VFR PATTERN",
+            "A VFR Pattern to the West of LIPB, routing around the hill within the central valley may be used if needed and",
+            "conditions permit.",
+            "The VFR Pattern provides a method to return for an additional VFR approach following a Balked landing for example",
+            "and requires the same heightened minima as the \u2018VFR APCH using VOR A\u2019."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DAY ONLY, Visibility 8km, Ceiling 8313ft (9100ft QNH)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "RWY 01: Visual LEFT-HAND Pattern around the central hill."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "RWY 19: Visual RIGHT-HAND Pattern around the central hill."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMUM Recommended Pattern height 2500 ft (3300 ft QNH)"
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note: The published Traffic Circuit on Jepps 19-3 for RWY 01 / 19 is 2500\u2019 / 2000\u2019. It is",
+            "recommended to fly higher to aid visibility and reduce traffic threat."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Due to the required turn radius within the valley, it is recommended to limit the speed",
+            "during the VFR Pattern turns to 140 KT; Max speed is 155 KT & 25\u00b0AoB."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Do not delay the turn around the Southern side of the hill as the valley starts to",
+            "narrow further to the South. Perform the Left-Hand turn to final RWY 01 and Right-",
+            "Hand cross wind turn following climb out from RWY 19 at D2.8 OZE / D6.1 IBZ."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "The downwind leg of the VFR Pattern uses the same track as \u2018VFR APCH RWY 19 using",
+            "VOR A\u2019 so the same waypoints may be manually inserted into the FMS to aid",
+            "positioning, but they are for SITUATIONAL AWARENESS ONLY."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LIPB1:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "N46 21.9  E011 15.6",
+            "Min 3300ft QNH",
+            "LIPB2:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "N46 24.9  E011 15.1",
+            "Min 3300ft QNH",
+            "LIPB3:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "N46 28.7  E011 15.8",
+            "Min 3300ft QNH"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "See VFR Pattern diagram on next page:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BOLZANO, ITALY",
+            "BOLZANO",
+            "28 NOV 2025 10-10-2P25"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VFR Pattern"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BOLZANO, ITALY",
+            "BOLZANO",
+            "28 NOV 2025 10-10-2P26"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        9
+      ],
+      "page_images": [
+        "static/airports/lipb/page-09.png"
+      ],
+      "embeds": [
+        "static/airports/lipb/embed-p09-02.jpeg"
+      ]
+    },
+    {
+      "num": 10,
+      "title": "Departure procedures",
+      "body": "0.1 GENERAL\nOPERATIONAL PROCEDURES - GENERAL\nCAUTION:\nThe IFR SIDS do not guarantee separation from VFR traffic. Crew should expect a traffic threat; maintain a good\nlookout. TCAS mandatory.\n\nExpect IFR departure for CAT B and CAT C aircraft as per Jeppesen. The VFR departure is available with higher minima\nand is to be used only as a contingency if IFR is unavailable.\nThe preferred RWY for departure is RWY 19, this is due to topography and simpler PDCS procedures.\n\nMINIMA:\nIFR Departure: DAY ONLY, Visibility 5 km, Ceiling 2700 ft (3487 ft QNH).\nVFR Departure (Contingency):DAY Only, Visibility 8KM, Ceiling 11,713 ft (12,500 QNH)\n\nPERFORMANCE\n& CONTINGENCY:\nRWY 19: As per PDCS \u201819\u2019, \u201819DP2\u2019 or \u201819STPT\u2019\nRWY 01: As per PDCS \u201801\u2019, \u201801DP1\u2019 or \u201801STPT\u2019\n\nUse actual weather and conditions in \u2018Options\u2019. Use most optimal \u2018Flap\u2019 setting for take-\noff.\n\n\u201819\u2019 and \u201801\u2019 provide a Straight-Out IMC Procedure which is simplest to fly.\n\n\u201819DP2\u2019 and \u201801DP1\u2019 permit increased performance but require specific tracking.\n\u201819STPT\u2019 and \u201801STPT\u2019 provide a Straight-Out procedure which mandates the use of the\nRunway Starter Extension (Start Point) available at LIPB.\n\nCAUTION:\nLIPB is performance critical due to terrain. Only the PDCS procedures listed above shall be used for departure.\n\nIf the \u2018STPT\u2019 PDCS performance is required (WET RWY for example) then the Runway Starter Extension (Start\nPoint) shall be fully used. This is shown in grey on Jeppesen 10-9 and labelled \u2018Start point\u2019 and requires ATC\nrequest.\n\nJEPPESEN CHARTS:\nIFR Departure:\n\n10-3B, 10-3C and 10-3E\nVFR Departure (Contingency):\n19-1, 19-2, 19-3 and 19-3A\n\nJepp chart 10-3B \u2018Initial Climb (All RWYs)\u2019 describes an initial visual climb requirement\nfor both RWY 19 and RWY 01.\n\nJepp chart 10-3C \u2018Initial Climb (RWY 01)\u2019 describes an initial instrument climb from RWY",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "0.1 GENERAL",
+            "OPERATIONAL PROCEDURES - GENERAL"
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION:",
+            "The IFR SIDS do not guarantee separation from VFR traffic. Crew should expect a traffic threat; maintain a good",
+            "lookout. TCAS mandatory."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Expect IFR departure for CAT B and CAT C aircraft as per Jeppesen. The VFR departure is available with higher minima",
+            "and is to be used only as a contingency if IFR is unavailable.",
+            "The preferred RWY for departure is RWY 19, this is due to topography and simpler PDCS procedures."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA:",
+            "IFR Departure: DAY ONLY, Visibility 5 km, Ceiling 2700 ft (3487 ft QNH).",
+            "VFR Departure (Contingency):DAY Only, Visibility 8KM, Ceiling 11,713 ft (12,500 QNH)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PERFORMANCE",
+            "& CONTINGENCY:",
+            "RWY 19: As per PDCS \u201819\u2019, \u201819DP2\u2019 or \u201819STPT\u2019",
+            "RWY 01: As per PDCS \u201801\u2019, \u201801DP1\u2019 or \u201801STPT\u2019"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Use actual weather and conditions in \u2018Options\u2019. Use most optimal \u2018Flap\u2019 setting for take-",
+            "off."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "\u201819\u2019 and \u201801\u2019 provide a Straight-Out IMC Procedure which is simplest to fly."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "\u201819DP2\u2019 and \u201801DP1\u2019 permit increased performance but require specific tracking.",
+            "\u201819STPT\u2019 and \u201801STPT\u2019 provide a Straight-Out procedure which mandates the use of the",
+            "Runway Starter Extension (Start Point) available at LIPB."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION:",
+            "LIPB is performance critical due to terrain. Only the PDCS procedures listed above shall be used for departure."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "If the \u2018STPT\u2019 PDCS performance is required (WET RWY for example) then the Runway Starter Extension (Start",
+            "Point) shall be fully used. This is shown in grey on Jeppesen 10-9 and labelled \u2018Start point\u2019 and requires ATC",
+            "request."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "JEPPESEN CHARTS:",
+            "IFR Departure:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "10-3B, 10-3C and 10-3E",
+            "VFR Departure (Contingency):",
+            "19-1, 19-2, 19-3 and 19-3A"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Jepp chart 10-3B \u2018Initial Climb (All RWYs)\u2019 describes an initial visual climb requirement",
+            "for both RWY 19 and RWY 01."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Jepp chart 10-3C \u2018Initial Climb (RWY 01)\u2019 describes an initial instrument climb from RWY"
+          ]
+        }
+      ],
+      "pages": [
+        26
+      ],
+      "page_images": [
+        "static/airports/lipb/page-26.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 1,
+      "title": "It May Be Used Provided The Speed / Bank Angle Limitation And Steeper Minimum",
+      "body": "limb Gradient can be complied with.\n\nCAUTION\nProcedures on Jeppesen 10-3, 10-3A, 10-3D are PROHIBITED (NetJets imposed).\n\nBOLZANO, ITALY\nBOLZANO\n28 NOV 2025 10-10-2P27\n\n-\n\nProcedure: Request RWY Starter Extension if \u2018STPT\u2019 PDCS is used ( as per Jeppesen 19-2).\n\nCoordinate \u2018Runway Starter Extension\u2019 (Start Point) with ATC if \u2018STPT\u2019 PDCS is used.\n\nBOLZANO, ITALY\nBOLZANO\n28 NOV 2025 10-10-2P28\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "limb Gradient can be complied with."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION",
+            "Procedures on Jeppesen 10-3, 10-3A, 10-3D are PROHIBITED (NetJets imposed)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BOLZANO, ITALY",
+            "BOLZANO",
+            "28 NOV 2025 10-10-2P27"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Procedure: Request RWY Starter Extension if \u2018STPT\u2019 PDCS is used ( as per Jeppesen 19-2)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Coordinate \u2018Runway Starter Extension\u2019 (Start Point) with ATC if \u2018STPT\u2019 PDCS is used."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BOLZANO, ITALY",
+            "BOLZANO",
+            "28 NOV 2025 10-10-2P28"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        1,
+        3,
+        28
+      ],
+      "page_images": [
+        "static/airports/lipb/page-01.png",
+        "static/airports/lipb/page-01.png",
+        "static/airports/lipb/page-03.png",
+        "static/airports/lipb/page-28.png"
+      ],
+      "embeds": [
+        "static/airports/lipb/embed-p03-02.jpeg",
+        "static/airports/lipb/embed-p28-02.jpeg"
+      ]
+    },
+    {
+      "num": 11,
+      "title": "Ground procedures",
+      "body": "efer to Jeppesen.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "efer to Jeppesen."
+          ]
+        }
+      ],
+      "pages": [
+        28
+      ],
+      "page_images": [
+        "static/airports/lipb/page-28.png"
+      ],
+      "embeds": [
+        "static/airports/lipb/embed-p28-02.jpeg"
+      ]
+    },
+    {
+      "num": 12,
+      "title": "Miscellaneous",
+      "body": "ransition altitude 10000ft AMSL.\nPAPI set at 4.48\u00b0. Useable DAY ONLY, within 4.9 km (3 NM) of Threshold.\n\nCAUTION:",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "ransition altitude 10000ft AMSL.",
+            "PAPI set at 4.48\u00b0. Useable DAY ONLY, within 4.9 km (3 NM) of Threshold."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION:"
+          ]
+        }
+      ],
+      "pages": [
+        28
+      ],
+      "page_images": [
+        "static/airports/lipb/page-28.png"
+      ],
+      "embeds": [
+        "static/airports/lipb/embed-p28-02.jpeg"
+      ]
+    },
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": ". LIPB lies within uncontrolled airspace.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ". LIPB lies within uncontrolled airspace."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        1,
+        3,
+        28
+      ],
+      "page_images": [
+        "static/airports/lipb/page-01.png",
+        "static/airports/lipb/page-01.png",
+        "static/airports/lipb/page-03.png",
+        "static/airports/lipb/page-28.png"
+      ],
+      "embeds": [
+        "static/airports/lipb/embed-p03-02.jpeg",
+        "static/airports/lipb/embed-p28-02.jpeg"
+      ]
+    },
+    {
+      "num": 3,
+      "title": "Revalidation requirements",
+      "body": "IPB has a webcam and basic weather information on their website to help you prepare for arrival.\nhttps://www.bolzanoairport.it/en/weather-en.htm\nThe webcam updates every 30 minutes and is situated immediately behind the LOC/DME antenna looking South\nalong the visual approach path.\n\nWEBCAM IMAGE\n\nBOLZANO, ITALY\nBOLZANO\n28 NOV 2025 10-10-2P29\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "IPB has a webcam and basic weather information on their website to help you prepare for arrival.",
+            "https://www.bolzanoairport.it/en/weather-en.htm",
+            "The webcam updates every 30 minutes and is situated immediately behind the LOC/DME antenna looking South",
+            "along the visual approach path."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "WEBCAM IMAGE"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BOLZANO, ITALY",
+            "BOLZANO",
+            "28 NOV 2025 10-10-2P29"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        3,
+        28
+      ],
+      "page_images": [
+        "static/airports/lipb/page-01.png",
+        "static/airports/lipb/page-03.png",
+        "static/airports/lipb/page-28.png"
+      ],
+      "embeds": [
+        "static/airports/lipb/embed-p03-02.jpeg",
+        "static/airports/lipb/embed-p28-02.jpeg"
+      ]
+    },
+    {
+      "num": 13,
+      "title": "Charts / Pictures / Other",
+      "body": "eather and precipitation at Bolzano",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "eather and precipitation at Bolzano"
+          ]
+        }
+      ],
+      "pages": [
+        29
+      ],
+      "page_images": [
+        "static/airports/lipb/page-29.png"
+      ],
+      "embeds": [
+        "static/airports/lipb/embed-p29-02.jpeg"
+      ]
+    },
+    {
+      "num": 14,
+      "title": "Changes since the last revision",
+      "body": "added the online briefing requirements and instructions\n- clarification on the applicability of the 15kts company-imposed crosswind limit\n- DAY only limitation highlighted\n- SID/departure charts index corrected\n- RNP initial climb and RNP transitions prohibited\n- editorial review\nProvide feedback to Lis-OpsTechnical@netjets.com",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "added the online briefing requirements and instructions"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "clarification on the applicability of the 15kts company-imposed crosswind limit",
+            "DAY only limitation highlighted",
+            "SID/departure charts index corrected",
+            "RNP initial climb and RNP transitions prohibited",
+            "editorial review"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Provide feedback to Lis-OpsTechnical@netjets.com"
+          ]
+        }
+      ],
+      "pages": [
+        29
+      ],
+      "page_images": [
+        "static/airports/lipb/page-29.png"
+      ],
+      "embeds": [
+        "static/airports/lipb/embed-p29-02.jpeg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2945 @@
+{
+  "icao": "LFLB",
+  "page_count": 23,
+  "pages": [
+    {
+      "page": 1,
+      "image": "static/airports/lflb/page-01.png",
+      "embeds": []
+    },
+    {
+      "page": 2,
+      "image": "static/airports/lflb/page-02.png",
+      "embeds": []
+    },
+    {
+      "page": 3,
+      "image": "static/airports/lflb/page-03.png",
+      "embeds": []
+    },
+    {
+      "page": 4,
+      "image": "static/airports/lflb/page-04.png",
+      "embeds": [
+        "static/airports/lflb/embed-p04-02.jpeg",
+        "static/airports/lflb/embed-p04-03.jpeg"
+      ]
+    },
+    {
+      "page": 5,
+      "image": "static/airports/lflb/page-05.png",
+      "embeds": []
+    },
+    {
+      "page": 6,
+      "image": "static/airports/lflb/page-06.png",
+      "embeds": []
+    },
+    {
+      "page": 7,
+      "image": "static/airports/lflb/page-07.png",
+      "embeds": []
+    },
+    {
+      "page": 8,
+      "image": "static/airports/lflb/page-08.png",
+      "embeds": []
+    },
+    {
+      "page": 9,
+      "image": "static/airports/lflb/page-09.png",
+      "embeds": []
+    },
+    {
+      "page": 10,
+      "image": "static/airports/lflb/page-10.png",
+      "embeds": []
+    },
+    {
+      "page": 11,
+      "image": "static/airports/lflb/page-11.png",
+      "embeds": []
+    },
+    {
+      "page": 12,
+      "image": "static/airports/lflb/page-12.png",
+      "embeds": []
+    },
+    {
+      "page": 13,
+      "image": "static/airports/lflb/page-13.png",
+      "embeds": [
+        "static/airports/lflb/embed-p13-02.jpeg",
+        "static/airports/lflb/embed-p13-03.jpeg"
+      ]
+    },
+    {
+      "page": 14,
+      "image": "static/airports/lflb/page-14.png",
+      "embeds": []
+    },
+    {
+      "page": 15,
+      "image": "static/airports/lflb/page-15.png",
+      "embeds": []
+    },
+    {
+      "page": 16,
+      "image": "static/airports/lflb/page-16.png",
+      "embeds": []
+    },
+    {
+      "page": 17,
+      "image": "static/airports/lflb/page-17.png",
+      "embeds": [
+        "static/airports/lflb/embed-p17-02.jpeg"
+      ]
+    },
+    {
+      "page": 18,
+      "image": "static/airports/lflb/page-18.png",
+      "embeds": []
+    },
+    {
+      "page": 19,
+      "image": "static/airports/lflb/page-19.png",
+      "embeds": []
+    },
+    {
+      "page": 20,
+      "image": "static/airports/lflb/page-20.png",
+      "embeds": []
+    },
+    {
+      "page": 21,
+      "image": "static/airports/lflb/page-21.png",
+      "embeds": [
+        "static/airports/lflb/embed-p21-02.jpeg"
+      ]
+    },
+    {
+      "page": 22,
+      "image": "static/airports/lflb/page-22.png",
+      "embeds": [
+        "static/airports/lflb/embed-p22-02.jpeg"
+      ]
+    },
+    {
+      "page": 23,
+      "image": "static/airports/lflb/page-23.png",
+      "embeds": [
+        "static/airports/lflb/embed-p23-02.jpeg"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": "IC qualification required\nYES\nPIC shall be LFLB qualified by simulator training. The simulator training and reference to this\nOM-C brief before flight complies with flight crew training requirements (Jeppesen 10-1P 1.3)\nSIC qualification required\nNO\n\nQualification is type related\nNO\n\nSelf-Briefing\nYES",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "IC qualification required",
+            "YES",
+            "PIC shall be LFLB qualified by simulator training. The simulator training and reference to this",
+            "OM-C brief before flight complies with flight crew training requirements (Jeppesen 10-1P 1.3)",
+            "SIC qualification required",
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Qualification is type related",
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Self-Briefing",
+            "YES"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        12,
+        15,
+        16,
+        16,
+        17,
+        17,
+        18,
+        19,
+        20
+      ],
+      "page_images": [
+        "static/airports/lflb/page-01.png",
+        "static/airports/lflb/page-12.png",
+        "static/airports/lflb/page-15.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-18.png",
+        "static/airports/lflb/page-19.png",
+        "static/airports/lflb/page-20.png"
+      ],
+      "embeds": [
+        "static/airports/lflb/embed-p17-02.jpeg",
+        "static/airports/lflb/embed-p17-02.jpeg"
+      ]
+    },
+    {
+      "num": 2,
+      "title": "Initial qualification requirements",
+      "body": ". REVALIDATION REQUIREMENTS\nGround Training\nYES\n12 Months\nYES\n12 Months\nSimulator Training\nYES\n12 Months\nYES\n12 Months\nIn-flight familiarization\nNO\n\nNO\n\nFlight training\nNO\n\nNO",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ". REVALIDATION REQUIREMENTS",
+            "Ground Training",
+            "YES",
+            "12 Months",
+            "YES",
+            "12 Months",
+            "Simulator Training",
+            "YES",
+            "12 Months",
+            "YES",
+            "12 Months",
+            "In-flight familiarization",
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Flight training",
+            "NO"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NO"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        12,
+        15,
+        16,
+        16,
+        17,
+        18,
+        18,
+        19,
+        20
+      ],
+      "page_images": [
+        "static/airports/lflb/page-01.png",
+        "static/airports/lflb/page-12.png",
+        "static/airports/lflb/page-15.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-18.png",
+        "static/airports/lflb/page-18.png",
+        "static/airports/lflb/page-19.png",
+        "static/airports/lflb/page-20.png"
+      ],
+      "embeds": [
+        "static/airports/lflb/embed-p17-02.jpeg"
+      ]
+    },
+    {
+      "num": 5,
+      "title": "Limitations / Miscellaneous",
+      "body": "he PF shall be a PIC holding an LFLB qualification for the RWY 18 VMC departure to join RWY 36 SID (Source: Training\nDepartment Risk Assessment).\n\nPF shall hold a current AHQ.\n\nVPT RWY 36 is limited to DAY ONLY and 5 km visibility to ensure adequate visual reference (NTA limitation).\nRNP Z RWY 18 is BALKED LANDING PERFORMANCE LIMITING. Balked landing performance shall be confirmed during\nplanning and before approach.\nRNP Y RWY18 (AR) is PROHIBITED. (NTA does not have the required authorisation)\n\nWhen ATC is closed one crew member must speak French (AFIS in English not available and airspace downgraded\nClass G).  French speaking crew member should act as PM to maintain the situational awareness for the whole crew\n(unless a safety related reason dictates otherwise).\n\nCHAMBERY, FRANCE\nAIX-LES-BAINS\n10-10-2P2\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "he PF shall be a PIC holding an LFLB qualification for the RWY 18 VMC departure to join RWY 36 SID (Source: Training",
+            "Department Risk Assessment)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PF shall hold a current AHQ."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "VPT RWY 36 is limited to DAY ONLY and 5 km visibility to ensure adequate visual reference (NTA limitation).",
+            "RNP Z RWY 18 is BALKED LANDING PERFORMANCE LIMITING. Balked landing performance shall be confirmed during",
+            "planning and before approach.",
+            "RNP Y RWY18 (AR) is PROHIBITED. (NTA does not have the required authorisation)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "When ATC is closed one crew member must speak French (AFIS in English not available and airspace downgraded",
+            "Class G).  French speaking crew member should act as PM to maintain the situational awareness for the whole crew",
+            "(unless a safety related reason dictates otherwise)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CHAMBERY, FRANCE",
+            "AIX-LES-BAINS",
+            "10-10-2P2"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        16,
+        17
+      ],
+      "page_images": [
+        "static/airports/lflb/page-01.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-17.png"
+      ],
+      "embeds": [
+        "static/airports/lflb/embed-p17-02.jpeg"
+      ]
+    },
+    {
+      "num": 6,
+      "title": "Weather / Airport limitations",
+      "body": "RRIVALS RUNWAY 18\nARRIVAL\nNIGHT\nAPPROVED\nNORMAL\nCONTINGENCY\nLOWEST MINIMA\n(Jeppesen chart index)\nJEPPESEN INDEX\n(TAB)\nBRIEFING REFERENCE\nCAT B\nILS / LOC Z\nYES\n11-1 (APP)\n9.2.1 Contingency\nProcedures\nILS / LOC RWY 18\nILS\n11-2B\nLOC\n11-2C\nILS\n11-2A\nLOC\n11-2C\nILS / LOC Y\n11-2 (APP)\nRNP Z RWY 18    (See CAUTION - NOTE 1)\nYES\n12-1 (APP)\n9.3 Missed Approach\nand Balked landing\nLPV\n12-1B\nLNAV/\nVNAV\n&\nLNAV\n12-1C\nLPV\n12-1A\nLNAV/\nVNAV\n&\nLNAV\n12-1C\nRNP Y RWY 18 (AR)\nPROHIBITED\nAlternate Arrival Procedures RWY 18:\n- CY LOC & GS INOP\n- NDB CH INOP\n- ATC NOT AVAIL\nNO\n9.4 Alternate Arrival Procedures\nVisibility 8km\nCeiling 6000ft\n\nCAUTION \u2013 NOTE 1\nThe Balked Landing scenario on the RNP Z RWY 18 is limiting and critical due to proximity terrain in the climbout.\nCarefully check balked landing performance during pre-flight planning and before approach. Do not plan to or\nperform this approach unless the balked landing is assured.\n\nARRIVALS RUNWAY 36\nARRIVAL\nNIGHT\nAPPROVED\nNORMAL\nCONTINGENCY\nLOWEST MINIMA\nJEPPESEN INDEX\n(TAB)\nBRIEFING REFERENCE\nCAT B\nVPT RWY 36\nfrom ILS/LOC (Z/Y) RWY18\nfrom RNP Z RWY18\nNO\n19-10 (APP)\nContingency Procedures\nVPT RWY 36\nVISIBILITY:\n5km\n\nDA/MDA:\nHigher of RWY18 IAP\nand\nVPT RWY 36\nVPT RWY 36\nfrom RNP Y RWY18 (AR)\nPROHIBITED\nAlternate Arrival Procedures RWY 36:\n- CY LOC & GS INOP\n- NDB CH INOP\n- ATC NOT AVAIL\nNO\nSection\n9.4 Alternate Arrival Procedures\nVisibility: 8km\nCeiling: 6000ft\n\nNote:  VPT RWY 36 is limited to DAY ONLY and 5 km visibility to ensure adequate visual reference (NTA limitation).\n\nCHAMBERY, FRANCE\nAIX-LES-BAINS\n10-10-2P3\n\n-\n\nDEPARTURE RUNWAY 18\nDEPARTURE\nNIGHT\nAPPROVED\nNORMAL\nCONTINGENCY\nWEATHER MINIMA\nPDCS chart\nJeppesen\nreference\nBriefing\nReference\nCAT B & CAT C\nRWY 18 VMC departures to join\nRWY 36 Conventional SIDs (Jepp\n10-7)\nNO\nInitial departure\n10-7\n10-7 (CO)\nVisibility 5km\nCeiling 3000ft\n18DP5\nSID 10-3G, 3H\nRWY 18 IMC / NIGHT departures\nvia RWY 18 RNAV SIDs\nYES\nSID 10-3, 3A, 3B,\n3C, 3D, 3E,\n10-7B (CO)\nAs per Jeppesen\n(Lowest available RVR 400m)\nAlternate Departure Procedures\nRWY 18:\n\n- CY LOC/DME INOP\n- NDB CH INOP\n- Airspace downgraded to class\nG / AFIS in ENGLISH\nunavailable.\n\nNO\nAs per clearance\n(SID)\nSee brief for\ndifferences\nVisibility 8km\nCeiling 6000ft\n\nDEPARTURE RUNWAY 36\nDEPARTURE\nNIGHT\nAPPROVED\nNORMAL\nCONTINGENCY\nWEATHER MINIMA\nPDCS chart\nJeppesen\nreference\nBriefing\nReference\nCAT B & CAT C\nAll RWY 36 SIDs\nYES\nAs per\nclearance\n(SID)\n10-7A (CO)\nAs per Jeppesen\n(Lowest available RVR 400m)\n36DP2\nAlternate Departure Procedures\nRWY 36:\n\n- CY LOC/DME INOP\n- NDB CH INOP\n- Airspace downgraded to Class G\n/ AFIS in ENGLISH unavailable\nNO\nSee brief for\ndifferences\nVisibility 8km\nCeiling 6000ft\n\nOTHER LIMITATIONS\n\nNight Circling to RWY 36 PROHIBITED.\n\nCHAMBERY, FRANCE\nAIX-LES-BAINS\n10-10-2P4\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "RRIVALS RUNWAY 18",
+            "ARRIVAL",
+            "NIGHT",
+            "APPROVED",
+            "NORMAL",
+            "CONTINGENCY",
+            "LOWEST MINIMA",
+            "(Jeppesen chart index)",
+            "JEPPESEN INDEX",
+            "(TAB)",
+            "BRIEFING REFERENCE",
+            "CAT B",
+            "ILS / LOC Z",
+            "YES",
+            "11-1 (APP)",
+            "9.2.1 Contingency",
+            "Procedures",
+            "ILS / LOC RWY 18",
+            "ILS",
+            "11-2B",
+            "LOC",
+            "11-2C",
+            "ILS",
+            "11-2A",
+            "LOC",
+            "11-2C",
+            "ILS / LOC Y",
+            "11-2 (APP)",
+            "RNP Z RWY 18    (See CAUTION - NOTE 1)",
+            "YES",
+            "12-1 (APP)",
+            "9.3 Missed Approach",
+            "and Balked landing",
+            "LPV",
+            "12-1B",
+            "LNAV/",
+            "VNAV",
+            "&",
+            "LNAV",
+            "12-1C",
+            "LPV",
+            "12-1A",
+            "LNAV/",
+            "VNAV",
+            "&",
+            "LNAV",
+            "12-1C",
+            "RNP Y RWY 18 (AR)",
+            "PROHIBITED",
+            "Alternate Arrival Procedures RWY 18:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "CY LOC & GS INOP",
+            "NDB CH INOP",
+            "ATC NOT AVAIL"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NO",
+            "9.4 Alternate Arrival Procedures",
+            "Visibility 8km",
+            "Ceiling 6000ft"
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION \u2013 NOTE 1",
+            "The Balked Landing scenario on the RNP Z RWY 18 is limiting and critical due to proximity terrain in the climbout.",
+            "Carefully check balked landing performance during pre-flight planning and before approach. Do not plan to or",
+            "perform this approach unless the balked landing is assured."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "ARRIVALS RUNWAY 36",
+            "ARRIVAL",
+            "NIGHT",
+            "APPROVED",
+            "NORMAL",
+            "CONTINGENCY",
+            "LOWEST MINIMA",
+            "JEPPESEN INDEX",
+            "(TAB)",
+            "BRIEFING REFERENCE",
+            "CAT B",
+            "VPT RWY 36",
+            "from ILS/LOC (Z/Y) RWY18",
+            "from RNP Z RWY18",
+            "NO",
+            "19-10 (APP)",
+            "Contingency Procedures",
+            "VPT RWY 36",
+            "VISIBILITY:",
+            "5km"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DA/MDA:",
+            "Higher of RWY18 IAP",
+            "and",
+            "VPT RWY 36",
+            "VPT RWY 36",
+            "from RNP Y RWY18 (AR)",
+            "PROHIBITED",
+            "Alternate Arrival Procedures RWY 36:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "CY LOC & GS INOP",
+            "NDB CH INOP",
+            "ATC NOT AVAIL"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NO",
+            "Section",
+            "9.4 Alternate Arrival Procedures",
+            "Visibility: 8km",
+            "Ceiling: 6000ft"
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note:  VPT RWY 36 is limited to DAY ONLY and 5 km visibility to ensure adequate visual reference (NTA limitation)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CHAMBERY, FRANCE",
+            "AIX-LES-BAINS",
+            "10-10-2P3"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DEPARTURE RUNWAY 18",
+            "DEPARTURE",
+            "NIGHT",
+            "APPROVED",
+            "NORMAL",
+            "CONTINGENCY",
+            "WEATHER MINIMA",
+            "PDCS chart",
+            "Jeppesen",
+            "reference",
+            "Briefing",
+            "Reference",
+            "CAT B & CAT C",
+            "RWY 18 VMC departures to join",
+            "RWY 36 Conventional SIDs (Jepp",
+            "10-7)",
+            "NO",
+            "Initial departure",
+            "10-7",
+            "10-7 (CO)",
+            "Visibility 5km",
+            "Ceiling 3000ft",
+            "18DP5",
+            "SID 10-3G, 3H",
+            "RWY 18 IMC / NIGHT departures",
+            "via RWY 18 RNAV SIDs",
+            "YES",
+            "SID 10-3, 3A, 3B,",
+            "3C, 3D, 3E,",
+            "10-7B (CO)",
+            "As per Jeppesen",
+            "(Lowest available RVR 400m)",
+            "Alternate Departure Procedures",
+            "RWY 18:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "CY LOC/DME INOP",
+            "NDB CH INOP",
+            "Airspace downgraded to class"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "G / AFIS in ENGLISH",
+            "unavailable."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "NO",
+            "As per clearance",
+            "(SID)",
+            "See brief for",
+            "differences",
+            "Visibility 8km",
+            "Ceiling 6000ft"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "DEPARTURE RUNWAY 36",
+            "DEPARTURE",
+            "NIGHT",
+            "APPROVED",
+            "NORMAL",
+            "CONTINGENCY",
+            "WEATHER MINIMA",
+            "PDCS chart",
+            "Jeppesen",
+            "reference",
+            "Briefing",
+            "Reference",
+            "CAT B & CAT C",
+            "All RWY 36 SIDs",
+            "YES",
+            "As per",
+            "clearance",
+            "(SID)",
+            "10-7A (CO)",
+            "As per Jeppesen",
+            "(Lowest available RVR 400m)",
+            "36DP2",
+            "Alternate Departure Procedures",
+            "RWY 36:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "CY LOC/DME INOP",
+            "NDB CH INOP",
+            "Airspace downgraded to Class G"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "/ AFIS in ENGLISH unavailable",
+            "NO",
+            "See brief for",
+            "differences",
+            "Visibility 8km",
+            "Ceiling 6000ft"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "OTHER LIMITATIONS"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Night Circling to RWY 36 PROHIBITED."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CHAMBERY, FRANCE",
+            "AIX-LES-BAINS",
+            "10-10-2P4"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        2,
+        16
+      ],
+      "page_images": [
+        "static/airports/lflb/page-02.png",
+        "static/airports/lflb/page-16.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 7,
+      "title": "Overview",
+      "body": "hambery airport is situated in a valley, oriented N-S, surrounded by mountainous terrain.\nHigh terrain is very close to the airport (5200ft within 4nm on both sides of the valley and 6200ft 7nm east).\n\nOverview of the Airport\n\nLocal area\n\nCHAMBERY, FRANCE\nAIX-LES-BAINS\n10-10-2P5\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "hambery airport is situated in a valley, oriented N-S, surrounded by mountainous terrain.",
+            "High terrain is very close to the airport (5200ft within 4nm on both sides of the valley and 6200ft 7nm east)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Overview of the Airport"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Local area"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CHAMBERY, FRANCE",
+            "AIX-LES-BAINS",
+            "10-10-2P5"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        4
+      ],
+      "page_images": [
+        "static/airports/lflb/page-04.png"
+      ],
+      "embeds": [
+        "static/airports/lflb/embed-p04-02.jpeg",
+        "static/airports/lflb/embed-p04-03.jpeg"
+      ]
+    },
+    {
+      "num": 8,
+      "title": "Operational procedures \u2014 General",
+      "body": "ue to terrain, strict compliance of published max IAS, min bank angles, and min climb gradient shall be adhered to.\nNetJets has 3 tailored Jeppesen Charts for Chambery which can all be found under the CO Tab on the iPad EFB as\nfollows:\n\u2022 10-7: NETJETS RWY 18 VMC DEPARTURE TO JOIN RWY 36 SIDs.\n\u2022 10-7A: NETJETS SPECIAL AIRPORT (RWY 36).\n\u2022 10-7B: NETJETS Engine Failure Procedure RWY 18 RNAV SIDs.\n\nTHREATS:\nARRIVAL\nDEPARTURE\nRISK OF CONFUSION / LOSS OF SITUATIONAL\nAWARENESS\nSome approaches and missed approaches cannot be\nflown by specific fleets. Ensure you are aware of the\naircraft capability and the contingency procedures to\nmitigate this.\n\nMOUNTAINOUS TERRAIN\nCFIT risk. Procedures may require low speed / low\naltitude manoeuvring during balked landings or go-\naround. Follow briefing carefully. Pay particular\nattention to performance calculations.\n\nRISK OF COLLISION\nChambery is a busy airport which attracts a wide variety\nof aircraft including GA, commercial, and helicopters.\nAircraft may depart on a northerly heading into the RWY\n18 approach lane.\nRISK OF CONFUSION / LOSS OF SITUATIONAL\nAWARENESS\nThere are different contingency procedures depending\non the position of the aircraft after departure. Ensure\nyou are aware of different contingency procedures to\nmitigate this.\n\nMOUNTAINOUS TERRAIN\nCFIT risk. Procedures of runway 18 may require low\nspeed/low altitude manoeuvring - 80/260. Follow\nbriefing carefully. Pay particular attention to wx and\nVMC requirement where applicable.\n\nRISK OF COLLISION\nChambery is a busy airport which attracts a wide variety\nof aircraft including GA, commercial, and helicopters.\nAircraft may arrive on southerly heading into the RWY\n18/ 36 departure path.\nTURBULENCE AND WIND SHEAR\nThe following wind effects may be experienced:\n\u2022 Wind from North, Northwest: possible windshear along LOC RWY 18 (+/- 5 NM from threshold), possible\ndowndrafts on short final RWY 36 between the motorway and the threshold.\n\u2022 Winds from South, Southwest: significant turbulence around CH Locator associated with rotors.\n\u2022 Wind from W, or when CBs are reported at 'La Dent du Chat': gusts 20-50 kts and crosswind may occur.\n\nNOTE: The list of threats listed above is not exhaustive and any additional perceived threats and mitigation should be\nbriefed accordingly.\n\nCHAMBERY, FRANCE\nAIX-LES-BAINS\n10-10-2P6\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "ue to terrain, strict compliance of published max IAS, min bank angles, and min climb gradient shall be adhered to.",
+            "NetJets has 3 tailored Jeppesen Charts for Chambery which can all be found under the CO Tab on the iPad EFB as",
+            "follows:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "10-7: NETJETS RWY 18 VMC DEPARTURE TO JOIN RWY 36 SIDs.",
+            "10-7A: NETJETS SPECIAL AIRPORT (RWY 36).",
+            "10-7B: NETJETS Engine Failure Procedure RWY 18 RNAV SIDs."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "THREATS:",
+            "ARRIVAL",
+            "DEPARTURE",
+            "RISK OF CONFUSION / LOSS OF SITUATIONAL",
+            "AWARENESS",
+            "Some approaches and missed approaches cannot be",
+            "flown by specific fleets. Ensure you are aware of the",
+            "aircraft capability and the contingency procedures to",
+            "mitigate this."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MOUNTAINOUS TERRAIN",
+            "CFIT risk. Procedures may require low speed / low",
+            "altitude manoeuvring during balked landings or go-",
+            "around. Follow briefing carefully. Pay particular",
+            "attention to performance calculations."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "RISK OF COLLISION",
+            "Chambery is a busy airport which attracts a wide variety",
+            "of aircraft including GA, commercial, and helicopters.",
+            "Aircraft may depart on a northerly heading into the RWY",
+            "18 approach lane.",
+            "RISK OF CONFUSION / LOSS OF SITUATIONAL",
+            "AWARENESS",
+            "There are different contingency procedures depending",
+            "on the position of the aircraft after departure. Ensure",
+            "you are aware of different contingency procedures to",
+            "mitigate this."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MOUNTAINOUS TERRAIN",
+            "CFIT risk. Procedures of runway 18 may require low",
+            "speed/low altitude manoeuvring - 80/260. Follow",
+            "briefing carefully. Pay particular attention to wx and",
+            "VMC requirement where applicable."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "RISK OF COLLISION",
+            "Chambery is a busy airport which attracts a wide variety",
+            "of aircraft including GA, commercial, and helicopters.",
+            "Aircraft may arrive on southerly heading into the RWY",
+            "18/ 36 departure path.",
+            "TURBULENCE AND WIND SHEAR",
+            "The following wind effects may be experienced:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Wind from North, Northwest: possible windshear along LOC RWY 18 (+/- 5 NM from threshold), possible"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "downdrafts on short final RWY 36 between the motorway and the threshold."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Winds from South, Southwest: significant turbulence around CH Locator associated with rotors.",
+            "Wind from W, or when CBs are reported at 'La Dent du Chat': gusts 20-50 kts and crosswind may occur."
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "NOTE: The list of threats listed above is not exhaustive and any additional perceived threats and mitigation should be",
+            "briefed accordingly."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CHAMBERY, FRANCE",
+            "AIX-LES-BAINS",
+            "10-10-2P6"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        5
+      ],
+      "page_images": [
+        "static/airports/lflb/page-05.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 9,
+      "title": "Arrival procedures",
+      "body": ".1 GENERAL\nSee THREATS\nThere are multiple approaches to LFLB. Refer to section 6.Weather / Airports Limitations for applicable Jeppesen\ncharts, minima, and reference sections.\nPreferred approach is the ILS/LOC Z (due to traffic flow and Geneva airspace). Delays may be experienced if\nattempting a different approach (consider extra fuel, performance permitting). Straight-in approaches are only\navailable to RWY 18.\nThe RNP Z is also available to RWY 18 however the balked landing performance is limiting.\nRWY 36 requires a Visual Prescribed Tracks (VPT) procedure flown following an instrument approach to RWY 18.\nFor landing on RWY 36 see section 9.4.VPT RWY 36.\n\nILS/LOC Z RWY 18 initial approach and ILS/LOC Y&Z RWY 18 missed approaches require RNAV1 (RNAV1 navigation\nspecification requires the procedure must be retrievable from the FMS).\n\nWARNING:\nThe RNP Y RWY 18 (AR) is prohibited for all NTA aircraft. This is because NTA does not hold RNP (AR) approval.\n\nCAUTION:\nILS/LOC Y&Z, RNP Z and PAPI RWY 18 steeper than usual at 4.46 degrees. (Jepps 10-9 incorrectly shows 4.5 due to\nrounding error). Do not use \u2018steep approach\u2019 procedures however do check and apply applicable AFM\nsupplement/limitations for 4.46\u00b0.\nPAPI RWY 36 steeper than usual at 4.0 degrees and prohibited for use beyond 5 NM.\n\nCHAMBERY, FRANCE\nAIX-LES-BAINS\n10-10-2P7\n\n-\n9.2. ILS/LOC (Z/Y) APPROACH RWY 18\nSee THREATS.\nPROCEDURE:\nAs per Jeppesen.\n\nMINIMA:\nThe ILS/LOC has minima that is derived by table on Jeppesen 11-2A / 11-2B / 11-2C. This requires IAS and Missed\nApproach Climb Gradient (which takes into account the flight path to 5000 ft and turn degradation of 20 degrees).\nTo derive Jeppesen 11-2A / 11-2B / 11-2C minima:\na. Obtain missed approach climb gradient from table below;\nMissed Approach Climb Gradient (%)\nAll Gradients at Max Landing Mass \u2013 except the XLS at 40\u00b0C which is limited to 17,000 lb\n\nThis complies with the required mean geometrical gradient during the entire flight path to 5000ft and accounts for turn degradation.\nIncludes penalty of bleeds for applicable types.\nAssumes penalty of wing + cowl ice on for applicable types.\nConfig\nTemp\n(\u00b0C)\nMissed Approach Climb Gradient (%)\nPhenom\nXLS\nLatitude\nCL350\nFalcon\nCL650\nGlobal\n5000 &\n6000\nIce OFF\n40\u00b0\n2.7\n2.7\n3.8\n5.4\n2.9\n4.6\n3.0\n35\u00b0\n3.5\n2.7\n4.5\n6.1\n3.7\n5.2\n3.9\n30\u00b0\n4.4\n3.5\n5.2\n6.9\n4.2\n6.0\n4.3\n25\u00b0\n5.2\n4.4\n5.9\n6.9\n4.9\n6.4\n5.0\n20\u00b0\n5.9\n5.1\n6.7\n7.6\n5.3\n7.2\n5.2\n15\u00b0\n6.7\n6.0\n7.5\n8.1\n6.0\n7.3\n5.2\n10\u00b0\n7.4\n6.9\n8.0\n8.6\n6.4\n7.3\n5.2\n5\u00b0\n7.9\n7.3\n8.0\n8.6\n6.4\n7.3\n5.2\n0\u00b0 and colder\n7.9\n7.3\n8.0\n8.6\n6.4\n7.3\n5.2\nIce ON\n+10\u00b0\nNo data\n4.0\n3.5\n6.5\n4.2\n5.4\n3.3\n+5\u00b0\n5.4\n4.9\n4.2\n7.3\n4.5\n5.9\n5.2\n0\u00b0\n5.9\n5.8\n4.9\n8.0\n5.4\n6.4\n5.2\n-5\u00b0\n5.9\n5.8\n5.8\n8.5\n6.2\n6.6\n5.2\n-10\u00b0\n5.9\n5.8\n6.2\n8.5\n6.2\n6.9\n5.2\n-15\u00b0 and colder\n5.9\n5.8\n6.2\n8.5\n6.2\n6.9\n5.2\n\nb. From the AFM/QRH/OM-B determine the maximum speed that will be used during the missed approach.  This\nspeed shall be suitable for a 20\u00b0 banked turn.\nc. With the gradient and speed determined, use the appropriate Jeppesen chart 11-2A,  11-2B or  11-2C, to\nestablish the applicable approach minima.\nWARNING:\nInterpolation of the Jeppesen minima tables is not permitted.\n\nCHAMBERY, FRANCE\nAIX-LES-BAINS\n10-10-2P8\n\n-\nPERFORMANCE:\nFor a straight-in approach to land RWY 18, ensure landing mass does not exceed the applicable dry runway\nmaximum take-off mass.\nThis ensures performance during a balked landing from straight-in RWY 18.\nPDCS Settings: use \u201818DP5\u2019 in \u2018Departure\u2019 along with actual conditions for the Go-Around and \u2018DRY\u2019 Rwy in\n\u2018Options\u2019.\n\nCONTINGENCY:\nAdditional guidance is given in this briefing for the following contingency scenarios:\n\u2022 Missed Approach ILS/LOC RWY 18;\n\u2022 Balked Landing: Straight-in Approach RWY 18 from ILS / LOC Approach;\n\u2022 Communications Failure.\n\nCHAMBERY, FRANCE\nAIX-LES-BAINS\n10-10-2P9\n\n-\n9.2.1. CONTINGENCY PROCEDURES ILS/LOC RWY 18\n\nMISSED APPROACH ILS/LOC RWY18:\nAs per Jeppesen.\n\nBALKED LANDING RWY 18:\n\nStraight-in Approach RWY 18 from ILS/LOC Approach\nIf a go-around is initiated after passing DA (MDA) then the standard missed approach may not guarantee terrain\nclearance. The following procedure should be adopted:\n\nAll engines operating and missed approach climb gradient of 6% or greater:\n\u2022 Climb straight ahead towards CH with maximum climb gradient.\n\u2022 Cross CH at or above 3700 ft.\n\u2022 Continue with the standard missed approach procedure.\nNote: The required climb gradient to cross CH at 3700 ft is 14.8% from a balked landing at THR. This requires a rate\nof climb of 2400 fpm at 160 kt or 2100 fpm at 140 kt.\n\nEngine failure or missed approach climb gradient < 6% or unable to cross CH at or above 3700 ft:\n\u2022 Climb straight ahead with maximum climb gradient.\n\u2022 Follow the NETJETS Engine Fail RWY 18 RNAV SIDS (Jepp 10- 7B).\n\u2022 If deviating from the standard Missed Approach, Inform ATC when practical.\nNote: The 6% missed approach climb gradient referred to above is the same gradient as used to calculate the\napproach minima.\n\nLOST COMMUNICATIONS:\nAs per Jeppesen 10-1P2\n\nCHAMBERY, FRANCE\nAIX-LES-BAINS\n13 MAY 2025 10-10-2P10\n\n-\n9.3. RNP Z RWY 18\nSee THREATS.\nThe RNP Z RWY 18 is available at 4.46 degrees for CAT B and CAT C aircraft as LPV, LNAV/VNAV and LNAV.\nCAUTION The Balked Landing Performance is limiting and critical. Carefully check balked landing performance\nduring planning and before approach.\nCL650 is PROHIBITED from the LPV due approach angle (AFM Supp 11)\n\nMINIMA:\nThe RNP Z has minima that is derived by table on Jeppesen 12-1A / 12-1B / 12-1C. This requires IAS and Missed\nApproach Climb Gradient (which takes into account the flight path to 5000 ft and turn degradation of 20 degrees).\nTo derive Jeppesen 12-1A / 12-1B / 12-1C minima:\na. Obtain missed approach climb gradient from table below;\n\nMissed Approach Climb Gradient (%)\nAll Gradients at Max Landing Mass \u2013 except the XLS at 40\u00b0C which is limited to 17,000 lb\n\nThis complies with the required mean geometrical gradient during the entire flight path to 5000ft and accounts for turn degradation.\nIncludes penalty of bleeds for applicable types.\nAssumes penalty of wing + cowl ice on for applicable types.\nConfig\nTemp\n(\u00b0C)\nMissed Approach Climb Gradient (%)\nPhenom\nXLS\nLatitude\nCL350\nFalcon\nCL650\nGlobal\n5000 &\n6000\nIce OFF\n40\u00b0\n2.7\n2.7\n3.8\n5.4\n2.9\n4.6\n3.0\n35\u00b0\n3.5\n2.7\n4.5\n6.1\n3.7\n5.2\n3.9\n30\u00b0\n4.4\n3.5\n5.2\n6.9\n4.2\n6.0\n4.3\n25\u00b0\n5.2\n4.4\n5.9\n6.9\n4.9\n6.4\n5.0\n20\u00b0\n5.9\n5.1\n6.7\n7.6\n5.3\n7.2\n5.2\n15\u00b0\n6.7\n6.0\n7.5\n8.1\n6.0\n7.3\n5.2\n10\u00b0\n7.4\n6.9\n8.0\n8.6\n6.4\n7.3\n5.2\n5\u00b0\n7.9\n7.3\n8.0\n8.6\n6.4\n7.3\n5.2\n0\u00b0 and colder\n7.9\n7.3\n8.0\n8.6\n6.4\n7.3\n5.2\nIce ON\n+10\u00b0\nNo data\n4.0\n3.5\n6.5\n4.2\n5.4\n3.3\n+5\u00b0\n5.4\n4.9\n4.2\n7.3\n4.5\n5.9\n5.2\n0\u00b0\n5.9\n5.8\n4.9\n8.0\n5.4\n6.4\n5.2\n-5\u00b0\n5.9\n5.8\n5.8\n8.5\n6.2\n6.6\n5.2\n-10\u00b0\n5.9\n5.8\n6.2\n8.5\n6.2\n6.9\n5.2\n-15\u00b0 and colder\n5.9\n5.8\n6.2\n8.5\n6.2\n6.9\n5.2\nb.\nFrom the AFM/QRH/OM-B determine the maximum speed that will be used during the missed approach.  This\nspeed shall be suitable for a 20\u00b0 banked turn.\nc.\nWith the gradient and speed determined, use the appropriate Jeppesen chart 12-1A,  12-1B or  12-1C, to\nestablish the applicable approach minima.\nWARNING:\nInterpolation of the Jeppesen minima tables is not permitted.\n\nCHAMBERY, FRANCE\nAIX-LES-BAINS\n13 MAY 2025 10-10-2P11\n\n-\nPerformance PDCS setup: \u2018Arrival\u2019 to LFLB, \u2018Runway\u2019 to 18. And,\n\u2018Departure\u2019 to LFLB, \u2018Runway\u2019 to 18DP7.\n\nMax Landing Mass is to be limited to the lower of the following:\nA. Landing Performance; Select \u2018Arrival\u2019 to LFLB and \u2018Runway\u2019 to 18. Input actual\nlanding weather and configuration, use \u2018FLDTA\u2019 in \u2018Options\u2019.\nB. Balked Landing Performance; Select \u2018Departure\u2019 to LFLB and \u2018Runway\u2019 to 18DP7.\nInput actual weather. Input \u2018Flap\u2019, and \u2018Options\u2019 as per table below.\n\nMissed Approach Procedure: Immediately initiate a maximum gradient climb and follow the published missed\napproach procedure.\n\nBalked Landing Procedure: As per Missed Approach Procedure above, OR, if conditions permit (DAY, VMC, 5Km Vis),\nperform a visual left-hand pattern (Max 150 Kts).\n\nRequired PDCS Settings for checking Balked Landing Performance on RNP Z.\nPDCS\n\u2018Departure\u2019\nto LFLB\nSETTING\nEMB-505\nCE-560XLS\nCE-680A\nBD-100\nDA-2EASy\nCL-600\nBD-700\n\u2018Runway\u2019 to\n18DP7\n\u2018FLAP\u2019\n2\n15\n2\n10\n10\n20\n6\n\u2018 OPTIONS\u2019\nANTI-\nICE\nAnti-Ice ON performance analysis must be used when LFLB is 10\u00b0C or colder\nand reported weather conditions would necessitate anti-ice protection\nduring any of the published missed approach procedure. (Rwy 18 \u2013 6,500ft\nat PIRUV)\nDRY\nRWY\nAlways Set to DRY regardless of actual RWY State.\n\nCHAMBERY, FRANCE\nAIX-LES-BAINS\n13 MAY 2025 10-10-2P12\n\n-\n9.4. VPT RWY 36\nSee THREATS.\nThe VPT RWY 36 can be flown after ILS/LOC Z, ILS/LOC Y or RNP Z.\n\nLIMITATION:\nVPT RWY 36 is limited to DAY ONLY and 5 km visibility to ensure adequate visual reference (NTA limitation).\n\nMINIMA:\nThe higher (most limiting) of the following shall be used as minima for the VPT RWY 36:",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ".1 GENERAL",
+            "See THREATS",
+            "There are multiple approaches to LFLB. Refer to section 6.Weather / Airports Limitations for applicable Jeppesen",
+            "charts, minima, and reference sections.",
+            "Preferred approach is the ILS/LOC Z (due to traffic flow and Geneva airspace). Delays may be experienced if",
+            "attempting a different approach (consider extra fuel, performance permitting). Straight-in approaches are only",
+            "available to RWY 18.",
+            "The RNP Z is also available to RWY 18 however the balked landing performance is limiting.",
+            "RWY 36 requires a Visual Prescribed Tracks (VPT) procedure flown following an instrument approach to RWY 18.",
+            "For landing on RWY 36 see section 9.4.VPT RWY 36."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "ILS/LOC Z RWY 18 initial approach and ILS/LOC Y&Z RWY 18 missed approaches require RNAV1 (RNAV1 navigation",
+            "specification requires the procedure must be retrievable from the FMS)."
+          ]
+        },
+        {
+          "type": "warning",
+          "lines": [
+            "WARNING:",
+            "The RNP Y RWY 18 (AR) is prohibited for all NTA aircraft. This is because NTA does not hold RNP (AR) approval."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION:",
+            "ILS/LOC Y&Z, RNP Z and PAPI RWY 18 steeper than usual at 4.46 degrees. (Jepps 10-9 incorrectly shows 4.5 due to",
+            "rounding error). Do not use \u2018steep approach\u2019 procedures however do check and apply applicable AFM",
+            "supplement/limitations for 4.46\u00b0.",
+            "PAPI RWY 36 steeper than usual at 4.0 degrees and prohibited for use beyond 5 NM."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CHAMBERY, FRANCE",
+            "AIX-LES-BAINS",
+            "10-10-2P7"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.2. ILS/LOC (Z/Y) APPROACH RWY 18",
+            "See THREATS.",
+            "PROCEDURE:",
+            "As per Jeppesen."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA:",
+            "The ILS/LOC has minima that is derived by table on Jeppesen 11-2A / 11-2B / 11-2C. This requires IAS and Missed",
+            "Approach Climb Gradient (which takes into account the flight path to 5000 ft and turn degradation of 20 degrees).",
+            "To derive Jeppesen 11-2A / 11-2B / 11-2C minima:",
+            "a. Obtain missed approach climb gradient from table below;",
+            "Missed Approach Climb Gradient (%)",
+            "All Gradients at Max Landing Mass \u2013 except the XLS at 40\u00b0C which is limited to 17,000 lb"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "This complies with the required mean geometrical gradient during the entire flight path to 5000ft and accounts for turn degradation.",
+            "Includes penalty of bleeds for applicable types.",
+            "Assumes penalty of wing + cowl ice on for applicable types.",
+            "Config",
+            "Temp",
+            "(\u00b0C)",
+            "Missed Approach Climb Gradient (%)",
+            "Phenom",
+            "XLS",
+            "Latitude",
+            "CL350",
+            "Falcon",
+            "CL650",
+            "Global",
+            "5000 &",
+            "6000",
+            "Ice OFF",
+            "40\u00b0",
+            "2.7",
+            "2.7",
+            "3.8",
+            "5.4",
+            "2.9",
+            "4.6",
+            "3.0",
+            "35\u00b0",
+            "3.5",
+            "2.7",
+            "4.5",
+            "6.1",
+            "3.7",
+            "5.2",
+            "3.9",
+            "30\u00b0",
+            "4.4",
+            "3.5",
+            "5.2",
+            "6.9",
+            "4.2",
+            "6.0",
+            "4.3",
+            "25\u00b0",
+            "5.2",
+            "4.4",
+            "5.9",
+            "6.9",
+            "4.9",
+            "6.4",
+            "5.0",
+            "20\u00b0",
+            "5.9",
+            "5.1",
+            "6.7",
+            "7.6",
+            "5.3",
+            "7.2",
+            "5.2",
+            "15\u00b0",
+            "6.7",
+            "6.0",
+            "7.5",
+            "8.1",
+            "6.0",
+            "7.3",
+            "5.2",
+            "10\u00b0",
+            "7.4",
+            "6.9",
+            "8.0",
+            "8.6",
+            "6.4",
+            "7.3",
+            "5.2",
+            "5\u00b0",
+            "7.9",
+            "7.3",
+            "8.0",
+            "8.6",
+            "6.4",
+            "7.3",
+            "5.2",
+            "0\u00b0 and colder",
+            "7.9",
+            "7.3",
+            "8.0",
+            "8.6",
+            "6.4",
+            "7.3",
+            "5.2",
+            "Ice ON",
+            "+10\u00b0",
+            "No data",
+            "4.0",
+            "3.5",
+            "6.5",
+            "4.2",
+            "5.4",
+            "3.3",
+            "+5\u00b0",
+            "5.4",
+            "4.9",
+            "4.2",
+            "7.3",
+            "4.5",
+            "5.9",
+            "5.2",
+            "0\u00b0",
+            "5.9",
+            "5.8",
+            "4.9",
+            "8.0",
+            "5.4",
+            "6.4",
+            "5.2",
+            "-5\u00b0",
+            "5.9",
+            "5.8",
+            "5.8",
+            "8.5",
+            "6.2",
+            "6.6",
+            "5.2",
+            "-10\u00b0",
+            "5.9",
+            "5.8",
+            "6.2",
+            "8.5",
+            "6.2",
+            "6.9",
+            "5.2",
+            "-15\u00b0 and colder",
+            "5.9",
+            "5.8",
+            "6.2",
+            "8.5",
+            "6.2",
+            "6.9",
+            "5.2"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "b. From the AFM/QRH/OM-B determine the maximum speed that will be used during the missed approach.  This",
+            "speed shall be suitable for a 20\u00b0 banked turn.",
+            "c. With the gradient and speed determined, use the appropriate Jeppesen chart 11-2A,  11-2B or  11-2C, to",
+            "establish the applicable approach minima."
+          ]
+        },
+        {
+          "type": "warning",
+          "lines": [
+            "WARNING:",
+            "Interpolation of the Jeppesen minima tables is not permitted."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CHAMBERY, FRANCE",
+            "AIX-LES-BAINS",
+            "10-10-2P8"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "PERFORMANCE:",
+            "For a straight-in approach to land RWY 18, ensure landing mass does not exceed the applicable dry runway",
+            "maximum take-off mass.",
+            "This ensures performance during a balked landing from straight-in RWY 18.",
+            "PDCS Settings: use \u201818DP5\u2019 in \u2018Departure\u2019 along with actual conditions for the Go-Around and \u2018DRY\u2019 Rwy in",
+            "\u2018Options\u2019."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CONTINGENCY:",
+            "Additional guidance is given in this briefing for the following contingency scenarios:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Missed Approach ILS/LOC RWY 18;",
+            "Balked Landing: Straight-in Approach RWY 18 from ILS / LOC Approach;",
+            "Communications Failure."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CHAMBERY, FRANCE",
+            "AIX-LES-BAINS",
+            "10-10-2P9"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.2.1. CONTINGENCY PROCEDURES ILS/LOC RWY 18"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MISSED APPROACH ILS/LOC RWY18:",
+            "As per Jeppesen."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "BALKED LANDING RWY 18:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Straight-in Approach RWY 18 from ILS/LOC Approach",
+            "If a go-around is initiated after passing DA (MDA) then the standard missed approach may not guarantee terrain",
+            "clearance. The following procedure should be adopted:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "All engines operating and missed approach climb gradient of 6% or greater:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Climb straight ahead towards CH with maximum climb gradient.",
+            "Cross CH at or above 3700 ft.",
+            "Continue with the standard missed approach procedure."
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note: The required climb gradient to cross CH at 3700 ft is 14.8% from a balked landing at THR. This requires a rate",
+            "of climb of 2400 fpm at 160 kt or 2100 fpm at 140 kt."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Engine failure or missed approach climb gradient < 6% or unable to cross CH at or above 3700 ft:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Climb straight ahead with maximum climb gradient.",
+            "Follow the NETJETS Engine Fail RWY 18 RNAV SIDS (Jepp 10- 7B).",
+            "If deviating from the standard Missed Approach, Inform ATC when practical."
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note: The 6% missed approach climb gradient referred to above is the same gradient as used to calculate the",
+            "approach minima."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LOST COMMUNICATIONS:",
+            "As per Jeppesen 10-1P2"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CHAMBERY, FRANCE",
+            "AIX-LES-BAINS",
+            "13 MAY 2025 10-10-2P10"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.3. RNP Z RWY 18",
+            "See THREATS.",
+            "The RNP Z RWY 18 is available at 4.46 degrees for CAT B and CAT C aircraft as LPV, LNAV/VNAV and LNAV."
+          ]
+        },
+        {
+          "type": "caution",
+          "lines": [
+            "CAUTION The Balked Landing Performance is limiting and critical. Carefully check balked landing performance",
+            "during planning and before approach.",
+            "CL650 is PROHIBITED from the LPV due approach angle (AFM Supp 11)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA:",
+            "The RNP Z has minima that is derived by table on Jeppesen 12-1A / 12-1B / 12-1C. This requires IAS and Missed",
+            "Approach Climb Gradient (which takes into account the flight path to 5000 ft and turn degradation of 20 degrees).",
+            "To derive Jeppesen 12-1A / 12-1B / 12-1C minima:",
+            "a. Obtain missed approach climb gradient from table below;"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Missed Approach Climb Gradient (%)",
+            "All Gradients at Max Landing Mass \u2013 except the XLS at 40\u00b0C which is limited to 17,000 lb"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "This complies with the required mean geometrical gradient during the entire flight path to 5000ft and accounts for turn degradation.",
+            "Includes penalty of bleeds for applicable types.",
+            "Assumes penalty of wing + cowl ice on for applicable types.",
+            "Config",
+            "Temp",
+            "(\u00b0C)",
+            "Missed Approach Climb Gradient (%)",
+            "Phenom",
+            "XLS",
+            "Latitude",
+            "CL350",
+            "Falcon",
+            "CL650",
+            "Global",
+            "5000 &",
+            "6000",
+            "Ice OFF",
+            "40\u00b0",
+            "2.7",
+            "2.7",
+            "3.8",
+            "5.4",
+            "2.9",
+            "4.6",
+            "3.0",
+            "35\u00b0",
+            "3.5",
+            "2.7",
+            "4.5",
+            "6.1",
+            "3.7",
+            "5.2",
+            "3.9",
+            "30\u00b0",
+            "4.4",
+            "3.5",
+            "5.2",
+            "6.9",
+            "4.2",
+            "6.0",
+            "4.3",
+            "25\u00b0",
+            "5.2",
+            "4.4",
+            "5.9",
+            "6.9",
+            "4.9",
+            "6.4",
+            "5.0",
+            "20\u00b0",
+            "5.9",
+            "5.1",
+            "6.7",
+            "7.6",
+            "5.3",
+            "7.2",
+            "5.2",
+            "15\u00b0",
+            "6.7",
+            "6.0",
+            "7.5",
+            "8.1",
+            "6.0",
+            "7.3",
+            "5.2",
+            "10\u00b0",
+            "7.4",
+            "6.9",
+            "8.0",
+            "8.6",
+            "6.4",
+            "7.3",
+            "5.2",
+            "5\u00b0",
+            "7.9",
+            "7.3",
+            "8.0",
+            "8.6",
+            "6.4",
+            "7.3",
+            "5.2",
+            "0\u00b0 and colder",
+            "7.9",
+            "7.3",
+            "8.0",
+            "8.6",
+            "6.4",
+            "7.3",
+            "5.2",
+            "Ice ON",
+            "+10\u00b0",
+            "No data",
+            "4.0",
+            "3.5",
+            "6.5",
+            "4.2",
+            "5.4",
+            "3.3",
+            "+5\u00b0",
+            "5.4",
+            "4.9",
+            "4.2",
+            "7.3",
+            "4.5",
+            "5.9",
+            "5.2",
+            "0\u00b0",
+            "5.9",
+            "5.8",
+            "4.9",
+            "8.0",
+            "5.4",
+            "6.4",
+            "5.2",
+            "-5\u00b0",
+            "5.9",
+            "5.8",
+            "5.8",
+            "8.5",
+            "6.2",
+            "6.6",
+            "5.2",
+            "-10\u00b0",
+            "5.9",
+            "5.8",
+            "6.2",
+            "8.5",
+            "6.2",
+            "6.9",
+            "5.2",
+            "-15\u00b0 and colder",
+            "5.9",
+            "5.8",
+            "6.2",
+            "8.5",
+            "6.2",
+            "6.9",
+            "5.2",
+            "b.",
+            "From the AFM/QRH/OM-B determine the maximum speed that will be used during the missed approach.  This",
+            "speed shall be suitable for a 20\u00b0 banked turn.",
+            "c.",
+            "With the gradient and speed determined, use the appropriate Jeppesen chart 12-1A,  12-1B or  12-1C, to",
+            "establish the applicable approach minima."
+          ]
+        },
+        {
+          "type": "warning",
+          "lines": [
+            "WARNING:",
+            "Interpolation of the Jeppesen minima tables is not permitted."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CHAMBERY, FRANCE",
+            "AIX-LES-BAINS",
+            "13 MAY 2025 10-10-2P11"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "Performance PDCS setup: \u2018Arrival\u2019 to LFLB, \u2018Runway\u2019 to 18. And,",
+            "\u2018Departure\u2019 to LFLB, \u2018Runway\u2019 to 18DP7."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Max Landing Mass is to be limited to the lower of the following:",
+            "A. Landing Performance; Select \u2018Arrival\u2019 to LFLB and \u2018Runway\u2019 to 18. Input actual",
+            "landing weather and configuration, use \u2018FLDTA\u2019 in \u2018Options\u2019.",
+            "B. Balked Landing Performance; Select \u2018Departure\u2019 to LFLB and \u2018Runway\u2019 to 18DP7.",
+            "Input actual weather. Input \u2018Flap\u2019, and \u2018Options\u2019 as per table below."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Missed Approach Procedure: Immediately initiate a maximum gradient climb and follow the published missed",
+            "approach procedure."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Balked Landing Procedure: As per Missed Approach Procedure above, OR, if conditions permit (DAY, VMC, 5Km Vis),",
+            "perform a visual left-hand pattern (Max 150 Kts)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Required PDCS Settings for checking Balked Landing Performance on RNP Z.",
+            "PDCS",
+            "\u2018Departure\u2019",
+            "to LFLB",
+            "SETTING",
+            "EMB-505",
+            "CE-560XLS",
+            "CE-680A",
+            "BD-100",
+            "DA-2EASy",
+            "CL-600",
+            "BD-700",
+            "\u2018Runway\u2019 to",
+            "18DP7",
+            "\u2018FLAP\u2019",
+            "2",
+            "15",
+            "2",
+            "10",
+            "10",
+            "20",
+            "6",
+            "\u2018 OPTIONS\u2019",
+            "ANTI-",
+            "ICE",
+            "Anti-Ice ON performance analysis must be used when LFLB is 10\u00b0C or colder",
+            "and reported weather conditions would necessitate anti-ice protection",
+            "during any of the published missed approach procedure. (Rwy 18 \u2013 6,500ft",
+            "at PIRUV)",
+            "DRY",
+            "RWY",
+            "Always Set to DRY regardless of actual RWY State."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CHAMBERY, FRANCE",
+            "AIX-LES-BAINS",
+            "13 MAY 2025 10-10-2P12"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.4. VPT RWY 36",
+            "See THREATS.",
+            "The VPT RWY 36 can be flown after ILS/LOC Z, ILS/LOC Y or RNP Z."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LIMITATION:",
+            "VPT RWY 36 is limited to DAY ONLY and 5 km visibility to ensure adequate visual reference (NTA limitation)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA:",
+            "The higher (most limiting) of the following shall be used as minima for the VPT RWY 36:"
+          ]
+        }
+      ],
+      "pages": [
+        6
+      ],
+      "page_images": [
+        "static/airports/lflb/page-06.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": ". Published VPT minima as per 19-10.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ". Published VPT minima as per 19-10."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        12,
+        15,
+        16,
+        16,
+        17,
+        17,
+        18,
+        19,
+        20
+      ],
+      "page_images": [
+        "static/airports/lflb/page-01.png",
+        "static/airports/lflb/page-12.png",
+        "static/airports/lflb/page-15.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-18.png",
+        "static/airports/lflb/page-19.png",
+        "static/airports/lflb/page-20.png"
+      ],
+      "embeds": [
+        "static/airports/lflb/embed-p17-02.jpeg",
+        "static/airports/lflb/embed-p17-02.jpeg"
+      ]
+    },
+    {
+      "num": 3,
+      "title": "Revalidation requirements",
+      "body": "AUTION:\nThe DA/MDA of the straight in LDG RWY 18 IAPs vary with performance. If the DA/MDA derived from the ILS/LOC or\nRNP Z is higher than the published VPT RWY 36 minima then the higher shall be used.\n\nPERFORMANCE:\nMax landing mass for RWY 36 as per PDCS.\nNote: The VPT RWY 36 weather minima permits a visual pattern so RWY 36 Max landing mass does not need to be\nfurther restricted for balked landing.\n\nPROCEDURE VPT RWY 36:\nAs per Jeppesen 19-10 VPT RWY 36. This is a VISUAL MANOEUVRE in mountainous terrain. However, the following\nwaypoints may be used to aid accurate tracking during the VPT:\nWAYPOINTS\n\nLFLB1 (Point B)\n\nN45 38.9 E005 55.1\nLFLB2 (Final turn)\n\nN45 36.7 E005 55.3\n\nWaypoints are plotted on the CAT C prescribed track but may be used by CAT B aircraft (see pictures next page).\n\nCONTINGENCY:\nAdditional guidance is given in this briefing for the following contingency scenarios:\n\u2022 Missed Approach / Balked landing RWY 36 when visual references can be maintained.\n\u2022 Loss of visual references during VPT RWY 36.\n\u2022 Communications Failure.\n\nCHAMBERY, FRANCE\nAIX-LES-BAINS\n13 MAY 2025 10-10-2P13\n\n-\n\nWAYPOINTS TO ASSIST POSITIONING VPT RWY 36\n\nFinal RWY 36\n\nCHAMBERY, FRANCE\nAIX-LES-BAINS\n13 MAY 2025 10-10-2P14\n\n-\n9.4.1. CONTINGENCY PROCEDURES VPT RWY 36\n\nMISSED APPROACH / BALKED LANDING RWY 36 WHEN VISUAL REFERENCES CAN BE MAINTAINED:\n\u2022 As per Jeppesen 19-10, follow prescribed tracks for another approach; or\n\u2022 If coordinated with ATC, follow localiser front-course outbound with max gradient climb to alternate.\n\nLOSS OF VISUAL REFERENCES DURING VPT RWY 36:\n\nBetween point A and point B:\n\u2022 Initiate a maximum gradient climb.\n\u2022 Maintain Track 135\u00b0 until D2.0 CY but do not overshoot D2.5 CY.\n\u2022 Then turn right (25\u00b0 bank) towards the runway; and\n\u2022 Intercept QDR 355\u00b0 CH and localiser front-course outbound.\n\u2022 Do not accelerate until established on the localiser front-course outbound.\n\nAfter passing point B:\n\u2022 Start max gradient climb and stay within 3 NM DME CY.\n\u2022 Then Turn right (25\u00b0 bank)  towards runway; and\n\u2022 Intercept QDR 355\u00b0 CH and localiser front-course outbound.\n\u2022 Do not accelerate until established on the localiser front-course outbound.\n\nLOST COMMUNICATIONS:\nAs per Jepps 10-1P2\n\nCHAMBERY, FRANCE\nAIX-LES-BAINS\n13 MAY 2025 10-10-2P15\n\n-\n9.5. ALTERNATE ARRIVAL PROCEDURES:\nSee THREATS.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "AUTION:",
+            "The DA/MDA of the straight in LDG RWY 18 IAPs vary with performance. If the DA/MDA derived from the ILS/LOC or",
+            "RNP Z is higher than the published VPT RWY 36 minima then the higher shall be used."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PERFORMANCE:",
+            "Max landing mass for RWY 36 as per PDCS."
+          ]
+        },
+        {
+          "type": "note",
+          "lines": [
+            "Note: The VPT RWY 36 weather minima permits a visual pattern so RWY 36 Max landing mass does not need to be",
+            "further restricted for balked landing."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "PROCEDURE VPT RWY 36:",
+            "As per Jeppesen 19-10 VPT RWY 36. This is a VISUAL MANOEUVRE in mountainous terrain. However, the following",
+            "waypoints may be used to aid accurate tracking during the VPT:",
+            "WAYPOINTS"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LFLB1 (Point B)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "N45 38.9 E005 55.1",
+            "LFLB2 (Final turn)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "N45 36.7 E005 55.3"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Waypoints are plotted on the CAT C prescribed track but may be used by CAT B aircraft (see pictures next page)."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CONTINGENCY:",
+            "Additional guidance is given in this briefing for the following contingency scenarios:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Missed Approach / Balked landing RWY 36 when visual references can be maintained.",
+            "Loss of visual references during VPT RWY 36.",
+            "Communications Failure."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CHAMBERY, FRANCE",
+            "AIX-LES-BAINS",
+            "13 MAY 2025 10-10-2P13"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "WAYPOINTS TO ASSIST POSITIONING VPT RWY 36"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Final RWY 36"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CHAMBERY, FRANCE",
+            "AIX-LES-BAINS",
+            "13 MAY 2025 10-10-2P14"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.4.1. CONTINGENCY PROCEDURES VPT RWY 36"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MISSED APPROACH / BALKED LANDING RWY 36 WHEN VISUAL REFERENCES CAN BE MAINTAINED:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "As per Jeppesen 19-10, follow prescribed tracks for another approach; or",
+            "If coordinated with ATC, follow localiser front-course outbound with max gradient climb to alternate."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LOSS OF VISUAL REFERENCES DURING VPT RWY 36:"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Between point A and point B:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Initiate a maximum gradient climb.",
+            "Maintain Track 135\u00b0 until D2.0 CY but do not overshoot D2.5 CY.",
+            "Then turn right (25\u00b0 bank) towards the runway; and",
+            "Intercept QDR 355\u00b0 CH and localiser front-course outbound.",
+            "Do not accelerate until established on the localiser front-course outbound."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "After passing point B:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Start max gradient climb and stay within 3 NM DME CY.",
+            "Then Turn right (25\u00b0 bank)  towards runway; and",
+            "Intercept QDR 355\u00b0 CH and localiser front-course outbound.",
+            "Do not accelerate until established on the localiser front-course outbound."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "LOST COMMUNICATIONS:",
+            "As per Jepps 10-1P2"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CHAMBERY, FRANCE",
+            "AIX-LES-BAINS",
+            "13 MAY 2025 10-10-2P15"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "9.5. ALTERNATE ARRIVAL PROCEDURES:",
+            "See THREATS."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        12,
+        15,
+        17,
+        18,
+        20,
+        20
+      ],
+      "page_images": [
+        "static/airports/lflb/page-01.png",
+        "static/airports/lflb/page-12.png",
+        "static/airports/lflb/page-15.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-18.png",
+        "static/airports/lflb/page-20.png",
+        "static/airports/lflb/page-20.png"
+      ],
+      "embeds": [
+        "static/airports/lflb/embed-p17-02.jpeg"
+      ]
+    },
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": "INIMA: Visibility 8 km / Ceiling 6000 ft / DAY ONLY.\nPROCEDURE: If available, then request radar vectors towards final and, once visual, request a visual approach. If\nradar vectors are not available, then proceed to the PIRUV HOLD, descend in the published hold to the MHA and, if\nvisual, then request a visual approach.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "INIMA: Visibility 8 km / Ceiling 6000 ft / DAY ONLY.",
+            "PROCEDURE: If available, then request radar vectors towards final and, once visual, request a visual approach. If",
+            "radar vectors are not available, then proceed to the PIRUV HOLD, descend in the published hold to the MHA and, if",
+            "visual, then request a visual approach."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        12,
+        15,
+        16,
+        16,
+        17,
+        17,
+        18,
+        19,
+        20
+      ],
+      "page_images": [
+        "static/airports/lflb/page-01.png",
+        "static/airports/lflb/page-12.png",
+        "static/airports/lflb/page-15.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-18.png",
+        "static/airports/lflb/page-19.png",
+        "static/airports/lflb/page-20.png"
+      ],
+      "embeds": [
+        "static/airports/lflb/embed-p17-02.jpeg",
+        "static/airports/lflb/embed-p17-02.jpeg"
+      ]
+    },
+    {
+      "num": 2,
+      "title": "Initial qualification requirements",
+      "body": "INIMA: Visibility 8 km / Ceiling 6000 ft / Day Only\nPROCEDURE: As per Jeppesen 19-10 VPT RWY 36 (use visual references and FMS waypoints given in 9.3.VPT RWY\n36 (Circle to Land RWY 36) to replace DME distances).",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "INIMA: Visibility 8 km / Ceiling 6000 ft / Day Only",
+            "PROCEDURE: As per Jeppesen 19-10 VPT RWY 36 (use visual references and FMS waypoints given in 9.3.VPT RWY",
+            "36 (Circle to Land RWY 36) to replace DME distances)."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        12,
+        15,
+        16,
+        16,
+        17,
+        18,
+        18,
+        19,
+        20
+      ],
+      "page_images": [
+        "static/airports/lflb/page-01.png",
+        "static/airports/lflb/page-12.png",
+        "static/airports/lflb/page-15.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-18.png",
+        "static/airports/lflb/page-18.png",
+        "static/airports/lflb/page-19.png",
+        "static/airports/lflb/page-20.png"
+      ],
+      "embeds": [
+        "static/airports/lflb/embed-p17-02.jpeg"
+      ]
+    },
+    {
+      "num": 3,
+      "title": "Revalidation requirements",
+      "body": "INIMA: Visibility 8 km / Ceiling 6000 ft / DAY ONLY.\nPROCEDURE: Follow the ILS / LOC Z, Y, & X (followed by VPT RWY 36 if landing RWY 36).\nMISSED APPROACH:\n-\n\u2018At CH NDB execute a climbing 80/260 procedure turn left (bank 20, MAX 160 KT) to re-join CH NDB\u2019,\nwith;\n-\n\u2018At D3.0 CY (past the station) execute a climbing 80/260 procedure turn left (bank 20\u00ba, MAX 160 KT) to\nvisually intercept and track the runway centreline northbound\u2019.\n-\nThen follow the normal procedure as described in the applicable Jeppesen Chart.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "INIMA: Visibility 8 km / Ceiling 6000 ft / DAY ONLY.",
+            "PROCEDURE: Follow the ILS / LOC Z, Y, & X (followed by VPT RWY 36 if landing RWY 36).",
+            "MISSED APPROACH:",
+            "-",
+            "\u2018At CH NDB execute a climbing 80/260 procedure turn left (bank 20, MAX 160 KT) to re-join CH NDB\u2019,",
+            "with;",
+            "-",
+            "\u2018At D3.0 CY (past the station) execute a climbing 80/260 procedure turn left (bank 20\u00ba, MAX 160 KT) to",
+            "visually intercept and track the runway centreline northbound\u2019.",
+            "-",
+            "Then follow the normal procedure as described in the applicable Jeppesen Chart."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        12,
+        15,
+        17,
+        18,
+        20,
+        20
+      ],
+      "page_images": [
+        "static/airports/lflb/page-01.png",
+        "static/airports/lflb/page-12.png",
+        "static/airports/lflb/page-15.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-18.png",
+        "static/airports/lflb/page-20.png",
+        "static/airports/lflb/page-20.png"
+      ],
+      "embeds": [
+        "static/airports/lflb/embed-p17-02.jpeg"
+      ]
+    },
+    {
+      "num": 4,
+      "title": "In-flight familiarisation syllabus",
+      "body": "ecommended procedure for LFLB when airspace is downgraded to class G and AFIS in English is not available.\nMINIMA: Visibility 8 km / Ceiling 6000 ft / DAY ONLY / One French speaking Crew Member.\nPROCEDURE:\n-\nVFR ONLY. When able cancel IFR with Lyon Approach 120.230 or 131.315 (East sector), do not cancel IFR\nwhile still in contact with Geneva. Lyon will route you to CBY VOR and cancel IFR.\n-\nRefer to Jeppesen VFR charts 19-1 (Vicinity) & 19-2 (Airport).\n-\nMake position reports on 123.700 (Air/Air freq.).\n-\nUse IFR procedures' lateral and vertical profiles as guidance for situational awareness.\n-\nFire & Rescue services monitor 123.700 & 118.300 frequencies.\n-\nFire & Rescue services do a runway sweep 3 times a day.\n-\nKeep a good lookout for Gliders, Paragliders, and other VFR traffic.\n-\nOnce on the ground close your flight plan by calling +33 5 57 926 084 (BORDEAUX BNIA*)\n* BORDEAUX BNIA \u2013 Bureau National d\u2019Information et d\u2019Assistance au vol (National Aeronautical\nInformation Service)\n\nCHAMBERY, FRANCE\nAIX-LES-BAINS\n13 MAY 2025 10-10-2P16\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "ecommended procedure for LFLB when airspace is downgraded to class G and AFIS in English is not available.",
+            "MINIMA: Visibility 8 km / Ceiling 6000 ft / DAY ONLY / One French speaking Crew Member.",
+            "PROCEDURE:",
+            "-",
+            "VFR ONLY. When able cancel IFR with Lyon Approach 120.230 or 131.315 (East sector), do not cancel IFR",
+            "while still in contact with Geneva. Lyon will route you to CBY VOR and cancel IFR.",
+            "-",
+            "Refer to Jeppesen VFR charts 19-1 (Vicinity) & 19-2 (Airport).",
+            "-",
+            "Make position reports on 123.700 (Air/Air freq.).",
+            "-",
+            "Use IFR procedures' lateral and vertical profiles as guidance for situational awareness.",
+            "-",
+            "Fire & Rescue services monitor 123.700 & 118.300 frequencies.",
+            "-",
+            "Fire & Rescue services do a runway sweep 3 times a day.",
+            "-",
+            "Keep a good lookout for Gliders, Paragliders, and other VFR traffic.",
+            "-",
+            "Once on the ground close your flight plan by calling +33 5 57 926 084 (BORDEAUX BNIA*)",
+            "* BORDEAUX BNIA \u2013 Bureau National d\u2019Information et d\u2019Assistance au vol (National Aeronautical",
+            "Information Service)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CHAMBERY, FRANCE",
+            "AIX-LES-BAINS",
+            "13 MAY 2025 10-10-2P16"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        15,
+        17
+      ],
+      "page_images": [
+        "static/airports/lflb/page-01.png",
+        "static/airports/lflb/page-15.png",
+        "static/airports/lflb/page-17.png"
+      ],
+      "embeds": [
+        "static/airports/lflb/embed-p17-02.jpeg"
+      ]
+    },
+    {
+      "num": 5,
+      "title": "Limitations / Miscellaneous",
+      "body": "hen conducting alternate approaches using visual references, in case of a missed approach / balked landing,\nuse all available aids (FMS, NDB, etc.) to follow as closely as possible the lateral and vertical profiles that would\nbe used for a normal approach, unless instructed otherwise by ATC.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "hen conducting alternate approaches using visual references, in case of a missed approach / balked landing,",
+            "use all available aids (FMS, NDB, etc.) to follow as closely as possible the lateral and vertical profiles that would",
+            "be used for a normal approach, unless instructed otherwise by ATC."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        16,
+        17
+      ],
+      "page_images": [
+        "static/airports/lflb/page-01.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-17.png"
+      ],
+      "embeds": [
+        "static/airports/lflb/embed-p17-02.jpeg"
+      ]
+    },
+    {
+      "num": 6,
+      "title": "Weather / Airport limitations",
+      "body": "s per Jepps 10-1P2",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "s per Jepps 10-1P2"
+          ]
+        }
+      ],
+      "pages": [
+        2,
+        16
+      ],
+      "page_images": [
+        "static/airports/lflb/page-02.png",
+        "static/airports/lflb/page-16.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 10,
+      "title": "Departure procedures",
+      "body": "0.1 GENERAL\n\nRWY 36:  There are several departures available from RWY 36. Jeppesen 10-3G & 3H detail an initial conventional\nclimb based on CY LOC outbound all others are full RNAV departures. The contingency procedure is shown on the\nJeppesen 10-7A. IFR and NIGHT approved.\n\nRWY 18:  There are two types of departure available:",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "0.1 GENERAL"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "RWY 36:  There are several departures available from RWY 36. Jeppesen 10-3G & 3H detail an initial conventional",
+            "climb based on CY LOC outbound all others are full RNAV departures. The contingency procedure is shown on the",
+            "Jeppesen 10-7A. IFR and NIGHT approved."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "RWY 18:  There are two types of departure available:"
+          ]
+        }
+      ],
+      "pages": [
+        16
+      ],
+      "page_images": [
+        "static/airports/lflb/page-16.png"
+      ],
+      "embeds": []
+    },
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": "rocedures are given on Jeppesen chart 10-7 NETJETS Rwy 18 VMC Dep to JOIN Rwy 36 Conventional SIDS.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "rocedures are given on Jeppesen chart 10-7 NETJETS Rwy 18 VMC Dep to JOIN Rwy 36 Conventional SIDS."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        12,
+        15,
+        16,
+        16,
+        17,
+        17,
+        18,
+        19,
+        20
+      ],
+      "page_images": [
+        "static/airports/lflb/page-01.png",
+        "static/airports/lflb/page-12.png",
+        "static/airports/lflb/page-15.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-18.png",
+        "static/airports/lflb/page-19.png",
+        "static/airports/lflb/page-20.png"
+      ],
+      "embeds": [
+        "static/airports/lflb/embed-p17-02.jpeg",
+        "static/airports/lflb/embed-p17-02.jpeg"
+      ]
+    },
+    {
+      "num": 2,
+      "title": "Initial qualification requirements",
+      "body": "he contingency is given on the Jeppesen chart 10-7B NETJETS Engine Fail Rwy 18 RNAV SIDS.\nDue to noise and political restraints, the RWY 18 RNAV SIDs are normally only available Fri-Mon. On all other days\nexpect RWY 18 VMC departures to join RWY 36 SIDs. If weather is below minima for the VMC departure (Tue -\nThurs) check with ATC if RWY 18 RNAV SIDs are exceptionally available.\n\n10.2. TAKE-OFF RWY 36\nSee THREATS.\nMINIMA:  As per Jeppesen.\nPERFORMANCE:  As per PDCS data.\nPROCEDURE:  NETJETS Special Airport (Rwy 36) (Jepp 10-7A) and appropriate SID chart.\nCONTINGENCY:   As per Jeppesen 10-7A.\n\nInclude the following items in the departure briefing:",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "he contingency is given on the Jeppesen chart 10-7B NETJETS Engine Fail Rwy 18 RNAV SIDS.",
+            "Due to noise and political restraints, the RWY 18 RNAV SIDs are normally only available Fri-Mon. On all other days",
+            "expect RWY 18 VMC departures to join RWY 36 SIDs. If weather is below minima for the VMC departure (Tue -",
+            "Thurs) check with ATC if RWY 18 RNAV SIDs are exceptionally available."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "10.2. TAKE-OFF RWY 36",
+            "See THREATS.",
+            "MINIMA:  As per Jeppesen.",
+            "PERFORMANCE:  As per PDCS data.",
+            "PROCEDURE:  NETJETS Special Airport (Rwy 36) (Jepp 10-7A) and appropriate SID chart.",
+            "CONTINGENCY:   As per Jeppesen 10-7A."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Include the following items in the departure briefing:"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        12,
+        15,
+        16,
+        16,
+        17,
+        18,
+        18,
+        19,
+        20
+      ],
+      "page_images": [
+        "static/airports/lflb/page-01.png",
+        "static/airports/lflb/page-12.png",
+        "static/airports/lflb/page-15.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-18.png",
+        "static/airports/lflb/page-18.png",
+        "static/airports/lflb/page-19.png",
+        "static/airports/lflb/page-20.png"
+      ],
+      "embeds": [
+        "static/airports/lflb/embed-p17-02.jpeg"
+      ]
+    },
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": ". Engine failure after passing D5.0 CY.\n\nCHAMBERY, FRANCE\nAIX-LES-BAINS\n13 MAY 2025 10-10-2P17\n\n-\n10.3. TAKE-OFF RWY 18",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ". Engine failure after passing D5.0 CY."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CHAMBERY, FRANCE",
+            "AIX-LES-BAINS",
+            "13 MAY 2025 10-10-2P17"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "10.3. TAKE-OFF RWY 18"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        12,
+        15,
+        16,
+        16,
+        17,
+        17,
+        18,
+        19,
+        20
+      ],
+      "page_images": [
+        "static/airports/lflb/page-01.png",
+        "static/airports/lflb/page-12.png",
+        "static/airports/lflb/page-15.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-18.png",
+        "static/airports/lflb/page-19.png",
+        "static/airports/lflb/page-20.png"
+      ],
+      "embeds": [
+        "static/airports/lflb/embed-p17-02.jpeg",
+        "static/airports/lflb/embed-p17-02.jpeg"
+      ]
+    },
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": "ee THREATS.\n\nMINIMA: 5 km / 3000 ft Ceiling / DAY ONLY.\n(Before departure, check the actual weather in the area of CH Locator for the ability to complete the 80/260 visually)\nPERFORMANCE: As per PDCS 18DP5.\nPROCEDURE: RWY 18 VMC departures to join RWY 36 SIDs (Jepp 10-7), appropriate SID chart, and Pictorial Detail of\n80\u00b0/260\u00b0 Manoeuvre.\nCONTINGENCY: As per Jeppesen 10-7. Referring to Jepp 10-7, include the following items in the departure briefing:",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "ee THREATS."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA: 5 km / 3000 ft Ceiling / DAY ONLY.",
+            "(Before departure, check the actual weather in the area of CH Locator for the ability to complete the 80/260 visually)",
+            "PERFORMANCE: As per PDCS 18DP5.",
+            "PROCEDURE: RWY 18 VMC departures to join RWY 36 SIDs (Jepp 10-7), appropriate SID chart, and Pictorial Detail of",
+            "80\u00b0/260\u00b0 Manoeuvre.",
+            "CONTINGENCY: As per Jeppesen 10-7. Referring to Jepp 10-7, include the following items in the departure briefing:"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        12,
+        15,
+        16,
+        16,
+        17,
+        17,
+        18,
+        19,
+        20
+      ],
+      "page_images": [
+        "static/airports/lflb/page-01.png",
+        "static/airports/lflb/page-12.png",
+        "static/airports/lflb/page-15.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-18.png",
+        "static/airports/lflb/page-19.png",
+        "static/airports/lflb/page-20.png"
+      ],
+      "embeds": [
+        "static/airports/lflb/embed-p17-02.jpeg",
+        "static/airports/lflb/embed-p17-02.jpeg"
+      ]
+    },
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": ". Engine failure before initiating the left turn at CH NDB (straight ahead D4.5 CY - see 10-7).",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ". Engine failure before initiating the left turn at CH NDB (straight ahead D4.5 CY - see 10-7)."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        12,
+        15,
+        16,
+        16,
+        17,
+        17,
+        18,
+        19,
+        20
+      ],
+      "page_images": [
+        "static/airports/lflb/page-01.png",
+        "static/airports/lflb/page-12.png",
+        "static/airports/lflb/page-15.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-18.png",
+        "static/airports/lflb/page-19.png",
+        "static/airports/lflb/page-20.png"
+      ],
+      "embeds": [
+        "static/airports/lflb/embed-p17-02.jpeg",
+        "static/airports/lflb/embed-p17-02.jpeg"
+      ]
+    },
+    {
+      "num": 3,
+      "title": "Revalidation requirements",
+      "body": ". Engine failure after passing D5.0 CY outbound (follow assigned SID - see 10-7).",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ". Engine failure after passing D5.0 CY outbound (follow assigned SID - see 10-7)."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        12,
+        15,
+        17,
+        18,
+        20,
+        20
+      ],
+      "page_images": [
+        "static/airports/lflb/page-01.png",
+        "static/airports/lflb/page-12.png",
+        "static/airports/lflb/page-15.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-18.png",
+        "static/airports/lflb/page-20.png",
+        "static/airports/lflb/page-20.png"
+      ],
+      "embeds": [
+        "static/airports/lflb/embed-p17-02.jpeg"
+      ]
+    },
+    {
+      "num": 5,
+      "title": "Limitations / Miscellaneous",
+      "body": "0\u00b0/260\u00b0 Manoeuvre\n\nCHAMBERY, FRANCE\nAIX-LES-BAINS\n13 MAY 2025 10-10-2P18\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "0\u00b0/260\u00b0 Manoeuvre"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CHAMBERY, FRANCE",
+            "AIX-LES-BAINS",
+            "13 MAY 2025 10-10-2P18"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        16,
+        17
+      ],
+      "page_images": [
+        "static/airports/lflb/page-01.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-17.png"
+      ],
+      "embeds": [
+        "static/airports/lflb/embed-p17-02.jpeg"
+      ]
+    },
+    {
+      "num": 2,
+      "title": "Initial qualification requirements",
+      "body": "ee THREATS.\n\nMINIMA: As per Jeppesen.\nPERFORMANCE: As per PDCS 18DP5.\nPROCEDURE: As per Jeppesen chart for assigned SID.\nCONTINGENCY: As per Jeppesen 10-7B. Include the following items in the departure briefing:",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "ee THREATS."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "MINIMA: As per Jeppesen.",
+            "PERFORMANCE: As per PDCS 18DP5.",
+            "PROCEDURE: As per Jeppesen chart for assigned SID.",
+            "CONTINGENCY: As per Jeppesen 10-7B. Include the following items in the departure briefing:"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        12,
+        15,
+        16,
+        16,
+        17,
+        18,
+        18,
+        19,
+        20
+      ],
+      "page_images": [
+        "static/airports/lflb/page-01.png",
+        "static/airports/lflb/page-12.png",
+        "static/airports/lflb/page-15.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-18.png",
+        "static/airports/lflb/page-18.png",
+        "static/airports/lflb/page-19.png",
+        "static/airports/lflb/page-20.png"
+      ],
+      "embeds": [
+        "static/airports/lflb/embed-p17-02.jpeg"
+      ]
+    },
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": ". Engine failure after D4.5 CY.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            ". Engine failure after D4.5 CY."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        12,
+        15,
+        16,
+        16,
+        17,
+        17,
+        18,
+        19,
+        20
+      ],
+      "page_images": [
+        "static/airports/lflb/page-01.png",
+        "static/airports/lflb/page-12.png",
+        "static/airports/lflb/page-15.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-18.png",
+        "static/airports/lflb/page-19.png",
+        "static/airports/lflb/page-20.png"
+      ],
+      "embeds": [
+        "static/airports/lflb/embed-p17-02.jpeg",
+        "static/airports/lflb/embed-p17-02.jpeg"
+      ]
+    },
+    {
+      "num": 3,
+      "title": "Revalidation requirements",
+      "body": "HAMBERY, FRANCE\nAIX-LES-BAINS\n13 MAY 2025 10-10-2P19\n\n-\n10.4. ALTERNATE TAKE-OFF PROCEDURES\n\nAlternative departure procedures are given in this briefing for the following 3 scenarios:\nA. Departure with CY LOC / DME Inoperative;\nB. Departure with NDB CH Inop;\nC. Departure when airspace is downgraded to Class G and AFIS in English is not available.\n\nA. DEPARTURE WITH CY LOC / DME INOPERATIVE\nSee THREATS.\nDetailed below are the differences from the normal procedures when the CY LOC/DME is inoperative. They should be\nread in conjunction with the normal procedures to gain a full understanding of what is required.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "HAMBERY, FRANCE",
+            "AIX-LES-BAINS",
+            "13 MAY 2025 10-10-2P19"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-",
+            "10.4. ALTERNATE TAKE-OFF PROCEDURES"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Alternative departure procedures are given in this briefing for the following 3 scenarios:",
+            "A. Departure with CY LOC / DME Inoperative;",
+            "B. Departure with NDB CH Inop;",
+            "C. Departure when airspace is downgraded to Class G and AFIS in English is not available."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "A. DEPARTURE WITH CY LOC / DME INOPERATIVE",
+            "See THREATS.",
+            "Detailed below are the differences from the normal procedures when the CY LOC/DME is inoperative. They should be",
+            "read in conjunction with the normal procedures to gain a full understanding of what is required."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        12,
+        15,
+        17,
+        18,
+        20,
+        20
+      ],
+      "page_images": [
+        "static/airports/lflb/page-01.png",
+        "static/airports/lflb/page-12.png",
+        "static/airports/lflb/page-15.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-18.png",
+        "static/airports/lflb/page-20.png",
+        "static/airports/lflb/page-20.png"
+      ],
+      "embeds": [
+        "static/airports/lflb/embed-p17-02.jpeg"
+      ]
+    },
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": "INIMA: Visibility 8 km / Ceiling 6000 ft / DAY ONLY.\nPROCEDURE: Request a visual departure to join the assigned SID at BANEK, use all available aids, particularly\nthe FMS to follow the lateral and vertical profile of a normal departure.\nCONTINGENCY: Visually follow ground track of the escape procedure (Jepp chart 10-7A). The following\napproximations may be useful:\nD9.0 CY is approx. D6.4 CBY.\nD5.0 CY is approx. D10.4 CBY.\nSee also the Visual overlay charts 10-7A.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "INIMA: Visibility 8 km / Ceiling 6000 ft / DAY ONLY.",
+            "PROCEDURE: Request a visual departure to join the assigned SID at BANEK, use all available aids, particularly",
+            "the FMS to follow the lateral and vertical profile of a normal departure.",
+            "CONTINGENCY: Visually follow ground track of the escape procedure (Jepp chart 10-7A). The following",
+            "approximations may be useful:",
+            "D9.0 CY is approx. D6.4 CBY.",
+            "D5.0 CY is approx. D10.4 CBY.",
+            "See also the Visual overlay charts 10-7A."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        12,
+        15,
+        16,
+        16,
+        17,
+        17,
+        18,
+        19,
+        20
+      ],
+      "page_images": [
+        "static/airports/lflb/page-01.png",
+        "static/airports/lflb/page-12.png",
+        "static/airports/lflb/page-15.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-18.png",
+        "static/airports/lflb/page-19.png",
+        "static/airports/lflb/page-20.png"
+      ],
+      "embeds": [
+        "static/airports/lflb/embed-p17-02.jpeg",
+        "static/airports/lflb/embed-p17-02.jpeg"
+      ]
+    },
+    {
+      "num": 2,
+      "title": "Initial qualification requirements",
+      "body": "INIMA: Visibility 8 km / Ceiling 6000 ft / DAY ONLY.\nPROCEDURE: Request a visual departure to join the assigned SID at BANEK, use all available aids, particularly\nthe FMS to follow the lateral and vertical profile of a normal departure as depicted in Chart 10-7.\nCONTINGENCY:\n\u25aa ENGINE FAILURE BEFORE CH NDB: Visually make the turn onto track 325\u00b0 at the position for D4.5\nCY. This is shown on Visual overlay turn at D4.5 CY. It may also be achieved by timing for 1.5 NM\ndistance beyond the CH NDB.\nGroundspeed\nTiming for 1.5NM\n120 KT\n45 s\n130 KT\n42 s\n140 KT\n39 s\n150 KT\n36 s\n160 KT\n34 s\nVisually follow the remainder of the contingency as per 'DEPARTURE RWY 36 (CY LOC/DME INOP)' above.\n\n\u25aa ENGINE FAILURE AFTER CH NDB:\no Follow the 80/260 procedure in Jepp 10-7.\no Establish on the R355\u00b0 CH NDB outbound. Follow the remaining part of the contingency procedure\nusing visual guidance as per 'DEPARTURE RWY 36 (CY LOC/DME INOP)' above.\nFor differences for RNAV SIDs RWY 18 (CY LOC/DME Inop) see next page.\n\nCHAMBERY, FRANCE\nAIX-LES-BAINS\n13 MAY 2025 10-10-2P20\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "INIMA: Visibility 8 km / Ceiling 6000 ft / DAY ONLY.",
+            "PROCEDURE: Request a visual departure to join the assigned SID at BANEK, use all available aids, particularly",
+            "the FMS to follow the lateral and vertical profile of a normal departure as depicted in Chart 10-7.",
+            "CONTINGENCY:",
+            "\u25aa ENGINE FAILURE BEFORE CH NDB: Visually make the turn onto track 325\u00b0 at the position for D4.5",
+            "CY. This is shown on Visual overlay turn at D4.5 CY. It may also be achieved by timing for 1.5 NM",
+            "distance beyond the CH NDB.",
+            "Groundspeed",
+            "Timing for 1.5NM",
+            "120 KT",
+            "45 s",
+            "130 KT",
+            "42 s",
+            "140 KT",
+            "39 s",
+            "150 KT",
+            "36 s",
+            "160 KT",
+            "34 s",
+            "Visually follow the remainder of the contingency as per 'DEPARTURE RWY 36 (CY LOC/DME INOP)' above."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "\u25aa ENGINE FAILURE AFTER CH NDB:",
+            "o Follow the 80/260 procedure in Jepp 10-7.",
+            "o Establish on the R355\u00b0 CH NDB outbound. Follow the remaining part of the contingency procedure",
+            "using visual guidance as per 'DEPARTURE RWY 36 (CY LOC/DME INOP)' above.",
+            "For differences for RNAV SIDs RWY 18 (CY LOC/DME Inop) see next page."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CHAMBERY, FRANCE",
+            "AIX-LES-BAINS",
+            "13 MAY 2025 10-10-2P20"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        12,
+        15,
+        16,
+        16,
+        17,
+        18,
+        18,
+        19,
+        20
+      ],
+      "page_images": [
+        "static/airports/lflb/page-01.png",
+        "static/airports/lflb/page-12.png",
+        "static/airports/lflb/page-15.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-18.png",
+        "static/airports/lflb/page-18.png",
+        "static/airports/lflb/page-19.png",
+        "static/airports/lflb/page-20.png"
+      ],
+      "embeds": [
+        "static/airports/lflb/embed-p17-02.jpeg"
+      ]
+    },
+    {
+      "num": 3,
+      "title": "Revalidation requirements",
+      "body": "INIMA: Visibility 8 km / Ceiling 6000 ft / DAY ONLY.\nPROCEDURE: as per Jeppesen RNAV SID.\nCONTINGENCY:\n\u25aa ENGINE FAILURE BEFORE CH NDB: Visually make the turn onto track 325\u00b0 at the position of D4.5 CY\nwhich is 0.5 NM prior to LB620 (see also Visual overlay turn at D4.5 CY). Visually follow the remainder\nof the contingency as per 'DEPARTURE RWY 36 (CY LOC/DME INOP)' above.\n\u25aa ENGINE FAILURE AFTER CH NDB: Follow the SID.\n\nB. DEPARTURE WITH NDB CH INOP\nSee THREATS.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "INIMA: Visibility 8 km / Ceiling 6000 ft / DAY ONLY.",
+            "PROCEDURE: as per Jeppesen RNAV SID.",
+            "CONTINGENCY:",
+            "\u25aa ENGINE FAILURE BEFORE CH NDB: Visually make the turn onto track 325\u00b0 at the position of D4.5 CY",
+            "which is 0.5 NM prior to LB620 (see also Visual overlay turn at D4.5 CY). Visually follow the remainder",
+            "of the contingency as per 'DEPARTURE RWY 36 (CY LOC/DME INOP)' above.",
+            "\u25aa ENGINE FAILURE AFTER CH NDB: Follow the SID."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "B. DEPARTURE WITH NDB CH INOP",
+            "See THREATS."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        12,
+        15,
+        17,
+        18,
+        20,
+        20
+      ],
+      "page_images": [
+        "static/airports/lflb/page-01.png",
+        "static/airports/lflb/page-12.png",
+        "static/airports/lflb/page-15.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-18.png",
+        "static/airports/lflb/page-20.png",
+        "static/airports/lflb/page-20.png"
+      ],
+      "embeds": [
+        "static/airports/lflb/embed-p17-02.jpeg"
+      ]
+    },
+    {
+      "num": 1,
+      "title": "Qualification requirements",
+      "body": "o impact, minima and procedures as per OM-C.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "o impact, minima and procedures as per OM-C."
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        12,
+        15,
+        16,
+        16,
+        17,
+        17,
+        18,
+        19,
+        20
+      ],
+      "page_images": [
+        "static/airports/lflb/page-01.png",
+        "static/airports/lflb/page-12.png",
+        "static/airports/lflb/page-15.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-16.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-18.png",
+        "static/airports/lflb/page-19.png",
+        "static/airports/lflb/page-20.png"
+      ],
+      "embeds": [
+        "static/airports/lflb/embed-p17-02.jpeg",
+        "static/airports/lflb/embed-p17-02.jpeg"
+      ]
+    },
+    {
+      "num": 3,
+      "title": "Revalidation requirements",
+      "body": "INIMA: Visibility 8 km / Ceiling 6000 ft / DAY ONLY.\nPROCEDURE: Follow the procedure as per Jepp 10-7B. However, for an Engine failure before D4.5 CY, turn\nat D4.5CY, maintain VMC and visually intercept / track the runway centreline northbound. Then follow the\nremaining procedure as per Jepp 10-7B .\n\nC. DEPARTURE WHEN AIRSPACE IS DOWNGRADED TO CLASS G AND AFIS IN ENGLISH IS NOT AVAILABLE (ATC NOT\nAVAILABLE)\nSee THREATS.\nMINIMA: Visibility 8 km / Ceiling 6000 ft / One French speaking Crew Member.\nPROCEDURE:\n\u2022 Pre-start, obtain enroute clearance by calling +33 5 57 926 084 (BORDEAUX BNIA*).\n\u2022 If not possible, either contact Flight Dispatch for assistance or depart VFR and obtain airborne clearance from\nGENEVA DEPARTURES 119.530.\n\u2022 Brief OM-A 8.3.2. VFR Flight.\n\u2022 Make position reports on 123.700 (Air/Air freq), including while taxing on the runway.\n\u2022 Maintain VMC and clear of controlled airspace until IFR and clearance to enter controlled airspace is\nconfirmed.\n\u2022 If IFR clearance is delayed, consider routing VFR towards the PIRUV hold above 6500ft (this is the main arrival\nlevel at PIRUV for inbound traffic).\n\u2022 Expect gliders, paragliders, and other VFR traffic.\n\u2022 All other procedures and contingencies are as per previous paragraphs.\n* BORDEAUX BNIA \u2013 Bureau National d\u2019Information et d\u2019Assistance au vol (National Aeronautical Information Service)\n\nCHAMBERY, FRANCE\nAIX-LES-BAINS\n13 MAY 2025 10-10-2P21\n\n-\n\nVisual Overlay for 10-7A\n\nCHAMBERY, FRANCE\nAIX-LES-BAINS\n13 MAY 2025 10-10-2P22\n\n-\n\nVisual overlay turn at D4.5 CY\n\nCHAMBERY, FRANCE\nAIX-LES-BAINS\n13 MAY 2025 10-10-2P23\n\n-",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "INIMA: Visibility 8 km / Ceiling 6000 ft / DAY ONLY.",
+            "PROCEDURE: Follow the procedure as per Jepp 10-7B. However, for an Engine failure before D4.5 CY, turn",
+            "at D4.5CY, maintain VMC and visually intercept / track the runway centreline northbound. Then follow the",
+            "remaining procedure as per Jepp 10-7B ."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "C. DEPARTURE WHEN AIRSPACE IS DOWNGRADED TO CLASS G AND AFIS IN ENGLISH IS NOT AVAILABLE (ATC NOT",
+            "AVAILABLE)",
+            "See THREATS.",
+            "MINIMA: Visibility 8 km / Ceiling 6000 ft / One French speaking Crew Member.",
+            "PROCEDURE:"
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Pre-start, obtain enroute clearance by calling +33 5 57 926 084 (BORDEAUX BNIA*).",
+            "If not possible, either contact Flight Dispatch for assistance or depart VFR and obtain airborne clearance from"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "GENEVA DEPARTURES 119.530."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Brief OM-A 8.3.2. VFR Flight.",
+            "Make position reports on 123.700 (Air/Air freq), including while taxing on the runway.",
+            "Maintain VMC and clear of controlled airspace until IFR and clearance to enter controlled airspace is"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "confirmed."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "If IFR clearance is delayed, consider routing VFR towards the PIRUV hold above 6500ft (this is the main arrival"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "level at PIRUV for inbound traffic)."
+          ]
+        },
+        {
+          "type": "list",
+          "lines": [
+            "Expect gliders, paragliders, and other VFR traffic.",
+            "All other procedures and contingencies are as per previous paragraphs."
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "* BORDEAUX BNIA \u2013 Bureau National d\u2019Information et d\u2019Assistance au vol (National Aeronautical Information Service)"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CHAMBERY, FRANCE",
+            "AIX-LES-BAINS",
+            "13 MAY 2025 10-10-2P21"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Visual Overlay for 10-7A"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CHAMBERY, FRANCE",
+            "AIX-LES-BAINS",
+            "13 MAY 2025 10-10-2P22"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Visual overlay turn at D4.5 CY"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "CHAMBERY, FRANCE",
+            "AIX-LES-BAINS",
+            "13 MAY 2025 10-10-2P23"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "-"
+          ]
+        }
+      ],
+      "pages": [
+        1,
+        12,
+        15,
+        17,
+        18,
+        20,
+        20
+      ],
+      "page_images": [
+        "static/airports/lflb/page-01.png",
+        "static/airports/lflb/page-12.png",
+        "static/airports/lflb/page-15.png",
+        "static/airports/lflb/page-17.png",
+        "static/airports/lflb/page-18.png",
+        "static/airports/lflb/page-20.png",
+        "static/airports/lflb/page-20.png"
+      ],
+      "embeds": [
+        "static/airports/lflb/embed-p17-02.jpeg"
+      ]
+    },
+    {
+      "num": 11,
+      "title": "Ground procedures",
+      "body": "efer to Jeppesen.",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "efer to Jeppesen."
+          ]
+        }
+      ],
+      "pages": [
+        23
+      ],
+      "page_images": [
+        "static/airports/lflb/page-23.png"
+      ],
+      "embeds": [
+        "static/airports/lflb/embed-p23-02.jpeg"
+      ]
+    },
+    {
+      "num": 12,
+      "title": "Miscellaneous",
+      "body": "3. CHARTS/PICTURES/OTHER\n\nAverage weather and precipitation",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "3. CHARTS/PICTURES/OTHER"
+          ]
+        },
+        {
+          "type": "text",
+          "lines": [
+            "Average weather and precipitation"
+          ]
+        }
+      ],
+      "pages": [
+        23
+      ],
+      "page_images": [
+        "static/airports/lflb/page-23.png"
+      ],
+      "embeds": [
+        "static/airports/lflb/embed-p23-02.jpeg"
+      ]
+    },
+    {
+      "num": 14,
+      "title": "Changes since the last revision",
+      "body": "NP Z RWY18 incorporated. VPT minima clarified. Comm failure procedure amended. ATC unavailable\nprocedure amended. RNAV1 unable procedures removed. PAPI angle clarified.\nProvide feedback to Lis-OpsTechnical@netjets.com",
+      "blocks": [
+        {
+          "type": "text",
+          "lines": [
+            "NP Z RWY18 incorporated. VPT minima clarified. Comm failure procedure amended. ATC unavailable",
+            "procedure amended. RNAV1 unable procedures removed. PAPI angle clarified.",
+            "Provide feedback to Lis-OpsTechnical@netjets.com"
+          ]
+        }
+      ],
+      "pages": [
+        23
+      ],
+      "page_images": [
+        "static/airports/lflb/page-23.png"
+      ],
+      "embeds": [
+        "static/airports/lflb/embed-p23-02.jpeg"
+      ]
+    }
+  ]
+}

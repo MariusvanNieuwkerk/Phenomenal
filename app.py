@@ -14,20 +14,24 @@ from PIL import Image
 from systems.air_management import render_air_management
 from systems.airplane_general import render_airplane_general
 from systems.automatic_flight import render_automatic_flight
+from systems.cabin_ife import render_cabin_ife
 from systems.electrics import render_electrics
 from systems.fire_protection import render_fire_protection
 from systems.flight_controls import render_flight_controls
 from systems.fuel import render_fuel
+from systems.hydraulics import render_hydraulics
 from systems.ice_protection import render_ice_protection
+from systems.landing_gear import render_landing_gear
 from systems.oxygen import render_oxygen
 from systems.powerplant import render_powerplant
+from systems.rnav_approaches import render_rnav_approaches
 from systems.warning_system import render_warning_system
-from study.handbook import render_handbook
+from study.semantic_color import mi_md
 from study.sop import render_sop
 from study.special_airports import render_special_airports
 from ui.shell import render_app_shell
-from ui.theme import inject_theme_css, inject_memory_page_css, render_page_header
-from content.render_helpers import render_search_focus_banner, source_footer
+from ui.theme import inject_scroll_to_top_chevron, inject_theme_css, inject_memory_page_css, render_page_header
+from content.render_helpers import render_search_focus_banner, source_footer, systems_page_top
 
 _icon_path = os.path.join(_app_dir, "static", "briefly-icon.svg")
 st.set_page_config(
@@ -41,7 +45,7 @@ OPERATIONS_MANUALS = [
     ("OM-A - Operations Manual Part A.pdf", "Operations Manual Part A — general company operations."),
     ("OM-B - Operations Manual Part B - EMB-505.pdf", "Operations Manual Part B — EMB-505 aircraft-specific procedures."),
     ("OM-C - Operations Manual Part C.pdf", "Operations Manual Part C — route and aerodrome reference."),
-    ("Handbook Phenom 300.pdf", "Phenom 300 training handbook."),
+    ("Handbook Phenom 300.pdf", "Phenom 300 fleet handbook — full reference (detail lives in Briefly per topic)."),
 ]
 
 def _inject_ui_css():
@@ -63,7 +67,7 @@ def navigate(section, system=None, airport=None, focus=None):
         st.session_state.system = None
     if airport is not None:
         st.session_state.airport_selected = airport
-    elif section != "airports":
+    else:
         st.session_state.airport_selected = None
     if focus is not None:
         st.session_state.search_focus = focus
@@ -97,6 +101,8 @@ def render_systems():
         "Airplane General",
         "Air Management",
         "Automatic Flight",
+        "Cabin & IFE",
+        "RNAV / RNP Approaches",
         "Electrics",
         "Powerplant",
         "Fire Protection",
@@ -108,7 +114,10 @@ def render_systems():
         "Oxygen",
         "Warning System",
     ]
-    
+
+    st.markdown("#### Aircraft systems")
+    systems_page_top()
+
     col1, col2 = st.columns(2, gap="large")
     for i, sys in enumerate(systems_list):
         col = [col1, col2][i % 2]
@@ -125,6 +134,10 @@ def render_systems():
         render_air_management()
     elif st.session_state.system == "Automatic Flight":
         render_automatic_flight()
+    elif st.session_state.system == "Cabin & IFE":
+        render_cabin_ife()
+    elif st.session_state.system == "RNAV / RNP Approaches":
+        render_rnav_approaches()
     elif st.session_state.system == "Electrics":
         render_electrics()
     elif st.session_state.system == "Powerplant":
@@ -146,681 +159,7 @@ def render_systems():
     elif st.session_state.system == "Warning System":
         render_warning_system()
     else:
-        st.info("Select a system above to view details.")
-
-def render_hydraulics():
-    st.markdown("## Hydraulic System")
-    st.caption("ATA 29 | Source: Phenom 300 POH")
-    
-    folder = "assets/hydraulics"
-    
-    with st.expander("**1. System Description**", expanded=True):
-        st.markdown("""
-**What makes up the system:**
-- Two **Engine Driven Pumps (EDP)** - one on each engine
-- One **reservoir** with built-in manifold
-- One **accumulator** for backup pressure
-- Two **Fire Shutoff Valves (FSOV)** - one per engine
-- One **nitrogen charging valve**
-- One **pressure gauge**
-- Two **temperature switches**
-
-**Fluid specs:**
-- Type: MIL-PRF-87257 (synthetic hydrocarbon)
-- Color: **Red** - and highly flammable!
-- System pressure: **3000 psi**
-
-**What does hydraulics power?**
-- Landing gear (extend/retract)
-- Main wheel brakes
-- Emergency/Parking brakes
-- Spoilers (all functions)
-- Stick pusher
-- Rudder spring actuator
-
-**Where to see hydraulic info:**
-- System status → **MFD synoptic page**
-- Warnings/messages → **Both PFDs**
-""")
-    
-    with st.expander("**2. Reservoir & Manifold**", expanded=False):
-        st.markdown("""
-**How the reservoir works:**
-- A **spring-rolling diaphragm** keeps the fluid pressurized
-- There's a sight glass on the side so you can **visually check fluid level**
-
-**Fluid flow path:**
-1. Fluid leaves the reservoir → goes to the pump
-2. Pump pressurizes it → sends it to the manifold
-3. Manifold filters the fluid → routes it to aircraft systems
-4. Returning fluid gets **filtered again** before going back to reservoir
-
-**Sensors built into the manifold:**
-- **2 temperature switches** - monitor fluid temp
-- **2 pressure switches** - control automatic pump operation
-- **1 pressure transducer** - provides continuous pressure reading to cockpit
-""")
-    
-    with st.expander("**3. Engine Driven Pump (EDP)**", expanded=False):
-        st.markdown("""
-**The basics:**
-- Each engine has one pump attached to its **accessory gearbox**
-- This is your **only** source of hydraulic power - there are no electric backup pumps
-- Simple rule: **Engine running = pump running**
-
-**How it works:**
-1. Engine spins the pump via a coupling shaft
-2. Pump draws low-pressure fluid from the reservoir
-3. Pump outputs **variable flow** at **3000 psi**
-
-**Case drain line:**
-- The pump's internal parts need lubrication
-- This lubricating fluid drains back to the reservoir through a dedicated line
-- It passes through the **return filter** before reaching the reservoir
-""")
-    
-    with st.expander("**4. Fire Shutoff Valve (FSOV)**", expanded=False):
-        st.markdown("""
-**What it is:**
-- Two valves total - one for each engine's hydraulic pump
-- Powered by the **Emergency Bus** *(remember this!)*
-- Position switches tell you if valve is fully **OPEN** or fully **CLOSED**
-
-**Automatic protection:**
-- Valves **close automatically** if hydraulic fluid gets too hot (HYD HI TEMP)
-- System won't let you reopen them manually while overtemp exists
-
-**How to close them manually:**
-- **Option 1:** Engine fire extinguisher shutoff buttons (1 or 2)
-- **Option 2:** HYD PUMP SOV switches on hydraulic panel
-
-**When would you close them?**
-- Engine fire
-- HYD HI TEMP message
-- Hydraulic leak (follow QRH)
-""")
-    
-    with st.expander("**5. Accumulator**", expanded=False):
-        st.markdown("""
-**What it does:**
-- Stores extra hydraulic pressure for high-demand situations
-- Capacity: **25 cubic inches**
-
-**When it helps:**
-- Braking + ground spoilers at the same time (landing roll)
-- Any moment when demand exceeds what the pumps can supply
-
-**How it's built:**
-- Cylinder with a sliding piston inside
-- One side: hydraulic fluid | Other side: compressed gas (nitrogen)
-- Piston keeps them separated and at **equal pressure**
-
-**Emergency backup:**
-- If both pumps fail, the accumulator holds enough pressure for **6 full brake applications**
-""")
-    
-    with st.expander("**6. Priority Valve**", expanded=False):
-        st.markdown("""
-**Purpose:** Protects the most critical systems when hydraulic demand is high.
-
-**Priority systems (always get fluid first):**
-- Spoilers
-- Stick pusher
-- Rudder spring actuator
-- Brakes
-
-**What happens when demand is high:**
-- The valve **restricts flow to the landing gear**
-- Gear still works - it just uses **accumulator pressure** instead
-- Gear may cycle slower, but flight controls and brakes stay fully powered
-
-**Example scenario:**
-- Engines at idle = low pump output
-- You're moving gear AND using spoilers
-- Priority valve says: "Spoilers and brakes first, gear can wait"
-- **Bottom line:** You never lose control authority or braking
-""")
-    
-    with st.expander("**7. Controls & Indications**", expanded=False):
-        st.markdown("""
-**Where to find hydraulic info:**
-- **MFD Synoptic Page** - shows system diagram plus emergency/parking brake accumulator pressure
-
-**HYD PUMP SOV 1 & 2 Switches:**
-
-| Position | What it does |
-|----------|--------------|
-| **OPEN** | Opens the Fire Shutoff Valve (normal position) |
-| **CLOSED** | Closes the FSOV - stops hydraulic fluid flow to that pump |
-
-**When should you close the SOV?**
-- Engine fire
-- HYD HI TEMP message
-- Hydraulic leak (follow QRH procedure)
-""")
-        panel_path = os.path.join(folder, "hyd_panel.png")
-        if os.path.exists(panel_path):
-            st.image(Image.open(panel_path), caption="HYD PUMP SOV Switches", use_container_width=True)
-    
-    with st.expander("**8. Pressure Indication**", expanded=False):
-        st.markdown("""
-**Reading the digital pressure display:**
-
-| Color | What it means |
-|-------|---------------|
-| **GREEN digits** | All good - pressure is above 1800 psi |
-| **YELLOW digits** | Caution - pressure is 1800 psi or below |
-| **GRAY** | Just the "PSI" label |
-| **YELLOW DASHED** | Data is invalid or out of range |
-
----
-
-**Reading the pressure gauge (arc with pointer):**
-
-The pointer shows the same value as the digital readout.
-
-| Part | Normal (>1800 psi) | Low (≤1800 psi) |
-|------|-------------------|-----------------|
-| **Scale arc** | WHITE | YELLOW |
-| **Pointer** | GREEN | YELLOW |
-
-If the value is invalid, the pointer disappears from the display.
-""")
-    
-    with st.expander("**9. CAS Messages**", expanded=False):
-        st.markdown("**What the warning messages mean:**")
-        
-        cas_data = [
-            ["CAUTION", "HYD HI TEMP", "Fluid is overheating - FSOVs will close automatically"],
-            ["CAUTION", "HYD LO PRES", "System pressure dropped below normal - check for leaks"],
-            ["CAUTION", "HYD SOV 1 (2) FAIL", "FSOV won't close when commanded - valve malfunction"],
-            ["ADVISORY", "HYD SYS FAULT", "Reduced hydraulic power available - system degraded"]
-        ]
-        df_cas = pd.DataFrame(cas_data, columns=["Level", "Message", "What it means"])
-        st.dataframe(df_cas, hide_index=True, use_container_width=True)
-        
-        cas_path = os.path.join(folder, "hyd_cas.png")
-        if os.path.exists(cas_path):
-            st.image(Image.open(cas_path), caption="CAS Messages Reference", use_container_width=True)
-    
-    with st.expander("**10. System Schematic**", expanded=False):
-        schematic_path = os.path.join(folder, "hyd_schematic.png")
-        if os.path.exists(schematic_path):
-            st.image(Image.open(schematic_path), caption="Hydraulic System Schematic", use_container_width=True)
-
-    with st.expander("**11. Synoptic pages (POH)**", expanded=False):
-        poh_paths = []
-        if os.path.isdir(folder):
-            for name in os.listdir(folder):
-                if name.startswith("poh_6-10_synoptic_") and name.lower().endswith(".png"):
-                    poh_paths.append(os.path.join(folder, name))
-        poh_paths.sort()
-        if not poh_paths:
-            st.info("No POH synoptic pages found for hydraulics yet.")
-        else:
-            cols = st.columns(2, gap="medium")
-            for i, p in enumerate(poh_paths):
-                with cols[i % 2]:
-                    st.image(Image.open(p), caption=os.path.basename(p), use_container_width=True)
-
-def render_landing_gear():
-    st.markdown("## Landing Gear & Brakes")
-    st.caption("ATA 32 | Source: Phenom 300 POH")
-    
-    folder = "assets/landing_gear"
-    
-    with st.expander("**1. System Description**", expanded=True):
-        st.markdown("""
-**Configuration:** Tricycle retractable gear, hydraulically powered
-
-**The three gear legs:**
-- **Nose gear (NLG):** Retracts **forward** into the fuselage
-- **Main gear (MLG):** Retracts **inward** into the wing-fuselage fairing
-
-**How the gear works:**
-- Controlled by the **LDG GEAR lever** on the main instrument panel
-- Two positions: **UP** (retract) and **DN** (extend)
-- Command is **electrical**, actuation is **hydraulic**
-
-**Built-in safety (ground lock):**
-- An interlock **prevents** moving the lever to UP while on the ground
-- In an emergency, you can override this with the **DN LCK REL** button on the LDG GEAR panel
-""")
-        lg_overview_path = os.path.join(folder, "lg_overview.png")
-        if os.path.exists(lg_overview_path):
-            st.image(Image.open(lg_overview_path), caption="Landing Gear Overview", use_container_width=True)
-        
-        lg_control_path = os.path.join(folder, "lg_control_panel.png")
-        if os.path.exists(lg_control_path):
-            st.image(Image.open(lg_control_path), caption="LDG GEAR Control Panel", use_container_width=True)
-
-    with st.expander("**1b. Synoptic pages (POH)**", expanded=False):
-        poh_paths = []
-        if os.path.isdir(folder):
-            for name in os.listdir(folder):
-                if name.startswith("poh_6-12_synoptic_") and name.lower().endswith(".png"):
-                    poh_paths.append(os.path.join(folder, name))
-        poh_paths.sort()
-        if not poh_paths:
-            st.info("No POH synoptic pages found for landing gear yet.")
-        else:
-            cols = st.columns(2, gap="medium")
-            for i, p in enumerate(poh_paths):
-                with cols[i % 2]:
-                    st.image(Image.open(p), caption=os.path.basename(p), use_container_width=True)
-    
-    with st.expander("**2. Landing Gear Operation**", expanded=False):
-        st.markdown("""
-**RETRACTION (Lever UP)**
-
-When you move the lever to UP:
-1. Electrical command activates the hydraulic retraction actuators
-2. **Wheels are automatically braked** to stop spinning
-3. Gear retracts and locks into the **uplock box**
-4. All gear doors close
-
----
-
-**NORMAL EXTENSION (Lever DN)**
-
-When you move the lever to DN:
-1. Uplock box releases each gear leg
-2. Gear extends under hydraulic power
-3. **Down lock mechanism** holds gear in extended position
-4. Green lights illuminate when locked down
-
-**What's normal:**
-- The nose gear often takes **longer** to show a green light than the mains
-- All three legs don't necessarily lock at the exact same time
-- A short delay in position indications is **normal** - don't panic
-""")
-    
-    with st.expander("**3. Emergency Extension (Free-Fall)**", expanded=False):
-        st.markdown("""
-**What it's for:** Extends the gear when normal hydraulic extension fails
-
-**Emergency handle location:** On the cockpit **floor**
-
-**How it works:**
-1. Pull the free-fall handle
-2. This activates the **free-fall selector valve**
-3. Valve dumps all hydraulic pressure from the gear lines
-4. Up locks are **mechanically released**
-
-**What happens next:**
-- **Gravity and airflow** push the gear down (no hydraulics needed)
-- **Down lock mechanism** locks the gear in place
-- Green DN lights appear only **after** you move the LDG GEAR lever to DN
-
-**Important details:**
-- Maximum pull force needed: **25 kg (55 lb)**
-- If a main gear won't lock, you may need to **slip the airplane** to use airflow to push that leg into the lock
-""")
-        freefall_path = os.path.join(folder, "freefall_handle.png")
-        if os.path.exists(freefall_path):
-            st.image(Image.open(freefall_path), caption="Free-Fall Handle Location", use_container_width=True)
-    
-    with st.expander("**4. Uplock Box**", expanded=False):
-        st.markdown("""
-**What it does:** Holds each gear leg **up and locked** when retracted
-
-**Two ways to unlock it:**
-1. **Normal:** Hydraulic actuator releases the lock when you select gear DN
-2. **Emergency:** Mechanical release via the free-fall handle (no hydraulics needed)
-
-**How the system knows the gear is up:**
-- Each uplock box has a **proximity sensor**
-- When the gear locks in, the sensor signals "up and locked" to the cockpit
-""")
-    
-    with st.expander("**5. Position & Warning Subsystem**", expanded=False):
-        st.markdown("""
-**Sensors that tell the system where the gear is:**
-- **Down and locked** proximity switches (one per leg)
-- **Up and locked** proximity switches (one per leg)
-- **Weight On Wheels (WOW)** switches - two per main gear
-- **Lever position** micro switches
-
-**What happens with this data:**
-- The system combines all these signals to show you gear position
-- Also generates CAS messages when something is wrong
-
-**Weight On Wheels (WOW) - important for many systems:**
-- These switches detect whether the airplane is **on the ground** or **airborne**
-- Compressed = on ground | Extended = airborne
-- If WOW sensors disagree for more than **30 seconds**, you get: **"LG WOW SYS FAIL"**
-""")
-        lg_ind_path = os.path.join(folder, "lg_indications.png")
-        if os.path.exists(lg_ind_path):
-            st.image(Image.open(lg_ind_path), caption="Landing Gear Position Indications (Normal vs Abnormal)", use_container_width=True)
-    
-    with st.expander("**6. Landing Gear Aural Warning**", expanded=False):
-        st.markdown("""
-**Purpose:** Warns you if the gear isn't down and locked when it should be
-
----
-
-**With flaps at 0, 1, or 2:**
-
-The horn sounds when **ALL** of these are true:
-- Below **700 ft AGL** (radio alt) or within **700 ft** of field elevation
-- Airspeed below **160 KIAS**
-- Power is reduced (thrust levers below **26°/40°** depending on engine status)
-
----
-
-**With flaps at 3 or FULL:**
-
-- Warning sounds **regardless** of speed, altitude, or power setting
-- **Cannot be silenced** with the WRN INHIB button
-
----
-
-**If flaps have failed:**
-
-- Warning sounds if descending through **700 ft** above field elevation
-
-**Note:** Pre-Mod SB 505-27-0011 aircraft: FULL flap position is blocked by a mechanical stop.
-""")
-    
-    with st.expander("**7. Brakes System Overview**", expanded=False):
-        st.markdown("""
-**Two separate brake systems:**
-1. **Main brakes** - your normal braking system
-2. **Emergency/Parking brakes** - backup and parking
-
-Both use hydraulic pressure from the main hydraulic system.
-
----
-
-**Main Brake System - what it does:**
-- Applies brake pressure based on how hard you push the pedals
-- Provides **antiskid protection** to prevent skidding
-- Minimizes stopping distance
-
-**Emergency/Parking Brake - what it does:**
-- Stops the airplane if main brakes fail
-- Holds the airplane parked (works even with hydraulics off)
-
----
-
-**How the main brakes work (brake-by-wire):**
-1. You push the rudder pedals (top portion)
-2. **Pedal transducers** sense how much pressure you're applying
-3. Signal goes to the **Brake Control Unit (BCU)**
-4. BCU commands the **brake control valves (BCVs)** - one per wheel
-5. BCVs apply the right amount of hydraulic pressure to the brakes
-
-**Key component - the BCU:**
-- Controls left and right brakes **independently**
-- Connected to the **Emergency Bus** (important for emergencies!)
-- Monitors: wheel speed, pedal position, and brake pressure
-""")
-    
-    with st.expander("**8. Brake System Functions**", expanded=False):
-        st.markdown("""
-The brake system has **four automatic protection functions:**
-
----
-
-**A. LOCKED WHEEL PROTECTION**
-
-**Purpose:** Prevents a tire from blowing out if one wheel locks up
-
-**How it works:**
-- BCU compares left and right wheel speeds
-- If one wheel drops to **≤30%** of the other's speed, it's "locked"
-- System **releases pressure** on that wheel so it can spin back up
-- Normal braking resumes when the slow wheel reaches **70%** of the other wheel's speed
-
-**Below 30 kt:** Protection turns off so you can use differential braking for steering
-
----
-
-**B. ANTISKID PROTECTION**
-
-**Purpose:** Maximizes braking without skidding
-
-**How it works:**
-- If a wheel starts to skid, the system **reduces brake pressure** automatically
-- This lets the tire regain grip, then reapplies pressure
-- Active when both wheels are above **30 kt**
-
-**Below 10 kt:** Antiskid turns off - you can lock a wheel for pivoting
-
-**Important:** Antiskid is **NOT available** on the emergency/parking brake!
-
----
-
-**C. TOUCHDOWN PROTECTION**
-
-**Purpose:** Prevents braking before the wheels spin up at landing
-
-**How it works:**
-- Even if you're pressing the pedals in the flare, **no brake pressure is applied**
-- Wheels are allowed to spin up freely at touchdown
-- Prevents tire blowout from sudden braking on a stationary wheel
-
-**When it cancels:**
-- Both wheels exceed **60 kt** (even before WOW says "on ground")
-- **3 seconds** after WOW indicates "on ground" (regardless of speed)
-- After touchdown, the spin-up threshold drops from **60 → 30 kt** over 3 seconds
-
-**Note:** Below **10 kt** with WOW showing airborne, normal braking is disabled
-
----
-
-**D. GEAR RETRACT BRAKING**
-
-**Purpose:** Stops the wheels from spinning before they enter the wheel well
-
-**How it works:**
-1. When WOW = airborne AND you select gear UP
-2. BCU waits **3 seconds** (for hydraulic demand to settle)
-3. Then applies ramped brake pressure to stop the wheels
-4. If wheels aren't stopped in **10 seconds**, system resets and tries again
-5. When wheel speed = zero, brake pressure is released
-""")
-    
-    with st.expander("**9. Initiated Built-In Test (IBIT)**", expanded=False):
-        st.markdown("""
-**What it is:** An automatic self-test the brake system runs in flight
-
-**When it runs (all conditions must be true):**
-- Gear lever moves from UP to DN
-- At least one gear shows down and locked
-- WOW indicates airborne
-- Both wheels are stationary
-- 10-second delay (lets hydraulic pressure stabilize)
-
-**What it tests:**
-- Runs the brake pressure loop through its full range
-- Checks the SOV, brake control valves, and pressure transducers
-
-**Duration:** About **5 seconds**
-""")
-    
-    with st.expander("**10. Emergency/Parking Brake**", expanded=False):
-        st.markdown("""
-**Two uses for this system:**
-1. **Parking brake** - hold the airplane while parked
-2. **Emergency brake** - stop the airplane if main brakes fail
-
----
-
-**The T-Handle:**
-- Located on the **center pedestal**
-- Connected to the brake valve by a steel cable
-- Pull up = brakes ON | Push down = brakes OFF
-- You can **modulate** pressure by how much you pull
-
----
-
-**The Accumulator (stores pressure for emergencies):**
-- Isolated from the main hydraulic system by a check valve and shutoff valve
-- Shutoff valve opens during engine start (on ground, both thrust levers at idle for **>50 seconds**)
-- Holds enough pressure for **6 full brake applications**
-
----
-
-**How you know it's working:**
-- When you pull the handle, hydraulic pressure goes to the brakes
-- A **white PARK BRK light** illuminates on the front panel
-
----
-
-**⚠️ CAUTION:** No antiskid protection with emergency/parking brake!
-""")
-        col1, col2 = st.columns(2)
-        with col1:
-            park_handle_path = os.path.join(folder, "parking_brake_handle.png")
-            if os.path.exists(park_handle_path):
-                st.image(Image.open(park_handle_path), caption="Parking Brake T-Handle Location", use_container_width=True)
-        with col2:
-            park_light_path = os.path.join(folder, "parking_brake_light.png")
-            if os.path.exists(park_light_path):
-                st.image(Image.open(park_light_path), caption="Parking Brake Light Indicator", use_container_width=True)
-        
-        emer_brk_path = os.path.join(folder, "emer_brk_accu.png")
-        if os.path.exists(emer_brk_path):
-            st.image(Image.open(emer_brk_path), caption="Emergency Brake Accumulator Pressure Display (MFD)", use_container_width=True)
-    
-    with st.expander("**11. Fusible Plugs & Brake Wear Pins**", expanded=False):
-        st.markdown("""
-**FUSIBLE PLUGS**
-
-**What they are:** Safety plugs in the main wheels with a metal core that melts when hot
-
-**Why they exist:**
-- After a high-energy event (like an RTO), brakes get extremely hot
-- Heat transfers to the tires, which could explode in the wheel well
-- The fusible plug melts and **releases tire pressure safely** before that can happen
-
-**Location:** Main wheel assemblies only
-
----
-
-**BRAKE WEAR PINS**
-
-**What they are:** Visual indicators showing how much brake pad is left
-
-**How to check:**
-1. Set the **parking brake** (required for accurate reading!)
-2. Look at the wear pins on each main wheel
-3. If pins are **flush with Face A**, brakes need replacement
-
-**Simple rule:** Pins sticking out = good | Pins flush = time to replace
-""")
-        
-        img_path = os.path.join(folder, "brake_wear_pins_new.png")
-        if os.path.exists(img_path):
-            st.image(Image.open(img_path), caption="Brake Wear Pins Location", use_container_width=True)
-    
-    with st.expander("**12. Turning Radius Data**", expanded=False):
-        st.markdown("**TURNING RADIUS (STEERING 20°)**")
-        
-        turn_20_data = [
-            ["Nose R1", "19.68 m", "64 ft 6.8 in"],
-            ["Nose Gear R2", "19.18 m", "52 ft 11 in"],
-            ["Inboard Gear R3", "16.5 m", "54 ft 1.6 in"],
-            ["Outboard Gear R4", "19.54 m", "64 ft 1.3 in"],
-            ["Right Wing Tip R5", "26.1 m", "85 ft 7.5 in"],
-            ["Right Tail Tip R6", "22.25 m", "73 ft"]
-        ]
-        df_turn20 = pd.DataFrame(turn_20_data, columns=["Position", "Metric", "Imperial"])
-        st.dataframe(df_turn20, hide_index=True, use_container_width=True)
-        
-        st.markdown("**Wingspan clearance (Steering 20°):** 52.20 m (171 ft 3 in)")
-        st.markdown("**Wing-to-wing clearance:** 39.10 m (128 ft 3.4 in)")
-        
-        st.markdown("---")
-        st.markdown("**TURNING ASSISTED BY BRAKES RADIUS (STEERING 20° + 23°)**")
-        
-        turn_43_data = [
-            ["Nose R1", "10.78 m", "35 ft 4.4 in"],
-            ["Nose Gear R2", "9.64 m", "31 ft 7.5 in"],
-            ["Inboard Gear R3", "5.51 m", "18 ft 0.9 in"],
-            ["Outboard Gear R4", "8.56 m", "28 ft 1.0 in"],
-            ["Right Wing Tip R5", "15.2 m", "49 ft 10.4 in"],
-            ["Right Tail Tip R6", "12.5 m", "41 ft"]
-        ]
-        df_turn43 = pd.DataFrame(turn_43_data, columns=["Position", "Metric", "Imperial"])
-        st.dataframe(df_turn43, hide_index=True, use_container_width=True)
-        
-        st.markdown("**Wingspan clearance (43°):** 30.40 m (99 ft 8.8 in)")
-        st.markdown("**Wing-to-wing clearance:** 18.18 m (59 ft 7.7 in)")
-        
-        st.markdown("---")
-        st.markdown("**TURNING RADIUS (BRAKED)**")
-        
-        braked_data = [
-            ["R1", "2.84 m", "9 ft 3.8 in"],
-            ["R2", "6.71 m", "22 ft"],
-            ["R3", "9.71 m", "31 ft 10.3 in"]
-        ]
-        df_braked = pd.DataFrame(braked_data, columns=["Position", "Metric", "Imperial"])
-        st.dataframe(df_braked, hide_index=True, use_container_width=True)
-        
-        st.markdown("**Wall-to-Wall:** 19.41 m (63 ft 8.2 in)")
-        st.markdown("**Curb-to-Curb:** 9.55 m (31 ft 4 in)")
-        
-        st.markdown("---")
-        st.markdown("**TURNING RADIUS (TOWBAR)**")
-        
-        towbar_data = [
-            ["R1", "1.42 m", "4 ft 8 in"],
-            ["R2", "6.56 m", "21 ft 6.3 in"],
-            ["R3", "8.34 m", "27 ft 4.3 in"]
-        ]
-        df_towbar = pd.DataFrame(towbar_data, columns=["Position", "Metric", "Imperial"])
-        st.dataframe(df_towbar, hide_index=True, use_container_width=True)
-        
-        st.markdown("**Wall-to-Wall:** 16.68 m (54 ft 8.7 in)")
-        st.markdown("**Curb-to-Curb:** 7.98 m (26 ft 2.2 in)")
-    
-    with st.expander("**13. CAS Messages**", expanded=False):
-        st.markdown("**What these warning messages mean:**")
-        
-        cas_data = [
-            ["WARNING", "LG LEVER DISAG", "Gear position doesn't match lever position - something's wrong"],
-            ["WARNING", "ANTI-SKID FAIL", "Antiskid protection is not working - expect longer stopping distances"],
-            ["WARNING", "BRK FAIL", "Lost braking on one main wheel - use emergency brakes if needed"],
-            ["CAUTION", "EMER BRK LO PRES", "Emergency/parking brake accumulator is running low on pressure"],
-            ["CAUTION", "LG WOW SYS FAIL", "Weight on wheels sensors are disagreeing - affects many systems"],
-            ["CAUTION", "PARK BRK NOT REL", "Parking brake is still set - release before takeoff!"]
-        ]
-        df_cas = pd.DataFrame(cas_data, columns=["Level", "Message", "What it means"])
-        st.dataframe(df_cas, hide_index=True, use_container_width=True)
-    
-    with st.expander("**14. System Diagrams**", expanded=False):
-        st.markdown("**Landing Gear Components**")
-        col1, col2 = st.columns(2)
-        with col1:
-            mlg_path = os.path.join(folder, "mlg_components.png")
-            if os.path.exists(mlg_path):
-                st.image(Image.open(mlg_path), caption="Main Landing Gear Components", use_container_width=True)
-        with col2:
-            nlg_path = os.path.join(folder, "nlg_components.png")
-            if os.path.exists(nlg_path):
-                st.image(Image.open(nlg_path), caption="Nose Landing Gear Components", use_container_width=True)
-        
-        st.markdown("---")
-        st.markdown("**Landing Gear Hydraulic Schematic**")
-        schematic_path = os.path.join(folder, "lg_schematic_new.png")
-        if os.path.exists(schematic_path):
-            st.image(Image.open(schematic_path), caption="Landing Gear Hydraulic System", use_container_width=True)
-        
-        st.markdown("---")
-        st.markdown("**Brake System Schematic**")
-        brake_path = os.path.join(folder, "brake_schematic_new.png")
-        if os.path.exists(brake_path):
-            st.image(Image.open(brake_path), caption="Brake System Schematic", use_container_width=True)
-        
-        st.markdown("---")
-        st.markdown("**Turning Radius (Towbar)**")
-        towbar_path = os.path.join(folder, "turn_towbar_new.png")
-        if os.path.exists(towbar_path):
-            st.image(Image.open(towbar_path), caption="Turning Radius with Towbar", use_container_width=True)
+        st.info("Klik hierboven op een systeem om de uitleg te zien.")
 
 def render_limitations():
     render_search_focus_banner()
@@ -1057,7 +396,7 @@ def render_memory():
     render_search_focus_banner()
     inject_memory_page_css()
     with st.expander("**SMOKE EVACUATION**", expanded=False):
-        st.markdown("""
+        mi_md("""
 | Item | Action |
 |------|--------|
 | Oxygen Masks | DON, EMERGENCY |
@@ -1070,7 +409,7 @@ def render_memory():
 """)
     
     with st.expander("**SMOKE / FIRE / FUME**", expanded=False):
-        st.markdown("""
+        mi_md("""
 | Item | Action |
 |------|--------|
 | Oxygen Masks | DON, EMERGENCY |
@@ -1081,7 +420,7 @@ def render_memory():
 """)
     
     with st.expander("**E1(2) FIRE**", expanded=False):
-        st.markdown("""
+        mi_md("""
 **Affected Engine:**
 
 | Item | Action |
@@ -1098,7 +437,7 @@ def render_memory():
 """)
     
     with st.expander("**ENGINE FIRE, SEVERE DAMAGE or SEPARATION**", expanded=False):
-        st.markdown("""
+        mi_md("""
 **Affected Engine:**
 
 | Item | Action |
@@ -1115,7 +454,7 @@ def render_memory():
 """)
     
     with st.expander("**DUAL ENGINE FAILURE**", expanded=False):
-        st.markdown("""
+        mi_md("""
 | Item | Action |
 |------|--------|
 | Thrust Lever | IDLE |
@@ -1124,7 +463,7 @@ def render_memory():
 """)
     
     with st.expander("**ENGINE ABNORMAL START**", expanded=False):
-        st.markdown("""
+        mi_md("""
 **Affected Engine:**
 
 | Item | Action |
@@ -1133,7 +472,7 @@ def render_memory():
 """)
     
     with st.expander("**ELEC EMERGENCY**", expanded=False):
-        st.markdown("""
+        mi_md("""
 | Item | Action |
 |------|--------|
 | PRESN MODE Switch | MAN |
@@ -1153,14 +492,14 @@ def render_memory():
 """)
     
     with st.expander("**ELEC XFR FAIL**", expanded=False):
-        st.markdown("""
+        mi_md("""
 | Item | Action |
 |------|--------|
 | ELEC EMER Button | PUSH IN |
 """)
     
     with st.expander("**EMERGENCY EVACUATION**", expanded=False):
-        st.markdown("""
+        mi_md("""
 | Item | Action |
 |------|--------|
 | Thrust Levers | IDLE |
@@ -1175,7 +514,7 @@ def render_memory():
 """)
     
     with st.expander("**CAB ALTITUDE HI**", expanded=False):
-        st.markdown("""
+        mi_md("""
 | Item | Action |
 |------|--------|
 | Oxygen Masks | DON, 100% |
@@ -1191,7 +530,7 @@ def render_memory():
 """)
     
     with st.expander("**EMERGENCY DESCENT**", expanded=False):
-        st.markdown("""
+        mi_md("""
 | Item | Action |
 |------|--------|
 | SIGNS/OUTLET Switch | PED BELTS / OFF |
@@ -1205,7 +544,7 @@ def render_memory():
 """)
     
     with st.expander("**LG WOW SYS FAIL**", expanded=False):
-        st.markdown("""
+        mi_md("""
 *If associated with engine failure and obstacle clearance, simultaneously proceed:*
 
 | Item | Action |
@@ -1215,7 +554,7 @@ def render_memory():
 """)
     
     with st.expander("**GEAR LEVER CANNOT BE MOVED UP**", expanded=False):
-        st.markdown("""
+        mi_md("""
 *If associated with engine failure and obstacle clearance, simultaneously proceed:*
 
 | Item | Action |
@@ -1225,7 +564,7 @@ def render_memory():
 """)
     
     with st.expander("**INADVERTANT PUSHER ACTUATION**", expanded=False):
-        st.markdown("""
+        mi_md("""
 | Item | Action |
 |------|--------|
 | PUSHER CUTOUT Button | PUSH IN |
@@ -1766,6 +1105,78 @@ def render_flight_profiles():
 - CALL COMPANY?
 """, unsafe_allow_html=True)
 
+    st.markdown("### Performance (Handbook Ch 9)")
+    with st.expander("**7. Min fuel altitude — short sectors (Ch 9.1)**", expanded=False):
+        st.markdown(
+            "Suggested **max FL** for least fuel on hops **< 200 nm** "
+            "(climb 225/M0.60, ≥5 min cruise, descent M0.75/250 @ 3000 fpm). "
+            "Values = **flight level**."
+        )
+        df_min = pd.DataFrame(
+            [
+                ["17,600", ">MLW", ">MLW", "240", "390"],
+                ["17,200", "170", "220", "320", "400"],
+                ["16,800", "170", "220", "320", "400"],
+                ["16,400", "170", "230", "330", "410"],
+                ["16,000", "180", "230", "330", "420"],
+                ["15,600", "180", "230", "340", "420"],
+                ["15,200", "180", "240", "340", "420"],
+                ["14,800", "190", "240", "350", "430"],
+                ["14,400", "190", "240", "360", "440"],
+                ["14,000", "200", "240", "360", "440"],
+            ],
+            columns=["TOW (lb)", "50 nm", "100 nm", "150 nm", "200 nm"],
+        )
+        st.dataframe(df_min, hide_index=True, use_container_width=True)
+        st.caption("Tankering vs cost — handbook table; use OFP + dispatch guidance for tanker decisions.")
+
+    with st.expander("**8. Max speed cruise — Mach & range (Ch 9.2)**", expanded=False):
+        st.markdown(
+            "**ISA, ice protection OFF** — Mach and **nm per 100 lb** at max-speed cruise. "
+            "Coloured areas in handbook = reduced **g-stall margin**; heavy + ISA+ → FL390 may beat FL410+."
+        )
+        df_cruise = pd.DataFrame(
+            [
+                ["18,387", "FL370", "0.75", "35.8", "FL390", "0.74", "38.6", "FL410", "0.71", "40.9", "FL430", "0.69", "43.1"],
+                ["17,200", "FL370", "0.76", "36.1", "FL390", "0.75", "39.1", "FL410", "0.73", "41.8", "FL430", "0.71", "44.1"],
+                ["16,000", "FL370", "0.76", "36.4", "FL390", "0.75", "39.5", "FL410", "0.75", "42.6", "FL430", "0.73", "45.0"],
+                ["15,200", "FL370", "0.77", "36.5", "FL390", "0.76", "39.7", "FL410", "0.75", "42.9", "FL430", "0.75", "45.8"],
+            ],
+            columns=[
+                "TOW", "FL1", "M1", "R1", "FL2", "M2", "R2", "FL3", "M3", "R3", "FL4", "M4", "R4",
+            ],
+        )
+        st.dataframe(df_cruise, hide_index=True, use_container_width=True)
+        st.caption("R = range (nm) per 100 lb fuel. ISA+10 table in Handbook PDF.")
+
+    with st.expander("**9. OEI climb gradient & climb technique (Ch 9.3–9.4)**", expanded=False):
+        st.markdown("""
+**PAN OPS / SID context**
+- SID designed for **2.5%** gross gradient → **3.3% net** minimum for obstacle guarantee (0.8% engine margin).
+- Plate gradients may be **ATM only** — you can fly the SID OEI if obstacle-safe; **tell ATC**.
+- Tables: **Flap 1**, **V2–V2+10**, ice protection OFF. Below **3.3%** highlighted in handbook.
+
+**Sample OEI gradient % (ISA, selected AMSL ft)**
+""")
+        df_oei = pd.DataFrame(
+            [
+                ["1,000", "12.4", "11.2", "10.0", "8.9", "8.1", "7.3"],
+                ["3,000", "11.9", "10.6", "9.5", "8.5", "7.6", "6.8"],
+                ["5,000", "10.9", "9.6", "8.6", "7.7", "6.9", "6.1"],
+                ["7,000", "9.4", "8.3", "7.5", "6.7", "6.0", "5.4"],
+            ],
+            columns=["AMSL", "14,400", "15,200", "16,000", "16,800", "17,600", "18,386"],
+        )
+        st.dataframe(df_oei, hide_index=True, use_container_width=True)
+        st.markdown("""
+**Climb technique (9.4)**
+- POH schedule: **225 KIAS** to **M0.60** @ 29,600 ft — workable but **M0.60 above FL300** is behind the drag curve (ISA+5, heavy, FL400+).
+- Preferred: **225 KIAS** (or **250 KIAS** above FL200) to **FL300**, then **VS** — **1500 fpm** typical, **500 fpm** above **FL400**.
+- Short max-CLB thrust (up to ~5 min) before cruise power if needed.
+
+_Full OEI tables (all ISA deviations) → **Documents → Handbook** Ch 9.3._
+""")
+
 def render_planning():
     source_footer("om_a", "Operating minima, alternates, approach minima")
     
@@ -1934,6 +1345,21 @@ Weather at ETA ±1 hour must meet these minima:
 - LVTO training required (**125m** approved)
 """)
 
+    with st.expander("**11. Over-weight landings (Handbook Ch 3.2)**", expanded=False):
+        st.markdown("""
+**MLW Phenom 300: 17,042 lbs** — **no buffer**. Any exceedance → **full overweight inspection** (costly; aircraft to maintenance).
+
+**Practical rules (fleet handbook)**
+- Keep a **couple of hundred pounds** margin — do not aim to land just under max.
+- Accurate **ZFW and pax weight** in GTC; use OFP figures.
+- Short flight + large taxi bias unused + ATC shortcut → recalculate landing weight.
+- Past events were **< 100 lbs** over — still required inspection.
+- Dispatch targets **≥ 700 lbs fuel buffer** on tankering — with accurate weights you should not be surprised by FDM.
+
+_See also **Limitations** → Structural & Weight Limits._
+""")
+
+
 def render_cold_weather():
     source_footer("om_b", "2.24 Cold Weather Ops")
     
@@ -1966,12 +1392,16 @@ def render_cold_weather():
 **If aircraft was left in cold conditions:**
 - Replace batteries as soon as possible
 - Request a GPU early (even above -10°C, batteries can be sluggish)
-- If lavatory was drained overnight, refill before departure
+- If lavatory was drained overnight, refill before departure (**Cabin & IFE** → lavatory)
 
 **Contamination check (PIC responsibility):**
 - Visually inspect wings, control surfaces, engines, and fuselage
 - When possible, do a hands-on check (but don't touch with bare hands - skin can stick!)
 - Aircraft must be **clear of ice, frost, and snow** before takeoff
+
+**ECS cold weather (FOL 011/13)** — below **8°C** OAT, ECS may use **AUX HEAT MODE** (high flow) to optimise cockpit temperature.
+
+**Anti-ice below 13,000 ft (FOL 002/14)** — simultaneous **BLEED 1 FAIL + BLEED 2 FAIL** possible when anti-ice commanded — see **Air Management** CAS table.
 
 **Pre-flight walk-around - check these are clear:**
 - Pitot tubes and static ports
@@ -2300,7 +1730,45 @@ def render_cold_weather():
 - Empty fluid and don't refill until prior to next departure
 """)
 
+    with st.expander("**22. Handbook — scheduling & pre-flight time (Ch 6.2.1)**", expanded=False):
+        st.markdown("""
+**+15 minutes show time** (OM-A 7.2.5.4) when icing expected and aircraft **not** hangared overnight.
+- Especially in the dark, 15 min is often the **minimum** for thorough exterior check + de/anti-ice decision.
+- Inform Scheduling and update duty day if you need extra time.
+
+**Practical prep:** refill liquid stock, toilet service if drained overnight, GPU early if batteries were removed.
+""")
+
+    with st.expander("**23. Severe icing — exit procedures (Ch 6.7.4)**", expanded=False):
+        st.markdown("""
+**Visual cues** — request priority handling to exit icing if any:
+- Extensive ice on areas that normally stay clean
+- Ice **aft of protected surfaces** on the wing
+- Unusual roll / trim / autopilot trim warnings in icing
+
+**Actions**
+- Do **not** use autopilot when cues exist — disengage and hold yoke firmly
+- Avoid abrupt manoeuvres; reduce AOA if unusual roll
+- Do **not** extend flaps in prolonged icing; if extended, do not retract until airframe clear
+- Report conditions to ATC
+
+**Engine anti-ice below -40°C** at altitude — risk of compressor stalls; use judgement.
+""")
+
+    with st.expander("**24. Altimeter temperature correction (Ch 6.9.2)**", expanded=False):
+        st.markdown("""
+**Phenom shortcut:** GTC **minimums** page → **TEMP COMP** → set aerodrome OAT → **COMP MIN** on PFD.
+
+**When required (≤ -10°C OAT)**
+- Add correction to **DA/MDA** and step fixes inside FAF
+- All low-altitude procedure altitudes in **mountainous** areas (≥3000 ft AMSL)
+- At **≤ -30°C**, add **1000 ft to MSA**
+
+**Rule of thumb:** ~**4 ft per 1000 ft** height per °C below ISA (table in handbook). Cold → aircraft **lower** than altimeter indicates — **add** to minima.
+""")
+
 def _render_section(section: str):
+    inject_scroll_to_top_chevron(enabled=(section == "systems"))
     if section == "documents":
         render_documents()
     elif section == "systems":
@@ -2317,8 +1785,6 @@ def _render_section(section: str):
         render_flight_profiles()
     elif section == "airports":
         render_special_airports()
-    elif section == "handbook":
-        render_handbook()
     elif section == "cold_weather":
         render_cold_weather()
 

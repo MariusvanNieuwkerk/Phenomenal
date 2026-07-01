@@ -1,6 +1,7 @@
 import streamlit as st
 
 from content.render_helpers import source_footer
+from study.sop_helpers import sop_md
 from study.sop_styles import sop_note
 from ui.theme import render_section_label
 
@@ -8,7 +9,7 @@ from ui.theme import render_section_label
 def render_approaches():
     render_section_label("6 · Approaches — exact callouts")
     with st.expander("**General — all approaches (2.12.2)**", expanded=False):
-        st.markdown("""
+        sop_md("""
 **Descent & config (every approach)**
 | Situation | PF | PM |
 |-----------|----|----|
@@ -30,7 +31,7 @@ def render_approaches():
         source_footer("om_b", "2.12.2 Approach Callouts")
 
     with st.expander("**CAT I — ILS (2.13.1 + profile)**", expanded=False):
-        st.markdown("""
+        sop_md("""
 **Procedure callouts (verbatim)**
 | Situation | PF | PM |
 |-----------|----|----|
@@ -58,7 +59,7 @@ def render_approaches():
         source_footer("om_b", "2.13.1 ILS · Flight Profile CAT I")
 
     with st.expander("**PAR approach (2.13.2)**", expanded=False):
-        st.markdown("""
+        sop_md("""
 Same profile as **NPA CDFA**, but **HDG** instead of FMS.
 
 | Situation | PF | PM |
@@ -78,7 +79,7 @@ Same profile as **NPA CDFA**, but **HDG** instead of FMS.
         source_footer("om_b", "2.13.2 PAR Approach")
 
     with st.expander("**LPV — APV (2.14.1)**", expanded=False):
-        st.markdown("""
+        sop_md("""
 | Situation | PF | PM |
 |-----------|----|----|
 | Cleared approach | **'FMS PINK, GP WHITE'** | Verify; confirm **FMS LPV** on HSI before FAP |
@@ -94,7 +95,7 @@ Same profile as **NPA CDFA**, but **HDG** instead of FMS.
         source_footer("om_b", "2.14.1 LPV · Flight Profile APV")
 
     with st.expander("**LNAV / VNAV — APV (2.14.2)**", expanded=False):
-        st.markdown("""
+        sop_md("""
 | Situation | PF | PM |
 |-----------|----|----|
 | Cleared approach | **'FMS PINK, GP WHITE'** | Verify; confirm **FMS L/VNAV** on HSI before FAP |
@@ -110,7 +111,7 @@ Same profile as **NPA CDFA**, but **HDG** instead of FMS.
         source_footer("om_b", "2.14.2 LNAV/VNAV · Flight Profile APV")
 
     with st.expander("**LNAV — NPA CDFA (2.15.1)**", expanded=False):
-        st.markdown("""
+        sop_md("""
 | Situation | PF | PM |
 |-----------|----|----|
 | Cleared (LNAV+V) | **'FMS PINK, GP WHITE'** | Verify **FMS LNAV+V** or **LNAV** before FAP |
@@ -128,7 +129,7 @@ Same profile as **NPA CDFA**, but **HDG** instead of FMS.
         source_footer("om_b", "2.15.1 LNAV · Flight Profile NPA CDFA")
 
     with st.expander("**FMS Overlay — VOR/NDB CDFA (2.15.2)**", expanded=False):
-        st.markdown("""
+        sop_md("""
 | Situation | PF | PM |
 |-----------|----|----|
 | Cleared approach | **'FMS PINK'** | Verify FMS mode |
@@ -146,7 +147,7 @@ Same profile as **NPA CDFA**, but **HDG** instead of FMS.
         source_footer("om_b", "2.15.2 FMS Overlay · Flight Profile NPA CDFA")
 
     with st.expander("**Non-FMS Overlay — LOC / VOR / NDB / SRA (2.15.3)**", expanded=False):
-        st.markdown("""
+        sop_md("""
 Same CDFA profile and vertical callouts as **FMS Overlay**, but lateral modes differ:
 
 | Situation | PF | PM |
@@ -165,7 +166,7 @@ Same CDFA profile and vertical callouts as **FMS Overlay**, but lateral modes di
         source_footer("om_b", "2.15.3 Non-FMS Overlay · 2.15.3.1 SRA")
 
     with st.expander("**IGS approach (2.15.4)**", expanded=False):
-        st.markdown("""
+        sop_md("""
 Flown **as ILS** (use **CAT I / ILS callouts**), but published altitudes at each DME/LOC step must be **strictly observed**.
 
 Refer to OM-A for IGS-specific rules.
@@ -173,7 +174,7 @@ Refer to OM-A for IGS-specific rules.
         source_footer("om_b", "2.15.4 IGS")
 
     with st.expander("**Visual approach (2.17 + profile)**", expanded=False):
-        st.markdown("""
+        sop_md("""
 **Procedure callouts**
 | Situation | PF | PM |
 |-----------|----|----|
@@ -200,7 +201,7 @@ Refer to OM-A for IGS-specific rules.
         source_footer("om_b", "2.17 Visual · Flight Profile")
 
     with st.expander("**Circling approach (2.18 + profile)**", expanded=False):
-        st.markdown("""
+        sop_md("""
 **Instrument segment callouts (2.18)**
 | Situation | PF | PM |
 |-----------|----|----|
@@ -224,7 +225,7 @@ Refer to OM-A for IGS-specific rules.
         source_footer("om_b", "2.18 Circling · Flight Profile")
 
     with st.expander("**Steep approach (2.25.7 + profile)**", expanded=False):
-        st.markdown("""
+        sop_md("""
 **Profile callouts**
 | Point | Verbatim callout |
 |-------|------------------|
@@ -239,7 +240,7 @@ Refer to OM-A for IGS-specific rules.
         source_footer("om_b", "2.25.7 Steep · Flight Profile")
 
     with st.expander("**OEI approach & landing — abnormal**", expanded=False):
-        st.markdown("""
+        sop_md("""
 **Profile callouts (verbatim)**
 | Point | Verbatim callout |
 |-------|------------------|
@@ -266,7 +267,7 @@ Also valid for **OEI CDFA** and **OEI visual straight-in**.
         source_footer("om_b", "2.16 NPA Non-CDFA")
 
     with st.expander("**Stabilised approach criteria (2.12.9)**", expanded=False):
-        st.markdown("""
+        sop_md("""
 | Approach type | Height (ft AAL) | Stable criteria |
 |---------------|-----------------|-----------------|
 | IFR straight-in | 1000 | Stable except speed |
@@ -285,7 +286,7 @@ Also valid for **OEI CDFA** and **OEI visual straight-in**.
 def render_go_arounds():
     render_section_label("7 · Go-around — exact callouts")
     with st.expander("**Missed approach — all engines (2.19.1 + profile)**", expanded=False):
-        st.markdown("""
+        sop_md("""
 **OM-B procedure callouts (verbatim)**
 | Situation | PF | PM |
 |-----------|----|----|
@@ -314,7 +315,7 @@ def render_go_arounds():
         source_footer("om_b", "2.19.2 Balked Landing")
 
     with st.expander("**OEI go-around (abnormal profile)**", expanded=False):
-        st.markdown("""
+        sop_md("""
 **Exact callouts (OM-B profile — from Flap 3)**
 | Event | Verbatim callout / action |
 |-------|---------------------------|

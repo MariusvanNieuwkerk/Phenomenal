@@ -4,6 +4,8 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 
+from content.render_helpers import back_to_top, cas_quick_reference, source_footer
+
 
 def _img(path: str, caption: str):
     if os.path.exists(path):
@@ -215,22 +217,31 @@ This section summarizes typical system behavior and expected indications.
 _Source: POH 6-09-10 (Rev 12)._"""
         )
 
-    with st.expander("**11. CAS messages (quick meanings)**", expanded=False):
-        rows = [
-            ("FUEL 1 (2) LO LEVEL", "Low-level sensors: 140 kg (310 lb) remains in that tank."),
-            ("FUEL 1 (2) LO PRES", "Low pressure to associated engine while engine is running."),
-            ("FUEL 1 (2) SOV FAIL", "Mismatch between commanded and actual shutoff valve status."),
-            ("FUEL IMBALANCE", "Imbalance ≥ 100 kg (220 lb); clears when reduced to 40 kg (88 lb)."),
-            ("FUEL XFEED FAIL", "Mismatch between commanded and actual crossfeed valve status."),
-            ("FUEL PUMP 1 (2) FAIL", "Mismatch between commanded/actual pump status or pump failure."),
-            ("FUEL 1 (2) FEED FAULT", "Primary feed low pressure → DC pump activates."),
-            ("DOOR REFUEL OPEN", "Refuel panel door open; must be closed before takeoff."),
-            ("FUEL EQUAL", "With XFEED open: lateral fuel difference < 20 kg (44 lb)."),
-        ]
-        st.table(pd.DataFrame(rows, columns=["CAS message", "Meaning (summary)"]))
-        st.markdown("_Source: POH 6-09-15 (Rev 8)._")
+    with st.expander("**11. Power-up CAS — nav database (FOL 001/14)**", expanded=False):
+        st.markdown(
+            """
+**FUEL PUMP FAIL** or fuel CAS at power-up after loading nav database into the **lower** MFD SD slot.
 
-    with st.expander("**12. Synoptic (what you’ll see on the MFD)**", expanded=False):
+**Fix:** Load navigation database **only** via **top MFD slot** (spare card). See **RNAV → Database updates**.
+"""
+        )
+
+    cas_quick_reference(
+        [
+            ("Quantity", "CAUTION", "FUEL 1 (2) LO LEVEL", "Low-level sensors: 140 kg (310 lb) remains in that tank."),
+            ("Pressure", "CAUTION", "FUEL 1 (2) LO PRES", "Low pressure to associated engine while engine is running."),
+            ("Shutoff", "CAUTION", "FUEL 1 (2) SOV FAIL", "Mismatch between commanded and actual shutoff valve status."),
+            ("Balance", "ADVISORY", "FUEL IMBALANCE", "Imbalance ≥ 100 kg (220 lb); clears when reduced to 40 kg (88 lb)."),
+            ("Crossfeed", "CAUTION", "FUEL XFEED FAIL", "Mismatch between commanded and actual crossfeed valve status."),
+            ("Pumps", "CAUTION", "FUEL PUMP 1 (2) FAIL", "Mismatch between commanded/actual pump status or pump failure."),
+            ("Feed", "CAUTION", "FUEL 1 (2) FEED FAULT", "Primary feed low pressure → DC pump activates."),
+            ("Servicing", "ADVISORY", "DOOR REFUEL OPEN", "Refuel panel door open; must be closed before takeoff."),
+            ("Crossfeed", "ADVISORY", "FUEL EQUAL", "With XFEED open: lateral fuel difference < 20 kg (44 lb)."),
+        ],
+        title="12. CAS quick reference",
+    )
+
+    with st.expander("**13. Synoptic (what you’ll see on the MFD)**", expanded=False):
         st.markdown(
             """
 The fuel synoptic provides a quick visual of:
@@ -244,3 +255,5 @@ _Source: POH 6-09-05 (Rev 6/7)._"""
         _img(f"{folder}/fuel_synoptic_mfd.png", "Fuel synoptic page (MFD)")
         _show_folder_images(folder, "poh_6-09_synoptic_", "POH synoptic pages (Fuel)")
 
+    back_to_top()
+    source_footer("poh", "§6-09 Fuel")
