@@ -41,38 +41,32 @@ def _page_icon() -> str:
 
 
 def _inject_app_icons():
-    """Tab favicon + PWA icons via static URLs (enableStaticServing in config.toml)."""
+    """One-shot PWA head tags. No MutationObserver — that caused a browser hang."""
     components.html(
         """
 <script>
 (function () {
-  var icon32 = '/app/static/briefly-icon-32.png';
-  var icon180 = '/app/static/briefly-icon-180.png';
-  function apply() {
-    document.querySelectorAll('link[rel*="icon"]').forEach(function (el) { el.remove(); });
-    ['icon', 'shortcut icon'].forEach(function (rel) {
-      var link = document.createElement('link');
-      link.rel = rel;
-      link.type = 'image/png';
-      link.href = icon32;
-      document.head.appendChild(link);
-    });
-    if (!document.querySelector('link[rel="apple-touch-icon"]')) {
-      var apple = document.createElement('link');
-      apple.rel = 'apple-touch-icon';
-      apple.sizes = '180x180';
-      apple.href = icon180;
-      document.head.appendChild(apple);
-    }
-    if (!document.querySelector('link[rel="manifest"]')) {
-      var manifest = document.createElement('link');
-      manifest.rel = 'manifest';
-      manifest.href = '/app/static/manifest.json';
-      document.head.appendChild(manifest);
-    }
+  if (window.__brieflyIconsApplied) return;
+  window.__brieflyIconsApplied = true;
+  document.querySelectorAll('link[rel*="icon"]').forEach(function (el) { el.remove(); });
+  var link = document.createElement('link');
+  link.rel = 'icon';
+  link.type = 'image/png';
+  link.href = '/app/static/briefly-icon-32.png';
+  document.head.appendChild(link);
+  if (!document.querySelector('link[rel="apple-touch-icon"]')) {
+    var apple = document.createElement('link');
+    apple.rel = 'apple-touch-icon';
+    apple.sizes = '180x180';
+    apple.href = '/app/static/briefly-icon-180.png';
+    document.head.appendChild(apple);
   }
-  apply();
-  new MutationObserver(apply).observe(document.head, { childList: true });
+  if (!document.querySelector('link[rel="manifest"]')) {
+    var manifest = document.createElement('link');
+    manifest.rel = 'manifest';
+    manifest.href = '/app/static/manifest.json';
+    document.head.appendChild(manifest);
+  }
 })();
 </script>
         """,
