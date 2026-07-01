@@ -15,7 +15,7 @@ def render_hydraulics():
     with st.expander("**0. How it works**", expanded=True):
         st.markdown(
             """
-**One hydraulic system** powers gear, brakes, spoilers, and flight-control actuators.
+**One central hydraulic system** at **3000 psi** powers the gear, brakes, spoilers, and flight-control actuators. Normal pressure comes from an **engine-driven pump (EDP)** on each engine; an **accumulator** holds backup pressure. **Fire shutoff valves (FSOV)** isolate each engine's pump circuit.
 
 | Source | Role |
 |--------|------|

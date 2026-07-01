@@ -36,6 +36,8 @@ def render_fire_protection():
     with st.expander("**1. How it works**", expanded=True):
         st.markdown(
             """
+Fire protection has three jobs: **detect**, **isolate**, and **extinguish**. Sensors trigger a CAS alert; the fire handle/shutoff button closes fuel, hydraulic, and bleed paths to the affected zone; a fire bottle discharges agent when needed. Engine fire uses QRH and Memory Items.
+
 | Layer | Function |
 |-------|----------|
 | **Detection** | Sensors + logic → CAS WARNING/CAUTION |

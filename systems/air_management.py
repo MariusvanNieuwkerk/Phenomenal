@@ -23,7 +23,7 @@ def render_air_management():
     with st.expander("**0. How it works**", expanded=True):
         st.markdown(
             """
-The Air Management System delivers **conditioned bleed air** for the cabin and **pressurization**, and supplies **bleed** for **wing/stab anti-ice**.
+The Air Management System takes **engine bleed air**, conditions it through the **ECS**, and delivers it to the cabin for **pressurization** and temperature control. The same bleed feeds **wing/stab anti-ice**. An **outflow valve (OFV)** regulates how much air leaves the cabin — that is what actually sets cabin altitude.
 
 | Question | Answer |
 |----------|--------|

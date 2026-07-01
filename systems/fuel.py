@@ -24,6 +24,8 @@ def render_fuel():
             """
 Two **integral wing tanks** (left and right) store fuel and feed **two independent engine lines**.
 
+In normal cruise an **ejector pump** — a venturi driven by engine fuel pressure, with no electric motor — draws fuel from a small **collector tank** to the engine. The **EFCU** runs the electric boost pump only when needed (start, crossfeed, or low pressure) and handles quantity alerts.
+
 | Element | Role |
 |---------|------|
 | **Collector tank** | Keeps the pickup submerged for a steady feed |

@@ -22,7 +22,7 @@ def render_ice_protection():
     with st.expander("**0. How it works**", expanded=True):
         st.markdown(
             """
-Ice and rain protection keeps **performance**, **handling**, and **visibility** acceptable in icing and precipitation.
+Ice and rain protection keeps **performance**, **handling**, and **visibility** acceptable in icing and precipitation. Hot **bleed air** protects the wing, stabilizer, and engine inlets; **electrical** heating protects the windshields and air-data probes. Rain rolls off a hydrophobic windshield coating.
 
 | Area | Method | Energy source |
 |------|--------|---------------|

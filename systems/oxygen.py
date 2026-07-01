@@ -37,6 +37,8 @@ def render_oxygen():
     with st.expander("**1. How it works**", expanded=True):
         st.markdown(
             """
+Oxygen is supplemental — for smoke, fire, fumes, depressurization, and hypoxia. **Flight crew** use quick-don masks stowed at each seat; **passengers** get drop-down masks deployed automatically when cabin altitude climbs too high. Cylinder pressure shows on the MFD oxygen synoptic.
+
 | User | Supply | When it matters |
 |------|--------|-----------------|
 | **Flight crew** | Quick-don masks in stowage | Smoke/fire/fumes, depressurization, hypoxia |

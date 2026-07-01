@@ -12,7 +12,7 @@ def render_warning_system():
     with st.expander("**1. How it works**", expanded=True):
         st.markdown(
             """
-The **Crew Alerting System (CAS)** is your central warning display on the PFD.
+The **Crew Alerting System (CAS)** on the PFD is your central warning display. It sorts alerts by urgency — **WARNING** (act now), **CAUTION** (prompt), **ADVISORY** (monitor) — and pairs each with colour cues. The same system runs the takeoff configuration check and shows SWPS / stick-pusher alerts.
 
 | Level | Colour cue | Pilot response |
 |-------|------------|----------------|

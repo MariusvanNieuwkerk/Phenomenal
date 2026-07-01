@@ -12,6 +12,8 @@ def render_flight_controls():
     with st.expander("**1. How it all fits together**", expanded=True):
         st.markdown(
             """
+You fly the Phenom 300 with **two layers** of controls. **Primary** surfaces (ailerons, elevators, rudder) are mechanical — control cables from the cockpit. **Secondary** surfaces (flaps, spoilers, trim) are electric/hydraulic and managed by two **Flight Control Electronics (FCE)** units.
+
 ### Two layers to remember
 
 

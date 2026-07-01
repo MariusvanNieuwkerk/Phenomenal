@@ -16,7 +16,7 @@ def render_landing_gear():
     with st.expander("**0. How it works**", expanded=True):
         st.markdown(
             """
-**Tricycle retractable gear** — electrical command, **hydraulic** actuation.
+The gear is **electrically commanded** and **hydraulically actuated** — a tricycle layout with the nose leg retracting forward and the main legs inboard. The **LDG GEAR lever** drives a single hydraulic selector; a ground lock prevents retraction on the ground. Brakes are hydraulic with an accumulator for emergency/parking and **anti-skid** for stopping efficiency.
 
 | Leg | Retraction |
 |-----|------------|

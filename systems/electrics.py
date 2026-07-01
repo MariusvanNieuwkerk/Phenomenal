@@ -22,7 +22,7 @@ def render_electrics():
     with st.expander("**0. How it works**", expanded=True):
         st.markdown(
             """
-**28 VDC** powers the aircraft through **two independent DC channels** (left and right). In normal flight each **starter generator** feeds its own network; **bus ties** can connect the sides automatically when a source is lost.
+**28 VDC** powers the aircraft through **two independent DC channels** (left and right). In normal flight each **starter generator** feeds its own network; **bus ties** can connect the sides automatically when a source is lost. Batteries back up each channel and support engine starts.
 
 | Source | Role |
 |--------|------|

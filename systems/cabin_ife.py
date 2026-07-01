@@ -12,6 +12,8 @@ def render_cabin_ife():
     with st.expander("**0. How it works**", expanded=True):
         st.markdown(
             """
+Cabin & IFE covers everything behind the cockpit door: internet, entertainment, lavatory, galley, and passenger power. Internet comes via **SwiftBroadBand (SBB)** to a cabin router; entertainment streams from a roller-cabinet server. Most of it is crew-controlled through a few switches and follows Handbook/OM-A policy.
+
 | System | What it does | Crew touchpoint |
 |--------|--------------|-----------------|
 | **SBB Wi-Fi** | Internet via Cobham Aviator 200 → UCS-5000 → cabin Wi-Fi | **IFE** switch |
