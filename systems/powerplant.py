@@ -437,15 +437,17 @@ When ATR activates:
 
 ### FADEC overspeed / overtemperature protection
 
-FADEC reduces fuel automatically when limits are approached:
+FADEC reduces fuel automatically as these limits are approached. Temperatures below are the AFM limits (full table: **Limitations → Engine Limits**).
 
-| Parameter | Fuel reduction begins |
-|-----------|----------------------|
-| **N1** | Above 100% |
-| **N2** | Above 101% |
-| **ITT (start)** | Above 700°C |
-| **ITT (running)** | Above 765°C |
-| **ITT (ground start abort)** | FADEC aborts start at 720°C |
+| Parameter | Limit |
+|-----------|-------|
+| **N1** | 100% |
+| **N2** | 101% |
+| **ITT — start / transient** | **765°C** |
+| **ITT — takeoff** | **700°C** (5 min) |
+| **ITT — maximum** | **725°C** (10 min) |
+| **ITT — MCT / climb** | **680°C** |
+| **Ground start abort** | FADEC aborts the start at **720°C** ITT |
 
 An in-flight exceedance is logged as **ENG EXCEEDANCE**.
 

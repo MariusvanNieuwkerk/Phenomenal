@@ -50,7 +50,7 @@ Hot **bleed air** is regulated to the wing and horizontal stabilizer leading edg
 
 With **WINGSTAB ON**, stall warning logic changes — activation speeds **increase**. You will see **SWPS ICE SPEED** or **ICE SPEED** related cues.
 
-Use **ICE SPEED RESET** only when you are sure **no ice remains** on the aircraft.
+Use **ICE SPEED RESET** only above **1,500 ft AAL**, and only when you are sure **no ice remains** on the aircraft.
 
 ### Messages
 

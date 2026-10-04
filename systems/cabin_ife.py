@@ -2,7 +2,7 @@
 
 import streamlit as st
 
-from content.render_helpers import back_to_top, cas_quick_reference, source_footer, systems_page_top
+from content.render_helpers import back_to_top, cas_quick_reference, source_footer
 
 
 def render_cabin_ife():
@@ -158,14 +158,28 @@ _Full maintenance memo: NTA 12/2017 Rev 1 (Handbook ref.)._
 """
         )
 
-    with st.expander("**7. PED sockets & PED-BELTS**", expanded=False):
+    with st.expander("**7. PED & power banks**", expanded=False):
         st.markdown(
             """
-**OM-A** governs normal PED use. **PED-BELTS** switch per cabin briefing.
+**Before engine start** — any PED is allowed.
 
-**Embraer ETD-2015-P300-00217735:** AC outlets at **≤ 10,000 ft** with PED in **AIRCRAFT MODE**, **Wi-Fi only** enabled — no known interference on tested devices.
+**After engine start, and below 10,000 ft** (EMB-505, OM-A 8 Jun 2026):
 
-**In flight** — PED may use aircraft internet / Bluetooth speaker per OM-A (flight-safe mode).
+- Devices that do not transmit: unrestricted
+- Transmitting devices: **Wi-Fi and Bluetooth only**
+- Large devices: stowed until taxi-in after landing
+- Aircraft outlets: not during taxi, takeoff, below 10,000 ft, or the landing roll
+
+**Above 10,000 ft** — Wi-Fi and Bluetooth are allowed. On an **LVO approach**, all PEDs off.
+
+**Power banks**
+
+- Carry-on only. **Two per person.** Never in checked baggage.
+- Do not recharge a power bank on board.
+- Charging a device from a power bank only if someone is watching, the pack is fully visible, and not during taxi, takeoff, below 10,000 ft, landing, or an emergency.
+- Say this in the passenger brief before taxi.
+
+**PED-BELTS** still follows the cabin briefing. Aircraft outlets at or below 10,000 ft: Embraer ETD asks for **aircraft mode** and **Wi-Fi only**.
 """
         )
 
@@ -191,22 +205,10 @@ See **SOP → Preflight** for crew flow.
             ("Lavatory", "—", "No flush (button OK)", "Low water — add ~1 L or service"),
             ("Lavatory", "—", "Vibration after TO", "Check external service caps locked"),
             ("Galley", "—", "Coffee no power", "Door open; test socket; maintenance if CB"),
-            ("PED", "—", "Outlets", "≤10,000 ft; aircraft mode; Wi-Fi only per ETD"),
+            ("PED", "—", "Outlets / power banks", "No charging on taxi, takeoff, below 10,000 ft, or landing. Power banks: cabin only, max 2, do not recharge the pack."),
         ],
-        title="9. CAS quick reference",
+        title="9. Quick reference",
     )
 
-    with st.expander("**10. Study checklist**", expanded=False):
-        st.markdown(
-            """
-- [ ] IFE switch role and when to recycle.
-- [ ] Ground vs air Wi-Fi testing trap.
-- [ ] Lavatory service: **empty first**, then **4 L** water.
-- [ ] Nespresso: **aircraft socket only**, **Volvic** water.
-- [ ] PED outlet rule (10,000 ft, aircraft mode).
-- [ ] Where full steps/photos live → **Documents → Handbook**.
-"""
-        )
-
     back_to_top()
-    source_footer("handbook", "Ch 2.3 Cabin · Ch 3.1 PED · Ch 4.4 Lavatory")
+    source_footer("om_a", "8.3.15.10 PED · 9.2 Power banks · Handbook Ch 2.3 / 4.4")

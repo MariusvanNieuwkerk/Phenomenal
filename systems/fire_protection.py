@@ -51,17 +51,11 @@ Engine fire: **QRH** and **Memory Items**.
     with st.expander("**2. Engine fire — crew interface**", expanded=False):
         st.markdown(
             """
-### Typical sequence (concept — use QRH for exact steps):
+### What FIRE SHUTOFF does
 
+Pushing **FIRE SHUTOFF** isolates that engine: **fuel**, **hydraulics** (FSOV), and **bleed**. The bottle discharges agent into the nacelle if the fire continues.
 
-1. **THRUST lever** — IDLE (affected engine)
-2. **START/STOP** — STOP
-3. **FIRE SHUTOFF** — PUSH IN (isolates fuel/hyd/bleed paths per design)
-4. If fire persists (~30 s): **BOTTLE** — DISCH
-
-**Memory Items:** *E1(2) FIRE*, *ENGINE FIRE SEVERE DAMAGE OR SEPARATION* — see **Memory Items**.
-
-**Hydraulics link:** FIRE SHUTOFF also closes **FSOVs** (see **Hydraulics**).
+Exact steps: **Memory Items** (*E1(2) FIRE*, *ENGINE FIRE SEVERE DAMAGE OR SEPARATION*).
 """
         )
 
@@ -79,6 +73,7 @@ Detection faults: **BAG SMK FAIL** (two detectors failed) or **BAG SMK FAULT** (
 
     cas_quick_reference(
         [
+            ("Engine", "WARNING", "E1 (2) FIRE", "Engine fire detected."),
             ("Baggage", "WARNING", "BAG SMK", "Smoke in baggage compartment — immediate action."),
             ("Engine", "CAUTION", "E1 (2) FIRE DET FAIL", "Engine fire detection inoperative for that engine."),
             ("Engine", "CAUTION", "E1 (2) FIREX FAIL", "Engine fire extinguisher system failed."),

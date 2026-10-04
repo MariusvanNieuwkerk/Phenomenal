@@ -50,7 +50,7 @@ Primary controls are **mechanical** — secondary systems (flaps, spoilers, trim
     with st.expander("**3. Flaps**", expanded=False):
         st.markdown(
             """
-**What they are** — four-position Fowler flaps (0 · 1 · 2 · 3/FULL), four panels per side.
+**What they are** — Fowler flaps, positions **0, 1, 2, 3, and FULL**, four panels per side.
 
 **How they move** — DC electric motor → jackscrews → flap actuators (via flexible shafts). **FCE 1** commands the single Power Drive Unit (PDU).
 

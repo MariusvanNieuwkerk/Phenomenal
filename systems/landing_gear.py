@@ -100,14 +100,14 @@ When you move the lever to DN:
 
 - The nose gear often takes **longer** to show a green light than the mains
 - All three legs don't necessarily lock at the exact same time
-- A short delay in position indications is **normal** - don't panic
+- A short delay before all three green lights is **normal**
 """)
     
     with st.expander("**3. Emergency Extension (Free-Fall)**", expanded=False):
         st.markdown("""
 **What it's for:** Extends the gear when normal hydraulic extension fails
 
-### Emergency handle location:** On the cockpit **floor
+The emergency handle is on the cockpit floor.
 
 
 ### How it works:
@@ -273,9 +273,7 @@ The brake system has **four automatic protection functions:**
 
 - If a wheel starts to skid, the system **reduces brake pressure** automatically
 - This lets the tire regain grip, then reapplies pressure
-- Active when both wheels are above **30 kt**
-
-**Below 10 kt:** Antiskid turns off - you can lock a wheel for pivoting
+Antiskid becomes active once both wheels are above **30 kt**, and it stays on through the landing roll until speed falls below **10 kt**. Below 10 kt you can lock a wheel for pivoting.
 
 **Important:** Antiskid is **NOT available** on the emergency/parking brake!
 
@@ -333,7 +331,7 @@ The brake system has **four automatic protection functions:**
 - Runs the brake pressure loop through its full range
 - Checks the SOV, brake control valves, and pressure transducers
 
-### Duration:** About **5 seconds
+The test lasts about **5 seconds**.
 
 """)
     
@@ -426,7 +424,7 @@ The brake system has **four automatic protection functions:**
         
         turn_20_data = [
             ["Nose R1", "19.68 m", "64 ft 6.8 in"],
-            ["Nose Gear R2", "19.18 m", "52 ft 11 in"],
+            ["Nose Gear R2", "19.18 m", "62 ft 11 in"],
             ["Inboard Gear R3", "16.5 m", "54 ft 1.6 in"],
             ["Outboard Gear R4", "19.54 m", "64 ft 1.3 in"],
             ["Right Wing Tip R5", "26.1 m", "85 ft 7.5 in"],
@@ -483,7 +481,7 @@ The brake system has **four automatic protection functions:**
         st.markdown("**Wall-to-Wall:** 16.68 m (54 ft 8.7 in)")
         st.markdown("**Curb-to-Curb:** 7.98 m (26 ft 2.2 in)")
     
-    with st.expander("**12. Handbook — brakes & BRK FAIL (Ch 5.1)**", expanded=False):
+    with st.expander("**13. Handbook — brakes & BRK FAIL (Ch 5.1)**", expanded=False):
         st.markdown(
             """
 **Emergency / parking brake** — T-handle on pedestal; accumulator isolated from main hydraulics.
@@ -505,16 +503,16 @@ _See **Flight Controls** for ground spoiler interaction with stopping distance._
     cas_quick_reference(
         [
             ("Gear", "WARNING", "LG LEVER DISAG", "Gear position doesn't match lever — verify synoptic."),
-            ("Brakes", "WARNING", "ANTI-SKID FAIL", "Antiskid not working — longer stopping distances."),
-            ("Brakes", "WARNING", "BRK FAIL", "Lost braking on one main wheel — emergency brakes if needed."),
+            ("Brakes", "CAUTION", "ANTI-SKID FAIL", "Antiskid not working — longer stopping distances."),
+            ("Brakes", "CAUTION", "BRK FAIL", "Lost braking on one main wheel — emergency brakes if needed."),
             ("Brakes", "CAUTION", "EMER BRK LO PRES", "Emergency/parking brake accumulator pressure low."),
             ("WOW", "CAUTION", "LG WOW SYS FAIL", "Weight-on-wheels sensors disagree — affects many systems."),
             ("Brakes", "CAUTION", "PARK BRK NOT REL", "Parking brake still set — release before takeoff."),
         ],
-        title="13. CAS quick reference",
+        title="14. CAS quick reference",
     )
 
-    with st.expander("**14. System Diagrams**", expanded=False):
+    with st.expander("**15. System Diagrams**", expanded=False):
         st.markdown("**Landing Gear Components**")
         col1, col2 = st.columns(2)
         with col1:

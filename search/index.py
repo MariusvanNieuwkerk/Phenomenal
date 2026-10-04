@@ -41,7 +41,7 @@ SYSTEM_KEYWORDS = {
     ),
     "cabin & ife": (
         "Cabin & IFE",
-        ["wifi", "wi-fi", "go-go", "gogo", "ife", "lavatory", "toilet", "nespresso", "coffee", "ped", "galley", "ucs"],
+        ["wifi", "wi-fi", "go-go", "gogo", "ife", "lavatory", "toilet", "nespresso", "coffee", "ped", "power bank", "powerbank", "galley", "ucs"],
     ),
 }
 
@@ -126,6 +126,8 @@ def build_search_index():
     entries.append(_entry("OM-B", "documents", "Operations Manual Part B EMB-505", keywords="om-b om b sop manual"))
     entries.append(_entry("OM-C", "documents", "Operations Manual Part C", keywords="om-c om c airport manual"))
     entries.append(_entry("Handbook PDF", "documents", "Phenom 300 Handbook (full fleet manual)", keywords="handbook training wifi toilet nespresso fms database"))
+    entries.append(_entry("LVTO", "planning", "Procedures when takeoff RVR is below 550 m", keywords="lvto lvo low visibility 550 rvr"))
+    entries.append(_entry("Power banks", "systems", "Cabin only, max two, do not recharge on board", keywords="power bank powerbank", system="Cabin & IFE"))
 
     return entries
 

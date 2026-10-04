@@ -355,7 +355,18 @@ Then typically:
             "CAS — A/R",
         ])
         sop_note("warn", "Avoid >20% N1 differential when lining up — can trigger TO RSV at TO/GA. Never taxi/brake on **POOR** surfaces.")
-        source_footer("om_b", "2.5–2.6 Taxi · Line-Up")
+        sop_md("""
+**OM-A taxi (8 Jun 2026)**
+
+- Both pilots hear the clearance. Stop and ask ATC if either is unsure of position or clearance.
+- Do not enter a runway on a **conditional** clearance until **each** pilot has seen the traffic.
+- Stop at a **lit stop bar**. Cross it only if ATC says it is inoperative, repeats the crossing, and a follow-me leads you.
+- **Red runway status lights** override the clearance: stop. If they come on below V1, reject.
+- Taxi lights on while moving. Strobe on before entering a runway. Landing lights when cleared for takeoff.
+- Max **30 kt** groundspeed. Slippery surface or low visibility: **10 kt**.
+- If the clearance changes and workload jumps: **stop, set, verify**.
+""")
+        source_footer("om_b", "2.5–2.6 Taxi · Line-Up · OM-A 8.3.24")
 
 
 def render_takeoff_climb_cruise():

@@ -5,6 +5,9 @@ SOURCES = {
     "om_b": "OM-B — Operations Manual Part B (EMB-505)",
     "om_c": "OM-C — Operations Manual Part C",
     "handbook": "Handbook Phenom 300",
-    "poh": "Phenom 300 POH",
+    "poh": "Phenom 300 AFM / POH",
     "qrh": "Phenom 300 QRH",
+    "mel": "MEL EMB-505",
+    "fol": "Flight Operations Letters Phenom",
+    "mcf": "Maintenance Check Flight Manual",
 }

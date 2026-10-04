@@ -15,12 +15,12 @@ def render_hydraulics():
     with st.expander("**0. How it works**", expanded=True):
         st.markdown(
             """
-**One central hydraulic system** at **3000 psi** powers the gear, brakes, spoilers, and flight-control actuators. Normal pressure comes from an **engine-driven pump (EDP)** on each engine; an **accumulator** holds backup pressure. **Fire shutoff valves (FSOV)** isolate each engine's pump circuit.
+**One central hydraulic system** at **3000 psi** powers the gear, brakes, spoilers, and flight-control actuators. Normal pressure comes from an **engine-driven pump (EDP)** on each engine. The main **accumulator** covers short demand spikes. **Fire shutoff valves (FSOV)** isolate each engine's pump circuit.
 
 | Source | Role |
 |--------|------|
 | **EDP ×2** | Normal pressure from each engine |
-| **Accumulator** | Backup / emergency pressure |
+| **Accumulator** | Covers short demand spikes |
 | **FSOV ×2** | Fire shutoff isolates each engine pump circuit |
 
 **3000 psi** red fluid — **FIRE SHUTOFF** closes FSOVs (see **Fire Protection**).
@@ -145,9 +145,7 @@ def render_hydraulics():
 - One side: hydraulic fluid | Other side: compressed gas (nitrogen)
 - Piston keeps them separated and at **equal pressure**
 
-### Emergency backup:
-
-- If both pumps fail, the accumulator holds enough pressure for **6 full brake applications**
+The **6 full brake applications** are on the **emergency/parking brake accumulator**, which is isolated from this system. See **Landing Gear**.
 """)
     
     with st.expander("**6. Priority Valve**", expanded=False):
@@ -165,14 +163,15 @@ def render_hydraulics():
 
 - The valve **restricts flow to the landing gear**
 - Gear still works - it just uses **accumulator pressure** instead
-- Gear may cycle slower, but flight controls and brakes stay fully powered
+- Gear may cycle slower. Spoilers, the stick pusher, rudder boost, and brakes keep supply while the gear waits
 
 ### Example scenario:
 
 - Engines at idle = low pump output
 - You're moving gear AND using spoilers
 - Priority valve says: "Spoilers and brakes first, gear can wait"
-- **Bottom line:** You never lose control authority or braking
+- Priority valve slows the gear so spoilers, the stick pusher, rudder boost, and brakes keep pressure
+- A pump failure or **BRK FAIL** is separate — use the emergency/parking brake
 """)
     
     with st.expander("**7. Controls & Indications**", expanded=False):

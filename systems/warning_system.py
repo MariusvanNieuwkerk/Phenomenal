@@ -67,7 +67,7 @@ Before takeoff, the system verifies the aircraft is configured correctly (logic 
 | **PUSHER CUTOUT** | Inhibits pusher (memory item: inadvertent activation) |
 | **STALL WARN CUTOUT** | Inhibits shaker — limited use per QRH |
 
-**Icing:** WINGSTAB ON → **SWPS ICE SPEED** / higher stall speeds → **ICE SPEED RESET** only when ice is gone (see **Ice Protection**).
+**Icing:** WINGSTAB ON → **SWPS ICE SPEED** / higher stall speeds → **ICE SPEED RESET** only above **1,500 ft AAL**, and only when ice is gone (see **Ice Protection**).
 
 **Takeoff:** SWPS must be tested/serviceable — **SWPS UNTESTED** is a dispatch issue.
 """

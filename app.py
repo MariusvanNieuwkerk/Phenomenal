@@ -48,6 +48,11 @@ OPERATIONS_MANUALS = [
     ("OM-B - Operations Manual Part B - EMB-505.pdf", "Operations Manual Part B — EMB-505 aircraft-specific procedures."),
     ("OM-C - Operations Manual Part C.pdf", "Operations Manual Part C — route and aerodrome reference."),
     ("Handbook Phenom 300.pdf", "Phenom 300 fleet handbook — full reference (detail lives in Briefly per topic)."),
+    ("AFM Phenom CSPHA.pdf", "Airplane Flight Manual — Phenom 300 (CSPHA)."),
+    ("QRH Phenom 300.pdf", "Quick Reference Handbook — Phenom 300."),
+    ("MEL EMB-505.pdf", "Minimum Equipment List — EMB-505."),
+    ("Flight Operations Letters Phenom.pdf", "Flight Operations Letters — Phenom."),
+    ("MCF - Maintenance Check Flight Manual.pdf", "Maintenance Check Flight manual."),
 ]
 
 if 'section' not in st.session_state:
@@ -1168,10 +1173,14 @@ Weather at ETA ±1 hour must meet these minima:
     
     with st.expander("**10. LVTO Quick Reference**", expanded=False):
         st.markdown("""
-- Initial RVR may use **pilot assessment**
-- RVR required for entire **ASD** distance
-- Night: Edge + end lights OR centreline lights
-- LVTO training required (**125m** approved)
+LVTO procedures apply when takeoff RVR is **below 550 m** (OM-A 8 Jun 2026; previously 400 m). NetJets is approved down to **125 m**.
+
+- PF is the commander in the left seat, except on a training flight
+- Taxi in low visibility: PF looks outside, PM follows the chart, max **10 kt**
+- Never cross a lighted stop bar. Stop and call ATC if position is uncertain
+- RVR is required for the whole **ASD**
+- Night: edge and end lights, or centreline lights
+- Static takeoff unless delay and runway length allow a rolling one
 """)
 
     with st.expander("**11. Over-weight landings (Handbook Ch 3.2)**", expanded=False):

@@ -76,8 +76,8 @@ For systems knowledge, use the dedicated **Systems** pages.
             """
 | Item | Approximate value |
 |------|-------------------|
-| **Wingspan** | ~16.2 m (52 ft 2 in) |
-| **Length** | ~15.9 m (52 ft 2 in) |
+| **Wingspan** | 15.9 m (52 ft 2 in) |
+| **Length** | 15.6 m (51 ft 4 in) |
 | **Height (tail)** | ~5.1 m (16 ft 9 in) |
 | **Wheelbase** | Main gear spacing per POH diagram |
 
@@ -269,16 +269,6 @@ Test with **batteries OFF** — confirms emergency lights run on their own suppl
         st.markdown("---")
         st.markdown(
             """
-### Study checklist
-
-- [ ] I know the walkround **direction** (left of door → nose → clockwise → door)
-- [ ] NLG & MLG **safety pins removed**
-- [ ] **Steering torque link** connected when not towing
-- [ ] **Brake wear pins** — when flush, maintenance required
-- [ ] **Static dischargers** — MEL minimums
-- [ ] **Hydraulic** reservoir in green range
-- [ ] Doors/panels **open or locked**, never in-between
-
 _Full handbook PDF with original layout → **Documents → Handbook Phenom 300** Ch 2.1._
 """
         )
