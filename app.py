@@ -42,19 +42,6 @@ st.set_page_config(
 inject_pwa_head_tags()
 inject_theme_css()
 
-DOCS_DIR = os.path.join(_app_dir, "documents", "operations_manuals")
-OPERATIONS_MANUALS = [
-    ("OM-A - Operations Manual Part A.pdf", "Operations Manual Part A — general company operations."),
-    ("OM-B - Operations Manual Part B - EMB-505.pdf", "Operations Manual Part B — EMB-505 aircraft-specific procedures."),
-    ("OM-C - Operations Manual Part C.pdf", "Operations Manual Part C — route and aerodrome reference."),
-    ("Handbook Phenom 300.pdf", "Phenom 300 fleet handbook — full reference (detail lives in Briefly per topic)."),
-    ("AFM Phenom CSPHA.pdf", "Airplane Flight Manual — Phenom 300 (CSPHA)."),
-    ("QRH Phenom 300.pdf", "Quick Reference Handbook — Phenom 300."),
-    ("MEL EMB-505.pdf", "Minimum Equipment List — EMB-505."),
-    ("Flight Operations Letters Phenom.pdf", "Flight Operations Letters — Phenom."),
-    ("MCF - Maintenance Check Flight Manual.pdf", "Maintenance Check Flight manual."),
-]
-
 if 'section' not in st.session_state:
     st.session_state.section = 'limitations'
 if 'system' not in st.session_state:
@@ -72,28 +59,6 @@ def navigate(section, system=None, airport=None, focus=None):
         st.session_state.airport_selected = None
     if focus is not None:
         st.session_state.search_focus = focus
-
-
-def render_documents():
-    for filename, description in OPERATIONS_MANUALS:
-        path = os.path.join(DOCS_DIR, filename)
-        with st.container(border=True):
-            st.markdown(f"**{filename}**")
-            st.caption(description)
-            if os.path.isfile(path):
-                size_mb = os.path.getsize(path) / (1024 * 1024)
-                st.caption(f"Available locally ({size_mb:.1f} MB)")
-                with open(path, "rb") as doc_file:
-                    st.download_button(
-                        "Download PDF",
-                        data=doc_file,
-                        file_name=filename,
-                        mime="application/pdf",
-                        key=f"dl_{filename}",
-                        use_container_width=True,
-                    )
-            else:
-                st.warning("File not found in the project folder.")
 
 
 def render_systems():
@@ -1008,7 +973,7 @@ def render_flight_profiles():
 - Preferred: **225 KIAS** (or **250 KIAS** above FL200) to **FL300**, then **VS** — **1500 fpm** typical, **500 fpm** above **FL400**.
 - Short max-CLB thrust (up to ~5 min) before cruise power if needed.
 
-_Full OEI tables (all ISA deviations) → **Documents → Handbook** Ch 9.3._
+_Full OEI tables for every ISA deviation are in Handbook Ch 9.3._
 """)
 
 def render_planning():
@@ -1607,9 +1572,7 @@ def render_cold_weather():
 
 def _render_section(section: str):
     inject_scroll_to_top_chevron(enabled=(section == "systems"))
-    if section == "documents":
-        render_documents()
-    elif section == "systems":
+    if section == "systems":
         render_systems()
     elif section == "limitations":
         render_limitations()
@@ -1625,6 +1588,9 @@ def _render_section(section: str):
         render_special_airports()
     elif section == "cold_weather":
         render_cold_weather()
+    else:
+        st.session_state.section = "limitations"
+        render_limitations()
 
 
 render_app_shell(navigate, _render_section)

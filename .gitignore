@@ -4,3 +4,4 @@ __pycache__/
 .pycache_local/
 .python_packages/
 .DS_Store
+documents/operations_manuals/*.pdf

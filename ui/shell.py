@@ -14,7 +14,6 @@ NAV_ITEMS = [
     ("Profiles", "profiles"),
     ("Cold Weather", "cold_weather"),
     ("Special Airports", "airports"),
-    ("Documents", "documents"),
 ]
 
 

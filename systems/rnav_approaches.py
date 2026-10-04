@@ -382,7 +382,7 @@ def render_rnav_approaches():
 
 **Too early activation** — Handbook Ch 8.4: troubleshooting if nav DB activated before old expires.
 
-_Full screenshots and step-by-step: **Documents → Handbook Phenom 300**, Chapter 8._
+_Screenshots and the step-by-step are in Handbook Chapter 8._
 """
         )
         _card(
@@ -411,7 +411,7 @@ _Full screenshots and step-by-step: **Documents → Handbook Phenom 300**, Chapt
             "<li><strong>Avionics</strong> — UTC; dual-cue FD; GPS CDI AUTO; 8.33 kHz; nearest rwy hard ≥3000 ft.</li>"
             "<li><strong>Trip stats</strong> — flight time &amp; departure time <em>In-Air</em>; resets manual.</li>"
             "</ul>"
-            "<p>Full map ranges and alert settings → <strong>Documents → Handbook</strong> Ch 7.1.</p>",
+            "<p>Full map ranges and alert settings are in Handbook Ch 7.1.</p>",
         )
         with st.expander("**Restore default profile after maintenance (Ch 7.1.1)**", expanded=False):
             _md(

@@ -266,13 +266,6 @@ Test with **batteries OFF** — confirms emergency lights run on their own suppl
 """
             )
 
-        st.markdown("---")
-        st.markdown(
-            """
-_Full handbook PDF with original layout → **Documents → Handbook Phenom 300** Ch 2.1._
-"""
-        )
-
     with st.expander("**4. Cockpit orientation**", expanded=False):
         st.markdown(
             """

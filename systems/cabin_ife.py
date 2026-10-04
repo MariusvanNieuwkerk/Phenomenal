@@ -22,7 +22,7 @@ Cabin & IFE covers everything behind the cockpit door: internet, entertainment, 
 | **Nespresso** | Galley coffee | Aircraft socket only; Volvic water |
 | **PED / outlets** | Passenger AC outlets | **PED-BELTS** switch per OM-A |
 
-**Authority:** Handbook + OM-A for PED policy. Full PDF → **Documents → Handbook Phenom 300**.
+**Authority:** Handbook + OM-A for PED policy.
 """
         )
 

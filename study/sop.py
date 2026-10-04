@@ -37,5 +37,4 @@ def render_sop():
 - **Cold Weather** — de-icing, HOT, contaminated surfaces
 - **Special Airports** — Cat C briefings (OM-C)
 - **Memory Items** — emergency memory items (QRH)
-- **Documents** — full OM-B PDF
 """)

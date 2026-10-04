@@ -50,7 +50,7 @@ def source_footer(key: str, section: str | None = None):
 def source_banner(key: str, section: str | None = None):
     label = SOURCES.get(key, key)
     ref = f"{label}" + (f" · {section}" if section else "")
-    st.info(f"Reference material from **{ref}**. For full detail, use **Documents** to open the PDF.")
+    st.info(f"Source: **{ref}**.")
 
 
 def render_search_focus_banner():

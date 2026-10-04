@@ -56,7 +56,6 @@ STUDY_MODULES = [
     ("Special Airports", "airports", "OM-C Category C aerodromes"),
     ("Limitations", "limitations", "Weights, speeds, engine and system limits"),
     ("Memory Items", "memory", "QRH memory items"),
-    ("Documents", "documents", "OM-A, OM-B, OM-C, Handbook PDFs"),
 ]
 
 
@@ -122,10 +121,6 @@ def build_search_index():
             )
         )
 
-    entries.append(_entry("OM-A", "documents", "Operations Manual Part A", keywords="om-a om a manual"))
-    entries.append(_entry("OM-B", "documents", "Operations Manual Part B EMB-505", keywords="om-b om b sop manual"))
-    entries.append(_entry("OM-C", "documents", "Operations Manual Part C", keywords="om-c om c airport manual"))
-    entries.append(_entry("Handbook PDF", "documents", "Phenom 300 Handbook (full fleet manual)", keywords="handbook training wifi toilet nespresso fms database"))
     entries.append(_entry("LVTO", "planning", "Procedures when takeoff RVR is below 550 m", keywords="lvto lvo low visibility 550 rvr"))
     entries.append(_entry("Power banks", "systems", "Cabin only, max two, do not recharge on board", keywords="power bank powerbank", system="Cabin & IFE"))
 

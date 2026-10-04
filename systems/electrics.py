@@ -144,8 +144,6 @@ The system **re-routes power automatically**. Your job is to read the **synoptic
 - **MFD electrical synoptic** — buses, tie status, voltages, generator load
 - **PFDs** — CAS messages
 - **Electrical panel** — GEN, GPU, BATT, BUS TIE, ELEC EMER
-
-Full POH configuration diagrams → **Documents** (POH §6-04).
 """
         )
 
